@@ -1,0 +1,60 @@
+.seat-histogram {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.seat-histogram h3 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.party-selector {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.party-selector button {
+    padding: 0.3rem 0.7rem;
+    border: 2px solid;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.histogram-svg {
+    width: 100%;
+    max-height: 200px;
+}
+
+.stats-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-label {
+    font-size: 0.7rem;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,116 @@
+.canada-map {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.canada-map h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.map-legend {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1rem;
+}
+
+.toggle-btn {
+    padding: 0.35rem 0.9rem;
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    color: #666;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.toggle-btn:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.toggle-btn:last-child {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+}
+
+.toggle-btn.active {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.cartogram {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.region-block {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+.region-label {
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 0.35rem;
+    font-weight: 500;
+}
+
+.riding-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.riding-cell {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.riding-cell:hover {
+    transform: scale(1.8);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 1;
+    position: relative;
+}
+
+.section-divider {
+    border-top: 1px solid #eee;
+    margin: 1.5rem 0;
+}
+
+.placeholder {
+    color: #999;
+    font-size: 0.9rem;
+    padding: 2rem;
+    text-align: center;
+}

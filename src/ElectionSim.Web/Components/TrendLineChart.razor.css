@@ -1,0 +1,84 @@
+.trend-line-chart {
+    position: relative;
+}
+
+.chart-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hover-col {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    top: 2rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 10;
+    pointer-events: none;
+    width: max-content;
+}
+
+.tooltip-date {
+    font-size: 0.72rem;
+    color: #888;
+    margin-bottom: 0.35rem;
+    white-space: nowrap;
+}
+
+.tooltip-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    white-space: nowrap;
+    padding: 1px 0;
+}
+
+.tooltip-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.tooltip-dot-dashed {
+    background: transparent !important;
+    border: 1.5px solid;
+    width: 5px;
+    height: 5px;
+}
+
+.tooltip-party {
+    font-weight: 600;
+    min-width: 28px;
+}
+
+.tooltip-label {
+    text-align: right;
+    min-width: 56px;
+    color: #666;
+    margin-left: auto;
+}
+
+.tooltip-value {
+    color: #333;
+    text-align: left;
+    min-width: 40px;
+}

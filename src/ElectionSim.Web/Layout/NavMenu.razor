@@ -1,0 +1,28 @@
+<div class="nav-header">
+    <a class="brand" href="">
+        <span class="brand-icon">🗳</span>
+        <span class="brand-text">ElectionSim</span>
+    </a>
+    <button class="nav-toggle" @onclick="ToggleNavMenu">
+        <span class="toggle-icon">☰</span>
+    </button>
+</div>
+
+<nav class="@NavMenuCssClass">
+    <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+        Simulator
+    </NavLink>
+    <NavLink class="nav-link" href="methodology">
+        Methodology
+    </NavLink>
+</nav>
+
+@code {
+    private bool collapseNavMenu = true;
+    private string? NavMenuCssClass => collapseNavMenu ? "nav-menu collapse" : "nav-menu";
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

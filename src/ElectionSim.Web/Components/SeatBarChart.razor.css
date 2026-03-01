@@ -1,0 +1,123 @@
+.seat-chart {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.seat-chart h3 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.majority-line-label {
+    text-align: right;
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+}
+
+.bar-row {
+    margin-bottom: 0.75rem;
+}
+
+.bar-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.25rem;
+}
+
+.party-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.seat-mean-group {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.2rem;
+}
+
+.seat-mean {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    font-variant-numeric: tabular-nums;
+}
+
+.seat-delta {
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
+.bar-container {
+    position: relative;
+    height: 24px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    overflow: visible;
+}
+
+.ci-95, .ci-68 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.mean-marker {
+    position: absolute;
+    top: 2px;
+    width: 3px;
+    height: 20px;
+    border-radius: 2px;
+    transform: translateX(-1px);
+}
+
+.majority-line {
+    position: absolute;
+    top: -2px;
+    width: 2px;
+    height: 28px;
+    background: #333;
+    opacity: 0.3;
+}
+
+.bar-value {
+    position: absolute;
+    top: -1.2rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: #333;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 0 0.2rem;
+    border-radius: 3px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.bar-row:hover .bar-value {
+    opacity: 1;
+}
+
+.bar-range {
+    font-size: 0.7rem;
+    color: #999;
+    margin-top: 0.15rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.placeholder {
+    color: #999;
+    font-size: 0.9rem;
+    padding: 2rem;
+    text-align: center;
+}

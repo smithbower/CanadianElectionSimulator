@@ -1,0 +1,39 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.content {
+    padding: 1.5rem;
+    flex: 1;
+}
+
+@media (min-width: 769px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 260px;
+        min-height: 100vh;
+        position: sticky;
+        top: 0;
+        overflow-y: auto;
+        max-height: 100vh;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+}

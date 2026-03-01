@@ -1,0 +1,156 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+@inject DataService DataService
+
+@if (Riding != null && Summary != null)
+{
+    <div class="popup-overlay" @onclick="Close">
+        <div class="popup-card" @onclick:stopPropagation="true">
+            <button class="close-btn" @onclick="Close">&times;</button>
+            <h3>@Riding.Name</h3>
+            <div class="riding-meta">
+                @Riding.Province &middot; @PartyColorProvider.GetProvinceRegionName(Riding.Region)
+            </div>
+
+            @if (Summary.RidingWinProbabilities.TryGetValue(Riding.Id, out var probs))
+            {
+                var projectedWinner = probs.MaxBy(p => p.Value).Key;
+
+                <div class="prob-bars">
+                    @foreach (var (party, prob) in probs.OrderByDescending(p => p.Value))
+                    {
+                        if (prob < 0.005) continue;
+                        var color = PartyColorProvider.GetColor(party);
+
+                        <div class="prob-row">
+                            <span class="prob-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                            <div class="prob-bar-bg">
+                                <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @color;"></div>
+                            </div>
+                            <span class="prob-pct">@((prob * 100).ToString("F1"))%</span>
+                        </div>
+                    }
+                </div>
+
+                var result2025 = DataService.Results2025?.FirstOrDefault(r => r.RidingId == Riding.Id);
+                if (result2025 != null)
+                {
+                    var previousWinner = result2025.Candidates.OrderByDescending(c => c.VoteShare).First();
+                    var isFlip = projectedWinner != previousWinner.Party;
+                    var prevColor = PartyColorProvider.GetColor(previousWinner.Party);
+
+                    <div class="prev-result-section">
+                        <h4>2025 Result</h4>
+                        <div class="prev-result-row">
+                            <span class="prev-winner" style="color: @prevColor">
+                                @PartyColorProvider.GetName(previousWinner.Party)
+                            </span>
+                            <span class="prev-vote-share">@((previousWinner.VoteShare * 100).ToString("F1"))%</span>
+                            @if (isFlip)
+                            {
+                                <span class="flip-badge flip">Flip</span>
+                            }
+                            else
+                            {
+                                <span class="flip-badge hold">Hold</span>
+                            }
+                        </div>
+                        <div class="prev-runners-up">
+                            @foreach (var c in result2025.Candidates.OrderByDescending(c => c.VoteShare).Skip(1).Take(3))
+                            {
+                                if (c.VoteShare < 0.01) continue;
+                                var cColor = PartyColorProvider.GetColor(c.Party);
+                                <span class="runner-up" style="color: @cColor">@PartyColorProvider.GetShortName(c.Party) @((c.VoteShare * 100).ToString("F1"))%</span>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+
+            @{ var demo = DataService.Demographics?.FirstOrDefault(d => d.RidingId == Riding.Id); }
+            @if (demo != null)
+            {
+                <div class="demographics-section">
+                    <h4>Census Demographics</h4>
+                    <div class="demo-grid">
+                        @foreach (var (label, value, tooltip) in GetDemoValues(demo))
+                        {
+                            <div class="demo-item">
+                                <span class="demo-label" title="@tooltip">@label</span>
+                                <div class="demo-bar-bg">
+                                    <div class="demo-bar-fill" style="width: @((value * 100).ToString("F1"))%;"></div>
+                                </div>
+                                <span class="demo-value">@((value * 100).ToString("F0"))%</span>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+
+            @if (Summary.RidingVoteShareDistributions.TryGetValue(Riding.Id, out var dists))
+            {
+                var filtered = dists
+                    .Where(kv => kv.Value.P95 >= 1.0)
+                    .OrderByDescending(kv => kv.Value.Median)
+                    .ToList();
+
+                if (filtered.Count > 0)
+                {
+                    var axisMax = Math.Ceiling(filtered.Max(kv => kv.Value.P95) / 5.0) * 5.0;
+                    if (axisMax < 10) axisMax = 10;
+
+                    <div class="vote-share-section">
+                        <h4>Vote Share Distribution</h4>
+                        <div class="box-plots">
+                            @foreach (var (party, dist) in filtered)
+                            {
+                                var color = PartyColorProvider.GetColor(party);
+                                var whiskerLeft = dist.P5 / axisMax * 100;
+                                var boxLeft = dist.P25 / axisMax * 100;
+                                var boxRight = dist.P75 / axisMax * 100;
+                                var whiskerRight = dist.P95 / axisMax * 100;
+                                var medianPos = dist.Median / axisMax * 100;
+
+                                <div class="box-row">
+                                    <span class="box-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                    <div class="box-track">
+                                        <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @color;"></div>
+                                        <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @color;"></div>
+                                        <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @color;"></div>
+                                    </div>
+                                    <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
+                                </div>
+                            }
+                        </div>
+                        <div class="box-axis">
+                            <span>0%</span>
+                            <span>@((axisMax / 2).ToString("F0"))%</span>
+                            <span>@(axisMax.ToString("F0"))%</span>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public Riding? Riding { get; set; }
+    [Parameter] public SimulationSummary? Summary { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+
+    private async Task Close() => await OnClose.InvokeAsync();
+
+    private static IEnumerable<(string Label, double Value, string Tooltip)> GetDemoValues(RidingDemographics d)
+    {
+        yield return ("Income", d.MedianIncome, "Median household income, normalized 0\u2013100% across all ridings (2021 Census)");
+        yield return ("University", d.PctUniversityEducated, "% of adults (25+) with a bachelor's degree or higher (2021 Census)");
+        yield return ("Vis. Minority", d.PctVisibleMinority, "% of population identifying as a visible minority (2021 Census)");
+        yield return ("Immigrant", d.PctImmigrant, "% of population who are immigrants (landed or admitted) (2021 Census)");
+        yield return ("Francophone", d.PctFrancophone, "% of population with French as first official language spoken (2021 Census)");
+        yield return ("Single-Detached", d.PctSingleDetached, "% of dwellings that are single-detached houses \u2014 proxy for rural/suburban character (2021 Census)");
+        yield return ("Median Age", d.MedianAge, "Median age of the population, normalized 0\u2013100% across all ridings (2021 Census)");
+        yield return ("Indigenous", d.PctIndigenous, "% of population identifying as Indigenous (First Nations, M\u00e9tis, or Inuit) (2021 Census)");
+        yield return ("Homeowner", d.PctHomeowner, "% of households that own their dwelling (2021 Census)");
+    }
+}

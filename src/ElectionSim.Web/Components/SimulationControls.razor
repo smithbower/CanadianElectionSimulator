@@ -1,0 +1,85 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+
+<div class="sim-controls">
+    <div class="control-row">
+        <label>Baseline</label>
+        <select @bind="State.BaselineYear">
+            <option value="2025">2025 Election</option>
+            <option value="2021">2021 Election</option>
+            <option value="2015">2015 Election</option>
+        </select>
+    </div>
+
+    <div class="control-row">
+        <label>Simulations</label>
+        <select @bind="selectedSimCount">
+            <option value="1000">1,000</option>
+            <option value="10000">10,000</option>
+            <option value="50000">50,000</option>
+        </select>
+    </div>
+
+    @if (HasDemographics)
+    {
+        <div class="control-row">
+            <label>Census Prior</label>
+            <label class="toggle-switch">
+                <input type="checkbox" @bind="useDemographics" />
+                <span class="toggle-slider"></span>
+            </label>
+        </div>
+    }
+
+    <button class="run-btn" @onclick="RunSimulation" disabled="@State.IsRunning">
+        @if (State.IsRunning)
+        {
+            <span class="spinner"></span>
+            <span>Running...</span>
+        }
+        else
+        {
+            <span>Run Simulation</span>
+        }
+    </button>
+
+    @if (State.IsRunning)
+    {
+        <div class="progress-container" style="display:flex;align-items:center;gap:0.5rem;margin-top:0.5rem">
+            <div class="progress-track" style="flex:1;height:6px;background:rgba(255,255,255,0.1);border-radius:3px;overflow:hidden">
+                <div class="progress-fill" style="width:@(ProgressPercent)%;height:100%;background:#D71920;border-radius:3px;transition:width .15s ease-out"></div>
+            </div>
+            <span class="progress-label" style="font-size:.75rem;color:rgba(255,255,255,0.6);min-width:2.5rem;text-align:right">@(ProgressPercent)%</span>
+        </div>
+    }
+
+    @if (State.ErrorMessage != null)
+    {
+        <div class="error-msg">@State.ErrorMessage</div>
+    }
+</div>
+
+@inject DataService DataService
+
+@code {
+    [Parameter] public required SimulationState State { get; set; }
+
+    private int selectedSimCount = 10000;
+    private bool useDemographics = false;
+
+    private bool HasDemographics => DataService.Demographics is { Count: > 0 };
+
+    private int ProgressPercent => State.Config.NumSimulations > 0
+        ? (int)(100.0 * State.SimulationsCompleted / State.Config.NumSimulations)
+        : 0;
+
+    private async Task RunSimulation()
+    {
+        State.Config = State.Config with
+        {
+            NumSimulations = selectedSimCount,
+            UseDemographicPrior = useDemographics
+        };
+        await State.RunSimulationAsync();
+    }
+}

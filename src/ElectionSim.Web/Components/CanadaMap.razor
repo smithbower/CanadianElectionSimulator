@@ -1,0 +1,105 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+
+<div class="canada-map">
+    <h3>Riding Projections</h3>
+    <p class="empty-detail">Click a riding to see projection details.</p>
+    <div class="map-legend">
+        @foreach (var party in PartyColorProvider.MainParties)
+        {
+            <span class="legend-item">
+                <span class="legend-dot" style="background: @PartyColorProvider.GetColor(party)"></span>
+                @PartyColorProvider.GetShortName(party)
+            </span>
+        }
+    </div>
+
+    <div class="view-toggle">
+        <button class="toggle-btn @(activeView == "grid" ? "active" : "")"
+                @onclick='() => activeView = "grid"'>Grid</button>
+        <button class="toggle-btn @(activeView == "hex" ? "active" : "")"
+                @onclick='() => activeView = "hex"'>Hex Map</button>
+    </div>
+
+    @if (Summary != null && Ridings != null)
+    {
+        @if (activeView == "grid")
+        {
+            <div class="cartogram">
+                @foreach (var region in Enum.GetValues<Region>().Reverse())
+                {
+                    var regionRidings = Ridings.Where(r => r.Region == region).OrderBy(r => r.Longitude).ThenByDescending(r => r.Latitude).ToList();
+                    if (regionRidings.Count == 0) continue;
+
+                    <div class="region-block">
+                        <div class="region-label">@PartyColorProvider.GetProvinceRegionName(region)</div>
+                        <div class="riding-grid">
+                            @foreach (var riding in regionRidings)
+                            {
+                                var rid = riding;
+                                var winnerColor = "#888";
+                                double maxProb = 0;
+                                Party winner = Party.Other;
+
+                                if (Summary.RidingWinProbabilities.TryGetValue(riding.Id, out var probs))
+                                {
+                                    foreach (var (party, prob) in probs)
+                                    {
+                                        if (prob > maxProb)
+                                        {
+                                            maxProb = prob;
+                                            winner = party;
+                                            winnerColor = PartyColorProvider.GetColor(party);
+                                        }
+                                    }
+                                }
+
+                                double opacity = 0.3 + maxProb * 0.7;
+
+                                <div class="riding-cell"
+                                     style="background: @winnerColor; opacity: @opacity.ToString("F2")"
+                                     title="@riding.Name"
+                                     @onclick="() => OnRidingClicked(rid)">
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <HexCartogram Summary="Summary" Ridings="Ridings" HexLayout="HexLayout"
+                          OnRidingSelected="OnRidingSelected" />
+
+            @if (BaselineResults != null)
+            {
+                <div class="section-divider"></div>
+                <h3>@BaselineYear Election Results</h3>
+                <BaselineMap Ridings="Ridings" HexLayout="HexLayout"
+                             BaselineResults="BaselineResults" BaselineYear="BaselineYear"
+                             OnRidingSelected="OnRidingSelected" />
+            }
+        }
+    }
+    else
+    {
+        <div class="placeholder">Run a simulation to see the riding map.</div>
+    }
+</div>
+
+@code {
+    [Parameter] public SimulationSummary? Summary { get; set; }
+    [Parameter] public IReadOnlyList<Riding>? Ridings { get; set; }
+    [Parameter] public IReadOnlyList<HexPosition>? HexLayout { get; set; }
+    [Parameter] public EventCallback<Riding> OnRidingSelected { get; set; }
+    [Parameter] public IReadOnlyList<RidingResult>? BaselineResults { get; set; }
+    [Parameter] public int BaselineYear { get; set; }
+
+    private string activeView = "grid";
+
+    private async Task OnRidingClicked(Riding riding)
+    {
+        await OnRidingSelected.InvokeAsync(riding);
+    }
+}

@@ -1,0 +1,71 @@
+.majority-indicator {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.majority-indicator h3 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.majority-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+}
+
+.majority-card {
+    padding: 0.75rem;
+    background: #f8f8f8;
+    border-radius: 6px;
+}
+
+.party-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.prob-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+.prob-value.minority {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.prob-label {
+    font-size: 0.7rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.15rem;
+}
+
+.prob-bar-bg {
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.prob-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.prob-bar-fill.majority-segment {
+    opacity: 1;
+}

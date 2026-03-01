@@ -1,0 +1,84 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+
+<div class="close-ridings-table">
+    <h3>Close Ridings <span class="subtitle">Leading party win probability &lt; 80%</span></h3>
+
+    @if (Summary != null && Ridings != null)
+    {
+        var closeRidings = GetCloseRidings();
+        @if (closeRidings.Count > 0)
+        {
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            @{
+                                var provCls = HeaderClass(ColProvince, "col-province");
+                                var provInd = SortIndicator(ColProvince);
+                                var ridCls = HeaderClass(ColRiding, "col-riding");
+                                var ridInd = SortIndicator(ColRiding);
+                                var projCls = HeaderClass(ColProjection, "col-projection");
+                                var projInd = SortIndicator(ColProjection);
+                            }
+                            <th class="@provCls" @onclick="() => SortBy(ColProvince)">
+                                Province@(provInd)
+                            </th>
+                            <th class="@ridCls" @onclick="() => SortBy(ColRiding)">
+                                Riding@(ridInd)
+                            </th>
+                            <th class="@projCls" @onclick="() => SortBy(ColProjection)">
+                                Projection@(projInd)
+                            </th>
+                            @foreach (var party in PartyColorProvider.MainParties)
+                            {
+                                var partyKey = party.ToString();
+                                var partyCls = HeaderClass(partyKey);
+                                var partyInd = SortIndicator(partyKey);
+                                <th class="@partyCls"
+                                    style="color: @PartyColorProvider.GetColor(party)"
+                                    @onclick="() => SortBy(partyKey)">
+                                    @PartyColorProvider.GetShortName(party)@partyInd
+                                </th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var entry in closeRidings)
+                        {
+                            var color = PartyColorProvider.GetColor(entry.Leader);
+                            <tr @onclick="() => OnRidingSelected.InvokeAsync(entry.Riding)">
+                                <td class="col-province">@entry.Riding.Province</td>
+                                <td class="col-riding">@entry.Riding.Name</td>
+<td class="col-projection">
+                                    <span class="badge" style="background: @(color)22; color: @color; border: 1px solid @(color)44"
+                                          title="@ClassificationTooltips[entry.Classification]">
+                                        @entry.Classification
+                                    </span>
+                                </td>
+                                @foreach (var party in PartyColorProvider.MainParties)
+                                {
+                                    @if (entry.VoteShares.TryGetValue(party, out var vs) && vs.Median >= 1.0)
+                                    {
+                                        <td class="vote-cell" style="color: @PartyColorProvider.GetColor(party)">
+                                            @vs.Median.ToString("F1") <span class="pm">±@vs.HalfIqr.ToString("F1")</span>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td class="vote-cell empty">—</td>
+                                    }
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="count-label">@closeRidings.Count competitive @(closeRidings.Count == 1 ? "riding" : "ridings")</div>
+        }
+        else
+        {
+            <p class="no-close">No close ridings — all seats have a leading party with ≥80% win probability.</p>
+        }
+    }
+</div>

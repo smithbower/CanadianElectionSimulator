@@ -1,0 +1,32 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Data pipeline raw downloads
+data/raw/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## NuGet
+**/packages/*
+*.nupkg
+**/[Pp]ackages/build/
+
+## IDE
+.idea/
+*.swp
+*~
+.vscode/
+src/ElectionSim.Server/simulations/
+appsettings.Production.json
+.claude/settings.local.json
+plan.md

@@ -1,0 +1,66 @@
+.region-table {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    overflow-x: auto;
+}
+
+.region-table h3 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+}
+
+th {
+    text-align: center;
+    padding: 0.3rem 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+td {
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.region-name {
+    white-space: nowrap;
+}
+
+.riding-count {
+    text-align: center;
+    color: #999;
+}
+
+.seat-cell {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    position: relative;
+    padding-right: 1.2rem;
+}
+
+.total-row td {
+    border-top: 2px solid #e0e0e0;
+    border-bottom: none;
+}
+
+.seat-delta {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.65rem;
+}

@@ -1,0 +1,143 @@
+@using ElectionSim.Core.Models
+
+@if (Summary != null && Ridings != null && HexLayout != null && HexLayout.Count > 0)
+{
+    var ridingLookup = Ridings.ToDictionary(r => r.Id);
+    var minCol = HexLayout.Min(h => h.Col);
+    var maxCol = HexLayout.Max(h => h.Col);
+    var minRow = HexLayout.Min(h => h.Row);
+    var maxRow = HexLayout.Max(h => h.Row);
+
+    double hexSize = 14;
+    // Pointy-top hex geometry
+    double hexW = Math.Sqrt(3) * hexSize;   // horizontal width
+    double hexH = hexSize * 2;               // vertical height
+    double colSpacing = hexW;                // horizontal center-to-center
+    double rowSpacing = hexH * 0.75;         // vertical center-to-center (1.5 * size)
+    double padX = hexSize + 2;
+    double padY = hexSize + 20;
+
+    double labelMargin = 20;
+    double svgWidth = padX * 2 + (maxCol - minCol) * colSpacing + hexW;
+    double svgHeight = padY * 2 + (maxRow - minRow) * rowSpacing + hexH + labelMargin;
+
+    // Province label positions — below province for provinces, above for territories
+    string[] territories = { "YT", "NT", "NU" };
+    var provinceCenters = HexLayout
+        .Where(h => ridingLookup.ContainsKey(h.Id))
+        .GroupBy(h => ridingLookup[h.Id].Province)
+        .ToDictionary(
+            g => GetProvinceAbbr(g.Key),
+            g =>
+            {
+                var abbr = GetProvinceAbbr(g.Key);
+                double avgX = g.Average(h => padX + (h.Col - minCol) * colSpacing + (h.Row % 2 == 1 ? colSpacing / 2 : 0) + hexW / 2);
+                if (abbr == "NB") avgX -= hexW * 1.2;
+                if (territories.Contains(abbr))
+                {
+                    double minY = g.Min(h => padY + (h.Row - minRow) * rowSpacing + hexSize);
+                    return (X: avgX, Y: minY - hexH * 0.8);
+                }
+                else
+                {
+                    double maxY = g.Max(h => padY + (h.Row - minRow) * rowSpacing + hexSize);
+                    return (X: avgX, Y: maxY + hexH * 0.8);
+                }
+            }
+        );
+
+    <svg class="hex-svg" viewBox="0 0 @svgWidth.ToString("F0") @svgHeight.ToString("F0")"
+         preserveAspectRatio="xMidYMid meet">
+        @foreach (var hex in HexLayout)
+        {
+            if (!ridingLookup.TryGetValue(hex.Id, out var riding)) continue;
+
+            // Pointy-top odd-r offset: odd rows shift right by half a hex width
+            double cx = padX + (hex.Col - minCol) * colSpacing + (hex.Row % 2 == 1 ? colSpacing / 2 : 0) + hexW / 2;
+            double cy = padY + (hex.Row - minRow) * rowSpacing + hexSize;
+
+            var winnerColor = "#888";
+            double maxProb = 0;
+
+            if (Summary.RidingWinProbabilities.TryGetValue(hex.Id, out var probs))
+            {
+                foreach (var (party, prob) in probs)
+                {
+                    if (prob > maxProb)
+                    {
+                        maxProb = prob;
+                        winnerColor = PartyColorProvider.GetColor(party);
+                    }
+                }
+            }
+
+            double opacity = 0.3 + maxProb * 0.7;
+            var points = HexPoints(cx, cy, hexSize - 1);
+            var rid = riding;
+
+            <polygon points="@points"
+                     fill="@winnerColor"
+                     opacity="@opacity.ToString("F2")"
+                     class="hex-cell"
+                     @onclick="() => OnHexClicked(rid)">
+                <title>@riding.Name</title>
+            </polygon>
+        }
+
+        @* Province labels — use MarkupString because Razor reserves <text> *@
+        @foreach (var (abbr, center) in provinceCenters)
+        {
+            var lx = center.X.ToString("F1");
+            var ly = center.Y.ToString("F1");
+            @((MarkupString)$"<text x=\"{lx}\" y=\"{ly}\" class=\"province-label\" text-anchor=\"middle\" dominant-baseline=\"auto\">{abbr}</text>")
+        }
+    </svg>
+}
+else
+{
+    <div class="placeholder">Run a simulation to see the hex map.</div>
+}
+
+@code {
+    [Parameter] public SimulationSummary? Summary { get; set; }
+    [Parameter] public IReadOnlyList<Riding>? Ridings { get; set; }
+    [Parameter] public IReadOnlyList<HexPosition>? HexLayout { get; set; }
+    [Parameter] public EventCallback<Riding> OnRidingSelected { get; set; }
+
+    private async Task OnHexClicked(Riding riding)
+    {
+        await OnRidingSelected.InvokeAsync(riding);
+    }
+
+    private static string HexPoints(double cx, double cy, double size)
+    {
+        // Pointy-top hexagon: first vertex at top
+        var pts = new string[6];
+        for (int i = 0; i < 6; i++)
+        {
+            double angle = Math.PI / 180.0 * (60 * i - 90);
+            double px = cx + size * Math.Cos(angle);
+            double py = cy + size * Math.Sin(angle);
+            pts[i] = $"{px:F1},{py:F1}";
+        }
+        return string.Join(" ", pts);
+    }
+
+    private static string GetProvinceAbbr(string province) => province switch
+    {
+        "Newfoundland and Labrador" => "NL",
+        "Prince Edward Island" => "PE",
+        "Nova Scotia" => "NS",
+        "New Brunswick" => "NB",
+        "Quebec" => "QC",
+        "Ontario" => "ON",
+        "Manitoba" => "MB",
+        "Saskatchewan" => "SK",
+        "Alberta" => "AB",
+        "British Columbia" => "BC",
+        "Yukon" => "YT",
+        "Northwest Territories" => "NT",
+        "Nunavut" => "NU",
+        _ => "??"
+    };
+}

@@ -1,0 +1,779 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+@inject DataService DataService
+
+<div class="riding-search-card">
+    <h3>Riding Lookup</h3>
+    <div class="search-wrapper">
+        <input type="text" class="search-input" placeholder="Search for a riding..."
+               value="@searchText"
+               @oninput="e => OnSearchInput(e)"
+               @onfocus="() => OnFocus()"
+               @onkeydown="e => OnKeyDown(e)" />
+        @if (selectedRiding != null)
+        {
+            <button class="clear-btn" @onclick="ClearSelection">&times;</button>
+        }
+
+        @if (showDropdown && cachedFilteredRidings.Count > 0 && selectedRiding == null)
+        {
+            <div class="autocomplete-dropdown">
+                @for (var i = 0; i < cachedFilteredRidings.Count; i++)
+                {
+                    var riding = cachedFilteredRidings[i];
+                    var isHighlighted = i == highlightedIndex;
+                    <div class="autocomplete-item @(isHighlighted ? "highlighted" : "")"
+                         @onclick="() => SelectRiding(riding)">
+                        <span class="ac-name">@riding.Name</span>
+                        <span class="ac-province">@riding.Province</span>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    @if (selectedRiding != null && Summary != null)
+    {
+        <div class="riding-detail-inline">
+            <div class="riding-meta">
+                @selectedRiding.Province &middot; @PartyColorProvider.GetProvinceRegionName(selectedRiding.Region)
+            </div>
+
+            @* Compare search *@
+            <div class="compare-search-section">
+                <div class="search-wrapper compare-input-wrapper">
+                    <input type="text" class="search-input compare-input" placeholder="Compare with..."
+                           value="@compareSearchText"
+                           @oninput="e => OnCompareSearchInput(e)"
+                           @onfocus="() => OnCompareFocus()"
+                           @onkeydown="e => OnCompareKeyDown(e)" />
+                    @if (compareRiding != null)
+                    {
+                        <button class="clear-btn" @onclick="ClearCompareSelection">&times;</button>
+                    }
+
+                    @if (showCompareDropdown && cachedCompareFilteredRidings.Count > 0 && compareRiding == null)
+                    {
+                        <div class="autocomplete-dropdown">
+                            @for (var i = 0; i < cachedCompareFilteredRidings.Count; i++)
+                            {
+                                var riding = cachedCompareFilteredRidings[i];
+                                var isHighlighted = i == compareHighlightedIndex;
+                                <div class="autocomplete-item @(isHighlighted ? "highlighted" : "")"
+                                     @onclick="() => SelectCompareRiding(riding)">
+                                    <span class="ac-name">@riding.Name</span>
+                                    <span class="ac-province">@riding.Province</span>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+                @if (compareRiding != null)
+                {
+                    <div class="riding-meta compare-riding-meta">
+                        @compareRiding.Province &middot; @PartyColorProvider.GetProvinceRegionName(compareRiding.Region)
+                    </div>
+                }
+            </div>
+
+            @* Win probabilities *@
+            @if (Summary.RidingWinProbabilities.TryGetValue(selectedRiding.Id, out var probs))
+            {
+                var projectedWinner = probs.MaxBy(p => p.Value).Key;
+                var isComparing = compareRiding != null;
+
+                @if (isComparing)
+                {
+                    <div class="riding-section-label">@selectedRiding.Name</div>
+                }
+
+                <div class="prob-bars">
+                    @foreach (var (party, prob) in probs.OrderByDescending(p => p.Value))
+                    {
+                        if (prob < 0.005) continue;
+                        var color = PartyColorProvider.GetColor(party);
+
+                        <div class="prob-row">
+                            <span class="prob-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                            <div class="prob-bar-bg">
+                                <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @color;"></div>
+                            </div>
+                            <span class="prob-pct">@((prob * 100).ToString("F1"))%</span>
+                        </div>
+                    }
+                </div>
+
+                @if (isComparing && Summary.RidingWinProbabilities.TryGetValue(compareRiding!.Id, out var compareProbs))
+                {
+                    <div class="riding-section-label compare-section-label">@compareRiding.Name</div>
+                    <div class="prob-bars">
+                        @foreach (var (party, prob) in compareProbs.OrderByDescending(p => p.Value))
+                        {
+                            if (prob < 0.005) continue;
+                            var color = PartyColorProvider.GetColor(party);
+
+                            <div class="prob-row">
+                                <span class="prob-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                <div class="prob-bar-bg">
+                                    <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @color;"></div>
+                                </div>
+                                <span class="prob-pct">@((prob * 100).ToString("F1"))%</span>
+                            </div>
+                        }
+                    </div>
+                }
+
+                @if (isComparing)
+                {
+                    @* Comparison mode: both ridings' projected medians *@
+                    var colorA = "#6b7280";
+                    var colorB = "#e76f51";
+
+                    Summary.RidingVoteShareDistributions.TryGetValue(selectedRiding.Id, out var simDistsA);
+                    Summary.RidingVoteShareDistributions.TryGetValue(compareRiding!.Id, out var simDistsB);
+
+                    var simMediansA = new Dictionary<Party, double>();
+                    var simMediansB = new Dictionary<Party, double>();
+                    if (simDistsA != null) foreach (var (p, d) in simDistsA) simMediansA[p] = d.Median;
+                    if (simDistsB != null) foreach (var (p, d) in simDistsB) simMediansB[p] = d.Median;
+
+                    var cAxisParties = simMediansA.Where(kv => kv.Value >= 1.0).Select(kv => kv.Key)
+                        .Union(simMediansB.Where(kv => kv.Value >= 1.0).Select(kv => kv.Key))
+                        .Distinct()
+                        .OrderByDescending(p => Math.Max(simMediansA.GetValueOrDefault(p, 0), simMediansB.GetValueOrDefault(p, 0)))
+                        .ToList();
+
+                    if (cAxisParties.Count >= 3)
+                    {
+                        var cn = cAxisParties.Count;
+                        var cMaxVal = Math.Max(
+                            simMediansA.Count > 0 ? simMediansA.Values.Max() : 0,
+                            simMediansB.Count > 0 ? simMediansB.Values.Max() : 0);
+                        var cRadarMax = Math.Ceiling(cMaxVal / 10.0) * 10;
+                        if (cRadarMax < 20) cRadarMax = 20;
+
+                        double ccx = 250, ccy = 170, cRadius = 110, cLabelRadius = 155;
+
+                        string CPolarX(int i, double val) => (ccx + cRadius * (val / cRadarMax) * Math.Sin(2 * Math.PI * i / cn)).ToString("F1");
+                        string CPolarY(int i, double val) => (ccy - cRadius * (val / cRadarMax) * Math.Cos(2 * Math.PI * i / cn)).ToString("F1");
+
+                        var cRingCount = (int)(cRadarMax / 10);
+
+                        double AVal(int i) => simMediansA.GetValueOrDefault(cAxisParties[i], 0);
+                        double BVal(int i) => simMediansB.GetValueOrDefault(cAxisParties[i], 0);
+
+                        var pointsA = string.Join(" ", Enumerable.Range(0, cn).Select(i => $"{CPolarX(i, AVal(i))},{CPolarY(i, AVal(i))}"));
+                        var pointsB = string.Join(" ", Enumerable.Range(0, cn).Select(i => $"{CPolarX(i, BVal(i))},{CPolarY(i, BVal(i))}"));
+
+                        var demoDataA = DataService.Demographics?.FirstOrDefault(d => d.RidingId == selectedRiding.Id);
+                        var demoDataB = DataService.Demographics?.FirstOrDefault(d => d.RidingId == compareRiding.Id);
+                        var hasDemoPair = demoDataA != null && demoDataB != null;
+
+                        <div class="prev-result-section">
+                            <div class="radar-pair @(hasDemoPair ? "has-demo" : "")">
+                                <div class="radar-panel">
+                                    <h4>Projected Vote Share</h4>
+                                    <div class="radar-container">
+                                        <svg viewBox="-25 -40 550 410" class="radar-svg">
+                                            @for (var ring = 1; ring <= cRingCount; ring++)
+                                            {
+                                                var ringVal = ring * 10.0;
+                                                var points = string.Join(" ", Enumerable.Range(0, cn).Select(i => $"{CPolarX(i, ringVal)},{CPolarY(i, ringVal)}"));
+                                                <polygon points="@points" class="radar-grid-ring" />
+                                            }
+                                            @for (var i = 0; i < cn; i++)
+                                            {
+                                                <line x1="@ccx.ToString("F0")" y1="@ccy.ToString("F0")"
+                                                      x2="@CPolarX(i, cRadarMax)" y2="@CPolarY(i, cRadarMax)"
+                                                      class="radar-axis-line" />
+                                            }
+                                            <polygon points="@pointsA" fill="@colorA" fill-opacity="0.12" stroke="@colorA" stroke-width="1.5" />
+                                            <polygon points="@pointsB" fill="@colorB" fill-opacity="0.12" stroke="@colorB" stroke-width="1.5" stroke-dasharray="4 2" />
+                                            @for (var i = 0; i < cn; i++)
+                                            {
+                                                <circle cx="@CPolarX(i, AVal(i))" cy="@CPolarY(i, AVal(i))"
+                                                        r="3" fill="@colorA" stroke="#fff" stroke-width="1" />
+                                            }
+                                            @for (var i = 0; i < cn; i++)
+                                            {
+                                                <circle cx="@CPolarX(i, BVal(i))" cy="@CPolarY(i, BVal(i))"
+                                                        r="3" fill="@colorB" stroke="#fff" stroke-width="1" />
+                                            }
+                                            @for (var i = 0; i < cn; i++)
+                                            {
+                                                var party = cAxisParties[i];
+                                                var labelColor = PartyColorProvider.GetColor(party);
+                                                var angle = 2 * Math.PI * i / cn;
+                                                var lx = ccx + cLabelRadius * Math.Sin(angle);
+                                                var ly = ccy - cLabelRadius * Math.Cos(angle);
+                                                var anchor = "middle";
+                                                if (Math.Abs(Math.Sin(angle)) > 0.3)
+                                                    anchor = Math.Sin(angle) > 0 ? "start" : "end";
+                                                var dyVal = Math.Cos(angle) > 0.3 ? "-0.3em" : (Math.Cos(angle) < -0.3 ? "1.2em" : "0.35em");
+                                                var aVal = AVal(i);
+                                                var bVal = BVal(i);
+                                                @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" fill=\"{labelColor}\" class=\"radar-label\"><tspan font-weight=\"700\">{PartyColorProvider.GetShortName(party)}</tspan> <tspan fill=\"{colorA}\">{aVal:F1}</tspan><tspan fill=\"#999\"> / </tspan><tspan fill=\"{colorB}\">{bVal:F1}%</tspan></text>")
+                                            }
+                                        </svg>
+                                    </div>
+                                    <div class="radar-legend">
+                                        <span class="legend-item">
+                                            <span class="legend-swatch" style="background: @colorA;"></span> @selectedRiding.Name
+                                        </span>
+                                        <span class="legend-item">
+                                            <span class="legend-swatch legend-swatch-dashed" style="background: @colorB;"></span> @compareRiding.Name
+                                        </span>
+                                    </div>
+                                </div>
+
+                                @if (hasDemoPair)
+                                {
+                                    var demoValuesA = GetDemoValues(demoDataA!);
+                                    var demoValuesB = GetDemoValues(demoDataB!);
+                                    var dn = demoValuesA.Count;
+                                    double dcx = 250, dcy = 170, dRadius = 110, dLabelRadius = 155;
+                                    double dMax = 100.0;
+                                    var dRingCount = 10;
+                                    var dColorA = "#6366f1";
+                                    var dColorB = "#e76f51";
+
+                                    string DPolarX(int i, double val) => (dcx + dRadius * (val / dMax) * Math.Sin(2 * Math.PI * i / dn)).ToString("F1");
+                                    string DPolarY(int i, double val) => (dcy - dRadius * (val / dMax) * Math.Cos(2 * Math.PI * i / dn)).ToString("F1");
+
+                                    var demoPointsA = string.Join(" ", Enumerable.Range(0, dn).Select(i => $"{DPolarX(i, demoValuesA[i].Value * 100)},{DPolarY(i, demoValuesA[i].Value * 100)}"));
+                                    var demoPointsB = string.Join(" ", Enumerable.Range(0, dn).Select(i => $"{DPolarX(i, demoValuesB[i].Value * 100)},{DPolarY(i, demoValuesB[i].Value * 100)}"));
+
+                                    <div class="radar-panel">
+                                        <h4>Census Demographics</h4>
+                                        <div class="radar-container">
+                                            <svg viewBox="-25 -40 550 410" class="radar-svg">
+                                                @for (var ring = 1; ring <= dRingCount; ring++)
+                                                {
+                                                    var ringVal = ring * 10.0;
+                                                    var points = string.Join(" ", Enumerable.Range(0, dn).Select(i => $"{DPolarX(i, ringVal)},{DPolarY(i, ringVal)}"));
+                                                    <polygon points="@points" class="radar-grid-ring" />
+                                                }
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    <line x1="@dcx.ToString("F0")" y1="@dcy.ToString("F0")"
+                                                          x2="@DPolarX(i, dMax)" y2="@DPolarY(i, dMax)"
+                                                          class="radar-axis-line" />
+                                                }
+                                                <polygon points="@demoPointsA" fill="@dColorA" fill-opacity="0.12" stroke="@dColorA" stroke-width="1.5" />
+                                                <polygon points="@demoPointsB" fill="@dColorB" fill-opacity="0.12" stroke="@dColorB" stroke-width="1.5" stroke-dasharray="4 2" />
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    <circle cx="@DPolarX(i, demoValuesA[i].Value * 100)" cy="@DPolarY(i, demoValuesA[i].Value * 100)"
+                                                            r="3" fill="@dColorA" stroke="#fff" stroke-width="1" />
+                                                }
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    <circle cx="@DPolarX(i, demoValuesB[i].Value * 100)" cy="@DPolarY(i, demoValuesB[i].Value * 100)"
+                                                            r="3" fill="@dColorB" stroke="#fff" stroke-width="1" />
+                                                }
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    var angle = 2 * Math.PI * i / dn;
+                                                    var lx = dcx + dLabelRadius * Math.Sin(angle);
+                                                    var ly = dcy - dLabelRadius * Math.Cos(angle);
+                                                    var anchor = "middle";
+                                                    if (Math.Abs(Math.Sin(angle)) > 0.3)
+                                                        anchor = Math.Sin(angle) > 0 ? "start" : "end";
+                                                    var dyVal = Math.Cos(angle) > 0.3 ? "-0.3em" : (Math.Cos(angle) < -0.3 ? "1.2em" : "0.35em");
+                                                    var pctA = (demoValuesA[i].Value * 100).ToString("F0");
+                                                    var pctB = (demoValuesB[i].Value * 100).ToString("F0");
+                                                    var tooltip = System.Web.HttpUtility.HtmlEncode(demoValuesA[i].Tooltip);
+                                                    var labelText = demoValuesA[i].Label;
+                                                    @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" class=\"radar-label demo-radar-label\" cursor=\"help\"><title>{tooltip}</title><tspan font-weight=\"600\" fill=\"#555\" class=\"demo-radar-underline\">{labelText}</tspan> <tspan fill=\"{dColorA}\">{pctA}</tspan><tspan fill=\"#999\"> / </tspan><tspan fill=\"{dColorB}\">{pctB}%</tspan></text>")
+                                                }
+                                            </svg>
+                                        </div>
+                                        <div class="radar-legend">
+                                            <span class="legend-item">
+                                                <span class="legend-swatch" style="background: @dColorA;"></span> @selectedRiding.Name
+                                            </span>
+                                            <span class="legend-item">
+                                                <span class="legend-swatch legend-swatch-dashed" style="background: @dColorB;"></span> @compareRiding.Name
+                                            </span>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    @* Single riding mode: 2025 vs Projected *@
+                    var result2025 = DataService.Results2025?.FirstOrDefault(r => r.RidingId == selectedRiding.Id);
+                    if (result2025 != null)
+                    {
+                        var previousWinner = result2025.Candidates.OrderByDescending(c => c.VoteShare).First();
+                        var isFlip = projectedWinner != previousWinner.Party;
+                        var prevColor = PartyColorProvider.GetColor(previousWinner.Party);
+
+                        var colorActual = "#6b7280";
+                        var colorProjected = "#3b82f6";
+
+                        var candidates = result2025.Candidates
+                            .Where(c => c.VoteShare >= 0.01)
+                            .OrderByDescending(c => c.VoteShare)
+                            .ToList();
+
+                        Summary.RidingVoteShareDistributions.TryGetValue(selectedRiding.Id, out var simDists);
+                        var simMedians = new Dictionary<Party, double>();
+                        if (simDists != null)
+                        {
+                            foreach (var (p, d) in simDists)
+                                simMedians[p] = d.Median;
+                        }
+
+                        var axisParties = candidates.Select(c => c.Party).ToList();
+                        if (simDists != null)
+                        {
+                            foreach (var p in simDists.Keys)
+                            {
+                                if (simDists[p].Median >= 1.0 && !axisParties.Contains(p))
+                                    axisParties.Add(p);
+                            }
+                        }
+
+                        var n = axisParties.Count;
+
+                        var maxActual = candidates.Max(c => c.VoteShare) * 100;
+                        var maxSim = simMedians.Count > 0 ? simMedians.Values.Max() : 0;
+                        var radarMax = Math.Ceiling(Math.Max(maxActual, maxSim) / 10.0) * 10;
+                        if (radarMax < 20) radarMax = 20;
+
+                        double rcx = 250;
+                        double rcy = 170;
+                        double rRadius = 110;
+                        double rLabelRadius = 155;
+
+                        string PolarX(int i, double val) => (rcx + rRadius * (val / radarMax) * Math.Sin(2 * Math.PI * i / n)).ToString("F1");
+                        string PolarY(int i, double val) => (rcy - rRadius * (val / radarMax) * Math.Cos(2 * Math.PI * i / n)).ToString("F1");
+
+                        var ringCount = (int)(radarMax / 10);
+
+                        double ActualPct(int i) => candidates.FirstOrDefault(c => c.Party == axisParties[i])?.VoteShare * 100 ?? 0;
+                        double SimPct(int i) => simMedians.GetValueOrDefault(axisParties[i], 0);
+
+                        var actualPoints = string.Join(" ", Enumerable.Range(0, n).Select(i => $"{PolarX(i, ActualPct(i))},{PolarY(i, ActualPct(i))}"));
+                        var simPoints = string.Join(" ", Enumerable.Range(0, n).Select(i => $"{PolarX(i, SimPct(i))},{PolarY(i, SimPct(i))}"));
+                        var demoData = DataService.Demographics?.FirstOrDefault(d => d.RidingId == selectedRiding.Id);
+                        <div class="prev-result-section">
+                            <div class="radar-pair @(demoData != null ? "has-demo" : "")">
+                                <div class="radar-panel">
+                                    <h4>2025 vs Projected</h4>
+                                    <div class="radar-container">
+                                        <svg viewBox="-25 -40 550 410" class="radar-svg">
+                                            @* Grid rings *@
+                                            @for (var ring = 1; ring <= ringCount; ring++)
+                                            {
+                                                var ringVal = ring * 10.0;
+                                                var points = string.Join(" ", Enumerable.Range(0, n).Select(i => $"{PolarX(i, ringVal)},{PolarY(i, ringVal)}"));
+                                                <polygon points="@points" class="radar-grid-ring" />
+                                            }
+
+                                            @* Axis lines *@
+                                            @for (var i = 0; i < n; i++)
+                                            {
+                                                <line x1="@rcx.ToString("F0")" y1="@rcy.ToString("F0")"
+                                                      x2="@PolarX(i, radarMax)" y2="@PolarY(i, radarMax)"
+                                                      class="radar-axis-line" />
+                                            }
+
+                                            @* 2025 actual polygon *@
+                                            <polygon points="@actualPoints" fill="@colorActual" fill-opacity="0.12" stroke="@colorActual" stroke-width="1.5" />
+
+                                            @* Simulated polygon *@
+                                            <polygon points="@simPoints" fill="@colorProjected" fill-opacity="0.12" stroke="@colorProjected" stroke-width="1.5" stroke-dasharray="4 2" />
+
+                                            @* 2025 dots *@
+                                            @for (var i = 0; i < n; i++)
+                                            {
+                                                <circle cx="@PolarX(i, ActualPct(i))" cy="@PolarY(i, ActualPct(i))"
+                                                        r="3" fill="@colorActual" stroke="#fff" stroke-width="1" />
+                                            }
+
+                                            @* Simulated dots *@
+                                            @for (var i = 0; i < n; i++)
+                                            {
+                                                <circle cx="@PolarX(i, SimPct(i))" cy="@PolarY(i, SimPct(i))"
+                                                        r="3" fill="@colorProjected" stroke="#fff" stroke-width="1" />
+                                            }
+
+                                            @* Axis labels: party name + 2025% -> sim% *@
+                                            @for (var i = 0; i < n; i++)
+                                            {
+                                                var party = axisParties[i];
+                                                var labelColor = PartyColorProvider.GetColor(party);
+                                                var angle = 2 * Math.PI * i / n;
+                                                var lx = rcx + rLabelRadius * Math.Sin(angle);
+                                                var ly = rcy - rLabelRadius * Math.Cos(angle);
+                                                var anchor = "middle";
+                                                if (Math.Abs(Math.Sin(angle)) > 0.3)
+                                                    anchor = Math.Sin(angle) > 0 ? "start" : "end";
+                                                var dyVal = Math.Cos(angle) > 0.3 ? "-0.3em" : (Math.Cos(angle) < -0.3 ? "1.2em" : "0.35em");
+                                                var actualVal = ActualPct(i);
+                                                var simVal = SimPct(i);
+                                                var label = $"{PartyColorProvider.GetShortName(party)} {actualVal:F1}";
+                                                var labelSim = $"{simVal:F1}%";
+                                                @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" fill=\"{labelColor}\" class=\"radar-label\"><tspan font-weight=\"700\">{PartyColorProvider.GetShortName(party)}</tspan> <tspan fill=\"{colorActual}\">{actualVal:F1}</tspan><tspan fill=\"#999\"> &#x2192; </tspan><tspan fill=\"{colorProjected}\">{simVal:F1}%</tspan></text>")
+                                            }
+                                        </svg>
+                                    </div>
+                                    <div class="radar-legend">
+                                        <span class="legend-item">
+                                            <span class="legend-swatch" style="background: @colorActual;"></span> 2025 Result
+                                        </span>
+                                        <span class="legend-item">
+                                            <span class="legend-swatch legend-swatch-dashed" style="background: @colorProjected;"></span> Projected
+                                        </span>
+                                    </div>
+                                    <div class="radar-flip-row">
+                                        <span class="prev-winner-name" style="color: @prevColor">
+                                            @PartyColorProvider.GetName(previousWinner.Party) won 2025
+                                        </span>
+                                        @if (isFlip)
+                                        {
+                                            <span class="flip-badge flip">Flip</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="flip-badge hold">Hold</span>
+                                        }
+                                    </div>
+                                </div>
+
+                                @if (demoData != null)
+                                {
+                                    var demoValues = GetDemoValues(demoData);
+                                    var dn = demoValues.Count;
+                                    double dcx = 250;
+                                    double dcy = 170;
+                                    double dRadius = 110;
+                                    double dLabelRadius = 155;
+                                    double dMax = 100.0;
+                                    var dRingCount = 10;
+                                    var demoColor = "#6366f1";
+
+                                    string DPolarX(int i, double val) => (dcx + dRadius * (val / dMax) * Math.Sin(2 * Math.PI * i / dn)).ToString("F1");
+                                    string DPolarY(int i, double val) => (dcy - dRadius * (val / dMax) * Math.Cos(2 * Math.PI * i / dn)).ToString("F1");
+
+                                    var demoPoints = string.Join(" ", Enumerable.Range(0, dn).Select(i => $"{DPolarX(i, demoValues[i].Value * 100)},{DPolarY(i, demoValues[i].Value * 100)}"));
+
+                                    <div class="radar-panel">
+                                        <h4>Census Demographics</h4>
+                                        <div class="radar-container">
+                                            <svg viewBox="-25 -40 550 410" class="radar-svg">
+                                                @* Grid rings at 10% intervals *@
+                                                @for (var ring = 1; ring <= dRingCount; ring++)
+                                                {
+                                                    var ringVal = ring * 10.0;
+                                                    var points = string.Join(" ", Enumerable.Range(0, dn).Select(i => $"{DPolarX(i, ringVal)},{DPolarY(i, ringVal)}"));
+                                                    <polygon points="@points" class="radar-grid-ring" />
+                                                }
+
+                                                @* Axis lines *@
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    <line x1="@dcx.ToString("F0")" y1="@dcy.ToString("F0")"
+                                                          x2="@DPolarX(i, dMax)" y2="@DPolarY(i, dMax)"
+                                                          class="radar-axis-line" />
+                                                }
+
+                                                @* Demographics polygon *@
+                                                <polygon points="@demoPoints" fill="@demoColor" fill-opacity="0.15" stroke="@demoColor" stroke-width="1.5" />
+
+                                                @* Dots *@
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    <circle cx="@DPolarX(i, demoValues[i].Value * 100)" cy="@DPolarY(i, demoValues[i].Value * 100)"
+                                                            r="3" fill="@demoColor" stroke="#fff" stroke-width="1" />
+                                                }
+
+                                                @* Axis labels *@
+                                                @for (var i = 0; i < dn; i++)
+                                                {
+                                                    var angle = 2 * Math.PI * i / dn;
+                                                    var lx = dcx + dLabelRadius * Math.Sin(angle);
+                                                    var ly = dcy - dLabelRadius * Math.Cos(angle);
+                                                    var anchor = "middle";
+                                                    if (Math.Abs(Math.Sin(angle)) > 0.3)
+                                                        anchor = Math.Sin(angle) > 0 ? "start" : "end";
+                                                    var dyVal = Math.Cos(angle) > 0.3 ? "-0.3em" : (Math.Cos(angle) < -0.3 ? "1.2em" : "0.35em");
+                                                    var pctStr = (demoValues[i].Value * 100).ToString("F0") + "%";
+                                                    var tooltip = System.Web.HttpUtility.HtmlEncode(demoValues[i].Tooltip);
+                                                    var labelText = demoValues[i].Label;
+                                                    @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" class=\"radar-label demo-radar-label\" cursor=\"help\"><title>{tooltip}</title><tspan font-weight=\"600\" fill=\"#555\" class=\"demo-radar-underline\">{labelText}</tspan> <tspan fill=\"{demoColor}\">{pctStr}</tspan></text>")
+                                                }
+                                            </svg>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+            }
+
+            @* Box plots for selected riding *@
+            @if (Summary.RidingVoteShareDistributions.TryGetValue(selectedRiding.Id, out var dists))
+            {
+                var filtered = dists
+                    .Where(kv => kv.Value.P95 >= 1.0)
+                    .OrderByDescending(kv => kv.Value.Median)
+                    .ToList();
+
+                if (filtered.Count > 0)
+                {
+                    var axisMax = Math.Ceiling(filtered.Max(kv => kv.Value.P95) / 5.0) * 5.0;
+                    if (axisMax < 10) axisMax = 10;
+
+                    @* If comparing, widen axis to fit both ridings *@
+                    if (compareRiding != null && Summary.RidingVoteShareDistributions.TryGetValue(compareRiding.Id, out var compareDists))
+                    {
+                        var compareMax = compareDists.Values.Where(v => v.P95 >= 1.0).Select(v => v.P95).DefaultIfEmpty(0).Max();
+                        var combinedMax = Math.Ceiling(Math.Max(filtered.Max(kv => kv.Value.P95), compareMax) / 5.0) * 5.0;
+                        if (combinedMax > axisMax) axisMax = combinedMax;
+                    }
+
+                    <div class="vote-share-section">
+                        <h4>Vote Share Distribution</h4>
+                        @if (compareRiding != null)
+                        {
+                            <div class="riding-section-label">@selectedRiding.Name</div>
+                        }
+                        <div class="box-plots">
+                            @foreach (var (party, dist) in filtered)
+                            {
+                                var color = PartyColorProvider.GetColor(party);
+                                var whiskerLeft = dist.P5 / axisMax * 100;
+                                var boxLeft = dist.P25 / axisMax * 100;
+                                var boxRight = dist.P75 / axisMax * 100;
+                                var whiskerRight = dist.P95 / axisMax * 100;
+                                var medianPos = dist.Median / axisMax * 100;
+
+                                <div class="box-row">
+                                    <span class="box-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                    <div class="box-track">
+                                        <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @color;"></div>
+                                        <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @color;"></div>
+                                        <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @color;"></div>
+                                    </div>
+                                    <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
+                                </div>
+                            }
+                        </div>
+
+                        @* Box plots for compare riding *@
+                        @if (compareRiding != null && Summary.RidingVoteShareDistributions.TryGetValue(compareRiding.Id, out var cDists))
+                        {
+                            var cFiltered = cDists
+                                .Where(kv => kv.Value.P95 >= 1.0)
+                                .OrderByDescending(kv => kv.Value.Median)
+                                .ToList();
+
+                            if (cFiltered.Count > 0)
+                            {
+                                <div class="riding-section-label compare-section-label">@compareRiding.Name</div>
+                                <div class="box-plots">
+                                    @foreach (var (party, dist) in cFiltered)
+                                    {
+                                        var color = PartyColorProvider.GetColor(party);
+                                        var whiskerLeft = dist.P5 / axisMax * 100;
+                                        var boxLeft = dist.P25 / axisMax * 100;
+                                        var boxRight = dist.P75 / axisMax * 100;
+                                        var whiskerRight = dist.P95 / axisMax * 100;
+                                        var medianPos = dist.Median / axisMax * 100;
+
+                                        <div class="box-row">
+                                            <span class="box-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                            <div class="box-track">
+                                                <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @color;"></div>
+                                                <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @color;"></div>
+                                                <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @color;"></div>
+                                            </div>
+                                            <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        }
+
+                        <div class="box-axis">
+                            <span>0%</span>
+                            <span>@((axisMax / 2).ToString("F0"))%</span>
+                            <span>@(axisMax.ToString("F0"))%</span>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public SimulationSummary? Summary { get; set; }
+    [Parameter] public List<Riding>? Ridings { get; set; }
+
+    private string searchText = "";
+    private Riding? selectedRiding;
+    private bool showDropdown;
+    private int highlightedIndex = -1;
+    private List<Riding> cachedFilteredRidings = new();
+
+    private string compareSearchText = "";
+    private Riding? compareRiding;
+    private bool showCompareDropdown;
+    private int compareHighlightedIndex = -1;
+    private List<Riding> cachedCompareFilteredRidings = new();
+
+    private void UpdateFilteredRidings()
+    {
+        cachedFilteredRidings = string.IsNullOrWhiteSpace(searchText) || Ridings == null
+            ? new List<Riding>()
+            : Ridings
+                .Where(r => r.Name.Contains(searchText, StringComparison.OrdinalIgnoreCase))
+                .OrderBy(r => r.Name)
+                .Take(8)
+                .ToList();
+    }
+
+    private void OnSearchInput(ChangeEventArgs e)
+    {
+        searchText = e.Value?.ToString() ?? "";
+        selectedRiding = null;
+        compareRiding = null;
+        compareSearchText = "";
+        showDropdown = true;
+        highlightedIndex = -1;
+        UpdateFilteredRidings();
+    }
+
+    private void OnFocus()
+    {
+        showDropdown = true;
+        highlightedIndex = -1;
+        UpdateFilteredRidings();
+    }
+
+    private void OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "ArrowDown")
+        {
+            highlightedIndex = Math.Min(highlightedIndex + 1, cachedFilteredRidings.Count - 1);
+        }
+        else if (e.Key == "ArrowUp")
+        {
+            highlightedIndex = Math.Max(highlightedIndex - 1, 0);
+        }
+        else if (e.Key == "Enter" && highlightedIndex >= 0 && highlightedIndex < cachedFilteredRidings.Count)
+        {
+            SelectRiding(cachedFilteredRidings[highlightedIndex]);
+        }
+        else if (e.Key == "Escape")
+        {
+            showDropdown = false;
+        }
+    }
+
+    private void SelectRiding(Riding riding)
+    {
+        selectedRiding = riding;
+        searchText = riding.Name;
+        showDropdown = false;
+        highlightedIndex = -1;
+    }
+
+    private void ClearSelection()
+    {
+        selectedRiding = null;
+        searchText = "";
+        showDropdown = false;
+        highlightedIndex = -1;
+        cachedFilteredRidings = new();
+        ClearCompareSelection();
+    }
+
+    private void UpdateCompareFilteredRidings()
+    {
+        cachedCompareFilteredRidings = string.IsNullOrWhiteSpace(compareSearchText) || Ridings == null
+            ? new List<Riding>()
+            : Ridings
+                .Where(r => r.Name.Contains(compareSearchText, StringComparison.OrdinalIgnoreCase)
+                            && r.Id != selectedRiding?.Id)
+                .OrderBy(r => r.Name)
+                .Take(8)
+                .ToList();
+    }
+
+    private void OnCompareSearchInput(ChangeEventArgs e)
+    {
+        compareSearchText = e.Value?.ToString() ?? "";
+        compareRiding = null;
+        showCompareDropdown = true;
+        compareHighlightedIndex = -1;
+        UpdateCompareFilteredRidings();
+    }
+
+    private void OnCompareFocus()
+    {
+        showCompareDropdown = true;
+        compareHighlightedIndex = -1;
+        UpdateCompareFilteredRidings();
+    }
+
+    private void OnCompareKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "ArrowDown")
+        {
+            compareHighlightedIndex = Math.Min(compareHighlightedIndex + 1, cachedCompareFilteredRidings.Count - 1);
+        }
+        else if (e.Key == "ArrowUp")
+        {
+            compareHighlightedIndex = Math.Max(compareHighlightedIndex - 1, 0);
+        }
+        else if (e.Key == "Enter" && compareHighlightedIndex >= 0 && compareHighlightedIndex < cachedCompareFilteredRidings.Count)
+        {
+            SelectCompareRiding(cachedCompareFilteredRidings[compareHighlightedIndex]);
+        }
+        else if (e.Key == "Escape")
+        {
+            showCompareDropdown = false;
+        }
+    }
+
+    private void SelectCompareRiding(Riding riding)
+    {
+        compareRiding = riding;
+        compareSearchText = riding.Name;
+        showCompareDropdown = false;
+        compareHighlightedIndex = -1;
+    }
+
+    private void ClearCompareSelection()
+    {
+        compareRiding = null;
+        compareSearchText = "";
+        showCompareDropdown = false;
+        compareHighlightedIndex = -1;
+        cachedCompareFilteredRidings = new();
+    }
+
+    private record DemoItem(string Label, double Value, string Tooltip);
+
+    private static List<DemoItem> GetDemoValues(RidingDemographics d) =>
+    [
+        new("Income", d.MedianIncome, "Median household income, normalized 0\u2013100% across all ridings (2021 Census)"),
+        new("University", d.PctUniversityEducated, "% of adults (25+) with a bachelor\u2019s degree or higher (2021 Census)"),
+        new("Vis. Min.", d.PctVisibleMinority, "% of population identifying as a visible minority (2021 Census)"),
+        new("Immigrant", d.PctImmigrant, "% of population who are immigrants (landed or admitted) (2021 Census)"),
+        new("Franco.", d.PctFrancophone, "% of population with French as first official language spoken (2021 Census)"),
+        new("Detached", d.PctSingleDetached, "% of dwellings that are single-detached houses \u2014 proxy for rural/suburban character (2021 Census)"),
+        new("Age", d.MedianAge, "Median age of the population, normalized 0\u2013100% across all ridings (2021 Census)"),
+        new("Indig.", d.PctIndigenous, "% of population identifying as Indigenous (First Nations, M\u00e9tis, or Inuit) (2021 Census)"),
+        new("Owner", d.PctHomeowner, "% of households that own their dwelling (2021 Census)"),
+    ];
+}

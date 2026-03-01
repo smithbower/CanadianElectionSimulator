@@ -1,0 +1,343 @@
+@page "/methodology"
+
+<PageTitle>Methodology - Election Simulator</PageTitle>
+
+<div class="methodology">
+    <h1>Methodology</h1>
+
+    <section>
+        <h2>Overview</h2>
+        <p>
+            This simulator projects Canadian federal election results riding-by-riding using
+            <strong>Monte Carlo simulation</strong> with an <strong>additive swing</strong> model.
+            It runs 10,000 simulated elections, each with randomly generated polling errors drawn from
+            heavy-tailed <strong>Student-t distributions</strong> with correlated inter-party noise,
+            to produce probabilistic seat projections with confidence intervals.
+        </p>
+    </section>
+
+    <section>
+        <h2>Swing Model</h2>
+        <p>
+            The model starts with a baseline election result (e.g., 2025 or 2021) and adjusts each
+            riding's vote shares based on how polls have shifted in that riding's region since the baseline.
+        </p>
+        <p>For each party in each region, an <strong>additive delta</strong> is computed:</p>
+        <div class="formula">
+            delta = current regional poll &minus; baseline regional average
+        </div>
+        <p>
+            Each riding's baseline vote shares are then shifted by the delta for their region,
+            clamped to zero, and renormalized so all parties sum to 100%. This preserves local variation
+            while applying regional trends.
+        </p>
+
+        <h3>Why Additive Swing?</h3>
+        <p>
+            Validation across 4 election transitions showed additive swing has 5.6% lower projection
+            RMSE than the proportional (ratio-based) alternative. An alpha sweep confirmed that pure additive
+            swing minimizes average Brier score, with monotonic improvement from proportional to additive.
+            The model supports blending between the two approaches via the <code>SwingBlendAlpha</code>
+            parameter (0.0 = pure additive, 1.0 = pure proportional), but defaults to pure additive.
+        </p>
+
+        <h3>Missing Ridings</h3>
+        <p>
+            Due to the 2021&ndash;2025 redistribution, roughly 30 Ontario ridings (and some others) have no
+            baseline election data. For these ridings, the model falls back to using the regional polling
+            averages directly as projected vote shares.
+        </p>
+    </section>
+
+    <section>
+        <h2>Noise Model</h2>
+        <p>
+            Polls are imperfect, so the simulator models uncertainty at three hierarchical levels.
+            Noise is drawn from <strong>Student-t distributions</strong> (degrees of freedom = 5) rather
+            than Gaussian to capture heavy-tailed election surprises&mdash;empirical analysis of residuals
+            across 5 election transitions showed significant excess kurtosis that normal distributions
+            cannot represent.
+        </p>
+        <p>
+            A scale factor of <code>&radic;((df&minus;2)/df)</code> &asymp; 0.775 is applied so the
+            effective standard deviation matches the configured sigma values despite the heavier tails.
+        </p>
+
+        <h3>Three Levels of Noise</h3>
+        <ul>
+            <li>
+                <strong>National noise</strong> (per-party sigma, see below):
+                One draw per party, shared across all ridings. Captures systematic polling bias&mdash;e.g.,
+                polls overestimate the Liberals nationwide.
+            </li>
+            <li>
+                <strong>Regional noise</strong> (base &sigma; = 2.6%, scaled by region):
+                One draw per party per region. Captures region-specific polling errors beyond the national trend.
+            </li>
+            <li>
+                <strong>Riding noise</strong> (base &sigma; = 6.5%, scaled by region):
+                One draw per party per riding. Captures local-level randomness, candidate effects, and other
+                riding-specific factors.
+            </li>
+        </ul>
+        <p>
+            In each simulation, errors from all three levels are summed and added to the projected
+            vote shares. Negative values are clamped to zero, and shares are renormalized per riding.
+            The winner of each riding is the party with the highest adjusted vote share (first-past-the-post).
+        </p>
+
+        <h3>Correlated Party Noise</h3>
+        <p>
+            Party noise is not drawn independently. Instead, the simulator uses <strong>Cholesky-decomposed
+            correlation matrices</strong> so that when one party receives a positive shock, competing parties
+            tend to receive negative shocks&mdash;reflecting the zero-sum nature of vote share competition.
+        </p>
+        <p>
+            The 6&times;6 inter-party correlation matrix was estimated from demeaned residuals across
+            5 election transitions (2008&ndash;2025), using 1,431 riding observations. Key correlations include:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Party Pair</th>
+                    <th>Correlation</th>
+                    <th>Interpretation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>LPC &ndash; BQ</td><td>&minus;0.83</td><td>Strong competition in Quebec</td></tr>
+                <tr><td>LPC &ndash; PPC</td><td>&minus;0.93</td><td>Strong inverse relationship</td></tr>
+                <tr><td>LPC &ndash; NDP</td><td>&minus;0.58</td><td>Left-of-center competition</td></tr>
+                <tr><td>NDP &ndash; PPC</td><td>+0.61</td><td>Both gain when LPC declines</td></tr>
+                <tr><td>BQ &ndash; PPC</td><td>+0.82</td><td>Both gain when LPC declines</td></tr>
+                <tr><td>LPC &ndash; CPC</td><td>&minus;0.18</td><td>Mild direct competition</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Parameters</h2>
+
+        <h3>Default Configuration</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Simulations</td><td>10,000</td><td>Number of Monte Carlo iterations</td></tr>
+                <tr><td>National &sigma;</td><td>6.0%</td><td>Fallback national noise (when no per-party value)</td></tr>
+                <tr><td>Regional &sigma;</td><td>2.6%</td><td>Regional noise base (before per-region scaling)</td></tr>
+                <tr><td>Riding &sigma;</td><td>6.5%</td><td>Riding noise base (before per-region scaling)</td></tr>
+                <tr><td>Degrees of Freedom</td><td>5</td><td>Student-t df (higher = closer to Gaussian)</td></tr>
+                <tr><td>Swing Blend</td><td>0.0</td><td>Pure additive swing</td></tr>
+                <tr><td>Correlated Noise</td><td>On</td><td>Cholesky-based inter-party correlations</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Per-Party National Sigma</h3>
+        <p>
+            Each party has its own national-level sigma, derived from empirical residuals across 4 election
+            transitions. Parties with more volatile historical results receive larger noise.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Party</th>
+                    <th>National &sigma;</th>
+                    <th>Rationale</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>LPC</td><td>12.0%</td><td>Highest volatility&mdash;large swings in 2015 and 2025</td></tr>
+                <tr><td>CPC</td><td>8.0%</td><td>Second most volatile, consistent across transitions</td></tr>
+                <tr><td>GPC</td><td>7.0%</td><td>High relative to vote share</td></tr>
+                <tr><td>NDP</td><td>6.0%</td><td>Moderate volatility</td></tr>
+                <tr><td>BQ</td><td>4.0%</td><td>Most stable&mdash;concentrated in Quebec</td></tr>
+                <tr><td>PPC</td><td>3.0%</td><td>Low absolute volatility; only existed since 2019</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Per-Region Sigma Multipliers</h3>
+        <p>
+            Both regional and riding sigma are scaled by a per-region multiplier to account for
+            geographic volatility differences. Multipliers were derived from empirical residual
+            standard deviation ratios across 4 election transitions.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>Multiplier</th>
+                    <th>Effective Regional &sigma;</th>
+                    <th>Effective Riding &sigma;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Alberta</td><td>1.41</td><td>3.7%</td><td>9.2%</td></tr>
+                <tr><td>Quebec</td><td>1.22</td><td>3.2%</td><td>7.9%</td></tr>
+                <tr><td>British Columbia</td><td>1.06</td><td>2.8%</td><td>6.9%</td></tr>
+                <tr><td>Prairies</td><td>0.85</td><td>2.2%</td><td>5.5%</td></tr>
+                <tr><td>Ontario</td><td>0.81</td><td>2.1%</td><td>5.3%</td></tr>
+                <tr><td>Atlantic</td><td>0.43</td><td>1.1%</td><td>2.8%</td></tr>
+                <tr><td>North</td><td>0.50</td><td>1.3%</td><td>3.3%</td></tr>
+            </tbody>
+        </table>
+        <p class="note">
+            The North multiplier uses a floor of 0.50 rather than the raw ratio (0.20) because the
+            empirical estimate is unreliable with only 3 ridings.
+        </p>
+    </section>
+
+    <section>
+        <h2>Demographic Prior (Optional)</h2>
+        <p>
+            When enabled, the simulator blends swing-projected vote shares with a census-based
+            demographic prior before the Monte Carlo noise stage. This uses <strong>ridge regression</strong>
+            fitted on historical election results paired with 9 census variables from the 2021 Census
+            (retabulated to the 2023 Representation Order):
+        </p>
+        <ul>
+            <li>Median household income</li>
+            <li>University education rate (Bachelor's+)</li>
+            <li>Visible minority percentage</li>
+            <li>Immigrant percentage</li>
+            <li>Francophone percentage</li>
+            <li>Population density (log-transformed)</li>
+            <li>Median age</li>
+            <li>Indigenous identity percentage</li>
+            <li>Homeownership rate</li>
+        </ul>
+        <p>
+            Ridings with no historical baseline data (due to redistribution) receive a higher blend weight,
+            giving the demographic model more influence where swing projections are unavailable.
+            This feature is off by default.
+        </p>
+    </section>
+
+    <section>
+        <h2>Interpreting Results</h2>
+        <ul>
+            <li>The <strong>mean seats</strong> is the average across all 10,000 simulations.</li>
+            <li>The <strong>50% confidence interval</strong> (dark bar) represents the 25th to 75th percentile range.</li>
+            <li>The <strong>90% confidence interval</strong> (light bar) represents the 5th to 95th percentile range.</li>
+            <li><strong>Majority probability</strong> is the fraction of simulations where a party wins 172+ seats (out of 343).</li>
+            <li><strong>Minority probability</strong> is the fraction of simulations where a party leads in seats but with fewer than 172.</li>
+            <li><strong>Riding win probability</strong> is the fraction of simulations where a party wins that specific riding.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Data Sources</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Source</th>
+                    <th>Data</th>
+                    <th>Coverage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Elections Canada</strong></td>
+                    <td>Official riding-level results</td>
+                    <td>2008, 2011, 2015, 2019, 2021, 2025</td>
+                </tr>
+                <tr>
+                    <td><strong>338Canada</strong></td>
+                    <td>Riding-level polling projections</td>
+                    <td>Current cycle</td>
+                </tr>
+                <tr>
+                    <td><strong>CBC Poll Tracker</strong></td>
+                    <td>Aggregate polling by region</td>
+                    <td>Current cycle</td>
+                </tr>
+                <tr>
+                    <td><strong>Statistics Canada</strong></td>
+                    <td>2021 Census demographics (343 FEDs, 2023 RO)</td>
+                    <td>9 demographic variables</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            Historical election results are mapped to the current 343-riding boundaries (2023 Representation
+            Order). Elections with 338 ridings (2015&ndash;2021) map to ~279 current ridings; elections with
+            308 ridings (2008&ndash;2011) map to ~251. Where multiple old ridings map to one new riding,
+            vote shares are averaged weighted by total votes.
+        </p>
+    </section>
+
+    <section>
+        <h2>Validation</h2>
+        <p>
+            The model is validated using <strong>hindcasting</strong>: predicting a known election from the
+            immediately prior election's results (used as both the baseline and the "polling" input).
+            This tests how well the swing model and noise calibration perform on real historical shifts.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hindcast</th>
+                    <th>Riding Accuracy</th>
+                    <th>Brier Score</th>
+                    <th>CI Coverage (P5&ndash;P95)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>2025 from 2021</td><td>77.0%</td><td>0.375</td><td>85.4%</td></tr>
+                <tr><td>2021 from 2019</td><td>93.2%</td><td>0.167</td><td>99.6%</td></tr>
+                <tr><td>2019 from 2015</td><td>87.1%</td><td>0.219</td><td>99.0%</td></tr>
+                <tr><td>2015 from 2011</td><td>59.5%</td><td>0.573</td><td>82.4%</td></tr>
+                <tr><td>2011 from 2008</td><td>90.4%</td><td>0.178</td><td>98.7%</td></tr>
+            </tbody>
+        </table>
+        <p class="note">
+            Brier score measures prediction accuracy (lower is better; random guessing &asymp; 0.75 for
+            a multi-party system). CI coverage is the fraction of actual riding-level vote shares falling
+            within the model's 5th&ndash;95th percentile interval (target: 90%).
+        </p>
+        <p>
+            The 2015-from-2011 hindcast is the hardest&mdash;the 2015 election saw the largest swing in
+            modern Canadian history (LPC surge from 3rd place to a majority, NDP collapse). The
+            2021-from-2019 hindcast is easiest, as the 2019&ndash;2021 shift was minimal.
+        </p>
+    </section>
+
+    <section>
+        <h2>Limitations</h2>
+        <ul>
+            <li>
+                The additive swing model assumes uniform movement within regions, which may miss local dynamics
+                such as strong incumbent effects or local candidate quality.
+            </li>
+            <li>
+                The combined model sigma (~8&ndash;14% depending on party) is below the full empirical residual
+                standard deviation (~23%). The gap is mostly systematic swing model error that cannot be
+                captured as random noise without making the model too uncertain.
+            </li>
+            <li>
+                The model is somewhat overconfident at the highest confidence levels&mdash;ridings predicted
+                at 90&ndash;100% confidence actually flip about 12% of the time.
+            </li>
+            <li>
+                Student-t noise with df=5 produces kurtosis of 6, partially but not fully addressing the
+                empirical excess kurtosis of ~47.
+            </li>
+            <li>
+                Strategic voting, turnout variation, and candidate-specific effects are not explicitly modeled.
+            </li>
+            <li>
+                The BQ is constrained to Quebec ridings; other regional patterns are handled via the
+                6-region breakdown (Atlantic, Quebec, Ontario, Prairies, Alberta, British Columbia, North).
+            </li>
+            <li>
+                Ridings created during the 2022 redistribution have no pre-2025 historical data and rely
+                on regional polling averages (or the demographic prior if enabled).
+            </li>
+        </ul>
+    </section>
+</div>

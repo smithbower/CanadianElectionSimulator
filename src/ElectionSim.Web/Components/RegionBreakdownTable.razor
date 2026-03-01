@@ -1,0 +1,122 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+@inject DataService DataService
+@inject SimulationState State
+
+<div class="region-table">
+    <h3>Regional Breakdown</h3>
+
+    @if (Summary != null && Ridings != null)
+    {
+        var baselineSeats = GetBaselineSeats();
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Province</th>
+                    <th>Ridings</th>
+                    @foreach (var party in PartyColorProvider.MainParties)
+                    {
+                        <th style="color: @PartyColorProvider.GetColor(party)">@PartyColorProvider.GetShortName(party)</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var province in Ridings.Select(r => r.Province).Distinct()
+                    .OrderBy(p => { var i = Array.IndexOf(ProvinceOrder, p); return i < 0 ? 999 : i; }))
+                {
+                    var provinceRidings = Ridings.Where(r => r.Province == province).ToList();
+
+                    <tr>
+                        <td class="region-name">@(ProvinceAbbreviations.GetValueOrDefault(province, province))</td>
+                        <td class="riding-count">@provinceRidings.Count</td>
+                        @foreach (var party in PartyColorProvider.MainParties)
+                        {
+                            double seats = 0;
+                            foreach (var riding in provinceRidings)
+                            {
+                                if (Summary.RidingWinProbabilities.TryGetValue(riding.Id, out var probs))
+                                    seats += probs.GetValueOrDefault(party, 0);
+                            }
+                            var color = PartyColorProvider.GetColor(party);
+                            var baselineCount = baselineSeats.GetValueOrDefault(province)?.GetValueOrDefault(party, 0) ?? 0;
+                            var delta = (int)Math.Round(seats) - baselineCount;
+                            <td class="seat-cell">
+                                <span style="color: @(seats >= 1 ? color : "#999")">@Math.Round(seats).ToString("F0")</span>@if (delta > 0)
+                                {<span class="seat-delta" style="color: #16a34a">▲@delta</span>}
+                                else if (delta < 0)
+                                {<span class="seat-delta" style="color: #dc2626">▼@Math.Abs(delta)</span>}
+                            </td>
+                        }
+                    </tr>
+                }
+                <tr class="total-row">
+                    <td class="region-name"><strong>Total</strong></td>
+                    <td class="riding-count"><strong>@Ridings.Count</strong></td>
+                    @foreach (var party in PartyColorProvider.MainParties)
+                    {
+                        var dist = Summary.SeatDistributions.GetValueOrDefault(party);
+                        var projectedSeats = (int)Math.Round(dist?.Mean ?? 0);
+                        var totalBaseline = baselineSeats.Values.Sum(d => d.GetValueOrDefault(party, 0));
+                        var delta = projectedSeats - totalBaseline;
+                        <td class="seat-cell">
+                            <strong style="color: @PartyColorProvider.GetColor(party)">
+                                @(dist?.Mean.ToString("F0") ?? "0")
+                            </strong>@if (delta > 0)
+                            {<span class="seat-delta" style="color: #16a34a">▲@delta</span>}
+                            else if (delta < 0)
+                            {<span class="seat-delta" style="color: #dc2626">▼@Math.Abs(delta)</span>}
+                        </td>
+                    }
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    private static readonly Dictionary<string, string> ProvinceAbbreviations = new()
+    {
+        ["British Columbia"] = "BC", ["Alberta"] = "AB",
+        ["Saskatchewan"] = "SK", ["Manitoba"] = "MB",
+        ["Ontario"] = "ON", ["Quebec"] = "QC",
+        ["New Brunswick"] = "NB", ["Nova Scotia"] = "NS",
+        ["Prince Edward Island"] = "PE", ["Newfoundland and Labrador"] = "NL",
+        ["Nunavut"] = "NU", ["Northwest Territories"] = "NT", ["Yukon"] = "YT"
+    };
+
+    private static readonly string[] ProvinceOrder = [
+        "Nunavut", "Northwest Territories", "Yukon",
+        "British Columbia", "Alberta", "Saskatchewan", "Manitoba",
+        "Ontario", "Quebec",
+        "New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland and Labrador"
+    ];
+
+    [Parameter] public SimulationSummary? Summary { get; set; }
+    [Parameter] public IReadOnlyList<Riding>? Ridings { get; set; }
+
+    private Dictionary<string, Dictionary<Party, int>> GetBaselineSeats()
+    {
+        var results = State.BaselineYear switch
+        {
+            2021 => DataService.Results2021,
+            _ => DataService.Results2025
+        };
+        if (results == null || Ridings == null) return new();
+
+        var baselineSeats = new Dictionary<string, Dictionary<Party, int>>();
+        foreach (var riding in Ridings)
+        {
+            var result = results.FirstOrDefault(r => r.RidingId == riding.Id);
+            if (result == null) continue;
+            var winner = result.Candidates.OrderByDescending(c => c.VoteShare).First().Party;
+
+            if (!baselineSeats.ContainsKey(riding.Province))
+                baselineSeats[riding.Province] = new();
+
+            baselineSeats[riding.Province].TryGetValue(winner, out var count);
+            baselineSeats[riding.Province][winner] = count + 1;
+        }
+        return baselineSeats;
+    }
+}

@@ -1,0 +1,9800 @@
+[
+  {
+    "ridingId": 10001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18608,
+        "voteShare": 0.5009692009476632
+      },
+      {
+        "party": 1,
+        "votes": 12738,
+        "voteShare": 0.3429356019814775
+      },
+      {
+        "party": 2,
+        "votes": 5151,
+        "voteShare": 0.13867650226146888
+      },
+      {
+        "party": 5,
+        "votes": 647,
+        "voteShare": 0.01741869480939048
+      }
+    ],
+    "totalVotes": 37144
+  },
+  {
+    "ridingId": 10002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 13972,
+        "voteShare": 0.4658730952619119
+      },
+      {
+        "party": 1,
+        "votes": 12278,
+        "voteShare": 0.40938948351172016
+      },
+      {
+        "party": 2,
+        "votes": 2484,
+        "voteShare": 0.08282484745423627
+      },
+      {
+        "party": 5,
+        "votes": 1257,
+        "voteShare": 0.04191257377213164
+      }
+    ],
+    "totalVotes": 29991
+  },
+  {
+    "ridingId": 10003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 14927,
+        "voteShare": 0.4689011748445059
+      },
+      {
+        "party": 0,
+        "votes": 14646,
+        "voteShare": 0.4600741345730979
+      },
+      {
+        "party": 2,
+        "votes": 2261,
+        "voteShare": 0.07102469058239617
+      }
+    ],
+    "totalVotes": 31834
+  },
+  {
+    "ridingId": 10004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 4119,
+        "voteShare": 0.42670672329845644
+      },
+      {
+        "party": 1,
+        "votes": 2930,
+        "voteShare": 0.30353258054490834
+      },
+      {
+        "party": 2,
+        "votes": 2297,
+        "voteShare": 0.23795711177872164
+      },
+      {
+        "party": 5,
+        "votes": 307,
+        "voteShare": 0.0318035843779136
+      }
+    ],
+    "totalVotes": 9653
+  },
+  {
+    "ridingId": 10005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16178,
+        "voteShare": 0.4438774110352018
+      },
+      {
+        "party": 1,
+        "votes": 14344,
+        "voteShare": 0.3935577688149916
+      },
+      {
+        "party": 2,
+        "votes": 4347,
+        "voteShare": 0.11926907564408594
+      },
+      {
+        "party": 5,
+        "votes": 1578,
+        "voteShare": 0.043295744505720636
+      }
+    ],
+    "totalVotes": 36447
+  },
+  {
+    "ridingId": 10006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17239,
+        "voteShare": 0.4516255796285138
+      },
+      {
+        "party": 2,
+        "votes": 13090,
+        "voteShare": 0.3429304969741427
+      },
+      {
+        "party": 1,
+        "votes": 7119,
+        "voteShare": 0.18650284247203375
+      },
+      {
+        "party": 5,
+        "votes": 723,
+        "voteShare": 0.01894108092530979
+      }
+    ],
+    "totalVotes": 38171
+  },
+  {
+    "ridingId": 10007,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19478,
+        "voteShare": 0.5617141538816472
+      },
+      {
+        "party": 2,
+        "votes": 8113,
+        "voteShare": 0.23396585534663744
+      },
+      {
+        "party": 1,
+        "votes": 6447,
+        "voteShare": 0.18592109816587843
+      },
+      {
+        "party": 5,
+        "votes": 638,
+        "voteShare": 0.01839889260583689
+      }
+    ],
+    "totalVotes": 34676
+  },
+  {
+    "ridingId": 11001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 11175,
+        "voteShare": 0.5057934280800217
+      },
+      {
+        "party": 1,
+        "votes": 6817,
+        "voteShare": 0.3085453064180321
+      },
+      {
+        "party": 2,
+        "votes": 2168,
+        "voteShare": 0.09812618810536797
+      },
+      {
+        "party": 4,
+        "votes": 1064,
+        "voteShare": 0.04815787091518059
+      },
+      {
+        "party": 5,
+        "votes": 725,
+        "voteShare": 0.03281433873449805
+      },
+      {
+        "party": 6,
+        "votes": 145,
+        "voteShare": 0.006562867746899611
+      }
+    ],
+    "totalVotes": 22094
+  },
+  {
+    "ridingId": 11002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 8919,
+        "voteShare": 0.4669633507853403
+      },
+      {
+        "party": 1,
+        "votes": 5932,
+        "voteShare": 0.3105759162303665
+      },
+      {
+        "party": 2,
+        "votes": 2048,
+        "voteShare": 0.10722513089005235
+      },
+      {
+        "party": 4,
+        "votes": 1832,
+        "voteShare": 0.09591623036649215
+      },
+      {
+        "party": 5,
+        "votes": 369,
+        "voteShare": 0.01931937172774869
+      }
+    ],
+    "totalVotes": 19100
+  },
+  {
+    "ridingId": 11003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 9040,
+        "voteShare": 0.46214406216451104
+      },
+      {
+        "party": 1,
+        "votes": 6088,
+        "voteShare": 0.31123153213025917
+      },
+      {
+        "party": 4,
+        "votes": 1771,
+        "voteShare": 0.09053729359439701
+      },
+      {
+        "party": 2,
+        "votes": 1688,
+        "voteShare": 0.08629415674045295
+      },
+      {
+        "party": 5,
+        "votes": 974,
+        "voteShare": 0.04979295537037984
+      }
+    ],
+    "totalVotes": 19561
+  },
+  {
+    "ridingId": 11004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 9912,
+        "voteShare": 0.4181043573628042
+      },
+      {
+        "party": 1,
+        "votes": 7836,
+        "voteShare": 0.33053528493693846
+      },
+      {
+        "party": 4,
+        "votes": 3381,
+        "voteShare": 0.1426161049479057
+      },
+      {
+        "party": 2,
+        "votes": 1898,
+        "voteShare": 0.08006074155312777
+      },
+      {
+        "party": 5,
+        "votes": 680,
+        "voteShare": 0.028683511199223858
+      }
+    ],
+    "totalVotes": 23707
+  },
+  {
+    "ridingId": 12001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18288,
+        "voteShare": 0.46463414634146344
+      },
+      {
+        "party": 1,
+        "votes": 13805,
+        "voteShare": 0.35073678861788615
+      },
+      {
+        "party": 2,
+        "votes": 5618,
+        "voteShare": 0.14273373983739837
+      },
+      {
+        "party": 5,
+        "votes": 1649,
+        "voteShare": 0.04189532520325203
+      }
+    ],
+    "totalVotes": 39360
+  },
+  {
+    "ridingId": 12003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18682,
+        "voteShare": 0.4615802737559915
+      },
+      {
+        "party": 1,
+        "votes": 13060,
+        "voteShare": 0.32267628601077236
+      },
+      {
+        "party": 2,
+        "votes": 6225,
+        "voteShare": 0.15380244107328161
+      },
+      {
+        "party": 5,
+        "votes": 1445,
+        "voteShare": 0.035701932104560956
+      },
+      {
+        "party": 6,
+        "votes": 568,
+        "voteShare": 0.01403370064732915
+      },
+      {
+        "party": 4,
+        "votes": 494,
+        "voteShare": 0.012205366408064437
+      }
+    ],
+    "totalVotes": 40474
+  },
+  {
+    "ridingId": 12004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18601,
+        "voteShare": 0.4602271321473637
+      },
+      {
+        "party": 0,
+        "votes": 13822,
+        "voteShare": 0.34198480837271444
+      },
+      {
+        "party": 2,
+        "votes": 4984,
+        "voteShare": 0.12331444689115965
+      },
+      {
+        "party": 5,
+        "votes": 1687,
+        "voteShare": 0.041739861939282974
+      },
+      {
+        "party": 4,
+        "votes": 1045,
+        "voteShare": 0.025855456862211447
+      },
+      {
+        "party": 6,
+        "votes": 278,
+        "voteShare": 0.006878293787267734
+      }
+    ],
+    "totalVotes": 40417
+  },
+  {
+    "ridingId": 12005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24209,
+        "voteShare": 0.5305733321644605
+      },
+      {
+        "party": 2,
+        "votes": 15267,
+        "voteShare": 0.334597177171912
+      },
+      {
+        "party": 5,
+        "votes": 4781,
+        "voteShare": 0.10478215131059876
+      },
+      {
+        "party": 4,
+        "votes": 1371,
+        "voteShare": 0.03004733935302884
+      }
+    ],
+    "totalVotes": 45628
+  },
+  {
+    "ridingId": 12006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21905,
+        "voteShare": 0.4274313143927568
+      },
+      {
+        "party": 2,
+        "votes": 20347,
+        "voteShare": 0.3970301280049953
+      },
+      {
+        "party": 1,
+        "votes": 6601,
+        "voteShare": 0.128805026537621
+      },
+      {
+        "party": 4,
+        "votes": 1128,
+        "voteShare": 0.02201061504839213
+      },
+      {
+        "party": 5,
+        "votes": 1069,
+        "voteShare": 0.020859350608804245
+      },
+      {
+        "party": 6,
+        "votes": 198,
+        "voteShare": 0.003863565407430534
+      }
+    ],
+    "totalVotes": 51248
+  },
+  {
+    "ridingId": 12007,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24744,
+        "voteShare": 0.4848817385510768
+      },
+      {
+        "party": 2,
+        "votes": 12331,
+        "voteShare": 0.24163743606827223
+      },
+      {
+        "party": 1,
+        "votes": 11243,
+        "voteShare": 0.22031706217789188
+      },
+      {
+        "party": 5,
+        "votes": 1447,
+        "voteShare": 0.028355313436930492
+      },
+      {
+        "party": 4,
+        "votes": 1181,
+        "voteShare": 0.023142795555642647
+      },
+      {
+        "party": 6,
+        "votes": 85,
+        "voteShare": 0.0016656542101859653
+      }
+    ],
+    "totalVotes": 51031
+  },
+  {
+    "ridingId": 12008,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 39030,
+        "voteShare": 0.4309754643227844
+      },
+      {
+        "party": 1,
+        "votes": 25281,
+        "voteShare": 0.27915682074159137
+      },
+      {
+        "party": 2,
+        "votes": 20657,
+        "voteShare": 0.2280978776970473
+      },
+      {
+        "party": 5,
+        "votes": 3721,
+        "voteShare": 0.04108787350102692
+      },
+      {
+        "party": 4,
+        "votes": 1873,
+        "voteShare": 0.020681963737549967
+      }
+    ],
+    "totalVotes": 90562
+  },
+  {
+    "ridingId": 12010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33620,
+        "voteShare": 0.38949905000231705
+      },
+      {
+        "party": 0,
+        "votes": 32825,
+        "voteShare": 0.3802887066129107
+      },
+      {
+        "party": 2,
+        "votes": 16758,
+        "voteShare": 0.19414708744612819
+      },
+      {
+        "party": 4,
+        "votes": 1810,
+        "voteShare": 0.020969461050095
+      },
+      {
+        "party": 5,
+        "votes": 1176,
+        "voteShare": 0.013624357013763381
+      },
+      {
+        "party": 6,
+        "votes": 127,
+        "voteShare": 0.0014713378747856713
+      }
+    ],
+    "totalVotes": 86316
+  },
+  {
+    "ridingId": 12011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22104,
+        "voteShare": 0.5038408059994074
+      },
+      {
+        "party": 0,
+        "votes": 13732,
+        "voteShare": 0.31300859337603426
+      },
+      {
+        "party": 2,
+        "votes": 5645,
+        "voteShare": 0.128672699505368
+      },
+      {
+        "party": 5,
+        "votes": 2390,
+        "voteShare": 0.054477901119190354
+      }
+    ],
+    "totalVotes": 43871
+  },
+  {
+    "ridingId": 13001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 27817,
+        "voteShare": 0.6480825683798518
+      },
+      {
+        "party": 1,
+        "votes": 5916,
+        "voteShare": 0.13783141512511066
+      },
+      {
+        "party": 2,
+        "votes": 4906,
+        "voteShare": 0.11430035879036392
+      },
+      {
+        "party": 5,
+        "votes": 2531,
+        "voteShare": 0.058967429290340614
+      },
+      {
+        "party": 4,
+        "votes": 1203,
+        "voteShare": 0.028027584921485486
+      },
+      {
+        "party": 6,
+        "votes": 549,
+        "voteShare": 0.012790643492847491
+      }
+    ],
+    "totalVotes": 42922
+  },
+  {
+    "ridingId": 13002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 27313,
+        "voteShare": 0.5557635568216502
+      },
+      {
+        "party": 1,
+        "votes": 9526,
+        "voteShare": 0.19383457116695493
+      },
+      {
+        "party": 2,
+        "votes": 5394,
+        "voteShare": 0.10975684199816868
+      },
+      {
+        "party": 5,
+        "votes": 3723,
+        "voteShare": 0.0757554176416726
+      },
+      {
+        "party": 4,
+        "votes": 2798,
+        "voteShare": 0.0569335639434327
+      },
+      {
+        "party": 6,
+        "votes": 391,
+        "voteShare": 0.007956048428120867
+      }
+    ],
+    "totalVotes": 49145
+  },
+  {
+    "ridingId": 13003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16316,
+        "voteShare": 0.3702964005265308
+      },
+      {
+        "party": 1,
+        "votes": 15814,
+        "voteShare": 0.358903363442422
+      },
+      {
+        "party": 4,
+        "votes": 5666,
+        "voteShare": 0.1285915301166538
+      },
+      {
+        "party": 2,
+        "votes": 5564,
+        "voteShare": 0.1262766102310381
+      },
+      {
+        "party": 6,
+        "votes": 702,
+        "voteShare": 0.015932095683355272
+      }
+    ],
+    "totalVotes": 44062
+  },
+  {
+    "ridingId": 13004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21460,
+        "voteShare": 0.4835293587490424
+      },
+      {
+        "party": 0,
+        "votes": 11075,
+        "voteShare": 0.2495381010319499
+      },
+      {
+        "party": 2,
+        "votes": 6211,
+        "voteShare": 0.13994412149069443
+      },
+      {
+        "party": 5,
+        "votes": 3447,
+        "voteShare": 0.0776666216033527
+      },
+      {
+        "party": 4,
+        "votes": 2189,
+        "voteShare": 0.04932179712496057
+      }
+    ],
+    "totalVotes": 44382
+  },
+  {
+    "ridingId": 13005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16854,
+        "voteShare": 0.5517580043213514
+      },
+      {
+        "party": 1,
+        "votes": 7892,
+        "voteShare": 0.25836443396844105
+      },
+      {
+        "party": 5,
+        "votes": 1889,
+        "voteShare": 0.06184115759837622
+      },
+      {
+        "party": 2,
+        "votes": 1848,
+        "voteShare": 0.06049891966214889
+      },
+      {
+        "party": 6,
+        "votes": 1277,
+        "voteShare": 0.04180580108688536
+      },
+      {
+        "party": 4,
+        "votes": 786,
+        "voteShare": 0.025731683362797093
+      }
+    ],
+    "totalVotes": 30546
+  },
+  {
+    "ridingId": 13006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 14218,
+        "voteShare": 0.43743654431898593
+      },
+      {
+        "party": 0,
+        "votes": 12762,
+        "voteShare": 0.39264067932190877
+      },
+      {
+        "party": 2,
+        "votes": 2291,
+        "voteShare": 0.07048580131064824
+      },
+      {
+        "party": 5,
+        "votes": 1839,
+        "voteShare": 0.05657939267144571
+      },
+      {
+        "party": 4,
+        "votes": 1393,
+        "voteShare": 0.04285758237701135
+      }
+    ],
+    "totalVotes": 32503
+  },
+  {
+    "ridingId": 13007,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22460,
+        "voteShare": 0.49080022726279443
+      },
+      {
+        "party": 1,
+        "votes": 10692,
+        "voteShare": 0.233643634456536
+      },
+      {
+        "party": 2,
+        "votes": 7774,
+        "voteShare": 0.1698789388575674
+      },
+      {
+        "party": 5,
+        "votes": 2901,
+        "voteShare": 0.06339320833879639
+      },
+      {
+        "party": 4,
+        "votes": 1935,
+        "voteShare": 0.04228399108430576
+      }
+    ],
+    "totalVotes": 45762
+  },
+  {
+    "ridingId": 13008,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18309,
+        "voteShare": 0.49984984575063474
+      },
+      {
+        "party": 0,
+        "votes": 8750,
+        "voteShare": 0.238881760353818
+      },
+      {
+        "party": 2,
+        "votes": 4893,
+        "voteShare": 0.13358268038985505
+      },
+      {
+        "party": 5,
+        "votes": 3090,
+        "voteShare": 0.08435938737066259
+      },
+      {
+        "party": 4,
+        "votes": 1587,
+        "voteShare": 0.043326326135029625
+      }
+    ],
+    "totalVotes": 36629
+  },
+  {
+    "ridingId": 13009,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17375,
+        "voteShare": 0.46395193591455275
+      },
+      {
+        "party": 1,
+        "votes": 12315,
+        "voteShare": 0.3288384512683578
+      },
+      {
+        "party": 2,
+        "votes": 4816,
+        "voteShare": 0.12859813084112148
+      },
+      {
+        "party": 5,
+        "votes": 1996,
+        "voteShare": 0.0532977303070761
+      },
+      {
+        "party": 4,
+        "votes": 948,
+        "voteShare": 0.025313751668891857
+      }
+    ],
+    "totalVotes": 37450
+  },
+  {
+    "ridingId": 13010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17536,
+        "voteShare": 0.5097674418604651
+      },
+      {
+        "party": 0,
+        "votes": 8223,
+        "voteShare": 0.2390406976744186
+      },
+      {
+        "party": 2,
+        "votes": 3656,
+        "voteShare": 0.10627906976744186
+      },
+      {
+        "party": 5,
+        "votes": 2930,
+        "voteShare": 0.08517441860465116
+      },
+      {
+        "party": 4,
+        "votes": 1657,
+        "voteShare": 0.048168604651162794
+      },
+      {
+        "party": 6,
+        "votes": 398,
+        "voteShare": 0.011569767441860465
+      }
+    ],
+    "totalVotes": 34400
+  },
+  {
+    "ridingId": 24001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 10784,
+        "voteShare": 0.37923758615839076
+      },
+      {
+        "party": 0,
+        "votes": 7384,
+        "voteShare": 0.2596708397805599
+      },
+      {
+        "party": 1,
+        "votes": 4508,
+        "voteShare": 0.15853143902095934
+      },
+      {
+        "party": 2,
+        "votes": 3323,
+        "voteShare": 0.11685891123927417
+      },
+      {
+        "party": 5,
+        "votes": 1072,
+        "voteShare": 0.03769869179912787
+      },
+      {
+        "party": 6,
+        "votes": 923,
+        "voteShare": 0.032458854972569985
+      },
+      {
+        "party": 4,
+        "votes": 442,
+        "voteShare": 0.01554367702911802
+      }
+    ],
+    "totalVotes": 28436
+  },
+  {
+    "ridingId": 24002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 23120,
+        "voteShare": 0.5060742037868009
+      },
+      {
+        "party": 0,
+        "votes": 11013,
+        "voteShare": 0.24106380650103973
+      },
+      {
+        "party": 1,
+        "votes": 5339,
+        "voteShare": 0.11686549195578418
+      },
+      {
+        "party": 2,
+        "votes": 2794,
+        "voteShare": 0.06115792929845682
+      },
+      {
+        "party": 5,
+        "votes": 1538,
+        "voteShare": 0.03366531684360293
+      },
+      {
+        "party": 6,
+        "votes": 1133,
+        "voteShare": 0.02480026266827186
+      },
+      {
+        "party": 4,
+        "votes": 748,
+        "voteShare": 0.016372988946043558
+      }
+    ],
+    "totalVotes": 45685
+  },
+  {
+    "ridingId": 24003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26402,
+        "voteShare": 0.5237556785494654
+      },
+      {
+        "party": 3,
+        "votes": 11112,
+        "voteShare": 0.2204368267571267
+      },
+      {
+        "party": 2,
+        "votes": 5844,
+        "voteShare": 0.11593167886686902
+      },
+      {
+        "party": 1,
+        "votes": 4247,
+        "voteShare": 0.08425082822511853
+      },
+      {
+        "party": 4,
+        "votes": 1491,
+        "voteShare": 0.029578051538415757
+      },
+      {
+        "party": 5,
+        "votes": 1313,
+        "voteShare": 0.026046936063004622
+      }
+    ],
+    "totalVotes": 50409
+  },
+  {
+    "ridingId": 24004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24516,
+        "voteShare": 0.4783049789292961
+      },
+      {
+        "party": 3,
+        "votes": 13399,
+        "voteShare": 0.26141329795536133
+      },
+      {
+        "party": 1,
+        "votes": 6988,
+        "voteShare": 0.1363352583112221
+      },
+      {
+        "party": 2,
+        "votes": 3946,
+        "voteShare": 0.07698610894334322
+      },
+      {
+        "party": 6,
+        "votes": 1467,
+        "voteShare": 0.028621039488059934
+      },
+      {
+        "party": 4,
+        "votes": 940,
+        "voteShare": 0.01833931637271734
+      }
+    ],
+    "totalVotes": 51256
+  },
+  {
+    "ridingId": 24005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19371,
+        "voteShare": 0.3827277576907119
+      },
+      {
+        "party": 3,
+        "votes": 17842,
+        "voteShare": 0.35251812775373914
+      },
+      {
+        "party": 1,
+        "votes": 6547,
+        "voteShare": 0.1293541185071029
+      },
+      {
+        "party": 2,
+        "votes": 3390,
+        "voteShare": 0.0669788394286053
+      },
+      {
+        "party": 5,
+        "votes": 2777,
+        "voteShare": 0.05486732657617608
+      },
+      {
+        "party": 6,
+        "votes": 686,
+        "voteShare": 0.013553830043664672
+      }
+    ],
+    "totalVotes": 50613
+  },
+  {
+    "ridingId": 24006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30426,
+        "voteShare": 0.33786019654655486
+      },
+      {
+        "party": 3,
+        "votes": 28420,
+        "voteShare": 0.3155849203264672
+      },
+      {
+        "party": 0,
+        "votes": 14113,
+        "voteShare": 0.1567153406251735
+      },
+      {
+        "party": 5,
+        "votes": 11327,
+        "voteShare": 0.12577869080006662
+      },
+      {
+        "party": 2,
+        "votes": 3155,
+        "voteShare": 0.035034145799789015
+      },
+      {
+        "party": 6,
+        "votes": 2128,
+        "voteShare": 0.023630003886513797
+      },
+      {
+        "party": 4,
+        "votes": 486,
+        "voteShare": 0.0053967020154350115
+      }
+    ],
+    "totalVotes": 90055
+  },
+  {
+    "ridingId": 24008,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 15146,
+        "voteShare": 0.3113641970232711
+      },
+      {
+        "party": 1,
+        "votes": 14164,
+        "voteShare": 0.2911767124414111
+      },
+      {
+        "party": 0,
+        "votes": 12378,
+        "voteShare": 0.2544609818271524
+      },
+      {
+        "party": 2,
+        "votes": 5075,
+        "voteShare": 0.10432941369953129
+      },
+      {
+        "party": 4,
+        "votes": 1025,
+        "voteShare": 0.0210714579393142
+      },
+      {
+        "party": 6,
+        "votes": 856,
+        "voteShare": 0.017597237069319958
+      }
+    ],
+    "totalVotes": 48644
+  },
+  {
+    "ridingId": 24009,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 27403,
+        "voteShare": 0.5479832823404723
+      },
+      {
+        "party": 0,
+        "votes": 8451,
+        "voteShare": 0.16899634051232829
+      },
+      {
+        "party": 1,
+        "votes": 8404,
+        "voteShare": 0.16805647209390687
+      },
+      {
+        "party": 2,
+        "votes": 2550,
+        "voteShare": 0.05099286099946008
+      },
+      {
+        "party": 6,
+        "votes": 1215,
+        "voteShare": 0.024296598476213332
+      },
+      {
+        "party": 5,
+        "votes": 1214,
+        "voteShare": 0.024276601275821385
+      },
+      {
+        "party": 4,
+        "votes": 770,
+        "voteShare": 0.015397844301797749
+      }
+    ],
+    "totalVotes": 50007
+  },
+  {
+    "ridingId": 24010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32238,
+        "voteShare": 0.510240258301415
+      },
+      {
+        "party": 3,
+        "votes": 14669,
+        "voteShare": 0.23217055490487798
+      },
+      {
+        "party": 0,
+        "votes": 10074,
+        "voteShare": 0.15944414548447342
+      },
+      {
+        "party": 2,
+        "votes": 3184,
+        "voteShare": 0.05039409958532493
+      },
+      {
+        "party": 6,
+        "votes": 2099,
+        "voteShare": 0.03322148713241113
+      },
+      {
+        "party": 4,
+        "votes": 918,
+        "voteShare": 0.014529454591497579
+      }
+    ],
+    "totalVotes": 63182
+  },
+  {
+    "ridingId": 24011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 34678,
+        "voteShare": 0.5308615516502357
+      },
+      {
+        "party": 0,
+        "votes": 15502,
+        "voteShare": 0.23730941154858856
+      },
+      {
+        "party": 1,
+        "votes": 5661,
+        "voteShare": 0.0866603392321352
+      },
+      {
+        "party": 2,
+        "votes": 5524,
+        "voteShare": 0.084563100851142
+      },
+      {
+        "party": 6,
+        "votes": 1349,
+        "voteShare": 0.020650909313575407
+      },
+      {
+        "party": 5,
+        "votes": 1316,
+        "voteShare": 0.020145735105015
+      },
+      {
+        "party": 4,
+        "votes": 1294,
+        "voteShare": 0.019808952299308066
+      }
+    ],
+    "totalVotes": 65324
+  },
+  {
+    "ridingId": 24012,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 19339,
+        "voteShare": 0.35197015197015197
+      },
+      {
+        "party": 2,
+        "votes": 18402,
+        "voteShare": 0.3349167349167349
+      },
+      {
+        "party": 0,
+        "votes": 8403,
+        "voteShare": 0.15293475293475292
+      },
+      {
+        "party": 1,
+        "votes": 6007,
+        "voteShare": 0.10932750932750933
+      },
+      {
+        "party": 5,
+        "votes": 1496,
+        "voteShare": 0.027227227227227226
+      },
+      {
+        "party": 6,
+        "votes": 750,
+        "voteShare": 0.01365001365001365
+      },
+      {
+        "party": 4,
+        "votes": 548,
+        "voteShare": 0.009973609973609973
+      }
+    ],
+    "totalVotes": 54945
+  },
+  {
+    "ridingId": 24013,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22303,
+        "voteShare": 0.6038936423697606
+      },
+      {
+        "party": 3,
+        "votes": 6907,
+        "voteShare": 0.18701938698147946
+      },
+      {
+        "party": 2,
+        "votes": 2956,
+        "voteShare": 0.08003899057727716
+      },
+      {
+        "party": 1,
+        "votes": 2587,
+        "voteShare": 0.07004765515000541
+      },
+      {
+        "party": 5,
+        "votes": 1349,
+        "voteShare": 0.03652658940755984
+      },
+      {
+        "party": 4,
+        "votes": 679,
+        "voteShare": 0.01838514025777104
+      },
+      {
+        "party": 6,
+        "votes": 151,
+        "voteShare": 0.004088595256146431
+      }
+    ],
+    "totalVotes": 36932
+  },
+  {
+    "ridingId": 24014,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21488,
+        "voteShare": 0.34956320866750173
+      },
+      {
+        "party": 3,
+        "votes": 21291,
+        "voteShare": 0.34635844544582
+      },
+      {
+        "party": 1,
+        "votes": 9961,
+        "voteShare": 0.16204389061508678
+      },
+      {
+        "party": 2,
+        "votes": 3828,
+        "voteShare": 0.06227326706902442
+      },
+      {
+        "party": 5,
+        "votes": 1982,
+        "voteShare": 0.03224284622016886
+      },
+      {
+        "party": 4,
+        "votes": 1466,
+        "voteShare": 0.02384864407606839
+      },
+      {
+        "party": 6,
+        "votes": 1455,
+        "voteShare": 0.023669697906329813
+      }
+    ],
+    "totalVotes": 61471
+  },
+  {
+    "ridingId": 24015,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 28326,
+        "voteShare": 0.5410268164107266
+      },
+      {
+        "party": 3,
+        "votes": 10441,
+        "voteShare": 0.1994231797692719
+      },
+      {
+        "party": 1,
+        "votes": 6276,
+        "voteShare": 0.11987164794865918
+      },
+      {
+        "party": 2,
+        "votes": 5442,
+        "voteShare": 0.10394224157689663
+      },
+      {
+        "party": 5,
+        "votes": 1288,
+        "voteShare": 0.024600809840323937
+      },
+      {
+        "party": 6,
+        "votes": 583,
+        "voteShare": 0.011135304454121782
+      }
+    ],
+    "totalVotes": 52356
+  },
+  {
+    "ridingId": 24016,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25623,
+        "voteShare": 0.44679070254058484
+      },
+      {
+        "party": 3,
+        "votes": 14237,
+        "voteShare": 0.24825193115834626
+      },
+      {
+        "party": 0,
+        "votes": 11326,
+        "voteShare": 0.19749254564159793
+      },
+      {
+        "party": 2,
+        "votes": 3446,
+        "voteShare": 0.06008823170412736
+      },
+      {
+        "party": 5,
+        "votes": 1296,
+        "voteShare": 0.022598475997837802
+      },
+      {
+        "party": 4,
+        "votes": 972,
+        "voteShare": 0.01694885699837835
+      },
+      {
+        "party": 6,
+        "votes": 449,
+        "voteShare": 0.007829255959127448
+      }
+    ],
+    "totalVotes": 57349
+  },
+  {
+    "ridingId": 24018,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 34684,
+        "voteShare": 0.41219813652785703
+      },
+      {
+        "party": 1,
+        "votes": 22797,
+        "voteShare": 0.2709284084426697
+      },
+      {
+        "party": 0,
+        "votes": 18158,
+        "voteShare": 0.21579672941623884
+      },
+      {
+        "party": 2,
+        "votes": 4585,
+        "voteShare": 0.05448992203841035
+      },
+      {
+        "party": 6,
+        "votes": 2089,
+        "voteShare": 0.024826487925461115
+      },
+      {
+        "party": 5,
+        "votes": 1349,
+        "voteShare": 0.01603204031184636
+      },
+      {
+        "party": 4,
+        "votes": 482,
+        "voteShare": 0.0057282753375166385
+      }
+    ],
+    "totalVotes": 84144
+  },
+  {
+    "ridingId": 24019,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21188,
+        "voteShare": 0.3665997646895979
+      },
+      {
+        "party": 3,
+        "votes": 17681,
+        "voteShare": 0.3059208249705862
+      },
+      {
+        "party": 1,
+        "votes": 10087,
+        "voteShare": 0.1745276489722472
+      },
+      {
+        "party": 2,
+        "votes": 4288,
+        "voteShare": 0.0741919856045401
+      },
+      {
+        "party": 5,
+        "votes": 2167,
+        "voteShare": 0.03749394421759291
+      },
+      {
+        "party": 4,
+        "votes": 1623,
+        "voteShare": 0.02808152813343484
+      },
+      {
+        "party": 6,
+        "votes": 762,
+        "voteShare": 0.01318430341200083
+      }
+    ],
+    "totalVotes": 57796
+  },
+  {
+    "ridingId": 24020,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 19270,
+        "voteShare": 0.3843545556087442
+      },
+      {
+        "party": 1,
+        "votes": 15969,
+        "voteShare": 0.31851364289133555
+      },
+      {
+        "party": 0,
+        "votes": 10365,
+        "voteShare": 0.20673767352800382
+      },
+      {
+        "party": 2,
+        "votes": 2242,
+        "voteShare": 0.044718366044359345
+      },
+      {
+        "party": 5,
+        "votes": 881,
+        "voteShare": 0.01757220360619116
+      },
+      {
+        "party": 4,
+        "votes": 733,
+        "voteShare": 0.014620232966331578
+      },
+      {
+        "party": 6,
+        "votes": 676,
+        "voteShare": 0.013483325355034307
+      }
+    ],
+    "totalVotes": 50136
+  },
+  {
+    "ridingId": 24021,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18029,
+        "voteShare": 0.37033461372553045
+      },
+      {
+        "party": 3,
+        "votes": 18017,
+        "voteShare": 0.3700881211100384
+      },
+      {
+        "party": 1,
+        "votes": 5538,
+        "voteShare": 0.1137563420495861
+      },
+      {
+        "party": 2,
+        "votes": 3752,
+        "voteShare": 0.07707002444385104
+      },
+      {
+        "party": 5,
+        "votes": 1821,
+        "voteShare": 0.03740525440092024
+      },
+      {
+        "party": 4,
+        "votes": 801,
+        "voteShare": 0.016453382084095063
+      },
+      {
+        "party": 6,
+        "votes": 725,
+        "voteShare": 0.014892262185978678
+      }
+    ],
+    "totalVotes": 48683
+  },
+  {
+    "ridingId": 24022,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25233,
+        "voteShare": 0.5241478157911136
+      },
+      {
+        "party": 3,
+        "votes": 7542,
+        "voteShare": 0.15666479715834736
+      },
+      {
+        "party": 2,
+        "votes": 6241,
+        "voteShare": 0.12964001578695913
+      },
+      {
+        "party": 1,
+        "votes": 5754,
+        "voteShare": 0.1195238985480152
+      },
+      {
+        "party": 5,
+        "votes": 2020,
+        "voteShare": 0.04196007561122536
+      },
+      {
+        "party": 4,
+        "votes": 1351,
+        "voteShare": 0.028063397104339336
+      }
+    ],
+    "totalVotes": 48141
+  },
+  {
+    "ridingId": 24023,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 23866,
+        "voteShare": 0.4662329797417414
+      },
+      {
+        "party": 0,
+        "votes": 9614,
+        "voteShare": 0.1878137881185411
+      },
+      {
+        "party": 1,
+        "votes": 9179,
+        "voteShare": 0.1793158686436539
+      },
+      {
+        "party": 2,
+        "votes": 5709,
+        "voteShare": 0.11152786731524351
+      },
+      {
+        "party": 6,
+        "votes": 2821,
+        "voteShare": 0.055109496180820096
+      }
+    ],
+    "totalVotes": 51189
+  },
+  {
+    "ridingId": 24025,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26267,
+        "voteShare": 0.5003524010895861
+      },
+      {
+        "party": 3,
+        "votes": 12278,
+        "voteShare": 0.23388003123988038
+      },
+      {
+        "party": 1,
+        "votes": 5752,
+        "voteShare": 0.10956816579995048
+      },
+      {
+        "party": 2,
+        "votes": 4508,
+        "voteShare": 0.08587157361373031
+      },
+      {
+        "party": 5,
+        "votes": 2264,
+        "voteShare": 0.04312627388231709
+      },
+      {
+        "party": 4,
+        "votes": 783,
+        "voteShare": 0.014915138007886165
+      },
+      {
+        "party": 6,
+        "votes": 645,
+        "voteShare": 0.012286416366649523
+      }
+    ],
+    "totalVotes": 52497
+  },
+  {
+    "ridingId": 24026,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17099,
+        "voteShare": 0.46391556785501115
+      },
+      {
+        "party": 3,
+        "votes": 14481,
+        "voteShare": 0.3928862119485593
+      },
+      {
+        "party": 1,
+        "votes": 3010,
+        "voteShare": 0.08166476748602745
+      },
+      {
+        "party": 2,
+        "votes": 1358,
+        "voteShare": 0.03684410440067285
+      },
+      {
+        "party": 5,
+        "votes": 621,
+        "voteShare": 0.016848445384991046
+      },
+      {
+        "party": 6,
+        "votes": 289,
+        "voteShare": 0.007840902924738184
+      }
+    ],
+    "totalVotes": 36858
+  },
+  {
+    "ridingId": 24027,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29033,
+        "voteShare": 0.599743849284224
+      },
+      {
+        "party": 3,
+        "votes": 7908,
+        "voteShare": 0.1633580532545601
+      },
+      {
+        "party": 1,
+        "votes": 5086,
+        "voteShare": 0.10506310809973352
+      },
+      {
+        "party": 2,
+        "votes": 3537,
+        "voteShare": 0.0730649259435229
+      },
+      {
+        "party": 5,
+        "votes": 2023,
+        "voteShare": 0.041789749839905806
+      },
+      {
+        "party": 4,
+        "votes": 734,
+        "voteShare": 0.015162469788675659
+      },
+      {
+        "party": 6,
+        "votes": 88,
+        "voteShare": 0.0018178437893780082
+      }
+    ],
+    "totalVotes": 48409
+  },
+  {
+    "ridingId": 24028,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 45089,
+        "voteShare": 0.4556515587893487
+      },
+      {
+        "party": 3,
+        "votes": 23412,
+        "voteShare": 0.23659239048052144
+      },
+      {
+        "party": 2,
+        "votes": 16206,
+        "voteShare": 0.16377141124753675
+      },
+      {
+        "party": 1,
+        "votes": 7728,
+        "voteShare": 0.07809610428982872
+      },
+      {
+        "party": 5,
+        "votes": 2945,
+        "voteShare": 0.02976100247587287
+      },
+      {
+        "party": 4,
+        "votes": 2424,
+        "voteShare": 0.024495983022586022
+      },
+      {
+        "party": 6,
+        "votes": 1151,
+        "voteShare": 0.011631549694305493
+      }
+    ],
+    "totalVotes": 98955
+  },
+  {
+    "ridingId": 24030,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 19036,
+        "voteShare": 0.41861283370717334
+      },
+      {
+        "party": 1,
+        "votes": 13223,
+        "voteShare": 0.29078154549852664
+      },
+      {
+        "party": 0,
+        "votes": 9546,
+        "voteShare": 0.20992215331837974
+      },
+      {
+        "party": 2,
+        "votes": 2559,
+        "voteShare": 0.0562739147644808
+      },
+      {
+        "party": 4,
+        "votes": 738,
+        "voteShare": 0.016229053964903022
+      },
+      {
+        "party": 6,
+        "votes": 372,
+        "voteShare": 0.008180498746536482
+      }
+    ],
+    "totalVotes": 45474
+  },
+  {
+    "ridingId": 24031,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 54748,
+        "voteShare": 0.510337627472548
+      },
+      {
+        "party": 0,
+        "votes": 29239,
+        "voteShare": 0.27255355245250656
+      },
+      {
+        "party": 1,
+        "votes": 8741,
+        "voteShare": 0.08147989336117377
+      },
+      {
+        "party": 2,
+        "votes": 8054,
+        "voteShare": 0.07507597084211115
+      },
+      {
+        "party": 5,
+        "votes": 3170,
+        "voteShare": 0.029549395029735828
+      },
+      {
+        "party": 6,
+        "votes": 2200,
+        "voteShare": 0.020507466582151048
+      },
+      {
+        "party": 4,
+        "votes": 1126,
+        "voteShare": 0.010496094259773672
+      }
+    ],
+    "totalVotes": 107278
+  },
+  {
+    "ridingId": 24033,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 25466,
+        "voteShare": 0.5073211546506763
+      },
+      {
+        "party": 1,
+        "votes": 12899,
+        "voteShare": 0.256967547861426
+      },
+      {
+        "party": 0,
+        "votes": 9371,
+        "voteShare": 0.18668446321493315
+      },
+      {
+        "party": 2,
+        "votes": 1637,
+        "voteShare": 0.032611510648046696
+      },
+      {
+        "party": 4,
+        "votes": 824,
+        "voteShare": 0.016415323624917825
+      }
+    ],
+    "totalVotes": 50197
+  },
+  {
+    "ridingId": 24034,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 52947,
+        "voteShare": 0.4530612244897959
+      },
+      {
+        "party": 3,
+        "votes": 28940,
+        "voteShare": 0.2476361613827921
+      },
+      {
+        "party": 1,
+        "votes": 16789,
+        "voteShare": 0.14366148975313395
+      },
+      {
+        "party": 2,
+        "votes": 11996,
+        "voteShare": 0.10264835493946006
+      },
+      {
+        "party": 5,
+        "votes": 3244,
+        "voteShare": 0.027758524793565224
+      },
+      {
+        "party": 4,
+        "votes": 2851,
+        "voteShare": 0.024395670217772645
+      },
+      {
+        "party": 6,
+        "votes": 98,
+        "voteShare": 0.0008385744234800838
+      }
+    ],
+    "totalVotes": 116865
+  },
+  {
+    "ridingId": 24035,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20330,
+        "voteShare": 0.4292652027027027
+      },
+      {
+        "party": 3,
+        "votes": 10461,
+        "voteShare": 0.22088260135135135
+      },
+      {
+        "party": 2,
+        "votes": 9168,
+        "voteShare": 0.19358108108108107
+      },
+      {
+        "party": 1,
+        "votes": 3530,
+        "voteShare": 0.07453547297297297
+      },
+      {
+        "party": 5,
+        "votes": 1600,
+        "voteShare": 0.033783783783783786
+      },
+      {
+        "party": 4,
+        "votes": 1439,
+        "voteShare": 0.03038429054054054
+      },
+      {
+        "party": 6,
+        "votes": 832,
+        "voteShare": 0.01756756756756757
+      }
+    ],
+    "totalVotes": 47360
+  },
+  {
+    "ridingId": 24036,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 32133,
+        "voteShare": 0.5011150445238058
+      },
+      {
+        "party": 0,
+        "votes": 15966,
+        "voteShare": 0.24899022191725279
+      },
+      {
+        "party": 1,
+        "votes": 6770,
+        "voteShare": 0.10557834162469004
+      },
+      {
+        "party": 2,
+        "votes": 3907,
+        "voteShare": 0.060929775587542694
+      },
+      {
+        "party": 5,
+        "votes": 2432,
+        "voteShare": 0.03792710883770254
+      },
+      {
+        "party": 4,
+        "votes": 1570,
+        "voteShare": 0.024484194438812907
+      },
+      {
+        "party": 6,
+        "votes": 1345,
+        "voteShare": 0.02097531307019322
+      }
+    ],
+    "totalVotes": 64123
+  },
+  {
+    "ridingId": 24037,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16961,
+        "voteShare": 0.3796445518846808
+      },
+      {
+        "party": 2,
+        "votes": 14680,
+        "voteShare": 0.32858805622705706
+      },
+      {
+        "party": 3,
+        "votes": 9114,
+        "voteShare": 0.20400214880472736
+      },
+      {
+        "party": 1,
+        "votes": 1500,
+        "voteShare": 0.0335750738651625
+      },
+      {
+        "party": 4,
+        "votes": 992,
+        "voteShare": 0.022204315516160804
+      },
+      {
+        "party": 5,
+        "votes": 758,
+        "voteShare": 0.016966603993195453
+      },
+      {
+        "party": 6,
+        "votes": 671,
+        "voteShare": 0.015019249709016027
+      }
+    ],
+    "totalVotes": 44676
+  },
+  {
+    "ridingId": 24038,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24758,
+        "voteShare": 0.48931754847125325
+      },
+      {
+        "party": 3,
+        "votes": 9656,
+        "voteShare": 0.19084135423048798
+      },
+      {
+        "party": 1,
+        "votes": 8963,
+        "voteShare": 0.17714489001324188
+      },
+      {
+        "party": 2,
+        "votes": 3889,
+        "voteShare": 0.07686226456114
+      },
+      {
+        "party": 5,
+        "votes": 2571,
+        "voteShare": 0.05081328932545408
+      },
+      {
+        "party": 4,
+        "votes": 760,
+        "voteShare": 0.015020653398422831
+      }
+    ],
+    "totalVotes": 50597
+  },
+  {
+    "ridingId": 24040,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32731,
+        "voteShare": 0.516204835428265
+      },
+      {
+        "party": 3,
+        "votes": 13740,
+        "voteShare": 0.2166953175516899
+      },
+      {
+        "party": 0,
+        "votes": 9286,
+        "voteShare": 0.14645070733515228
+      },
+      {
+        "party": 2,
+        "votes": 4497,
+        "voteShare": 0.0709227687794723
+      },
+      {
+        "party": 5,
+        "votes": 1661,
+        "voteShare": 0.02619584588452379
+      },
+      {
+        "party": 4,
+        "votes": 856,
+        "voteShare": 0.013500086741211538
+      },
+      {
+        "party": 6,
+        "votes": 636,
+        "voteShare": 0.010030438279685208
+      }
+    ],
+    "totalVotes": 63407
+  },
+  {
+    "ridingId": 24041,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19400,
+        "voteShare": 0.4044194288096727
+      },
+      {
+        "party": 3,
+        "votes": 16926,
+        "voteShare": 0.35284552845528455
+      },
+      {
+        "party": 2,
+        "votes": 4957,
+        "voteShare": 0.10333541796956432
+      },
+      {
+        "party": 1,
+        "votes": 3986,
+        "voteShare": 0.08309360016677089
+      },
+      {
+        "party": 5,
+        "votes": 1409,
+        "voteShare": 0.029372524494475714
+      },
+      {
+        "party": 4,
+        "votes": 1170,
+        "voteShare": 0.024390243902439025
+      },
+      {
+        "party": 6,
+        "votes": 122,
+        "voteShare": 0.002543256201792787
+      }
+    ],
+    "totalVotes": 47970
+  },
+  {
+    "ridingId": 24042,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 23579,
+        "voteShare": 0.41196820127544337
+      },
+      {
+        "party": 0,
+        "votes": 21930,
+        "voteShare": 0.3831571590809819
+      },
+      {
+        "party": 2,
+        "votes": 4553,
+        "voteShare": 0.07954922687166943
+      },
+      {
+        "party": 1,
+        "votes": 3964,
+        "voteShare": 0.0692583209574561
+      },
+      {
+        "party": 4,
+        "votes": 1599,
+        "voteShare": 0.027937450860487465
+      },
+      {
+        "party": 5,
+        "votes": 1358,
+        "voteShare": 0.023726740630732945
+      },
+      {
+        "party": 6,
+        "votes": 252,
+        "voteShare": 0.004402900323228794
+      }
+    ],
+    "totalVotes": 57235
+  },
+  {
+    "ridingId": 24043,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22933,
+        "voteShare": 0.38349498327759196
+      },
+      {
+        "party": 3,
+        "votes": 16247,
+        "voteShare": 0.27168896321070235
+      },
+      {
+        "party": 1,
+        "votes": 14332,
+        "voteShare": 0.2396655518394649
+      },
+      {
+        "party": 2,
+        "votes": 4337,
+        "voteShare": 0.07252508361204013
+      },
+      {
+        "party": 4,
+        "votes": 1573,
+        "voteShare": 0.026304347826086958
+      },
+      {
+        "party": 6,
+        "votes": 378,
+        "voteShare": 0.006321070234113713
+      }
+    ],
+    "totalVotes": 59800
+  },
+  {
+    "ridingId": 24045,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 39218,
+        "voteShare": 0.33743170574317055
+      },
+      {
+        "party": 0,
+        "votes": 34220,
+        "voteShare": 0.29442890944289096
+      },
+      {
+        "party": 3,
+        "votes": 29124,
+        "voteShare": 0.2505829210582921
+      },
+      {
+        "party": 2,
+        "votes": 7831,
+        "voteShare": 0.06737793073779308
+      },
+      {
+        "party": 5,
+        "votes": 2846,
+        "voteShare": 0.024486986448698646
+      },
+      {
+        "party": 6,
+        "votes": 2079,
+        "voteShare": 0.017887717788771778
+      },
+      {
+        "party": 4,
+        "votes": 907,
+        "voteShare": 0.007803828780382878
+      }
+    ],
+    "totalVotes": 116225
+  },
+  {
+    "ridingId": 24046,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 18419,
+        "voteShare": 0.5262571428571429
+      },
+      {
+        "party": 1,
+        "votes": 7640,
+        "voteShare": 0.21828571428571428
+      },
+      {
+        "party": 0,
+        "votes": 6545,
+        "voteShare": 0.187
+      },
+      {
+        "party": 2,
+        "votes": 1509,
+        "voteShare": 0.043114285714285716
+      },
+      {
+        "party": 6,
+        "votes": 887,
+        "voteShare": 0.025342857142857143
+      }
+    ],
+    "totalVotes": 35000
+  },
+  {
+    "ridingId": 24047,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 38694,
+        "voteShare": 0.353240825269308
+      },
+      {
+        "party": 1,
+        "votes": 34631,
+        "voteShare": 0.31614935183494614
+      },
+      {
+        "party": 0,
+        "votes": 21171,
+        "voteShare": 0.19327186415921124
+      },
+      {
+        "party": 2,
+        "votes": 6529,
+        "voteShare": 0.059603797699470516
+      },
+      {
+        "party": 5,
+        "votes": 4246,
+        "voteShare": 0.03876209603797699
+      },
+      {
+        "party": 6,
+        "votes": 2265,
+        "voteShare": 0.020677378126711703
+      },
+      {
+        "party": 4,
+        "votes": 2004,
+        "voteShare": 0.018294686872375388
+      }
+    ],
+    "totalVotes": 109540
+  },
+  {
+    "ridingId": 24048,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23284,
+        "voteShare": 0.5768792428521877
+      },
+      {
+        "party": 1,
+        "votes": 9889,
+        "voteShare": 0.24500768049155147
+      },
+      {
+        "party": 2,
+        "votes": 3381,
+        "voteShare": 0.0837669094693028
+      },
+      {
+        "party": 3,
+        "votes": 1585,
+        "voteShare": 0.039269610029235416
+      },
+      {
+        "party": 4,
+        "votes": 1083,
+        "voteShare": 0.026832168871711016
+      },
+      {
+        "party": 5,
+        "votes": 1051,
+        "voteShare": 0.02603934393736683
+      },
+      {
+        "party": 6,
+        "votes": 89,
+        "voteShare": 0.0022050443486447647
+      }
+    ],
+    "totalVotes": 40362
+  },
+  {
+    "ridingId": 24049,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 26011,
+        "voteShare": 0.4525856069042316
+      },
+      {
+        "party": 0,
+        "votes": 19974,
+        "voteShare": 0.34754315144766146
+      },
+      {
+        "party": 1,
+        "votes": 5460,
+        "voteShare": 0.09500278396436526
+      },
+      {
+        "party": 2,
+        "votes": 4809,
+        "voteShare": 0.0836755289532294
+      },
+      {
+        "party": 5,
+        "votes": 1218,
+        "voteShare": 0.02119292873051225
+      }
+    ],
+    "totalVotes": 57472
+  },
+  {
+    "ridingId": 24050,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 27378,
+        "voteShare": 0.5321075954287491
+      },
+      {
+        "party": 0,
+        "votes": 10196,
+        "voteShare": 0.19816528026121433
+      },
+      {
+        "party": 1,
+        "votes": 6011,
+        "voteShare": 0.11682733421441344
+      },
+      {
+        "party": 2,
+        "votes": 3218,
+        "voteShare": 0.06254373007851978
+      },
+      {
+        "party": 5,
+        "votes": 2258,
+        "voteShare": 0.043885563243411335
+      },
+      {
+        "party": 4,
+        "votes": 1317,
+        "voteShare": 0.025596672626914407
+      },
+      {
+        "party": 6,
+        "votes": 1074,
+        "voteShare": 0.02087382414677758
+      }
+    ],
+    "totalVotes": 51452
+  },
+  {
+    "ridingId": 24051,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24118,
+        "voteShare": 0.5044340332970803
+      },
+      {
+        "party": 3,
+        "votes": 12550,
+        "voteShare": 0.26248640508658916
+      },
+      {
+        "party": 0,
+        "votes": 8361,
+        "voteShare": 0.17487241696645195
+      },
+      {
+        "party": 2,
+        "votes": 1597,
+        "voteShare": 0.033401656487910984
+      },
+      {
+        "party": 6,
+        "votes": 1186,
+        "voteShare": 0.024805488161967707
+      }
+    ],
+    "totalVotes": 47812
+  },
+  {
+    "ridingId": 24052,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24510,
+        "voteShare": 0.5376061064683819
+      },
+      {
+        "party": 2,
+        "votes": 8753,
+        "voteShare": 0.19198964707946745
+      },
+      {
+        "party": 1,
+        "votes": 6412,
+        "voteShare": 0.14064179333640411
+      },
+      {
+        "party": 3,
+        "votes": 2407,
+        "voteShare": 0.05279550788532825
+      },
+      {
+        "party": 4,
+        "votes": 1835,
+        "voteShare": 0.04024917198569893
+      },
+      {
+        "party": 5,
+        "votes": 1498,
+        "voteShare": 0.03285736219867957
+      },
+      {
+        "party": 6,
+        "votes": 176,
+        "voteShare": 0.0038604110460397885
+      }
+    ],
+    "totalVotes": 45591
+  },
+  {
+    "ridingId": 24053,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16714,
+        "voteShare": 0.45393807713199347
+      },
+      {
+        "party": 2,
+        "votes": 9579,
+        "voteShare": 0.26015752308527973
+      },
+      {
+        "party": 3,
+        "votes": 5535,
+        "voteShare": 0.15032590983161326
+      },
+      {
+        "party": 1,
+        "votes": 2882,
+        "voteShare": 0.07827267789244975
+      },
+      {
+        "party": 4,
+        "votes": 1198,
+        "voteShare": 0.03253666485605649
+      },
+      {
+        "party": 5,
+        "votes": 819,
+        "voteShare": 0.022243346007604563
+      },
+      {
+        "party": 6,
+        "votes": 93,
+        "voteShare": 0.002525801195002716
+      }
+    ],
+    "totalVotes": 36820
+  },
+  {
+    "ridingId": 24054,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22848,
+        "voteShare": 0.5030050855293574
+      },
+      {
+        "party": 2,
+        "votes": 10303,
+        "voteShare": 0.22682341545032253
+      },
+      {
+        "party": 3,
+        "votes": 6830,
+        "voteShare": 0.15036435286088545
+      },
+      {
+        "party": 1,
+        "votes": 2198,
+        "voteShare": 0.04838958237016489
+      },
+      {
+        "party": 4,
+        "votes": 1448,
+        "voteShare": 0.03187812341765185
+      },
+      {
+        "party": 5,
+        "votes": 1064,
+        "voteShare": 0.02342425643396517
+      },
+      {
+        "party": 6,
+        "votes": 732,
+        "voteShare": 0.01611518393765273
+      }
+    ],
+    "totalVotes": 45423
+  },
+  {
+    "ridingId": 24055,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 29978,
+        "voteShare": 0.5426275205444738
+      },
+      {
+        "party": 0,
+        "votes": 14282,
+        "voteShare": 0.25851645367990445
+      },
+      {
+        "party": 1,
+        "votes": 4870,
+        "voteShare": 0.08815117836585454
+      },
+      {
+        "party": 2,
+        "votes": 4261,
+        "voteShare": 0.07712775585562756
+      },
+      {
+        "party": 5,
+        "votes": 1078,
+        "voteShare": 0.01951272490316041
+      },
+      {
+        "party": 6,
+        "votes": 777,
+        "voteShare": 0.014064366650979257
+      }
+    ],
+    "totalVotes": 55246
+  },
+  {
+    "ridingId": 24056,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29296,
+        "voteShare": 0.560088708752342
+      },
+      {
+        "party": 1,
+        "votes": 10893,
+        "voteShare": 0.2082552670821703
+      },
+      {
+        "party": 2,
+        "votes": 6034,
+        "voteShare": 0.11535961457576568
+      },
+      {
+        "party": 3,
+        "votes": 4141,
+        "voteShare": 0.07916873781210569
+      },
+      {
+        "party": 5,
+        "votes": 1942,
+        "voteShare": 0.03712767177761633
+      }
+    ],
+    "totalVotes": 52306
+  },
+  {
+    "ridingId": 24057,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26899,
+        "voteShare": 0.4338058606286387
+      },
+      {
+        "party": 1,
+        "votes": 12804,
+        "voteShare": 0.20649281532730177
+      },
+      {
+        "party": 3,
+        "votes": 10424,
+        "voteShare": 0.16811005209089297
+      },
+      {
+        "party": 2,
+        "votes": 6824,
+        "voteShare": 0.1100520908929637
+      },
+      {
+        "party": 5,
+        "votes": 2813,
+        "voteShare": 0.04536584579160417
+      },
+      {
+        "party": 4,
+        "votes": 1711,
+        "voteShare": 0.02759365878046027
+      },
+      {
+        "party": 6,
+        "votes": 532,
+        "voteShare": 0.008579676488138436
+      }
+    ],
+    "totalVotes": 62007
+  },
+  {
+    "ridingId": 24058,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33657,
+        "voteShare": 0.5160850098135427
+      },
+      {
+        "party": 3,
+        "votes": 15525,
+        "voteShare": 0.2380550785083415
+      },
+      {
+        "party": 0,
+        "votes": 10068,
+        "voteShare": 0.1543792934249264
+      },
+      {
+        "party": 2,
+        "votes": 3223,
+        "voteShare": 0.04942038763493621
+      },
+      {
+        "party": 5,
+        "votes": 1615,
+        "voteShare": 0.024763861629048086
+      },
+      {
+        "party": 6,
+        "votes": 1128,
+        "voteShare": 0.017296368989205103
+      }
+    ],
+    "totalVotes": 65216
+  },
+  {
+    "ridingId": 24059,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18132,
+        "voteShare": 0.35420288722627025
+      },
+      {
+        "party": 3,
+        "votes": 14824,
+        "voteShare": 0.28958215311285185
+      },
+      {
+        "party": 1,
+        "votes": 9239,
+        "voteShare": 0.18048094391592273
+      },
+      {
+        "party": 2,
+        "votes": 6652,
+        "voteShare": 0.12994471684475786
+      },
+      {
+        "party": 4,
+        "votes": 1182,
+        "voteShare": 0.02308999628841007
+      },
+      {
+        "party": 5,
+        "votes": 855,
+        "voteShare": 0.016702154675626576
+      },
+      {
+        "party": 6,
+        "votes": 307,
+        "voteShare": 0.005997147936160653
+      }
+    ],
+    "totalVotes": 51191
+  },
+  {
+    "ridingId": 24060,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 30848,
+        "voteShare": 0.5167082628431685
+      },
+      {
+        "party": 0,
+        "votes": 16500,
+        "voteShare": 0.2763772801125609
+      },
+      {
+        "party": 1,
+        "votes": 5328,
+        "voteShare": 0.08924473626907423
+      },
+      {
+        "party": 2,
+        "votes": 4484,
+        "voteShare": 0.07510761963786201
+      },
+      {
+        "party": 6,
+        "votes": 2541,
+        "voteShare": 0.042562101137334385
+      }
+    ],
+    "totalVotes": 59701
+  },
+  {
+    "ridingId": 24061,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28513,
+        "voteShare": 0.4988365786665267
+      },
+      {
+        "party": 3,
+        "votes": 14150,
+        "voteShare": 0.24755506569394145
+      },
+      {
+        "party": 0,
+        "votes": 8543,
+        "voteShare": 0.14946027747161428
+      },
+      {
+        "party": 2,
+        "votes": 2550,
+        "voteShare": 0.04461239699784811
+      },
+      {
+        "party": 5,
+        "votes": 2058,
+        "voteShare": 0.036004828635910355
+      },
+      {
+        "party": 6,
+        "votes": 1345,
+        "voteShare": 0.0235308525341591
+      }
+    ],
+    "totalVotes": 57159
+  },
+  {
+    "ridingId": 24063,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 21645,
+        "voteShare": 0.40559532286474537
+      },
+      {
+        "party": 0,
+        "votes": 18835,
+        "voteShare": 0.3529400742045497
+      },
+      {
+        "party": 1,
+        "votes": 5479,
+        "voteShare": 0.10266836562605404
+      },
+      {
+        "party": 2,
+        "votes": 3852,
+        "voteShare": 0.07218078926657423
+      },
+      {
+        "party": 5,
+        "votes": 1468,
+        "voteShare": 0.02750815125735487
+      },
+      {
+        "party": 6,
+        "votes": 1115,
+        "voteShare": 0.020893452760184388
+      },
+      {
+        "party": 4,
+        "votes": 972,
+        "voteShare": 0.018213844020537422
+      }
+    ],
+    "totalVotes": 53366
+  },
+  {
+    "ridingId": 24064,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 29943,
+        "voteShare": 0.5223011041532208
+      },
+      {
+        "party": 0,
+        "votes": 12767,
+        "voteShare": 0.2226970643130004
+      },
+      {
+        "party": 1,
+        "votes": 6803,
+        "voteShare": 0.11866594568194108
+      },
+      {
+        "party": 2,
+        "votes": 3958,
+        "voteShare": 0.06904010186816445
+      },
+      {
+        "party": 5,
+        "votes": 2164,
+        "voteShare": 0.037747039020391074
+      },
+      {
+        "party": 6,
+        "votes": 1694,
+        "voteShare": 0.02954874496328211
+      }
+    ],
+    "totalVotes": 57329
+  },
+  {
+    "ridingId": 24065,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 26708,
+        "voteShare": 0.48570597221211903
+      },
+      {
+        "party": 0,
+        "votes": 12738,
+        "voteShare": 0.23165054193642248
+      },
+      {
+        "party": 3,
+        "votes": 11751,
+        "voteShare": 0.21370117116461773
+      },
+      {
+        "party": 1,
+        "votes": 2199,
+        "voteShare": 0.03999054339128537
+      },
+      {
+        "party": 4,
+        "votes": 1308,
+        "voteShare": 0.02378700807448898
+      },
+      {
+        "party": 6,
+        "votes": 284,
+        "voteShare": 0.0051647632210664145
+      }
+    ],
+    "totalVotes": 54988
+  },
+  {
+    "ridingId": 24066,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 25165,
+        "voteShare": 0.47453376327053987
+      },
+      {
+        "party": 0,
+        "votes": 12030,
+        "voteShare": 0.2268484471346948
+      },
+      {
+        "party": 1,
+        "votes": 7166,
+        "voteShare": 0.1351285097395863
+      },
+      {
+        "party": 2,
+        "votes": 6170,
+        "voteShare": 0.11634704229601554
+      },
+      {
+        "party": 5,
+        "votes": 1445,
+        "voteShare": 0.02724821330919651
+      },
+      {
+        "party": 6,
+        "votes": 1055,
+        "voteShare": 0.019894024249967
+      }
+    ],
+    "totalVotes": 53031
+  },
+  {
+    "ridingId": 24067,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 27243,
+        "voteShare": 0.46010808984968754
+      },
+      {
+        "party": 0,
+        "votes": 16650,
+        "voteShare": 0.28120249957777405
+      },
+      {
+        "party": 1,
+        "votes": 7544,
+        "voteShare": 0.12741091031920285
+      },
+      {
+        "party": 2,
+        "votes": 4308,
+        "voteShare": 0.07275798007093397
+      },
+      {
+        "party": 6,
+        "votes": 2203,
+        "voteShare": 0.03720655294713731
+      },
+      {
+        "party": 4,
+        "votes": 1262,
+        "voteShare": 0.021313967235264315
+      }
+    ],
+    "totalVotes": 59210
+  },
+  {
+    "ridingId": 24068,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22056,
+        "voteShare": 0.5910442961652866
+      },
+      {
+        "party": 1,
+        "votes": 6902,
+        "voteShare": 0.18495591821421872
+      },
+      {
+        "party": 2,
+        "votes": 4059,
+        "voteShare": 0.10877080151137551
+      },
+      {
+        "party": 3,
+        "votes": 2972,
+        "voteShare": 0.07964198622611679
+      },
+      {
+        "party": 5,
+        "votes": 1182,
+        "voteShare": 0.03167457191092531
+      },
+      {
+        "party": 6,
+        "votes": 146,
+        "voteShare": 0.00391242597207707
+      }
+    ],
+    "totalVotes": 37317
+  },
+  {
+    "ridingId": 24069,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29010,
+        "voteShare": 0.6937867699813459
+      },
+      {
+        "party": 1,
+        "votes": 4381,
+        "voteShare": 0.1047735208303439
+      },
+      {
+        "party": 2,
+        "votes": 3460,
+        "voteShare": 0.08274740517530015
+      },
+      {
+        "party": 3,
+        "votes": 3395,
+        "voteShare": 0.08119290189888555
+      },
+      {
+        "party": 5,
+        "votes": 1568,
+        "voteShare": 0.037499402114124454
+      }
+    ],
+    "totalVotes": 41814
+  },
+  {
+    "ridingId": 24070,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23913,
+        "voteShare": 0.4244634964588104
+      },
+      {
+        "party": 3,
+        "votes": 16940,
+        "voteShare": 0.3006904876013987
+      },
+      {
+        "party": 1,
+        "votes": 10139,
+        "voteShare": 0.17997053446225394
+      },
+      {
+        "party": 2,
+        "votes": 2849,
+        "voteShare": 0.05057067291478069
+      },
+      {
+        "party": 6,
+        "votes": 1765,
+        "voteShare": 0.031329321760122125
+      },
+      {
+        "party": 4,
+        "votes": 731,
+        "voteShare": 0.012975486802634148
+      }
+    ],
+    "totalVotes": 56337
+  },
+  {
+    "ridingId": 24071,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 54090,
+        "voteShare": 0.4489131968362782
+      },
+      {
+        "party": 0,
+        "votes": 36518,
+        "voteShare": 0.3030765783336515
+      },
+      {
+        "party": 1,
+        "votes": 14710,
+        "voteShare": 0.12208380708932617
+      },
+      {
+        "party": 2,
+        "votes": 7702,
+        "voteShare": 0.06392178668946229
+      },
+      {
+        "party": 5,
+        "votes": 4280,
+        "voteShare": 0.03552132524420911
+      },
+      {
+        "party": 6,
+        "votes": 2132,
+        "voteShare": 0.01769426762164809
+      },
+      {
+        "party": 4,
+        "votes": 1059,
+        "voteShare": 0.008789038185424638
+      }
+    ],
+    "totalVotes": 120491
+  },
+  {
+    "ridingId": 24072,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21830,
+        "voteShare": 0.3751826072011687
+      },
+      {
+        "party": 3,
+        "votes": 16848,
+        "voteShare": 0.28955916473317866
+      },
+      {
+        "party": 2,
+        "votes": 8107,
+        "voteShare": 0.13933144281172125
+      },
+      {
+        "party": 1,
+        "votes": 7490,
+        "voteShare": 0.12872733522385493
+      },
+      {
+        "party": 4,
+        "votes": 1670,
+        "voteShare": 0.028701555383689955
+      },
+      {
+        "party": 5,
+        "votes": 1453,
+        "voteShare": 0.02497207183982126
+      },
+      {
+        "party": 6,
+        "votes": 787,
+        "voteShare": 0.013525822806565266
+      }
+    ],
+    "totalVotes": 58185
+  },
+  {
+    "ridingId": 24073,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 24270,
+        "voteShare": 0.41171181869073264
+      },
+      {
+        "party": 0,
+        "votes": 17475,
+        "voteShare": 0.2964426877470356
+      },
+      {
+        "party": 1,
+        "votes": 6183,
+        "voteShare": 0.10488727544148331
+      },
+      {
+        "party": 6,
+        "votes": 4667,
+        "voteShare": 0.07917013011247011
+      },
+      {
+        "party": 2,
+        "votes": 3913,
+        "voteShare": 0.06637941271268384
+      },
+      {
+        "party": 5,
+        "votes": 1594,
+        "voteShare": 0.02704032299106007
+      },
+      {
+        "party": 4,
+        "votes": 847,
+        "voteShare": 0.014368352304534428
+      }
+    ],
+    "totalVotes": 58949
+  },
+  {
+    "ridingId": 24074,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 48397,
+        "voteShare": 0.41417348440762675
+      },
+      {
+        "party": 3,
+        "votes": 35834,
+        "voteShare": 0.3066614178619108
+      },
+      {
+        "party": 1,
+        "votes": 16329,
+        "voteShare": 0.13974086879129155
+      },
+      {
+        "party": 2,
+        "votes": 10607,
+        "voteShare": 0.09077294355252799
+      },
+      {
+        "party": 4,
+        "votes": 2649,
+        "voteShare": 0.022669701845068977
+      },
+      {
+        "party": 6,
+        "votes": 1650,
+        "voteShare": 0.014120425837811933
+      },
+      {
+        "party": 5,
+        "votes": 1386,
+        "voteShare": 0.011861157703762023
+      }
+    ],
+    "totalVotes": 116852
+  },
+  {
+    "ridingId": 24075,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 17136,
+        "voteShare": 0.29488900361383585
+      },
+      {
+        "party": 1,
+        "votes": 17053,
+        "voteShare": 0.2934606780244364
+      },
+      {
+        "party": 0,
+        "votes": 16637,
+        "voteShare": 0.2863018413353984
+      },
+      {
+        "party": 2,
+        "votes": 4680,
+        "voteShare": 0.08053691275167785
+      },
+      {
+        "party": 5,
+        "votes": 1115,
+        "voteShare": 0.01918774737566684
+      },
+      {
+        "party": 4,
+        "votes": 754,
+        "voteShare": 0.012975391498881432
+      },
+      {
+        "party": 6,
+        "votes": 735,
+        "voteShare": 0.012648425400103252
+      }
+    ],
+    "totalVotes": 58110
+  },
+  {
+    "ridingId": 24077,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24978,
+        "voteShare": 0.5053922262914028
+      },
+      {
+        "party": 2,
+        "votes": 9241,
+        "voteShare": 0.18697772292252596
+      },
+      {
+        "party": 3,
+        "votes": 6176,
+        "voteShare": 0.12496206219776218
+      },
+      {
+        "party": 1,
+        "votes": 6138,
+        "voteShare": 0.12419318940574227
+      },
+      {
+        "party": 4,
+        "votes": 1343,
+        "voteShare": 0.02717358314954576
+      },
+      {
+        "party": 5,
+        "votes": 1291,
+        "voteShare": 0.026121441434150093
+      },
+      {
+        "party": 6,
+        "votes": 256,
+        "voteShare": 0.005179774598870971
+      }
+    ],
+    "totalVotes": 49423
+  },
+  {
+    "ridingId": 24078,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25316,
+        "voteShare": 0.4977389799850576
+      },
+      {
+        "party": 3,
+        "votes": 11811,
+        "voteShare": 0.23221658605638787
+      },
+      {
+        "party": 1,
+        "votes": 6829,
+        "voteShare": 0.13426526680036177
+      },
+      {
+        "party": 2,
+        "votes": 4731,
+        "voteShare": 0.09301639731036923
+      },
+      {
+        "party": 5,
+        "votes": 2175,
+        "voteShare": 0.042762769847823526
+      }
+    ],
+    "totalVotes": 50862
+  },
+  {
+    "ridingId": 35001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 28279,
+        "voteShare": 0.5683307206881305
+      },
+      {
+        "party": 1,
+        "votes": 13237,
+        "voteShare": 0.26602757345552475
+      },
+      {
+        "party": 2,
+        "votes": 6988,
+        "voteShare": 0.14043972828489892
+      },
+      {
+        "party": 4,
+        "votes": 1254,
+        "voteShare": 0.025201977571445797
+      }
+    ],
+    "totalVotes": 49758
+  },
+  {
+    "ridingId": 35002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 15895,
+        "voteShare": 0.40217088783746174
+      },
+      {
+        "party": 1,
+        "votes": 10885,
+        "voteShare": 0.2754092553702907
+      },
+      {
+        "party": 0,
+        "votes": 8888,
+        "voteShare": 0.2248817144447537
+      },
+      {
+        "party": 5,
+        "votes": 2840,
+        "voteShare": 0.07185689345444425
+      },
+      {
+        "party": 4,
+        "votes": 726,
+        "voteShare": 0.018369050932368493
+      },
+      {
+        "party": 6,
+        "votes": 289,
+        "voteShare": 0.007312197960681123
+      }
+    ],
+    "totalVotes": 39523
+  },
+  {
+    "ridingId": 35003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20764,
+        "voteShare": 0.45241415373888794
+      },
+      {
+        "party": 1,
+        "votes": 19304,
+        "voteShare": 0.4206031026668991
+      },
+      {
+        "party": 2,
+        "votes": 3594,
+        "voteShare": 0.07830747777584103
+      },
+      {
+        "party": 5,
+        "votes": 1734,
+        "voteShare": 0.037781070245773055
+      },
+      {
+        "party": 6,
+        "votes": 500,
+        "voteShare": 0.010894195572598919
+      }
+    ],
+    "totalVotes": 45896
+  },
+  {
+    "ridingId": 35004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25234,
+        "voteShare": 0.4766978369698687
+      },
+      {
+        "party": 0,
+        "votes": 15292,
+        "voteShare": 0.28888259185793896
+      },
+      {
+        "party": 2,
+        "votes": 8349,
+        "voteShare": 0.1577217342023236
+      },
+      {
+        "party": 5,
+        "votes": 4060,
+        "voteShare": 0.0766978369698687
+      }
+    ],
+    "totalVotes": 52935
+  },
+  {
+    "ridingId": 35005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 23555,
+        "voteShare": 0.4509083251976493
+      },
+      {
+        "party": 0,
+        "votes": 16145,
+        "voteShare": 0.30906028063324337
+      },
+      {
+        "party": 2,
+        "votes": 8910,
+        "voteShare": 0.17056222362602652
+      },
+      {
+        "party": 5,
+        "votes": 3629,
+        "voteShare": 0.06946917054308084
+      }
+    ],
+    "totalVotes": 52239
+  },
+  {
+    "ridingId": 35006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25479,
+        "voteShare": 0.41294975688816854
+      },
+      {
+        "party": 0,
+        "votes": 22542,
+        "voteShare": 0.3653484602917342
+      },
+      {
+        "party": 2,
+        "votes": 9284,
+        "voteShare": 0.15047001620745543
+      },
+      {
+        "party": 5,
+        "votes": 3045,
+        "voteShare": 0.0493517017828201
+      },
+      {
+        "party": 4,
+        "votes": 1350,
+        "voteShare": 0.02188006482982172
+      }
+    ],
+    "totalVotes": 61700
+  },
+  {
+    "ridingId": 35007,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 28919,
+        "voteShare": 0.5657524062915721
+      },
+      {
+        "party": 2,
+        "votes": 11513,
+        "voteShare": 0.22523280381876515
+      },
+      {
+        "party": 1,
+        "votes": 7336,
+        "voteShare": 0.14351670709758196
+      },
+      {
+        "party": 5,
+        "votes": 1613,
+        "voteShare": 0.03155567728304249
+      },
+      {
+        "party": 4,
+        "votes": 1388,
+        "voteShare": 0.027153924407230613
+      },
+      {
+        "party": 6,
+        "votes": 347,
+        "voteShare": 0.006788481101807653
+      }
+    ],
+    "totalVotes": 51116
+  },
+  {
+    "ridingId": 35009,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16189,
+        "voteShare": 0.47655353095287156
+      },
+      {
+        "party": 1,
+        "votes": 11026,
+        "voteShare": 0.32457095758146653
+      },
+      {
+        "party": 2,
+        "votes": 5932,
+        "voteShare": 0.17461952842130052
+      },
+      {
+        "party": 6,
+        "votes": 824,
+        "voteShare": 0.024255983044361367
+      }
+    ],
+    "totalVotes": 33971
+  },
+  {
+    "ridingId": 35010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23412,
+        "voteShare": 0.5425849961760412
+      },
+      {
+        "party": 1,
+        "votes": 13289,
+        "voteShare": 0.30797932744675427
+      },
+      {
+        "party": 2,
+        "votes": 6448,
+        "voteShare": 0.14943567637720456
+      }
+    ],
+    "totalVotes": 43149
+  },
+  {
+    "ridingId": 35011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22120,
+        "voteShare": 0.5349326497545404
+      },
+      {
+        "party": 1,
+        "votes": 11647,
+        "voteShare": 0.2816618703296172
+      },
+      {
+        "party": 2,
+        "votes": 6511,
+        "voteShare": 0.15745689342458466
+      },
+      {
+        "party": 5,
+        "votes": 1073,
+        "voteShare": 0.02594858649125777
+      }
+    ],
+    "totalVotes": 41351
+  },
+  {
+    "ridingId": 35013,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 39915,
+        "voteShare": 0.37112280571258555
+      },
+      {
+        "party": 1,
+        "votes": 39271,
+        "voteShare": 0.36513500446295744
+      },
+      {
+        "party": 2,
+        "votes": 18858,
+        "voteShare": 0.17533844094019638
+      },
+      {
+        "party": 5,
+        "votes": 7453,
+        "voteShare": 0.06929671228800952
+      },
+      {
+        "party": 4,
+        "votes": 1759,
+        "voteShare": 0.016354879500148765
+      },
+      {
+        "party": 6,
+        "votes": 296,
+        "voteShare": 0.0027521570961023503
+      }
+    ],
+    "totalVotes": 107552
+  },
+  {
+    "ridingId": 35014,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25780,
+        "voteShare": 0.5531120599025939
+      },
+      {
+        "party": 1,
+        "votes": 13186,
+        "voteShare": 0.2829067347507992
+      },
+      {
+        "party": 2,
+        "votes": 6097,
+        "voteShare": 0.13081164581947693
+      },
+      {
+        "party": 5,
+        "votes": 1218,
+        "voteShare": 0.026132292046600444
+      },
+      {
+        "party": 6,
+        "votes": 328,
+        "voteShare": 0.007037267480529512
+      }
+    ],
+    "totalVotes": 46609
+  },
+  {
+    "ridingId": 35016,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28727,
+        "voteShare": 0.49178279179648715
+      },
+      {
+        "party": 0,
+        "votes": 14738,
+        "voteShare": 0.2523025302153593
+      },
+      {
+        "party": 2,
+        "votes": 7939,
+        "voteShare": 0.13590919984935118
+      },
+      {
+        "party": 5,
+        "votes": 4697,
+        "voteShare": 0.08040880610812476
+      },
+      {
+        "party": 4,
+        "votes": 1789,
+        "voteShare": 0.03062621974184271
+      },
+      {
+        "party": 6,
+        "votes": 524,
+        "voteShare": 0.008970452288834868
+      }
+    ],
+    "totalVotes": 58414
+  },
+  {
+    "ridingId": 35017,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 31602,
+        "voteShare": 0.45730410245278924
+      },
+      {
+        "party": 1,
+        "votes": 25742,
+        "voteShare": 0.3725056074090153
+      },
+      {
+        "party": 2,
+        "votes": 7507,
+        "voteShare": 0.10863179220027494
+      },
+      {
+        "party": 5,
+        "votes": 2764,
+        "voteShare": 0.03999710585341148
+      },
+      {
+        "party": 4,
+        "votes": 1368,
+        "voteShare": 0.01979596266550901
+      },
+      {
+        "party": 6,
+        "votes": 122,
+        "voteShare": 0.0017654294190000723
+      }
+    ],
+    "totalVotes": 69105
+  },
+  {
+    "ridingId": 35019,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 43222,
+        "voteShare": 0.46890222072751336
+      },
+      {
+        "party": 1,
+        "votes": 27642,
+        "voteShare": 0.29987957950464866
+      },
+      {
+        "party": 2,
+        "votes": 13937,
+        "voteShare": 0.15119823817221215
+      },
+      {
+        "party": 5,
+        "votes": 5516,
+        "voteShare": 0.05984139210432103
+      },
+      {
+        "party": 4,
+        "votes": 1860,
+        "voteShare": 0.020178569491304775
+      }
+    ],
+    "totalVotes": 92177
+  },
+  {
+    "ridingId": 35020,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 35356,
+        "voteShare": 0.4988641654790964
+      },
+      {
+        "party": 0,
+        "votes": 24298,
+        "voteShare": 0.3428385986200669
+      },
+      {
+        "party": 2,
+        "votes": 8164,
+        "voteShare": 0.1151919630889055
+      },
+      {
+        "party": 5,
+        "votes": 1728,
+        "voteShare": 0.024381640399023605
+      },
+      {
+        "party": 4,
+        "votes": 1327,
+        "voteShare": 0.018723632412907594
+      }
+    ],
+    "totalVotes": 70873
+  },
+  {
+    "ridingId": 35021,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22435,
+        "voteShare": 0.4089947861596237
+      },
+      {
+        "party": 0,
+        "votes": 15683,
+        "voteShare": 0.285904400772961
+      },
+      {
+        "party": 2,
+        "votes": 8007,
+        "voteShare": 0.14596930032449776
+      },
+      {
+        "party": 5,
+        "votes": 7892,
+        "voteShare": 0.14387282604732562
+      },
+      {
+        "party": 4,
+        "votes": 837,
+        "voteShare": 0.015258686695591935
+      }
+    ],
+    "totalVotes": 54854
+  },
+  {
+    "ridingId": 35022,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19930,
+        "voteShare": 0.4212907180755491
+      },
+      {
+        "party": 2,
+        "votes": 19854,
+        "voteShare": 0.4196841905003488
+      },
+      {
+        "party": 1,
+        "votes": 4774,
+        "voteShare": 0.10091529794744963
+      },
+      {
+        "party": 5,
+        "votes": 1499,
+        "voteShare": 0.03168664256875304
+      },
+      {
+        "party": 4,
+        "votes": 1087,
+        "voteShare": 0.022977572029509376
+      },
+      {
+        "party": 6,
+        "votes": 163,
+        "voteShare": 0.00344557887839009
+      }
+    ],
+    "totalVotes": 47307
+  },
+  {
+    "ridingId": 35023,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 43521,
+        "voteShare": 0.40198586800905184
+      },
+      {
+        "party": 0,
+        "votes": 42334,
+        "voteShare": 0.3910220292800074
+      },
+      {
+        "party": 2,
+        "votes": 16169,
+        "voteShare": 0.14934651087609108
+      },
+      {
+        "party": 5,
+        "votes": 5026,
+        "voteShare": 0.046423128434858914
+      },
+      {
+        "party": 4,
+        "votes": 765,
+        "voteShare": 0.007065995474068259
+      },
+      {
+        "party": 6,
+        "votes": 450,
+        "voteShare": 0.004156467925922505
+      }
+    ],
+    "totalVotes": 108265
+  },
+  {
+    "ridingId": 35024,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24798,
+        "voteShare": 0.527459905560046
+      },
+      {
+        "party": 1,
+        "votes": 16695,
+        "voteShare": 0.35510698940741053
+      },
+      {
+        "party": 2,
+        "votes": 3814,
+        "voteShare": 0.08112477134470583
+      },
+      {
+        "party": 5,
+        "votes": 881,
+        "voteShare": 0.01873909899178968
+      },
+      {
+        "party": 4,
+        "votes": 761,
+        "voteShare": 0.01618666780108053
+      },
+      {
+        "party": 6,
+        "votes": 65,
+        "voteShare": 0.0013825668949674565
+      }
+    ],
+    "totalVotes": 47014
+  },
+  {
+    "ridingId": 35025,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 62962,
+        "voteShare": 0.4894776531318267
+      },
+      {
+        "party": 0,
+        "votes": 32193,
+        "voteShare": 0.25027403969494133
+      },
+      {
+        "party": 2,
+        "votes": 16952,
+        "voteShare": 0.13178782719562157
+      },
+      {
+        "party": 5,
+        "votes": 11818,
+        "voteShare": 0.09187520893097309
+      },
+      {
+        "party": 4,
+        "votes": 4171,
+        "voteShare": 0.032426087024123265
+      },
+      {
+        "party": 6,
+        "votes": 535,
+        "voteShare": 0.004159184022514013
+      }
+    ],
+    "totalVotes": 128631
+  },
+  {
+    "ridingId": 35026,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24051,
+        "voteShare": 0.4847916792646792
+      },
+      {
+        "party": 1,
+        "votes": 18082,
+        "voteShare": 0.36447562032613734
+      },
+      {
+        "party": 2,
+        "votes": 4543,
+        "voteShare": 0.09157243353288586
+      },
+      {
+        "party": 4,
+        "votes": 1490,
+        "voteShare": 0.030033661889500313
+      },
+      {
+        "party": 5,
+        "votes": 1445,
+        "voteShare": 0.029126604986797283
+      }
+    ],
+    "totalVotes": 49611
+  },
+  {
+    "ridingId": 35028,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28741,
+        "voteShare": 0.4107265348119355
+      },
+      {
+        "party": 2,
+        "votes": 22278,
+        "voteShare": 0.3183662970161198
+      },
+      {
+        "party": 0,
+        "votes": 10813,
+        "voteShare": 0.15452440836858353
+      },
+      {
+        "party": 5,
+        "votes": 6925,
+        "voteShare": 0.09896250142906139
+      },
+      {
+        "party": 4,
+        "votes": 865,
+        "voteShare": 0.01236138104492969
+      },
+      {
+        "party": 6,
+        "votes": 354,
+        "voteShare": 0.00505887732937007
+      }
+    ],
+    "totalVotes": 69976
+  },
+  {
+    "ridingId": 35029,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 27635,
+        "voteShare": 0.48019113814074715
+      },
+      {
+        "party": 1,
+        "votes": 20108,
+        "voteShare": 0.34940052128583843
+      },
+      {
+        "party": 2,
+        "votes": 5804,
+        "voteShare": 0.1008514335360556
+      },
+      {
+        "party": 5,
+        "votes": 4003,
+        "voteShare": 0.06955690703735881
+      }
+    ],
+    "totalVotes": 57550
+  },
+  {
+    "ridingId": 35030,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 51705,
+        "voteShare": 0.4165256899801827
+      },
+      {
+        "party": 1,
+        "votes": 44827,
+        "voteShare": 0.36111782428665795
+      },
+      {
+        "party": 2,
+        "votes": 18184,
+        "voteShare": 0.14648686097281968
+      },
+      {
+        "party": 5,
+        "votes": 6543,
+        "voteShare": 0.05270916912368891
+      },
+      {
+        "party": 4,
+        "votes": 2617,
+        "voteShare": 0.021082056487344323
+      },
+      {
+        "party": 6,
+        "votes": 258,
+        "voteShare": 0.002078399149306395
+      }
+    ],
+    "totalVotes": 124134
+  },
+  {
+    "ridingId": 35031,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 51563,
+        "voteShare": 0.5081550393708547
+      },
+      {
+        "party": 1,
+        "votes": 30845,
+        "voteShare": 0.30397847660908045
+      },
+      {
+        "party": 2,
+        "votes": 10730,
+        "voteShare": 0.10574449842812232
+      },
+      {
+        "party": 5,
+        "votes": 5931,
+        "voteShare": 0.05845019759340106
+      },
+      {
+        "party": 4,
+        "votes": 1350,
+        "voteShare": 0.013304293837648196
+      },
+      {
+        "party": 6,
+        "votes": 1052,
+        "voteShare": 0.01036749416089326
+      }
+    ],
+    "totalVotes": 101471
+  },
+  {
+    "ridingId": 35033,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29382,
+        "voteShare": 0.42112052285333446
+      },
+      {
+        "party": 1,
+        "votes": 16795,
+        "voteShare": 0.2407160568144358
+      },
+      {
+        "party": 2,
+        "votes": 14713,
+        "voteShare": 0.2108755786788207
+      },
+      {
+        "party": 4,
+        "votes": 5250,
+        "voteShare": 0.07524616244571526
+      },
+      {
+        "party": 5,
+        "votes": 3182,
+        "voteShare": 0.04560634074328876
+      },
+      {
+        "party": 6,
+        "votes": 449,
+        "voteShare": 0.006435338464404982
+      }
+    ],
+    "totalVotes": 69771
+  },
+  {
+    "ridingId": 35034,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 65082,
+        "voteShare": 0.4994282995556852
+      },
+      {
+        "party": 0,
+        "votes": 32869,
+        "voteShare": 0.25223116649912136
+      },
+      {
+        "party": 2,
+        "votes": 18050,
+        "voteShare": 0.13851265798500534
+      },
+      {
+        "party": 5,
+        "votes": 11339,
+        "voteShare": 0.08701357500786568
+      },
+      {
+        "party": 4,
+        "votes": 1696,
+        "voteShare": 0.013014818168563381
+      },
+      {
+        "party": 6,
+        "votes": 1277,
+        "voteShare": 0.009799482783759103
+      }
+    ],
+    "totalVotes": 130313
+  },
+  {
+    "ridingId": 35036,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20105,
+        "voteShare": 0.48703972868217055
+      },
+      {
+        "party": 0,
+        "votes": 10941,
+        "voteShare": 0.2650436046511628
+      },
+      {
+        "party": 1,
+        "votes": 6209,
+        "voteShare": 0.15041182170542636
+      },
+      {
+        "party": 5,
+        "votes": 2637,
+        "voteShare": 0.06388081395348837
+      },
+      {
+        "party": 4,
+        "votes": 1105,
+        "voteShare": 0.026768410852713177
+      },
+      {
+        "party": 6,
+        "votes": 283,
+        "voteShare": 0.006855620155038759
+      }
+    ],
+    "totalVotes": 41280
+  },
+  {
+    "ridingId": 35037,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18358,
+        "voteShare": 0.3686863615367622
+      },
+      {
+        "party": 1,
+        "votes": 13934,
+        "voteShare": 0.27983853152049487
+      },
+      {
+        "party": 2,
+        "votes": 12748,
+        "voteShare": 0.2560199224790633
+      },
+      {
+        "party": 5,
+        "votes": 3733,
+        "voteShare": 0.07497037736227984
+      },
+      {
+        "party": 4,
+        "votes": 1020,
+        "voteShare": 0.020484807101399796
+      }
+    ],
+    "totalVotes": 49793
+  },
+  {
+    "ridingId": 35038,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16548,
+        "voteShare": 0.3414775072224515
+      },
+      {
+        "party": 2,
+        "votes": 15706,
+        "voteShare": 0.3241023524556335
+      },
+      {
+        "party": 1,
+        "votes": 11828,
+        "voteShare": 0.24407758976475444
+      },
+      {
+        "party": 5,
+        "votes": 3098,
+        "voteShare": 0.06392901361947999
+      },
+      {
+        "party": 4,
+        "votes": 974,
+        "voteShare": 0.020099050763516303
+      },
+      {
+        "party": 6,
+        "votes": 306,
+        "voteShare": 0.006314486174164259
+      }
+    ],
+    "totalVotes": 48460
+  },
+  {
+    "ridingId": 35039,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 46901,
+        "voteShare": 0.3991982159880158
+      },
+      {
+        "party": 1,
+        "votes": 42813,
+        "voteShare": 0.3644031730900177
+      },
+      {
+        "party": 2,
+        "votes": 18452,
+        "voteShare": 0.15705433746425168
+      },
+      {
+        "party": 5,
+        "votes": 5715,
+        "voteShare": 0.048643265695219935
+      },
+      {
+        "party": 4,
+        "votes": 2632,
+        "voteShare": 0.022402287893231648
+      },
+      {
+        "party": 6,
+        "votes": 975,
+        "voteShare": 0.008298719869263244
+      }
+    ],
+    "totalVotes": 117488
+  },
+  {
+    "ridingId": 35041,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 45927,
+        "voteShare": 0.48170290425096757
+      },
+      {
+        "party": 1,
+        "votes": 29972,
+        "voteShare": 0.31435973275437107
+      },
+      {
+        "party": 2,
+        "votes": 14101,
+        "voteShare": 0.1478975908037297
+      },
+      {
+        "party": 5,
+        "votes": 3116,
+        "voteShare": 0.032682000776145075
+      },
+      {
+        "party": 4,
+        "votes": 2097,
+        "voteShare": 0.02199427330795129
+      },
+      {
+        "party": 6,
+        "votes": 130,
+        "voteShare": 0.0013634981068353209
+      }
+    ],
+    "totalVotes": 95343
+  },
+  {
+    "ridingId": 35042,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 42273,
+        "voteShare": 0.4843377635197067
+      },
+      {
+        "party": 0,
+        "votes": 21205,
+        "voteShare": 0.2429537121906508
+      },
+      {
+        "party": 2,
+        "votes": 16857,
+        "voteShare": 0.19313703024747939
+      },
+      {
+        "party": 5,
+        "votes": 6062,
+        "voteShare": 0.06945462878093492
+      },
+      {
+        "party": 6,
+        "votes": 519,
+        "voteShare": 0.005946379468377635
+      },
+      {
+        "party": 4,
+        "votes": 364,
+        "voteShare": 0.004170485792850596
+      }
+    ],
+    "totalVotes": 87280
+  },
+  {
+    "ridingId": 35046,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 27724,
+        "voteShare": 0.41069550403673805
+      },
+      {
+        "party": 2,
+        "votes": 19775,
+        "voteShare": 0.292941263610103
+      },
+      {
+        "party": 1,
+        "votes": 16019,
+        "voteShare": 0.23730094067106142
+      },
+      {
+        "party": 5,
+        "votes": 2314,
+        "voteShare": 0.034278942300570325
+      },
+      {
+        "party": 4,
+        "votes": 1673,
+        "voteShare": 0.024783349381527296
+      }
+    ],
+    "totalVotes": 67505
+  },
+  {
+    "ridingId": 35047,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22534,
+        "voteShare": 0.45072507250725075
+      },
+      {
+        "party": 0,
+        "votes": 21458,
+        "voteShare": 0.4292029202920292
+      },
+      {
+        "party": 2,
+        "votes": 3234,
+        "voteShare": 0.06468646864686468
+      },
+      {
+        "party": 5,
+        "votes": 2149,
+        "voteShare": 0.042984298429842985
+      },
+      {
+        "party": 4,
+        "votes": 620,
+        "voteShare": 0.012401240124012402
+      }
+    ],
+    "totalVotes": 49995
+  },
+  {
+    "ridingId": 35048,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 41968,
+        "voteShare": 0.37514637394856576
+      },
+      {
+        "party": 0,
+        "votes": 20849,
+        "voteShare": 0.18636643991740487
+      },
+      {
+        "party": 2,
+        "votes": 20045,
+        "voteShare": 0.17917959077866472
+      },
+      {
+        "party": 4,
+        "votes": 18907,
+        "voteShare": 0.16900716003253746
+      },
+      {
+        "party": 5,
+        "votes": 9948,
+        "voteShare": 0.08892384979127746
+      },
+      {
+        "party": 6,
+        "votes": 154,
+        "voteShare": 0.0013765855315497314
+      }
+    ],
+    "totalVotes": 111871
+  },
+  {
+    "ridingId": 35049,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 50209,
+        "voteShare": 0.4409558771868194
+      },
+      {
+        "party": 0,
+        "votes": 36642,
+        "voteShare": 0.32180496030352
+      },
+      {
+        "party": 2,
+        "votes": 15776,
+        "voteShare": 0.13855125412773134
+      },
+      {
+        "party": 5,
+        "votes": 7520,
+        "voteShare": 0.0660437012576407
+      },
+      {
+        "party": 4,
+        "votes": 3506,
+        "voteShare": 0.030791119229958547
+      },
+      {
+        "party": 6,
+        "votes": 211,
+        "voteShare": 0.0018530878943300779
+      }
+    ],
+    "totalVotes": 113864
+  },
+  {
+    "ridingId": 35050,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 47599,
+        "voteShare": 0.43696869549251816
+      },
+      {
+        "party": 0,
+        "votes": 33531,
+        "voteShare": 0.3078215367667309
+      },
+      {
+        "party": 2,
+        "votes": 16942,
+        "voteShare": 0.15553107500229504
+      },
+      {
+        "party": 5,
+        "votes": 6745,
+        "voteShare": 0.06192049940328651
+      },
+      {
+        "party": 4,
+        "votes": 3844,
+        "voteShare": 0.03528871752501606
+      },
+      {
+        "party": 6,
+        "votes": 269,
+        "voteShare": 0.0024694758101533095
+      }
+    ],
+    "totalVotes": 108930
+  },
+  {
+    "ridingId": 35052,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22921,
+        "voteShare": 0.3910098942340498
+      },
+      {
+        "party": 1,
+        "votes": 15889,
+        "voteShare": 0.271050835892187
+      },
+      {
+        "party": 2,
+        "votes": 15611,
+        "voteShare": 0.26630842715796654
+      },
+      {
+        "party": 5,
+        "votes": 2902,
+        "voteShare": 0.04950528829750938
+      },
+      {
+        "party": 4,
+        "votes": 1297,
+        "voteShare": 0.022125554418287275
+      }
+    ],
+    "totalVotes": 58620
+  },
+  {
+    "ridingId": 35054,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 22336,
+        "voteShare": 0.4343666135117265
+      },
+      {
+        "party": 1,
+        "votes": 12486,
+        "voteShare": 0.24281435961261716
+      },
+      {
+        "party": 0,
+        "votes": 11882,
+        "voteShare": 0.23106841429738245
+      },
+      {
+        "party": 5,
+        "votes": 4718,
+        "voteShare": 0.0917506125782739
+      }
+    ],
+    "totalVotes": 51422
+  },
+  {
+    "ridingId": 35055,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25308,
+        "voteShare": 0.368808382273648
+      },
+      {
+        "party": 1,
+        "votes": 22273,
+        "voteShare": 0.32457993908570265
+      },
+      {
+        "party": 2,
+        "votes": 16858,
+        "voteShare": 0.24566823567129595
+      },
+      {
+        "party": 5,
+        "votes": 3409,
+        "voteShare": 0.049678669794960724
+      },
+      {
+        "party": 6,
+        "votes": 773,
+        "voteShare": 0.011264773174392678
+      }
+    ],
+    "totalVotes": 68621
+  },
+  {
+    "ridingId": 35056,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29773,
+        "voteShare": 0.5098814906151528
+      },
+      {
+        "party": 1,
+        "votes": 20740,
+        "voteShare": 0.3551856418687491
+      },
+      {
+        "party": 2,
+        "votes": 4961,
+        "voteShare": 0.0849602685299356
+      },
+      {
+        "party": 5,
+        "votes": 1869,
+        "voteShare": 0.032007809288943694
+      },
+      {
+        "party": 4,
+        "votes": 1049,
+        "voteShare": 0.0179647896972188
+      }
+    ],
+    "totalVotes": 58392
+  },
+  {
+    "ridingId": 35057,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 52212,
+        "voteShare": 0.5559554486019124
+      },
+      {
+        "party": 1,
+        "votes": 28449,
+        "voteShare": 0.3029260813084311
+      },
+      {
+        "party": 2,
+        "votes": 8147,
+        "voteShare": 0.08674957940243201
+      },
+      {
+        "party": 5,
+        "votes": 3013,
+        "voteShare": 0.032082543603722556
+      },
+      {
+        "party": 4,
+        "votes": 2093,
+        "voteShare": 0.022286347083501926
+      }
+    ],
+    "totalVotes": 93914
+  },
+  {
+    "ridingId": 35058,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21958,
+        "voteShare": 0.48553865204316293
+      },
+      {
+        "party": 1,
+        "votes": 18959,
+        "voteShare": 0.41922430567840085
+      },
+      {
+        "party": 2,
+        "votes": 3001,
+        "voteShare": 0.06635857067044047
+      },
+      {
+        "party": 4,
+        "votes": 1306,
+        "voteShare": 0.028878471607995754
+      }
+    ],
+    "totalVotes": 45224
+  },
+  {
+    "ridingId": 35061,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25719,
+        "voteShare": 0.5422403069722334
+      },
+      {
+        "party": 1,
+        "votes": 13390,
+        "voteShare": 0.2823048217410554
+      },
+      {
+        "party": 2,
+        "votes": 5331,
+        "voteShare": 0.11239484725179735
+      },
+      {
+        "party": 5,
+        "votes": 2128,
+        "voteShare": 0.04486517256646497
+      },
+      {
+        "party": 4,
+        "votes": 863,
+        "voteShare": 0.018194851468448906
+      }
+    ],
+    "totalVotes": 47431
+  },
+  {
+    "ridingId": 35062,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22806,
+        "voteShare": 0.5004059243006034
+      },
+      {
+        "party": 1,
+        "votes": 14722,
+        "voteShare": 0.3230279758639605
+      },
+      {
+        "party": 2,
+        "votes": 4678,
+        "voteShare": 0.10264399341744378
+      },
+      {
+        "party": 5,
+        "votes": 2933,
+        "voteShare": 0.06435545803620406
+      },
+      {
+        "party": 6,
+        "votes": 436,
+        "voteShare": 0.009566648381788261
+      }
+    ],
+    "totalVotes": 45575
+  },
+  {
+    "ridingId": 35063,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25866,
+        "voteShare": 0.5104594253236502
+      },
+      {
+        "party": 1,
+        "votes": 17088,
+        "voteShare": 0.33722766024628986
+      },
+      {
+        "party": 2,
+        "votes": 5178,
+        "voteShare": 0.10218661193558573
+      },
+      {
+        "party": 5,
+        "votes": 1711,
+        "voteShare": 0.03376618250710452
+      },
+      {
+        "party": 4,
+        "votes": 829,
+        "voteShare": 0.01636011998736975
+      }
+    ],
+    "totalVotes": 50672
+  },
+  {
+    "ridingId": 35064,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25284,
+        "voteShare": 0.4494214259051885
+      },
+      {
+        "party": 1,
+        "votes": 21761,
+        "voteShare": 0.3868003341687552
+      },
+      {
+        "party": 2,
+        "votes": 5488,
+        "voteShare": 0.09754883663058356
+      },
+      {
+        "party": 5,
+        "votes": 2367,
+        "voteShare": 0.042073268277075665
+      },
+      {
+        "party": 4,
+        "votes": 1265,
+        "voteShare": 0.022485291242290123
+      },
+      {
+        "party": 6,
+        "votes": 94,
+        "voteShare": 0.001670843776106934
+      }
+    ],
+    "totalVotes": 56259
+  },
+  {
+    "ridingId": 35065,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21766,
+        "voteShare": 0.5276861908456167
+      },
+      {
+        "party": 1,
+        "votes": 12625,
+        "voteShare": 0.3060754460822343
+      },
+      {
+        "party": 2,
+        "votes": 5771,
+        "voteShare": 0.13990981380915438
+      },
+      {
+        "party": 4,
+        "votes": 811,
+        "voteShare": 0.01966155934833204
+      },
+      {
+        "party": 6,
+        "votes": 275,
+        "voteShare": 0.006666989914662529
+      }
+    ],
+    "totalVotes": 41248
+  },
+  {
+    "ridingId": 35066,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 44274,
+        "voteShare": 0.4065452742348696
+      },
+      {
+        "party": 1,
+        "votes": 35455,
+        "voteShare": 0.3255649522969982
+      },
+      {
+        "party": 2,
+        "votes": 20272,
+        "voteShare": 0.18614730540021854
+      },
+      {
+        "party": 5,
+        "votes": 6521,
+        "voteShare": 0.05987897486754268
+      },
+      {
+        "party": 4,
+        "votes": 2171,
+        "voteShare": 0.01993517166652893
+      },
+      {
+        "party": 6,
+        "votes": 210,
+        "voteShare": 0.0019283215338420433
+      }
+    ],
+    "totalVotes": 108903
+  },
+  {
+    "ridingId": 35067,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 53270,
+        "voteShare": 0.39055111182797275
+      },
+      {
+        "party": 1,
+        "votes": 48994,
+        "voteShare": 0.3592014487122151
+      },
+      {
+        "party": 2,
+        "votes": 23657,
+        "voteShare": 0.17344223113411586
+      },
+      {
+        "party": 5,
+        "votes": 7788,
+        "voteShare": 0.05709803001532292
+      },
+      {
+        "party": 4,
+        "votes": 2688,
+        "voteShare": 0.019707178310373396
+      }
+    ],
+    "totalVotes": 136397
+  },
+  {
+    "ridingId": 35068,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24208,
+        "voteShare": 0.4378368601917164
+      },
+      {
+        "party": 1,
+        "votes": 21173,
+        "voteShare": 0.3829444745885332
+      },
+      {
+        "party": 2,
+        "votes": 6338,
+        "voteShare": 0.11463194067643336
+      },
+      {
+        "party": 5,
+        "votes": 2296,
+        "voteShare": 0.04152649665400615
+      },
+      {
+        "party": 4,
+        "votes": 1015,
+        "voteShare": 0.018357750045216132
+      },
+      {
+        "party": 6,
+        "votes": 260,
+        "voteShare": 0.004702477844094773
+      }
+    ],
+    "totalVotes": 55290
+  },
+  {
+    "ridingId": 35069,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17353,
+        "voteShare": 0.35183795948987245
+      },
+      {
+        "party": 1,
+        "votes": 13425,
+        "voteShare": 0.2721964274852497
+      },
+      {
+        "party": 2,
+        "votes": 13137,
+        "voteShare": 0.2663571298229963
+      },
+      {
+        "party": 5,
+        "votes": 4558,
+        "voteShare": 0.09241499564080209
+      },
+      {
+        "party": 4,
+        "votes": 848,
+        "voteShare": 0.017193487561079458
+      }
+    ],
+    "totalVotes": 49321
+  },
+  {
+    "ridingId": 35071,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 31015,
+        "voteShare": 0.44474238926251486
+      },
+      {
+        "party": 0,
+        "votes": 23336,
+        "voteShare": 0.334628676312431
+      },
+      {
+        "party": 2,
+        "votes": 9809,
+        "voteShare": 0.1406570400217962
+      },
+      {
+        "party": 5,
+        "votes": 3813,
+        "voteShare": 0.054676857335417356
+      },
+      {
+        "party": 4,
+        "votes": 1764,
+        "voteShare": 0.0252950370678406
+      }
+    ],
+    "totalVotes": 69737
+  },
+  {
+    "ridingId": 35072,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 49636,
+        "voteShare": 0.4268771984141318
+      },
+      {
+        "party": 0,
+        "votes": 44952,
+        "voteShare": 0.38659408137464846
+      },
+      {
+        "party": 2,
+        "votes": 12437,
+        "voteShare": 0.10696010388984924
+      },
+      {
+        "party": 5,
+        "votes": 5903,
+        "voteShare": 0.05076670364732492
+      },
+      {
+        "party": 4,
+        "votes": 2692,
+        "voteShare": 0.023151612098695356
+      },
+      {
+        "party": 6,
+        "votes": 657,
+        "voteShare": 0.005650300575350241
+      }
+    ],
+    "totalVotes": 116277
+  },
+  {
+    "ridingId": 35073,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 49315,
+        "voteShare": 0.4344206696676327
+      },
+      {
+        "party": 1,
+        "votes": 40195,
+        "voteShare": 0.35408169557519004
+      },
+      {
+        "party": 2,
+        "votes": 17067,
+        "voteShare": 0.15034487618812709
+      },
+      {
+        "party": 5,
+        "votes": 5923,
+        "voteShare": 0.05217628766990548
+      },
+      {
+        "party": 4,
+        "votes": 1019,
+        "voteShare": 0.008976470899144636
+      }
+    ],
+    "totalVotes": 113519
+  },
+  {
+    "ridingId": 35077,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 39101,
+        "voteShare": 0.5193868469641221
+      },
+      {
+        "party": 1,
+        "votes": 21700,
+        "voteShare": 0.28824568627711433
+      },
+      {
+        "party": 2,
+        "votes": 10983,
+        "voteShare": 0.14588951024799757
+      },
+      {
+        "party": 5,
+        "votes": 2046,
+        "voteShare": 0.02717745042041364
+      },
+      {
+        "party": 4,
+        "votes": 1233,
+        "voteShare": 0.016378199593533732
+      },
+      {
+        "party": 6,
+        "votes": 220,
+        "voteShare": 0.002922306496818671
+      }
+    ],
+    "totalVotes": 75283
+  },
+  {
+    "ridingId": 35078,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 41506,
+        "voteShare": 0.3626371706157825
+      },
+      {
+        "party": 1,
+        "votes": 34020,
+        "voteShare": 0.2972321241350388
+      },
+      {
+        "party": 2,
+        "votes": 29782,
+        "voteShare": 0.26020479485566506
+      },
+      {
+        "party": 5,
+        "votes": 5884,
+        "voteShare": 0.051408401481792126
+      },
+      {
+        "party": 4,
+        "votes": 2680,
+        "voteShare": 0.023415111483889004
+      },
+      {
+        "party": 6,
+        "votes": 584,
+        "voteShare": 0.00510239742783253
+      }
+    ],
+    "totalVotes": 114456
+  },
+  {
+    "ridingId": 35079,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 33825,
+        "voteShare": 0.45499791501324977
+      },
+      {
+        "party": 2,
+        "votes": 24552,
+        "voteShare": 0.33026190123888566
+      },
+      {
+        "party": 1,
+        "votes": 11650,
+        "voteShare": 0.15671029445393525
+      },
+      {
+        "party": 4,
+        "votes": 2115,
+        "voteShare": 0.02844998049528524
+      },
+      {
+        "party": 5,
+        "votes": 1605,
+        "voteShare": 0.02158970151060653
+      },
+      {
+        "party": 6,
+        "votes": 594,
+        "voteShare": 0.007990207288037557
+      }
+    ],
+    "totalVotes": 74341
+  },
+  {
+    "ridingId": 35080,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29038,
+        "voteShare": 0.48809924023398105
+      },
+      {
+        "party": 1,
+        "votes": 15497,
+        "voteShare": 0.2604888052175082
+      },
+      {
+        "party": 2,
+        "votes": 11514,
+        "voteShare": 0.1935386270422914
+      },
+      {
+        "party": 5,
+        "votes": 1898,
+        "voteShare": 0.03190344920325422
+      },
+      {
+        "party": 4,
+        "votes": 1401,
+        "voteShare": 0.023549384791232433
+      },
+      {
+        "party": 6,
+        "votes": 144,
+        "voteShare": 0.00242049351173267
+      }
+    ],
+    "totalVotes": 59492
+  },
+  {
+    "ridingId": 35081,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22307,
+        "voteShare": 0.42454751346516184
+      },
+      {
+        "party": 2,
+        "votes": 20602,
+        "voteShare": 0.39209790076699086
+      },
+      {
+        "party": 1,
+        "votes": 6815,
+        "voteShare": 0.129703290638144
+      },
+      {
+        "party": 5,
+        "votes": 1642,
+        "voteShare": 0.03125059475096587
+      },
+      {
+        "party": 4,
+        "votes": 957,
+        "voteShare": 0.01821365357897341
+      },
+      {
+        "party": 6,
+        "votes": 220,
+        "voteShare": 0.004187046799764003
+      }
+    ],
+    "totalVotes": 52543
+  },
+  {
+    "ridingId": 35082,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25889,
+        "voteShare": 0.4510121598550573
+      },
+      {
+        "party": 1,
+        "votes": 16473,
+        "voteShare": 0.2869760635517926
+      },
+      {
+        "party": 2,
+        "votes": 11163,
+        "voteShare": 0.19447057593812062
+      },
+      {
+        "party": 5,
+        "votes": 1908,
+        "voteShare": 0.03323925995609909
+      },
+      {
+        "party": 4,
+        "votes": 1642,
+        "voteShare": 0.02860527507752343
+      },
+      {
+        "party": 6,
+        "votes": 327,
+        "voteShare": 0.00569666562140692
+      }
+    ],
+    "totalVotes": 57402
+  },
+  {
+    "ridingId": 35083,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29146,
+        "voteShare": 0.4704913798669852
+      },
+      {
+        "party": 0,
+        "votes": 12720,
+        "voteShare": 0.20533350552075935
+      },
+      {
+        "party": 2,
+        "votes": 11325,
+        "voteShare": 0.1828146187124685
+      },
+      {
+        "party": 5,
+        "votes": 6595,
+        "voteShare": 0.10646025698973333
+      },
+      {
+        "party": 4,
+        "votes": 1683,
+        "voteShare": 0.02716794731064764
+      },
+      {
+        "party": 6,
+        "votes": 479,
+        "voteShare": 0.007732291599405953
+      }
+    ],
+    "totalVotes": 61948
+  },
+  {
+    "ridingId": 35084,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 54002,
+        "voteShare": 0.42956917398498157
+      },
+      {
+        "party": 0,
+        "votes": 36678,
+        "voteShare": 0.29176212294768994
+      },
+      {
+        "party": 2,
+        "votes": 22641,
+        "voteShare": 0.18010213822069493
+      },
+      {
+        "party": 5,
+        "votes": 7257,
+        "voteShare": 0.057727185948835434
+      },
+      {
+        "party": 4,
+        "votes": 4652,
+        "voteShare": 0.03700521827669594
+      },
+      {
+        "party": 6,
+        "votes": 482,
+        "voteShare": 0.003834160621102202
+      }
+    ],
+    "totalVotes": 125712
+  },
+  {
+    "ridingId": 35085,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 47960,
+        "voteShare": 0.42164861443240964
+      },
+      {
+        "party": 0,
+        "votes": 40955,
+        "voteShare": 0.3600629483752989
+      },
+      {
+        "party": 2,
+        "votes": 17144,
+        "voteShare": 0.15072443381628922
+      },
+      {
+        "party": 5,
+        "votes": 7685,
+        "voteShare": 0.06756400337600225
+      }
+    ],
+    "totalVotes": 113744
+  },
+  {
+    "ridingId": 35086,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28967,
+        "voteShare": 0.49501008236781846
+      },
+      {
+        "party": 2,
+        "votes": 12263,
+        "voteShare": 0.20955945179261082
+      },
+      {
+        "party": 0,
+        "votes": 11335,
+        "voteShare": 0.1937010834273215
+      },
+      {
+        "party": 5,
+        "votes": 4469,
+        "voteShare": 0.07636966403499777
+      },
+      {
+        "party": 4,
+        "votes": 1111,
+        "voteShare": 0.01898561126490994
+      },
+      {
+        "party": 6,
+        "votes": 373,
+        "voteShare": 0.006374107112341502
+      }
+    ],
+    "totalVotes": 58518
+  },
+  {
+    "ridingId": 35087,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21784,
+        "voteShare": 0.47707064955542905
+      },
+      {
+        "party": 1,
+        "votes": 17715,
+        "voteShare": 0.3879593535105777
+      },
+      {
+        "party": 2,
+        "votes": 3995,
+        "voteShare": 0.08749069247952346
+      },
+      {
+        "party": 5,
+        "votes": 1363,
+        "voteShare": 0.02984976566948447
+      },
+      {
+        "party": 6,
+        "votes": 805,
+        "voteShare": 0.017629538784985327
+      }
+    ],
+    "totalVotes": 45662
+  },
+  {
+    "ridingId": 35091,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26292,
+        "voteShare": 0.4620819346561451
+      },
+      {
+        "party": 2,
+        "votes": 11990,
+        "voteShare": 0.21072426580431994
+      },
+      {
+        "party": 0,
+        "votes": 10975,
+        "voteShare": 0.19288563946642295
+      },
+      {
+        "party": 5,
+        "votes": 6359,
+        "voteShare": 0.1117594333819575
+      },
+      {
+        "party": 4,
+        "votes": 848,
+        "voteShare": 0.014903601117770084
+      },
+      {
+        "party": 6,
+        "votes": 435,
+        "voteShare": 0.007645125573384418
+      }
+    ],
+    "totalVotes": 56899
+  },
+  {
+    "ridingId": 35092,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 35943,
+        "voteShare": 0.4679529742608288
+      },
+      {
+        "party": 1,
+        "votes": 25614,
+        "voteShare": 0.33347654571729873
+      },
+      {
+        "party": 2,
+        "votes": 11720,
+        "voteShare": 0.15258628546133918
+      },
+      {
+        "party": 5,
+        "votes": 2901,
+        "voteShare": 0.037769011443971406
+      },
+      {
+        "party": 4,
+        "votes": 631,
+        "voteShare": 0.008215183116561862
+      }
+    ],
+    "totalVotes": 76809
+  },
+  {
+    "ridingId": 35094,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23128,
+        "voteShare": 0.5758820746495357
+      },
+      {
+        "party": 1,
+        "votes": 9819,
+        "voteShare": 0.24449092403077613
+      },
+      {
+        "party": 2,
+        "votes": 5479,
+        "voteShare": 0.1364258858096163
+      },
+      {
+        "party": 5,
+        "votes": 1472,
+        "voteShare": 0.03665247379298324
+      },
+      {
+        "party": 6,
+        "votes": 263,
+        "voteShare": 0.006548641717088718
+      }
+    ],
+    "totalVotes": 40161
+  },
+  {
+    "ridingId": 35095,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 44122,
+        "voteShare": 0.6360844806458589
+      },
+      {
+        "party": 1,
+        "votes": 13997,
+        "voteShare": 0.20178764506595545
+      },
+      {
+        "party": 2,
+        "votes": 8605,
+        "voteShare": 0.12405391768182801
+      },
+      {
+        "party": 5,
+        "votes": 1859,
+        "voteShare": 0.026800259496864414
+      },
+      {
+        "party": 6,
+        "votes": 782,
+        "voteShare": 0.011273697109493261
+      }
+    ],
+    "totalVotes": 69365
+  },
+  {
+    "ridingId": 35096,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 24823,
+        "voteShare": 0.5749791531548226
+      },
+      {
+        "party": 1,
+        "votes": 8981,
+        "voteShare": 0.2080283517094413
+      },
+      {
+        "party": 2,
+        "votes": 6924,
+        "voteShare": 0.16038172889836005
+      },
+      {
+        "party": 5,
+        "votes": 1259,
+        "voteShare": 0.029162420087093487
+      },
+      {
+        "party": 4,
+        "votes": 1068,
+        "voteShare": 0.024738256277216715
+      },
+      {
+        "party": 6,
+        "votes": 117,
+        "voteShare": 0.002710089873065876
+      }
+    ],
+    "totalVotes": 43172
+  },
+  {
+    "ridingId": 35097,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 28702,
+        "voteShare": 0.6277777777777778
+      },
+      {
+        "party": 1,
+        "votes": 9628,
+        "voteShare": 0.21058617672790902
+      },
+      {
+        "party": 2,
+        "votes": 6068,
+        "voteShare": 0.13272090988626423
+      },
+      {
+        "party": 5,
+        "votes": 1322,
+        "voteShare": 0.028915135608048995
+      }
+    ],
+    "totalVotes": 45720
+  },
+  {
+    "ridingId": 35098,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 36249,
+        "voteShare": 0.4731627724840099
+      },
+      {
+        "party": 0,
+        "votes": 21320,
+        "voteShare": 0.27829265108993606
+      },
+      {
+        "party": 2,
+        "votes": 10140,
+        "voteShare": 0.1323586999086281
+      },
+      {
+        "party": 5,
+        "votes": 5550,
+        "voteShare": 0.07244485054170474
+      },
+      {
+        "party": 4,
+        "votes": 2969,
+        "voteShare": 0.038754731758256104
+      },
+      {
+        "party": 6,
+        "votes": 382,
+        "voteShare": 0.004986294217465083
+      }
+    ],
+    "totalVotes": 76610
+  },
+  {
+    "ridingId": 35099,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27383,
+        "voteShare": 0.4304961640045277
+      },
+      {
+        "party": 0,
+        "votes": 19332,
+        "voteShare": 0.30392403471261475
+      },
+      {
+        "party": 2,
+        "votes": 9958,
+        "voteShare": 0.15655263488869325
+      },
+      {
+        "party": 5,
+        "votes": 4822,
+        "voteShare": 0.07580807445604326
+      },
+      {
+        "party": 4,
+        "votes": 1903,
+        "voteShare": 0.02991762042510376
+      },
+      {
+        "party": 6,
+        "votes": 210,
+        "voteShare": 0.0033014715130172305
+      }
+    ],
+    "totalVotes": 63608
+  },
+  {
+    "ridingId": 35101,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 41060,
+        "voteShare": 0.3831903913096227
+      },
+      {
+        "party": 2,
+        "votes": 29128,
+        "voteShare": 0.2718355995632413
+      },
+      {
+        "party": 1,
+        "votes": 28893,
+        "voteShare": 0.26964247384580925
+      },
+      {
+        "party": 5,
+        "votes": 5336,
+        "voteShare": 0.04979795246050041
+      },
+      {
+        "party": 4,
+        "votes": 2736,
+        "voteShare": 0.025533582820826295
+      }
+    ],
+    "totalVotes": 107153
+  },
+  {
+    "ridingId": 35102,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29255,
+        "voteShare": 0.555618863122709
+      },
+      {
+        "party": 0,
+        "votes": 12443,
+        "voteShare": 0.2363208174273071
+      },
+      {
+        "party": 2,
+        "votes": 5804,
+        "voteShare": 0.11023113592767743
+      },
+      {
+        "party": 5,
+        "votes": 3921,
+        "voteShare": 0.07446869124266424
+      },
+      {
+        "party": 4,
+        "votes": 1230,
+        "voteShare": 0.023360492279642184
+      }
+    ],
+    "totalVotes": 52653
+  },
+  {
+    "ridingId": 35103,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 15871,
+        "voteShare": 0.3452243708263546
+      },
+      {
+        "party": 2,
+        "votes": 13569,
+        "voteShare": 0.2951515019685468
+      },
+      {
+        "party": 1,
+        "votes": 12747,
+        "voteShare": 0.27727144193330866
+      },
+      {
+        "party": 5,
+        "votes": 2735,
+        "voteShare": 0.05949144062819481
+      },
+      {
+        "party": 4,
+        "votes": 940,
+        "voteShare": 0.02044678398190242
+      },
+      {
+        "party": 6,
+        "votes": 111,
+        "voteShare": 0.0024144606616927325
+      }
+    ],
+    "totalVotes": 45973
+  },
+  {
+    "ridingId": 35106,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25687,
+        "voteShare": 0.5131037513483281
+      },
+      {
+        "party": 0,
+        "votes": 18168,
+        "voteShare": 0.3629099916104031
+      },
+      {
+        "party": 2,
+        "votes": 3041,
+        "voteShare": 0.06074467660101474
+      },
+      {
+        "party": 5,
+        "votes": 2322,
+        "voteShare": 0.04638248571771004
+      },
+      {
+        "party": 4,
+        "votes": 844,
+        "voteShare": 0.016859094722544047
+      }
+    ],
+    "totalVotes": 50062
+  },
+  {
+    "ridingId": 35107,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 23474,
+        "voteShare": 0.31538358188902327
+      },
+      {
+        "party": 0,
+        "votes": 22163,
+        "voteShare": 0.29776971651215906
+      },
+      {
+        "party": 1,
+        "votes": 21064,
+        "voteShare": 0.28300416498723635
+      },
+      {
+        "party": 5,
+        "votes": 7158,
+        "voteShare": 0.09617089883111649
+      },
+      {
+        "party": 4,
+        "votes": 571,
+        "voteShare": 0.007671637780464867
+      }
+    ],
+    "totalVotes": 74430
+  },
+  {
+    "ridingId": 35108,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16893,
+        "voteShare": 0.40722705686666827
+      },
+      {
+        "party": 2,
+        "votes": 11244,
+        "voteShare": 0.271050791890654
+      },
+      {
+        "party": 1,
+        "votes": 10035,
+        "voteShare": 0.24190632307210183
+      },
+      {
+        "party": 5,
+        "votes": 2465,
+        "voteShare": 0.05942193187570812
+      },
+      {
+        "party": 4,
+        "votes": 735,
+        "voteShare": 0.017718101390931225
+      },
+      {
+        "party": 6,
+        "votes": 111,
+        "voteShare": 0.0026757949039365523
+      }
+    ],
+    "totalVotes": 41483
+  },
+  {
+    "ridingId": 35109,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23071,
+        "voteShare": 0.5035467184669445
+      },
+      {
+        "party": 2,
+        "votes": 11909,
+        "voteShare": 0.2599253552174957
+      },
+      {
+        "party": 1,
+        "votes": 5571,
+        "voteShare": 0.12159242202675863
+      },
+      {
+        "party": 4,
+        "votes": 3921,
+        "voteShare": 0.08557958836239823
+      },
+      {
+        "party": 5,
+        "votes": 1047,
+        "voteShare": 0.022851779907021412
+      },
+      {
+        "party": 6,
+        "votes": 298,
+        "voteShare": 0.006504136019381452
+      }
+    ],
+    "totalVotes": 45817
+  },
+  {
+    "ridingId": 35110,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25214,
+        "voteShare": 0.48356411338268573
+      },
+      {
+        "party": 2,
+        "votes": 17555,
+        "voteShare": 0.33667676728932533
+      },
+      {
+        "party": 1,
+        "votes": 6547,
+        "voteShare": 0.12556096812550344
+      },
+      {
+        "party": 5,
+        "votes": 1282,
+        "voteShare": 0.024586705534885504
+      },
+      {
+        "party": 4,
+        "votes": 1023,
+        "voteShare": 0.019619500594530322
+      },
+      {
+        "party": 6,
+        "votes": 521,
+        "voteShare": 0.009991945073069695
+      }
+    ],
+    "totalVotes": 52142
+  },
+  {
+    "ridingId": 35111,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26429,
+        "voteShare": 0.49217847964542444
+      },
+      {
+        "party": 1,
+        "votes": 13587,
+        "voteShare": 0.2530261834705203
+      },
+      {
+        "party": 2,
+        "votes": 9036,
+        "voteShare": 0.16827442362844053
+      },
+      {
+        "party": 4,
+        "votes": 3214,
+        "voteShare": 0.059853253380014154
+      },
+      {
+        "party": 5,
+        "votes": 1432,
+        "voteShare": 0.02666765987560058
+      }
+    ],
+    "totalVotes": 53698
+  },
+  {
+    "ridingId": 35112,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22451,
+        "voteShare": 0.47530432941674605
+      },
+      {
+        "party": 2,
+        "votes": 11921,
+        "voteShare": 0.25237641579337355
+      },
+      {
+        "party": 1,
+        "votes": 9473,
+        "voteShare": 0.2005504392928972
+      },
+      {
+        "party": 4,
+        "votes": 1974,
+        "voteShare": 0.041791044776119404
+      },
+      {
+        "party": 5,
+        "votes": 1172,
+        "voteShare": 0.02481210966444374
+      },
+      {
+        "party": 6,
+        "votes": 244,
+        "voteShare": 0.005165661056420028
+      }
+    ],
+    "totalVotes": 47235
+  },
+  {
+    "ridingId": 35113,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 54276,
+        "voteShare": 0.47271333762998835
+      },
+      {
+        "party": 0,
+        "votes": 40083,
+        "voteShare": 0.34910031528157603
+      },
+      {
+        "party": 2,
+        "votes": 10315,
+        "voteShare": 0.08983783030535282
+      },
+      {
+        "party": 5,
+        "votes": 6926,
+        "voteShare": 0.06032155236983748
+      },
+      {
+        "party": 4,
+        "votes": 3059,
+        "voteShare": 0.026642164120608266
+      },
+      {
+        "party": 6,
+        "votes": 159,
+        "voteShare": 0.001384800292637043
+      }
+    ],
+    "totalVotes": 114818
+  },
+  {
+    "ridingId": 35114,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26926,
+        "voteShare": 0.45136956448855065
+      },
+      {
+        "party": 1,
+        "votes": 16528,
+        "voteShare": 0.2770644047339659
+      },
+      {
+        "party": 2,
+        "votes": 11360,
+        "voteShare": 0.190431488248902
+      },
+      {
+        "party": 5,
+        "votes": 2802,
+        "voteShare": 0.04697086532336474
+      },
+      {
+        "party": 4,
+        "votes": 2038,
+        "voteShare": 0.03416367720521675
+      }
+    ],
+    "totalVotes": 59654
+  },
+  {
+    "ridingId": 35116,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 45509,
+        "voteShare": 0.3822904328687953
+      },
+      {
+        "party": 1,
+        "votes": 36876,
+        "voteShare": 0.3097704190922608
+      },
+      {
+        "party": 2,
+        "votes": 26231,
+        "voteShare": 0.2203489495392421
+      },
+      {
+        "party": 5,
+        "votes": 8609,
+        "voteShare": 0.07231840595415102
+      },
+      {
+        "party": 4,
+        "votes": 1654,
+        "voteShare": 0.013894139092596793
+      },
+      {
+        "party": 6,
+        "votes": 164,
+        "voteShare": 0.0013776534529539746
+      }
+    ],
+    "totalVotes": 119043
+  },
+  {
+    "ridingId": 35117,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21043,
+        "voteShare": 0.5119453094589335
+      },
+      {
+        "party": 1,
+        "votes": 13916,
+        "voteShare": 0.3385558583106267
+      },
+      {
+        "party": 2,
+        "votes": 4231,
+        "voteShare": 0.10293402101985208
+      },
+      {
+        "party": 5,
+        "votes": 1102,
+        "voteShare": 0.026810042818217205
+      },
+      {
+        "party": 4,
+        "votes": 812,
+        "voteShare": 0.019754768392370572
+      }
+    ],
+    "totalVotes": 41104
+  },
+  {
+    "ridingId": 35119,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 34315,
+        "voteShare": 0.3482907717916447
+      },
+      {
+        "party": 2,
+        "votes": 28341,
+        "voteShare": 0.2876557996021274
+      },
+      {
+        "party": 0,
+        "votes": 27993,
+        "voteShare": 0.2841236652998254
+      },
+      {
+        "party": 5,
+        "votes": 7722,
+        "voteShare": 0.07837684219073525
+      },
+      {
+        "party": 6,
+        "votes": 153,
+        "voteShare": 0.0015529211156672486
+      }
+    ],
+    "totalVotes": 98524
+  },
+  {
+    "ridingId": 35120,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 39074,
+        "voteShare": 0.5180304396245426
+      },
+      {
+        "party": 1,
+        "votes": 21732,
+        "voteShare": 0.2881158190592353
+      },
+      {
+        "party": 2,
+        "votes": 10270,
+        "voteShare": 0.13615633451768575
+      },
+      {
+        "party": 5,
+        "votes": 3480,
+        "voteShare": 0.046136713156917857
+      },
+      {
+        "party": 4,
+        "votes": 872,
+        "voteShare": 0.011560693641618497
+      }
+    ],
+    "totalVotes": 75428
+  },
+  {
+    "ridingId": 46001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22733,
+        "voteShare": 0.5957285115303983
+      },
+      {
+        "party": 2,
+        "votes": 7838,
+        "voteShare": 0.20539832285115303
+      },
+      {
+        "party": 0,
+        "votes": 4608,
+        "voteShare": 0.12075471698113208
+      },
+      {
+        "party": 5,
+        "votes": 2981,
+        "voteShare": 0.07811844863731657
+      }
+    ],
+    "totalVotes": 38160
+  },
+  {
+    "ridingId": 46002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22441,
+        "voteShare": 0.3550566419846845
+      },
+      {
+        "party": 0,
+        "votes": 22165,
+        "voteShare": 0.35068982975761026
+      },
+      {
+        "party": 2,
+        "votes": 14606,
+        "voteShare": 0.23109296879944308
+      },
+      {
+        "party": 5,
+        "votes": 2493,
+        "voteShare": 0.03944370609455098
+      },
+      {
+        "party": 4,
+        "votes": 1499,
+        "voteShare": 0.023716853363711158
+      }
+    ],
+    "totalVotes": 63204
+  },
+  {
+    "ridingId": 46003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20791,
+        "voteShare": 0.4969287028848682
+      },
+      {
+        "party": 1,
+        "votes": 11768,
+        "voteShare": 0.28126867276942563
+      },
+      {
+        "party": 0,
+        "votes": 6169,
+        "voteShare": 0.14744616267119195
+      },
+      {
+        "party": 5,
+        "votes": 2435,
+        "voteShare": 0.058199287745883024
+      },
+      {
+        "party": 4,
+        "votes": 676,
+        "voteShare": 0.016157173928631183
+      }
+    ],
+    "totalVotes": 41839
+  },
+  {
+    "ridingId": 46004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 41093,
+        "voteShare": 0.4983325450819175
+      },
+      {
+        "party": 0,
+        "votes": 17826,
+        "voteShare": 0.21617491905264308
+      },
+      {
+        "party": 2,
+        "votes": 15991,
+        "voteShare": 0.1939219752367786
+      },
+      {
+        "party": 5,
+        "votes": 6377,
+        "voteShare": 0.07733352736445108
+      },
+      {
+        "party": 4,
+        "votes": 835,
+        "voteShare": 0.010125998957082742
+      },
+      {
+        "party": 6,
+        "votes": 339,
+        "voteShare": 0.004111034307127005
+      }
+    ],
+    "totalVotes": 82461
+  },
+  {
+    "ridingId": 46005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 23819,
+        "voteShare": 0.5251565393773702
+      },
+      {
+        "party": 5,
+        "votes": 9790,
+        "voteShare": 0.2158479583737543
+      },
+      {
+        "party": 2,
+        "votes": 6068,
+        "voteShare": 0.1337860481523944
+      },
+      {
+        "party": 0,
+        "votes": 4967,
+        "voteShare": 0.10951142076020813
+      },
+      {
+        "party": 6,
+        "votes": 712,
+        "voteShare": 0.01569803333627304
+      }
+    ],
+    "totalVotes": 45356
+  },
+  {
+    "ridingId": 46006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24294,
+        "voteShare": 0.4868439510230256
+      },
+      {
+        "party": 0,
+        "votes": 8471,
+        "voteShare": 0.16975611711188152
+      },
+      {
+        "party": 5,
+        "votes": 8227,
+        "voteShare": 0.1648664355423739
+      },
+      {
+        "party": 2,
+        "votes": 6270,
+        "voteShare": 0.12564878459349513
+      },
+      {
+        "party": 6,
+        "votes": 1366,
+        "voteShare": 0.02737420091781728
+      },
+      {
+        "party": 4,
+        "votes": 1273,
+        "voteShare": 0.025510510811406584
+      }
+    ],
+    "totalVotes": 49901
+  },
+  {
+    "ridingId": 46009,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 41057,
+        "voteShare": 0.4318334805839539
+      },
+      {
+        "party": 0,
+        "votes": 26475,
+        "voteShare": 0.2784614413732172
+      },
+      {
+        "party": 2,
+        "votes": 19371,
+        "voteShare": 0.2037422693424208
+      },
+      {
+        "party": 5,
+        "votes": 5778,
+        "voteShare": 0.06077243468383188
+      },
+      {
+        "party": 4,
+        "votes": 2004,
+        "voteShare": 0.021077874542471287
+      },
+      {
+        "party": 6,
+        "votes": 391,
+        "voteShare": 0.004112499474104927
+      }
+    ],
+    "totalVotes": 95076
+  },
+  {
+    "ridingId": 46010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 14962,
+        "voteShare": 0.5029412753369861
+      },
+      {
+        "party": 0,
+        "votes": 8446,
+        "voteShare": 0.28390870281353997
+      },
+      {
+        "party": 1,
+        "votes": 3818,
+        "voteShare": 0.12834044841843423
+      },
+      {
+        "party": 5,
+        "votes": 1229,
+        "voteShare": 0.041312313018925004
+      },
+      {
+        "party": 4,
+        "votes": 708,
+        "voteShare": 0.02379911929812767
+      },
+      {
+        "party": 6,
+        "votes": 586,
+        "voteShare": 0.019698141113987024
+      }
+    ],
+    "totalVotes": 29749
+  },
+  {
+    "ridingId": 46011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16442,
+        "voteShare": 0.5234971981660723
+      },
+      {
+        "party": 2,
+        "votes": 8998,
+        "voteShare": 0.28648751910341314
+      },
+      {
+        "party": 1,
+        "votes": 4126,
+        "voteShare": 0.13136780438104942
+      },
+      {
+        "party": 5,
+        "votes": 1315,
+        "voteShare": 0.0418683138053999
+      },
+      {
+        "party": 4,
+        "votes": 418,
+        "voteShare": 0.013308711156393276
+      },
+      {
+        "party": 6,
+        "votes": 109,
+        "voteShare": 0.0034704533876719307
+      }
+    ],
+    "totalVotes": 31408
+  },
+  {
+    "ridingId": 46012,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22423,
+        "voteShare": 0.47461106995449254
+      },
+      {
+        "party": 1,
+        "votes": 15967,
+        "voteShare": 0.3379616890676262
+      },
+      {
+        "party": 2,
+        "votes": 6632,
+        "voteShare": 0.14037464281934597
+      },
+      {
+        "party": 5,
+        "votes": 1542,
+        "voteShare": 0.03263837443115673
+      },
+      {
+        "party": 4,
+        "votes": 681,
+        "voteShare": 0.014414223727378559
+      }
+    ],
+    "totalVotes": 47245
+  },
+  {
+    "ridingId": 46013,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22214,
+        "voteShare": 0.45547559000225546
+      },
+      {
+        "party": 1,
+        "votes": 13566,
+        "voteShare": 0.2781571015562527
+      },
+      {
+        "party": 2,
+        "votes": 10064,
+        "voteShare": 0.20635213549035286
+      },
+      {
+        "party": 5,
+        "votes": 1352,
+        "voteShare": 0.027721391810707183
+      },
+      {
+        "party": 4,
+        "votes": 1341,
+        "voteShare": 0.027495847942424802
+      },
+      {
+        "party": 6,
+        "votes": 234,
+        "voteShare": 0.004797933198007013
+      }
+    ],
+    "totalVotes": 48771
+  },
+  {
+    "ridingId": 47001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21336,
+        "voteShare": 0.6871940221592373
+      },
+      {
+        "party": 2,
+        "votes": 3718,
+        "voteShare": 0.11975006441638752
+      },
+      {
+        "party": 6,
+        "votes": 2162,
+        "voteShare": 0.06963411491883535
+      },
+      {
+        "party": 5,
+        "votes": 1847,
+        "voteShare": 0.05948853388301984
+      },
+      {
+        "party": 0,
+        "votes": 1748,
+        "voteShare": 0.056299922700334966
+      },
+      {
+        "party": 4,
+        "votes": 237,
+        "voteShare": 0.007633341922185004
+      }
+    ],
+    "totalVotes": 31048
+  },
+  {
+    "ridingId": 47002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 52710,
+        "voteShare": 0.6993869914815699
+      },
+      {
+        "party": 2,
+        "votes": 9212,
+        "voteShare": 0.12223018337181223
+      },
+      {
+        "party": 5,
+        "votes": 6617,
+        "voteShare": 0.08779821139505876
+      },
+      {
+        "party": 0,
+        "votes": 3558,
+        "voteShare": 0.04720961706870472
+      },
+      {
+        "party": 6,
+        "votes": 2606,
+        "voteShare": 0.03457792638590346
+      },
+      {
+        "party": 4,
+        "votes": 663,
+        "voteShare": 0.00879707029695088
+      }
+    ],
+    "totalVotes": 75366
+  },
+  {
+    "ridingId": 47003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 10036,
+        "voteShare": 0.48780013609409933
+      },
+      {
+        "party": 0,
+        "votes": 5533,
+        "voteShare": 0.26893166132011276
+      },
+      {
+        "party": 2,
+        "votes": 3548,
+        "voteShare": 0.1724506658889861
+      },
+      {
+        "party": 5,
+        "votes": 1002,
+        "voteShare": 0.04870224555263925
+      },
+      {
+        "party": 6,
+        "votes": 240,
+        "voteShare": 0.011665208515602217
+      },
+      {
+        "party": 4,
+        "votes": 215,
+        "voteShare": 0.01045008262856032
+      }
+    ],
+    "totalVotes": 20574
+  },
+  {
+    "ridingId": 47004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24869,
+        "voteShare": 0.60385101010101
+      },
+      {
+        "party": 2,
+        "votes": 7975,
+        "voteShare": 0.1936431623931624
+      },
+      {
+        "party": 5,
+        "votes": 4712,
+        "voteShare": 0.11441336441336442
+      },
+      {
+        "party": 0,
+        "votes": 2526,
+        "voteShare": 0.06133449883449883
+      },
+      {
+        "party": 6,
+        "votes": 664,
+        "voteShare": 0.016122766122766124
+      },
+      {
+        "party": 4,
+        "votes": 438,
+        "voteShare": 0.010635198135198136
+      }
+    ],
+    "totalVotes": 41184
+  },
+  {
+    "ridingId": 47005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22340,
+        "voteShare": 0.6489469862018882
+      },
+      {
+        "party": 2,
+        "votes": 5214,
+        "voteShare": 0.15145969498910675
+      },
+      {
+        "party": 0,
+        "votes": 3653,
+        "voteShare": 0.10611474219317357
+      },
+      {
+        "party": 5,
+        "votes": 2388,
+        "voteShare": 0.0693681917211329
+      },
+      {
+        "party": 6,
+        "votes": 466,
+        "voteShare": 0.01353667392883079
+      },
+      {
+        "party": 4,
+        "votes": 364,
+        "voteShare": 0.010573710965867828
+      }
+    ],
+    "totalVotes": 34425
+  },
+  {
+    "ridingId": 47006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21375,
+        "voteShare": 0.46830839340095964
+      },
+      {
+        "party": 2,
+        "votes": 15763,
+        "voteShare": 0.34535416164581645
+      },
+      {
+        "party": 0,
+        "votes": 6310,
+        "voteShare": 0.13824682864842364
+      },
+      {
+        "party": 5,
+        "votes": 1635,
+        "voteShare": 0.035821484126810244
+      },
+      {
+        "party": 4,
+        "votes": 560,
+        "voteShare": 0.012269132177990054
+      }
+    ],
+    "totalVotes": 45643
+  },
+  {
+    "ridingId": 47007,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20400,
+        "voteShare": 0.6189508176825753
+      },
+      {
+        "party": 2,
+        "votes": 6879,
+        "voteShare": 0.20871385660972724
+      },
+      {
+        "party": 0,
+        "votes": 3344,
+        "voteShare": 0.10145938893777116
+      },
+      {
+        "party": 5,
+        "votes": 1668,
+        "voteShare": 0.05060833156345763
+      },
+      {
+        "party": 4,
+        "votes": 668,
+        "voteShare": 0.020267605206468642
+      }
+    ],
+    "totalVotes": 32959
+  },
+  {
+    "ridingId": 47008,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19261,
+        "voteShare": 0.4989896373056995
+      },
+      {
+        "party": 0,
+        "votes": 10390,
+        "voteShare": 0.26917098445595855
+      },
+      {
+        "party": 2,
+        "votes": 6975,
+        "voteShare": 0.18069948186528498
+      },
+      {
+        "party": 5,
+        "votes": 1352,
+        "voteShare": 0.035025906735751296
+      },
+      {
+        "party": 4,
+        "votes": 622,
+        "voteShare": 0.0161139896373057
+      }
+    ],
+    "totalVotes": 38600
+  },
+  {
+    "ridingId": 47010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 43149,
+        "voteShare": 0.4896562680859273
+      },
+      {
+        "party": 2,
+        "votes": 28762,
+        "voteShare": 0.3263921199260108
+      },
+      {
+        "party": 0,
+        "votes": 11068,
+        "voteShare": 0.12560002723527877
+      },
+      {
+        "party": 5,
+        "votes": 3886,
+        "voteShare": 0.0440984555327334
+      },
+      {
+        "party": 4,
+        "votes": 961,
+        "voteShare": 0.010905459538588985
+      },
+      {
+        "party": 6,
+        "votes": 295,
+        "voteShare": 0.0033476696814607187
+      }
+    ],
+    "totalVotes": 88121
+  },
+  {
+    "ridingId": 47011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 15379,
+        "voteShare": 0.45357753789889693
+      },
+      {
+        "party": 2,
+        "votes": 13328,
+        "voteShare": 0.3930867693033681
+      },
+      {
+        "party": 0,
+        "votes": 2778,
+        "voteShare": 0.08193240134489471
+      },
+      {
+        "party": 5,
+        "votes": 2064,
+        "voteShare": 0.0608741815607857
+      },
+      {
+        "party": 4,
+        "votes": 357,
+        "voteShare": 0.010529109892054503
+      }
+    ],
+    "totalVotes": 33906
+  },
+  {
+    "ridingId": 47012,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30049,
+        "voteShare": 0.7638281647178444
+      },
+      {
+        "party": 5,
+        "votes": 3571,
+        "voteShare": 0.0907727503812913
+      },
+      {
+        "party": 2,
+        "votes": 3107,
+        "voteShare": 0.078978139298424
+      },
+      {
+        "party": 0,
+        "votes": 1636,
+        "voteShare": 0.041586171835282154
+      },
+      {
+        "party": 6,
+        "votes": 977,
+        "voteShare": 0.02483477376715811
+      }
+    ],
+    "totalVotes": 39340
+  },
+  {
+    "ridingId": 47014,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 23794,
+        "voteShare": 0.6865370188701021
+      },
+      {
+        "party": 2,
+        "votes": 4239,
+        "voteShare": 0.12230942350972358
+      },
+      {
+        "party": 5,
+        "votes": 3227,
+        "voteShare": 0.09310981591551734
+      },
+      {
+        "party": 0,
+        "votes": 2187,
+        "voteShare": 0.06310231404004847
+      },
+      {
+        "party": 4,
+        "votes": 614,
+        "voteShare": 0.017715967453401812
+      },
+      {
+        "party": 6,
+        "votes": 597,
+        "voteShare": 0.017225460211206647
+      }
+    ],
+    "totalVotes": 34658
+  },
+  {
+    "ridingId": 48001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 43677,
+        "voteShare": 0.5673221800800125
+      },
+      {
+        "party": 2,
+        "votes": 12482,
+        "voteShare": 0.16212916298643945
+      },
+      {
+        "party": 0,
+        "votes": 9572,
+        "voteShare": 0.12433106458149322
+      },
+      {
+        "party": 5,
+        "votes": 5808,
+        "voteShare": 0.07544032836286174
+      },
+      {
+        "party": 6,
+        "votes": 4044,
+        "voteShare": 0.05252766664934795
+      },
+      {
+        "party": 4,
+        "votes": 1405,
+        "voteShare": 0.018249597339845172
+      }
+    ],
+    "totalVotes": 76988
+  },
+  {
+    "ridingId": 48002,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 41819,
+        "voteShare": 0.7129048755540403
+      },
+      {
+        "party": 2,
+        "votes": 5761,
+        "voteShare": 0.09821002386634844
+      },
+      {
+        "party": 5,
+        "votes": 5440,
+        "voteShare": 0.09273781111489943
+      },
+      {
+        "party": 6,
+        "votes": 2571,
+        "voteShare": 0.04382884418683941
+      },
+      {
+        "party": 0,
+        "votes": 2515,
+        "voteShare": 0.04287419024889192
+      },
+      {
+        "party": 4,
+        "votes": 554,
+        "voteShare": 0.009444255028980567
+      }
+    ],
+    "totalVotes": 58660
+  },
+  {
+    "ridingId": 48003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 35676,
+        "voteShare": 0.6976416754663851
+      },
+      {
+        "party": 5,
+        "votes": 5108,
+        "voteShare": 0.09988658140717274
+      },
+      {
+        "party": 2,
+        "votes": 4726,
+        "voteShare": 0.09241659822441238
+      },
+      {
+        "party": 0,
+        "votes": 3869,
+        "voteShare": 0.07565802338769603
+      },
+      {
+        "party": 6,
+        "votes": 1759,
+        "voteShare": 0.034397121514333766
+      }
+    ],
+    "totalVotes": 51138
+  },
+  {
+    "ridingId": 48004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30375,
+        "voteShare": 0.5130218889339279
+      },
+      {
+        "party": 0,
+        "votes": 17593,
+        "voteShare": 0.29713890014862854
+      },
+      {
+        "party": 2,
+        "votes": 9694,
+        "voteShare": 0.16372787461153898
+      },
+      {
+        "party": 4,
+        "votes": 971,
+        "voteShare": 0.016399810836373464
+      },
+      {
+        "party": 6,
+        "votes": 575,
+        "voteShare": 0.009711525469531145
+      }
+    ],
+    "totalVotes": 59208
+  },
+  {
+    "ridingId": 48005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28367,
+        "voteShare": 0.46027161655660304
+      },
+      {
+        "party": 0,
+        "votes": 17560,
+        "voteShare": 0.2849215492203599
+      },
+      {
+        "party": 2,
+        "votes": 10561,
+        "voteShare": 0.17135856955103762
+      },
+      {
+        "party": 5,
+        "votes": 2670,
+        "voteShare": 0.04332235401015722
+      },
+      {
+        "party": 4,
+        "votes": 2295,
+        "voteShare": 0.03723775372783177
+      },
+      {
+        "party": 6,
+        "votes": 178,
+        "voteShare": 0.0028881569340104816
+      }
+    ],
+    "totalVotes": 61631
+  },
+  {
+    "ridingId": 48006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 15434,
+        "voteShare": 0.4454513969060263
+      },
+      {
+        "party": 0,
+        "votes": 9608,
+        "voteShare": 0.27730316324174553
+      },
+      {
+        "party": 2,
+        "votes": 6254,
+        "voteShare": 0.1805010390210113
+      },
+      {
+        "party": 5,
+        "votes": 2468,
+        "voteShare": 0.07123066266451165
+      },
+      {
+        "party": 4,
+        "votes": 699,
+        "voteShare": 0.020174324636342646
+      },
+      {
+        "party": 6,
+        "votes": 185,
+        "voteShare": 0.0053394135303625025
+      }
+    ],
+    "totalVotes": 34648
+  },
+  {
+    "ridingId": 48008,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30870,
+        "voteShare": 0.5765567218258564
+      },
+      {
+        "party": 2,
+        "votes": 9320,
+        "voteShare": 0.1740689552127302
+      },
+      {
+        "party": 0,
+        "votes": 8960,
+        "voteShare": 0.1673452616637406
+      },
+      {
+        "party": 5,
+        "votes": 2682,
+        "voteShare": 0.05009151693997236
+      },
+      {
+        "party": 6,
+        "votes": 944,
+        "voteShare": 0.01763101863957267
+      },
+      {
+        "party": 4,
+        "votes": 766,
+        "voteShare": 0.014306525718127825
+      }
+    ],
+    "totalVotes": 53542
+  },
+  {
+    "ridingId": 48010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 75181,
+        "voteShare": 0.5755967966680448
+      },
+      {
+        "party": 0,
+        "votes": 22640,
+        "voteShare": 0.17333517080864225
+      },
+      {
+        "party": 2,
+        "votes": 22574,
+        "voteShare": 0.17282986509868772
+      },
+      {
+        "party": 5,
+        "votes": 6933,
+        "voteShare": 0.05308006798658643
+      },
+      {
+        "party": 4,
+        "votes": 1920,
+        "voteShare": 0.01469980247140429
+      },
+      {
+        "party": 6,
+        "votes": 1366,
+        "voteShare": 0.010458296966634511
+      }
+    ],
+    "totalVotes": 130614
+  },
+  {
+    "ridingId": 48011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28001,
+        "voteShare": 0.5556525707935626
+      },
+      {
+        "party": 0,
+        "votes": 10311,
+        "voteShare": 0.20461175163217113
+      },
+      {
+        "party": 2,
+        "votes": 8500,
+        "voteShare": 0.16867422062588058
+      },
+      {
+        "party": 5,
+        "votes": 2324,
+        "voteShare": 0.04611751632171135
+      },
+      {
+        "party": 4,
+        "votes": 636,
+        "voteShare": 0.012620800508007065
+      },
+      {
+        "party": 6,
+        "votes": 621,
+        "voteShare": 0.012323140118667275
+      }
+    ],
+    "totalVotes": 50393
+  },
+  {
+    "ridingId": 48012,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 44411,
+        "voteShare": 0.6037466523470956
+      },
+      {
+        "party": 2,
+        "votes": 12103,
+        "voteShare": 0.16453459128046874
+      },
+      {
+        "party": 0,
+        "votes": 10303,
+        "voteShare": 0.1400644380701206
+      },
+      {
+        "party": 5,
+        "votes": 4284,
+        "voteShare": 0.05823896464062861
+      },
+      {
+        "party": 4,
+        "votes": 1300,
+        "voteShare": 0.01767288842969589
+      },
+      {
+        "party": 6,
+        "votes": 1158,
+        "voteShare": 0.015742465231990646
+      }
+    ],
+    "totalVotes": 73559
+  },
+  {
+    "ridingId": 48013,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 35217,
+        "voteShare": 0.5898303381513056
+      },
+      {
+        "party": 0,
+        "votes": 11106,
+        "voteShare": 0.1860083407305676
+      },
+      {
+        "party": 2,
+        "votes": 8863,
+        "voteShare": 0.14844155626643443
+      },
+      {
+        "party": 5,
+        "votes": 2859,
+        "voteShare": 0.04788383271643191
+      },
+      {
+        "party": 4,
+        "votes": 1094,
+        "voteShare": 0.018322809720803256
+      },
+      {
+        "party": 6,
+        "votes": 568,
+        "voteShare": 0.009513122414457266
+      }
+    ],
+    "totalVotes": 59707
+  },
+  {
+    "ridingId": 48014,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20092,
+        "voteShare": 0.4235869542301773
+      },
+      {
+        "party": 1,
+        "votes": 17111,
+        "voteShare": 0.3607404127927814
+      },
+      {
+        "party": 2,
+        "votes": 7690,
+        "voteShare": 0.16212341618704276
+      },
+      {
+        "party": 5,
+        "votes": 1720,
+        "voteShare": 0.036261674361731284
+      },
+      {
+        "party": 4,
+        "votes": 432,
+        "voteShare": 0.00910758332806274
+      },
+      {
+        "party": 6,
+        "votes": 388,
+        "voteShare": 0.0081799591002045
+      }
+    ],
+    "totalVotes": 47433
+  },
+  {
+    "ridingId": 48015,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16560,
+        "voteShare": 0.33694148286807196
+      },
+      {
+        "party": 1,
+        "votes": 15945,
+        "voteShare": 0.3244282575079352
+      },
+      {
+        "party": 2,
+        "votes": 14171,
+        "voteShare": 0.288333197688614
+      },
+      {
+        "party": 5,
+        "votes": 2094,
+        "voteShare": 0.04260600634817287
+      },
+      {
+        "party": 6,
+        "votes": 378,
+        "voteShare": 0.00769105558720599
+      }
+    ],
+    "totalVotes": 49148
+  },
+  {
+    "ridingId": 48017,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 34349,
+        "voteShare": 0.3750996472759438
+      },
+      {
+        "party": 2,
+        "votes": 28010,
+        "voteShare": 0.30587618621209306
+      },
+      {
+        "party": 0,
+        "votes": 22478,
+        "voteShare": 0.24546536642896924
+      },
+      {
+        "party": 5,
+        "votes": 5515,
+        "voteShare": 0.0602251755430094
+      },
+      {
+        "party": 6,
+        "votes": 683,
+        "voteShare": 0.007458530352833259
+      },
+      {
+        "party": 4,
+        "votes": 538,
+        "voteShare": 0.005875094187151235
+      }
+    ],
+    "totalVotes": 91573
+  },
+  {
+    "ridingId": 48018,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20219,
+        "voteShare": 0.4107382277658148
+      },
+      {
+        "party": 2,
+        "votes": 14999,
+        "voteShare": 0.3046967049932962
+      },
+      {
+        "party": 0,
+        "votes": 10468,
+        "voteShare": 0.21265185064803152
+      },
+      {
+        "party": 5,
+        "votes": 3407,
+        "voteShare": 0.06921139235363426
+      },
+      {
+        "party": 6,
+        "votes": 133,
+        "voteShare": 0.002701824239223175
+      }
+    ],
+    "totalVotes": 49226
+  },
+  {
+    "ridingId": 48020,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25702,
+        "voteShare": 0.451482574480045
+      },
+      {
+        "party": 0,
+        "votes": 14169,
+        "voteShare": 0.2488933389544688
+      },
+      {
+        "party": 2,
+        "votes": 14154,
+        "voteShare": 0.24862984822934234
+      },
+      {
+        "party": 5,
+        "votes": 2142,
+        "voteShare": 0.03762647554806071
+      },
+      {
+        "party": 4,
+        "votes": 761,
+        "voteShare": 0.013367762788083193
+      }
+    ],
+    "totalVotes": 56928
+  },
+  {
+    "ridingId": 48021,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 48340,
+        "voteShare": 0.5566366891977477
+      },
+      {
+        "party": 2,
+        "votes": 18259,
+        "voteShare": 0.21025298527227296
+      },
+      {
+        "party": 0,
+        "votes": 12229,
+        "voteShare": 0.14081733703349722
+      },
+      {
+        "party": 5,
+        "votes": 7670,
+        "voteShare": 0.08832030215446265
+      },
+      {
+        "party": 6,
+        "votes": 345,
+        "voteShare": 0.003972686342019506
+      }
+    ],
+    "totalVotes": 86843
+  },
+  {
+    "ridingId": 48022,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 31690,
+        "voteShare": 0.6068207494781993
+      },
+      {
+        "party": 1,
+        "votes": 13310,
+        "voteShare": 0.2548685445110392
+      },
+      {
+        "party": 0,
+        "votes": 3948,
+        "voteShare": 0.07559887405932252
+      },
+      {
+        "party": 5,
+        "votes": 2366,
+        "voteShare": 0.045305708212856406
+      },
+      {
+        "party": 4,
+        "votes": 634,
+        "voteShare": 0.012140244719759493
+      },
+      {
+        "party": 6,
+        "votes": 275,
+        "voteShare": 0.005265879018823124
+      }
+    ],
+    "totalVotes": 52223
+  },
+  {
+    "ridingId": 48023,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25278,
+        "voteShare": 0.45148154101698545
+      },
+      {
+        "party": 2,
+        "votes": 14190,
+        "voteShare": 0.2534426405186733
+      },
+      {
+        "party": 0,
+        "votes": 13016,
+        "voteShare": 0.23247423601064496
+      },
+      {
+        "party": 5,
+        "votes": 3354,
+        "voteShare": 0.05990462412259551
+      },
+      {
+        "party": 6,
+        "votes": 151,
+        "voteShare": 0.002696958331100752
+      }
+    ],
+    "totalVotes": 55989
+  },
+  {
+    "ridingId": 48024,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 80817,
+        "voteShare": 0.6886482156856062
+      },
+      {
+        "party": 2,
+        "votes": 13579,
+        "voteShare": 0.11570776100071577
+      },
+      {
+        "party": 5,
+        "votes": 10522,
+        "voteShare": 0.08965881591056274
+      },
+      {
+        "party": 0,
+        "votes": 6838,
+        "voteShare": 0.058267152936364565
+      },
+      {
+        "party": 6,
+        "votes": 4798,
+        "voteShare": 0.040884147380619656
+      },
+      {
+        "party": 4,
+        "votes": 802,
+        "voteShare": 0.0068339070861310885
+      }
+    ],
+    "totalVotes": 117356
+  },
+  {
+    "ridingId": 48025,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29242,
+        "voteShare": 0.6776825028968714
+      },
+      {
+        "party": 5,
+        "votes": 5481,
+        "voteShare": 0.12702201622247972
+      },
+      {
+        "party": 2,
+        "votes": 4377,
+        "voteShare": 0.10143684820393975
+      },
+      {
+        "party": 0,
+        "votes": 3060,
+        "voteShare": 0.0709154113557358
+      },
+      {
+        "party": 6,
+        "votes": 567,
+        "voteShare": 0.013140208574739281
+      },
+      {
+        "party": 4,
+        "votes": 423,
+        "voteShare": 0.009803012746234067
+      }
+    ],
+    "totalVotes": 43150
+  },
+  {
+    "ridingId": 48027,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 36557,
+        "voteShare": 0.6943267934132306
+      },
+      {
+        "party": 5,
+        "votes": 5827,
+        "voteShare": 0.11067216197223224
+      },
+      {
+        "party": 2,
+        "votes": 5519,
+        "voteShare": 0.10482232056371199
+      },
+      {
+        "party": 0,
+        "votes": 2610,
+        "voteShare": 0.04957170803973334
+      },
+      {
+        "party": 6,
+        "votes": 1674,
+        "voteShare": 0.03179426791513931
+      },
+      {
+        "party": 4,
+        "votes": 464,
+        "voteShare": 0.008812748095952594
+      }
+    ],
+    "totalVotes": 52651
+  },
+  {
+    "ridingId": 48029,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 73497,
+        "voteShare": 0.6009910624483822
+      },
+      {
+        "party": 2,
+        "votes": 20212,
+        "voteShare": 0.16527519972525
+      },
+      {
+        "party": 0,
+        "votes": 13012,
+        "voteShare": 0.1064002027916561
+      },
+      {
+        "party": 5,
+        "votes": 11678,
+        "voteShare": 0.09549197419312634
+      },
+      {
+        "party": 6,
+        "votes": 3894,
+        "voteShare": 0.031841560841585376
+      }
+    ],
+    "totalVotes": 122293
+  },
+  {
+    "ridingId": 48030,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 71453,
+        "voteShare": 0.647260242950187
+      },
+      {
+        "party": 2,
+        "votes": 15622,
+        "voteShare": 0.1415125959073492
+      },
+      {
+        "party": 5,
+        "votes": 12377,
+        "voteShare": 0.11211761615319812
+      },
+      {
+        "party": 0,
+        "votes": 7219,
+        "voteShare": 0.06539363908943502
+      },
+      {
+        "party": 6,
+        "votes": 2997,
+        "voteShare": 0.027148460500212877
+      },
+      {
+        "party": 4,
+        "votes": 725,
+        "voteShare": 0.006567445399617729
+      }
+    ],
+    "totalVotes": 110393
+  },
+  {
+    "ridingId": 48031,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29652,
+        "voteShare": 0.47564966313763235
+      },
+      {
+        "party": 2,
+        "votes": 17816,
+        "voteShare": 0.28578761629772215
+      },
+      {
+        "party": 0,
+        "votes": 11188,
+        "voteShare": 0.17946743663779274
+      },
+      {
+        "party": 5,
+        "votes": 3684,
+        "voteShare": 0.059095283926852746
+      }
+    ],
+    "totalVotes": 62340
+  },
+  {
+    "ridingId": 48032,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29486,
+        "voteShare": 0.6301908568253222
+      },
+      {
+        "party": 2,
+        "votes": 6019,
+        "voteShare": 0.128641347325226
+      },
+      {
+        "party": 5,
+        "votes": 5916,
+        "voteShare": 0.126439975207848
+      },
+      {
+        "party": 6,
+        "votes": 2573,
+        "voteShare": 0.05499155784479258
+      },
+      {
+        "party": 0,
+        "votes": 2431,
+        "voteShare": 0.05195665647908696
+      },
+      {
+        "party": 4,
+        "votes": 364,
+        "voteShare": 0.007779606317724251
+      }
+    ],
+    "totalVotes": 46789
+  },
+  {
+    "ridingId": 48033,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 40957,
+        "voteShare": 0.6161170948913893
+      },
+      {
+        "party": 2,
+        "votes": 12532,
+        "voteShare": 0.1885191648113605
+      },
+      {
+        "party": 5,
+        "votes": 6671,
+        "voteShare": 0.10035200673927433
+      },
+      {
+        "party": 0,
+        "votes": 4579,
+        "voteShare": 0.06888200252722787
+      },
+      {
+        "party": 6,
+        "votes": 1737,
+        "voteShare": 0.02612973103074794
+      }
+    ],
+    "totalVotes": 66476
+  },
+  {
+    "ridingId": 48035,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 41092,
+        "voteShare": 0.5755343286926805
+      },
+      {
+        "party": 2,
+        "votes": 14740,
+        "voteShare": 0.20644835989803637
+      },
+      {
+        "party": 0,
+        "votes": 8730,
+        "voteShare": 0.12227233255833497
+      },
+      {
+        "party": 5,
+        "votes": 5004,
+        "voteShare": 0.07008599680663324
+      },
+      {
+        "party": 6,
+        "votes": 1132,
+        "voteShare": 0.01585478584834309
+      },
+      {
+        "party": 4,
+        "votes": 700,
+        "voteShare": 0.009804196195971875
+      }
+    ],
+    "totalVotes": 71398
+  },
+  {
+    "ridingId": 48037,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33603,
+        "voteShare": 0.6615805638683258
+      },
+      {
+        "party": 5,
+        "votes": 6475,
+        "voteShare": 0.12748070562293273
+      },
+      {
+        "party": 2,
+        "votes": 5977,
+        "voteShare": 0.11767601197038904
+      },
+      {
+        "party": 0,
+        "votes": 2829,
+        "voteShare": 0.0556977476767995
+      },
+      {
+        "party": 6,
+        "votes": 1908,
+        "voteShare": 0.037564970861553
+      }
+    ],
+    "totalVotes": 50792
+  },
+  {
+    "ridingId": 59001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21597,
+        "voteShare": 0.47940066592674807
+      },
+      {
+        "party": 0,
+        "votes": 10907,
+        "voteShare": 0.2421087680355161
+      },
+      {
+        "party": 2,
+        "votes": 7729,
+        "voteShare": 0.17156492785793562
+      },
+      {
+        "party": 5,
+        "votes": 3300,
+        "voteShare": 0.0732519422863485
+      },
+      {
+        "party": 4,
+        "votes": 1517,
+        "voteShare": 0.03367369589345172
+      }
+    ],
+    "totalVotes": 45050
+  },
+  {
+    "ridingId": 59003,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 31806,
+        "voteShare": 0.35421863863150393
+      },
+      {
+        "party": 2,
+        "votes": 30700,
+        "voteShare": 0.3419012829650748
+      },
+      {
+        "party": 1,
+        "votes": 21639,
+        "voteShare": 0.24099028866714184
+      },
+      {
+        "party": 4,
+        "votes": 2691,
+        "voteShare": 0.029969262295081966
+      },
+      {
+        "party": 5,
+        "votes": 2660,
+        "voteShare": 0.029624019957234498
+      },
+      {
+        "party": 6,
+        "votes": 296,
+        "voteShare": 0.0032965074839629367
+      }
+    ],
+    "totalVotes": 89792
+  },
+  {
+    "ridingId": 59004,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25771,
+        "voteShare": 0.5081734466507601
+      },
+      {
+        "party": 2,
+        "votes": 10323,
+        "voteShare": 0.20355727328298465
+      },
+      {
+        "party": 0,
+        "votes": 8397,
+        "voteShare": 0.1655788456608759
+      },
+      {
+        "party": 5,
+        "votes": 4160,
+        "voteShare": 0.08203024865419123
+      },
+      {
+        "party": 4,
+        "votes": 1844,
+        "voteShare": 0.036361485220752075
+      },
+      {
+        "party": 6,
+        "votes": 218,
+        "voteShare": 0.004298700530435983
+      }
+    ],
+    "totalVotes": 50713
+  },
+  {
+    "ridingId": 59005,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 54550,
+        "voteShare": 0.46876342700008594
+      },
+      {
+        "party": 2,
+        "votes": 27740,
+        "voteShare": 0.23837758872561657
+      },
+      {
+        "party": 0,
+        "votes": 22142,
+        "voteShare": 0.1902724069777434
+      },
+      {
+        "party": 5,
+        "votes": 8792,
+        "voteShare": 0.07555211824353356
+      },
+      {
+        "party": 4,
+        "votes": 3146,
+        "voteShare": 0.02703445905302054
+      }
+    ],
+    "totalVotes": 116370
+  },
+  {
+    "ridingId": 59006,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20877,
+        "voteShare": 0.392056338028169
+      },
+      {
+        "party": 1,
+        "votes": 19223,
+        "voteShare": 0.36099530516431927
+      },
+      {
+        "party": 2,
+        "votes": 10587,
+        "voteShare": 0.1988169014084507
+      },
+      {
+        "party": 5,
+        "votes": 2563,
+        "voteShare": 0.04813145539906103
+      }
+    ],
+    "totalVotes": 53250
+  },
+  {
+    "ridingId": 59008,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21454,
+        "voteShare": 0.38505994687342954
+      },
+      {
+        "party": 1,
+        "votes": 16907,
+        "voteShare": 0.3034496374470529
+      },
+      {
+        "party": 2,
+        "votes": 14982,
+        "voteShare": 0.2688994184794314
+      },
+      {
+        "party": 5,
+        "votes": 2373,
+        "voteShare": 0.042590997200086154
+      }
+    ],
+    "totalVotes": 55716
+  },
+  {
+    "ridingId": 59009,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 30612,
+        "voteShare": 0.4420505415162455
+      },
+      {
+        "party": 1,
+        "votes": 22181,
+        "voteShare": 0.32030324909747293
+      },
+      {
+        "party": 0,
+        "votes": 9276,
+        "voteShare": 0.1339494584837545
+      },
+      {
+        "party": 4,
+        "votes": 3590,
+        "voteShare": 0.05184115523465704
+      },
+      {
+        "party": 5,
+        "votes": 3467,
+        "voteShare": 0.050064981949458486
+      },
+      {
+        "party": 6,
+        "votes": 124,
+        "voteShare": 0.0017906137184115524
+      }
+    ],
+    "totalVotes": 69250
+  },
+  {
+    "ridingId": 59010,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 26968,
+        "voteShare": 0.4278461733722554
+      },
+      {
+        "party": 1,
+        "votes": 17870,
+        "voteShare": 0.28350679020180225
+      },
+      {
+        "party": 0,
+        "votes": 10320,
+        "voteShare": 0.16372636121335196
+      },
+      {
+        "party": 5,
+        "votes": 3952,
+        "voteShare": 0.06269831196852392
+      },
+      {
+        "party": 4,
+        "votes": 3922,
+        "voteShare": 0.062222363244066506
+      }
+    ],
+    "totalVotes": 63032
+  },
+  {
+    "ridingId": 59011,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22105,
+        "voteShare": 0.42261734059841316
+      },
+      {
+        "party": 1,
+        "votes": 17695,
+        "voteShare": 0.3383041774208967
+      },
+      {
+        "party": 2,
+        "votes": 9591,
+        "voteShare": 0.18336679093776886
+      },
+      {
+        "party": 5,
+        "votes": 1291,
+        "voteShare": 0.024682152757862535
+      },
+      {
+        "party": 4,
+        "votes": 1244,
+        "voteShare": 0.023783577095879936
+      },
+      {
+        "party": 6,
+        "votes": 379,
+        "voteShare": 0.007245961189178854
+      }
+    ],
+    "totalVotes": 52305
+  },
+  {
+    "ridingId": 59012,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 28056,
+        "voteShare": 0.428061395746239
+      },
+      {
+        "party": 0,
+        "votes": 14466,
+        "voteShare": 0.22071343565957707
+      },
+      {
+        "party": 1,
+        "votes": 13885,
+        "voteShare": 0.2118488907875866
+      },
+      {
+        "party": 4,
+        "votes": 5891,
+        "voteShare": 0.08988129748863324
+      },
+      {
+        "party": 5,
+        "votes": 2995,
+        "voteShare": 0.04569588965853956
+      },
+      {
+        "party": 6,
+        "votes": 249,
+        "voteShare": 0.0037990906594244913
+      }
+    ],
+    "totalVotes": 65542
+  },
+  {
+    "ridingId": 59013,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 44834,
+        "voteShare": 0.3811345455781966
+      },
+      {
+        "party": 0,
+        "votes": 34067,
+        "voteShare": 0.2896041076908691
+      },
+      {
+        "party": 2,
+        "votes": 29391,
+        "voteShare": 0.2498533574762184
+      },
+      {
+        "party": 5,
+        "votes": 5317,
+        "voteShare": 0.04519990138821589
+      },
+      {
+        "party": 4,
+        "votes": 3468,
+        "voteShare": 0.029481523042003518
+      },
+      {
+        "party": 6,
+        "votes": 556,
+        "voteShare": 0.004726564824496527
+      }
+    ],
+    "totalVotes": 117633
+  },
+  {
+    "ridingId": 59014,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30409,
+        "voteShare": 0.45290578177593754
+      },
+      {
+        "party": 0,
+        "votes": 17767,
+        "voteShare": 0.26461827172261776
+      },
+      {
+        "party": 2,
+        "votes": 12204,
+        "voteShare": 0.1817640225194364
+      },
+      {
+        "party": 5,
+        "votes": 4688,
+        "voteShare": 0.06982216794256949
+      },
+      {
+        "party": 4,
+        "votes": 2074,
+        "voteShare": 0.0308897560394388
+      }
+    ],
+    "totalVotes": 67142
+  },
+  {
+    "ridingId": 59015,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28056,
+        "voteShare": 0.43186331101362274
+      },
+      {
+        "party": 2,
+        "votes": 23986,
+        "voteShare": 0.36921419225736934
+      },
+      {
+        "party": 0,
+        "votes": 5879,
+        "voteShare": 0.09049488185946279
+      },
+      {
+        "party": 5,
+        "votes": 4467,
+        "voteShare": 0.06876010159316555
+      },
+      {
+        "party": 4,
+        "votes": 2577,
+        "voteShare": 0.03966751327637959
+      }
+    ],
+    "totalVotes": 64965
+  },
+  {
+    "ridingId": 59016,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28643,
+        "voteShare": 0.4573002314999601
+      },
+      {
+        "party": 0,
+        "votes": 16565,
+        "voteShare": 0.26446874750538835
+      },
+      {
+        "party": 2,
+        "votes": 12288,
+        "voteShare": 0.19618424203719964
+      },
+      {
+        "party": 5,
+        "votes": 3341,
+        "voteShare": 0.0533407839067614
+      },
+      {
+        "party": 4,
+        "votes": 1798,
+        "voteShare": 0.02870599505069051
+      }
+    ],
+    "totalVotes": 62635
+  },
+  {
+    "ridingId": 59017,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18908,
+        "voteShare": 0.43793862188766647
+      },
+      {
+        "party": 0,
+        "votes": 10598,
+        "voteShare": 0.24546612623045744
+      },
+      {
+        "party": 2,
+        "votes": 8709,
+        "voteShare": 0.20171395483497395
+      },
+      {
+        "party": 5,
+        "votes": 3073,
+        "voteShare": 0.0711754487550666
+      },
+      {
+        "party": 4,
+        "votes": 1887,
+        "voteShare": 0.043705848291835554
+      }
+    ],
+    "totalVotes": 43175
+  },
+  {
+    "ridingId": 59019,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 43880,
+        "voteShare": 0.3715841441624537
+      },
+      {
+        "party": 1,
+        "votes": 28337,
+        "voteShare": 0.23996307869488268
+      },
+      {
+        "party": 0,
+        "votes": 20999,
+        "voteShare": 0.17782350599971208
+      },
+      {
+        "party": 4,
+        "votes": 19675,
+        "voteShare": 0.16661162343656055
+      },
+      {
+        "party": 5,
+        "votes": 5198,
+        "voteShare": 0.044017647706390946
+      }
+    ],
+    "totalVotes": 118089
+  },
+  {
+    "ridingId": 59020,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33626,
+        "voteShare": 0.4644667596723621
+      },
+      {
+        "party": 2,
+        "votes": 13929,
+        "voteShare": 0.19239747503349586
+      },
+      {
+        "party": 0,
+        "votes": 13666,
+        "voteShare": 0.18876472782021356
+      },
+      {
+        "party": 5,
+        "votes": 7209,
+        "voteShare": 0.09957594927966629
+      },
+      {
+        "party": 4,
+        "votes": 3967,
+        "voteShare": 0.054795088194262195
+      }
+    ],
+    "totalVotes": 72397
+  },
+  {
+    "ridingId": 59021,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 38341,
+        "voteShare": 0.32062249650870106
+      },
+      {
+        "party": 2,
+        "votes": 35583,
+        "voteShare": 0.29755901758611175
+      },
+      {
+        "party": 0,
+        "votes": 34678,
+        "voteShare": 0.2899910522398669
+      },
+      {
+        "party": 4,
+        "votes": 6254,
+        "voteShare": 0.05229840361924354
+      },
+      {
+        "party": 5,
+        "votes": 4340,
+        "voteShare": 0.03629278409138423
+      },
+      {
+        "party": 6,
+        "votes": 387,
+        "voteShare": 0.003236245954692557
+      }
+    ],
+    "totalVotes": 119583
+  },
+  {
+    "ridingId": 59024,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19371,
+        "voteShare": 0.36664584634603375
+      },
+      {
+        "party": 2,
+        "votes": 16869,
+        "voteShare": 0.3192890806882062
+      },
+      {
+        "party": 0,
+        "votes": 13179,
+        "voteShare": 0.24944636874680598
+      },
+      {
+        "party": 5,
+        "votes": 2800,
+        "voteShare": 0.05299717979293245
+      },
+      {
+        "party": 6,
+        "votes": 614,
+        "voteShare": 0.011621524426021615
+      }
+    ],
+    "totalVotes": 52833
+  },
+  {
+    "ridingId": 59025,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29273,
+        "voteShare": 0.33938923155405093
+      },
+      {
+        "party": 0,
+        "votes": 27671,
+        "voteShare": 0.32081574920001854
+      },
+      {
+        "party": 2,
+        "votes": 25563,
+        "voteShare": 0.2963757362148124
+      },
+      {
+        "party": 5,
+        "votes": 2514,
+        "voteShare": 0.0291471502110096
+      },
+      {
+        "party": 4,
+        "votes": 1109,
+        "voteShare": 0.012857672865556741
+      },
+      {
+        "party": 6,
+        "votes": 122,
+        "voteShare": 0.0014144599545517784
+      }
+    ],
+    "totalVotes": 86252
+  },
+  {
+    "ridingId": 59026,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29882,
+        "voteShare": 0.6073947598430799
+      },
+      {
+        "party": 2,
+        "votes": 6647,
+        "voteShare": 0.1351098644226274
+      },
+      {
+        "party": 5,
+        "votes": 5138,
+        "voteShare": 0.1044372624347013
+      },
+      {
+        "party": 0,
+        "votes": 4236,
+        "voteShare": 0.08610281114702116
+      },
+      {
+        "party": 4,
+        "votes": 1661,
+        "voteShare": 0.0337622212736549
+      },
+      {
+        "party": 6,
+        "votes": 1633,
+        "voteShare": 0.03319308087891538
+      }
+    ],
+    "totalVotes": 49197
+  },
+  {
+    "ridingId": 59029,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 39554,
+        "voteShare": 0.29896751371861346
+      },
+      {
+        "party": 1,
+        "votes": 38450,
+        "voteShare": 0.29062296866260523
+      },
+      {
+        "party": 4,
+        "votes": 27133,
+        "voteShare": 0.20508382337379633
+      },
+      {
+        "party": 0,
+        "votes": 20215,
+        "voteShare": 0.1527943644087013
+      },
+      {
+        "party": 5,
+        "votes": 6809,
+        "voteShare": 0.05146558631010869
+      },
+      {
+        "party": 6,
+        "votes": 141,
+        "voteShare": 0.0010657435261749633
+      }
+    ],
+    "totalVotes": 132302
+  },
+  {
+    "ridingId": 59031,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26579,
+        "voteShare": 0.3481660990306523
+      },
+      {
+        "party": 2,
+        "votes": 23446,
+        "voteShare": 0.30712601519517946
+      },
+      {
+        "party": 0,
+        "votes": 19409,
+        "voteShare": 0.254244170814776
+      },
+      {
+        "party": 5,
+        "votes": 3843,
+        "voteShare": 0.050340581608593137
+      },
+      {
+        "party": 4,
+        "votes": 2266,
+        "voteShare": 0.02968299711815562
+      },
+      {
+        "party": 6,
+        "votes": 797,
+        "voteShare": 0.010440136232643437
+      }
+    ],
+    "totalVotes": 76340
+  },
+  {
+    "ridingId": 59032,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24158,
+        "voteShare": 0.42453211492838944
+      },
+      {
+        "party": 0,
+        "votes": 22166,
+        "voteShare": 0.38952640365521485
+      },
+      {
+        "party": 2,
+        "votes": 8395,
+        "voteShare": 0.14752657938669714
+      },
+      {
+        "party": 5,
+        "votes": 2186,
+        "voteShare": 0.03841490202969862
+      }
+    ],
+    "totalVotes": 56905
+  },
+  {
+    "ridingId": 59033,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16862,
+        "voteShare": 0.4392747355806805
+      },
+      {
+        "party": 2,
+        "votes": 10627,
+        "voteShare": 0.2768457250039077
+      },
+      {
+        "party": 1,
+        "votes": 8094,
+        "voteShare": 0.2108581253582035
+      },
+      {
+        "party": 5,
+        "votes": 1539,
+        "voteShare": 0.04009274214557391
+      },
+      {
+        "party": 4,
+        "votes": 838,
+        "voteShare": 0.021830875840150053
+      },
+      {
+        "party": 6,
+        "votes": 426,
+        "voteShare": 0.011097796071484395
+      }
+    ],
+    "totalVotes": 38386
+  },
+  {
+    "ridingId": 59034,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19721,
+        "voteShare": 0.5386779568423928
+      },
+      {
+        "party": 2,
+        "votes": 9536,
+        "voteShare": 0.26047527997814807
+      },
+      {
+        "party": 1,
+        "votes": 5758,
+        "voteShare": 0.15727943184922152
+      },
+      {
+        "party": 5,
+        "votes": 967,
+        "voteShare": 0.026413548210871347
+      },
+      {
+        "party": 6,
+        "votes": 628,
+        "voteShare": 0.017153783119366293
+      }
+    ],
+    "totalVotes": 36610
+  },
+  {
+    "ridingId": 59035,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20873,
+        "voteShare": 0.4043822771567507
+      },
+      {
+        "party": 2,
+        "votes": 15869,
+        "voteShare": 0.30743747215064804
+      },
+      {
+        "party": 1,
+        "votes": 11162,
+        "voteShare": 0.2162465854272817
+      },
+      {
+        "party": 4,
+        "votes": 2030,
+        "voteShare": 0.03932812832981382
+      },
+      {
+        "party": 5,
+        "votes": 1683,
+        "voteShare": 0.03260553693550575
+      }
+    ],
+    "totalVotes": 51617
+  },
+  {
+    "ridingId": 59036,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 27969,
+        "voteShare": 0.5639934665564316
+      },
+      {
+        "party": 0,
+        "votes": 9797,
+        "voteShare": 0.1975560081466395
+      },
+      {
+        "party": 1,
+        "votes": 5399,
+        "voteShare": 0.1088705611905386
+      },
+      {
+        "party": 4,
+        "votes": 3826,
+        "voteShare": 0.07715109596499364
+      },
+      {
+        "party": 5,
+        "votes": 1382,
+        "voteShare": 0.027867959912080822
+      },
+      {
+        "party": 6,
+        "votes": 1218,
+        "voteShare": 0.024560908229315802
+      }
+    ],
+    "totalVotes": 49591
+  },
+  {
+    "ridingId": 59038,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17050,
+        "voteShare": 0.3440274414850686
+      },
+      {
+        "party": 2,
+        "votes": 16619,
+        "voteShare": 0.33533091202582727
+      },
+      {
+        "party": 1,
+        "votes": 13280,
+        "voteShare": 0.2679580306698951
+      },
+      {
+        "party": 4,
+        "votes": 1434,
+        "voteShare": 0.028934624697336563
+      },
+      {
+        "party": 5,
+        "votes": 1177,
+        "voteShare": 0.023748991121872478
+      }
+    ],
+    "totalVotes": 49560
+  },
+  {
+    "ridingId": 59039,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20994,
+        "voteShare": 0.5227849992529509
+      },
+      {
+        "party": 0,
+        "votes": 11022,
+        "voteShare": 0.27446585985357835
+      },
+      {
+        "party": 1,
+        "votes": 5456,
+        "voteShare": 0.13586333980775936
+      },
+      {
+        "party": 4,
+        "votes": 1575,
+        "voteShare": 0.03922008068130883
+      },
+      {
+        "party": 5,
+        "votes": 868,
+        "voteShare": 0.021614622242143534
+      },
+      {
+        "party": 6,
+        "votes": 243,
+        "voteShare": 0.006051098162259076
+      }
+    ],
+    "totalVotes": 40158
+  },
+  {
+    "ridingId": 59040,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 40724,
+        "voteShare": 0.4628358412510797
+      },
+      {
+        "party": 1,
+        "votes": 22846,
+        "voteShare": 0.2596490430513252
+      },
+      {
+        "party": 2,
+        "votes": 19142,
+        "voteShare": 0.21755239350820565
+      },
+      {
+        "party": 4,
+        "votes": 2922,
+        "voteShare": 0.03320907396463154
+      },
+      {
+        "party": 5,
+        "votes": 2067,
+        "voteShare": 0.023491839796335862
+      },
+      {
+        "party": 6,
+        "votes": 287,
+        "voteShare": 0.0032618084284220575
+      }
+    ],
+    "totalVotes": 87988
+  },
+  {
+    "ridingId": 59042,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 29301,
+        "voteShare": 0.43897944507700604
+      },
+      {
+        "party": 0,
+        "votes": 18194,
+        "voteShare": 0.27257745550428475
+      },
+      {
+        "party": 1,
+        "votes": 9152,
+        "voteShare": 0.13711272247857614
+      },
+      {
+        "party": 4,
+        "votes": 7472,
+        "voteShare": 0.11194342901659975
+      },
+      {
+        "party": 5,
+        "votes": 2065,
+        "voteShare": 0.030937256547012643
+      },
+      {
+        "party": 6,
+        "votes": 564,
+        "voteShare": 0.008449691376520645
+      }
+    ],
+    "totalVotes": 66748
+  },
+  {
+    "ridingId": 59043,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21500,
+        "voteShare": 0.3388014308451126
+      },
+      {
+        "party": 1,
+        "votes": 19062,
+        "voteShare": 0.3003829244078854
+      },
+      {
+        "party": 2,
+        "votes": 16265,
+        "voteShare": 0.25630722198584915
+      },
+      {
+        "party": 4,
+        "votes": 4108,
+        "voteShare": 0.06473471060054524
+      },
+      {
+        "party": 5,
+        "votes": 2299,
+        "voteShare": 0.03622811579129832
+      },
+      {
+        "party": 6,
+        "votes": 225,
+        "voteShare": 0.0035455963693093178
+      }
+    ],
+    "totalVotes": 63459
+  },
+  {
+    "ridingId": 60001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 6471,
+        "voteShare": 0.3334535710604968
+      },
+      {
+        "party": 1,
+        "votes": 5096,
+        "voteShare": 0.26259919612490984
+      },
+      {
+        "party": 2,
+        "votes": 4354,
+        "voteShare": 0.22436359888694218
+      },
+      {
+        "party": 6,
+        "votes": 2639,
+        "voteShare": 0.1359888694218283
+      },
+      {
+        "party": 4,
+        "votes": 846,
+        "voteShare": 0.04359476450582294
+      }
+    ],
+    "totalVotes": 19406
+  },
+  {
+    "ridingId": 61001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 5387,
+        "voteShare": 0.38219226676126283
+      },
+      {
+        "party": 2,
+        "votes": 4558,
+        "voteShare": 0.3233770840723661
+      },
+      {
+        "party": 1,
+        "votes": 2031,
+        "voteShare": 0.1440936502305782
+      },
+      {
+        "party": 6,
+        "votes": 1791,
+        "voteShare": 0.12706633557999292
+      },
+      {
+        "party": 4,
+        "votes": 328,
+        "voteShare": 0.023270663355799928
+      }
+    ],
+    "totalVotes": 14095
+  },
+  {
+    "ridingId": 62001,
+    "year": 2021,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 3427,
+        "voteShare": 0.4767005146751982
+      },
+      {
+        "party": 0,
+        "votes": 2578,
+        "voteShare": 0.3586034218945611
+      },
+      {
+        "party": 1,
+        "votes": 1184,
+        "voteShare": 0.16469606343024065
+      }
+    ],
+    "totalVotes": 7189
+  }
+]

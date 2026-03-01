@@ -1,0 +1,90 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+@inject DataService DataService
+@inject SimulationState State
+
+<div class="seat-chart">
+    <h3>Projected Seat Count</h3>
+
+    @if (Summary != null)
+    {
+        var baselineSeats = GetBaselineSeats();
+
+        <div class="majority-line-label">
+            <span>Majority: 172</span>
+        </div>
+
+        @foreach (var party in PartyColorProvider.MainParties)
+        {
+            if (!Summary.SeatDistributions.TryGetValue(party, out var dist)) continue;
+            if (dist.Max < 1) continue;
+
+            var color = PartyColorProvider.GetColor(party);
+            double maxSeats = Summary.SeatDistributions.Values.Max(d => d.Max);
+            double scale = maxSeats > 0 ? 100.0 / maxSeats : 1;
+            double meanPct = dist.Mean * scale;
+            double p5Pct = dist.P5 * scale;
+            double p25Pct = dist.P25 * scale;
+            double p75Pct = dist.P75 * scale;
+            double p95Pct = dist.P95 * scale;
+            double majorityPct = 172.0 * scale;
+
+            <div class="bar-row">
+                <div class="bar-label">
+                    <span class="party-name" style="color: @color">@PartyColorProvider.GetName(party)</span>
+                    <span class="seat-mean-group">
+                        <span class="seat-mean">@dist.Mean.ToString("F0")</span>@{
+                            var delta = (int)Math.Round(dist.Mean) - baselineSeats.GetValueOrDefault(party, 0);
+                        }@if (delta > 0)
+                        {<span class="seat-delta" style="color: #16a34a">▲@delta</span>}
+                        else if (delta < 0)
+                        {<span class="seat-delta" style="color: #dc2626">▼@Math.Abs(delta)</span>}
+                    </span>
+                </div>
+                <div class="bar-container">
+                    @* 95% CI *@
+                    <div class="ci-95" style="left: @(p5Pct)%; width: @(p95Pct - p5Pct)%; background: @(color)22;"></div>
+                    @* 68% CI (P25-P75) *@
+                    <div class="ci-68" style="left: @(p25Pct)%; width: @(p75Pct - p25Pct)%; background: @(color)66;"></div>
+                    @* Mean marker *@
+                    <div class="mean-marker" style="left: @(meanPct)%; background: @color;"></div>
+                    @* Majority line *@
+                    <div class="majority-line" style="left: @(majorityPct)%;"></div>
+                    @* Hover value labels *@
+                    <span class="bar-value" style="left: @(p5Pct)%">@dist.P5</span>
+                    <span class="bar-value" style="left: @(p25Pct)%">@dist.P25</span>
+                    <span class="bar-value" style="left: @(p75Pct)%">@dist.P75</span>
+                    <span class="bar-value" style="left: @(p95Pct)%">@dist.P95</span>
+                </div>
+                <div class="bar-range">@dist.P5 - @dist.P95</div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="placeholder">Run a simulation to see projected seat counts.</div>
+    }
+</div>
+
+@code {
+    [Parameter] public SimulationSummary? Summary { get; set; }
+
+    private Dictionary<Party, int> GetBaselineSeats()
+    {
+        var results = State.BaselineYear switch
+        {
+            2021 => DataService.Results2021,
+            _ => DataService.Results2025
+        };
+        if (results == null) return new();
+
+        var seats = new Dictionary<Party, int>();
+        foreach (var result in results)
+        {
+            var winner = result.Candidates.OrderByDescending(c => c.VoteShare).First().Party;
+            seats.TryGetValue(winner, out var count);
+            seats[winner] = count + 1;
+        }
+        return seats;
+    }
+}

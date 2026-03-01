@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ElectionSim.Core/ElectionSim.Core.csproj" />
+    <Project Path="src/ElectionSim.DataTools/ElectionSim.DataTools.csproj" />
+    <Project Path="src/ElectionSim.Server/ElectionSim.Server.csproj" />
+    <Project Path="src/ElectionSim.Web/ElectionSim.Web.csproj" />
+  </Folder>
+  <Project Path="src/ElectionSim.DailyRunner/ElectionSim.DailyRunner.csproj" />
+</Solution>

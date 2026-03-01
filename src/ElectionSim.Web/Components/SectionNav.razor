@@ -1,0 +1,52 @@
+@using Microsoft.JSInterop
+@inject IJSRuntime JS
+@implements IDisposable
+
+<nav class="section-nav">
+    @foreach (var item in Sections)
+    {
+        <a class="section-nav-link @(activeSection == item.Id ? "active" : "")"
+           href="#@item.Id">@item.Label</a>
+    }
+</nav>
+
+@code {
+    private string? activeSection;
+    private DotNetObjectReference<SectionNav>? dotnetRef;
+
+    private static readonly (string Id, string Label)[] Sections =
+    [
+        ("section-seats", "Seats"),
+        ("section-government", "Government"),
+        ("section-map", "Map"),
+        ("section-riding-lookup", "Riding Lookup"),
+        ("section-distribution", "Distribution"),
+        ("section-close", "Close Ridings"),
+        ("section-flips", "Flips"),
+    ];
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            dotnetRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("sectionObserver.init", dotnetRef);
+        }
+    }
+
+    [JSInvokable]
+    public void OnSectionVisible(string sectionId)
+    {
+        if (activeSection != sectionId)
+        {
+            activeSection = sectionId;
+            InvokeAsync(StateHasChanged);
+        }
+    }
+
+    public void Dispose()
+    {
+        JS.InvokeVoidAsync("sectionObserver.dispose");
+        dotnetRef?.Dispose();
+    }
+}

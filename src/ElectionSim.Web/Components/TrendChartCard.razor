@@ -1,0 +1,32 @@
+@using ElectionSim.Core.Models
+
+<div class="trend-card">
+    <h3>Projection Trends</h3>
+
+    <TrendLineChart Points="@TrendData.Points"
+                    ValueSelector="@((pt, p) => pt.MeanSeats.GetValueOrDefault(p))"
+                    OuterBandUpperSelector="@((pt, p) => pt.P95Seats.GetValueOrDefault(p))"
+                    OuterBandLowerSelector="@((pt, p) => pt.P5Seats.GetValueOrDefault(p))"
+                    InnerBandUpperSelector="@((pt, p) => pt.P75Seats.GetValueOrDefault(p))"
+                    InnerBandLowerSelector="@((pt, p) => pt.P25Seats.GetValueOrDefault(p))"
+                    YAxisLabel="Projected Seats"
+                    YMin="0"
+                    FormatFunc="@(v => v.ToString("F0"))"
+                    OnPointClicked="OnPointClicked" />
+
+    <TrendLineChart Points="@TrendData.Points"
+                    ValueSelector="@((pt, p) => pt.MajorityProbabilities.GetValueOrDefault(p) * 100)"
+                    PrimaryLabel="Majority"
+                    SecondaryValueSelector="@((pt, p) => pt.MinorityProbabilities.GetValueOrDefault(p) * 100)"
+                    SecondaryLabel="Minority"
+                    YAxisLabel="Government Probability (%)"
+                    YMin="0"
+                    YMax="100"
+                    FormatFunc="@(v => v.ToString("F1") + "%")"
+                    OnPointClicked="OnPointClicked" />
+</div>
+
+@code {
+    [Parameter, EditorRequired] public SimulationTrendData TrendData { get; set; } = null!;
+    [Parameter] public EventCallback<SimulationTrendPoint> OnPointClicked { get; set; }
+}

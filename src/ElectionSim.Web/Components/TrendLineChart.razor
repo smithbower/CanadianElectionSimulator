@@ -1,0 +1,174 @@
+@using ElectionSim.Core.Models
+
+@if (Points != null && Points.Count >= 2)
+{
+    var parties = GetVisibleParties();
+    var xPositions = ComputeXPositions();
+    var yScale = ComputeYScale();
+
+    <div class="trend-line-chart" @onmouseleave="() => hoveredIndex = -1">
+        <div class="chart-title">@YAxisLabel</div>
+        <svg viewBox="0 0 700 155" preserveAspectRatio="xMidYMid meet">
+            @* Grid lines and Y-axis labels *@
+            @foreach (var tick in yScale.Ticks)
+            {
+                double y = yScale.ToY(tick);
+                <line x1="60" y1="@y" x2="610" y2="@y" stroke="#e0e0e0" stroke-width="0.5" />
+                @((MarkupString)$"<text x=\"55\" y=\"{y + 4:F1}\" font-size=\"11\" fill=\"#888\" text-anchor=\"end\">{FormatValue(tick)}</text>")
+            }
+
+            @* Uncertainty bands per party *@
+            @if (OuterBandUpperSelector != null && OuterBandLowerSelector != null)
+            {
+                @foreach (var party in parties)
+                {
+                    var color = PartyColorProvider.GetColor(party);
+                    var outerPoly = BuildBandPolygonPoints(OuterBandUpperSelector, OuterBandLowerSelector, party, xPositions, yScale);
+                    <polygon points="@outerPoly" fill="@color" opacity="0.10" stroke="none" />
+
+                    @if (InnerBandUpperSelector != null && InnerBandLowerSelector != null)
+                    {
+                        var innerPoly = BuildBandPolygonPoints(InnerBandUpperSelector, InnerBandLowerSelector, party, xPositions, yScale);
+                        <polygon points="@innerPoly" fill="@color" opacity="0.15" stroke="none" />
+                    }
+                }
+            }
+
+            @* Lines and points per party *@
+            @foreach (var party in parties)
+            {
+                var color = PartyColorProvider.GetColor(party);
+                var polyPoints = BuildPolylinePoints(party, xPositions, yScale);
+
+                <polyline points="@polyPoints" fill="none" stroke="@color" stroke-width="2" />
+
+                @for (int i = 0; i < Points.Count; i++)
+                {
+                    double x = xPositions[i];
+                    double val = ValueSelector(Points[i], party);
+                    double y = yScale.ToY(val);
+                    <circle cx="@x" cy="@y" r="3" fill="@color" />
+                }
+            }
+
+            @* Secondary dashed lines per party *@
+            @if (SecondaryValueSelector != null)
+            {
+                @foreach (var party in parties)
+                {
+                    var color = PartyColorProvider.GetColor(party);
+                    var secPolyPoints = BuildSecondaryPolylinePoints(party, xPositions, yScale);
+
+                    <polyline points="@secPolyPoints" fill="none" stroke="@color" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7" />
+
+                    @for (int i = 0; i < Points.Count; i++)
+                    {
+                        double x = xPositions[i];
+                        double val = SecondaryValueSelector(Points[i], party);
+                        double y = yScale.ToY(val);
+                        <circle cx="@x" cy="@y" r="2" fill="white" stroke="@color" stroke-width="1.5" opacity="0.7" />
+                    }
+                }
+            }
+
+            @* End-of-line value labels *@
+            @{
+                double labelX = xPositions[Points.Count - 1] + 8;
+                var endLabels = ComputeEndLabels(yScale);
+            }
+            @foreach (var lbl in endLabels)
+            {
+                if (lbl.IsPrimary)
+                {
+                    @((MarkupString)$"<text x=\"{labelX:F1}\" y=\"{lbl.AdjustedY + 4:F1}\" font-size=\"10\" font-weight=\"bold\" fill=\"{lbl.Color}\">{lbl.Label}</text>")
+                }
+                else
+                {
+                    @((MarkupString)$"<text x=\"{labelX:F1}\" y=\"{lbl.AdjustedY + 4:F1}\" font-size=\"9\" fill=\"{lbl.Color}\" opacity=\"0.7\">{lbl.Label}</text>")
+                }
+            }
+
+            @* Hover columns *@
+            @for (int i = 0; i < Points.Count; i++)
+            {
+                int idx = i;
+                double x = xPositions[i];
+                double colWidth = i < Points.Count - 1
+                    ? xPositions[i + 1] - xPositions[i]
+                    : (i > 0 ? xPositions[i] - xPositions[i - 1] : 620.0 / Points.Count);
+
+                <rect x="@(x - colWidth / 2)" y="5" width="@colWidth" height="115"
+                      class="hover-col"
+                      fill="transparent" @onmouseenter="() => hoveredIndex = idx"
+                      @onclick="() => OnPointClicked.InvokeAsync(Points![idx])" />
+            }
+
+            @* Vertical guide line *@
+            @if (hoveredIndex >= 0 && hoveredIndex < Points.Count)
+            {
+                double guideX = xPositions[hoveredIndex];
+                <line x1="@guideX" y1="5" x2="@guideX" y2="120" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3" />
+            }
+
+            @* X-axis date labels *@
+            @{
+                var labelIndices = GetXLabelIndices();
+            }
+            @foreach (var i in labelIndices)
+            {
+                double x = xPositions[i];
+                var label = Points[i].Timestamp.ToString("MMM d");
+                @((MarkupString)$"<text x=\"{x:F1}\" y=\"147\" font-size=\"10\" fill=\"#888\" text-anchor=\"middle\">{label}</text>")
+            }
+        </svg>
+
+        @* Tooltip *@
+        @if (hoveredIndex >= 0 && hoveredIndex < Points.Count)
+        {
+            var point = Points[hoveredIndex];
+            double tooltipLeft = xPositions[hoveredIndex] / 700.0 * 100.0;
+            bool flipLeft = tooltipLeft > 70;
+            <div class="tooltip" style="left: @(flipLeft ? tooltipLeft - 2 : tooltipLeft + 2)%; @(flipLeft ? "transform: translateX(-100%);" : "")">
+                <div class="tooltip-date">@(new DateTimeOffset(point.Timestamp, TimeSpan.Zero).ToOffset(new TimeSpan(-7, 0, 0)).ToString("MMM d, yyyy"))</div>
+                @foreach (var party in parties)
+                {
+                    var color = PartyColorProvider.GetColor(party);
+                    double val = ValueSelector(point, party);
+                    @if (SecondaryValueSelector != null && PrimaryLabel != null)
+                    {
+                        double secVal = SecondaryValueSelector(point, party);
+                        <div class="tooltip-row">
+                            <span class="tooltip-dot" style="background: @color;"></span>
+                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-label">@(PrimaryLabel):</span>
+                            <span class="tooltip-value">@FormatValue(val)</span>
+                        </div>
+                        <div class="tooltip-row">
+                            <span class="tooltip-dot tooltip-dot-dashed" style="border-color: @color;"></span>
+                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-label">@(SecondaryLabel):</span>
+                            <span class="tooltip-value">@FormatValue(secVal)</span>
+                        </div>
+                    }
+                    else if (SecondaryValueSelector != null)
+                    {
+                        double secVal = SecondaryValueSelector(point, party);
+                        <div class="tooltip-row">
+                            <span class="tooltip-dot" style="background: @color;"></span>
+                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-value">@FormatValue(val) (@(SecondaryLabel): @FormatValue(secVal))</span>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="tooltip-row">
+                            <span class="tooltip-dot" style="background: @color;"></span>
+                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-value">@FormatValue(val)</span>
+                        </div>
+                    }
+                }
+            </div>
+        }
+    </div>
+}

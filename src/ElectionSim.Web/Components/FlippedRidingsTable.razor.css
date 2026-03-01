@@ -1,0 +1,138 @@
+.flipped-ridings-table {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.flipped-ridings-table h3 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #999;
+    margin-left: 0.5rem;
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+th {
+    text-align: center;
+    padding: 0.5rem 0.6rem;
+    border-bottom: 2px solid #e0e0e0;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+th.col-province,
+th.col-riding {
+    text-align: left;
+}
+
+th.col-from,
+th.col-to {
+    text-align: center;
+}
+
+th.col-winprob {
+    text-align: center;
+}
+
+td {
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.col-province {
+    white-space: nowrap;
+    color: #666;
+}
+
+.col-riding {
+    white-space: nowrap;
+}
+
+.col-from,
+.col-to {
+    text-align: center;
+}
+
+.col-winprob {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+}
+
+tbody tr {
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.party-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.vote-cell {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.vote-cell.empty {
+    color: #ccc;
+}
+
+.pm {
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: 0.78rem;
+}
+
+.count-label {
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: #999;
+    text-align: right;
+}
+
+th.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s;
+}
+
+th.sortable:hover {
+    background: #f5f5f5;
+}
+
+th.sorted {
+    background: #f0f4ff;
+}
+
+.no-flips {
+    color: #999;
+    font-size: 0.9rem;
+    margin: 0;
+}

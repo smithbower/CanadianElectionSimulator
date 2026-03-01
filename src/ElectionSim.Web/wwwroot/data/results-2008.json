@@ -1,0 +1,7869 @@
+[
+  {
+    "ridingId": 10001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 14866,
+        "voteShare": 0.4528313381461513
+      },
+      {
+        "party": 1,
+        "votes": 11542,
+        "voteShare": 0.35157939626549695
+      },
+      {
+        "party": 2,
+        "votes": 5707,
+        "voteShare": 0.17384020226019678
+      },
+      {
+        "party": 4,
+        "votes": 714,
+        "voteShare": 0.021749063328154985
+      }
+    ],
+    "totalVotes": 32829
+  },
+  {
+    "ridingId": 10002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20089,
+        "voteShare": 0.7027074296907794
+      },
+      {
+        "party": 1,
+        "votes": 4354,
+        "voteShare": 0.1523016650342801
+      },
+      {
+        "party": 2,
+        "votes": 3577,
+        "voteShare": 0.12512242899118511
+      },
+      {
+        "party": 4,
+        "votes": 568,
+        "voteShare": 0.01986847628375542
+      }
+    ],
+    "totalVotes": 28588
+  },
+  {
+    "ridingId": 10003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17956,
+        "voteShare": 0.6821670085859737
+      },
+      {
+        "party": 2,
+        "votes": 4603,
+        "voteShare": 0.17487273003571158
+      },
+      {
+        "party": 1,
+        "votes": 2799,
+        "voteShare": 0.10633690449054023
+      },
+      {
+        "party": 6,
+        "votes": 964,
+        "voteShare": 0.03662335688777449
+      }
+    ],
+    "totalVotes": 26322
+  },
+  {
+    "ridingId": 10004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 5426,
+        "voteShare": 0.7027587100116566
+      },
+      {
+        "party": 2,
+        "votes": 1378,
+        "voteShare": 0.17847429089496178
+      },
+      {
+        "party": 1,
+        "votes": 615,
+        "voteShare": 0.07965289470275871
+      },
+      {
+        "party": 4,
+        "votes": 302,
+        "voteShare": 0.039114104390622975
+      }
+    ],
+    "totalVotes": 7721
+  },
+  {
+    "ridingId": 10005,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 12557,
+        "voteShare": 0.5372438283489497
+      },
+      {
+        "party": 2,
+        "votes": 5563,
+        "voteShare": 0.23800966927651565
+      },
+      {
+        "party": 1,
+        "votes": 4791,
+        "voteShare": 0.20498010524964702
+      },
+      {
+        "party": 4,
+        "votes": 462,
+        "voteShare": 0.019766397124887692
+      }
+    ],
+    "totalVotes": 23373
+  },
+  {
+    "ridingId": 10006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 30881,
+        "voteShare": 0.7455037056707626
+      },
+      {
+        "party": 0,
+        "votes": 5211,
+        "voteShare": 0.12579967650822008
+      },
+      {
+        "party": 1,
+        "votes": 3836,
+        "voteShare": 0.09260555729908505
+      },
+      {
+        "party": 6,
+        "votes": 925,
+        "voteShare": 0.02233058928614538
+      },
+      {
+        "party": 4,
+        "votes": 570,
+        "voteShare": 0.013760471235786881
+      }
+    ],
+    "totalVotes": 41423
+  },
+  {
+    "ridingId": 10007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 14920,
+        "voteShare": 0.43322976857632334
+      },
+      {
+        "party": 2,
+        "votes": 13971,
+        "voteShare": 0.40567380005226633
+      },
+      {
+        "party": 1,
+        "votes": 4324,
+        "voteShare": 0.1255553297134063
+      },
+      {
+        "party": 4,
+        "votes": 643,
+        "voteShare": 0.018670693109556026
+      },
+      {
+        "party": 6,
+        "votes": 581,
+        "voteShare": 0.01687040854844798
+      }
+    ],
+    "totalVotes": 34439
+  },
+  {
+    "ridingId": 11001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 10105,
+        "voteShare": 0.5281450896357079
+      },
+      {
+        "party": 1,
+        "votes": 5661,
+        "voteShare": 0.2958762347776094
+      },
+      {
+        "party": 2,
+        "votes": 1556,
+        "voteShare": 0.08132545863168347
+      },
+      {
+        "party": 6,
+        "votes": 1101,
+        "voteShare": 0.057544556525375004
+      },
+      {
+        "party": 4,
+        "votes": 710,
+        "voteShare": 0.03710866042962421
+      }
+    ],
+    "totalVotes": 19133
+  },
+  {
+    "ridingId": 11002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 8893,
+        "voteShare": 0.5005628729032985
+      },
+      {
+        "party": 1,
+        "votes": 5704,
+        "voteShare": 0.32106270404142745
+      },
+      {
+        "party": 2,
+        "votes": 2187,
+        "voteShare": 0.12310030395136778
+      },
+      {
+        "party": 4,
+        "votes": 858,
+        "voteShare": 0.04829449510300574
+      },
+      {
+        "party": 6,
+        "votes": 124,
+        "voteShare": 0.006979624000900597
+      }
+    ],
+    "totalVotes": 17766
+  },
+  {
+    "ridingId": 11003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 8110,
+        "voteShare": 0.43930447971399167
+      },
+      {
+        "party": 0,
+        "votes": 8055,
+        "voteShare": 0.43632522615242947
+      },
+      {
+        "party": 2,
+        "votes": 1670,
+        "voteShare": 0.09046097177834353
+      },
+      {
+        "party": 4,
+        "votes": 626,
+        "voteShare": 0.03390932235523536
+      }
+    ],
+    "totalVotes": 18461
+  },
+  {
+    "ridingId": 11004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 8312,
+        "voteShare": 0.44189261031366295
+      },
+      {
+        "party": 1,
+        "votes": 7388,
+        "voteShare": 0.3927698032961191
+      },
+      {
+        "party": 2,
+        "votes": 1819,
+        "voteShare": 0.09670388091440724
+      },
+      {
+        "party": 4,
+        "votes": 1291,
+        "voteShare": 0.06863370547581074
+      }
+    ],
+    "totalVotes": 18810
+  },
+  {
+    "ridingId": 12001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17447,
+        "voteShare": 0.48100463167181295
+      },
+      {
+        "party": 1,
+        "votes": 8524,
+        "voteShare": 0.2350022055580062
+      },
+      {
+        "party": 2,
+        "votes": 7660,
+        "voteShare": 0.2111821790913101
+      },
+      {
+        "party": 4,
+        "votes": 2641,
+        "voteShare": 0.07281098367887076
+      }
+    ],
+    "totalVotes": 36272
+  },
+  {
+    "ridingId": 12003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18240,
+        "voteShare": 0.46599560574319143
+      },
+      {
+        "party": 4,
+        "votes": 12620,
+        "voteShare": 0.32241581932451074
+      },
+      {
+        "party": 2,
+        "votes": 7659,
+        "voteShare": 0.19567216800367893
+      },
+      {
+        "party": 6,
+        "votes": 623,
+        "voteShare": 0.015916406928618874
+      }
+    ],
+    "totalVotes": 39142
+  },
+  {
+    "ridingId": 12005,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16016,
+        "voteShare": 0.3949302165014548
+      },
+      {
+        "party": 2,
+        "votes": 12793,
+        "voteShare": 0.31545593529614835
+      },
+      {
+        "party": 1,
+        "votes": 9109,
+        "voteShare": 0.22461409478719732
+      },
+      {
+        "party": 4,
+        "votes": 2417,
+        "voteShare": 0.059599546283967055
+      },
+      {
+        "party": 6,
+        "votes": 219,
+        "voteShare": 0.005400207131232431
+      }
+    ],
+    "totalVotes": 40554
+  },
+  {
+    "ridingId": 12006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 19252,
+        "voteShare": 0.4268925451239523
+      },
+      {
+        "party": 0,
+        "votes": 12458,
+        "voteShare": 0.27624284890682516
+      },
+      {
+        "party": 1,
+        "votes": 9295,
+        "voteShare": 0.20610670096234868
+      },
+      {
+        "party": 4,
+        "votes": 3931,
+        "voteShare": 0.08716572797019824
+      },
+      {
+        "party": 6,
+        "votes": 162,
+        "voteShare": 0.003592177036675684
+      }
+    ],
+    "totalVotes": 45098
+  },
+  {
+    "ridingId": 12007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 6,
+        "votes": 28110,
+        "voteShare": 0.34798648163507845
+      },
+      {
+        "party": 0,
+        "votes": 20473,
+        "voteShare": 0.2534445833694401
+      },
+      {
+        "party": 2,
+        "votes": 17075,
+        "voteShare": 0.21137919508783223
+      },
+      {
+        "party": 1,
+        "votes": 12201,
+        "voteShare": 0.15104173114299507
+      },
+      {
+        "party": 4,
+        "votes": 2920,
+        "voteShare": 0.03614800876465418
+      }
+    ],
+    "totalVotes": 80779
+  },
+  {
+    "ridingId": 12008,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 32570,
+        "voteShare": 0.42195678084676375
+      },
+      {
+        "party": 0,
+        "votes": 21659,
+        "voteShare": 0.2806006114940146
+      },
+      {
+        "party": 1,
+        "votes": 18044,
+        "voteShare": 0.23376690677307355
+      },
+      {
+        "party": 4,
+        "votes": 4387,
+        "voteShare": 0.05683525936674094
+      },
+      {
+        "party": 6,
+        "votes": 528,
+        "voteShare": 0.0068404415194071614
+      }
+    ],
+    "totalVotes": 77188
+  },
+  {
+    "ridingId": 12009,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 14388,
+        "voteShare": 0.35985293749843683
+      },
+      {
+        "party": 2,
+        "votes": 13456,
+        "voteShare": 0.33654303078808495
+      },
+      {
+        "party": 0,
+        "votes": 9536,
+        "voteShare": 0.2385013630793087
+      },
+      {
+        "party": 4,
+        "votes": 2090,
+        "voteShare": 0.05227221569166896
+      },
+      {
+        "party": 6,
+        "votes": 513,
+        "voteShare": 0.012830452942500563
+      }
+    ],
+    "totalVotes": 39983
+  },
+  {
+    "ridingId": 12010,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17303,
+        "voteShare": 0.49400445383429453
+      },
+      {
+        "party": 2,
+        "votes": 8559,
+        "voteShare": 0.24436133158225318
+      },
+      {
+        "party": 1,
+        "votes": 7223,
+        "voteShare": 0.20621823788043167
+      },
+      {
+        "party": 4,
+        "votes": 1941,
+        "voteShare": 0.05541597670302061
+      }
+    ],
+    "totalVotes": 35026
+  },
+  {
+    "ridingId": 12011,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 16779,
+        "voteShare": 0.3993953964437885
+      },
+      {
+        "party": 0,
+        "votes": 15185,
+        "voteShare": 0.3614529527980767
+      },
+      {
+        "party": 2,
+        "votes": 7097,
+        "voteShare": 0.1689319463949918
+      },
+      {
+        "party": 4,
+        "votes": 2106,
+        "voteShare": 0.0501297279283997
+      },
+      {
+        "party": 6,
+        "votes": 844,
+        "voteShare": 0.020089976434743282
+      }
+    ],
+    "totalVotes": 42011
+  },
+  {
+    "ridingId": 13001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 25849,
+        "voteShare": 0.5752659456091156
+      },
+      {
+        "party": 0,
+        "votes": 9850,
+        "voteShare": 0.2192103974718476
+      },
+      {
+        "party": 1,
+        "votes": 8331,
+        "voteShare": 0.18540526104953933
+      },
+      {
+        "party": 4,
+        "votes": 904,
+        "voteShare": 0.020118395869497485
+      }
+    ],
+    "totalVotes": 44934
+  },
+  {
+    "ridingId": 13002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20059,
+        "voteShare": 0.46764116193407
+      },
+      {
+        "party": 1,
+        "votes": 12506,
+        "voteShare": 0.2915559285680981
+      },
+      {
+        "party": 2,
+        "votes": 7242,
+        "voteShare": 0.16883480207021961
+      },
+      {
+        "party": 4,
+        "votes": 3087,
+        "voteShare": 0.07196810742761225
+      }
+    ],
+    "totalVotes": 42894
+  },
+  {
+    "ridingId": 13003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17962,
+        "voteShare": 0.4253172949422239
+      },
+      {
+        "party": 0,
+        "votes": 13319,
+        "voteShare": 0.3153769653343436
+      },
+      {
+        "party": 2,
+        "votes": 6490,
+        "voteShare": 0.15367493843530972
+      },
+      {
+        "party": 4,
+        "votes": 4293,
+        "voteShare": 0.10165277514680811
+      },
+      {
+        "party": 6,
+        "votes": 168,
+        "voteShare": 0.003978026141314643
+      }
+    ],
+    "totalVotes": 42232
+  },
+  {
+    "ridingId": 13004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17211,
+        "voteShare": 0.5163196736065279
+      },
+      {
+        "party": 2,
+        "votes": 7907,
+        "voteShare": 0.2372052558948821
+      },
+      {
+        "party": 0,
+        "votes": 5773,
+        "voteShare": 0.1731865362692746
+      },
+      {
+        "party": 4,
+        "votes": 2443,
+        "voteShare": 0.07328853422931542
+      }
+    ],
+    "totalVotes": 33334
+  },
+  {
+    "ridingId": 13005,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16266,
+        "voteShare": 0.47400629443991144
+      },
+      {
+        "party": 1,
+        "votes": 11402,
+        "voteShare": 0.33226483273108753
+      },
+      {
+        "party": 2,
+        "votes": 5361,
+        "voteShare": 0.15622450169017368
+      },
+      {
+        "party": 4,
+        "votes": 1287,
+        "voteShare": 0.03750437113882737
+      }
+    ],
+    "totalVotes": 34316
+  },
+  {
+    "ridingId": 13006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 12058,
+        "voteShare": 0.4207697944655756
+      },
+      {
+        "party": 0,
+        "votes": 10590,
+        "voteShare": 0.3695432180619046
+      },
+      {
+        "party": 2,
+        "votes": 4904,
+        "voteShare": 0.17112747321771296
+      },
+      {
+        "party": 4,
+        "votes": 1105,
+        "voteShare": 0.03855951425480685
+      }
+    ],
+    "totalVotes": 28657
+  },
+  {
+    "ridingId": 13007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17797,
+        "voteShare": 0.39126324583388294
+      },
+      {
+        "party": 1,
+        "votes": 16297,
+        "voteShare": 0.35828606604229873
+      },
+      {
+        "party": 2,
+        "votes": 7394,
+        "voteShare": 0.1625555115859825
+      },
+      {
+        "party": 4,
+        "votes": 3998,
+        "voteShare": 0.08789517653783582
+      }
+    ],
+    "totalVotes": 45486
+  },
+  {
+    "ridingId": 13008,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17474,
+        "voteShare": 0.5832053934984314
+      },
+      {
+        "party": 0,
+        "votes": 5863,
+        "voteShare": 0.19568119618183033
+      },
+      {
+        "party": 2,
+        "votes": 4958,
+        "voteShare": 0.16547626994192643
+      },
+      {
+        "party": 4,
+        "votes": 1667,
+        "voteShare": 0.055637140377811894
+      }
+    ],
+    "totalVotes": 29962
+  },
+  {
+    "ridingId": 13009,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 13782,
+        "voteShare": 0.39552303056392596
+      },
+      {
+        "party": 0,
+        "votes": 13285,
+        "voteShare": 0.3812598651169465
+      },
+      {
+        "party": 2,
+        "votes": 5560,
+        "voteShare": 0.15956378246520303
+      },
+      {
+        "party": 4,
+        "votes": 1888,
+        "voteShare": 0.05418280958530636
+      },
+      {
+        "party": 6,
+        "votes": 330,
+        "voteShare": 0.009470512268618166
+      }
+    ],
+    "totalVotes": 34845
+  },
+  {
+    "ridingId": 13010,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18071,
+        "voteShare": 0.5739740820734341
+      },
+      {
+        "party": 0,
+        "votes": 6773,
+        "voteShare": 0.21512514292974208
+      },
+      {
+        "party": 2,
+        "votes": 4830,
+        "voteShare": 0.1534112565112438
+      },
+      {
+        "party": 4,
+        "votes": 1810,
+        "voteShare": 0.057489518485579975
+      }
+    ],
+    "totalVotes": 31484
+  },
+  {
+    "ridingId": 24001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 10995,
+        "voteShare": 0.396516282592232
+      },
+      {
+        "party": 1,
+        "votes": 8422,
+        "voteShare": 0.30372534170002524
+      },
+      {
+        "party": 0,
+        "votes": 5108,
+        "voteShare": 0.18421147535071586
+      },
+      {
+        "party": 2,
+        "votes": 2276,
+        "voteShare": 0.08208013271304411
+      },
+      {
+        "party": 4,
+        "votes": 928,
+        "voteShare": 0.033466767643982834
+      }
+    ],
+    "totalVotes": 27729
+  },
+  {
+    "ridingId": 24002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 39744,
+        "voteShare": 0.4351786965662228
+      },
+      {
+        "party": 0,
+        "votes": 27447,
+        "voteShare": 0.3005321478626489
+      },
+      {
+        "party": 1,
+        "votes": 13204,
+        "voteShare": 0.14457778556412054
+      },
+      {
+        "party": 2,
+        "votes": 8427,
+        "voteShare": 0.09227181149264191
+      },
+      {
+        "party": 4,
+        "votes": 2204,
+        "voteShare": 0.024132796075683253
+      },
+      {
+        "party": 6,
+        "votes": 302,
+        "voteShare": 0.0033067624386825508
+      }
+    ],
+    "totalVotes": 91328
+  },
+  {
+    "ridingId": 24004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 47141,
+        "voteShare": 0.4354142998328207
+      },
+      {
+        "party": 0,
+        "votes": 25578,
+        "voteShare": 0.23624927263154977
+      },
+      {
+        "party": 1,
+        "votes": 18246,
+        "voteShare": 0.16852780625675415
+      },
+      {
+        "party": 2,
+        "votes": 13225,
+        "voteShare": 0.122151717513185
+      },
+      {
+        "party": 4,
+        "votes": 3720,
+        "voteShare": 0.03435950012469174
+      },
+      {
+        "party": 6,
+        "votes": 357,
+        "voteShare": 0.003297403640998642
+      }
+    ],
+    "totalVotes": 108267
+  },
+  {
+    "ridingId": 24006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 42741,
+        "voteShare": 0.40776004350356326
+      },
+      {
+        "party": 3,
+        "votes": 34047,
+        "voteShare": 0.32481706560833434
+      },
+      {
+        "party": 0,
+        "votes": 13265,
+        "voteShare": 0.1265514839866818
+      },
+      {
+        "party": 2,
+        "votes": 10566,
+        "voteShare": 0.10080233545445005
+      },
+      {
+        "party": 4,
+        "votes": 4200,
+        "voteShare": 0.04006907144697049
+      }
+    ],
+    "totalVotes": 104819
+  },
+  {
+    "ridingId": 24008,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17994,
+        "voteShare": 0.36763714373276124
+      },
+      {
+        "party": 3,
+        "votes": 15962,
+        "voteShare": 0.32612115640004086
+      },
+      {
+        "party": 0,
+        "votes": 7030,
+        "voteShare": 0.1436306057820002
+      },
+      {
+        "party": 2,
+        "votes": 5986,
+        "voteShare": 0.12230054142404741
+      },
+      {
+        "party": 4,
+        "votes": 1363,
+        "voteShare": 0.02784758402288283
+      },
+      {
+        "party": 6,
+        "votes": 610,
+        "voteShare": 0.012462968638267444
+      }
+    ],
+    "totalVotes": 48945
+  },
+  {
+    "ridingId": 24011,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19103,
+        "voteShare": 0.32585630458515286
+      },
+      {
+        "party": 3,
+        "votes": 19034,
+        "voteShare": 0.32467931222707425
+      },
+      {
+        "party": 1,
+        "votes": 11062,
+        "voteShare": 0.1886940502183406
+      },
+      {
+        "party": 2,
+        "votes": 7452,
+        "voteShare": 0.1271151746724891
+      },
+      {
+        "party": 4,
+        "votes": 1816,
+        "voteShare": 0.03097707423580786
+      },
+      {
+        "party": 6,
+        "votes": 157,
+        "voteShare": 0.0026780840611353714
+      }
+    ],
+    "totalVotes": 58624
+  },
+  {
+    "ridingId": 24012,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 56718,
+        "voteShare": 0.4811625677613105
+      },
+      {
+        "party": 1,
+        "votes": 21642,
+        "voteShare": 0.18359815740135904
+      },
+      {
+        "party": 0,
+        "votes": 20684,
+        "voteShare": 0.1754710418487067
+      },
+      {
+        "party": 2,
+        "votes": 14682,
+        "voteShare": 0.12455356006684934
+      },
+      {
+        "party": 4,
+        "votes": 4151,
+        "voteShare": 0.035214672921774395
+      }
+    ],
+    "totalVotes": 117877
+  },
+  {
+    "ridingId": 24013,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19869,
+        "voteShare": 0.49793248627922715
+      },
+      {
+        "party": 3,
+        "votes": 10145,
+        "voteShare": 0.254241535724131
+      },
+      {
+        "party": 1,
+        "votes": 5405,
+        "voteShare": 0.1354534746760895
+      },
+      {
+        "party": 2,
+        "votes": 3188,
+        "voteShare": 0.07989374232513846
+      },
+      {
+        "party": 4,
+        "votes": 1166,
+        "voteShare": 0.02922086058692329
+      },
+      {
+        "party": 6,
+        "votes": 130,
+        "voteShare": 0.0032579004084905896
+      }
+    ],
+    "totalVotes": 39903
+  },
+  {
+    "ridingId": 24014,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 38629,
+        "voteShare": 0.41543706444119416
+      },
+      {
+        "party": 0,
+        "votes": 22126,
+        "voteShare": 0.23795491697496343
+      },
+      {
+        "party": 1,
+        "votes": 21098,
+        "voteShare": 0.2268992514841263
+      },
+      {
+        "party": 2,
+        "votes": 7846,
+        "voteShare": 0.08438010840574722
+      },
+      {
+        "party": 4,
+        "votes": 2931,
+        "voteShare": 0.031521552094984084
+      },
+      {
+        "party": 6,
+        "votes": 354,
+        "voteShare": 0.0038071065989847717
+      }
+    ],
+    "totalVotes": 92984
+  },
+  {
+    "ridingId": 24015,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 25086,
+        "voteShare": 0.4558355895553577
+      },
+      {
+        "party": 0,
+        "votes": 10104,
+        "voteShare": 0.1835989315501608
+      },
+      {
+        "party": 1,
+        "votes": 9827,
+        "voteShare": 0.1785655879199753
+      },
+      {
+        "party": 2,
+        "votes": 8261,
+        "voteShare": 0.15010993403957626
+      },
+      {
+        "party": 4,
+        "votes": 1755,
+        "voteShare": 0.03188995693492995
+      }
+    ],
+    "totalVotes": 55033
+  },
+  {
+    "ridingId": 24016,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20566,
+        "voteShare": 0.411484593837535
+      },
+      {
+        "party": 3,
+        "votes": 14602,
+        "voteShare": 0.29215686274509806
+      },
+      {
+        "party": 0,
+        "votes": 7039,
+        "voteShare": 0.14083633453381353
+      },
+      {
+        "party": 2,
+        "votes": 6542,
+        "voteShare": 0.13089235694277712
+      },
+      {
+        "party": 4,
+        "votes": 1231,
+        "voteShare": 0.024629851940776312
+      }
+    ],
+    "totalVotes": 49980
+  },
+  {
+    "ridingId": 24018,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 19737,
+        "voteShare": 0.41310672499319756
+      },
+      {
+        "party": 1,
+        "votes": 16680,
+        "voteShare": 0.3491219624505515
+      },
+      {
+        "party": 0,
+        "votes": 6425,
+        "voteShare": 0.13447893337798522
+      },
+      {
+        "party": 2,
+        "votes": 3742,
+        "voteShare": 0.07832220524520167
+      },
+      {
+        "party": 4,
+        "votes": 1193,
+        "voteShare": 0.024970173933064027
+      }
+    ],
+    "totalVotes": 47777
+  },
+  {
+    "ridingId": 24019,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 34968,
+        "voteShare": 0.4110545557135972
+      },
+      {
+        "party": 0,
+        "votes": 20786,
+        "voteShare": 0.24434282758701759
+      },
+      {
+        "party": 1,
+        "votes": 17779,
+        "voteShare": 0.2089950510761852
+      },
+      {
+        "party": 2,
+        "votes": 8032,
+        "voteShare": 0.09441747287496033
+      },
+      {
+        "party": 4,
+        "votes": 3504,
+        "voteShare": 0.04119009274823966
+      }
+    ],
+    "totalVotes": 85069
+  },
+  {
+    "ridingId": 24021,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 22720,
+        "voteShare": 0.4973403673138804
+      },
+      {
+        "party": 0,
+        "votes": 9442,
+        "voteShare": 0.20668520018387584
+      },
+      {
+        "party": 2,
+        "votes": 6600,
+        "voteShare": 0.14447387430772934
+      },
+      {
+        "party": 1,
+        "votes": 4201,
+        "voteShare": 0.09195980999496531
+      },
+      {
+        "party": 4,
+        "votes": 1946,
+        "voteShare": 0.04259790293982444
+      },
+      {
+        "party": 6,
+        "votes": 774,
+        "voteShare": 0.016942845259724625
+      }
+    ],
+    "totalVotes": 45683
+  },
+  {
+    "ridingId": 24023,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 17613,
+        "voteShare": 0.3879173641088891
+      },
+      {
+        "party": 1,
+        "votes": 11490,
+        "voteShare": 0.2530614042815611
+      },
+      {
+        "party": 0,
+        "votes": 7697,
+        "voteShare": 0.1695225090300414
+      },
+      {
+        "party": 2,
+        "votes": 7460,
+        "voteShare": 0.16430270460752355
+      },
+      {
+        "party": 4,
+        "votes": 1144,
+        "voteShare": 0.025196017971984848
+      }
+    ],
+    "totalVotes": 45404
+  },
+  {
+    "ridingId": 24024,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 17144,
+        "voteShare": 0.3491009794538679
+      },
+      {
+        "party": 0,
+        "votes": 15841,
+        "voteShare": 0.32256816469486244
+      },
+      {
+        "party": 2,
+        "votes": 7708,
+        "voteShare": 0.15695697326355657
+      },
+      {
+        "party": 1,
+        "votes": 5494,
+        "voteShare": 0.11187358732615203
+      },
+      {
+        "party": 4,
+        "votes": 2345,
+        "voteShare": 0.047750921419699034
+      },
+      {
+        "party": 6,
+        "votes": 577,
+        "voteShare": 0.01174937384186198
+      }
+    ],
+    "totalVotes": 49109
+  },
+  {
+    "ridingId": 24025,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 43229,
+        "voteShare": 0.4093112655519155
+      },
+      {
+        "party": 0,
+        "votes": 20962,
+        "voteShare": 0.19847747457723408
+      },
+      {
+        "party": 2,
+        "votes": 19191,
+        "voteShare": 0.18170886435510444
+      },
+      {
+        "party": 1,
+        "votes": 18302,
+        "voteShare": 0.17329141969814607
+      },
+      {
+        "party": 4,
+        "votes": 3930,
+        "voteShare": 0.03721097581759994
+      }
+    ],
+    "totalVotes": 105614
+  },
+  {
+    "ridingId": 24026,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26639,
+        "voteShare": 0.5247513050329952
+      },
+      {
+        "party": 3,
+        "votes": 19035,
+        "voteShare": 0.3749630651039102
+      },
+      {
+        "party": 0,
+        "votes": 2616,
+        "voteShare": 0.05153156702452477
+      },
+      {
+        "party": 2,
+        "votes": 2475,
+        "voteShare": 0.04875406283856988
+      }
+    ],
+    "totalVotes": 50765
+  },
+  {
+    "ridingId": 24027,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21544,
+        "voteShare": 0.43673221163592135
+      },
+      {
+        "party": 3,
+        "votes": 13871,
+        "voteShare": 0.2811879181025745
+      },
+      {
+        "party": 1,
+        "votes": 7549,
+        "voteShare": 0.15303061017636327
+      },
+      {
+        "party": 2,
+        "votes": 4986,
+        "voteShare": 0.10107439691871073
+      },
+      {
+        "party": 4,
+        "votes": 1380,
+        "voteShare": 0.027974863166430164
+      }
+    ],
+    "totalVotes": 49330
+  },
+  {
+    "ridingId": 24028,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19750,
+        "voteShare": 0.3745495922624692
+      },
+      {
+        "party": 3,
+        "votes": 11625,
+        "voteShare": 0.22046273468613692
+      },
+      {
+        "party": 2,
+        "votes": 10454,
+        "voteShare": 0.19825526265882798
+      },
+      {
+        "party": 1,
+        "votes": 7996,
+        "voteShare": 0.15164043239142802
+      },
+      {
+        "party": 4,
+        "votes": 2784,
+        "voteShare": 0.052797269106770336
+      },
+      {
+        "party": 6,
+        "votes": 121,
+        "voteShare": 0.0022947088943675326
+      }
+    ],
+    "totalVotes": 52730
+  },
+  {
+    "ridingId": 24029,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17226,
+        "voteShare": 0.40597676227286655
+      },
+      {
+        "party": 3,
+        "votes": 10384,
+        "voteShare": 0.2447267328132733
+      },
+      {
+        "party": 1,
+        "votes": 6802,
+        "voteShare": 0.16030732247649124
+      },
+      {
+        "party": 2,
+        "votes": 5622,
+        "voteShare": 0.13249746647498292
+      },
+      {
+        "party": 4,
+        "votes": 1579,
+        "voteShare": 0.03721335815795056
+      },
+      {
+        "party": 6,
+        "votes": 818,
+        "voteShare": 0.019278357804435438
+      }
+    ],
+    "totalVotes": 42431
+  },
+  {
+    "ridingId": 24031,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 25976,
+        "voteShare": 0.5609034570620371
+      },
+      {
+        "party": 0,
+        "votes": 7403,
+        "voteShare": 0.15985403035995768
+      },
+      {
+        "party": 2,
+        "votes": 5975,
+        "voteShare": 0.12901902355811795
+      },
+      {
+        "party": 1,
+        "votes": 5179,
+        "voteShare": 0.11183088251171427
+      },
+      {
+        "party": 4,
+        "votes": 1340,
+        "voteShare": 0.028934810304247372
+      },
+      {
+        "party": 6,
+        "votes": 438,
+        "voteShare": 0.009457796203925633
+      }
+    ],
+    "totalVotes": 46311
+  },
+  {
+    "ridingId": 24032,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 19085,
+        "voteShare": 0.3779731844017983
+      },
+      {
+        "party": 0,
+        "votes": 14190,
+        "voteShare": 0.2810290535321728
+      },
+      {
+        "party": 1,
+        "votes": 9101,
+        "voteShare": 0.18024280593349573
+      },
+      {
+        "party": 2,
+        "votes": 6289,
+        "voteShare": 0.12455191808765571
+      },
+      {
+        "party": 4,
+        "votes": 1607,
+        "voteShare": 0.03182619372982393
+      },
+      {
+        "party": 6,
+        "votes": 221,
+        "voteShare": 0.004376844315053572
+      }
+    ],
+    "totalVotes": 50493
+  },
+  {
+    "ridingId": 24034,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 36870,
+        "voteShare": 0.3498069278280092
+      },
+      {
+        "party": 0,
+        "votes": 31972,
+        "voteShare": 0.30333678048595364
+      },
+      {
+        "party": 3,
+        "votes": 16700,
+        "voteShare": 0.15844251952068766
+      },
+      {
+        "party": 2,
+        "votes": 13961,
+        "voteShare": 0.13245604880409104
+      },
+      {
+        "party": 4,
+        "votes": 5785,
+        "voteShare": 0.05488562727108851
+      },
+      {
+        "party": 6,
+        "votes": 113,
+        "voteShare": 0.0010720960901699226
+      }
+    ],
+    "totalVotes": 105401
+  },
+  {
+    "ridingId": 24035,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 23118,
+        "voteShare": 0.46121618386401725
+      },
+      {
+        "party": 0,
+        "votes": 10920,
+        "voteShare": 0.2178597079243476
+      },
+      {
+        "party": 1,
+        "votes": 7210,
+        "voteShare": 0.14384326869363978
+      },
+      {
+        "party": 2,
+        "votes": 7021,
+        "voteShare": 0.14007261990264144
+      },
+      {
+        "party": 4,
+        "votes": 1752,
+        "voteShare": 0.034953315776873356
+      },
+      {
+        "party": 6,
+        "votes": 103,
+        "voteShare": 0.0020549038384805682
+      }
+    ],
+    "totalVotes": 50124
+  },
+  {
+    "ridingId": 24036,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 37694,
+        "voteShare": 0.3595829318782375
+      },
+      {
+        "party": 1,
+        "votes": 31409,
+        "voteShare": 0.29962700449311724
+      },
+      {
+        "party": 0,
+        "votes": 20641,
+        "voteShare": 0.19690537743138695
+      },
+      {
+        "party": 2,
+        "votes": 11724,
+        "voteShare": 0.11184141490264912
+      },
+      {
+        "party": 4,
+        "votes": 3359,
+        "voteShare": 0.03204327129460921
+      }
+    ],
+    "totalVotes": 104827
+  },
+  {
+    "ridingId": 24037,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 24103,
+        "voteShare": 0.5024075039082856
+      },
+      {
+        "party": 0,
+        "votes": 8798,
+        "voteShare": 0.18338718082334549
+      },
+      {
+        "party": 2,
+        "votes": 8209,
+        "voteShare": 0.17110995310057323
+      },
+      {
+        "party": 4,
+        "votes": 3801,
+        "voteShare": 0.07922876498176133
+      },
+      {
+        "party": 1,
+        "votes": 2320,
+        "voteShare": 0.04835852006253257
+      },
+      {
+        "party": 6,
+        "votes": 744,
+        "voteShare": 0.015508077123501824
+      }
+    ],
+    "totalVotes": 47975
+  },
+  {
+    "ridingId": 24038,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 34700,
+        "voteShare": 0.33479666168170197
+      },
+      {
+        "party": 0,
+        "votes": 28315,
+        "voteShare": 0.27319214626851274
+      },
+      {
+        "party": 3,
+        "votes": 25906,
+        "voteShare": 0.24994934632640262
+      },
+      {
+        "party": 2,
+        "votes": 11376,
+        "voteShare": 0.1097592744464277
+      },
+      {
+        "party": 4,
+        "votes": 3012,
+        "voteShare": 0.029060736166722948
+      },
+      {
+        "party": 6,
+        "votes": 336,
+        "voteShare": 0.003241835110232042
+      }
+    ],
+    "totalVotes": 103645
+  },
+  {
+    "ridingId": 24039,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 15272,
+        "voteShare": 0.4928677467243271
+      },
+      {
+        "party": 1,
+        "votes": 8374,
+        "voteShare": 0.2702510811334151
+      },
+      {
+        "party": 0,
+        "votes": 4737,
+        "voteShare": 0.15287549215774865
+      },
+      {
+        "party": 2,
+        "votes": 1491,
+        "voteShare": 0.04811850513134964
+      },
+      {
+        "party": 4,
+        "votes": 1112,
+        "voteShare": 0.03588717485315949
+      }
+    ],
+    "totalVotes": 30986
+  },
+  {
+    "ridingId": 24041,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 11984,
+        "voteShare": 0.37527400263042526
+      },
+      {
+        "party": 0,
+        "votes": 11368,
+        "voteShare": 0.3559842174484875
+      },
+      {
+        "party": 1,
+        "votes": 5771,
+        "voteShare": 0.18071647773532912
+      },
+      {
+        "party": 2,
+        "votes": 1497,
+        "voteShare": 0.04687793574246884
+      },
+      {
+        "party": 4,
+        "votes": 1139,
+        "voteShare": 0.03566731383478424
+      },
+      {
+        "party": 6,
+        "votes": 175,
+        "voteShare": 0.0054800526085050415
+      }
+    ],
+    "totalVotes": 31934
+  },
+  {
+    "ridingId": 24042,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20697,
+        "voteShare": 0.4670427620444545
+      },
+      {
+        "party": 3,
+        "votes": 12283,
+        "voteShare": 0.277174771522058
+      },
+      {
+        "party": 0,
+        "votes": 6185,
+        "voteShare": 0.13956899469705517
+      },
+      {
+        "party": 2,
+        "votes": 4191,
+        "voteShare": 0.09457294369852194
+      },
+      {
+        "party": 4,
+        "votes": 959,
+        "voteShare": 0.021640528037910414
+      }
+    ],
+    "totalVotes": 44315
+  },
+  {
+    "ridingId": 24043,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 20992,
+        "voteShare": 0.3623433562329547
+      },
+      {
+        "party": 1,
+        "votes": 16343,
+        "voteShare": 0.2820968688507612
+      },
+      {
+        "party": 0,
+        "votes": 13669,
+        "voteShare": 0.23594089826354128
+      },
+      {
+        "party": 2,
+        "votes": 5403,
+        "voteShare": 0.09326129733835054
+      },
+      {
+        "party": 4,
+        "votes": 1408,
+        "voteShare": 0.024303517796112818
+      },
+      {
+        "party": 6,
+        "votes": 119,
+        "voteShare": 0.0020540615182794214
+      }
+    ],
+    "totalVotes": 57934
+  },
+  {
+    "ridingId": 24045,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 33282,
+        "voteShare": 0.3330064836308333
+      },
+      {
+        "party": 3,
+        "votes": 32514,
+        "voteShare": 0.3253221804210358
+      },
+      {
+        "party": 1,
+        "votes": 14867,
+        "voteShare": 0.14875330184903546
+      },
+      {
+        "party": 2,
+        "votes": 13548,
+        "voteShare": 0.1355559113103338
+      },
+      {
+        "party": 4,
+        "votes": 5556,
+        "voteShare": 0.05559113103337869
+      },
+      {
+        "party": 6,
+        "votes": 177,
+        "voteShare": 0.0017709917553830146
+      }
+    ],
+    "totalVotes": 99944
+  },
+  {
+    "ridingId": 24048,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19702,
+        "voteShare": 0.5564750741420703
+      },
+      {
+        "party": 1,
+        "votes": 9676,
+        "voteShare": 0.27329473238243185
+      },
+      {
+        "party": 2,
+        "votes": 2733,
+        "voteShare": 0.07719248693687332
+      },
+      {
+        "party": 4,
+        "votes": 1565,
+        "voteShare": 0.04420279621522384
+      },
+      {
+        "party": 3,
+        "votes": 1543,
+        "voteShare": 0.04358141505437085
+      },
+      {
+        "party": 6,
+        "votes": 186,
+        "voteShare": 0.005253495269029798
+      }
+    ],
+    "totalVotes": 35405
+  },
+  {
+    "ridingId": 24050,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 43095,
+        "voteShare": 0.41813824419778
+      },
+      {
+        "party": 1,
+        "votes": 22119,
+        "voteShare": 0.21461422029030505
+      },
+      {
+        "party": 0,
+        "votes": 18783,
+        "voteShare": 0.1822459830784755
+      },
+      {
+        "party": 2,
+        "votes": 14953,
+        "voteShare": 0.14508460762244818
+      },
+      {
+        "party": 4,
+        "votes": 4002,
+        "voteShare": 0.03883024140339983
+      },
+      {
+        "party": 6,
+        "votes": 112,
+        "voteShare": 0.0010867034075913995
+      }
+    ],
+    "totalVotes": 103064
+  },
+  {
+    "ridingId": 24052,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 21064,
+        "voteShare": 0.41764647566174284
+      },
+      {
+        "party": 1,
+        "votes": 12943,
+        "voteShare": 0.25662734212352534
+      },
+      {
+        "party": 0,
+        "votes": 8845,
+        "voteShare": 0.17537424407653415
+      },
+      {
+        "party": 2,
+        "votes": 5933,
+        "voteShare": 0.11763656191137108
+      },
+      {
+        "party": 4,
+        "votes": 1650,
+        "voteShare": 0.03271537622682661
+      }
+    ],
+    "totalVotes": 50435
+  },
+  {
+    "ridingId": 24053,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 14348,
+        "voteShare": 0.3953379439561348
+      },
+      {
+        "party": 0,
+        "votes": 12005,
+        "voteShare": 0.33078004022814317
+      },
+      {
+        "party": 3,
+        "votes": 4554,
+        "voteShare": 0.12547874245722315
+      },
+      {
+        "party": 1,
+        "votes": 3820,
+        "voteShare": 0.10525445678229961
+      },
+      {
+        "party": 4,
+        "votes": 1566,
+        "voteShare": 0.04314881657619927
+      }
+    ],
+    "totalVotes": 36293
+  },
+  {
+    "ridingId": 24054,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 43356,
+        "voteShare": 0.4723338889433605
+      },
+      {
+        "party": 0,
+        "votes": 25711,
+        "voteShare": 0.28010371387173033
+      },
+      {
+        "party": 1,
+        "votes": 12166,
+        "voteShare": 0.1325402272553954
+      },
+      {
+        "party": 2,
+        "votes": 7744,
+        "voteShare": 0.08436556960922095
+      },
+      {
+        "party": 4,
+        "votes": 2547,
+        "voteShare": 0.027747818413569957
+      },
+      {
+        "party": 6,
+        "votes": 267,
+        "voteShare": 0.0029087819067228813
+      }
+    ],
+    "totalVotes": 91791
+  },
+  {
+    "ridingId": 24056,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29405,
+        "voteShare": 0.34498738781017185
+      },
+      {
+        "party": 3,
+        "votes": 22009,
+        "voteShare": 0.2582155217926908
+      },
+      {
+        "party": 1,
+        "votes": 19031,
+        "voteShare": 0.22327682290139028
+      },
+      {
+        "party": 2,
+        "votes": 8907,
+        "voteShare": 0.10449932539449756
+      },
+      {
+        "party": 4,
+        "votes": 3806,
+        "voteShare": 0.044653018126356546
+      },
+      {
+        "party": 6,
+        "votes": 2077,
+        "voteShare": 0.024367923974892944
+      }
+    ],
+    "totalVotes": 85235
+  },
+  {
+    "ridingId": 24058,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 34895,
+        "voteShare": 0.3898708437611727
+      },
+      {
+        "party": 6,
+        "votes": 16249,
+        "voteShare": 0.18154495888451913
+      },
+      {
+        "party": 0,
+        "votes": 14155,
+        "voteShare": 0.15814935645334285
+      },
+      {
+        "party": 1,
+        "votes": 13640,
+        "voteShare": 0.15239542366821596
+      },
+      {
+        "party": 2,
+        "votes": 8135,
+        "voteShare": 0.09088979263496604
+      },
+      {
+        "party": 4,
+        "votes": 2430,
+        "voteShare": 0.02714962459778334
+      }
+    ],
+    "totalVotes": 89504
+  },
+  {
+    "ridingId": 24060,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 45626,
+        "voteShare": 0.47868646068299847
+      },
+      {
+        "party": 1,
+        "votes": 24223,
+        "voteShare": 0.254136284949903
+      },
+      {
+        "party": 0,
+        "votes": 12472,
+        "voteShare": 0.13085033835178095
+      },
+      {
+        "party": 2,
+        "votes": 10591,
+        "voteShare": 0.11111577401248492
+      },
+      {
+        "party": 4,
+        "votes": 2403,
+        "voteShare": 0.025211142002832712
+      }
+    ],
+    "totalVotes": 95315
+  },
+  {
+    "ridingId": 24061,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 23913,
+        "voteShare": 0.4601839735201293
+      },
+      {
+        "party": 1,
+        "votes": 15080,
+        "voteShare": 0.2902009083211454
+      },
+      {
+        "party": 0,
+        "votes": 6599,
+        "voteShare": 0.12699176352859673
+      },
+      {
+        "party": 2,
+        "votes": 4509,
+        "voteShare": 0.08677161111538757
+      },
+      {
+        "party": 4,
+        "votes": 1337,
+        "voteShare": 0.02572935108921561
+      },
+      {
+        "party": 6,
+        "votes": 526,
+        "voteShare": 0.010122392425525364
+      }
+    ],
+    "totalVotes": 51964
+  },
+  {
+    "ridingId": 24062,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 23767,
+        "voteShare": 0.4498599333737129
+      },
+      {
+        "party": 0,
+        "votes": 11755,
+        "voteShare": 0.22249772864930345
+      },
+      {
+        "party": 1,
+        "votes": 8125,
+        "voteShare": 0.15378937007874016
+      },
+      {
+        "party": 2,
+        "votes": 7154,
+        "voteShare": 0.13541035735917625
+      },
+      {
+        "party": 4,
+        "votes": 2031,
+        "voteShare": 0.03844261053906723
+      }
+    ],
+    "totalVotes": 52832
+  },
+  {
+    "ridingId": 24063,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 45935,
+        "voteShare": 0.4649715055015133
+      },
+      {
+        "party": 1,
+        "votes": 20106,
+        "voteShare": 0.2035205636140944
+      },
+      {
+        "party": 0,
+        "votes": 15472,
+        "voteShare": 0.156613456691399
+      },
+      {
+        "party": 2,
+        "votes": 13462,
+        "voteShare": 0.13626747375773096
+      },
+      {
+        "party": 4,
+        "votes": 3816,
+        "voteShare": 0.03862700043526232
+      }
+    ],
+    "totalVotes": 98791
+  },
+  {
+    "ridingId": 24064,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 26588,
+        "voteShare": 0.5357351548489794
+      },
+      {
+        "party": 2,
+        "votes": 7187,
+        "voteShare": 0.1448145237663463
+      },
+      {
+        "party": 1,
+        "votes": 7170,
+        "voteShare": 0.1444719821072357
+      },
+      {
+        "party": 0,
+        "votes": 6755,
+        "voteShare": 0.13610993572306515
+      },
+      {
+        "party": 4,
+        "votes": 1656,
+        "voteShare": 0.03336758749924439
+      },
+      {
+        "party": 6,
+        "votes": 273,
+        "voteShare": 0.005500816055129058
+      }
+    ],
+    "totalVotes": 49629
+  },
+  {
+    "ridingId": 24065,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 43606,
+        "voteShare": 0.45487831593002515
+      },
+      {
+        "party": 0,
+        "votes": 22168,
+        "voteShare": 0.23124667494236567
+      },
+      {
+        "party": 2,
+        "votes": 14802,
+        "voteShare": 0.1544078528733714
+      },
+      {
+        "party": 1,
+        "votes": 10743,
+        "voteShare": 0.1120661777745324
+      },
+      {
+        "party": 4,
+        "votes": 3972,
+        "voteShare": 0.04143412995629179
+      },
+      {
+        "party": 6,
+        "votes": 572,
+        "voteShare": 0.005966848523413622
+      }
+    ],
+    "totalVotes": 95863
+  },
+  {
+    "ridingId": 24066,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25095,
+        "voteShare": 0.6172217029858822
+      },
+      {
+        "party": 1,
+        "votes": 6999,
+        "voteShare": 0.17214324364208766
+      },
+      {
+        "party": 3,
+        "votes": 4611,
+        "voteShare": 0.11340941512125535
+      },
+      {
+        "party": 2,
+        "votes": 3654,
+        "voteShare": 0.0898716119828816
+      },
+      {
+        "party": 6,
+        "votes": 299,
+        "voteShare": 0.007354026267893158
+      }
+    ],
+    "totalVotes": 40658
+  },
+  {
+    "ridingId": 24067,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 26506,
+        "voteShare": 0.49612548197506834
+      },
+      {
+        "party": 0,
+        "votes": 9430,
+        "voteShare": 0.1765058211357766
+      },
+      {
+        "party": 1,
+        "votes": 9281,
+        "voteShare": 0.17371691685696103
+      },
+      {
+        "party": 2,
+        "votes": 5529,
+        "voteShare": 0.10348893797027664
+      },
+      {
+        "party": 4,
+        "votes": 2160,
+        "voteShare": 0.040429753303634935
+      },
+      {
+        "party": 6,
+        "votes": 520,
+        "voteShare": 0.009733088758282485
+      }
+    ],
+    "totalVotes": 53426
+  },
+  {
+    "ridingId": 24069,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21652,
+        "voteShare": 0.5725921616332575
+      },
+      {
+        "party": 1,
+        "votes": 5627,
+        "voteShare": 0.14880732004019676
+      },
+      {
+        "party": 3,
+        "votes": 5146,
+        "voteShare": 0.13608716348442376
+      },
+      {
+        "party": 2,
+        "votes": 4039,
+        "voteShare": 0.1068122917437986
+      },
+      {
+        "party": 4,
+        "votes": 1063,
+        "voteShare": 0.02811128153593907
+      },
+      {
+        "party": 6,
+        "votes": 287,
+        "voteShare": 0.007589781562384302
+      }
+    ],
+    "totalVotes": 37814
+  },
+  {
+    "ridingId": 24070,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 20397,
+        "voteShare": 0.4396094659252554
+      },
+      {
+        "party": 1,
+        "votes": 11083,
+        "voteShare": 0.23886805465752833
+      },
+      {
+        "party": 0,
+        "votes": 9755,
+        "voteShare": 0.21024613129876288
+      },
+      {
+        "party": 2,
+        "votes": 3601,
+        "voteShare": 0.0776111039268934
+      },
+      {
+        "party": 4,
+        "votes": 1562,
+        "voteShare": 0.03366524419155998
+      }
+    ],
+    "totalVotes": 46398
+  },
+  {
+    "ridingId": 24071,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 49953,
+        "voteShare": 0.4774525921394709
+      },
+      {
+        "party": 0,
+        "votes": 19747,
+        "voteShare": 0.18874254473161034
+      },
+      {
+        "party": 1,
+        "votes": 17478,
+        "voteShare": 0.16705536014681144
+      },
+      {
+        "party": 2,
+        "votes": 13601,
+        "voteShare": 0.12999885303563236
+      },
+      {
+        "party": 4,
+        "votes": 3562,
+        "voteShare": 0.03404572564612326
+      },
+      {
+        "party": 6,
+        "votes": 283,
+        "voteShare": 0.0027049243003517357
+      }
+    ],
+    "totalVotes": 104624
+  },
+  {
+    "ridingId": 24072,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 25502,
+        "voteShare": 0.5007953184219311
+      },
+      {
+        "party": 0,
+        "votes": 9947,
+        "voteShare": 0.19533413192467058
+      },
+      {
+        "party": 1,
+        "votes": 8331,
+        "voteShare": 0.16359994501502267
+      },
+      {
+        "party": 2,
+        "votes": 6676,
+        "voteShare": 0.13109989592129292
+      },
+      {
+        "party": 6,
+        "votes": 467,
+        "voteShare": 0.009170708717082655
+      }
+    ],
+    "totalVotes": 50923
+  },
+  {
+    "ridingId": 24073,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 27044,
+        "voteShare": 0.41340935842365134
+      },
+      {
+        "party": 1,
+        "votes": 15496,
+        "voteShare": 0.23688032162893438
+      },
+      {
+        "party": 0,
+        "votes": 13954,
+        "voteShare": 0.21330846721800142
+      },
+      {
+        "party": 2,
+        "votes": 6298,
+        "voteShare": 0.09627466866410872
+      },
+      {
+        "party": 4,
+        "votes": 2625,
+        "voteShare": 0.040127184065304126
+      }
+    ],
+    "totalVotes": 65417
+  },
+  {
+    "ridingId": 24074,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 27602,
+        "voteShare": 0.5084926863416971
+      },
+      {
+        "party": 0,
+        "votes": 8871,
+        "voteShare": 0.16342433956007515
+      },
+      {
+        "party": 2,
+        "votes": 8388,
+        "voteShare": 0.15452636233005415
+      },
+      {
+        "party": 1,
+        "votes": 7742,
+        "voteShare": 0.1426255480638149
+      },
+      {
+        "party": 4,
+        "votes": 1679,
+        "voteShare": 0.03093106370435872
+      }
+    ],
+    "totalVotes": 54282
+  },
+  {
+    "ridingId": 24075,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 27049,
+        "voteShare": 0.3062543873553588
+      },
+      {
+        "party": 3,
+        "votes": 25223,
+        "voteShare": 0.2855800366839519
+      },
+      {
+        "party": 1,
+        "votes": 18137,
+        "voteShare": 0.20535087520663028
+      },
+      {
+        "party": 2,
+        "votes": 13448,
+        "voteShare": 0.1522610448132968
+      },
+      {
+        "party": 4,
+        "votes": 4273,
+        "voteShare": 0.04837979212427255
+      },
+      {
+        "party": 6,
+        "votes": 192,
+        "voteShare": 0.0021738638164896626
+      }
+    ],
+    "totalVotes": 88322
+  },
+  {
+    "ridingId": 35001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21675,
+        "voteShare": 0.4452913139945764
+      },
+      {
+        "party": 1,
+        "votes": 18471,
+        "voteShare": 0.37946832114389023
+      },
+      {
+        "party": 2,
+        "votes": 4422,
+        "voteShare": 0.09084559125647136
+      },
+      {
+        "party": 4,
+        "votes": 3543,
+        "voteShare": 0.07278741063357712
+      },
+      {
+        "party": 6,
+        "votes": 565,
+        "voteShare": 0.011607362971484922
+      }
+    ],
+    "totalVotes": 48676
+  },
+  {
+    "ridingId": 35002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 15249,
+        "voteShare": 0.4549767275331185
+      },
+      {
+        "party": 0,
+        "votes": 10902,
+        "voteShare": 0.32527747941281776
+      },
+      {
+        "party": 1,
+        "votes": 5914,
+        "voteShare": 0.176453037355293
+      },
+      {
+        "party": 4,
+        "votes": 1451,
+        "voteShare": 0.04329275569877074
+      }
+    ],
+    "totalVotes": 33516
+  },
+  {
+    "ridingId": 35003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26297,
+        "voteShare": 0.4650385513192332
+      },
+      {
+        "party": 0,
+        "votes": 15322,
+        "voteShare": 0.27095564829879043
+      },
+      {
+        "party": 2,
+        "votes": 9632,
+        "voteShare": 0.1703331682818137
+      },
+      {
+        "party": 4,
+        "votes": 5149,
+        "voteShare": 0.09105538657423781
+      },
+      {
+        "party": 6,
+        "votes": 148,
+        "voteShare": 0.002617245525924878
+      }
+    ],
+    "totalVotes": 56548
+  },
+  {
+    "ridingId": 35004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27927,
+        "voteShare": 0.5236934385958333
+      },
+      {
+        "party": 0,
+        "votes": 12732,
+        "voteShare": 0.2387533519605453
+      },
+      {
+        "party": 2,
+        "votes": 6403,
+        "voteShare": 0.12007050837286928
+      },
+      {
+        "party": 4,
+        "votes": 5921,
+        "voteShare": 0.11103193504228627
+      },
+      {
+        "party": 6,
+        "votes": 344,
+        "voteShare": 0.00645076602846588
+      }
+    ],
+    "totalVotes": 53327
+  },
+  {
+    "ridingId": 35006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22272,
+        "voteShare": 0.4505765729314182
+      },
+      {
+        "party": 1,
+        "votes": 18353,
+        "voteShare": 0.37129273720412703
+      },
+      {
+        "party": 2,
+        "votes": 5945,
+        "voteShare": 0.1202710904309124
+      },
+      {
+        "party": 4,
+        "votes": 2551,
+        "voteShare": 0.0516083350192191
+      },
+      {
+        "party": 6,
+        "votes": 309,
+        "voteShare": 0.006251264414323285
+      }
+    ],
+    "totalVotes": 49430
+  },
+  {
+    "ridingId": 35007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 37544,
+        "voteShare": 0.41003462097135307
+      },
+      {
+        "party": 1,
+        "votes": 25711,
+        "voteShare": 0.28080119699005057
+      },
+      {
+        "party": 2,
+        "votes": 20113,
+        "voteShare": 0.21966296429780588
+      },
+      {
+        "party": 4,
+        "votes": 7905,
+        "voteShare": 0.08633399954129943
+      },
+      {
+        "party": 6,
+        "votes": 290,
+        "voteShare": 0.0031672181994910607
+      }
+    ],
+    "totalVotes": 91563
+  },
+  {
+    "ridingId": 35009,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22736,
+        "voteShare": 0.4195220961343297
+      },
+      {
+        "party": 0,
+        "votes": 17943,
+        "voteShare": 0.33108220315527265
+      },
+      {
+        "party": 2,
+        "votes": 9331,
+        "voteShare": 0.17217455484823324
+      },
+      {
+        "party": 4,
+        "votes": 3814,
+        "voteShare": 0.07037549589445521
+      },
+      {
+        "party": 6,
+        "votes": 371,
+        "voteShare": 0.006845649967709198
+      }
+    ],
+    "totalVotes": 54195
+  },
+  {
+    "ridingId": 35012,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 39433,
+        "voteShare": 0.577747498278464
+      },
+      {
+        "party": 0,
+        "votes": 15254,
+        "voteShare": 0.22349200767731822
+      },
+      {
+        "party": 4,
+        "votes": 6983,
+        "voteShare": 0.10231052114925351
+      },
+      {
+        "party": 2,
+        "votes": 6583,
+        "voteShare": 0.09644997289496432
+      }
+    ],
+    "totalVotes": 68253
+  },
+  {
+    "ridingId": 35013,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19960,
+        "voteShare": 0.4792431991164254
+      },
+      {
+        "party": 0,
+        "votes": 12127,
+        "voteShare": 0.2911714566976398
+      },
+      {
+        "party": 2,
+        "votes": 6850,
+        "voteShare": 0.1644697351677111
+      },
+      {
+        "party": 4,
+        "votes": 2712,
+        "voteShare": 0.06511560901822373
+      }
+    ],
+    "totalVotes": 41649
+  },
+  {
+    "ridingId": 35014,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 50066,
+        "voteShare": 0.4690243102721439
+      },
+      {
+        "party": 0,
+        "votes": 33913,
+        "voteShare": 0.31770106328165254
+      },
+      {
+        "party": 2,
+        "votes": 12819,
+        "voteShare": 0.12008993395475198
+      },
+      {
+        "party": 4,
+        "votes": 9370,
+        "voteShare": 0.08777928708604618
+      },
+      {
+        "party": 6,
+        "votes": 577,
+        "voteShare": 0.005405405405405406
+      }
+    ],
+    "totalVotes": 106745
+  },
+  {
+    "ridingId": 35016,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 34752,
+        "voteShare": 0.40321158397920825
+      },
+      {
+        "party": 0,
+        "votes": 25156,
+        "voteShare": 0.2918735786884485
+      },
+      {
+        "party": 4,
+        "votes": 15713,
+        "voteShare": 0.1823107625191442
+      },
+      {
+        "party": 2,
+        "votes": 9702,
+        "voteShare": 0.1125678748781733
+      },
+      {
+        "party": 6,
+        "votes": 865,
+        "voteShare": 0.010036199935025757
+      }
+    ],
+    "totalVotes": 86188
+  },
+  {
+    "ridingId": 35017,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28614,
+        "voteShare": 0.4860457610708159
+      },
+      {
+        "party": 0,
+        "votes": 19577,
+        "voteShare": 0.3325406397037591
+      },
+      {
+        "party": 2,
+        "votes": 6597,
+        "voteShare": 0.11205856873503083
+      },
+      {
+        "party": 4,
+        "votes": 4083,
+        "voteShare": 0.06935503049039425
+      }
+    ],
+    "totalVotes": 58871
+  },
+  {
+    "ridingId": 35019,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24895,
+        "voteShare": 0.48627795683172187
+      },
+      {
+        "party": 0,
+        "votes": 11977,
+        "voteShare": 0.23394862779568318
+      },
+      {
+        "party": 2,
+        "votes": 10044,
+        "voteShare": 0.19619103428069148
+      },
+      {
+        "party": 4,
+        "votes": 4279,
+        "voteShare": 0.08358238109190351
+      }
+    ],
+    "totalVotes": 51195
+  },
+  {
+    "ridingId": 35020,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22970,
+        "voteShare": 0.4838539801571419
+      },
+      {
+        "party": 0,
+        "votes": 11169,
+        "voteShare": 0.23527057485307437
+      },
+      {
+        "party": 2,
+        "votes": 9135,
+        "voteShare": 0.19242516799022602
+      },
+      {
+        "party": 4,
+        "votes": 3241,
+        "voteShare": 0.06827038527162808
+      },
+      {
+        "party": 6,
+        "votes": 958,
+        "voteShare": 0.02017989172792956
+      }
+    ],
+    "totalVotes": 47473
+  },
+  {
+    "ridingId": 35022,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 15953,
+        "voteShare": 0.4577224342237397
+      },
+      {
+        "party": 2,
+        "votes": 10896,
+        "voteShare": 0.3126273204602186
+      },
+      {
+        "party": 1,
+        "votes": 3838,
+        "voteShare": 0.11011964536768715
+      },
+      {
+        "party": 4,
+        "votes": 3655,
+        "voteShare": 0.10486902131810748
+      },
+      {
+        "party": 6,
+        "votes": 511,
+        "voteShare": 0.014661578630247038
+      }
+    ],
+    "totalVotes": 34853
+  },
+  {
+    "ridingId": 35024,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22212,
+        "voteShare": 0.44360121425147786
+      },
+      {
+        "party": 1,
+        "votes": 19441,
+        "voteShare": 0.3882609042978111
+      },
+      {
+        "party": 2,
+        "votes": 5102,
+        "voteShare": 0.10189327368589232
+      },
+      {
+        "party": 4,
+        "votes": 3155,
+        "voteShare": 0.06300926665601533
+      },
+      {
+        "party": 6,
+        "votes": 162,
+        "voteShare": 0.003235341108803323
+      }
+    ],
+    "totalVotes": 50072
+  },
+  {
+    "ridingId": 35025,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 49022,
+        "voteShare": 0.4994803659853687
+      },
+      {
+        "party": 0,
+        "votes": 28492,
+        "voteShare": 0.29030220284066593
+      },
+      {
+        "party": 4,
+        "votes": 10285,
+        "voteShare": 0.10479285961730483
+      },
+      {
+        "party": 2,
+        "votes": 10063,
+        "voteShare": 0.10253092331832168
+      },
+      {
+        "party": 6,
+        "votes": 284,
+        "voteShare": 0.0028936482383388014
+      }
+    ],
+    "totalVotes": 98146
+  },
+  {
+    "ridingId": 35026,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19133,
+        "voteShare": 0.4398593038760403
+      },
+      {
+        "party": 1,
+        "votes": 17073,
+        "voteShare": 0.39250080463469583
+      },
+      {
+        "party": 2,
+        "votes": 3663,
+        "voteShare": 0.08421076831118672
+      },
+      {
+        "party": 4,
+        "votes": 3629,
+        "voteShare": 0.08342912317807716
+      }
+    ],
+    "totalVotes": 43498
+  },
+  {
+    "ridingId": 35028,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20608,
+        "voteShare": 0.40001552855312705
+      },
+      {
+        "party": 0,
+        "votes": 14973,
+        "voteShare": 0.2906362824643814
+      },
+      {
+        "party": 2,
+        "votes": 13703,
+        "voteShare": 0.26598470437516986
+      },
+      {
+        "party": 4,
+        "votes": 2234,
+        "voteShare": 0.043363484607321715
+      }
+    ],
+    "totalVotes": 51518
+  },
+  {
+    "ridingId": 35029,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 49230,
+        "voteShare": 0.4709067082444544
+      },
+      {
+        "party": 0,
+        "votes": 35630,
+        "voteShare": 0.340816697435505
+      },
+      {
+        "party": 2,
+        "votes": 12116,
+        "voteShare": 0.11589489492361994
+      },
+      {
+        "party": 4,
+        "votes": 7193,
+        "voteShare": 0.0688042240991745
+      },
+      {
+        "party": 6,
+        "votes": 374,
+        "voteShare": 0.0035774752972461093
+      }
+    ],
+    "totalVotes": 104543
+  },
+  {
+    "ridingId": 35030,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 50779,
+        "voteShare": 0.42150393040648787
+      },
+      {
+        "party": 0,
+        "votes": 48672,
+        "voteShare": 0.40401424409193915
+      },
+      {
+        "party": 2,
+        "votes": 12068,
+        "voteShare": 0.10017348573515618
+      },
+      {
+        "party": 4,
+        "votes": 8434,
+        "voteShare": 0.07000854977546464
+      },
+      {
+        "party": 6,
+        "votes": 518,
+        "voteShare": 0.00429978999095218
+      }
+    ],
+    "totalVotes": 120471
+  },
+  {
+    "ridingId": 35031,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 15244,
+        "voteShare": 0.48578712555768006
+      },
+      {
+        "party": 1,
+        "votes": 9436,
+        "voteShare": 0.3007010834926705
+      },
+      {
+        "party": 2,
+        "votes": 4940,
+        "voteShare": 0.1574251115360102
+      },
+      {
+        "party": 4,
+        "votes": 1460,
+        "voteShare": 0.04652644996813257
+      },
+      {
+        "party": 6,
+        "votes": 300,
+        "voteShare": 0.009560229445506692
+      }
+    ],
+    "totalVotes": 31380
+  },
+  {
+    "ridingId": 35033,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 18974,
+        "voteShare": 0.32219939207661874
+      },
+      {
+        "party": 1,
+        "votes": 17186,
+        "voteShare": 0.29183718521285806
+      },
+      {
+        "party": 4,
+        "votes": 12454,
+        "voteShare": 0.2114826198441135
+      },
+      {
+        "party": 2,
+        "votes": 9713,
+        "voteShare": 0.1649374246463686
+      },
+      {
+        "party": 6,
+        "votes": 562,
+        "voteShare": 0.009543378220041095
+      }
+    ],
+    "totalVotes": 58889
+  },
+  {
+    "ridingId": 35034,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19657,
+        "voteShare": 0.4082789847547044
+      },
+      {
+        "party": 0,
+        "votes": 15577,
+        "voteShare": 0.32353674240850744
+      },
+      {
+        "party": 2,
+        "votes": 5549,
+        "voteShare": 0.11525360362231546
+      },
+      {
+        "party": 6,
+        "votes": 5322,
+        "voteShare": 0.11053877788393636
+      },
+      {
+        "party": 4,
+        "votes": 2041,
+        "voteShare": 0.04239189133053629
+      }
+    ],
+    "totalVotes": 48146
+  },
+  {
+    "ridingId": 35035,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 9395,
+        "voteShare": 0.4046080964685616
+      },
+      {
+        "party": 0,
+        "votes": 7344,
+        "voteShare": 0.31627906976744186
+      },
+      {
+        "party": 2,
+        "votes": 5394,
+        "voteShare": 0.23229974160206718
+      },
+      {
+        "party": 4,
+        "votes": 1087,
+        "voteShare": 0.04681309216192937
+      }
+    ],
+    "totalVotes": 23220
+  },
+  {
+    "ridingId": 35036,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20010,
+        "voteShare": 0.4925053533190578
+      },
+      {
+        "party": 1,
+        "votes": 9051,
+        "voteShare": 0.22277191168869526
+      },
+      {
+        "party": 0,
+        "votes": 7164,
+        "voteShare": 0.17632725393192056
+      },
+      {
+        "party": 4,
+        "votes": 3625,
+        "voteShare": 0.08922198429693076
+      },
+      {
+        "party": 6,
+        "votes": 779,
+        "voteShare": 0.019173496763395605
+      }
+    ],
+    "totalVotes": 40629
+  },
+  {
+    "ridingId": 35037,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 19919,
+        "voteShare": 0.4128461283369259
+      },
+      {
+        "party": 0,
+        "votes": 13455,
+        "voteShare": 0.27887166307411704
+      },
+      {
+        "party": 1,
+        "votes": 11556,
+        "voteShare": 0.23951251865362294
+      },
+      {
+        "party": 4,
+        "votes": 2142,
+        "voteShare": 0.044395622616481514
+      },
+      {
+        "party": 6,
+        "votes": 1176,
+        "voteShare": 0.024374067318852596
+      }
+    ],
+    "totalVotes": 48248
+  },
+  {
+    "ridingId": 35038,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 22796,
+        "voteShare": 0.43652936558089656
+      },
+      {
+        "party": 1,
+        "votes": 16010,
+        "voteShare": 0.3065816434001647
+      },
+      {
+        "party": 0,
+        "votes": 10531,
+        "voteShare": 0.20166216656134506
+      },
+      {
+        "party": 4,
+        "votes": 2884,
+        "voteShare": 0.055226824457593686
+      }
+    ],
+    "totalVotes": 52221
+  },
+  {
+    "ridingId": 35039,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21830,
+        "voteShare": 0.36062378167641324
+      },
+      {
+        "party": 0,
+        "votes": 21813,
+        "voteShare": 0.36034294776489245
+      },
+      {
+        "party": 2,
+        "votes": 8915,
+        "voteShare": 0.14727260712987741
+      },
+      {
+        "party": 4,
+        "votes": 7326,
+        "voteShare": 0.12102289622360987
+      },
+      {
+        "party": 6,
+        "votes": 650,
+        "voteShare": 0.01073776720520699
+      }
+    ],
+    "totalVotes": 60534
+  },
+  {
+    "ridingId": 35040,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30272,
+        "voteShare": 0.5588436190441027
+      },
+      {
+        "party": 0,
+        "votes": 11809,
+        "voteShare": 0.21800291679743025
+      },
+      {
+        "party": 2,
+        "votes": 7112,
+        "voteShare": 0.13129280584836345
+      },
+      {
+        "party": 4,
+        "votes": 4629,
+        "voteShare": 0.08545478040945928
+      },
+      {
+        "party": 6,
+        "votes": 347,
+        "voteShare": 0.00640587790064428
+      }
+    ],
+    "totalVotes": 54169
+  },
+  {
+    "ridingId": 35041,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27473,
+        "voteShare": 0.5844448699129917
+      },
+      {
+        "party": 0,
+        "votes": 8075,
+        "voteShare": 0.17178292594719935
+      },
+      {
+        "party": 2,
+        "votes": 6511,
+        "voteShare": 0.13851128555321549
+      },
+      {
+        "party": 4,
+        "votes": 4522,
+        "voteShare": 0.09619843853043164
+      },
+      {
+        "party": 6,
+        "votes": 426,
+        "voteShare": 0.009062480056161849
+      }
+    ],
+    "totalVotes": 47007
+  },
+  {
+    "ridingId": 35042,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22182,
+        "voteShare": 0.44766902119071644
+      },
+      {
+        "party": 0,
+        "votes": 16336,
+        "voteShare": 0.3296871846619576
+      },
+      {
+        "party": 2,
+        "votes": 7426,
+        "voteShare": 0.14986881937436933
+      },
+      {
+        "party": 4,
+        "votes": 2617,
+        "voteShare": 0.052815338042381435
+      },
+      {
+        "party": 6,
+        "votes": 989,
+        "voteShare": 0.019959636730575176
+      }
+    ],
+    "totalVotes": 49550
+  },
+  {
+    "ridingId": 35043,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21018,
+        "voteShare": 0.39125093075204764
+      },
+      {
+        "party": 1,
+        "votes": 17712,
+        "voteShare": 0.3297096053611318
+      },
+      {
+        "party": 2,
+        "votes": 9387,
+        "voteShare": 0.17473938942665673
+      },
+      {
+        "party": 4,
+        "votes": 5603,
+        "voteShare": 0.10430007446016382
+      }
+    ],
+    "totalVotes": 53720
+  },
+  {
+    "ridingId": 35046,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 43411,
+        "voteShare": 0.4100289970058466
+      },
+      {
+        "party": 0,
+        "votes": 34546,
+        "voteShare": 0.326296600644168
+      },
+      {
+        "party": 2,
+        "votes": 17585,
+        "voteShare": 0.16609522730063378
+      },
+      {
+        "party": 4,
+        "votes": 9668,
+        "voteShare": 0.09131695521993331
+      },
+      {
+        "party": 6,
+        "votes": 663,
+        "voteShare": 0.006262219829418265
+      }
+    ],
+    "totalVotes": 105873
+  },
+  {
+    "ridingId": 35047,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21220,
+        "voteShare": 0.47691823616667417
+      },
+      {
+        "party": 1,
+        "votes": 14664,
+        "voteShare": 0.3295725266328044
+      },
+      {
+        "party": 2,
+        "votes": 5268,
+        "voteShare": 0.11839798624533646
+      },
+      {
+        "party": 4,
+        "votes": 2947,
+        "voteShare": 0.06623364948082888
+      },
+      {
+        "party": 6,
+        "votes": 395,
+        "voteShare": 0.008877601474356093
+      }
+    ],
+    "totalVotes": 44494
+  },
+  {
+    "ridingId": 35048,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 16480,
+        "voteShare": 0.3669724770642202
+      },
+      {
+        "party": 0,
+        "votes": 16141,
+        "voteShare": 0.35942371069742585
+      },
+      {
+        "party": 2,
+        "votes": 8122,
+        "voteShare": 0.1808586443395386
+      },
+      {
+        "party": 4,
+        "votes": 3823,
+        "voteShare": 0.085129598289837
+      },
+      {
+        "party": 6,
+        "votes": 342,
+        "voteShare": 0.007615569608978356
+      }
+    ],
+    "totalVotes": 44908
+  },
+  {
+    "ridingId": 35049,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 47388,
+        "voteShare": 0.4575632929725972
+      },
+      {
+        "party": 0,
+        "votes": 35342,
+        "voteShare": 0.3412509897070467
+      },
+      {
+        "party": 2,
+        "votes": 11947,
+        "voteShare": 0.11535639109360214
+      },
+      {
+        "party": 4,
+        "votes": 8760,
+        "voteShare": 0.08458374369966977
+      },
+      {
+        "party": 6,
+        "votes": 129,
+        "voteShare": 0.0012455825270841782
+      }
+    ],
+    "totalVotes": 103566
+  },
+  {
+    "ridingId": 35050,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20518,
+        "voteShare": 0.4422459316736717
+      },
+      {
+        "party": 1,
+        "votes": 18366,
+        "voteShare": 0.39586162301972194
+      },
+      {
+        "party": 2,
+        "votes": 4104,
+        "voteShare": 0.08845780795344325
+      },
+      {
+        "party": 4,
+        "votes": 3407,
+        "voteShare": 0.07343463735316305
+      }
+    ],
+    "totalVotes": 46395
+  },
+  {
+    "ridingId": 35052,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 39921,
+        "voteShare": 0.55841376416282
+      },
+      {
+        "party": 0,
+        "votes": 16743,
+        "voteShare": 0.2342005874947545
+      },
+      {
+        "party": 4,
+        "votes": 7880,
+        "voteShare": 0.1102252063225626
+      },
+      {
+        "party": 2,
+        "votes": 6946,
+        "voteShare": 0.09716044201986292
+      }
+    ],
+    "totalVotes": 71490
+  },
+  {
+    "ridingId": 35054,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 36675,
+        "voteShare": 0.3966494343622245
+      },
+      {
+        "party": 2,
+        "votes": 26858,
+        "voteShare": 0.290476087473773
+      },
+      {
+        "party": 0,
+        "votes": 21641,
+        "voteShare": 0.23405290822175595
+      },
+      {
+        "party": 4,
+        "votes": 7012,
+        "voteShare": 0.07583655988406048
+      },
+      {
+        "party": 6,
+        "votes": 276,
+        "voteShare": 0.0029850100581860655
+      }
+    ],
+    "totalVotes": 92462
+  },
+  {
+    "ridingId": 35055,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 50645,
+        "voteShare": 0.45325588888093366
+      },
+      {
+        "party": 0,
+        "votes": 33390,
+        "voteShare": 0.29882938354693206
+      },
+      {
+        "party": 2,
+        "votes": 16389,
+        "voteShare": 0.14667609364931625
+      },
+      {
+        "party": 4,
+        "votes": 9527,
+        "voteShare": 0.085263478198611
+      },
+      {
+        "party": 6,
+        "votes": 1785,
+        "voteShare": 0.01597515572420706
+      }
+    ],
+    "totalVotes": 111736
+  },
+  {
+    "ridingId": 35056,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 19021,
+        "voteShare": 0.4653797220591114
+      },
+      {
+        "party": 0,
+        "votes": 10748,
+        "voteShare": 0.2629673125856332
+      },
+      {
+        "party": 1,
+        "votes": 8869,
+        "voteShare": 0.2169945194754355
+      },
+      {
+        "party": 4,
+        "votes": 2056,
+        "voteShare": 0.05030338618124878
+      },
+      {
+        "party": 6,
+        "votes": 178,
+        "voteShare": 0.004355059698571149
+      }
+    ],
+    "totalVotes": 40872
+  },
+  {
+    "ridingId": 35058,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 41505,
+        "voteShare": 0.4042721056630238
+      },
+      {
+        "party": 1,
+        "votes": 41470,
+        "voteShare": 0.4039311943584049
+      },
+      {
+        "party": 2,
+        "votes": 12912,
+        "voteShare": 0.12576705043539244
+      },
+      {
+        "party": 4,
+        "votes": 6554,
+        "voteShare": 0.06383807687062903
+      },
+      {
+        "party": 6,
+        "votes": 225,
+        "voteShare": 0.002191572672549822
+      }
+    ],
+    "totalVotes": 102666
+  },
+  {
+    "ridingId": 35059,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32028,
+        "voteShare": 0.4224159533638438
+      },
+      {
+        "party": 0,
+        "votes": 31483,
+        "voteShare": 0.41522797114255944
+      },
+      {
+        "party": 2,
+        "votes": 7126,
+        "voteShare": 0.09398451616306829
+      },
+      {
+        "party": 4,
+        "votes": 5184,
+        "voteShare": 0.06837155933052848
+      }
+    ],
+    "totalVotes": 75821
+  },
+  {
+    "ridingId": 35060,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26011,
+        "voteShare": 0.46982641836605676
+      },
+      {
+        "party": 0,
+        "votes": 20528,
+        "voteShare": 0.37078915521196465
+      },
+      {
+        "party": 4,
+        "votes": 4681,
+        "voteShare": 0.0845510539530011
+      },
+      {
+        "party": 2,
+        "votes": 4143,
+        "voteShare": 0.07483337246897748
+      }
+    ],
+    "totalVotes": 55363
+  },
+  {
+    "ridingId": 35062,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20457,
+        "voteShare": 0.5016306613373875
+      },
+      {
+        "party": 1,
+        "votes": 13277,
+        "voteShare": 0.32556827934577376
+      },
+      {
+        "party": 2,
+        "votes": 4632,
+        "voteShare": 0.1135823054853976
+      },
+      {
+        "party": 4,
+        "votes": 2138,
+        "voteShare": 0.052426375027586375
+      },
+      {
+        "party": 6,
+        "votes": 277,
+        "voteShare": 0.006792378803854736
+      }
+    ],
+    "totalVotes": 40781
+  },
+  {
+    "ridingId": 35063,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27244,
+        "voteShare": 0.4491040667293078
+      },
+      {
+        "party": 0,
+        "votes": 23549,
+        "voteShare": 0.38819379193247944
+      },
+      {
+        "party": 2,
+        "votes": 6025,
+        "voteShare": 0.09931918962135074
+      },
+      {
+        "party": 4,
+        "votes": 3845,
+        "voteShare": 0.06338295171686201
+      }
+    ],
+    "totalVotes": 60663
+  },
+  {
+    "ridingId": 35065,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23948,
+        "voteShare": 0.4620044371563615
+      },
+      {
+        "party": 1,
+        "votes": 14138,
+        "voteShare": 0.2727500723449407
+      },
+      {
+        "party": 2,
+        "votes": 8845,
+        "voteShare": 0.17063760007716794
+      },
+      {
+        "party": 4,
+        "votes": 4447,
+        "voteShare": 0.085791453651008
+      },
+      {
+        "party": 6,
+        "votes": 457,
+        "voteShare": 0.008816436770521848
+      }
+    ],
+    "totalVotes": 51835
+  },
+  {
+    "ridingId": 35066,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21710,
+        "voteShare": 0.45762104508758245
+      },
+      {
+        "party": 1,
+        "votes": 16985,
+        "voteShare": 0.35802365042895384
+      },
+      {
+        "party": 2,
+        "votes": 4710,
+        "voteShare": 0.09928121245336312
+      },
+      {
+        "party": 4,
+        "votes": 3179,
+        "voteShare": 0.06700954870259902
+      },
+      {
+        "party": 6,
+        "votes": 857,
+        "voteShare": 0.018064543327501528
+      }
+    ],
+    "totalVotes": 47441
+  },
+  {
+    "ridingId": 35068,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 38955,
+        "voteShare": 0.38402011041009465
+      },
+      {
+        "party": 1,
+        "votes": 30865,
+        "voteShare": 0.3042685331230284
+      },
+      {
+        "party": 2,
+        "votes": 21880,
+        "voteShare": 0.21569400630914826
+      },
+      {
+        "party": 4,
+        "votes": 7982,
+        "voteShare": 0.07868690851735016
+      },
+      {
+        "party": 6,
+        "votes": 1758,
+        "voteShare": 0.017330441640378547
+      }
+    ],
+    "totalVotes": 101440
+  },
+  {
+    "ridingId": 35072,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22874,
+        "voteShare": 0.4969043946733865
+      },
+      {
+        "party": 1,
+        "votes": 14940,
+        "voteShare": 0.32454977950600655
+      },
+      {
+        "party": 2,
+        "votes": 4875,
+        "voteShare": 0.10590228748940977
+      },
+      {
+        "party": 4,
+        "votes": 3023,
+        "voteShare": 0.06567028001650989
+      },
+      {
+        "party": 6,
+        "votes": 321,
+        "voteShare": 0.00697325831468729
+      }
+    ],
+    "totalVotes": 46033
+  },
+  {
+    "ridingId": 35073,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 39493,
+        "voteShare": 0.4225838897449067
+      },
+      {
+        "party": 0,
+        "votes": 32558,
+        "voteShare": 0.3483778462592022
+      },
+      {
+        "party": 2,
+        "votes": 13738,
+        "voteShare": 0.14699965759287792
+      },
+      {
+        "party": 4,
+        "votes": 7187,
+        "voteShare": 0.07690249957199109
+      },
+      {
+        "party": 6,
+        "votes": 480,
+        "voteShare": 0.005136106831022085
+      }
+    ],
+    "totalVotes": 93456
+  },
+  {
+    "ridingId": 35074,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28908,
+        "voteShare": 0.6109819503740964
+      },
+      {
+        "party": 0,
+        "votes": 9737,
+        "voteShare": 0.20579532485099547
+      },
+      {
+        "party": 2,
+        "votes": 5175,
+        "voteShare": 0.10937566048104155
+      },
+      {
+        "party": 4,
+        "votes": 3201,
+        "voteShare": 0.06765439404827324
+      },
+      {
+        "party": 6,
+        "votes": 293,
+        "voteShare": 0.0061926702455932705
+      }
+    ],
+    "totalVotes": 47314
+  },
+  {
+    "ridingId": 35075,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21488,
+        "voteShare": 0.4699912510936133
+      },
+      {
+        "party": 1,
+        "votes": 16318,
+        "voteShare": 0.3569116360454943
+      },
+      {
+        "party": 2,
+        "votes": 4526,
+        "voteShare": 0.09899387576552932
+      },
+      {
+        "party": 4,
+        "votes": 3388,
+        "voteShare": 0.07410323709536308
+      }
+    ],
+    "totalVotes": 45720
+  },
+  {
+    "ridingId": 35077,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26286,
+        "voteShare": 0.5061034310139012
+      },
+      {
+        "party": 1,
+        "votes": 13948,
+        "voteShare": 0.26855096461165234
+      },
+      {
+        "party": 2,
+        "votes": 6666,
+        "voteShare": 0.1283453348222881
+      },
+      {
+        "party": 4,
+        "votes": 4726,
+        "voteShare": 0.09099310716623667
+      },
+      {
+        "party": 6,
+        "votes": 312,
+        "voteShare": 0.006007162385921676
+      }
+    ],
+    "totalVotes": 51938
+  },
+  {
+    "ridingId": 35078,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 43146,
+        "voteShare": 0.45602612748776594
+      },
+      {
+        "party": 2,
+        "votes": 26787,
+        "voteShare": 0.28312176973566
+      },
+      {
+        "party": 0,
+        "votes": 17145,
+        "voteShare": 0.18121188420195955
+      },
+      {
+        "party": 4,
+        "votes": 6575,
+        "voteShare": 0.06949362138395358
+      },
+      {
+        "party": 6,
+        "votes": 960,
+        "voteShare": 0.010146597190660902
+      }
+    ],
+    "totalVotes": 94613
+  },
+  {
+    "ridingId": 35079,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 41971,
+        "voteShare": 0.40006291046696724
+      },
+      {
+        "party": 1,
+        "votes": 30526,
+        "voteShare": 0.2909704416124143
+      },
+      {
+        "party": 0,
+        "votes": 23503,
+        "voteShare": 0.22402798562591147
+      },
+      {
+        "party": 4,
+        "votes": 8122,
+        "voteShare": 0.07741800192544157
+      },
+      {
+        "party": 6,
+        "votes": 789,
+        "voteShare": 0.007520660369265377
+      }
+    ],
+    "totalVotes": 104911
+  },
+  {
+    "ridingId": 35080,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29035,
+        "voteShare": 0.4990975504941985
+      },
+      {
+        "party": 1,
+        "votes": 19417,
+        "voteShare": 0.33376880103137085
+      },
+      {
+        "party": 2,
+        "votes": 4920,
+        "voteShare": 0.08457241082939407
+      },
+      {
+        "party": 4,
+        "votes": 3939,
+        "voteShare": 0.06770949720670391
+      },
+      {
+        "party": 6,
+        "votes": 864,
+        "voteShare": 0.014851740438332617
+      }
+    ],
+    "totalVotes": 58175
+  },
+  {
+    "ridingId": 35081,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17927,
+        "voteShare": 0.486789583729329
+      },
+      {
+        "party": 1,
+        "votes": 11088,
+        "voteShare": 0.30108344421212696
+      },
+      {
+        "party": 2,
+        "votes": 5801,
+        "voteShare": 0.15752029760773345
+      },
+      {
+        "party": 4,
+        "votes": 2011,
+        "voteShare": 0.05460667445081055
+      }
+    ],
+    "totalVotes": 36827
+  },
+  {
+    "ridingId": 35082,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 38259,
+        "voteShare": 0.4163157379296837
+      },
+      {
+        "party": 1,
+        "votes": 35990,
+        "voteShare": 0.391625588961795
+      },
+      {
+        "party": 2,
+        "votes": 11615,
+        "voteShare": 0.1263887528699986
+      },
+      {
+        "party": 4,
+        "votes": 5471,
+        "voteShare": 0.05953274790802947
+      },
+      {
+        "party": 6,
+        "votes": 564,
+        "voteShare": 0.006137172330493259
+      }
+    ],
+    "totalVotes": 91899
+  },
+  {
+    "ridingId": 35083,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32490,
+        "voteShare": 0.3838565234342694
+      },
+      {
+        "party": 0,
+        "votes": 32304,
+        "voteShare": 0.3816590068642856
+      },
+      {
+        "party": 2,
+        "votes": 13918,
+        "voteShare": 0.16443567538190712
+      },
+      {
+        "party": 4,
+        "votes": 4562,
+        "voteShare": 0.053898228990678275
+      },
+      {
+        "party": 6,
+        "votes": 1367,
+        "voteShare": 0.016150565328859535
+      }
+    ],
+    "totalVotes": 84641
+  },
+  {
+    "ridingId": 35084,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21831,
+        "voteShare": 0.5018505321716742
+      },
+      {
+        "party": 0,
+        "votes": 10871,
+        "voteShare": 0.24990230109652653
+      },
+      {
+        "party": 2,
+        "votes": 5355,
+        "voteShare": 0.12310061837658905
+      },
+      {
+        "party": 4,
+        "votes": 5119,
+        "voteShare": 0.11767545573664973
+      },
+      {
+        "party": 6,
+        "votes": 325,
+        "voteShare": 0.007471092618560493
+      }
+    ],
+    "totalVotes": 43501
+  },
+  {
+    "ridingId": 35085,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20765,
+        "voteShare": 0.48089393237610006
+      },
+      {
+        "party": 0,
+        "votes": 10225,
+        "voteShare": 0.23679944418712368
+      },
+      {
+        "party": 2,
+        "votes": 7334,
+        "voteShare": 0.1698471514590088
+      },
+      {
+        "party": 4,
+        "votes": 3874,
+        "voteShare": 0.08971746178786476
+      },
+      {
+        "party": 6,
+        "votes": 982,
+        "voteShare": 0.022742010189902732
+      }
+    ],
+    "totalVotes": 43180
+  },
+  {
+    "ridingId": 35086,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27630,
+        "voteShare": 0.47401739607816223
+      },
+      {
+        "party": 0,
+        "votes": 18417,
+        "voteShare": 0.3159601296985709
+      },
+      {
+        "party": 2,
+        "votes": 8115,
+        "voteShare": 0.13922009298495427
+      },
+      {
+        "party": 4,
+        "votes": 4029,
+        "voteShare": 0.0691211034672065
+      },
+      {
+        "party": 6,
+        "votes": 98,
+        "voteShare": 0.0016812777711060407
+      }
+    ],
+    "totalVotes": 58289
+  },
+  {
+    "ridingId": 35087,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25846,
+        "voteShare": 0.5734253322388126
+      },
+      {
+        "party": 0,
+        "votes": 8554,
+        "voteShare": 0.1897810218978102
+      },
+      {
+        "party": 2,
+        "votes": 6107,
+        "voteShare": 0.13549131409047546
+      },
+      {
+        "party": 6,
+        "votes": 2686,
+        "voteShare": 0.05959221707008631
+      },
+      {
+        "party": 4,
+        "votes": 1880,
+        "voteShare": 0.04171011470281543
+      }
+    ],
+    "totalVotes": 45073
+  },
+  {
+    "ridingId": 35092,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 29535,
+        "voteShare": 0.41804079206239114
+      },
+      {
+        "party": 2,
+        "votes": 20936,
+        "voteShare": 0.2963298467112992
+      },
+      {
+        "party": 1,
+        "votes": 17372,
+        "voteShare": 0.2458847008534911
+      },
+      {
+        "party": 4,
+        "votes": 2808,
+        "voteShare": 0.0397446603728185
+      }
+    ],
+    "totalVotes": 70651
+  },
+  {
+    "ridingId": 35095,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 24454,
+        "voteShare": 0.40839707405056946
+      },
+      {
+        "party": 0,
+        "votes": 20970,
+        "voteShare": 0.35021209793246266
+      },
+      {
+        "party": 1,
+        "votes": 8249,
+        "voteShare": 0.13776345235311802
+      },
+      {
+        "party": 4,
+        "votes": 5418,
+        "voteShare": 0.09048398410100537
+      },
+      {
+        "party": 6,
+        "votes": 787,
+        "voteShare": 0.01314339156284445
+      }
+    ],
+    "totalVotes": 59878
+  },
+  {
+    "ridingId": 35096,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 43259,
+        "voteShare": 0.46267794688599634
+      },
+      {
+        "party": 1,
+        "votes": 30318,
+        "voteShare": 0.32426708878359733
+      },
+      {
+        "party": 2,
+        "votes": 12385,
+        "voteShare": 0.13246414323454228
+      },
+      {
+        "party": 4,
+        "votes": 7384,
+        "voteShare": 0.07897579601484539
+      },
+      {
+        "party": 6,
+        "votes": 151,
+        "voteShare": 0.001615025081018642
+      }
+    ],
+    "totalVotes": 93497
+  },
+  {
+    "ridingId": 35097,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 16842,
+        "voteShare": 0.3290867169486889
+      },
+      {
+        "party": 1,
+        "votes": 16542,
+        "voteShare": 0.3232248231662042
+      },
+      {
+        "party": 0,
+        "votes": 14295,
+        "voteShare": 0.2793192387353941
+      },
+      {
+        "party": 4,
+        "votes": 2816,
+        "voteShare": 0.055023642971589355
+      },
+      {
+        "party": 6,
+        "votes": 683,
+        "voteShare": 0.013345578178123412
+      }
+    ],
+    "totalVotes": 51178
+  },
+  {
+    "ridingId": 35098,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 60088,
+        "voteShare": 0.5627218325357507
+      },
+      {
+        "party": 0,
+        "votes": 23411,
+        "voteShare": 0.21924312377670185
+      },
+      {
+        "party": 2,
+        "votes": 11035,
+        "voteShare": 0.10334235491332727
+      },
+      {
+        "party": 4,
+        "votes": 10672,
+        "voteShare": 0.09994287373221827
+      },
+      {
+        "party": 6,
+        "votes": 1575,
+        "voteShare": 0.014749815042001855
+      }
+    ],
+    "totalVotes": 106781
+  },
+  {
+    "ridingId": 35099,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 57032,
+        "voteShare": 0.5036783213077691
+      },
+      {
+        "party": 0,
+        "votes": 30130,
+        "voteShare": 0.2660932076904735
+      },
+      {
+        "party": 2,
+        "votes": 14786,
+        "voteShare": 0.13058261430173715
+      },
+      {
+        "party": 4,
+        "votes": 10888,
+        "voteShare": 0.09615741272266429
+      },
+      {
+        "party": 6,
+        "votes": 395,
+        "voteShare": 0.0034884439773560246
+      }
+    ],
+    "totalVotes": 113231
+  },
+  {
+    "ridingId": 35101,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33750,
+        "voteShare": 0.35870674262392654
+      },
+      {
+        "party": 2,
+        "votes": 30342,
+        "voteShare": 0.32248533287985715
+      },
+      {
+        "party": 0,
+        "votes": 23657,
+        "voteShare": 0.2514348269704957
+      },
+      {
+        "party": 4,
+        "votes": 6226,
+        "voteShare": 0.06617209420967604
+      },
+      {
+        "party": 6,
+        "votes": 113,
+        "voteShare": 0.001201003316044554
+      }
+    ],
+    "totalVotes": 94088
+  },
+  {
+    "ridingId": 35103,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 15094,
+        "voteShare": 0.3514891833360501
+      },
+      {
+        "party": 0,
+        "votes": 12969,
+        "voteShare": 0.3020049833500221
+      },
+      {
+        "party": 1,
+        "votes": 11073,
+        "voteShare": 0.25785343362131197
+      },
+      {
+        "party": 4,
+        "votes": 3330,
+        "voteShare": 0.07754465221339915
+      },
+      {
+        "party": 6,
+        "votes": 477,
+        "voteShare": 0.011107747479216636
+      }
+    ],
+    "totalVotes": 42943
+  },
+  {
+    "ridingId": 35104,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27412,
+        "voteShare": 0.5670079635949943
+      },
+      {
+        "party": 0,
+        "votes": 9044,
+        "voteShare": 0.18707208604819525
+      },
+      {
+        "party": 2,
+        "votes": 5882,
+        "voteShare": 0.12166718378322473
+      },
+      {
+        "party": 4,
+        "votes": 4887,
+        "voteShare": 0.1010859447719516
+      },
+      {
+        "party": 6,
+        "votes": 1120,
+        "voteShare": 0.02316682180163409
+      }
+    ],
+    "totalVotes": 48345
+  },
+  {
+    "ridingId": 35105,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16071,
+        "voteShare": 0.4659611481588866
+      },
+      {
+        "party": 2,
+        "votes": 9641,
+        "voteShare": 0.2795302986372862
+      },
+      {
+        "party": 1,
+        "votes": 7021,
+        "voteShare": 0.20356625108727167
+      },
+      {
+        "party": 4,
+        "votes": 1757,
+        "voteShare": 0.050942302116555524
+      }
+    ],
+    "totalVotes": 34490
+  },
+  {
+    "ridingId": 35106,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 38445,
+        "voteShare": 0.46310349812084417
+      },
+      {
+        "party": 1,
+        "votes": 31433,
+        "voteShare": 0.3786378529440108
+      },
+      {
+        "party": 2,
+        "votes": 8964,
+        "voteShare": 0.10797918473547267
+      },
+      {
+        "party": 4,
+        "votes": 4174,
+        "voteShare": 0.05027946419967235
+      }
+    ],
+    "totalVotes": 83016
+  },
+  {
+    "ridingId": 35107,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 14478,
+        "voteShare": 0.4031746031746032
+      },
+      {
+        "party": 0,
+        "votes": 11589,
+        "voteShare": 0.3227234753550543
+      },
+      {
+        "party": 1,
+        "votes": 8466,
+        "voteShare": 0.23575605680868839
+      },
+      {
+        "party": 4,
+        "votes": 1377,
+        "voteShare": 0.038345864661654135
+      }
+    ],
+    "totalVotes": 35910
+  },
+  {
+    "ridingId": 35108,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 13187,
+        "voteShare": 0.37025494159928124
+      },
+      {
+        "party": 0,
+        "votes": 10083,
+        "voteShare": 0.2831030997304582
+      },
+      {
+        "party": 1,
+        "votes": 9556,
+        "voteShare": 0.26830637915543576
+      },
+      {
+        "party": 4,
+        "votes": 2463,
+        "voteShare": 0.06915431266846361
+      },
+      {
+        "party": 6,
+        "votes": 327,
+        "voteShare": 0.009181266846361186
+      }
+    ],
+    "totalVotes": 35616
+  },
+  {
+    "ridingId": 35109,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 27462,
+        "voteShare": 0.5352590340311075
+      },
+      {
+        "party": 1,
+        "votes": 9402,
+        "voteShare": 0.18325342065255526
+      },
+      {
+        "party": 2,
+        "votes": 7743,
+        "voteShare": 0.15091802128406034
+      },
+      {
+        "party": 4,
+        "votes": 6081,
+        "voteShare": 0.11852414922231318
+      },
+      {
+        "party": 6,
+        "votes": 618,
+        "voteShare": 0.012045374809963746
+      }
+    ],
+    "totalVotes": 51306
+  },
+  {
+    "ridingId": 35110,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20323,
+        "voteShare": 0.4477713882829885
+      },
+      {
+        "party": 0,
+        "votes": 13336,
+        "voteShare": 0.29382862934320403
+      },
+      {
+        "party": 4,
+        "votes": 5995,
+        "voteShare": 0.13208628021239563
+      },
+      {
+        "party": 1,
+        "votes": 5287,
+        "voteShare": 0.1164870998303479
+      },
+      {
+        "party": 6,
+        "votes": 446,
+        "voteShare": 0.009826602331063961
+      }
+    ],
+    "totalVotes": 45387
+  },
+  {
+    "ridingId": 35117,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23889,
+        "voteShare": 0.4866863603952328
+      },
+      {
+        "party": 1,
+        "votes": 15931,
+        "voteShare": 0.3245594377100947
+      },
+      {
+        "party": 2,
+        "votes": 5011,
+        "voteShare": 0.10208821432209432
+      },
+      {
+        "party": 4,
+        "votes": 3130,
+        "voteShare": 0.06376693490883162
+      },
+      {
+        "party": 6,
+        "votes": 1124,
+        "voteShare": 0.02289905266374656
+      }
+    ],
+    "totalVotes": 49085
+  },
+  {
+    "ridingId": 35119,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20791,
+        "voteShare": 0.525078290736438
+      },
+      {
+        "party": 1,
+        "votes": 8954,
+        "voteShare": 0.22613395292453783
+      },
+      {
+        "party": 0,
+        "votes": 7357,
+        "voteShare": 0.18580159612082028
+      },
+      {
+        "party": 4,
+        "votes": 2253,
+        "voteShare": 0.05689968683705425
+      },
+      {
+        "party": 6,
+        "votes": 241,
+        "voteShare": 0.006086473381149611
+      }
+    ],
+    "totalVotes": 39596
+  },
+  {
+    "ridingId": 35120,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16164,
+        "voteShare": 0.434644652988787
+      },
+      {
+        "party": 1,
+        "votes": 14132,
+        "voteShare": 0.38000484014090186
+      },
+      {
+        "party": 2,
+        "votes": 4503,
+        "voteShare": 0.12108419156202103
+      },
+      {
+        "party": 4,
+        "votes": 2390,
+        "voteShare": 0.06426631530829009
+      }
+    ],
+    "totalVotes": 37189
+  },
+  {
+    "ridingId": 46001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19558,
+        "voteShare": 0.5706199854121079
+      },
+      {
+        "party": 2,
+        "votes": 6055,
+        "voteShare": 0.17665937272064186
+      },
+      {
+        "party": 4,
+        "votes": 5410,
+        "voteShare": 0.15784099197665938
+      },
+      {
+        "party": 0,
+        "votes": 2836,
+        "voteShare": 0.08274252370532457
+      },
+      {
+        "party": 6,
+        "votes": 416,
+        "voteShare": 0.01213712618526623
+      }
+    ],
+    "totalVotes": 34275
+  },
+  {
+    "ridingId": 46002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21588,
+        "voteShare": 0.5383004189108318
+      },
+      {
+        "party": 0,
+        "votes": 8514,
+        "voteShare": 0.2122980251346499
+      },
+      {
+        "party": 2,
+        "votes": 7190,
+        "voteShare": 0.17928386195890683
+      },
+      {
+        "party": 4,
+        "votes": 2632,
+        "voteShare": 0.0656293636544983
+      },
+      {
+        "party": 6,
+        "votes": 180,
+        "voteShare": 0.004488330341113106
+      }
+    ],
+    "totalVotes": 40104
+  },
+  {
+    "ridingId": 46003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 23089,
+        "voteShare": 0.46397926170046017
+      },
+      {
+        "party": 1,
+        "votes": 16549,
+        "voteShare": 0.33255631694230653
+      },
+      {
+        "party": 0,
+        "votes": 7368,
+        "voteShare": 0.14806181299358961
+      },
+      {
+        "party": 4,
+        "votes": 2445,
+        "voteShare": 0.04913288989811707
+      },
+      {
+        "party": 6,
+        "votes": 312,
+        "voteShare": 0.006269718465526596
+      }
+    ],
+    "totalVotes": 49763
+  },
+  {
+    "ridingId": 46004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 37883,
+        "voteShare": 0.5693780623440647
+      },
+      {
+        "party": 2,
+        "votes": 17007,
+        "voteShare": 0.25561367120569933
+      },
+      {
+        "party": 0,
+        "votes": 7137,
+        "voteShare": 0.10726846424384526
+      },
+      {
+        "party": 4,
+        "votes": 3608,
+        "voteShare": 0.054227913547960443
+      },
+      {
+        "party": 6,
+        "votes": 899,
+        "voteShare": 0.013511888658430277
+      }
+    ],
+    "totalVotes": 66534
+  },
+  {
+    "ridingId": 46005,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22036,
+        "voteShare": 0.6826517967781909
+      },
+      {
+        "party": 0,
+        "votes": 4374,
+        "voteShare": 0.13550185873605947
+      },
+      {
+        "party": 4,
+        "votes": 2606,
+        "voteShare": 0.08073110285006196
+      },
+      {
+        "party": 2,
+        "votes": 2353,
+        "voteShare": 0.07289343246592317
+      },
+      {
+        "party": 6,
+        "votes": 911,
+        "voteShare": 0.02822180916976456
+      }
+    ],
+    "totalVotes": 32280
+  },
+  {
+    "ridingId": 46006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 23303,
+        "voteShare": 0.6465871254162042
+      },
+      {
+        "party": 2,
+        "votes": 4947,
+        "voteShare": 0.13726415094339622
+      },
+      {
+        "party": 0,
+        "votes": 4531,
+        "voteShare": 0.12572142064372918
+      },
+      {
+        "party": 4,
+        "votes": 2089,
+        "voteShare": 0.057963374028856825
+      },
+      {
+        "party": 6,
+        "votes": 1170,
+        "voteShare": 0.03246392896781354
+      }
+    ],
+    "totalVotes": 36040
+  },
+  {
+    "ridingId": 46009,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19440,
+        "voteShare": 0.46319902785389216
+      },
+      {
+        "party": 0,
+        "votes": 14728,
+        "voteShare": 0.3509256832423932
+      },
+      {
+        "party": 2,
+        "votes": 5502,
+        "voteShare": 0.13109676189568492
+      },
+      {
+        "party": 4,
+        "votes": 2104,
+        "voteShare": 0.05013224046319903
+      },
+      {
+        "party": 6,
+        "votes": 195,
+        "voteShare": 0.004646286544830709
+      }
+    ],
+    "totalVotes": 41969
+  },
+  {
+    "ridingId": 46010,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28739,
+        "voteShare": 0.4522621764104178
+      },
+      {
+        "party": 2,
+        "votes": 21791,
+        "voteShare": 0.34292233850027537
+      },
+      {
+        "party": 0,
+        "votes": 7125,
+        "voteShare": 0.11212526555983948
+      },
+      {
+        "party": 4,
+        "votes": 4903,
+        "voteShare": 0.07715791958454639
+      },
+      {
+        "party": 6,
+        "votes": 987,
+        "voteShare": 0.015532299944920922
+      }
+    ],
+    "totalVotes": 63545
+  },
+  {
+    "ridingId": 46011,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 14097,
+        "voteShare": 0.6260881151181382
+      },
+      {
+        "party": 1,
+        "votes": 5033,
+        "voteShare": 0.22352993426896428
+      },
+      {
+        "party": 0,
+        "votes": 2075,
+        "voteShare": 0.0921566885770119
+      },
+      {
+        "party": 4,
+        "votes": 1070,
+        "voteShare": 0.04752176230236276
+      },
+      {
+        "party": 6,
+        "votes": 241,
+        "voteShare": 0.010703499733522828
+      }
+    ],
+    "totalVotes": 22516
+  },
+  {
+    "ridingId": 46012,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19954,
+        "voteShare": 0.4883504650024474
+      },
+      {
+        "party": 0,
+        "votes": 14221,
+        "voteShare": 0.3480420949583945
+      },
+      {
+        "party": 2,
+        "votes": 4673,
+        "voteShare": 0.11436612824278022
+      },
+      {
+        "party": 4,
+        "votes": 1839,
+        "voteShare": 0.04500734214390602
+      },
+      {
+        "party": 6,
+        "votes": 173,
+        "voteShare": 0.004233969652471855
+      }
+    ],
+    "totalVotes": 40860
+  },
+  {
+    "ridingId": 46013,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16438,
+        "voteShare": 0.4226684837108843
+      },
+      {
+        "party": 1,
+        "votes": 14103,
+        "voteShare": 0.36262888586048186
+      },
+      {
+        "party": 2,
+        "votes": 5490,
+        "voteShare": 0.1411637653955928
+      },
+      {
+        "party": 4,
+        "votes": 2860,
+        "voteShare": 0.07353886503304106
+      }
+    ],
+    "totalVotes": 38891
+  },
+  {
+    "ridingId": 47001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 15621,
+        "voteShare": 0.6010851162074804
+      },
+      {
+        "party": 2,
+        "votes": 6572,
+        "voteShare": 0.25288594736032016
+      },
+      {
+        "party": 0,
+        "votes": 2140,
+        "voteShare": 0.08234569801446821
+      },
+      {
+        "party": 4,
+        "votes": 1287,
+        "voteShare": 0.04952285670309373
+      },
+      {
+        "party": 6,
+        "votes": 368,
+        "voteShare": 0.014160381714637524
+      }
+    ],
+    "totalVotes": 25988
+  },
+  {
+    "ridingId": 47002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 20747,
+        "voteShare": 0.5394856593077983
+      },
+      {
+        "party": 2,
+        "votes": 9876,
+        "voteShare": 0.25680630314377095
+      },
+      {
+        "party": 0,
+        "votes": 5509,
+        "voteShare": 0.14325090360662557
+      },
+      {
+        "party": 4,
+        "votes": 2325,
+        "voteShare": 0.06045713394180513
+      }
+    ],
+    "totalVotes": 38457
+  },
+  {
+    "ridingId": 47003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 8964,
+        "voteShare": 0.46665625488052476
+      },
+      {
+        "party": 0,
+        "votes": 5816,
+        "voteShare": 0.3027747410068197
+      },
+      {
+        "party": 2,
+        "votes": 3414,
+        "voteShare": 0.17772918944244886
+      },
+      {
+        "party": 4,
+        "votes": 733,
+        "voteShare": 0.038159196210109846
+      },
+      {
+        "party": 6,
+        "votes": 282,
+        "voteShare": 0.01468061846009683
+      }
+    ],
+    "totalVotes": 19209
+  },
+  {
+    "ridingId": 47004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17922,
+        "voteShare": 0.6435881782597767
+      },
+      {
+        "party": 2,
+        "votes": 4394,
+        "voteShare": 0.15779078536287572
+      },
+      {
+        "party": 0,
+        "votes": 3691,
+        "voteShare": 0.13254569612525585
+      },
+      {
+        "party": 4,
+        "votes": 1840,
+        "voteShare": 0.06607534025209179
+      }
+    ],
+    "totalVotes": 27847
+  },
+  {
+    "ridingId": 47005,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30701,
+        "voteShare": 0.5053912127347853
+      },
+      {
+        "party": 2,
+        "votes": 19108,
+        "voteShare": 0.3145505127825242
+      },
+      {
+        "party": 0,
+        "votes": 7778,
+        "voteShare": 0.12803924473636558
+      },
+      {
+        "party": 4,
+        "votes": 2993,
+        "voteShare": 0.049269922794541295
+      },
+      {
+        "party": 6,
+        "votes": 167,
+        "voteShare": 0.002749106951783627
+      }
+    ],
+    "totalVotes": 60747
+  },
+  {
+    "ridingId": 47007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30121,
+        "voteShare": 0.5144228305979198
+      },
+      {
+        "party": 2,
+        "votes": 17662,
+        "voteShare": 0.30164124810001197
+      },
+      {
+        "party": 0,
+        "votes": 7477,
+        "voteShare": 0.12769627516950455
+      },
+      {
+        "party": 4,
+        "votes": 3293,
+        "voteShare": 0.05623964613256366
+      }
+    ],
+    "totalVotes": 58553
+  },
+  {
+    "ridingId": 47009,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18610,
+        "voteShare": 0.5380478778767203
+      },
+      {
+        "party": 2,
+        "votes": 9632,
+        "voteShare": 0.2784780848849312
+      },
+      {
+        "party": 0,
+        "votes": 4135,
+        "voteShare": 0.119550132994102
+      },
+      {
+        "party": 4,
+        "votes": 2211,
+        "voteShare": 0.06392390424424656
+      }
+    ],
+    "totalVotes": 34588
+  },
+  {
+    "ridingId": 47010,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 12231,
+        "voteShare": 0.45390781563126253
+      },
+      {
+        "party": 2,
+        "votes": 11969,
+        "voteShare": 0.4441846656275514
+      },
+      {
+        "party": 4,
+        "votes": 1232,
+        "voteShare": 0.045721071773175984
+      },
+      {
+        "party": 0,
+        "votes": 1188,
+        "voteShare": 0.04408817635270541
+      },
+      {
+        "party": 6,
+        "votes": 326,
+        "voteShare": 0.012098270615304683
+      }
+    ],
+    "totalVotes": 26946
+  },
+  {
+    "ridingId": 47011,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 18320,
+        "voteShare": 0.5650832819247378
+      },
+      {
+        "party": 2,
+        "votes": 7898,
+        "voteShare": 0.24361505243676743
+      },
+      {
+        "party": 0,
+        "votes": 4020,
+        "voteShare": 0.12399753238741518
+      },
+      {
+        "party": 4,
+        "votes": 2182,
+        "voteShare": 0.06730413325107958
+      }
+    ],
+    "totalVotes": 32420
+  },
+  {
+    "ridingId": 47012,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19293,
+        "voteShare": 0.7049216266578976
+      },
+      {
+        "party": 2,
+        "votes": 4599,
+        "voteShare": 0.16803682999013483
+      },
+      {
+        "party": 0,
+        "votes": 1834,
+        "voteShare": 0.06701012093974935
+      },
+      {
+        "party": 4,
+        "votes": 1643,
+        "voteShare": 0.060031422412218205
+      }
+    ],
+    "totalVotes": 27369
+  },
+  {
+    "ridingId": 47013,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 17028,
+        "voteShare": 0.46083897158322057
+      },
+      {
+        "party": 1,
+        "votes": 12798,
+        "voteShare": 0.34635994587280106
+      },
+      {
+        "party": 2,
+        "votes": 5418,
+        "voteShare": 0.14663058186738837
+      },
+      {
+        "party": 4,
+        "votes": 1706,
+        "voteShare": 0.04617050067658999
+      }
+    ],
+    "totalVotes": 36950
+  },
+  {
+    "ridingId": 47014,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19824,
+        "voteShare": 0.6802553016265184
+      },
+      {
+        "party": 2,
+        "votes": 6076,
+        "voteShare": 0.20849632832338205
+      },
+      {
+        "party": 4,
+        "votes": 1664,
+        "voteShare": 0.05709971861917507
+      },
+      {
+        "party": 0,
+        "votes": 1578,
+        "voteShare": 0.05414865143092444
+      }
+    ],
+    "totalVotes": 29142
+  },
+  {
+    "ridingId": 48001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17160,
+        "voteShare": 0.671177689991004
+      },
+      {
+        "party": 2,
+        "votes": 3300,
+        "voteShare": 0.1290726326905777
+      },
+      {
+        "party": 0,
+        "votes": 2710,
+        "voteShare": 0.10599601048226229
+      },
+      {
+        "party": 4,
+        "votes": 1628,
+        "voteShare": 0.06367583212735166
+      },
+      {
+        "party": 6,
+        "votes": 769,
+        "voteShare": 0.03007783470880432
+      }
+    ],
+    "totalVotes": 25567
+  },
+  {
+    "ridingId": 48003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27361,
+        "voteShare": 0.5653800057858412
+      },
+      {
+        "party": 2,
+        "votes": 7413,
+        "voteShare": 0.153180146299128
+      },
+      {
+        "party": 4,
+        "votes": 7392,
+        "voteShare": 0.15274620820762905
+      },
+      {
+        "party": 0,
+        "votes": 5699,
+        "voteShare": 0.11776253254535686
+      },
+      {
+        "party": 6,
+        "votes": 529,
+        "voteShare": 0.010931107162044882
+      }
+    ],
+    "totalVotes": 48394
+  },
+  {
+    "ridingId": 48004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 45002,
+        "voteShare": 0.5380761642852873
+      },
+      {
+        "party": 0,
+        "votes": 15835,
+        "voteShare": 0.18933460871644647
+      },
+      {
+        "party": 4,
+        "votes": 9823,
+        "voteShare": 0.11745082800263047
+      },
+      {
+        "party": 2,
+        "votes": 7508,
+        "voteShare": 0.0897710288754708
+      },
+      {
+        "party": 6,
+        "votes": 5467,
+        "voteShare": 0.065367370120165
+      }
+    ],
+    "totalVotes": 83635
+  },
+  {
+    "ridingId": 48007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 62736,
+        "voteShare": 0.7119140292545646
+      },
+      {
+        "party": 4,
+        "votes": 9139,
+        "voteShare": 0.10370731818027076
+      },
+      {
+        "party": 0,
+        "votes": 8133,
+        "voteShare": 0.09229145626000022
+      },
+      {
+        "party": 2,
+        "votes": 7792,
+        "voteShare": 0.08842186489338764
+      },
+      {
+        "party": 6,
+        "votes": 323,
+        "voteShare": 0.003665331411776721
+      }
+    ],
+    "totalVotes": 88123
+  },
+  {
+    "ridingId": 48008,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 38548,
+        "voteShare": 0.729633555420957
+      },
+      {
+        "party": 0,
+        "votes": 4918,
+        "voteShare": 0.09308752271350697
+      },
+      {
+        "party": 4,
+        "votes": 4743,
+        "voteShare": 0.08977513628104179
+      },
+      {
+        "party": 2,
+        "votes": 4102,
+        "voteShare": 0.07764233797698365
+      },
+      {
+        "party": 6,
+        "votes": 521,
+        "voteShare": 0.0098614476075106
+      }
+    ],
+    "totalVotes": 52832
+  },
+  {
+    "ridingId": 48009,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 34579,
+        "voteShare": 0.5736206496134832
+      },
+      {
+        "party": 0,
+        "votes": 13204,
+        "voteShare": 0.21903719186490164
+      },
+      {
+        "party": 4,
+        "votes": 6722,
+        "voteShare": 0.11150923990577619
+      },
+      {
+        "party": 2,
+        "votes": 3832,
+        "voteShare": 0.06356789754819017
+      },
+      {
+        "party": 6,
+        "votes": 1945,
+        "voteShare": 0.03226502106764872
+      }
+    ],
+    "totalVotes": 60282
+  },
+  {
+    "ridingId": 48010,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 39342,
+        "voteShare": 0.8203427999499562
+      },
+      {
+        "party": 2,
+        "votes": 3783,
+        "voteShare": 0.07888152133116477
+      },
+      {
+        "party": 4,
+        "votes": 2875,
+        "voteShare": 0.059948288085408065
+      },
+      {
+        "party": 0,
+        "votes": 1958,
+        "voteShare": 0.040827390633470954
+      }
+    ],
+    "totalVotes": 47958
+  },
+  {
+    "ridingId": 48011,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 60159,
+        "voteShare": 0.65410836024399
+      },
+      {
+        "party": 0,
+        "votes": 14366,
+        "voteShare": 0.15620141131443607
+      },
+      {
+        "party": 2,
+        "votes": 10238,
+        "voteShare": 0.11131769797001229
+      },
+      {
+        "party": 4,
+        "votes": 7051,
+        "voteShare": 0.07666547063748355
+      },
+      {
+        "party": 6,
+        "votes": 157,
+        "voteShare": 0.0017070598340781333
+      }
+    ],
+    "totalVotes": 91971
+  },
+  {
+    "ridingId": 48013,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21487,
+        "voteShare": 0.513171407418022
+      },
+      {
+        "party": 2,
+        "votes": 13318,
+        "voteShare": 0.31807217405841753
+      },
+      {
+        "party": 0,
+        "votes": 4578,
+        "voteShare": 0.10933581715268324
+      },
+      {
+        "party": 4,
+        "votes": 2488,
+        "voteShare": 0.05942060137087722
+      }
+    ],
+    "totalVotes": 41871
+  },
+  {
+    "ridingId": 48014,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33174,
+        "voteShare": 0.632090391174285
+      },
+      {
+        "party": 0,
+        "votes": 9234,
+        "voteShare": 0.1759426862031515
+      },
+      {
+        "party": 2,
+        "votes": 5994,
+        "voteShare": 0.11420841034239658
+      },
+      {
+        "party": 4,
+        "votes": 4081,
+        "voteShare": 0.0777585122801669
+      }
+    ],
+    "totalVotes": 52483
+  },
+  {
+    "ridingId": 48015,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 54070,
+        "voteShare": 0.5565620174987134
+      },
+      {
+        "party": 0,
+        "votes": 20102,
+        "voteShare": 0.20691713844570253
+      },
+      {
+        "party": 2,
+        "votes": 14957,
+        "voteShare": 0.15395779722079259
+      },
+      {
+        "party": 4,
+        "votes": 7818,
+        "voteShare": 0.08047349459598559
+      },
+      {
+        "party": 6,
+        "votes": 203,
+        "voteShare": 0.00208955223880597
+      }
+    ],
+    "totalVotes": 97150
+  },
+  {
+    "ridingId": 48016,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17628,
+        "voteShare": 0.35843838958926394
+      },
+      {
+        "party": 6,
+        "votes": 15960,
+        "voteShare": 0.32452216348108986
+      },
+      {
+        "party": 2,
+        "votes": 6339,
+        "voteShare": 0.12889385929239527
+      },
+      {
+        "party": 0,
+        "votes": 5575,
+        "voteShare": 0.11335908906059373
+      },
+      {
+        "party": 4,
+        "votes": 3678,
+        "voteShare": 0.07478649857665717
+      }
+    ],
+    "totalVotes": 49180
+  },
+  {
+    "ridingId": 48017,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 36402,
+        "voteShare": 0.6854979944635896
+      },
+      {
+        "party": 2,
+        "votes": 6627,
+        "voteShare": 0.12479520931020846
+      },
+      {
+        "party": 0,
+        "votes": 6099,
+        "voteShare": 0.11485226823343314
+      },
+      {
+        "party": 4,
+        "votes": 3975,
+        "voteShare": 0.07485452799276877
+      }
+    ],
+    "totalVotes": 53103
+  },
+  {
+    "ridingId": 48020,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 35328,
+        "voteShare": 0.7736001926993233
+      },
+      {
+        "party": 4,
+        "votes": 4161,
+        "voteShare": 0.09111612323997635
+      },
+      {
+        "party": 2,
+        "votes": 3053,
+        "voteShare": 0.06685352661659404
+      },
+      {
+        "party": 0,
+        "votes": 2703,
+        "voteShare": 0.05918934898285414
+      },
+      {
+        "party": 6,
+        "votes": 422,
+        "voteShare": 0.009240808461252107
+      }
+    ],
+    "totalVotes": 45667
+  },
+  {
+    "ridingId": 48021,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26950,
+        "voteShare": 0.7086883349111182
+      },
+      {
+        "party": 2,
+        "votes": 4187,
+        "voteShare": 0.11010308193962344
+      },
+      {
+        "party": 0,
+        "votes": 2639,
+        "voteShare": 0.06939623435363416
+      },
+      {
+        "party": 4,
+        "votes": 2338,
+        "voteShare": 0.06148101398969181
+      },
+      {
+        "party": 6,
+        "votes": 1914,
+        "voteShare": 0.05033133480593247
+      }
+    ],
+    "totalVotes": 38028
+  },
+  {
+    "ridingId": 48022,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 49190,
+        "voteShare": 0.5482734791234758
+      },
+      {
+        "party": 2,
+        "votes": 26227,
+        "voteShare": 0.2923270692614637
+      },
+      {
+        "party": 0,
+        "votes": 7122,
+        "voteShare": 0.07938206379990638
+      },
+      {
+        "party": 4,
+        "votes": 6343,
+        "voteShare": 0.07069930225818677
+      },
+      {
+        "party": 6,
+        "votes": 836,
+        "voteShare": 0.009318085556967387
+      }
+    ],
+    "totalVotes": 89718
+  },
+  {
+    "ridingId": 48024,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 34493,
+        "voteShare": 0.7708966565349544
+      },
+      {
+        "party": 2,
+        "votes": 4230,
+        "voteShare": 0.09453781512605042
+      },
+      {
+        "party": 4,
+        "votes": 3676,
+        "voteShare": 0.08215626676202396
+      },
+      {
+        "party": 0,
+        "votes": 2345,
+        "voteShare": 0.05240926157697121
+      }
+    ],
+    "totalVotes": 44744
+  },
+  {
+    "ridingId": 48025,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27338,
+        "voteShare": 0.7271324839747852
+      },
+      {
+        "party": 2,
+        "votes": 3809,
+        "voteShare": 0.10131127483575818
+      },
+      {
+        "party": 0,
+        "votes": 3418,
+        "voteShare": 0.09091150889698646
+      },
+      {
+        "party": 4,
+        "votes": 2522,
+        "voteShare": 0.06707982019842008
+      },
+      {
+        "party": 6,
+        "votes": 510,
+        "voteShare": 0.013564912094050058
+      }
+    ],
+    "totalVotes": 37597
+  },
+  {
+    "ridingId": 48026,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32528,
+        "voteShare": 0.7713540431586435
+      },
+      {
+        "party": 2,
+        "votes": 3636,
+        "voteShare": 0.08622243300924828
+      },
+      {
+        "party": 4,
+        "votes": 3395,
+        "voteShare": 0.08050746976523596
+      },
+      {
+        "party": 0,
+        "votes": 2362,
+        "voteShare": 0.05601138249940716
+      },
+      {
+        "party": 6,
+        "votes": 249,
+        "voteShare": 0.005904671567465022
+      }
+    ],
+    "totalVotes": 42170
+  },
+  {
+    "ridingId": 48027,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 36869,
+        "voteShare": 0.7291551301321098
+      },
+      {
+        "party": 4,
+        "votes": 6390,
+        "voteShare": 0.12637449568863224
+      },
+      {
+        "party": 2,
+        "votes": 4169,
+        "voteShare": 0.08244996440155052
+      },
+      {
+        "party": 0,
+        "votes": 2890,
+        "voteShare": 0.057155288347440866
+      },
+      {
+        "party": 6,
+        "votes": 246,
+        "voteShare": 0.004865121430266593
+      }
+    ],
+    "totalVotes": 50564
+  },
+  {
+    "ridingId": 48029,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 31714,
+        "voteShare": 0.6695661353319962
+      },
+      {
+        "party": 2,
+        "votes": 6733,
+        "voteShare": 0.14215137759949328
+      },
+      {
+        "party": 0,
+        "votes": 4404,
+        "voteShare": 0.0929800485590626
+      },
+      {
+        "party": 4,
+        "votes": 3420,
+        "voteShare": 0.07220521482107041
+      },
+      {
+        "party": 6,
+        "votes": 1094,
+        "voteShare": 0.023097223688377494
+      }
+    ],
+    "totalVotes": 47365
+  },
+  {
+    "ridingId": 48034,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33226,
+        "voteShare": 0.7323664256744842
+      },
+      {
+        "party": 2,
+        "votes": 5040,
+        "voteShare": 0.11109151825074942
+      },
+      {
+        "party": 4,
+        "votes": 4239,
+        "voteShare": 0.09343590195732675
+      },
+      {
+        "party": 0,
+        "votes": 2863,
+        "voteShare": 0.06310615411743961
+      }
+    ],
+    "totalVotes": 45368
+  },
+  {
+    "ridingId": 48037,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26863,
+        "voteShare": 0.7184541321208879
+      },
+      {
+        "party": 2,
+        "votes": 4587,
+        "voteShare": 0.12267986092538112
+      },
+      {
+        "party": 4,
+        "votes": 3437,
+        "voteShare": 0.09192297405723455
+      },
+      {
+        "party": 0,
+        "votes": 1489,
+        "voteShare": 0.03982348221449585
+      },
+      {
+        "party": 6,
+        "votes": 1014,
+        "voteShare": 0.027119550682000535
+      }
+    ],
+    "totalVotes": 37390
+  },
+  {
+    "ridingId": 59001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 30853,
+        "voteShare": 0.6331547948860021
+      },
+      {
+        "party": 0,
+        "votes": 7933,
+        "voteShare": 0.16279833364115825
+      },
+      {
+        "party": 2,
+        "votes": 6444,
+        "voteShare": 0.13224158098873362
+      },
+      {
+        "party": 4,
+        "votes": 3141,
+        "voteShare": 0.06445853598473189
+      },
+      {
+        "party": 6,
+        "votes": 358,
+        "voteShare": 0.0073467544993740894
+      }
+    ],
+    "totalVotes": 48729
+  },
+  {
+    "ridingId": 59002,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 17937,
+        "voteShare": 0.3793942214137654
+      },
+      {
+        "party": 1,
+        "votes": 17139,
+        "voteShare": 0.36251533482803844
+      },
+      {
+        "party": 0,
+        "votes": 9177,
+        "voteShare": 0.19410719573586024
+      },
+      {
+        "party": 4,
+        "votes": 2822,
+        "voteShare": 0.05968949617158086
+      },
+      {
+        "party": 6,
+        "votes": 203,
+        "voteShare": 0.004293751850755108
+      }
+    ],
+    "totalVotes": 47278
+  },
+  {
+    "ridingId": 59003,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20145,
+        "voteShare": 0.4649740334679746
+      },
+      {
+        "party": 1,
+        "votes": 13150,
+        "voteShare": 0.3035199076745528
+      },
+      {
+        "party": 0,
+        "votes": 6681,
+        "voteShare": 0.1542065781881131
+      },
+      {
+        "party": 4,
+        "votes": 3067,
+        "voteShare": 0.07079053664166186
+      },
+      {
+        "party": 6,
+        "votes": 282,
+        "voteShare": 0.006508944027697634
+      }
+    ],
+    "totalVotes": 43325
+  },
+  {
+    "ridingId": 59004,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22637,
+        "voteShare": 0.5538781502324444
+      },
+      {
+        "party": 2,
+        "votes": 10581,
+        "voteShare": 0.2588940543185711
+      },
+      {
+        "party": 0,
+        "votes": 4309,
+        "voteShare": 0.10543185710790311
+      },
+      {
+        "party": 4,
+        "votes": 2614,
+        "voteShare": 0.06395889405431857
+      },
+      {
+        "party": 6,
+        "votes": 729,
+        "voteShare": 0.01783704428676291
+      }
+    ],
+    "totalVotes": 40870
+  },
+  {
+    "ridingId": 59005,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29198,
+        "voteShare": 0.623196448390677
+      },
+      {
+        "party": 2,
+        "votes": 8791,
+        "voteShare": 0.18763339878767182
+      },
+      {
+        "party": 4,
+        "votes": 4107,
+        "voteShare": 0.08765901135490481
+      },
+      {
+        "party": 0,
+        "votes": 3990,
+        "voteShare": 0.08516178604968838
+      },
+      {
+        "party": 6,
+        "votes": 766,
+        "voteShare": 0.01634935541705797
+      }
+    ],
+    "totalVotes": 46852
+  },
+  {
+    "ridingId": 59006,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26252,
+        "voteShare": 0.5574975047250951
+      },
+      {
+        "party": 0,
+        "votes": 10371,
+        "voteShare": 0.22024251948438064
+      },
+      {
+        "party": 2,
+        "votes": 6803,
+        "voteShare": 0.1444711079020578
+      },
+      {
+        "party": 4,
+        "votes": 3663,
+        "voteShare": 0.07778886788846652
+      }
+    ],
+    "totalVotes": 47089
+  },
+  {
+    "ridingId": 59007,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26512,
+        "voteShare": 0.5181059584530301
+      },
+      {
+        "party": 2,
+        "votes": 16894,
+        "voteShare": 0.3301479353540091
+      },
+      {
+        "party": 4,
+        "votes": 3833,
+        "voteShare": 0.07490570831134823
+      },
+      {
+        "party": 0,
+        "votes": 3394,
+        "voteShare": 0.06632663031795352
+      },
+      {
+        "party": 6,
+        "votes": 538,
+        "voteShare": 0.010513767563659104
+      }
+    ],
+    "totalVotes": 51171
+  },
+  {
+    "ridingId": 59008,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20042,
+        "voteShare": 0.3418328188159847
+      },
+      {
+        "party": 1,
+        "votes": 19974,
+        "voteShare": 0.3406730228036363
+      },
+      {
+        "party": 2,
+        "votes": 13322,
+        "voteShare": 0.22721768347802357
+      },
+      {
+        "party": 4,
+        "votes": 4854,
+        "voteShare": 0.08278896829322373
+      },
+      {
+        "party": 6,
+        "votes": 439,
+        "voteShare": 0.007487506609131688
+      }
+    ],
+    "totalVotes": 58631
+  },
+  {
+    "ridingId": 59010,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25209,
+        "voteShare": 0.4615764899752815
+      },
+      {
+        "party": 2,
+        "votes": 19601,
+        "voteShare": 0.35889407671885015
+      },
+      {
+        "party": 0,
+        "votes": 5375,
+        "voteShare": 0.09841618602947907
+      },
+      {
+        "party": 4,
+        "votes": 4430,
+        "voteShare": 0.08111324727638927
+      }
+    ],
+    "totalVotes": 54615
+  },
+  {
+    "ridingId": 59011,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 31907,
+        "voteShare": 0.559389189852557
+      },
+      {
+        "party": 2,
+        "votes": 8624,
+        "voteShare": 0.1511947965427164
+      },
+      {
+        "party": 0,
+        "votes": 8469,
+        "voteShare": 0.14847735759743333
+      },
+      {
+        "party": 4,
+        "votes": 7821,
+        "voteShare": 0.13711670961973388
+      },
+      {
+        "party": 6,
+        "votes": 218,
+        "voteShare": 0.003821946387559389
+      }
+    ],
+    "totalVotes": 57039
+  },
+  {
+    "ridingId": 59012,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 23402,
+        "voteShare": 0.5959104682844847
+      },
+      {
+        "party": 2,
+        "votes": 8892,
+        "voteShare": 0.2264266252450918
+      },
+      {
+        "party": 4,
+        "votes": 3933,
+        "voteShare": 0.10015023808917521
+      },
+      {
+        "party": 0,
+        "votes": 3044,
+        "voteShare": 0.07751266838124825
+      }
+    ],
+    "totalVotes": 39271
+  },
+  {
+    "ridingId": 59013,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 53983,
+        "voteShare": 0.5350944144322743
+      },
+      {
+        "party": 2,
+        "votes": 19814,
+        "voteShare": 0.19640184368340188
+      },
+      {
+        "party": 0,
+        "votes": 18390,
+        "voteShare": 0.18228676215492887
+      },
+      {
+        "party": 4,
+        "votes": 8104,
+        "voteShare": 0.08032908757496159
+      },
+      {
+        "party": 6,
+        "votes": 594,
+        "voteShare": 0.005887892154433265
+      }
+    ],
+    "totalVotes": 100885
+  },
+  {
+    "ridingId": 59014,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28930,
+        "voteShare": 0.46679359752162125
+      },
+      {
+        "party": 2,
+        "votes": 19680,
+        "voteShare": 0.31754227442881117
+      },
+      {
+        "party": 4,
+        "votes": 7457,
+        "voteShare": 0.12032076933006325
+      },
+      {
+        "party": 0,
+        "votes": 5578,
+        "voteShare": 0.09000258164450756
+      },
+      {
+        "party": 6,
+        "votes": 331,
+        "voteShare": 0.005340777074996773
+      }
+    ],
+    "totalVotes": 61976
+  },
+  {
+    "ridingId": 59015,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 27454,
+        "voteShare": 0.45170206814853814
+      },
+      {
+        "party": 1,
+        "votes": 22844,
+        "voteShare": 0.37585350203195184
+      },
+      {
+        "party": 4,
+        "votes": 5816,
+        "voteShare": 0.09569094588591455
+      },
+      {
+        "party": 0,
+        "votes": 4483,
+        "voteShare": 0.07375902861185607
+      },
+      {
+        "party": 6,
+        "votes": 182,
+        "voteShare": 0.0029944553217394164
+      }
+    ],
+    "totalVotes": 60779
+  },
+  {
+    "ridingId": 59016,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16481,
+        "voteShare": 0.36420489702112613
+      },
+      {
+        "party": 1,
+        "votes": 13988,
+        "voteShare": 0.3091134093520728
+      },
+      {
+        "party": 2,
+        "votes": 11824,
+        "voteShare": 0.2612923185715548
+      },
+      {
+        "party": 4,
+        "votes": 2533,
+        "voteShare": 0.05597542650048617
+      },
+      {
+        "party": 6,
+        "votes": 426,
+        "voteShare": 0.00941394855476001
+      }
+    ],
+    "totalVotes": 45252
+  },
+  {
+    "ridingId": 59017,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 20787,
+        "voteShare": 0.4183168316831683
+      },
+      {
+        "party": 1,
+        "votes": 19299,
+        "voteShare": 0.38837237382274814
+      },
+      {
+        "party": 0,
+        "votes": 5615,
+        "voteShare": 0.11299605570313129
+      },
+      {
+        "party": 4,
+        "votes": 3574,
+        "voteShare": 0.0719230459631329
+      },
+      {
+        "party": 6,
+        "votes": 417,
+        "voteShare": 0.008391692827819368
+      }
+    ],
+    "totalVotes": 49692
+  },
+  {
+    "ridingId": 59018,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28002,
+        "voteShare": 0.5171955228842673
+      },
+      {
+        "party": 2,
+        "votes": 10664,
+        "voteShare": 0.19696354031989952
+      },
+      {
+        "party": 4,
+        "votes": 9368,
+        "voteShare": 0.1730264859074286
+      },
+      {
+        "party": 0,
+        "votes": 5414,
+        "voteShare": 0.09999630601012154
+      },
+      {
+        "party": 6,
+        "votes": 694,
+        "voteShare": 0.012818144878283033
+      }
+    ],
+    "totalVotes": 54142
+  },
+  {
+    "ridingId": 59019,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24371,
+        "voteShare": 0.4225720874586028
+      },
+      {
+        "party": 0,
+        "votes": 21551,
+        "voteShare": 0.37367572347545647
+      },
+      {
+        "party": 4,
+        "votes": 6168,
+        "voteShare": 0.10694779186100949
+      },
+      {
+        "party": 2,
+        "votes": 5417,
+        "voteShare": 0.09392610060166802
+      },
+      {
+        "party": 6,
+        "votes": 166,
+        "voteShare": 0.0028782966032632256
+      }
+    ],
+    "totalVotes": 57673
+  },
+  {
+    "ridingId": 59020,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 28765,
+        "voteShare": 0.5812637662416392
+      },
+      {
+        "party": 2,
+        "votes": 8236,
+        "voteShare": 0.16642754662840745
+      },
+      {
+        "party": 4,
+        "votes": 6603,
+        "voteShare": 0.133428981348637
+      },
+      {
+        "party": 0,
+        "votes": 5883,
+        "voteShare": 0.1188797057813163
+      }
+    ],
+    "totalVotes": 49487
+  },
+  {
+    "ridingId": 59021,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25535,
+        "voteShare": 0.5460863986313088
+      },
+      {
+        "party": 2,
+        "votes": 10418,
+        "voteShare": 0.2227972626176219
+      },
+      {
+        "party": 0,
+        "votes": 6918,
+        "voteShare": 0.14794696321642428
+      },
+      {
+        "party": 4,
+        "votes": 3568,
+        "voteShare": 0.07630453378956373
+      },
+      {
+        "party": 6,
+        "votes": 321,
+        "voteShare": 0.006864841745081266
+      }
+    ],
+    "totalVotes": 46760
+  },
+  {
+    "ridingId": 59022,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22325,
+        "voteShare": 0.6359492949722262
+      },
+      {
+        "party": 2,
+        "votes": 6170,
+        "voteShare": 0.17575843896880786
+      },
+      {
+        "party": 4,
+        "votes": 3656,
+        "voteShare": 0.10414470873095001
+      },
+      {
+        "party": 0,
+        "votes": 2954,
+        "voteShare": 0.08414755732801595
+      }
+    ],
+    "totalVotes": 35105
+  },
+  {
+    "ridingId": 59023,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21359,
+        "voteShare": 0.4981342413358832
+      },
+      {
+        "party": 0,
+        "votes": 13221,
+        "voteShare": 0.3083399412286021
+      },
+      {
+        "party": 2,
+        "votes": 5059,
+        "voteShare": 0.11798591352208591
+      },
+      {
+        "party": 4,
+        "votes": 2753,
+        "voteShare": 0.06420542002891926
+      },
+      {
+        "party": 6,
+        "votes": 486,
+        "voteShare": 0.011334483884509538
+      }
+    ],
+    "totalVotes": 42878
+  },
+  {
+    "ridingId": 59026,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 22693,
+        "voteShare": 0.4751465661641541
+      },
+      {
+        "party": 1,
+        "votes": 17122,
+        "voteShare": 0.35850083752093803
+      },
+      {
+        "party": 4,
+        "votes": 4573,
+        "voteShare": 0.09574958123953099
+      },
+      {
+        "party": 0,
+        "votes": 3292,
+        "voteShare": 0.06892797319932999
+      },
+      {
+        "party": 6,
+        "votes": 80,
+        "voteShare": 0.0016750418760469012
+      }
+    ],
+    "totalVotes": 47760
+  },
+  {
+    "ridingId": 59027,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 31216,
+        "voteShare": 0.5665232935881381
+      },
+      {
+        "party": 0,
+        "votes": 11515,
+        "voteShare": 0.20897987332353316
+      },
+      {
+        "party": 2,
+        "votes": 7146,
+        "voteShare": 0.1296891163499755
+      },
+      {
+        "party": 4,
+        "votes": 4951,
+        "voteShare": 0.08985317870819041
+      },
+      {
+        "party": 6,
+        "votes": 273,
+        "voteShare": 0.004954538030162792
+      }
+    ],
+    "totalVotes": 55101
+  },
+  {
+    "ridingId": 59028,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 13714,
+        "voteShare": 0.393707116814515
+      },
+      {
+        "party": 2,
+        "votes": 12608,
+        "voteShare": 0.36195561680016075
+      },
+      {
+        "party": 0,
+        "votes": 5227,
+        "voteShare": 0.15005885223782045
+      },
+      {
+        "party": 4,
+        "votes": 1925,
+        "voteShare": 0.055263686733844346
+      },
+      {
+        "party": 6,
+        "votes": 1359,
+        "voteShare": 0.03901472741365946
+      }
+    ],
+    "totalVotes": 34833
+  },
+  {
+    "ridingId": 59029,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27991,
+        "voteShare": 0.43423828730995967
+      },
+      {
+        "party": 0,
+        "votes": 25366,
+        "voteShare": 0.39351535836177476
+      },
+      {
+        "party": 4,
+        "votes": 6742,
+        "voteShare": 0.10459199503568105
+      },
+      {
+        "party": 2,
+        "votes": 3667,
+        "voteShare": 0.05688799255352157
+      },
+      {
+        "party": 6,
+        "votes": 694,
+        "voteShare": 0.010766366739062986
+      }
+    ],
+    "totalVotes": 64460
+  },
+  {
+    "ridingId": 59031,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 40685,
+        "voteShare": 0.4458092723069
+      },
+      {
+        "party": 1,
+        "votes": 38524,
+        "voteShare": 0.4221299350215317
+      },
+      {
+        "party": 4,
+        "votes": 6157,
+        "voteShare": 0.06746583973438819
+      },
+      {
+        "party": 0,
+        "votes": 4296,
+        "voteShare": 0.04707377740765497
+      },
+      {
+        "party": 6,
+        "votes": 1599,
+        "voteShare": 0.01752117552952521
+      }
+    ],
+    "totalVotes": 91261
+  },
+  {
+    "ridingId": 59034,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16110,
+        "voteShare": 0.38492784096339483
+      },
+      {
+        "party": 1,
+        "votes": 16090,
+        "voteShare": 0.384449966548791
+      },
+      {
+        "party": 2,
+        "votes": 7376,
+        "voteShare": 0.17624008410589698
+      },
+      {
+        "party": 4,
+        "votes": 2065,
+        "voteShare": 0.0493405333078467
+      },
+      {
+        "party": 6,
+        "votes": 211,
+        "voteShare": 0.005041575074070534
+      }
+    ],
+    "totalVotes": 41852
+  },
+  {
+    "ridingId": 59035,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19506,
+        "voteShare": 0.3450618266730351
+      },
+      {
+        "party": 1,
+        "votes": 14188,
+        "voteShare": 0.2509862194625767
+      },
+      {
+        "party": 2,
+        "votes": 12047,
+        "voteShare": 0.21311185409258965
+      },
+      {
+        "party": 4,
+        "votes": 10354,
+        "voteShare": 0.18316262449362275
+      },
+      {
+        "party": 6,
+        "votes": 434,
+        "voteShare": 0.007677475278175803
+      }
+    ],
+    "totalVotes": 56529
+  },
+  {
+    "ridingId": 59036,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 22506,
+        "voteShare": 0.5440305542797748
+      },
+      {
+        "party": 0,
+        "votes": 7127,
+        "voteShare": 0.17227875945756485
+      },
+      {
+        "party": 1,
+        "votes": 6432,
+        "voteShare": 0.1554787401194131
+      },
+      {
+        "party": 4,
+        "votes": 4708,
+        "voteShare": 0.11380502308491866
+      },
+      {
+        "party": 6,
+        "votes": 596,
+        "voteShare": 0.0144069230583287
+      }
+    ],
+    "totalVotes": 41369
+  },
+  {
+    "ridingId": 59039,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 15933,
+        "voteShare": 0.35175291416460613
+      },
+      {
+        "party": 0,
+        "votes": 13164,
+        "voteShare": 0.2906216884493112
+      },
+      {
+        "party": 1,
+        "votes": 12419,
+        "voteShare": 0.2741743200282586
+      },
+      {
+        "party": 4,
+        "votes": 3031,
+        "voteShare": 0.0669154009184034
+      },
+      {
+        "party": 6,
+        "votes": 749,
+        "voteShare": 0.0165356764394207
+      }
+    ],
+    "totalVotes": 45296
+  },
+  {
+    "ridingId": 59040,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25393,
+        "voteShare": 0.4559214306233841
+      },
+      {
+        "party": 1,
+        "votes": 20561,
+        "voteShare": 0.3691647515081873
+      },
+      {
+        "party": 4,
+        "votes": 4916,
+        "voteShare": 0.08826486641769607
+      },
+      {
+        "party": 2,
+        "votes": 4493,
+        "voteShare": 0.08067006607296753
+      },
+      {
+        "party": 6,
+        "votes": 333,
+        "voteShare": 0.00597888537776501
+      }
+    ],
+    "totalVotes": 55696
+  },
+  {
+    "ridingId": 59042,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 26443,
+        "voteShare": 0.44610712779417966
+      },
+      {
+        "party": 1,
+        "votes": 16337,
+        "voteShare": 0.27561366512020247
+      },
+      {
+        "party": 0,
+        "votes": 10006,
+        "voteShare": 0.16880641079713202
+      },
+      {
+        "party": 4,
+        "votes": 6252,
+        "voteShare": 0.10547448334036272
+      },
+      {
+        "party": 6,
+        "votes": 237,
+        "voteShare": 0.003998312948123155
+      }
+    ],
+    "totalVotes": 59275
+  },
+  {
+    "ridingId": 59043,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26949,
+        "voteShare": 0.4456663745059452
+      },
+      {
+        "party": 0,
+        "votes": 16069,
+        "voteShare": 0.2657394698109775
+      },
+      {
+        "party": 2,
+        "votes": 8728,
+        "voteShare": 0.1443384213398601
+      },
+      {
+        "party": 4,
+        "votes": 8723,
+        "voteShare": 0.14425573434321717
+      }
+    ],
+    "totalVotes": 60469
+  },
+  {
+    "ridingId": 60001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 6715,
+        "voteShare": 0.45804911323328784
+      },
+      {
+        "party": 1,
+        "votes": 4788,
+        "voteShare": 0.32660300136425646
+      },
+      {
+        "party": 4,
+        "votes": 1881,
+        "voteShare": 0.12830832196452932
+      },
+      {
+        "party": 2,
+        "votes": 1276,
+        "voteShare": 0.08703956343792633
+      }
+    ],
+    "totalVotes": 14660
+  },
+  {
+    "ridingId": 61001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 5669,
+        "voteShare": 0.4144914820501572
+      },
+      {
+        "party": 1,
+        "votes": 5146,
+        "voteShare": 0.3762521020691672
+      },
+      {
+        "party": 0,
+        "votes": 1858,
+        "voteShare": 0.13584850478906194
+      },
+      {
+        "party": 4,
+        "votes": 752,
+        "voteShare": 0.054982817869415807
+      },
+      {
+        "party": 6,
+        "votes": 252,
+        "voteShare": 0.01842509322219785
+      }
+    ],
+    "totalVotes": 13677
+  },
+  {
+    "ridingId": 62001,
+    "year": 2008,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 2815,
+        "voteShare": 0.34921225654385313
+      },
+      {
+        "party": 0,
+        "votes": 2349,
+        "voteShare": 0.29140305173055453
+      },
+      {
+        "party": 2,
+        "votes": 2228,
+        "voteShare": 0.27639250713311003
+      },
+      {
+        "party": 4,
+        "votes": 669,
+        "voteShare": 0.08299218459248232
+      }
+    ],
+    "totalVotes": 8061
+  }
+]

@@ -1,0 +1,128 @@
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Services
+
+<div class="poll-input-panel">
+    <h3>Polling Inputs</h3>
+
+    <div class="section-header">
+        <span>National Vote Share</span>
+        <button class="btn-small" @onclick="ResetToPolls">Reset</button>
+    </div>
+
+    @foreach (var party in PartyColorProvider.MainParties)
+    {
+        var p = party;
+        double share = State.GetNationalShare(p);
+        <div class="slider-row">
+            <span class="party-badge" style="background-color: @PartyColorProvider.GetColor(p)">
+                @PartyColorProvider.GetShortName(p)
+            </span>
+            <input type="range" min="0" max="0.60" step="0.005"
+                   value="@share"
+                   @oninput="e => OnNationalSliderChanged(p, e)" />
+            <input type="number" class="share-input" min="0" max="100" step="0.1"
+                   value="@((share * 100).ToString("F1"))"
+                   @onchange="e => OnNationalNumberChanged(p, e)" />
+            <span class="uncertainty-prefix">&plusmn;</span>
+            <input type="number" class="uncertainty-input" min="0" max="30" step="0.1"
+                   value="@((State.PartyUncertainty.GetValueOrDefault(p, SimulationConfig.DefaultPartyUncertainty.GetValueOrDefault(p, 0.06)) * 100).ToString("F1"))"
+                   @onchange="e => OnUncertaintyChanged(p, e)" />
+        </div>
+    }
+
+    @{ double nationalTotal = GetNationalTotal(); }
+    <div class="total-row @GetTotalClass(nationalTotal)">
+        <span>Total:</span>
+        <span class="total-value">@((nationalTotal * 100).ToString("F1"))%</span>
+    </div>
+
+    <div class="section-header toggle-header" @onclick="ToggleRegional">
+        <span>Regional Breakdown</span>
+        <span class="toggle-arrow">@(showRegional ? "▼" : "▶")</span>
+    </div>
+
+    @if (showRegional)
+    {
+        @foreach (var region in Enum.GetValues<Region>())
+        {
+            if (!State.CurrentPolling.TryGetValue(region, out var shares)) continue;
+            <div class="region-section">
+                <h4>@PartyColorProvider.GetProvinceRegionName(region)</h4>
+                @foreach (var party in PartyColorProvider.MainParties)
+                {
+                    var p = party;
+                    var r = region;
+                    double val = shares.GetValueOrDefault(p, 0);
+                    <div class="slider-row compact">
+                        <span class="party-dot" style="background-color: @PartyColorProvider.GetColor(p)"></span>
+                        <input type="range" min="0" max="0.70" step="0.005"
+                               value="@val"
+                               @oninput="e => OnRegionalSliderChanged(r, p, e)" />
+                        <input type="number" class="share-input compact" min="0" max="100" step="0.1"
+                               value="@((val * 100).ToString("F1"))"
+                               @onchange="e => OnRegionalNumberChanged(r, p, e)" />
+                    </div>
+                }
+                @{ double regionTotal = State.GetRegionalTotal(region); }
+                <div class="total-row @GetTotalClass(regionTotal)">
+                    <span>Total:</span>
+                    <span class="total-value">@((regionTotal * 100).ToString("F1"))%</span>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+@code {
+    [Parameter] public required SimulationState State { get; set; }
+
+    private bool showRegional = false;
+
+    private void ToggleRegional() => showRegional = !showRegional;
+
+    private void OnNationalSliderChanged(Party party, ChangeEventArgs e)
+    {
+        if (double.TryParse(e.Value?.ToString(), out double val))
+            State.UpdateNationalShare(party, val);
+    }
+
+    private void OnNationalNumberChanged(Party party, ChangeEventArgs e)
+    {
+        if (double.TryParse(e.Value?.ToString(), out double pct))
+            State.UpdateNationalShare(party, Math.Clamp(pct / 100.0, 0, 1));
+    }
+
+    private void OnRegionalSliderChanged(Region region, Party party, ChangeEventArgs e)
+    {
+        if (double.TryParse(e.Value?.ToString(), out double val))
+            State.UpdateRegionalShare(region, party, val);
+    }
+
+    private void OnRegionalNumberChanged(Region region, Party party, ChangeEventArgs e)
+    {
+        if (double.TryParse(e.Value?.ToString(), out double pct))
+            State.UpdateRegionalShare(region, party, Math.Clamp(pct / 100.0, 0, 1));
+    }
+
+    private double GetNationalTotal()
+    {
+        if (State.CurrentPolling.Count == 0) return 0;
+        return PartyColorProvider.MainParties.Sum(p => State.GetNationalShare(p));
+    }
+
+    private string GetTotalClass(double total)
+    {
+        double pct = total * 100;
+        if (pct >= 99.5 && pct <= 100.5) return "total-good";
+        if (pct >= 95 && pct <= 105) return "total-warn";
+        return "total-bad";
+    }
+
+    private void OnUncertaintyChanged(Party party, ChangeEventArgs e)
+    {
+        if (double.TryParse(e.Value?.ToString(), out double pct))
+            State.PartyUncertainty[party] = Math.Clamp(pct / 100.0, 0, 0.30);
+    }
+
+    private void ResetToPolls() => State.InitializeFromPolling();
+}

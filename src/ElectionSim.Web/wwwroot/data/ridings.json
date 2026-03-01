@@ -1,0 +1,3089 @@
+[
+  {
+    "id": 10001,
+    "name": "Avalon",
+    "nameFr": "Avalon",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 47.3,
+    "longitude": -53.2
+  },
+  {
+    "id": 10002,
+    "name": "Cape Spear",
+    "nameFr": "Cape Spear",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 47.5,
+    "longitude": -52.6
+  },
+  {
+    "id": 10003,
+    "name": "Central Newfoundland",
+    "nameFr": "Central Newfoundland",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 48.9,
+    "longitude": -55.6
+  },
+  {
+    "id": 10004,
+    "name": "Labrador",
+    "nameFr": "Labrador",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 53.3,
+    "longitude": -60
+  },
+  {
+    "id": 10005,
+    "name": "Long Range Mountains",
+    "nameFr": "Long Range Mountains",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 49.2,
+    "longitude": -57.5
+  },
+  {
+    "id": 10006,
+    "name": "St. John\u0027s East",
+    "nameFr": "St. John\u0027s-Est",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 47.6,
+    "longitude": -52.7
+  },
+  {
+    "id": 10007,
+    "name": "Terra Nova--The Peninsulas",
+    "nameFr": "Terra Nova--Les P\u00E9ninsules",
+    "province": "Newfoundland and Labrador",
+    "region": 0,
+    "latitude": 48.5,
+    "longitude": -54
+  },
+  {
+    "id": 11001,
+    "name": "Cardigan",
+    "nameFr": "Cardigan",
+    "province": "Prince Edward Island",
+    "region": 0,
+    "latitude": 46.2,
+    "longitude": -62.5
+  },
+  {
+    "id": 11002,
+    "name": "Charlottetown",
+    "nameFr": "Charlottetown",
+    "province": "Prince Edward Island",
+    "region": 0,
+    "latitude": 46.2,
+    "longitude": -63.1
+  },
+  {
+    "id": 11003,
+    "name": "Egmont",
+    "nameFr": "Egmont",
+    "province": "Prince Edward Island",
+    "region": 0,
+    "latitude": 46.4,
+    "longitude": -63.8
+  },
+  {
+    "id": 11004,
+    "name": "Malpeque",
+    "nameFr": "Malpeque",
+    "province": "Prince Edward Island",
+    "region": 0,
+    "latitude": 46.4,
+    "longitude": -63.4
+  },
+  {
+    "id": 12001,
+    "name": "Acadie--Annapolis",
+    "nameFr": "Acadie--Annapolis",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 44.7,
+    "longitude": -65.5
+  },
+  {
+    "id": 12002,
+    "name": "Cape Breton--Canso--Antigonish",
+    "nameFr": "Cape Breton--Canso--Antigonish",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 45.8,
+    "longitude": -61.5
+  },
+  {
+    "id": 12003,
+    "name": "Central Nova",
+    "nameFr": "Nova-Centre",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 45.4,
+    "longitude": -62.5
+  },
+  {
+    "id": 12004,
+    "name": "Cumberland--Colchester",
+    "nameFr": "Cumberland--Colchester",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 45.6,
+    "longitude": -63.5
+  },
+  {
+    "id": 12005,
+    "name": "Dartmouth--Cole Harbour",
+    "nameFr": "Dartmouth--Cole Harbour",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 44.7,
+    "longitude": -63.5
+  },
+  {
+    "id": 12006,
+    "name": "Halifax",
+    "nameFr": "Halifax",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 44.6,
+    "longitude": -63.6
+  },
+  {
+    "id": 12007,
+    "name": "Halifax West",
+    "nameFr": "Halifax-Ouest",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 44.7,
+    "longitude": -63.7
+  },
+  {
+    "id": 12008,
+    "name": "Kings--Hants",
+    "nameFr": "Kings--Hants",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 45,
+    "longitude": -64.3
+  },
+  {
+    "id": 12009,
+    "name": "Sackville--Bedford--Preston",
+    "nameFr": "Sackville--Bedford--Preston",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 44.8,
+    "longitude": -63.6
+  },
+  {
+    "id": 12010,
+    "name": "South Shore--St. Margarets",
+    "nameFr": "South Shore--St. Margarets",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 44.2,
+    "longitude": -64.5
+  },
+  {
+    "id": 12011,
+    "name": "Sydney--Glace Bay",
+    "nameFr": "Sydney--Glace Bay",
+    "province": "Nova Scotia",
+    "region": 0,
+    "latitude": 46.1,
+    "longitude": -60.2
+  },
+  {
+    "id": 13001,
+    "name": "Acadie--Bathurst",
+    "nameFr": "Acadie--Bathurst",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 47.6,
+    "longitude": -65.6
+  },
+  {
+    "id": 13002,
+    "name": "Beaus\u00E9jour",
+    "nameFr": "Beaus\u00E9jour",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 46.1,
+    "longitude": -64.5
+  },
+  {
+    "id": 13003,
+    "name": "Fredericton--Oromocto",
+    "nameFr": "Fredericton--Oromocto",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 45.9,
+    "longitude": -66.6
+  },
+  {
+    "id": 13004,
+    "name": "Fundy Royal",
+    "nameFr": "Fundy Royal",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 45.5,
+    "longitude": -65.5
+  },
+  {
+    "id": 13005,
+    "name": "Madawaska--Restigouche",
+    "nameFr": "Madawaska--Restigouche",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 47.4,
+    "longitude": -67.5
+  },
+  {
+    "id": 13006,
+    "name": "Miramichi--Grand Lake",
+    "nameFr": "Miramichi--Grand Lake",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 46.8,
+    "longitude": -65.8
+  },
+  {
+    "id": 13007,
+    "name": "Moncton--Dieppe",
+    "nameFr": "Moncton--Dieppe",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 46.1,
+    "longitude": -64.8
+  },
+  {
+    "id": 13008,
+    "name": "Saint John--Kennebecasis",
+    "nameFr": "Saint John--Kennebecasis",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 45.3,
+    "longitude": -65.9
+  },
+  {
+    "id": 13009,
+    "name": "Saint John--St. Croix",
+    "nameFr": "Saint John--St. Croix",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 45.4,
+    "longitude": -66.5
+  },
+  {
+    "id": 13010,
+    "name": "Tobique--Mactaquac",
+    "nameFr": "Tobique--Mactaquac",
+    "province": "New Brunswick",
+    "region": 0,
+    "latitude": 46.6,
+    "longitude": -67
+  },
+  {
+    "id": 24001,
+    "name": "Abitibi--Baie-James--Nunavik--Eeyou",
+    "nameFr": "Abitibi--Baie-James--Nunavik--Eeyou",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 50,
+    "longitude": -77
+  },
+  {
+    "id": 24002,
+    "name": "Abitibi--T\u00E9miscamingue",
+    "nameFr": "Abitibi--T\u00E9miscamingue",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 48.2,
+    "longitude": -79
+  },
+  {
+    "id": 24003,
+    "name": "Ahuntsic-Cartierville",
+    "nameFr": "Ahuntsic-Cartierville",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.55,
+    "longitude": -73.65
+  },
+  {
+    "id": 24004,
+    "name": "Alfred-Pellan",
+    "nameFr": "Alfred-Pellan",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.6,
+    "longitude": -73.6
+  },
+  {
+    "id": 24005,
+    "name": "Argenteuil--La Petite-Nation",
+    "nameFr": "Argenteuil--La Petite-Nation",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.6,
+    "longitude": -74.6
+  },
+  {
+    "id": 24006,
+    "name": "Beauce",
+    "nameFr": "Beauce",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.1,
+    "longitude": -70.8
+  },
+  {
+    "id": 24007,
+    "name": "Beauharnois--Salaberry--Soulanges--Huntingdon",
+    "nameFr": "Beauharnois--Salaberry--Soulanges--Huntingdon",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.3,
+    "longitude": -74
+  },
+  {
+    "id": 24008,
+    "name": "Beauport--Limoilou",
+    "nameFr": "Beauport--Limoilou",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.87,
+    "longitude": -71.2
+  },
+  {
+    "id": 24009,
+    "name": "B\u00E9cancour--Nicolet--Saurel--Aln\u00F4bak",
+    "nameFr": "B\u00E9cancour--Nicolet--Saurel--Aln\u00F4bak",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.2,
+    "longitude": -72.4
+  },
+  {
+    "id": 24010,
+    "name": "Bellechasse--Les Etchemins--L\u00E9vis",
+    "nameFr": "Bellechasse--Les Etchemins--L\u00E9vis",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.6,
+    "longitude": -70.8
+  },
+  {
+    "id": 24011,
+    "name": "Beloeil--Chambly",
+    "nameFr": "Beloeil--Chambly",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.5,
+    "longitude": -73.25
+  },
+  {
+    "id": 24012,
+    "name": "Berthier--Maskinong\u00E9",
+    "nameFr": "Berthier--Maskinong\u00E9",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.3,
+    "longitude": -73.2
+  },
+  {
+    "id": 24013,
+    "name": "Bourassa",
+    "nameFr": "Bourassa",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.6,
+    "longitude": -73.58
+  },
+  {
+    "id": 24014,
+    "name": "Brome--Missisquoi",
+    "nameFr": "Brome--Missisquoi",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.1,
+    "longitude": -72.5
+  },
+  {
+    "id": 24015,
+    "name": "Brossard--Saint-Lambert",
+    "nameFr": "Brossard--Saint-Lambert",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.47,
+    "longitude": -73.5
+  },
+  {
+    "id": 24016,
+    "name": "Charlesbourg--Haute-Saint-Charles",
+    "nameFr": "Charlesbourg--Haute-Saint-Charles",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.88,
+    "longitude": -71.3
+  },
+  {
+    "id": 24017,
+    "name": "Ch\u00E2teauguay--Les Jardins-de-Napierville",
+    "nameFr": "Ch\u00E2teauguay--Les Jardins-de-Napierville",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.3,
+    "longitude": -73.7
+  },
+  {
+    "id": 24018,
+    "name": "Chicoutimi--Le Fjord",
+    "nameFr": "Chicoutimi--Le Fjord",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 48.4,
+    "longitude": -71.1
+  },
+  {
+    "id": 24019,
+    "name": "Compton--Stanstead",
+    "nameFr": "Compton--Stanstead",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.2,
+    "longitude": -71.8
+  },
+  {
+    "id": 24020,
+    "name": "C\u00F4te-du-Sud-Rivi\u00E8re-du-Loup-Kataskomiq-T\u00E9miscouata",
+    "nameFr": "C\u00F4te-du-Sud-Rivi\u00E8re-du-Loup-Kataskomiq-T\u00E9miscouata",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 47.5,
+    "longitude": -69.5
+  },
+  {
+    "id": 24021,
+    "name": "C\u00F4te-Nord--Kawawachikamach--Nitassinan",
+    "nameFr": "C\u00F4te-Nord--Kawawachikamach--Nitassinan",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 50.2,
+    "longitude": -66.5
+  },
+  {
+    "id": 24022,
+    "name": "Dorval--Lachine--LaSalle",
+    "nameFr": "Dorval--Lachine--LaSalle",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.43,
+    "longitude": -73.68
+  },
+  {
+    "id": 24023,
+    "name": "Drummond",
+    "nameFr": "Drummond",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.9,
+    "longitude": -72.5
+  },
+  {
+    "id": 24024,
+    "name": "Gasp\u00E9sie--Les \u00CEles-de-la-Madeleine--Listuguj",
+    "nameFr": "Gasp\u00E9sie--Les \u00CEles-de-la-Madeleine--Listuguj",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 48.8,
+    "longitude": -65
+  },
+  {
+    "id": 24025,
+    "name": "Gatineau",
+    "nameFr": "Gatineau",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.48,
+    "longitude": -75.7
+  },
+  {
+    "id": 24026,
+    "name": "Hochelaga--Rosemont-Est",
+    "nameFr": "Hochelaga--Rosemont-Est",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.55,
+    "longitude": -73.55
+  },
+  {
+    "id": 24027,
+    "name": "Honor\u00E9-Mercier",
+    "nameFr": "Honor\u00E9-Mercier",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.58,
+    "longitude": -73.55
+  },
+  {
+    "id": 24028,
+    "name": "Hull--Aylmer",
+    "nameFr": "Hull--Aylmer",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.43,
+    "longitude": -75.8
+  },
+  {
+    "id": 24029,
+    "name": "Joliette--Manawan",
+    "nameFr": "Joliette--Manawan",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46,
+    "longitude": -73.4
+  },
+  {
+    "id": 24030,
+    "name": "Jonqui\u00E8re",
+    "nameFr": "Jonqui\u00E8re",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 48.4,
+    "longitude": -71.25
+  },
+  {
+    "id": 24031,
+    "name": "La Pointe-de-l\u0027\u00CEle",
+    "nameFr": "La Pointe-de-l\u0027\u00CEle",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.65,
+    "longitude": -73.5
+  },
+  {
+    "id": 24032,
+    "name": "La Prairie--Atateken",
+    "nameFr": "La Prairie--Atateken",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.42,
+    "longitude": -73.5
+  },
+  {
+    "id": 24033,
+    "name": "Lac-Saint-Jean",
+    "nameFr": "Lac-Saint-Jean",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 48.5,
+    "longitude": -72
+  },
+  {
+    "id": 24034,
+    "name": "Lac-Saint-Louis",
+    "nameFr": "Lac-Saint-Louis",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.43,
+    "longitude": -73.8
+  },
+  {
+    "id": 24035,
+    "name": "LaSalle--\u00C9mard--Verdun",
+    "nameFr": "LaSalle--\u00C9mard--Verdun",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.45,
+    "longitude": -73.58
+  },
+  {
+    "id": 24036,
+    "name": "Laurentides--Labelle",
+    "nameFr": "Laurentides--Labelle",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.3,
+    "longitude": -74.6
+  },
+  {
+    "id": 24037,
+    "name": "Laurier--Sainte-Marie",
+    "nameFr": "Laurier--Sainte-Marie",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.53,
+    "longitude": -73.56
+  },
+  {
+    "id": 24038,
+    "name": "Laval--Les \u00CEles",
+    "nameFr": "Laval--Les \u00CEles",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.58,
+    "longitude": -73.72
+  },
+  {
+    "id": 24039,
+    "name": "Les Pays-d\u0027en-Haut",
+    "nameFr": "Les Pays-d\u0027en-Haut",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46,
+    "longitude": -74.2
+  },
+  {
+    "id": 24040,
+    "name": "L\u00E9vis--Lotbini\u00E8re",
+    "nameFr": "L\u00E9vis--Lotbini\u00E8re",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.7,
+    "longitude": -71.2
+  },
+  {
+    "id": 24041,
+    "name": "Longueuil--Charles-LeMoyne",
+    "nameFr": "Longueuil--Charles-LeMoyne",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.48,
+    "longitude": -73.52
+  },
+  {
+    "id": 24042,
+    "name": "Longueuil--Saint-Hubert",
+    "nameFr": "Longueuil--Saint-Hubert",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.5,
+    "longitude": -73.42
+  },
+  {
+    "id": 24043,
+    "name": "Louis-H\u00E9bert",
+    "nameFr": "Louis-H\u00E9bert",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.82,
+    "longitude": -71.28
+  },
+  {
+    "id": 24044,
+    "name": "Louis-Saint-Laurent--Akiawenhrahk",
+    "nameFr": "Louis-Saint-Laurent--Akiawenhrahk",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.9,
+    "longitude": -71.5
+  },
+  {
+    "id": 24045,
+    "name": "Marc-Aur\u00E8le-Fortin",
+    "nameFr": "Marc-Aur\u00E8le-Fortin",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.58,
+    "longitude": -73.78
+  },
+  {
+    "id": 24046,
+    "name": "M\u00E9gantic--L\u0027\u00C9rable--Lotbini\u00E8re",
+    "nameFr": "M\u00E9gantic--L\u0027\u00C9rable--Lotbini\u00E8re",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.1,
+    "longitude": -71.5
+  },
+  {
+    "id": 24047,
+    "name": "Mirabel",
+    "nameFr": "Mirabel",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.65,
+    "longitude": -74.1
+  },
+  {
+    "id": 24048,
+    "name": "Mount Royal",
+    "nameFr": "Mont-Royal",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.5,
+    "longitude": -73.63
+  },
+  {
+    "id": 24049,
+    "name": "Mont-Saint-Bruno--L\u0027Acadie",
+    "nameFr": "Mont-Saint-Bruno--L\u0027Acadie",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.52,
+    "longitude": -73.3
+  },
+  {
+    "id": 24050,
+    "name": "Montcalm",
+    "nameFr": "Montcalm",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46,
+    "longitude": -73.7
+  },
+  {
+    "id": 24051,
+    "name": "Montmorency--Charlevoix",
+    "nameFr": "Montmorency--Charlevoix",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 47.2,
+    "longitude": -70.8
+  },
+  {
+    "id": 24052,
+    "name": "Notre-Dame-de-Gr\u00E2ce--Westmount",
+    "nameFr": "Notre-Dame-de-Gr\u00E2ce--Westmount",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.48,
+    "longitude": -73.63
+  },
+  {
+    "id": 24053,
+    "name": "Outremont",
+    "nameFr": "Outremont",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.52,
+    "longitude": -73.6
+  },
+  {
+    "id": 24054,
+    "name": "Papineau",
+    "nameFr": "Papineau",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.56,
+    "longitude": -73.58
+  },
+  {
+    "id": 24055,
+    "name": "Pierre-Boucher--Les Patriotes--Verch\u00E8res",
+    "nameFr": "Pierre-Boucher--Les Patriotes--Verch\u00E8res",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.58,
+    "longitude": -73.3
+  },
+  {
+    "id": 24056,
+    "name": "Pierrefonds--Dollard",
+    "nameFr": "Pierrefonds--Dollard",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.5,
+    "longitude": -73.82
+  },
+  {
+    "id": 24057,
+    "name": "Pontiac--Kitigan Zibi",
+    "nameFr": "Pontiac--Kitigan Zibi",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.8,
+    "longitude": -76.2
+  },
+  {
+    "id": 24058,
+    "name": "Portneuf--Jacques-Cartier",
+    "nameFr": "Portneuf--Jacques-Cartier",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.9,
+    "longitude": -71.8
+  },
+  {
+    "id": 24059,
+    "name": "Qu\u00E9bec Centre",
+    "nameFr": "Qu\u00E9bec-Centre",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.82,
+    "longitude": -71.22
+  },
+  {
+    "id": 24060,
+    "name": "Repentigny",
+    "nameFr": "Repentigny",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.7,
+    "longitude": -73.48
+  },
+  {
+    "id": 24061,
+    "name": "Richmond--Arthabaska",
+    "nameFr": "Richmond--Arthabaska",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.9,
+    "longitude": -71.8
+  },
+  {
+    "id": 24062,
+    "name": "Rimouski--La Matap\u00E9dia",
+    "nameFr": "Rimouski--La Matap\u00E9dia",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 48.4,
+    "longitude": -68.5
+  },
+  {
+    "id": 24063,
+    "name": "Rivi\u00E8re-des-Mille-\u00CEles",
+    "nameFr": "Rivi\u00E8re-des-Mille-\u00CEles",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.6,
+    "longitude": -73.8
+  },
+  {
+    "id": 24064,
+    "name": "Rivi\u00E8re-du-Nord",
+    "nameFr": "Rivi\u00E8re-du-Nord",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.9,
+    "longitude": -74
+  },
+  {
+    "id": 24065,
+    "name": "Rosemont--La Petite-Patrie",
+    "nameFr": "Rosemont--La Petite-Patrie",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.54,
+    "longitude": -73.58
+  },
+  {
+    "id": 24066,
+    "name": "Saint-Hyacinthe--Bagot--Acton",
+    "nameFr": "Saint-Hyacinthe--Bagot--Acton",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.6,
+    "longitude": -72.8
+  },
+  {
+    "id": 24067,
+    "name": "Saint-Jean",
+    "nameFr": "Saint-Jean",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.3,
+    "longitude": -73.3
+  },
+  {
+    "id": 24068,
+    "name": "Saint-Laurent",
+    "nameFr": "Saint-Laurent",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.5,
+    "longitude": -73.68
+  },
+  {
+    "id": 24069,
+    "name": "Saint-L\u00E9onard--Saint-Michel",
+    "nameFr": "Saint-L\u00E9onard--Saint-Michel",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.58,
+    "longitude": -73.58
+  },
+  {
+    "id": 24070,
+    "name": "Saint-Maurice--Champlain",
+    "nameFr": "Saint-Maurice--Champlain",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.5,
+    "longitude": -72.5
+  },
+  {
+    "id": 24071,
+    "name": "Shefford",
+    "nameFr": "Shefford",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.4,
+    "longitude": -72.4
+  },
+  {
+    "id": 24072,
+    "name": "Sherbrooke",
+    "nameFr": "Sherbrooke",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.4,
+    "longitude": -71.9
+  },
+  {
+    "id": 24073,
+    "name": "Terrebonne",
+    "nameFr": "Terrebonne",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.68,
+    "longitude": -73.6
+  },
+  {
+    "id": 24074,
+    "name": "Th\u00E9r\u00E8se-De Blainville",
+    "nameFr": "Th\u00E9r\u00E8se-De Blainville",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.68,
+    "longitude": -73.8
+  },
+  {
+    "id": 24075,
+    "name": "Trois-Rivi\u00E8res",
+    "nameFr": "Trois-Rivi\u00E8res",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 46.35,
+    "longitude": -72.55
+  },
+  {
+    "id": 24076,
+    "name": "Vaudreuil",
+    "nameFr": "Vaudreuil",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.4,
+    "longitude": -74.03
+  },
+  {
+    "id": 24077,
+    "name": "Ville-Marie--Le Sud-Ouest--\u00CEle-des-Soeurs",
+    "nameFr": "Ville-Marie--Le Sud-Ouest--\u00CEle-des-Soeurs",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.48,
+    "longitude": -73.57
+  },
+  {
+    "id": 24078,
+    "name": "Vimy",
+    "nameFr": "Vimy",
+    "province": "Quebec",
+    "region": 1,
+    "latitude": 45.6,
+    "longitude": -73.73
+  },
+  {
+    "id": 35001,
+    "name": "Ajax",
+    "nameFr": "Ajax",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.85,
+    "longitude": -79.05
+  },
+  {
+    "id": 35002,
+    "name": "Algonquin--Renfrew--Pembroke",
+    "nameFr": "Algonquin--Renfrew--Pembroke",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.5,
+    "longitude": -77
+  },
+  {
+    "id": 35003,
+    "name": "Aurora--Oak Ridges--Richmond Hill",
+    "nameFr": "Aurora--Oak Ridges--Richmond Hill",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.95,
+    "longitude": -79.43
+  },
+  {
+    "id": 35004,
+    "name": "Barrie South--Innisfil",
+    "nameFr": "Barrie-Sud--Innisfil",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.35,
+    "longitude": -79.68
+  },
+  {
+    "id": 35005,
+    "name": "Barrie--Springwater--Oro-Medonte",
+    "nameFr": "Barrie--Springwater--Oro-Medonte",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.42,
+    "longitude": -79.72
+  },
+  {
+    "id": 35006,
+    "name": "Bay of Quinte",
+    "nameFr": "Bay of Quinte",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.2,
+    "longitude": -77.4
+  },
+  {
+    "id": 35007,
+    "name": "Beaches--East York",
+    "nameFr": "Beaches--East York",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.68,
+    "longitude": -79.3
+  },
+  {
+    "id": 35008,
+    "name": "Bowmanville--Oshawa North",
+    "nameFr": "Bowmanville--Oshawa-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.95,
+    "longitude": -78.75
+  },
+  {
+    "id": 35009,
+    "name": "Brampton Centre",
+    "nameFr": "Brampton-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.78
+  },
+  {
+    "id": 35010,
+    "name": "Brampton--Chinguacousy Park",
+    "nameFr": "Brampton--Chinguacousy Park",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.73
+  },
+  {
+    "id": 35011,
+    "name": "Brampton East",
+    "nameFr": "Brampton-Est",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.7
+  },
+  {
+    "id": 35012,
+    "name": "Brampton North--Caledon",
+    "nameFr": "Brampton-Nord--Caledon",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.8,
+    "longitude": -79.8
+  },
+  {
+    "id": 35013,
+    "name": "Brampton South",
+    "nameFr": "Brampton-Sud",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.68,
+    "longitude": -79.78
+  },
+  {
+    "id": 35014,
+    "name": "Brampton West",
+    "nameFr": "Brampton-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.83
+  },
+  {
+    "id": 35015,
+    "name": "Brantford--Brant South--Six Nations",
+    "nameFr": "Brantford--Brant-Sud--Six Nations",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.15,
+    "longitude": -80.3
+  },
+  {
+    "id": 35016,
+    "name": "Bruce--Grey--Owen Sound",
+    "nameFr": "Bruce--Grey--Owen Sound",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.6,
+    "longitude": -80.9
+  },
+  {
+    "id": 35017,
+    "name": "Burlington",
+    "nameFr": "Burlington",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.33,
+    "longitude": -79.8
+  },
+  {
+    "id": 35018,
+    "name": "Burlington North--Milton West",
+    "nameFr": "Burlington-Nord--Milton-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.42,
+    "longitude": -79.85
+  },
+  {
+    "id": 35019,
+    "name": "Cambridge",
+    "nameFr": "Cambridge",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.38,
+    "longitude": -80.32
+  },
+  {
+    "id": 35020,
+    "name": "Carleton",
+    "nameFr": "Carleton",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.2,
+    "longitude": -75.8
+  },
+  {
+    "id": 35021,
+    "name": "Chatham-Kent--Leamington",
+    "nameFr": "Chatham-Kent--Leamington",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.3,
+    "longitude": -82.2
+  },
+  {
+    "id": 35022,
+    "name": "Davenport",
+    "nameFr": "Davenport",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.68,
+    "longitude": -79.43
+  },
+  {
+    "id": 35023,
+    "name": "Don Valley North",
+    "nameFr": "Don Valley-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.8,
+    "longitude": -79.35
+  },
+  {
+    "id": 35024,
+    "name": "Don Valley West",
+    "nameFr": "Don Valley-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.35
+  },
+  {
+    "id": 35025,
+    "name": "Dufferin--Caledon",
+    "nameFr": "Dufferin--Caledon",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.95,
+    "longitude": -80
+  },
+  {
+    "id": 35026,
+    "name": "Eglinton--Lawrence",
+    "nameFr": "Eglinton--Lawrence",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.42
+  },
+  {
+    "id": 35027,
+    "name": "Elgin--St. Thomas--London South",
+    "nameFr": "Elgin--St. Thomas--London-Sud",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.8,
+    "longitude": -81.2
+  },
+  {
+    "id": 35028,
+    "name": "Essex",
+    "nameFr": "Essex",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.17,
+    "longitude": -82.95
+  },
+  {
+    "id": 35029,
+    "name": "Etobicoke Centre",
+    "nameFr": "Etobicoke-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.63,
+    "longitude": -79.53
+  },
+  {
+    "id": 35030,
+    "name": "Etobicoke--Lakeshore",
+    "nameFr": "Etobicoke--Lakeshore",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.6,
+    "longitude": -79.52
+  },
+  {
+    "id": 35031,
+    "name": "Etobicoke North",
+    "nameFr": "Etobicoke-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.72,
+    "longitude": -79.58
+  },
+  {
+    "id": 35032,
+    "name": "Flamborough--Glanbrook--Brant North",
+    "nameFr": "Flamborough--Glanbrook--Brant-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.22,
+    "longitude": -80
+  },
+  {
+    "id": 35033,
+    "name": "Guelph",
+    "nameFr": "Guelph",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.55,
+    "longitude": -80.25
+  },
+  {
+    "id": 35034,
+    "name": "Haldimand--Norfolk",
+    "nameFr": "Haldimand--Norfolk",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.9,
+    "longitude": -80.05
+  },
+  {
+    "id": 35035,
+    "name": "Haliburton--Kawartha Lakes",
+    "nameFr": "Haliburton--Kawartha Lakes",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.7,
+    "longitude": -78.5
+  },
+  {
+    "id": 35036,
+    "name": "Hamilton Centre",
+    "nameFr": "Hamilton-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.26,
+    "longitude": -79.87
+  },
+  {
+    "id": 35037,
+    "name": "Hamilton East--Stoney Creek",
+    "nameFr": "Hamilton-Est--Stoney Creek",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.22,
+    "longitude": -79.78
+  },
+  {
+    "id": 35038,
+    "name": "Hamilton Mountain",
+    "nameFr": "Hamilton Mountain",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.23,
+    "longitude": -79.9
+  },
+  {
+    "id": 35039,
+    "name": "Hamilton West--Ancaster--Dundas",
+    "nameFr": "Hamilton-Ouest--Ancaster--Dundas",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.25,
+    "longitude": -80
+  },
+  {
+    "id": 35040,
+    "name": "Hastings--Lennox and Addington--Tyendinaga",
+    "nameFr": "Hastings--Lennox and Addington--Tyendinaga",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.4,
+    "longitude": -77.2
+  },
+  {
+    "id": 35041,
+    "name": "Humber River--Black Creek",
+    "nameFr": "Humber River--Black Creek",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.73,
+    "longitude": -79.52
+  },
+  {
+    "id": 35042,
+    "name": "Huron--Bruce",
+    "nameFr": "Huron--Bruce",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44,
+    "longitude": -81.5
+  },
+  {
+    "id": 35043,
+    "name": "Kanata",
+    "nameFr": "Kanata",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.32,
+    "longitude": -75.9
+  },
+  {
+    "id": 35044,
+    "name": "Kapuskasing--Timmins--Mushkegowuk",
+    "nameFr": "Kapuskasing--Timmins--Mushkegowuk",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 49,
+    "longitude": -82
+  },
+  {
+    "id": 35045,
+    "name": "Kenora--Kiiwetinoong",
+    "nameFr": "Kenora--Kiiwetinoong",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 50.5,
+    "longitude": -90
+  },
+  {
+    "id": 35046,
+    "name": "Kingston and the Islands",
+    "nameFr": "Kingston et les \u00CEles",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.23,
+    "longitude": -76.5
+  },
+  {
+    "id": 35047,
+    "name": "King--Vaughan",
+    "nameFr": "King--Vaughan",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.9,
+    "longitude": -79.55
+  },
+  {
+    "id": 35048,
+    "name": "Kitchener Centre",
+    "nameFr": "Kitchener-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.45,
+    "longitude": -80.5
+  },
+  {
+    "id": 35049,
+    "name": "Kitchener--Conestoga",
+    "nameFr": "Kitchener--Conestoga",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.42,
+    "longitude": -80.48
+  },
+  {
+    "id": 35050,
+    "name": "Kitchener South--Hespeler",
+    "nameFr": "Kitchener-Sud--Hespeler",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.4,
+    "longitude": -80.42
+  },
+  {
+    "id": 35051,
+    "name": "Lanark--Frontenac",
+    "nameFr": "Lanark--Frontenac",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.8,
+    "longitude": -76.5
+  },
+  {
+    "id": 35052,
+    "name": "Leeds--Grenville--Thousand Islands--Rideau Lakes",
+    "nameFr": "Leeds--Grenville--Thousand Islands--Rideau Lakes",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.5,
+    "longitude": -76
+  },
+  {
+    "id": 35053,
+    "name": "London Centre",
+    "nameFr": "London-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43,
+    "longitude": -81.25
+  },
+  {
+    "id": 35054,
+    "name": "London--Fanshawe",
+    "nameFr": "London--Fanshawe",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.02,
+    "longitude": -81.18
+  },
+  {
+    "id": 35055,
+    "name": "London West",
+    "nameFr": "London-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43,
+    "longitude": -81.32
+  },
+  {
+    "id": 35056,
+    "name": "Markham--Stouffville",
+    "nameFr": "Markham--Stouffville",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.9,
+    "longitude": -79.28
+  },
+  {
+    "id": 35057,
+    "name": "Markham--Thornhill",
+    "nameFr": "Markham--Thornhill",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.83,
+    "longitude": -79.38
+  },
+  {
+    "id": 35058,
+    "name": "Markham--Unionville",
+    "nameFr": "Markham--Unionville",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.88,
+    "longitude": -79.3
+  },
+  {
+    "id": 35059,
+    "name": "Middlesex--London",
+    "nameFr": "Middlesex--London",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.1,
+    "longitude": -81.5
+  },
+  {
+    "id": 35060,
+    "name": "Milton East--Halton Hills South",
+    "nameFr": "Milton-Est--Halton Hills-Sud",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.52,
+    "longitude": -79.88
+  },
+  {
+    "id": 35061,
+    "name": "Mississauga Centre",
+    "nameFr": "Mississauga-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.58,
+    "longitude": -79.63
+  },
+  {
+    "id": 35062,
+    "name": "Mississauga East--Cooksville",
+    "nameFr": "Mississauga-Est--Cooksville",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.58,
+    "longitude": -79.6
+  },
+  {
+    "id": 35063,
+    "name": "Mississauga--Erin Mills",
+    "nameFr": "Mississauga--Erin Mills",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.55,
+    "longitude": -79.68
+  },
+  {
+    "id": 35064,
+    "name": "Mississauga--Lakeshore",
+    "nameFr": "Mississauga--Lakeshore",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.52,
+    "longitude": -79.6
+  },
+  {
+    "id": 35065,
+    "name": "Mississauga--Malton",
+    "nameFr": "Mississauga--Malton",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.68,
+    "longitude": -79.63
+  },
+  {
+    "id": 35066,
+    "name": "Mississauga--Streetsville",
+    "nameFr": "Mississauga--Streetsville",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.58,
+    "longitude": -79.68
+  },
+  {
+    "id": 35067,
+    "name": "Nepean",
+    "nameFr": "Nepean",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.32,
+    "longitude": -75.72
+  },
+  {
+    "id": 35068,
+    "name": "Newmarket--Aurora",
+    "nameFr": "Newmarket--Aurora",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.05,
+    "longitude": -79.47
+  },
+  {
+    "id": 35069,
+    "name": "New Tecumseth--Gwillimbury",
+    "nameFr": "New Tecumseth--Gwillimbury",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.08,
+    "longitude": -79.58
+  },
+  {
+    "id": 35070,
+    "name": "Niagara Falls--Niagara-on-the-Lake",
+    "nameFr": "Niagara Falls--Niagara-on-the-Lake",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.1,
+    "longitude": -79.1
+  },
+  {
+    "id": 35071,
+    "name": "Niagara South",
+    "nameFr": "Niagara-Sud",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.9,
+    "longitude": -79.22
+  },
+  {
+    "id": 35072,
+    "name": "Niagara West",
+    "nameFr": "Niagara-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.1,
+    "longitude": -79.4
+  },
+  {
+    "id": 35073,
+    "name": "Nipissing--Timiskaming",
+    "nameFr": "Nipissing--Timiskaming",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 46.5,
+    "longitude": -79.5
+  },
+  {
+    "id": 35074,
+    "name": "Northumberland--Clarke",
+    "nameFr": "Northumberland--Clarke",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.1,
+    "longitude": -78
+  },
+  {
+    "id": 35075,
+    "name": "Oakville East",
+    "nameFr": "Oakville-Est",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.42,
+    "longitude": -79.68
+  },
+  {
+    "id": 35076,
+    "name": "Oakville West",
+    "nameFr": "Oakville-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.42,
+    "longitude": -79.73
+  },
+  {
+    "id": 35077,
+    "name": "Orl\u00E9ans",
+    "nameFr": "Orl\u00E9ans",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.48,
+    "longitude": -75.5
+  },
+  {
+    "id": 35078,
+    "name": "Oshawa",
+    "nameFr": "Oshawa",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.9,
+    "longitude": -78.87
+  },
+  {
+    "id": 35079,
+    "name": "Ottawa Centre",
+    "nameFr": "Ottawa-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.42,
+    "longitude": -75.7
+  },
+  {
+    "id": 35080,
+    "name": "Ottawa South",
+    "nameFr": "Ottawa-Sud",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.38,
+    "longitude": -75.68
+  },
+  {
+    "id": 35081,
+    "name": "Ottawa--Vanier--Gloucester",
+    "nameFr": "Ottawa--Vanier--Gloucester",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.42,
+    "longitude": -75.6
+  },
+  {
+    "id": 35082,
+    "name": "Ottawa West--Nepean",
+    "nameFr": "Ottawa-Ouest--Nepean",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.35,
+    "longitude": -75.78
+  },
+  {
+    "id": 35083,
+    "name": "Oxford",
+    "nameFr": "Oxford",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.1,
+    "longitude": -80.75
+  },
+  {
+    "id": 35084,
+    "name": "Parry Sound--Muskoka",
+    "nameFr": "Parry Sound--Muskoka",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.3,
+    "longitude": -79.5
+  },
+  {
+    "id": 35085,
+    "name": "Perth--Wellington",
+    "nameFr": "Perth--Wellington",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.6,
+    "longitude": -80.8
+  },
+  {
+    "id": 35086,
+    "name": "Peterborough",
+    "nameFr": "Peterborough",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.3,
+    "longitude": -78.32
+  },
+  {
+    "id": 35087,
+    "name": "Pickering--Brooklin",
+    "nameFr": "Pickering--Brooklin",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.88,
+    "longitude": -79.1
+  },
+  {
+    "id": 35088,
+    "name": "Prescott--Russell--Cumberland",
+    "nameFr": "Prescott--Russell--Cumberland",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.5,
+    "longitude": -75
+  },
+  {
+    "id": 35089,
+    "name": "Richmond Hill South",
+    "nameFr": "Richmond Hill-Sud",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.88,
+    "longitude": -79.42
+  },
+  {
+    "id": 35090,
+    "name": "Sarnia--Lambton--Bkejwanong",
+    "nameFr": "Sarnia--Lambton--Bkejwanong",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43,
+    "longitude": -82
+  },
+  {
+    "id": 35091,
+    "name": "Sault Ste. Marie--Algoma",
+    "nameFr": "Sault Ste. Marie--Algoma",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 46.5,
+    "longitude": -84.3
+  },
+  {
+    "id": 35092,
+    "name": "Scarborough--Agincourt",
+    "nameFr": "Scarborough--Agincourt",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.8,
+    "longitude": -79.28
+  },
+  {
+    "id": 35093,
+    "name": "Scarborough Centre--Don Valley East",
+    "nameFr": "Scarborough-Centre--Don Valley-Est",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.78,
+    "longitude": -79.28
+  },
+  {
+    "id": 35094,
+    "name": "Scarborough--Guildwood--Rouge Park",
+    "nameFr": "Scarborough--Guildwood--Rouge Park",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.78,
+    "longitude": -79.18
+  },
+  {
+    "id": 35095,
+    "name": "Scarborough North",
+    "nameFr": "Scarborough-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.82,
+    "longitude": -79.22
+  },
+  {
+    "id": 35096,
+    "name": "Scarborough Southwest",
+    "nameFr": "Scarborough-Sud-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.73,
+    "longitude": -79.23
+  },
+  {
+    "id": 35097,
+    "name": "Scarborough--Woburn",
+    "nameFr": "Scarborough--Woburn",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.78,
+    "longitude": -79.22
+  },
+  {
+    "id": 35098,
+    "name": "Simcoe--Grey",
+    "nameFr": "Simcoe--Grey",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.3,
+    "longitude": -80.1
+  },
+  {
+    "id": 35099,
+    "name": "Simcoe North",
+    "nameFr": "Simcoe-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44.6,
+    "longitude": -79.4
+  },
+  {
+    "id": 35100,
+    "name": "Spadina--Harbourfront",
+    "nameFr": "Spadina--Harbourfront",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.63,
+    "longitude": -79.4
+  },
+  {
+    "id": 35101,
+    "name": "St. Catharines",
+    "nameFr": "St. Catharines",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.18,
+    "longitude": -79.25
+  },
+  {
+    "id": 35102,
+    "name": "Stormont--Dundas--Glengarry",
+    "nameFr": "Stormont--Dundas--Glengarry",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 45.05,
+    "longitude": -75
+  },
+  {
+    "id": 35103,
+    "name": "Sudbury",
+    "nameFr": "Sudbury",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 46.5,
+    "longitude": -81
+  },
+  {
+    "id": 35104,
+    "name": "Sudbury East--Manitoulin--Nickel Belt",
+    "nameFr": "Sudbury-Est--Manitoulin--Nickel Belt",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 46.4,
+    "longitude": -81
+  },
+  {
+    "id": 35105,
+    "name": "Taiaiako\u0027n--Parkdale--High Park",
+    "nameFr": "Taiaiako\u0027n--Parkdale--High Park",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.64,
+    "longitude": -79.45
+  },
+  {
+    "id": 35106,
+    "name": "Thornhill",
+    "nameFr": "Thornhill",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.82,
+    "longitude": -79.42
+  },
+  {
+    "id": 35107,
+    "name": "Thunder Bay--Rainy River",
+    "nameFr": "Thunder Bay--Rainy River",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 48.4,
+    "longitude": -89.2
+  },
+  {
+    "id": 35108,
+    "name": "Thunder Bay--Superior North",
+    "nameFr": "Thunder Bay--Sup\u00E9rieur-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 48.8,
+    "longitude": -88
+  },
+  {
+    "id": 35109,
+    "name": "Toronto Centre",
+    "nameFr": "Toronto-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.66,
+    "longitude": -79.38
+  },
+  {
+    "id": 35110,
+    "name": "Toronto--Danforth",
+    "nameFr": "Toronto--Danforth",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.68,
+    "longitude": -79.33
+  },
+  {
+    "id": 35111,
+    "name": "Toronto--St. Paul\u0027s",
+    "nameFr": "Toronto--St. Paul\u0027s",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.7,
+    "longitude": -79.42
+  },
+  {
+    "id": 35112,
+    "name": "University--Rosedale",
+    "nameFr": "University--Rosedale",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.67,
+    "longitude": -79.4
+  },
+  {
+    "id": 35113,
+    "name": "Vaughan--Woodbridge",
+    "nameFr": "Vaughan--Woodbridge",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.82,
+    "longitude": -79.53
+  },
+  {
+    "id": 35114,
+    "name": "Waterloo",
+    "nameFr": "Waterloo",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.47,
+    "longitude": -80.52
+  },
+  {
+    "id": 35115,
+    "name": "Wellington--Halton Hills North",
+    "nameFr": "Wellington--Halton Hills-Nord",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.75,
+    "longitude": -80.3
+  },
+  {
+    "id": 35116,
+    "name": "Whitby",
+    "nameFr": "Whitby",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.88,
+    "longitude": -78.93
+  },
+  {
+    "id": 35117,
+    "name": "Willowdale",
+    "nameFr": "Willowdale",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.78,
+    "longitude": -79.42
+  },
+  {
+    "id": 35118,
+    "name": "Windsor--Tecumseh--Lakeshore",
+    "nameFr": "Windsor--Tecumseh--Lakeshore",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.3,
+    "longitude": -82.88
+  },
+  {
+    "id": 35119,
+    "name": "Windsor West",
+    "nameFr": "Windsor-Ouest",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 42.28,
+    "longitude": -83.02
+  },
+  {
+    "id": 35120,
+    "name": "York Centre",
+    "nameFr": "York-Centre",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.78,
+    "longitude": -79.45
+  },
+  {
+    "id": 35121,
+    "name": "York--Durham",
+    "nameFr": "York--Durham",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 44,
+    "longitude": -79.2
+  },
+  {
+    "id": 35122,
+    "name": "York South--Weston--Etobicoke",
+    "nameFr": "York-Sud--Weston--Etobicoke",
+    "province": "Ontario",
+    "region": 2,
+    "latitude": 43.7,
+    "longitude": -79.48
+  },
+  {
+    "id": 46001,
+    "name": "Brandon--Souris",
+    "nameFr": "Brandon--Souris",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.8,
+    "longitude": -100
+  },
+  {
+    "id": 46002,
+    "name": "Churchill--Keewatinook Aski",
+    "nameFr": "Churchill--Keewatinook Aski",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 56,
+    "longitude": -96
+  },
+  {
+    "id": 46003,
+    "name": "Elmwood--Transcona",
+    "nameFr": "Elmwood--Transcona",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.9,
+    "longitude": -97
+  },
+  {
+    "id": 46004,
+    "name": "Kildonan--St. Paul",
+    "nameFr": "Kildonan--St. Paul",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.93,
+    "longitude": -97.08
+  },
+  {
+    "id": 46005,
+    "name": "Portage--Lisgar",
+    "nameFr": "Portage--Lisgar",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.5,
+    "longitude": -98.5
+  },
+  {
+    "id": 46006,
+    "name": "Provencher",
+    "nameFr": "Provencher",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.3,
+    "longitude": -96.5
+  },
+  {
+    "id": 46007,
+    "name": "Riding Mountain",
+    "nameFr": "Mont-Riding",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 50.8,
+    "longitude": -99.5
+  },
+  {
+    "id": 46008,
+    "name": "St. Boniface--St. Vital",
+    "nameFr": "Saint-Boniface--Saint-Vital",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.83,
+    "longitude": -97.1
+  },
+  {
+    "id": 46009,
+    "name": "Selkirk--Interlake--Eastman",
+    "nameFr": "Selkirk--Interlake--Eastman",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 50.5,
+    "longitude": -97
+  },
+  {
+    "id": 46010,
+    "name": "Winnipeg Centre",
+    "nameFr": "Winnipeg-Centre",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.88,
+    "longitude": -97.15
+  },
+  {
+    "id": 46011,
+    "name": "Winnipeg North",
+    "nameFr": "Winnipeg-Nord",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.93,
+    "longitude": -97.12
+  },
+  {
+    "id": 46012,
+    "name": "Winnipeg South",
+    "nameFr": "Winnipeg-Sud",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.83,
+    "longitude": -97.18
+  },
+  {
+    "id": 46013,
+    "name": "Winnipeg South Centre",
+    "nameFr": "Winnipeg-Centre-Sud",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.88,
+    "longitude": -97.15
+  },
+  {
+    "id": 46014,
+    "name": "Winnipeg West",
+    "nameFr": "Winnipeg-Ouest",
+    "province": "Manitoba",
+    "region": 3,
+    "latitude": 49.88,
+    "longitude": -97.25
+  },
+  {
+    "id": 47001,
+    "name": "Battlefords--Lloydminster--Meadow Lake",
+    "nameFr": "Battlefords--Lloydminster--Meadow Lake",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 53,
+    "longitude": -108.5
+  },
+  {
+    "id": 47002,
+    "name": "Carlton Trail--Eagle Creek",
+    "nameFr": "Sentier Carlton--Eagle Creek",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 52,
+    "longitude": -106.5
+  },
+  {
+    "id": 47003,
+    "name": "Desneth\u00E9--Missinippi--Churchill River",
+    "nameFr": "Desneth\u00E9--Missinippi--Rivi\u00E8re Churchill",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 55,
+    "longitude": -106
+  },
+  {
+    "id": 47004,
+    "name": "Moose Jaw--Lake Centre--Lanigan",
+    "nameFr": "Moose Jaw--Lake Centre--Lanigan",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 50.5,
+    "longitude": -105.5
+  },
+  {
+    "id": 47005,
+    "name": "Prince Albert",
+    "nameFr": "Prince Albert",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 53.2,
+    "longitude": -105.8
+  },
+  {
+    "id": 47006,
+    "name": "Regina--Lewvan",
+    "nameFr": "Regina--Lewvan",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 50.43,
+    "longitude": -104.68
+  },
+  {
+    "id": 47007,
+    "name": "Regina--Qu\u0027Appelle",
+    "nameFr": "Regina--Qu\u0027Appelle",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 50.5,
+    "longitude": -104
+  },
+  {
+    "id": 47008,
+    "name": "Regina--Wascana",
+    "nameFr": "Regina--Wascana",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 50.45,
+    "longitude": -104.6
+  },
+  {
+    "id": 47009,
+    "name": "Saskatoon South",
+    "nameFr": "Saskatoon-Sud",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 52.08,
+    "longitude": -106.68
+  },
+  {
+    "id": 47010,
+    "name": "Saskatoon--University",
+    "nameFr": "Saskatoon--University",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 52.12,
+    "longitude": -106.63
+  },
+  {
+    "id": 47011,
+    "name": "Saskatoon West",
+    "nameFr": "Saskatoon-Ouest",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 52.15,
+    "longitude": -106.72
+  },
+  {
+    "id": 47012,
+    "name": "Souris--Moose Mountain",
+    "nameFr": "Souris--Moose Mountain",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 49.5,
+    "longitude": -102.5
+  },
+  {
+    "id": 47013,
+    "name": "Swift Current--Grasslands--Kindersley",
+    "nameFr": "Swift Current--Grasslands--Kindersley",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 50.3,
+    "longitude": -108
+  },
+  {
+    "id": 47014,
+    "name": "Yorkton--Melville",
+    "nameFr": "Yorkton--Melville",
+    "province": "Saskatchewan",
+    "region": 3,
+    "latitude": 51,
+    "longitude": -102.5
+  },
+  {
+    "id": 48001,
+    "name": "Airdrie--Cochrane",
+    "nameFr": "Airdrie--Cochrane",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.28,
+    "longitude": -114.1
+  },
+  {
+    "id": 48002,
+    "name": "Battle River--Crowfoot",
+    "nameFr": "Battle River--Crowfoot",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 52,
+    "longitude": -112
+  },
+  {
+    "id": 48003,
+    "name": "Bow River",
+    "nameFr": "Bow River",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 50.5,
+    "longitude": -113
+  },
+  {
+    "id": 48004,
+    "name": "Calgary Centre",
+    "nameFr": "Calgary-Centre",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.04,
+    "longitude": -114.08
+  },
+  {
+    "id": 48005,
+    "name": "Calgary Confederation",
+    "nameFr": "Calgary Confederation",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.08,
+    "longitude": -114.18
+  },
+  {
+    "id": 48006,
+    "name": "Calgary Crowfoot",
+    "nameFr": "Calgary Crowfoot",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.12,
+    "longitude": -114.18
+  },
+  {
+    "id": 48007,
+    "name": "Calgary East",
+    "nameFr": "Calgary-Est",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.04,
+    "longitude": -113.98
+  },
+  {
+    "id": 48008,
+    "name": "Calgary Heritage",
+    "nameFr": "Calgary Heritage",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 50.95,
+    "longitude": -114.1
+  },
+  {
+    "id": 48009,
+    "name": "Calgary McKnight",
+    "nameFr": "Calgary McKnight",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.12,
+    "longitude": -114.02
+  },
+  {
+    "id": 48010,
+    "name": "Calgary Midnapore",
+    "nameFr": "Calgary Midnapore",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 50.92,
+    "longitude": -114.02
+  },
+  {
+    "id": 48011,
+    "name": "Calgary Nose Hill",
+    "nameFr": "Calgary Nose Hill",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.12,
+    "longitude": -114.12
+  },
+  {
+    "id": 48012,
+    "name": "Calgary Shepard",
+    "nameFr": "Calgary Shepard",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 50.92,
+    "longitude": -113.92
+  },
+  {
+    "id": 48013,
+    "name": "Calgary Signal Hill",
+    "nameFr": "Calgary Signal Hill",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.02,
+    "longitude": -114.2
+  },
+  {
+    "id": 48014,
+    "name": "Calgary Skyview",
+    "nameFr": "Calgary Skyview",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 51.12,
+    "longitude": -113.98
+  },
+  {
+    "id": 48015,
+    "name": "Edmonton Centre",
+    "nameFr": "Edmonton-Centre",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.54,
+    "longitude": -113.5
+  },
+  {
+    "id": 48016,
+    "name": "Edmonton Gateway",
+    "nameFr": "Edmonton Gateway",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.42,
+    "longitude": -113.42
+  },
+  {
+    "id": 48017,
+    "name": "Edmonton Griesbach",
+    "nameFr": "Edmonton Griesbach",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.6,
+    "longitude": -113.5
+  },
+  {
+    "id": 48018,
+    "name": "Edmonton Manning",
+    "nameFr": "Edmonton Manning",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.62,
+    "longitude": -113.4
+  },
+  {
+    "id": 48019,
+    "name": "Edmonton Northwest",
+    "nameFr": "Edmonton-Nord-Ouest",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.58,
+    "longitude": -113.62
+  },
+  {
+    "id": 48020,
+    "name": "Edmonton Riverbend",
+    "nameFr": "Edmonton Riverbend",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.44,
+    "longitude": -113.52
+  },
+  {
+    "id": 48021,
+    "name": "Edmonton Southeast",
+    "nameFr": "Edmonton-Sud-Est",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.48,
+    "longitude": -113.38
+  },
+  {
+    "id": 48022,
+    "name": "Edmonton Strathcona",
+    "nameFr": "Edmonton Strathcona",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.52,
+    "longitude": -113.5
+  },
+  {
+    "id": 48023,
+    "name": "Edmonton West",
+    "nameFr": "Edmonton-Ouest",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.52,
+    "longitude": -113.6
+  },
+  {
+    "id": 48024,
+    "name": "Foothills",
+    "nameFr": "Foothills",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 50.7,
+    "longitude": -114
+  },
+  {
+    "id": 48025,
+    "name": "Fort McMurray--Cold Lake",
+    "nameFr": "Fort McMurray--Cold Lake",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 56.7,
+    "longitude": -111.4
+  },
+  {
+    "id": 48026,
+    "name": "Grande Prairie",
+    "nameFr": "Grande Prairie",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 55.2,
+    "longitude": -118.8
+  },
+  {
+    "id": 48027,
+    "name": "Lakeland",
+    "nameFr": "Lakeland",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 54,
+    "longitude": -111
+  },
+  {
+    "id": 48028,
+    "name": "Leduc--Wetaskiwin",
+    "nameFr": "Leduc--Wetaskiwin",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53,
+    "longitude": -113.5
+  },
+  {
+    "id": 48029,
+    "name": "Lethbridge",
+    "nameFr": "Lethbridge",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 49.7,
+    "longitude": -112.8
+  },
+  {
+    "id": 48030,
+    "name": "Medicine Hat--Cardston--Warner",
+    "nameFr": "Medicine Hat--Cardston--Warner",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 49.8,
+    "longitude": -110.7
+  },
+  {
+    "id": 48031,
+    "name": "Parkland",
+    "nameFr": "Parkland",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.5,
+    "longitude": -114.5
+  },
+  {
+    "id": 48032,
+    "name": "Peace River--Westlock",
+    "nameFr": "Peace River--Westlock",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 55.8,
+    "longitude": -117.3
+  },
+  {
+    "id": 48033,
+    "name": "Ponoka--Didsbury",
+    "nameFr": "Ponoka--Didsbury",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 52,
+    "longitude": -114
+  },
+  {
+    "id": 48034,
+    "name": "Red Deer",
+    "nameFr": "Red Deer",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 52.3,
+    "longitude": -113.8
+  },
+  {
+    "id": 48035,
+    "name": "Sherwood Park--Fort Saskatchewan",
+    "nameFr": "Sherwood Park--Fort Saskatchewan",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.53,
+    "longitude": -113.3
+  },
+  {
+    "id": 48036,
+    "name": "St. Albert--Sturgeon River",
+    "nameFr": "St. Albert--Sturgeon River",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.63,
+    "longitude": -113.62
+  },
+  {
+    "id": 48037,
+    "name": "Yellowhead",
+    "nameFr": "Yellowhead",
+    "province": "Alberta",
+    "region": 4,
+    "latitude": 53.5,
+    "longitude": -116.5
+  },
+  {
+    "id": 59001,
+    "name": "Abbotsford--South Langley",
+    "nameFr": "Abbotsford--Langley-Sud",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.05,
+    "longitude": -122.3
+  },
+  {
+    "id": 59002,
+    "name": "Burnaby Central",
+    "nameFr": "Burnaby Central",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.23,
+    "longitude": -122.95
+  },
+  {
+    "id": 59003,
+    "name": "Burnaby North--Seymour",
+    "nameFr": "Burnaby-Nord--Seymour",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.3,
+    "longitude": -122.98
+  },
+  {
+    "id": 59004,
+    "name": "Cariboo--Prince George",
+    "nameFr": "Cariboo--Prince George",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 53.9,
+    "longitude": -122.8
+  },
+  {
+    "id": 59005,
+    "name": "Chilliwack--Hope",
+    "nameFr": "Chilliwack--Hope",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.17,
+    "longitude": -121.75
+  },
+  {
+    "id": 59006,
+    "name": "Cloverdale--Langley City",
+    "nameFr": "Cloverdale--Langley City",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.1,
+    "longitude": -122.72
+  },
+  {
+    "id": 59007,
+    "name": "Columbia--Kootenay--Southern Rockies",
+    "nameFr": "Columbia--Kootenay--Southern Rockies",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.5,
+    "longitude": -116
+  },
+  {
+    "id": 59008,
+    "name": "Coquitlam--Port Coquitlam",
+    "nameFr": "Coquitlam--Port Coquitlam",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.27,
+    "longitude": -122.8
+  },
+  {
+    "id": 59009,
+    "name": "Courtenay--Alberni",
+    "nameFr": "Courtenay--Alberni",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.3,
+    "longitude": -125
+  },
+  {
+    "id": 59010,
+    "name": "Cowichan--Malahat--Langford",
+    "nameFr": "Cowichan--Malahat--Langford",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 48.6,
+    "longitude": -123.7
+  },
+  {
+    "id": 59011,
+    "name": "Delta",
+    "nameFr": "Delta",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.08,
+    "longitude": -123.05
+  },
+  {
+    "id": 59012,
+    "name": "Esquimalt--Saanich--Sooke",
+    "nameFr": "Esquimalt--Saanich--Sooke",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 48.42,
+    "longitude": -123.5
+  },
+  {
+    "id": 59013,
+    "name": "Fleetwood--Port Kells",
+    "nameFr": "Fleetwood--Port Kells",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.13,
+    "longitude": -122.78
+  },
+  {
+    "id": 59014,
+    "name": "Kamloops--Shuswap--Central Rockies",
+    "nameFr": "Kamloops--Shuswap--Central Rockies",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 50.7,
+    "longitude": -119.5
+  },
+  {
+    "id": 59015,
+    "name": "Kamloops--Thompson--Nicola",
+    "nameFr": "Kamloops--Thompson--Nicola",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 50.4,
+    "longitude": -120.3
+  },
+  {
+    "id": 59016,
+    "name": "Kelowna",
+    "nameFr": "Kelowna",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.88,
+    "longitude": -119.48
+  },
+  {
+    "id": 59017,
+    "name": "Langley Township--Fraser Heights",
+    "nameFr": "Langley Township--Fraser Heights",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.1,
+    "longitude": -122.58
+  },
+  {
+    "id": 59018,
+    "name": "Mission--Matsqui--Abbotsford",
+    "nameFr": "Mission--Matsqui--Abbotsford",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.13,
+    "longitude": -122.3
+  },
+  {
+    "id": 59019,
+    "name": "Nanaimo--Ladysmith",
+    "nameFr": "Nanaimo--Ladysmith",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.17,
+    "longitude": -123.93
+  },
+  {
+    "id": 59020,
+    "name": "New Westminster--Burnaby--Maillardville",
+    "nameFr": "New Westminster--Burnaby--Maillardville",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.22,
+    "longitude": -122.9
+  },
+  {
+    "id": 59021,
+    "name": "North Island--Powell River",
+    "nameFr": "North Island--Powell River",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 50,
+    "longitude": -125.5
+  },
+  {
+    "id": 59022,
+    "name": "North Vancouver--Capilano",
+    "nameFr": "North Vancouver--Capilano",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.33,
+    "longitude": -123.12
+  },
+  {
+    "id": 59023,
+    "name": "Okanagan Lake West--South Kelowna",
+    "nameFr": "Okanagan Lake-Ouest--Kelowna-Sud",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.72,
+    "longitude": -119.6
+  },
+  {
+    "id": 59024,
+    "name": "Pitt Meadows--Maple Ridge",
+    "nameFr": "Pitt Meadows--Maple Ridge",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.22,
+    "longitude": -122.6
+  },
+  {
+    "id": 59025,
+    "name": "Port Moody--Coquitlam",
+    "nameFr": "Port Moody--Coquitlam",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.28,
+    "longitude": -122.82
+  },
+  {
+    "id": 59026,
+    "name": "Prince George--Peace River--Northern Rockies",
+    "nameFr": "Prince George--Peace River--Northern Rockies",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 56,
+    "longitude": -122
+  },
+  {
+    "id": 59027,
+    "name": "Richmond Centre--Marpole",
+    "nameFr": "Richmond-Centre--Marpole",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.18,
+    "longitude": -123.13
+  },
+  {
+    "id": 59028,
+    "name": "Richmond East--Steveston",
+    "nameFr": "Richmond-Est--Steveston",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.15,
+    "longitude": -123.03
+  },
+  {
+    "id": 59029,
+    "name": "Saanich--Gulf Islands",
+    "nameFr": "Saanich--Gulf Islands",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 48.52,
+    "longitude": -123.38
+  },
+  {
+    "id": 59030,
+    "name": "Similkameen--South Okanagan--West Kootenay",
+    "nameFr": "Similkameen--Okanagan-Sud--Kootenay-Ouest",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.3,
+    "longitude": -118
+  },
+  {
+    "id": 59031,
+    "name": "Skeena--Bulkley Valley",
+    "nameFr": "Skeena--Bulkley Valley",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 54.8,
+    "longitude": -127.2
+  },
+  {
+    "id": 59032,
+    "name": "South Surrey--White Rock",
+    "nameFr": "Surrey-Sud--White Rock",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.02,
+    "longitude": -122.82
+  },
+  {
+    "id": 59033,
+    "name": "Surrey Centre",
+    "nameFr": "Surrey-Centre",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.18,
+    "longitude": -122.82
+  },
+  {
+    "id": 59034,
+    "name": "Surrey Newton",
+    "nameFr": "Surrey Newton",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.12,
+    "longitude": -122.85
+  },
+  {
+    "id": 59035,
+    "name": "Vancouver Centre",
+    "nameFr": "Vancouver-Centre",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.27,
+    "longitude": -123.12
+  },
+  {
+    "id": 59036,
+    "name": "Vancouver East",
+    "nameFr": "Vancouver-Est",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.28,
+    "longitude": -123.07
+  },
+  {
+    "id": 59037,
+    "name": "Vancouver Fraserview--South Burnaby",
+    "nameFr": "Vancouver Fraserview--Burnaby-Sud",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.22,
+    "longitude": -123.02
+  },
+  {
+    "id": 59038,
+    "name": "Vancouver Granville",
+    "nameFr": "Vancouver Granville",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.26,
+    "longitude": -123.15
+  },
+  {
+    "id": 59039,
+    "name": "Vancouver Kingsway",
+    "nameFr": "Vancouver Kingsway",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.24,
+    "longitude": -123.08
+  },
+  {
+    "id": 59040,
+    "name": "Vancouver Quadra",
+    "nameFr": "Vancouver Quadra",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.27,
+    "longitude": -123.15
+  },
+  {
+    "id": 59041,
+    "name": "Vernon--Lake Country--Monashee",
+    "nameFr": "Vernon--Lake Country--Monashee",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 50.3,
+    "longitude": -119.3
+  },
+  {
+    "id": 59042,
+    "name": "Victoria",
+    "nameFr": "Victoria",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 48.43,
+    "longitude": -123.37
+  },
+  {
+    "id": 59043,
+    "name": "West Vancouver--Sunshine Coast--Sea to Sky Country",
+    "nameFr": "West Vancouver--Sunshine Coast--Sea to Sky Country",
+    "province": "British Columbia",
+    "region": 5,
+    "latitude": 49.5,
+    "longitude": -123.2
+  },
+  {
+    "id": 60001,
+    "name": "Yukon",
+    "nameFr": "Yukon",
+    "province": "Yukon",
+    "region": 6,
+    "latitude": 63,
+    "longitude": -135
+  },
+  {
+    "id": 61001,
+    "name": "Northwest Territories",
+    "nameFr": "Territoires du Nord-Ouest",
+    "province": "Northwest Territories",
+    "region": 6,
+    "latitude": 64,
+    "longitude": -120
+  },
+  {
+    "id": 62001,
+    "name": "Nunavut",
+    "nameFr": "Nunavut",
+    "province": "Nunavut",
+    "region": 6,
+    "latitude": 66,
+    "longitude": -86
+  }
+]

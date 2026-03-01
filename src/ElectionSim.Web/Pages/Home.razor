@@ -1,0 +1,205 @@
+@page "/"
+@using System.Net.Http.Json
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using ElectionSim.Core.Models
+@using ElectionSim.Web.Components
+@using ElectionSim.Web.Services
+@inject DataService DataService
+@inject SimulationState State
+@inject HttpClient Http
+@implements IDisposable
+
+<PageTitle>Election Simulator</PageTitle>
+
+@if (!DataService.IsLoaded)
+{
+    <div class="loading">Loading election data...</div>
+}
+else
+{
+    <div class="dashboard">
+        <div class="sidebar-panel">
+            <PollInputPanel State="State" />
+            <SimulationControls State="State" />
+        </div>
+
+        <div class="main-panel">
+            @if (State.IsRunning)
+            {
+                <div class="running-state">
+                    <div class="spinner"></div>
+                    <h2>Running Simulation</h2>
+                    <p>Results will appear here when the simulation completes.</p>
+                </div>
+            }
+            else if (State.Results != null)
+            {
+                @if (State.SnapshotTimestamp.HasValue)
+                {
+                    <div class="snapshot-banner">
+                        <span class="snapshot-label">Simulation run</span>
+                        <span class="snapshot-date">@FormatTimestampPacific(State.SnapshotTimestamp.Value)</span>
+                    </div>
+                }
+                @if (State.SnapshotTimestamp.HasValue)
+                {
+                    if (DataService.TrendsLoading)
+                    {
+                        <div class="trend-loading">
+                            <div class="spinner"></div>
+                            Loading trend data...
+                        </div>
+                    }
+                    else if (DataService.TrendData?.Points?.Count >= 2)
+                    {
+                        <TrendChartCard TrendData="DataService.TrendData" OnPointClicked="OnTrendPointClicked" />
+                    }
+                }
+                <SectionNav />
+                <div id="section-seats" class="nav-target">
+                    <SeatBarChart Summary="State.Results" />
+                </div>
+                <div id="section-government" class="nav-target">
+                    <MajorityIndicator Summary="State.Results" />
+                </div>
+                <div id="section-map" class="nav-target">
+                    <CanadaMap Summary="State.Results" Ridings="DataService.Ridings"
+                               HexLayout="DataService.HexLayout"
+                               BaselineResults="GetBaselineResults()"
+                               BaselineYear="State.BaselineYear"
+                               OnRidingSelected="OnRidingSelected" />
+                </div>
+                <div id="section-riding-lookup" class="nav-target">
+                    <RidingSearchCard Summary="State.Results" Ridings="DataService.Ridings" />
+                </div>
+                <div id="section-distribution" class="nav-target">
+                    <div class="bottom-row">
+                        <SeatHistogram Summary="State.Results" />
+                        <RegionBreakdownTable Summary="State.Results" Ridings="DataService.Ridings" />
+                    </div>
+                </div>
+                <div id="section-close" class="nav-target">
+                    <CloseRidingsTable Summary="State.Results" Ridings="DataService.Ridings"
+                                       OnRidingSelected="OnRidingSelected" />
+                </div>
+                <div id="section-flips" class="nav-target">
+                    <FlippedRidingsTable Summary="State.Results" Ridings="DataService.Ridings"
+                                         OnRidingSelected="OnRidingSelected" />
+                </div>
+            }
+            else
+            {
+                <div class="empty-state">
+                    <div class="empty-icon">🗳</div>
+                    <h2>Canadian Federal Election Simulator</h2>
+                    <p>Adjust polling inputs in the sidebar, then click <strong>Run Simulation</strong> to project seat counts using Monte Carlo simulation with regional proportional swing.</p>
+                    <p class="empty-detail">10,000 simulations across 343 ridings with correlated national, regional, and riding-level uncertainty.</p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <RidingDetailPopup Riding="selectedRiding" Summary="State.Results"
+                       OnClose="CloseRidingDetail" />
+}
+
+@code {
+    private Riding? selectedRiding;
+
+    private static readonly JsonSerializerOptions SnapshotJsonOptions = new()
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await DataService.LoadAllAsync();
+        if (State.CurrentPolling.Count == 0)
+        {
+            State.InitializeFromPolling();
+        }
+        State.OnStateChanged += OnStateChanged;
+
+        if (State.Results == null)
+        {
+            _ = LoadLatestSnapshotAsync();
+        }
+        if (DataService.TrendData == null)
+        {
+            _ = LoadTrendDataAsync();
+        }
+    }
+
+    private async Task LoadTrendDataAsync()
+    {
+        await DataService.LoadTrendDataAsync();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task LoadLatestSnapshotAsync()
+    {
+        try
+        {
+            var response = await Http.GetAsync("api/simulation/latest");
+            if (response.IsSuccessStatusCode)
+            {
+                var snapshot = await response.Content.ReadFromJsonAsync<SimulationSnapshot>(SnapshotJsonOptions);
+                if (snapshot != null)
+                {
+                    State.LoadFromSnapshot(snapshot);
+                }
+            }
+        }
+        catch
+        {
+            // No server or no snapshot available — show default empty state
+        }
+    }
+
+    private void OnRidingSelected(Riding riding)
+    {
+        selectedRiding = riding;
+        StateHasChanged();
+    }
+
+    private void CloseRidingDetail()
+    {
+        selectedRiding = null;
+        StateHasChanged();
+    }
+
+    private async Task OnTrendPointClicked(SimulationTrendPoint point)
+    {
+        if (State.SnapshotTimestamp.HasValue && State.SnapshotTimestamp.Value == point.Timestamp)
+            return;
+
+        var snapshot = await DataService.LoadSnapshotByTimestampAsync(point.Timestamp);
+        if (snapshot != null)
+        {
+            State.LoadFromSnapshot(snapshot);
+        }
+    }
+
+    private void OnStateChanged() => InvokeAsync(StateHasChanged);
+
+    private List<RidingResult>? GetBaselineResults() => State.BaselineYear switch
+    {
+        2025 => DataService.Results2025,
+        2021 => DataService.Results2021,
+        2015 => DataService.Results2015,
+        _ => DataService.Results2025
+    };
+
+    private static string FormatTimestampPacific(DateTime utcTimestamp)
+    {
+        var pacific = DateTime.SpecifyKind(utcTimestamp, DateTimeKind.Utc).AddHours(-7);
+        return $"{pacific:MMMM d, yyyy 'at' h:mm tt} PDT";
+    }
+
+    public void Dispose()
+    {
+        State.OnStateChanged -= OnStateChanged;
+    }
+}

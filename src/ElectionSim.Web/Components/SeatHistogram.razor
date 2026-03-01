@@ -1,0 +1,102 @@
+@using ElectionSim.Core.Models
+
+<div class="seat-histogram">
+    <h3>Seat Distribution</h3>
+
+    <div class="party-selector">
+        @foreach (var party in PartyColorProvider.MainParties)
+        {
+            var p = party;
+            var color = PartyColorProvider.GetColor(p);
+            <button class="@(SelectedParty == p ? "selected" : "")"
+                    style="@(SelectedParty == p ? $"background:{color};color:#fff;border-color:{color}" : $"color:{color};border-color:{color}")"
+                    @onclick="() => SelectedParty = p">
+                @PartyColorProvider.GetShortName(p)
+            </button>
+        }
+    </div>
+
+    @if (Summary != null && Summary.SeatDistributions.TryGetValue(SelectedParty, out var dist))
+    {
+        var bins = ComputeHistogramBins(dist);
+        int maxCount = bins.Max(b => b.Count);
+        var color = PartyColorProvider.GetColor(SelectedParty);
+
+        <svg viewBox="0 0 400 200" class="histogram-svg">
+            @for (int i = 0; i < bins.Count; i++)
+            {
+                var bin = bins[i];
+                double barHeight = maxCount > 0 ? (double)bin.Count / maxCount * 160 : 0;
+                double x = (double)i / bins.Count * 380 + 10;
+                double barWidth = 380.0 / bins.Count - 1;
+
+                <rect x="@x" y="@(180 - barHeight)" width="@barWidth" height="@barHeight"
+                      fill="@color" opacity="0.7" rx="1" />
+            }
+            @* X-axis labels *@
+            <text x="10" y="196" font-size="10" fill="#666">@dist.Min</text>
+            <text x="390" y="196" font-size="10" fill="#666" text-anchor="end">@dist.Max</text>
+            <text x="200" y="196" font-size="10" fill="#666" text-anchor="middle">@dist.Median</text>
+        </svg>
+
+        <div class="stats-row">
+            <div class="stat">
+                <span class="stat-label">Mean</span>
+                <span class="stat-value">@dist.Mean.ToString("F1")</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Median</span>
+                <span class="stat-value">@dist.Median</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Range</span>
+                <span class="stat-value">@dist.Min - @dist.Max</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">90% CI</span>
+                <span class="stat-value">@dist.P5 - @dist.P95</span>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public SimulationSummary? Summary { get; set; }
+
+    private Party SelectedParty { get; set; } = Party.LPC;
+
+    private record HistogramBin(int Start, int End, int Count);
+
+    private List<HistogramBin> ComputeHistogramBins(SeatDistribution dist)
+    {
+        // Create ~20 bins across the range
+        int range = Math.Max(dist.Max - dist.Min, 1);
+        int binSize = Math.Max(1, range / 20);
+        int numBins = (range / binSize) + 1;
+
+        var bins = new List<HistogramBin>();
+        for (int i = 0; i < numBins; i++)
+        {
+            int start = dist.Min + i * binSize;
+            int end = start + binSize - 1;
+            bins.Add(new HistogramBin(start, end, 0));
+        }
+
+        // We don't have raw data to populate bins, so approximate from distribution stats
+        // Use a normal approximation: mean and stddev from percentiles
+        double mean = dist.Mean;
+        double stddev = (dist.P95 - dist.P5) / 3.29; // 90% CI ~ 3.29 sigma
+
+        if (stddev < 0.1) stddev = 1;
+
+        for (int i = 0; i < bins.Count; i++)
+        {
+            double binMid = bins[i].Start + binSize / 2.0;
+            double z = (binMid - mean) / stddev;
+            int count = (int)(1000 * Math.Exp(-0.5 * z * z));
+            bins[i] = bins[i] with { Count = Math.Max(count, 0) };
+        }
+
+        return bins;
+    }
+}
