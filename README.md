@@ -6,6 +6,9 @@ The model uses census data from [Statistics Canada](https://www150.statcan.gc.ca
 
 NOTE: This tool was developed with clanker help - specifically, Claude Code. The CLAUDE.md file has been included in the repo.
 
+## Live Demo
+You can view a live demo of the project at [https://elections.smithbower.com](https://elections.smithbower.com).
+
 ## Quick Start
 
 ```bash
