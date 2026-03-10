@@ -273,7 +273,7 @@ The 2019 election data splits the old "2021 from 2015" hindcast into two consecu
 
 The 2015-from-2011 hindcast remains the hardest: the 2015 election saw the largest swing in modern Canadian history (LPC surge from 3rd to majority, NDP collapse). CI coverage below 90% in two hindcasts (2025: 85.4%, 2015: 82.4%) reflects the model's overconfidence for elections with large inter-election shifts. The three easier transitions (2021: 99.6%, 2019: 99.0%, 2011: 98.7%) show significant over-dispersion.
 
-Correlated noise (Plan 7) improved the hardest hindcasts: 2015-from-2011 Brier improved from 0.5793→0.5726 and CI coverage from 81.5%→82.4%. Log loss improved for both hard cases (2025: 0.7582→0.7399, 2015: 1.3584→1.3395). Easy hindcasts showed slightly higher Brier scores because the correlated noise structure reduces renormalization dampening, increasing effective uncertainty.
+Correlated noise improved the hardest hindcasts: 2015-from-2011 Brier improved from 0.5793→0.5726 and CI coverage from 81.5%→82.4%. Log loss improved for both hard cases (2025: 0.7582→0.7399, 2015: 1.3584→1.3395). Easy hindcasts showed slightly higher Brier scores because the correlated noise structure reduces renormalization dampening, increasing effective uncertainty.
 
 ### Known Limitations
 
