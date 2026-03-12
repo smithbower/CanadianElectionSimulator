@@ -46,7 +46,33 @@
 .riding-meta {
     font-size: 0.8rem;
     color: #999;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Current MP */
+.current-mp {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.mp-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.mp-name.vacant-text {
+    color: #7b1fa2;
+    font-style: italic;
+}
+
+.mp-party-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
 }
 
 .prob-bars {
@@ -141,6 +167,11 @@
     color: #e65100;
 }
 
+.flip-badge.vacant {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
 .prev-runners-up {
     display: flex;
     gap: 0.75rem;
@@ -151,6 +182,75 @@
 
 .runner-up {
     font-weight: 500;
+}
+
+/* Post-election events */
+.post-election-section {
+    margin-top: 1.25rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.post-election-section h4 {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.event-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.event-date {
+    font-size: 0.75rem;
+    color: #999;
+    min-width: 5rem;
+}
+
+.event-arrow {
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.event-type {
+    font-size: 0.8rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.event-desc {
+    font-size: 0.75rem;
+    color: #888;
+    width: 100%;
+    padding-left: 5rem;
+}
+
+.party-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+}
+
+.by-election-results {
+    margin: 0.25rem 0 0.5rem 5rem;
+    font-size: 0.8rem;
+}
+
+.by-election-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.by-election-row .vote-count {
+    color: #999;
+    font-size: 0.75rem;
 }
 
 /* Demographics */

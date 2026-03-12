@@ -1,0 +1,48 @@
+[
+  {
+    "ridingId": 62001,
+    "type": "floorCrossing",
+    "date": "2026-03-10",
+    "electionYear": 2025,
+    "fromParty": "NDP",
+    "toParty": "LPC"
+  },
+  {
+    "ridingId": 12001,
+    "type": "floorCrossing",
+    "date": "2025-11-04",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "toParty": "LPC"
+  },
+  {
+    "ridingId": 35058,
+    "type": "floorCrossing",
+    "date": "2025-12-11",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "toParty": "LPC"
+  },
+  {
+    "ridingId": 48020,
+    "type": "floorCrossing",
+    "date": "2026-02-18",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "toParty": "LPC"
+  },
+  {
+    "ridingId": 35112,
+    "type": "vacancy",
+    "date": "2026-01-09",
+    "electionYear": 2025,
+    "fromParty": "LPC"
+  },
+  {
+    "ridingId": 35096,
+    "type": "vacancy",
+    "date": "2026-02-02",
+    "electionYear": 2025,
+    "fromParty": "LPC"
+  }
+]

@@ -19,6 +19,7 @@ public class SimulationState(DataService dataService)
     public int BaselineYear { get; set; } = 2025;
     public string? ErrorMessage { get; private set; }
     public Dictionary<Party, double> PartyUncertainty { get; set; } = new(SimulationConfig.DefaultPartyUncertainty);
+    public Dictionary<int, RidingStatus>? CurrentParliamentaryState { get; private set; }
 
     public event Action? OnStateChanged;
 
@@ -32,7 +33,18 @@ public class SimulationState(DataService dataService)
         {
             CurrentPolling[poll.Region] = new Dictionary<Party, double>(poll.VoteShares);
         }
+        ComputeParliamentaryState();
         NotifyStateChanged();
+    }
+
+    /// <summary>Computes current parliamentary state from baseline results and post-election events.</summary>
+    public void ComputeParliamentaryState()
+    {
+        var baseline = dataService.GetResultsForYear(BaselineYear);
+        if (baseline == null) return;
+
+        var events = dataService.PostElectionEvents ?? [];
+        CurrentParliamentaryState = ParliamentaryState.ComputeCurrentState(baseline, events, BaselineYear);
     }
 
     public void UpdateNationalShare(Party party, double value)
@@ -132,9 +144,12 @@ public class SimulationState(DataService dataService)
                 .Where(e => e != null)
                 .Cast<IReadOnlyList<RidingResult>>()
                 .ToList();
+            var eventsForBaseline = ParliamentaryState.GetEventsForElection(
+                dataService.PostElectionEvents ?? [], BaselineYear);
             var projected = SimulationPipeline.ProjectVoteShares(
                 ridings, baseline, polls, Config,
-                dataService.Demographics, trainingElections);
+                dataService.Demographics, trainingElections,
+                eventsForBaseline);
 
             var simConfig = Config with { PartyUncertainty = new Dictionary<Party, double>(PartyUncertainty) };
 

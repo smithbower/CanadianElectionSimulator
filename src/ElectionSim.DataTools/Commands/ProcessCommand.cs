@@ -48,8 +48,16 @@ public static class ProcessCommand
         }
 
         // Parse all available years
-        var (ridings2025, results2025) = ProcessElectionCsv(csv2025, 2025);
+        var (ridings2025, results2025, winners2025) = ProcessElectionCsv(csv2025, 2025);
         Console.WriteLine($"  2025: {ridings2025.Count} ridings, {results2025.Count} results");
+
+        // Collect MP data: start with 2025
+        var allMps = new List<RidingMp>();
+        foreach (var (ridingId, (name, party)) in winners2025)
+        {
+            if (name != null)
+                allMps.Add(new RidingMp(ridingId, 2025, name, party));
+        }
 
         // Build name-based lookup for riding mapping
         var nameToRidingId = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
@@ -69,11 +77,51 @@ public static class ProcessCommand
                 continue;
             }
 
-            var (ridingsForYear, resultsForYear) = ProcessElectionCsv(csvPath, year);
+            var (ridingsForYear, resultsForYear, winnersForYear) = ProcessElectionCsv(csvPath, year);
             Console.WriteLine($"  {year}: {ridingsForYear.Count} ridings, {resultsForYear.Count} results");
-            var mapped = MapResultsToCurrentRidings(resultsForYear, ridingsForYear, nameToRidingId, ridings2025, year);
+            var (mapped, singleMappedIds) = MapResultsToCurrentRidings(resultsForYear, ridingsForYear, nameToRidingId, ridings2025, year);
             Console.WriteLine($"  {year} mapped: {mapped.Count} results to 2025 riding IDs");
             mappedResultsByYear[year] = mapped;
+
+            // Emit MP entries for ridings with a name match (exact or prefix).
+            // Do NOT fall back to numeric ID matching — after a redistribution the same ID
+            // can refer to a completely different riding (e.g. 59016 was Langley--Aldergrove
+            // in 2021 but Kelowna in 2025).
+            foreach (var (oldRidingId, (name, party)) in winnersForYear)
+            {
+                if (name == null) continue;
+                int? currentId = null;
+                if (ridingsForYear.TryGetValue(oldRidingId, out var oldRiding))
+                {
+                    var normalized = NormalizeName(oldRiding.Name);
+                    // 1) Exact name match
+                    if (nameToRidingId.TryGetValue(normalized, out int matchedId))
+                    {
+                        currentId = matchedId;
+                    }
+                    else
+                    {
+                        // 2) Prefix match: "kelowna lake country" starts with "kelowna",
+                        //    or "kelowna" starts with "kelowna lake country".
+                        //    Pick the longest matching name to avoid short-prefix false positives.
+                        string? bestMatch = null;
+                        foreach (var currentName in nameToRidingId.Keys)
+                        {
+                            if (normalized.StartsWith(currentName, StringComparison.OrdinalIgnoreCase)
+                                || currentName.StartsWith(normalized, StringComparison.OrdinalIgnoreCase))
+                            {
+                                if (bestMatch == null || currentName.Length > bestMatch.Length)
+                                    bestMatch = currentName;
+                            }
+                        }
+                        if (bestMatch != null)
+                            currentId = nameToRidingId[bestMatch];
+                    }
+                }
+
+                if (currentId != null && singleMappedIds.Contains(currentId.Value))
+                    allMps.Add(new RidingMp(currentId.Value, year, name, party));
+            }
         }
 
         // Generate polling.json from 2025 regional averages
@@ -105,12 +153,27 @@ public static class ProcessCommand
             await File.WriteAllTextAsync(
                 Path.Combine(dir, "polling.json"),
                 JsonSerializer.Serialize(polling, JsonOptions));
+
+            await File.WriteAllTextAsync(
+                Path.Combine(dir, "riding-mps.json"),
+                JsonSerializer.Serialize(allMps.OrderBy(m => m.RidingId).ThenByDescending(m => m.Year), JsonOptions));
+        }
+
+        Console.WriteLine($"  Generated riding-mps.json with {allMps.Count} MP entries");
+
+        // Copy post-election-events.json if it exists in wwwroot/data/ (hand-curated)
+        var eventsSource = Path.Combine(wwwrootDataDir, "post-election-events.json");
+        if (File.Exists(eventsSource))
+        {
+            var eventsDest = Path.Combine(processedDir, "post-election-events.json");
+            File.Copy(eventsSource, eventsDest, overwrite: true);
+            Console.WriteLine("  Copied post-election-events.json to processed/");
         }
 
         Console.WriteLine("Processing complete. Files written to processed/ and wwwroot/data/.");
     }
 
-    private static (Dictionary<int, Riding> Ridings, List<RidingResult> Results) ProcessElectionCsv(string csvPath, int year)
+    private static (Dictionary<int, Riding> Ridings, List<RidingResult> Results, Dictionary<int, (string? Name, Party Party)> Winners) ProcessElectionCsv(string csvPath, int year)
     {
         var config = new CsvConfiguration(CultureInfo.InvariantCulture)
         {
@@ -123,7 +186,7 @@ public static class ProcessCommand
         using var csv = new CsvReader(reader, config);
 
         var ridings = new Dictionary<int, Riding>();
-        var candidatesByRiding = new Dictionary<int, List<CandidateResult>>();
+        var candidatesByRiding = new Dictionary<int, List<(CandidateResult Result, string? Name)>>();
 
         csv.Read();
         csv.ReadHeader();
@@ -148,6 +211,7 @@ public static class ProcessCommand
             // Candidate field contains party: "Paul Connors Liberal/Libéral"
             var candidateField = csv.GetField(3) ?? "";
             var party = ExtractParty(candidateField);
+            var candidateName = ExtractCandidateName(candidateField);
 
             // Votes
             var votesStr = csv.GetField(6) ?? "0";
@@ -161,35 +225,73 @@ public static class ProcessCommand
 
             if (!candidatesByRiding.TryGetValue(ridingId, out var candidates))
             {
-                candidates = new List<CandidateResult>();
+                candidates = new List<(CandidateResult, string?)>();
                 candidatesByRiding[ridingId] = candidates;
             }
 
             // Aggregate votes by party within each riding (some ridings have multiple independents etc.)
-            var existing = candidates.FindIndex(c => c.Party == party);
+            var existing = candidates.FindIndex(c => c.Result.Party == party);
             if (existing >= 0)
             {
-                candidates[existing] = new CandidateResult(party, candidates[existing].Votes + votes, 0);
+                var prev = candidates[existing];
+                candidates[existing] = (new CandidateResult(party, prev.Result.Votes + votes, 0), prev.Name ?? candidateName);
             }
             else
             {
-                candidates.Add(new CandidateResult(party, votes, 0));
+                candidates.Add((new CandidateResult(party, votes, 0), candidateName));
             }
         }
 
-        // Calculate vote shares
+        // Calculate vote shares and determine winners
         var results = new List<RidingResult>();
+        var winners = new Dictionary<int, (string? Name, Party Party)>();
         foreach (var (ridingId, candidates) in candidatesByRiding)
         {
-            int totalVotes = candidates.Sum(c => c.Votes);
+            int totalVotes = candidates.Sum(c => c.Result.Votes);
             var withShares = candidates
-                .Select(c => new CandidateResult(c.Party, c.Votes, totalVotes > 0 ? (double)c.Votes / totalVotes : 0))
-                .OrderByDescending(c => c.Votes)
+                .Select(c => (Result: new CandidateResult(c.Result.Party, c.Result.Votes, totalVotes > 0 ? (double)c.Result.Votes / totalVotes : 0), c.Name))
+                .OrderByDescending(c => c.Result.Votes)
                 .ToList();
-            results.Add(new RidingResult(ridingId, year, withShares, totalVotes));
+            results.Add(new RidingResult(ridingId, year, withShares.Select(c => c.Result).ToList(), totalVotes));
+
+            var winner = withShares.First();
+            winners[ridingId] = (winner.Name, winner.Result.Party);
         }
 
-        return (ridings, results.OrderBy(r => r.RidingId).ToList());
+        return (ridings, results.OrderBy(r => r.RidingId).ToList(), winners);
+    }
+
+    private static string? ExtractCandidateName(string candidateField)
+    {
+        // Remove incumbent marker "**" and trim
+        var field = candidateField.Replace("**", "").Trim();
+
+        // Try known suffixes to find where the name ends
+        foreach (var (suffix, _) in PartySuffixes)
+        {
+            if (field.EndsWith(suffix, StringComparison.OrdinalIgnoreCase))
+            {
+                var name = field[..^suffix.Length].Trim();
+                return string.IsNullOrWhiteSpace(name) ? null : name;
+            }
+        }
+
+        // Fallback: try keyword-based extraction for less common formats
+        var lower = field.ToLowerInvariant();
+        string[] keywords = ["liberal/libéral", "conservative/conservateur", "ndp", "new democratic",
+            "bloc québécois", "green party", "parti vert", "people's party", "parti populaire"];
+        foreach (var kw in keywords)
+        {
+            var idx = lower.IndexOf(kw, StringComparison.Ordinal);
+            if (idx > 0)
+            {
+                var name = field[..idx].Trim();
+                return string.IsNullOrWhiteSpace(name) ? null : name;
+            }
+        }
+
+        // Party.Other — can't reliably extract name
+        return null;
     }
 
     private static Party ExtractParty(string candidateField)
@@ -282,7 +384,7 @@ public static class ProcessCommand
         return true;
     }
 
-    private static List<RidingResult> MapResultsToCurrentRidings(
+    private static (List<RidingResult> Results, HashSet<int> SingleMappedIds) MapResultsToCurrentRidings(
         List<RidingResult> oldResults,
         Dictionary<int, Riding> oldRidings,
         Dictionary<string, int> nameToCurrentId,
@@ -290,30 +392,44 @@ public static class ProcessCommand
         int year)
     {
         // Map old results to current (2025) riding IDs
-        // Strategy: 1) exact name match, 2) same ID if it exists in 2025, 3) skip
+        // Strategy: 1) exact name match, 2) prefix name match, 3) skip
+        // Do NOT fall back to numeric ID — after redistribution the same ID can be
+        // a completely different riding.
         var mappedByRiding = new Dictionary<int, List<(RidingResult Result, int Weight)>>();
-        int nameMatches = 0, idMatches = 0, skipped = 0;
+        int nameMatches = 0, prefixMatches = 0, skipped = 0;
 
         foreach (var result in oldResults)
         {
             int? targetId = null;
 
-            // Try name match first
             if (oldRidings.TryGetValue(result.RidingId, out var oldRiding))
             {
                 var normalized = NormalizeName(oldRiding.Name);
+                // 1) Exact name match
                 if (nameToCurrentId.TryGetValue(normalized, out int matchedId))
                 {
                     targetId = matchedId;
                     nameMatches++;
                 }
-            }
-
-            // Fall back to same ID
-            if (targetId == null && currentRidings.ContainsKey(result.RidingId))
-            {
-                targetId = result.RidingId;
-                idMatches++;
+                else
+                {
+                    // 2) Prefix match (e.g. "joliette" ↔ "joliette manawan")
+                    string? bestMatch = null;
+                    foreach (var currentName in nameToCurrentId.Keys)
+                    {
+                        if (normalized.StartsWith(currentName, StringComparison.OrdinalIgnoreCase)
+                            || currentName.StartsWith(normalized, StringComparison.OrdinalIgnoreCase))
+                        {
+                            if (bestMatch == null || currentName.Length > bestMatch.Length)
+                                bestMatch = currentName;
+                        }
+                    }
+                    if (bestMatch != null)
+                    {
+                        targetId = nameToCurrentId[bestMatch];
+                        prefixMatches++;
+                    }
+                }
             }
 
             if (targetId == null)
@@ -330,7 +446,10 @@ public static class ProcessCommand
             list.Add((result, result.TotalVotes));
         }
 
-        Console.WriteLine($"    Mapping: {nameMatches} name matches, {idMatches} ID fallbacks, {skipped} skipped");
+        Console.WriteLine($"    Mapping: {nameMatches} name matches, {prefixMatches} prefix matches, {skipped} skipped");
+
+        // Track which current riding IDs have a 1:1 mapping (riding existed in its current form)
+        var singleMappedIds = new HashSet<int>();
 
         // Build final results: if multiple old ridings map to one new riding, average vote shares weighted by total votes
         var finalResults = new List<RidingResult>();
@@ -340,6 +459,7 @@ public static class ProcessCommand
             {
                 var r = mappings[0].Result;
                 finalResults.Add(new RidingResult(ridingId, year, r.Candidates, r.TotalVotes));
+                singleMappedIds.Add(ridingId);
             }
             else
             {
@@ -372,7 +492,7 @@ public static class ProcessCommand
             }
         }
 
-        return finalResults.OrderBy(r => r.RidingId).ToList();
+        return (finalResults.OrderBy(r => r.RidingId).ToList(), singleMappedIds);
     }
 
     private static List<RegionalPoll> GeneratePollingFromResults(

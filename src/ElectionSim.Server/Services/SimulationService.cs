@@ -26,6 +26,7 @@ public class SimulationService
     private List<RidingResult>? _results2021;
     private List<RidingResult>? _results2015;
     private List<RegionalPoll>? _polling;
+    private List<PostElectionEvent>? _postElectionEvents;
 
     public SimulationService(IWebHostEnvironment env)
     {
@@ -50,6 +51,7 @@ public class SimulationService
         _results2021 = await LoadJsonAsync<List<RidingResult>>("results-2021.json");
         _results2015 = await LoadJsonAsync<List<RidingResult>>("results-2015.json");
         _polling = await LoadJsonAsync<List<RegionalPoll>>("polling.json");
+        _postElectionEvents = await LoadJsonAsync<List<PostElectionEvent>>("post-election-events.json") ?? [];
     }
 
     private async Task<T?> LoadJsonAsync<T>(string filename) where T : class
@@ -96,7 +98,11 @@ public class SimulationService
         );
 
         var polls = polling.Select(kv => new RegionalPoll(kv.Key, kv.Value)).ToList();
-        var projected = SimulationPipeline.ProjectVoteShares(_ridings, baseline, polls, config);
+        var eventsForBaseline = ParliamentaryState.GetEventsForElection(
+            _postElectionEvents ?? [], baselineYear);
+        var projected = SimulationPipeline.ProjectVoteShares(
+            _ridings, baseline, polls, config,
+            postElectionEvents: eventsForBaseline);
 
         var simulator = new MonteCarloSimulator(_ridings, projected);
         var results = simulator.Run(config);

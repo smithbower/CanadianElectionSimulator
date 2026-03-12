@@ -1,0 +1,9362 @@
+[
+  {
+    "ridingId": 10001,
+    "year": 2025,
+    "name": "Paul Connors",
+    "party": 0
+  },
+  {
+    "ridingId": 10001,
+    "year": 2021,
+    "name": "Ken McDonald",
+    "party": 0
+  },
+  {
+    "ridingId": 10001,
+    "year": 2019,
+    "name": "Kenneth McDonald",
+    "party": 0
+  },
+  {
+    "ridingId": 10001,
+    "year": 2015,
+    "name": "Ken McDonald",
+    "party": 0
+  },
+  {
+    "ridingId": 10001,
+    "year": 2011,
+    "name": "Scott Andrews",
+    "party": 0
+  },
+  {
+    "ridingId": 10001,
+    "year": 2008,
+    "name": "Scott Andrews",
+    "party": 0
+  },
+  {
+    "ridingId": 10002,
+    "year": 2025,
+    "name": "Tom Osborne",
+    "party": 0
+  },
+  {
+    "ridingId": 10003,
+    "year": 2025,
+    "name": "Clifford Small",
+    "party": 1
+  },
+  {
+    "ridingId": 10004,
+    "year": 2025,
+    "name": "Philip Earle",
+    "party": 0
+  },
+  {
+    "ridingId": 10004,
+    "year": 2021,
+    "name": "Yvonne Jones",
+    "party": 0
+  },
+  {
+    "ridingId": 10004,
+    "year": 2019,
+    "name": "Yvonne Jones",
+    "party": 0
+  },
+  {
+    "ridingId": 10004,
+    "year": 2015,
+    "name": "Yvonne Jones",
+    "party": 0
+  },
+  {
+    "ridingId": 10004,
+    "year": 2011,
+    "name": "Peter Penashue",
+    "party": 1
+  },
+  {
+    "ridingId": 10004,
+    "year": 2008,
+    "name": "Todd Russell",
+    "party": 0
+  },
+  {
+    "ridingId": 10005,
+    "year": 2025,
+    "name": "Carol Anstey",
+    "party": 1
+  },
+  {
+    "ridingId": 10005,
+    "year": 2021,
+    "name": "Gudie Hutchings",
+    "party": 0
+  },
+  {
+    "ridingId": 10005,
+    "year": 2019,
+    "name": "Gudie Hutchings",
+    "party": 0
+  },
+  {
+    "ridingId": 10005,
+    "year": 2015,
+    "name": "Gudie Hutchings",
+    "party": 0
+  },
+  {
+    "ridingId": 10006,
+    "year": 2025,
+    "name": "Joanne Thompson",
+    "party": 0
+  },
+  {
+    "ridingId": 10006,
+    "year": 2021,
+    "name": "Joanne Thompson",
+    "party": 0
+  },
+  {
+    "ridingId": 10006,
+    "year": 2019,
+    "name": "Jack Harris",
+    "party": 2
+  },
+  {
+    "ridingId": 10006,
+    "year": 2015,
+    "name": "Nick Whalen",
+    "party": 0
+  },
+  {
+    "ridingId": 10006,
+    "year": 2011,
+    "name": "Jack Harris",
+    "party": 2
+  },
+  {
+    "ridingId": 10006,
+    "year": 2008,
+    "name": "Jack Harris",
+    "party": 2
+  },
+  {
+    "ridingId": 10007,
+    "year": 2025,
+    "name": "Jonathan Rowe",
+    "party": 1
+  },
+  {
+    "ridingId": 11001,
+    "year": 2025,
+    "name": "Kent MacDonald",
+    "party": 0
+  },
+  {
+    "ridingId": 11001,
+    "year": 2021,
+    "name": "Lawrence MacAulay",
+    "party": 0
+  },
+  {
+    "ridingId": 11001,
+    "year": 2019,
+    "name": "Lawrence MacAulay",
+    "party": 0
+  },
+  {
+    "ridingId": 11001,
+    "year": 2015,
+    "name": "Lawrence MacAulay",
+    "party": 0
+  },
+  {
+    "ridingId": 11001,
+    "year": 2011,
+    "name": "Lawrence MacAulay",
+    "party": 0
+  },
+  {
+    "ridingId": 11001,
+    "year": 2008,
+    "name": "Lawrence MacAulay",
+    "party": 0
+  },
+  {
+    "ridingId": 11002,
+    "year": 2025,
+    "name": "Sean Casey",
+    "party": 0
+  },
+  {
+    "ridingId": 11002,
+    "year": 2021,
+    "name": "Sean Casey",
+    "party": 0
+  },
+  {
+    "ridingId": 11002,
+    "year": 2019,
+    "name": "Sean Casey",
+    "party": 0
+  },
+  {
+    "ridingId": 11002,
+    "year": 2015,
+    "name": "Sean Casey",
+    "party": 0
+  },
+  {
+    "ridingId": 11002,
+    "year": 2011,
+    "name": "Sean Casey",
+    "party": 0
+  },
+  {
+    "ridingId": 11002,
+    "year": 2008,
+    "name": "Shawn Murphy",
+    "party": 0
+  },
+  {
+    "ridingId": 11003,
+    "year": 2025,
+    "name": "Bobby Morrissey",
+    "party": 0
+  },
+  {
+    "ridingId": 11003,
+    "year": 2021,
+    "name": "Bobby Morrissey",
+    "party": 0
+  },
+  {
+    "ridingId": 11003,
+    "year": 2019,
+    "name": "Bobby Morrissey",
+    "party": 0
+  },
+  {
+    "ridingId": 11003,
+    "year": 2015,
+    "name": "Bobby Morrissey",
+    "party": 0
+  },
+  {
+    "ridingId": 11003,
+    "year": 2011,
+    "name": "Gail Shea",
+    "party": 1
+  },
+  {
+    "ridingId": 11003,
+    "year": 2008,
+    "name": "Gail Shea",
+    "party": 1
+  },
+  {
+    "ridingId": 11004,
+    "year": 2025,
+    "name": "Heath MacDonald",
+    "party": 0
+  },
+  {
+    "ridingId": 11004,
+    "year": 2021,
+    "name": "Heath MacDonald",
+    "party": 0
+  },
+  {
+    "ridingId": 11004,
+    "year": 2019,
+    "name": "Wayne Easter",
+    "party": 0
+  },
+  {
+    "ridingId": 11004,
+    "year": 2015,
+    "name": "Wayne Easter",
+    "party": 0
+  },
+  {
+    "ridingId": 11004,
+    "year": 2011,
+    "name": "Wayne Easter",
+    "party": 0
+  },
+  {
+    "ridingId": 11004,
+    "year": 2008,
+    "name": "Wayne Easter",
+    "party": 0
+  },
+  {
+    "ridingId": 12001,
+    "year": 2025,
+    "name": "Chris d\u0027Entremont",
+    "party": 1
+  },
+  {
+    "ridingId": 12002,
+    "year": 2025,
+    "name": "Jaime Battiste",
+    "party": 0
+  },
+  {
+    "ridingId": 12002,
+    "year": 2021,
+    "name": "Mike Kelloway",
+    "party": 0
+  },
+  {
+    "ridingId": 12002,
+    "year": 2019,
+    "name": "Mike Kelloway",
+    "party": 0
+  },
+  {
+    "ridingId": 12002,
+    "year": 2015,
+    "name": "Rodger Cuzner",
+    "party": 0
+  },
+  {
+    "ridingId": 12002,
+    "year": 2011,
+    "name": "Rodger Cuzner",
+    "party": 0
+  },
+  {
+    "ridingId": 12002,
+    "year": 2008,
+    "name": "Rodger Cuzner",
+    "party": 0
+  },
+  {
+    "ridingId": 12003,
+    "year": 2025,
+    "name": "Sean Fraser",
+    "party": 0
+  },
+  {
+    "ridingId": 12003,
+    "year": 2021,
+    "name": "Sean Fraser",
+    "party": 0
+  },
+  {
+    "ridingId": 12003,
+    "year": 2019,
+    "name": "Sean Fraser",
+    "party": 0
+  },
+  {
+    "ridingId": 12003,
+    "year": 2015,
+    "name": "Sean Fraser",
+    "party": 0
+  },
+  {
+    "ridingId": 12003,
+    "year": 2011,
+    "name": "Peter G. MacKay",
+    "party": 1
+  },
+  {
+    "ridingId": 12003,
+    "year": 2008,
+    "name": "Peter Gordon MacKay",
+    "party": 1
+  },
+  {
+    "ridingId": 12004,
+    "year": 2025,
+    "name": "Alana Hirtle",
+    "party": 0
+  },
+  {
+    "ridingId": 12004,
+    "year": 2021,
+    "name": "Stephen Ellis",
+    "party": 1
+  },
+  {
+    "ridingId": 12004,
+    "year": 2019,
+    "name": "Lenore Zann",
+    "party": 0
+  },
+  {
+    "ridingId": 12004,
+    "year": 2015,
+    "name": "Bill Casey",
+    "party": 0
+  },
+  {
+    "ridingId": 12004,
+    "year": 2011,
+    "name": "Scott Armstrong",
+    "party": 1
+  },
+  {
+    "ridingId": 12005,
+    "year": 2025,
+    "name": "Darren Fisher",
+    "party": 0
+  },
+  {
+    "ridingId": 12005,
+    "year": 2021,
+    "name": "Darren Fisher",
+    "party": 0
+  },
+  {
+    "ridingId": 12005,
+    "year": 2019,
+    "name": "Darren Fisher",
+    "party": 0
+  },
+  {
+    "ridingId": 12005,
+    "year": 2015,
+    "name": "Darren Fisher",
+    "party": 0
+  },
+  {
+    "ridingId": 12005,
+    "year": 2011,
+    "name": "Robert Chisholm",
+    "party": 2
+  },
+  {
+    "ridingId": 12005,
+    "year": 2008,
+    "name": "Michael John Savage",
+    "party": 0
+  },
+  {
+    "ridingId": 12006,
+    "year": 2025,
+    "name": "Shannon Miedema",
+    "party": 0
+  },
+  {
+    "ridingId": 12006,
+    "year": 2021,
+    "name": "Andy Fillmore",
+    "party": 0
+  },
+  {
+    "ridingId": 12006,
+    "year": 2019,
+    "name": "Andy Fillmore",
+    "party": 0
+  },
+  {
+    "ridingId": 12006,
+    "year": 2015,
+    "name": "Andy Fillmore",
+    "party": 0
+  },
+  {
+    "ridingId": 12006,
+    "year": 2011,
+    "name": "Megan Leslie",
+    "party": 2
+  },
+  {
+    "ridingId": 12006,
+    "year": 2008,
+    "name": "Megan Leslie",
+    "party": 2
+  },
+  {
+    "ridingId": 12007,
+    "year": 2025,
+    "name": "Lena Metlege Diab",
+    "party": 0
+  },
+  {
+    "ridingId": 12007,
+    "year": 2021,
+    "name": "Lena Metlege Diab",
+    "party": 0
+  },
+  {
+    "ridingId": 12007,
+    "year": 2019,
+    "name": "Geoff Regan",
+    "party": 0
+  },
+  {
+    "ridingId": 12007,
+    "year": 2015,
+    "name": "Geoff Regan",
+    "party": 0
+  },
+  {
+    "ridingId": 12007,
+    "year": 2011,
+    "name": "Geoff Regan",
+    "party": 0
+  },
+  {
+    "ridingId": 12007,
+    "year": 2008,
+    "name": "Geoff Regan",
+    "party": 0
+  },
+  {
+    "ridingId": 12008,
+    "year": 2025,
+    "name": "Kody Blois",
+    "party": 0
+  },
+  {
+    "ridingId": 12008,
+    "year": 2021,
+    "name": "Kody Blois",
+    "party": 0
+  },
+  {
+    "ridingId": 12008,
+    "year": 2019,
+    "name": "Kody Blois",
+    "party": 0
+  },
+  {
+    "ridingId": 12008,
+    "year": 2015,
+    "name": "Scott Brison",
+    "party": 0
+  },
+  {
+    "ridingId": 12008,
+    "year": 2011,
+    "name": "Scott Brison",
+    "party": 0
+  },
+  {
+    "ridingId": 12008,
+    "year": 2008,
+    "name": "Scott Brison",
+    "party": 0
+  },
+  {
+    "ridingId": 12009,
+    "year": 2025,
+    "name": "Braedon Clark",
+    "party": 0
+  },
+  {
+    "ridingId": 12010,
+    "year": 2025,
+    "name": "Jessica Fancy-Landry",
+    "party": 0
+  },
+  {
+    "ridingId": 12010,
+    "year": 2021,
+    "name": "Rick Perkins",
+    "party": 1
+  },
+  {
+    "ridingId": 12010,
+    "year": 2019,
+    "name": "Bernadette Jordan",
+    "party": 0
+  },
+  {
+    "ridingId": 12010,
+    "year": 2015,
+    "name": "Bernadette Jordan",
+    "party": 0
+  },
+  {
+    "ridingId": 12011,
+    "year": 2025,
+    "name": "Mike Kelloway",
+    "party": 0
+  },
+  {
+    "ridingId": 13001,
+    "year": 2025,
+    "name": "Serge Cormier",
+    "party": 0
+  },
+  {
+    "ridingId": 13001,
+    "year": 2021,
+    "name": "Serge Cormier",
+    "party": 0
+  },
+  {
+    "ridingId": 13001,
+    "year": 2019,
+    "name": "Serge Cormier",
+    "party": 0
+  },
+  {
+    "ridingId": 13001,
+    "year": 2015,
+    "name": "Serge Cormier",
+    "party": 0
+  },
+  {
+    "ridingId": 13001,
+    "year": 2011,
+    "name": "Yvon Godin",
+    "party": 2
+  },
+  {
+    "ridingId": 13001,
+    "year": 2008,
+    "name": "Yvon Godin",
+    "party": 2
+  },
+  {
+    "ridingId": 13002,
+    "year": 2025,
+    "name": "Dominic LeBlanc",
+    "party": 0
+  },
+  {
+    "ridingId": 13002,
+    "year": 2021,
+    "name": "Dominic LeBlanc",
+    "party": 0
+  },
+  {
+    "ridingId": 13002,
+    "year": 2019,
+    "name": "Dominic LeBlanc",
+    "party": 0
+  },
+  {
+    "ridingId": 13002,
+    "year": 2015,
+    "name": "Dominic LeBlanc",
+    "party": 0
+  },
+  {
+    "ridingId": 13002,
+    "year": 2011,
+    "name": "Dominic LeBlanc",
+    "party": 0
+  },
+  {
+    "ridingId": 13002,
+    "year": 2008,
+    "name": "Dominic LeBlanc",
+    "party": 0
+  },
+  {
+    "ridingId": 13003,
+    "year": 2025,
+    "name": "David Myles",
+    "party": 0
+  },
+  {
+    "ridingId": 13003,
+    "year": 2021,
+    "name": "Jenica Atwin",
+    "party": 0
+  },
+  {
+    "ridingId": 13003,
+    "year": 2019,
+    "name": "Jenica Atwin",
+    "party": 4
+  },
+  {
+    "ridingId": 13003,
+    "year": 2015,
+    "name": "Matt DeCourcey",
+    "party": 0
+  },
+  {
+    "ridingId": 13003,
+    "year": 2011,
+    "name": "Keith Ashfield",
+    "party": 1
+  },
+  {
+    "ridingId": 13003,
+    "year": 2008,
+    "name": "Keith Ashfield",
+    "party": 1
+  },
+  {
+    "ridingId": 13004,
+    "year": 2025,
+    "name": "Rob Moore",
+    "party": 1
+  },
+  {
+    "ridingId": 13004,
+    "year": 2021,
+    "name": "Rob Moore",
+    "party": 1
+  },
+  {
+    "ridingId": 13004,
+    "year": 2019,
+    "name": "Rob Moore",
+    "party": 1
+  },
+  {
+    "ridingId": 13004,
+    "year": 2015,
+    "name": "Alaina Lockhart",
+    "party": 0
+  },
+  {
+    "ridingId": 13004,
+    "year": 2011,
+    "name": "Rob Moore",
+    "party": 1
+  },
+  {
+    "ridingId": 13004,
+    "year": 2008,
+    "name": "Rob Moore",
+    "party": 1
+  },
+  {
+    "ridingId": 13005,
+    "year": 2025,
+    "name": "Guillaume Desch\u00EAnes-Th\u00E9riault",
+    "party": 0
+  },
+  {
+    "ridingId": 13005,
+    "year": 2021,
+    "name": "Ren\u00E9 Arseneault",
+    "party": 0
+  },
+  {
+    "ridingId": 13005,
+    "year": 2019,
+    "name": "Ren\u00E9 Arseneault",
+    "party": 0
+  },
+  {
+    "ridingId": 13005,
+    "year": 2015,
+    "name": "Ren\u00E9 Arseneault",
+    "party": 0
+  },
+  {
+    "ridingId": 13005,
+    "year": 2011,
+    "name": "Bernard Valcourt",
+    "party": 1
+  },
+  {
+    "ridingId": 13005,
+    "year": 2008,
+    "name": "Jean-Claude JC D\u0027Amours",
+    "party": 0
+  },
+  {
+    "ridingId": 13006,
+    "year": 2025,
+    "name": "Mike Dawson",
+    "party": 1
+  },
+  {
+    "ridingId": 13006,
+    "year": 2021,
+    "name": "Jake Stewart",
+    "party": 1
+  },
+  {
+    "ridingId": 13006,
+    "year": 2019,
+    "name": "Pat Finnigan",
+    "party": 0
+  },
+  {
+    "ridingId": 13006,
+    "year": 2015,
+    "name": "Pat Finnigan",
+    "party": 0
+  },
+  {
+    "ridingId": 13006,
+    "year": 2011,
+    "name": "Tilly O\u0027Neill Gordon",
+    "party": 1
+  },
+  {
+    "ridingId": 13006,
+    "year": 2008,
+    "name": "Tilly O\u0027Neill-Gordon",
+    "party": 1
+  },
+  {
+    "ridingId": 13007,
+    "year": 2025,
+    "name": "Ginette Petitpas Taylor",
+    "party": 0
+  },
+  {
+    "ridingId": 13008,
+    "year": 2025,
+    "name": "Wayne Long",
+    "party": 0
+  },
+  {
+    "ridingId": 13008,
+    "year": 2011,
+    "name": "Rodney Weston",
+    "party": 1
+  },
+  {
+    "ridingId": 13008,
+    "year": 2008,
+    "name": "Rodney Weston",
+    "party": 1
+  },
+  {
+    "ridingId": 13009,
+    "year": 2025,
+    "name": "John Williamson",
+    "party": 1
+  },
+  {
+    "ridingId": 13010,
+    "year": 2025,
+    "name": "Richard Bragdon",
+    "party": 1
+  },
+  {
+    "ridingId": 13010,
+    "year": 2021,
+    "name": "Richard Bragdon",
+    "party": 1
+  },
+  {
+    "ridingId": 13010,
+    "year": 2019,
+    "name": "Richard Bragdon",
+    "party": 1
+  },
+  {
+    "ridingId": 13010,
+    "year": 2015,
+    "name": "TJ Harvey",
+    "party": 0
+  },
+  {
+    "ridingId": 13010,
+    "year": 2011,
+    "name": "Mike Allen",
+    "party": 1
+  },
+  {
+    "ridingId": 13010,
+    "year": 2008,
+    "name": "Mike Allen",
+    "party": 1
+  },
+  {
+    "ridingId": 24001,
+    "year": 2025,
+    "name": "Mandy Gull-Masty",
+    "party": 0
+  },
+  {
+    "ridingId": 24001,
+    "year": 2021,
+    "name": "Sylvie B\u00E9rub\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24001,
+    "year": 2019,
+    "name": "Sylvie B\u00E9rub\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24001,
+    "year": 2015,
+    "name": "Romeo Saganash",
+    "party": 2
+  },
+  {
+    "ridingId": 24001,
+    "year": 2011,
+    "name": "Romeo Saganash",
+    "party": 2
+  },
+  {
+    "ridingId": 24001,
+    "year": 2008,
+    "name": "Yvon L\u00E9vesque",
+    "party": 3
+  },
+  {
+    "ridingId": 24002,
+    "year": 2025,
+    "name": "S\u00E9bastien Lemire",
+    "party": 3
+  },
+  {
+    "ridingId": 24002,
+    "year": 2021,
+    "name": "S\u00E9bastien Lemire",
+    "party": 3
+  },
+  {
+    "ridingId": 24002,
+    "year": 2019,
+    "name": "S\u00E9bastien Lemire",
+    "party": 3
+  },
+  {
+    "ridingId": 24002,
+    "year": 2015,
+    "name": "Christine Moore",
+    "party": 2
+  },
+  {
+    "ridingId": 24002,
+    "year": 2011,
+    "name": "Christine Moore",
+    "party": 2
+  },
+  {
+    "ridingId": 24002,
+    "year": 2008,
+    "name": "Marc Lemay",
+    "party": 3
+  },
+  {
+    "ridingId": 24003,
+    "year": 2025,
+    "name": "M\u00E9lanie Joly",
+    "party": 0
+  },
+  {
+    "ridingId": 24003,
+    "year": 2021,
+    "name": "M\u00E9lanie Joly",
+    "party": 0
+  },
+  {
+    "ridingId": 24003,
+    "year": 2019,
+    "name": "M\u00E9lanie Joly",
+    "party": 0
+  },
+  {
+    "ridingId": 24003,
+    "year": 2015,
+    "name": "M\u00E9lanie Joly",
+    "party": 0
+  },
+  {
+    "ridingId": 24003,
+    "year": 2011,
+    "name": "Maria Mourani",
+    "party": 3
+  },
+  {
+    "ridingId": 24003,
+    "year": 2008,
+    "name": "Maria Mourani",
+    "party": 3
+  },
+  {
+    "ridingId": 24004,
+    "year": 2025,
+    "name": "Angelo Iacono",
+    "party": 0
+  },
+  {
+    "ridingId": 24004,
+    "year": 2021,
+    "name": "Angelo Iacono",
+    "party": 0
+  },
+  {
+    "ridingId": 24004,
+    "year": 2019,
+    "name": "Angelo Iacono",
+    "party": 0
+  },
+  {
+    "ridingId": 24004,
+    "year": 2015,
+    "name": "Angelo Iacono",
+    "party": 0
+  },
+  {
+    "ridingId": 24004,
+    "year": 2011,
+    "name": "Rosane Dor\u00E9 Lefebvre",
+    "party": 2
+  },
+  {
+    "ridingId": 24004,
+    "year": 2008,
+    "name": "Robert Carrier",
+    "party": 3
+  },
+  {
+    "ridingId": 24005,
+    "year": 2025,
+    "name": "St\u00E9phane Lauzon",
+    "party": 0
+  },
+  {
+    "ridingId": 24005,
+    "year": 2021,
+    "name": "St\u00E9phane Lauzon",
+    "party": 0
+  },
+  {
+    "ridingId": 24005,
+    "year": 2019,
+    "name": "St\u00E9phane Lauzon",
+    "party": 0
+  },
+  {
+    "ridingId": 24005,
+    "year": 2015,
+    "name": "St\u00E9phane Lauzon",
+    "party": 0
+  },
+  {
+    "ridingId": 24006,
+    "year": 2025,
+    "name": "Jason Groleau",
+    "party": 1
+  },
+  {
+    "ridingId": 24006,
+    "year": 2021,
+    "name": "Richard Lehoux",
+    "party": 1
+  },
+  {
+    "ridingId": 24006,
+    "year": 2019,
+    "name": "Richard Lehoux",
+    "party": 1
+  },
+  {
+    "ridingId": 24006,
+    "year": 2015,
+    "name": "Maxime Bernier",
+    "party": 1
+  },
+  {
+    "ridingId": 24006,
+    "year": 2011,
+    "name": "Maxime Bernier",
+    "party": 1
+  },
+  {
+    "ridingId": 24006,
+    "year": 2008,
+    "name": "Maxime Bernier",
+    "party": 1
+  },
+  {
+    "ridingId": 24007,
+    "year": 2025,
+    "name": "Claude Debellefeuille",
+    "party": 3
+  },
+  {
+    "ridingId": 24007,
+    "year": 2011,
+    "name": "Anne Minh-Thu Quach",
+    "party": 2
+  },
+  {
+    "ridingId": 24007,
+    "year": 2008,
+    "name": "Claude Debellefeuille",
+    "party": 3
+  },
+  {
+    "ridingId": 24008,
+    "year": 2025,
+    "name": "Steeve Lavoie",
+    "party": 0
+  },
+  {
+    "ridingId": 24008,
+    "year": 2021,
+    "name": "Julie Vignola",
+    "party": 3
+  },
+  {
+    "ridingId": 24008,
+    "year": 2019,
+    "name": "Julie Vignola",
+    "party": 3
+  },
+  {
+    "ridingId": 24008,
+    "year": 2015,
+    "name": "Alupa Clarke",
+    "party": 1
+  },
+  {
+    "ridingId": 24008,
+    "year": 2011,
+    "name": "Raymond C\u00F4t\u00E9",
+    "party": 2
+  },
+  {
+    "ridingId": 24008,
+    "year": 2008,
+    "name": "Sylvie Boucher",
+    "party": 1
+  },
+  {
+    "ridingId": 24009,
+    "year": 2025,
+    "name": "Louis Plamondon",
+    "party": 3
+  },
+  {
+    "ridingId": 24009,
+    "year": 2021,
+    "name": "Louis Plamondon",
+    "party": 3
+  },
+  {
+    "ridingId": 24009,
+    "year": 2019,
+    "name": "Louis Plamondon",
+    "party": 3
+  },
+  {
+    "ridingId": 24009,
+    "year": 2015,
+    "name": "Louis Plamondon",
+    "party": 3
+  },
+  {
+    "ridingId": 24010,
+    "year": 2025,
+    "name": "Dominique Vien",
+    "party": 1
+  },
+  {
+    "ridingId": 24010,
+    "year": 2021,
+    "name": "Dominique Vien",
+    "party": 1
+  },
+  {
+    "ridingId": 24010,
+    "year": 2019,
+    "name": "Steven Blaney",
+    "party": 1
+  },
+  {
+    "ridingId": 24010,
+    "year": 2015,
+    "name": "Steven Blaney",
+    "party": 1
+  },
+  {
+    "ridingId": 24011,
+    "year": 2025,
+    "name": "Yves-Fran\u00E7ois Blanchet",
+    "party": 3
+  },
+  {
+    "ridingId": 24011,
+    "year": 2021,
+    "name": "Yves-Fran\u00E7ois Blanchet",
+    "party": 3
+  },
+  {
+    "ridingId": 24011,
+    "year": 2019,
+    "name": "Yves-Fran\u00E7ois Blanchet",
+    "party": 3
+  },
+  {
+    "ridingId": 24011,
+    "year": 2015,
+    "name": "Matthew Dub\u00E9",
+    "party": 2
+  },
+  {
+    "ridingId": 24012,
+    "year": 2025,
+    "name": "Yves Perron",
+    "party": 3
+  },
+  {
+    "ridingId": 24012,
+    "year": 2021,
+    "name": "Yves Perron",
+    "party": 3
+  },
+  {
+    "ridingId": 24012,
+    "year": 2019,
+    "name": "Yves Perron",
+    "party": 3
+  },
+  {
+    "ridingId": 24012,
+    "year": 2015,
+    "name": "Ruth Ellen Brosseau",
+    "party": 2
+  },
+  {
+    "ridingId": 24012,
+    "year": 2011,
+    "name": "Ruth Ellen Brosseau",
+    "party": 2
+  },
+  {
+    "ridingId": 24012,
+    "year": 2008,
+    "name": "Guy Andr\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24013,
+    "year": 2025,
+    "name": "Abdelhaq Sari",
+    "party": 0
+  },
+  {
+    "ridingId": 24013,
+    "year": 2021,
+    "name": "Emmanuel Dubourg",
+    "party": 0
+  },
+  {
+    "ridingId": 24013,
+    "year": 2019,
+    "name": "Emmanuel Dubourg",
+    "party": 0
+  },
+  {
+    "ridingId": 24013,
+    "year": 2015,
+    "name": "Emmanuel Dubourg",
+    "party": 0
+  },
+  {
+    "ridingId": 24013,
+    "year": 2011,
+    "name": "Denis Coderre",
+    "party": 0
+  },
+  {
+    "ridingId": 24013,
+    "year": 2008,
+    "name": "Denis Coderre",
+    "party": 0
+  },
+  {
+    "ridingId": 24014,
+    "year": 2025,
+    "name": "Louis Villeneuve",
+    "party": 0
+  },
+  {
+    "ridingId": 24014,
+    "year": 2021,
+    "name": "Pascale St-Onge",
+    "party": 0
+  },
+  {
+    "ridingId": 24014,
+    "year": 2019,
+    "name": "Lyne Bessette",
+    "party": 0
+  },
+  {
+    "ridingId": 24014,
+    "year": 2015,
+    "name": "Denis Paradis",
+    "party": 0
+  },
+  {
+    "ridingId": 24014,
+    "year": 2011,
+    "name": "Pierre Jacob",
+    "party": 2
+  },
+  {
+    "ridingId": 24014,
+    "year": 2008,
+    "name": "Christian Ouellet",
+    "party": 3
+  },
+  {
+    "ridingId": 24015,
+    "year": 2025,
+    "name": "Alexandra Mend\u00E8s",
+    "party": 0
+  },
+  {
+    "ridingId": 24015,
+    "year": 2021,
+    "name": "Alexandra Mend\u00E8s",
+    "party": 0
+  },
+  {
+    "ridingId": 24015,
+    "year": 2019,
+    "name": "Alexandra Mend\u00E8s",
+    "party": 0
+  },
+  {
+    "ridingId": 24015,
+    "year": 2015,
+    "name": "Alexandra Mend\u00E8s",
+    "party": 0
+  },
+  {
+    "ridingId": 24016,
+    "year": 2025,
+    "name": "Pierre Paul-Hus",
+    "party": 1
+  },
+  {
+    "ridingId": 24016,
+    "year": 2021,
+    "name": "Pierre Paul-Hus",
+    "party": 1
+  },
+  {
+    "ridingId": 24016,
+    "year": 2019,
+    "name": "Pierre Paul-Hus",
+    "party": 1
+  },
+  {
+    "ridingId": 24016,
+    "year": 2015,
+    "name": "Pierre Paul-Hus",
+    "party": 1
+  },
+  {
+    "ridingId": 24016,
+    "year": 2011,
+    "name": "Anne-Marie Day",
+    "party": 2
+  },
+  {
+    "ridingId": 24016,
+    "year": 2008,
+    "name": "Daniel Petit",
+    "party": 1
+  },
+  {
+    "ridingId": 24017,
+    "year": 2025,
+    "name": "Nathalie Provost",
+    "party": 0
+  },
+  {
+    "ridingId": 24018,
+    "year": 2025,
+    "name": "Richard Martel",
+    "party": 1
+  },
+  {
+    "ridingId": 24018,
+    "year": 2021,
+    "name": "Richard Martel",
+    "party": 1
+  },
+  {
+    "ridingId": 24018,
+    "year": 2019,
+    "name": "Richard Martel",
+    "party": 1
+  },
+  {
+    "ridingId": 24018,
+    "year": 2015,
+    "name": "Denis Lemieux",
+    "party": 0
+  },
+  {
+    "ridingId": 24018,
+    "year": 2011,
+    "name": "Dany Morin",
+    "party": 2
+  },
+  {
+    "ridingId": 24018,
+    "year": 2008,
+    "name": "Robert Bouchard",
+    "party": 3
+  },
+  {
+    "ridingId": 24019,
+    "year": 2025,
+    "name": "Marianne Dandurand",
+    "party": 0
+  },
+  {
+    "ridingId": 24019,
+    "year": 2021,
+    "name": "Marie-Claude Bibeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24019,
+    "year": 2019,
+    "name": "Marie-Claude Bibeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24019,
+    "year": 2015,
+    "name": "Marie-Claude Bibeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24019,
+    "year": 2011,
+    "name": "Jean Rousseau",
+    "party": 2
+  },
+  {
+    "ridingId": 24019,
+    "year": 2008,
+    "name": "France Bonsant",
+    "party": 3
+  },
+  {
+    "ridingId": 24020,
+    "year": 2025,
+    "name": "Bernard G\u00E9n\u00E9reux",
+    "party": 1
+  },
+  {
+    "ridingId": 24021,
+    "year": 2025,
+    "name": "Maril\u00E8ne Gill",
+    "party": 3
+  },
+  {
+    "ridingId": 24022,
+    "year": 2025,
+    "name": "Anju Dhillon",
+    "party": 0
+  },
+  {
+    "ridingId": 24022,
+    "year": 2021,
+    "name": "Anju Dhillon",
+    "party": 0
+  },
+  {
+    "ridingId": 24022,
+    "year": 2019,
+    "name": "Anju Dhillon",
+    "party": 0
+  },
+  {
+    "ridingId": 24022,
+    "year": 2015,
+    "name": "Anju Dhillon",
+    "party": 0
+  },
+  {
+    "ridingId": 24023,
+    "year": 2025,
+    "name": "Martin Champoux",
+    "party": 3
+  },
+  {
+    "ridingId": 24023,
+    "year": 2021,
+    "name": "Martin Champoux",
+    "party": 3
+  },
+  {
+    "ridingId": 24023,
+    "year": 2019,
+    "name": "Martin Champoux",
+    "party": 3
+  },
+  {
+    "ridingId": 24023,
+    "year": 2015,
+    "name": "Fran\u00E7ois Choquette",
+    "party": 2
+  },
+  {
+    "ridingId": 24023,
+    "year": 2011,
+    "name": "Fran\u00E7ois Choquette",
+    "party": 2
+  },
+  {
+    "ridingId": 24023,
+    "year": 2008,
+    "name": "Roger Pomerleau",
+    "party": 3
+  },
+  {
+    "ridingId": 24024,
+    "year": 2025,
+    "name": "Alexis Desch\u00EAnes",
+    "party": 3
+  },
+  {
+    "ridingId": 24024,
+    "year": 2021,
+    "name": "Diane Lebouthillier",
+    "party": 0
+  },
+  {
+    "ridingId": 24024,
+    "year": 2019,
+    "name": "Diane Lebouthillier",
+    "party": 0
+  },
+  {
+    "ridingId": 24024,
+    "year": 2015,
+    "name": "Diane Lebouthillier",
+    "party": 0
+  },
+  {
+    "ridingId": 24025,
+    "year": 2025,
+    "name": "Steven MacKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 24025,
+    "year": 2021,
+    "name": "Steven MacKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 24025,
+    "year": 2019,
+    "name": "Steven MacKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 24025,
+    "year": 2015,
+    "name": "Steven MacKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 24025,
+    "year": 2011,
+    "name": "Fran\u00E7oise Boivin",
+    "party": 2
+  },
+  {
+    "ridingId": 24025,
+    "year": 2008,
+    "name": "Richard Nadeau",
+    "party": 3
+  },
+  {
+    "ridingId": 24026,
+    "year": 2025,
+    "name": "Marie-Gabrielle M\u00E9nard",
+    "party": 0
+  },
+  {
+    "ridingId": 24026,
+    "year": 2021,
+    "name": "Soraya Martinez Ferrada",
+    "party": 0
+  },
+  {
+    "ridingId": 24026,
+    "year": 2019,
+    "name": "Soraya Martinez Ferrada",
+    "party": 0
+  },
+  {
+    "ridingId": 24026,
+    "year": 2015,
+    "name": "Marjolaine Boutin-Sweet",
+    "party": 2
+  },
+  {
+    "ridingId": 24026,
+    "year": 2011,
+    "name": "Marjolaine Boutin-Sweet",
+    "party": 2
+  },
+  {
+    "ridingId": 24026,
+    "year": 2008,
+    "name": "R\u00E9al M\u00E9nard",
+    "party": 3
+  },
+  {
+    "ridingId": 24027,
+    "year": 2025,
+    "name": "Eric St-Pierre",
+    "party": 0
+  },
+  {
+    "ridingId": 24027,
+    "year": 2021,
+    "name": "Pablo Rodriguez",
+    "party": 0
+  },
+  {
+    "ridingId": 24027,
+    "year": 2019,
+    "name": "Pablo Rodriguez",
+    "party": 0
+  },
+  {
+    "ridingId": 24027,
+    "year": 2015,
+    "name": "Pablo Rodriguez",
+    "party": 0
+  },
+  {
+    "ridingId": 24027,
+    "year": 2011,
+    "name": "Paulina Ayala",
+    "party": 2
+  },
+  {
+    "ridingId": 24027,
+    "year": 2008,
+    "name": "Pablo Rodriguez",
+    "party": 0
+  },
+  {
+    "ridingId": 24028,
+    "year": 2025,
+    "name": "Greg Fergus",
+    "party": 0
+  },
+  {
+    "ridingId": 24028,
+    "year": 2021,
+    "name": "Greg Fergus",
+    "party": 0
+  },
+  {
+    "ridingId": 24028,
+    "year": 2019,
+    "name": "Greg Fergus",
+    "party": 0
+  },
+  {
+    "ridingId": 24028,
+    "year": 2015,
+    "name": "Greg Fergus",
+    "party": 0
+  },
+  {
+    "ridingId": 24028,
+    "year": 2011,
+    "name": "Nycole Turmel",
+    "party": 2
+  },
+  {
+    "ridingId": 24028,
+    "year": 2008,
+    "name": "Marcel Proulx",
+    "party": 0
+  },
+  {
+    "ridingId": 24029,
+    "year": 2025,
+    "name": "Gabriel Ste-Marie",
+    "party": 3
+  },
+  {
+    "ridingId": 24029,
+    "year": 2021,
+    "name": "Gabriel Ste-Marie",
+    "party": 3
+  },
+  {
+    "ridingId": 24029,
+    "year": 2019,
+    "name": "Gabriel Ste-Marie",
+    "party": 3
+  },
+  {
+    "ridingId": 24029,
+    "year": 2015,
+    "name": "Gabriel Ste-Marie",
+    "party": 3
+  },
+  {
+    "ridingId": 24029,
+    "year": 2011,
+    "name": "Francine Raynault",
+    "party": 2
+  },
+  {
+    "ridingId": 24029,
+    "year": 2008,
+    "name": "Pierre Paquette",
+    "party": 3
+  },
+  {
+    "ridingId": 24030,
+    "year": 2025,
+    "name": "Mario Simard",
+    "party": 3
+  },
+  {
+    "ridingId": 24030,
+    "year": 2021,
+    "name": "Mario Simard",
+    "party": 3
+  },
+  {
+    "ridingId": 24030,
+    "year": 2019,
+    "name": "Mario Simard",
+    "party": 3
+  },
+  {
+    "ridingId": 24030,
+    "year": 2015,
+    "name": "Karine Trudel",
+    "party": 2
+  },
+  {
+    "ridingId": 24030,
+    "year": 2011,
+    "name": "Claude Patry",
+    "party": 2
+  },
+  {
+    "ridingId": 24030,
+    "year": 2008,
+    "name": "Jean-Pierre Blackburn",
+    "party": 1
+  },
+  {
+    "ridingId": 24031,
+    "year": 2025,
+    "name": "Mario Beaulieu",
+    "party": 3
+  },
+  {
+    "ridingId": 24031,
+    "year": 2021,
+    "name": "Mario Beaulieu",
+    "party": 3
+  },
+  {
+    "ridingId": 24031,
+    "year": 2019,
+    "name": "Mario Beaulieu",
+    "party": 3
+  },
+  {
+    "ridingId": 24031,
+    "year": 2015,
+    "name": "Mario Beaulieu",
+    "party": 3
+  },
+  {
+    "ridingId": 24031,
+    "year": 2011,
+    "name": "\u00C8ve P\u00E9clet",
+    "party": 2
+  },
+  {
+    "ridingId": 24031,
+    "year": 2008,
+    "name": "Francine Lalonde",
+    "party": 3
+  },
+  {
+    "ridingId": 24032,
+    "year": 2025,
+    "name": "Jacques Ramsay",
+    "party": 0
+  },
+  {
+    "ridingId": 24032,
+    "year": 2021,
+    "name": "Alain Therrien",
+    "party": 3
+  },
+  {
+    "ridingId": 24032,
+    "year": 2019,
+    "name": "Alain Therrien",
+    "party": 3
+  },
+  {
+    "ridingId": 24032,
+    "year": 2015,
+    "name": "Jean-Claude Poissant",
+    "party": 0
+  },
+  {
+    "ridingId": 24033,
+    "year": 2025,
+    "name": "Alexis Brunelle-Duceppe",
+    "party": 3
+  },
+  {
+    "ridingId": 24033,
+    "year": 2021,
+    "name": "Alexis Brunelle-Duceppe",
+    "party": 3
+  },
+  {
+    "ridingId": 24033,
+    "year": 2019,
+    "name": "Alexis Brunelle-Duceppe",
+    "party": 3
+  },
+  {
+    "ridingId": 24033,
+    "year": 2015,
+    "name": "Denis Lebel",
+    "party": 1
+  },
+  {
+    "ridingId": 24034,
+    "year": 2025,
+    "name": "Francis Scarpaleggia",
+    "party": 0
+  },
+  {
+    "ridingId": 24034,
+    "year": 2021,
+    "name": "Francis Scarpaleggia",
+    "party": 0
+  },
+  {
+    "ridingId": 24034,
+    "year": 2019,
+    "name": "Francis Scarpaleggia",
+    "party": 0
+  },
+  {
+    "ridingId": 24034,
+    "year": 2015,
+    "name": "Francis Scarpaleggia",
+    "party": 0
+  },
+  {
+    "ridingId": 24034,
+    "year": 2011,
+    "name": "Francis Scarpaleggia",
+    "party": 0
+  },
+  {
+    "ridingId": 24034,
+    "year": 2008,
+    "name": "Francis Scarpaleggia",
+    "party": 0
+  },
+  {
+    "ridingId": 24035,
+    "year": 2025,
+    "name": "Claude Guay",
+    "party": 0
+  },
+  {
+    "ridingId": 24035,
+    "year": 2021,
+    "name": "David Lametti",
+    "party": 0
+  },
+  {
+    "ridingId": 24035,
+    "year": 2019,
+    "name": "David Lametti",
+    "party": 0
+  },
+  {
+    "ridingId": 24035,
+    "year": 2015,
+    "name": "David Lametti",
+    "party": 0
+  },
+  {
+    "ridingId": 24035,
+    "year": 2011,
+    "name": "H\u00E9l\u00E8ne LeBlanc",
+    "party": 2
+  },
+  {
+    "ridingId": 24035,
+    "year": 2008,
+    "name": "Lise Zarac",
+    "party": 0
+  },
+  {
+    "ridingId": 24036,
+    "year": 2025,
+    "name": "Marie-H\u00E9l\u00E8ne Gaudreau",
+    "party": 3
+  },
+  {
+    "ridingId": 24036,
+    "year": 2021,
+    "name": "Marie-H\u00E9l\u00E8ne Gaudreau",
+    "party": 3
+  },
+  {
+    "ridingId": 24036,
+    "year": 2019,
+    "name": "Marie-H\u00E9l\u00E8ne Gaudreau",
+    "party": 3
+  },
+  {
+    "ridingId": 24036,
+    "year": 2015,
+    "name": "David Graham",
+    "party": 0
+  },
+  {
+    "ridingId": 24036,
+    "year": 2011,
+    "name": "Marc-Andr\u00E9 Morin",
+    "party": 2
+  },
+  {
+    "ridingId": 24036,
+    "year": 2008,
+    "name": "Johanne Deschamps",
+    "party": 3
+  },
+  {
+    "ridingId": 24037,
+    "year": 2025,
+    "name": "Steven Guilbeault",
+    "party": 0
+  },
+  {
+    "ridingId": 24037,
+    "year": 2021,
+    "name": "Steven Guilbeault",
+    "party": 0
+  },
+  {
+    "ridingId": 24037,
+    "year": 2019,
+    "name": "Steven Guilbeault",
+    "party": 0
+  },
+  {
+    "ridingId": 24037,
+    "year": 2015,
+    "name": "H\u00E9l\u00E8ne Laverdi\u00E8re",
+    "party": 2
+  },
+  {
+    "ridingId": 24037,
+    "year": 2011,
+    "name": "H\u00E9l\u00E8ne Laverdi\u00E8re",
+    "party": 2
+  },
+  {
+    "ridingId": 24037,
+    "year": 2008,
+    "name": "Gilles Duceppe",
+    "party": 3
+  },
+  {
+    "ridingId": 24038,
+    "year": 2025,
+    "name": "Fay\u00E7al El-Khoury",
+    "party": 0
+  },
+  {
+    "ridingId": 24038,
+    "year": 2021,
+    "name": "Fay\u00E7al El-Khoury",
+    "party": 0
+  },
+  {
+    "ridingId": 24038,
+    "year": 2019,
+    "name": "Fay\u00E7al EL-Khoury",
+    "party": 0
+  },
+  {
+    "ridingId": 24038,
+    "year": 2015,
+    "name": "Fay\u00E7al El-Khoury",
+    "party": 0
+  },
+  {
+    "ridingId": 24039,
+    "year": 2025,
+    "name": "Tim Watchorn",
+    "party": 0
+  },
+  {
+    "ridingId": 24040,
+    "year": 2025,
+    "name": "Jacques Gourde",
+    "party": 1
+  },
+  {
+    "ridingId": 24040,
+    "year": 2021,
+    "name": "Jacques Gourde",
+    "party": 1
+  },
+  {
+    "ridingId": 24040,
+    "year": 2019,
+    "name": "Jacques Gourde",
+    "party": 1
+  },
+  {
+    "ridingId": 24040,
+    "year": 2015,
+    "name": "Jacques Gourde",
+    "party": 1
+  },
+  {
+    "ridingId": 24041,
+    "year": 2025,
+    "name": "Sherry Romanado",
+    "party": 0
+  },
+  {
+    "ridingId": 24041,
+    "year": 2021,
+    "name": "Sherry Romanado",
+    "party": 0
+  },
+  {
+    "ridingId": 24041,
+    "year": 2019,
+    "name": "Sherry Romanado",
+    "party": 0
+  },
+  {
+    "ridingId": 24041,
+    "year": 2015,
+    "name": "Sherry Romanado",
+    "party": 0
+  },
+  {
+    "ridingId": 24042,
+    "year": 2025,
+    "name": "Natilien Joseph",
+    "party": 0
+  },
+  {
+    "ridingId": 24042,
+    "year": 2021,
+    "name": "Denis Trudel",
+    "party": 3
+  },
+  {
+    "ridingId": 24042,
+    "year": 2019,
+    "name": "Denis Trudel",
+    "party": 3
+  },
+  {
+    "ridingId": 24042,
+    "year": 2015,
+    "name": "Pierre Nantel",
+    "party": 2
+  },
+  {
+    "ridingId": 24043,
+    "year": 2025,
+    "name": "Jo\u00EBl Lightbound",
+    "party": 0
+  },
+  {
+    "ridingId": 24043,
+    "year": 2021,
+    "name": "Jo\u00EBl Lightbound",
+    "party": 0
+  },
+  {
+    "ridingId": 24043,
+    "year": 2019,
+    "name": "Jo\u00EBl Lightbound",
+    "party": 0
+  },
+  {
+    "ridingId": 24043,
+    "year": 2015,
+    "name": "Jo\u00EBl Lightbound",
+    "party": 0
+  },
+  {
+    "ridingId": 24043,
+    "year": 2011,
+    "name": "Denis Blanchette",
+    "party": 2
+  },
+  {
+    "ridingId": 24043,
+    "year": 2008,
+    "name": "Pascal-Pierre Paill\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24044,
+    "year": 2025,
+    "name": "G\u00E9rard Deltell",
+    "party": 1
+  },
+  {
+    "ridingId": 24044,
+    "year": 2021,
+    "name": "G\u00E9rard Deltell",
+    "party": 1
+  },
+  {
+    "ridingId": 24044,
+    "year": 2019,
+    "name": "G\u00E9rard Deltell",
+    "party": 1
+  },
+  {
+    "ridingId": 24044,
+    "year": 2015,
+    "name": "G\u00E9rard Deltell",
+    "party": 1
+  },
+  {
+    "ridingId": 24044,
+    "year": 2011,
+    "name": "Alexandrine Latendresse",
+    "party": 2
+  },
+  {
+    "ridingId": 24044,
+    "year": 2008,
+    "name": "Jos\u00E9e Verner",
+    "party": 1
+  },
+  {
+    "ridingId": 24045,
+    "year": 2025,
+    "name": "Carlos Leit\u00E3o",
+    "party": 0
+  },
+  {
+    "ridingId": 24045,
+    "year": 2021,
+    "name": "Yves Robillard",
+    "party": 0
+  },
+  {
+    "ridingId": 24045,
+    "year": 2019,
+    "name": "Yves Robillard",
+    "party": 0
+  },
+  {
+    "ridingId": 24045,
+    "year": 2015,
+    "name": "Yves Robillard",
+    "party": 0
+  },
+  {
+    "ridingId": 24045,
+    "year": 2011,
+    "name": "Alain Gigu\u00E8re",
+    "party": 2
+  },
+  {
+    "ridingId": 24045,
+    "year": 2008,
+    "name": "Serge M\u00E9nard",
+    "party": 3
+  },
+  {
+    "ridingId": 24046,
+    "year": 2025,
+    "name": "Luc Berthold",
+    "party": 1
+  },
+  {
+    "ridingId": 24046,
+    "year": 2021,
+    "name": "Luc Berthold",
+    "party": 1
+  },
+  {
+    "ridingId": 24046,
+    "year": 2019,
+    "name": "Luc Berthold",
+    "party": 1
+  },
+  {
+    "ridingId": 24046,
+    "year": 2015,
+    "name": "Luc Berthold",
+    "party": 1
+  },
+  {
+    "ridingId": 24046,
+    "year": 2011,
+    "name": "Christian Paradis",
+    "party": 1
+  },
+  {
+    "ridingId": 24046,
+    "year": 2008,
+    "name": "Christian Paradis",
+    "party": 1
+  },
+  {
+    "ridingId": 24047,
+    "year": 2025,
+    "name": "Jean-Denis Garon",
+    "party": 3
+  },
+  {
+    "ridingId": 24047,
+    "year": 2021,
+    "name": "Jean-Denis Garon",
+    "party": 3
+  },
+  {
+    "ridingId": 24047,
+    "year": 2019,
+    "name": "Simon Marcil",
+    "party": 3
+  },
+  {
+    "ridingId": 24047,
+    "year": 2015,
+    "name": "Simon Marcil",
+    "party": 3
+  },
+  {
+    "ridingId": 24048,
+    "year": 2025,
+    "name": "Anthony Housefather",
+    "party": 0
+  },
+  {
+    "ridingId": 24048,
+    "year": 2021,
+    "name": "Anthony Housefather",
+    "party": 0
+  },
+  {
+    "ridingId": 24048,
+    "year": 2019,
+    "name": "Anthony Housefather",
+    "party": 0
+  },
+  {
+    "ridingId": 24048,
+    "year": 2015,
+    "name": "Anthony Housefather",
+    "party": 0
+  },
+  {
+    "ridingId": 24048,
+    "year": 2011,
+    "name": "Irwin Cotler",
+    "party": 0
+  },
+  {
+    "ridingId": 24048,
+    "year": 2008,
+    "name": "Irwin Cotler",
+    "party": 0
+  },
+  {
+    "ridingId": 24049,
+    "year": 2025,
+    "name": "Bienvenu-Olivier Ntumba",
+    "party": 0
+  },
+  {
+    "ridingId": 24050,
+    "year": 2025,
+    "name": "Luc Th\u00E9riault",
+    "party": 3
+  },
+  {
+    "ridingId": 24050,
+    "year": 2021,
+    "name": "Luc Th\u00E9riault",
+    "party": 3
+  },
+  {
+    "ridingId": 24050,
+    "year": 2019,
+    "name": "Luc Th\u00E9riault",
+    "party": 3
+  },
+  {
+    "ridingId": 24050,
+    "year": 2015,
+    "name": "Luc Th\u00E9riault",
+    "party": 3
+  },
+  {
+    "ridingId": 24050,
+    "year": 2011,
+    "name": "Manon Perreault",
+    "party": 2
+  },
+  {
+    "ridingId": 24050,
+    "year": 2008,
+    "name": "Roger Gaudet",
+    "party": 3
+  },
+  {
+    "ridingId": 24051,
+    "year": 2025,
+    "name": "Gabriel Hardy",
+    "party": 1
+  },
+  {
+    "ridingId": 24051,
+    "year": 2011,
+    "name": "Jonathan Tremblay",
+    "party": 2
+  },
+  {
+    "ridingId": 24051,
+    "year": 2008,
+    "name": "Michel Guimond",
+    "party": 3
+  },
+  {
+    "ridingId": 24052,
+    "year": 2025,
+    "name": "Anna Gainey",
+    "party": 0
+  },
+  {
+    "ridingId": 24052,
+    "year": 2021,
+    "name": "Marc Garneau",
+    "party": 0
+  },
+  {
+    "ridingId": 24052,
+    "year": 2019,
+    "name": "Marc Garneau",
+    "party": 0
+  },
+  {
+    "ridingId": 24052,
+    "year": 2015,
+    "name": "Marc Garneau",
+    "party": 0
+  },
+  {
+    "ridingId": 24053,
+    "year": 2025,
+    "name": "Rachel Bendayan",
+    "party": 0
+  },
+  {
+    "ridingId": 24053,
+    "year": 2021,
+    "name": "Rachel Bendayan",
+    "party": 0
+  },
+  {
+    "ridingId": 24053,
+    "year": 2019,
+    "name": "Rachel Bendayan",
+    "party": 0
+  },
+  {
+    "ridingId": 24053,
+    "year": 2015,
+    "name": "Tom Mulcair",
+    "party": 2
+  },
+  {
+    "ridingId": 24053,
+    "year": 2011,
+    "name": "Thomas Mulcair",
+    "party": 2
+  },
+  {
+    "ridingId": 24053,
+    "year": 2008,
+    "name": "Thomas Mulcair",
+    "party": 2
+  },
+  {
+    "ridingId": 24054,
+    "year": 2025,
+    "name": "Marjorie Michel",
+    "party": 0
+  },
+  {
+    "ridingId": 24054,
+    "year": 2021,
+    "name": "Justin Trudeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24054,
+    "year": 2019,
+    "name": "Justin Trudeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24054,
+    "year": 2015,
+    "name": "Justin Trudeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24054,
+    "year": 2011,
+    "name": "Justin Trudeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24054,
+    "year": 2008,
+    "name": "Justin Trudeau",
+    "party": 0
+  },
+  {
+    "ridingId": 24055,
+    "year": 2025,
+    "name": "Xavier Barsalou-Duval",
+    "party": 3
+  },
+  {
+    "ridingId": 24055,
+    "year": 2021,
+    "name": "Xavier Barsalou-Duval",
+    "party": 3
+  },
+  {
+    "ridingId": 24055,
+    "year": 2019,
+    "name": "Xavier Barsalou-Duval",
+    "party": 3
+  },
+  {
+    "ridingId": 24055,
+    "year": 2015,
+    "name": "Xavier Barsalou-Duval",
+    "party": 3
+  },
+  {
+    "ridingId": 24056,
+    "year": 2025,
+    "name": "Sameer Zuberi",
+    "party": 0
+  },
+  {
+    "ridingId": 24056,
+    "year": 2021,
+    "name": "Sameer Zuberi",
+    "party": 0
+  },
+  {
+    "ridingId": 24056,
+    "year": 2019,
+    "name": "Sameer Zuberi",
+    "party": 0
+  },
+  {
+    "ridingId": 24056,
+    "year": 2015,
+    "name": "Frank Baylis",
+    "party": 0
+  },
+  {
+    "ridingId": 24056,
+    "year": 2011,
+    "name": "Lysane Blanchette-Lamothe",
+    "party": 2
+  },
+  {
+    "ridingId": 24056,
+    "year": 2008,
+    "name": "Bernard Patry",
+    "party": 0
+  },
+  {
+    "ridingId": 24057,
+    "year": 2025,
+    "name": "Sophie Chatel",
+    "party": 0
+  },
+  {
+    "ridingId": 24057,
+    "year": 2021,
+    "name": "Sophie Chatel",
+    "party": 0
+  },
+  {
+    "ridingId": 24057,
+    "year": 2019,
+    "name": "William Amos",
+    "party": 0
+  },
+  {
+    "ridingId": 24057,
+    "year": 2015,
+    "name": "William Amos",
+    "party": 0
+  },
+  {
+    "ridingId": 24057,
+    "year": 2011,
+    "name": "Mathieu Ravignat",
+    "party": 2
+  },
+  {
+    "ridingId": 24057,
+    "year": 2008,
+    "name": "Lawrence Cannon",
+    "party": 1
+  },
+  {
+    "ridingId": 24058,
+    "year": 2025,
+    "name": "Jo\u00EBl Godin",
+    "party": 1
+  },
+  {
+    "ridingId": 24058,
+    "year": 2021,
+    "name": "Jo\u00EBl Godin",
+    "party": 1
+  },
+  {
+    "ridingId": 24058,
+    "year": 2019,
+    "name": "Jo\u00EBl Godin",
+    "party": 1
+  },
+  {
+    "ridingId": 24058,
+    "year": 2015,
+    "name": "Jo\u00EBl Godin",
+    "party": 1
+  },
+  {
+    "ridingId": 24058,
+    "year": 2011,
+    "name": "\u00C9laine Michaud",
+    "party": 2
+  },
+  {
+    "ridingId": 24059,
+    "year": 2025,
+    "name": "Jean-Yves Duclos",
+    "party": 0
+  },
+  {
+    "ridingId": 24059,
+    "year": 2021,
+    "name": "Jean-Yves Duclos",
+    "party": 0
+  },
+  {
+    "ridingId": 24059,
+    "year": 2019,
+    "name": "Jean-Yves Duclos",
+    "party": 0
+  },
+  {
+    "ridingId": 24059,
+    "year": 2015,
+    "name": "Jean-Yves Duclos",
+    "party": 0
+  },
+  {
+    "ridingId": 24059,
+    "year": 2011,
+    "name": "Annick Papillon",
+    "party": 2
+  },
+  {
+    "ridingId": 24059,
+    "year": 2008,
+    "name": "Christiane Gagnon",
+    "party": 3
+  },
+  {
+    "ridingId": 24060,
+    "year": 2025,
+    "name": "Patrick Bonin",
+    "party": 3
+  },
+  {
+    "ridingId": 24060,
+    "year": 2021,
+    "name": "Monique Pauz\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24060,
+    "year": 2019,
+    "name": "Monique Pauz\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24060,
+    "year": 2015,
+    "name": "Monique Pauz\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24060,
+    "year": 2011,
+    "name": "Jean-Fran\u00E7ois Larose",
+    "party": 2
+  },
+  {
+    "ridingId": 24060,
+    "year": 2008,
+    "name": "Nicolas Dufour",
+    "party": 3
+  },
+  {
+    "ridingId": 24061,
+    "year": 2025,
+    "name": "\u00C9ric Lefebvre",
+    "party": 1
+  },
+  {
+    "ridingId": 24061,
+    "year": 2021,
+    "name": "Alain Rayes",
+    "party": 1
+  },
+  {
+    "ridingId": 24061,
+    "year": 2019,
+    "name": "Alain Rayes",
+    "party": 1
+  },
+  {
+    "ridingId": 24061,
+    "year": 2015,
+    "name": "Alain Rayes",
+    "party": 1
+  },
+  {
+    "ridingId": 24061,
+    "year": 2011,
+    "name": "Andr\u00E9 Bellavance",
+    "party": 3
+  },
+  {
+    "ridingId": 24061,
+    "year": 2008,
+    "name": "Andr\u00E9 Bellavance",
+    "party": 3
+  },
+  {
+    "ridingId": 24062,
+    "year": 2025,
+    "name": "Maxime Blanchette-Joncas",
+    "party": 3
+  },
+  {
+    "ridingId": 24063,
+    "year": 2025,
+    "name": "Linda Lapointe",
+    "party": 0
+  },
+  {
+    "ridingId": 24063,
+    "year": 2021,
+    "name": "Luc Desilets",
+    "party": 3
+  },
+  {
+    "ridingId": 24063,
+    "year": 2019,
+    "name": "Luc Desilets",
+    "party": 3
+  },
+  {
+    "ridingId": 24063,
+    "year": 2015,
+    "name": "Linda Lapointe",
+    "party": 0
+  },
+  {
+    "ridingId": 24063,
+    "year": 2011,
+    "name": "Laurin Liu",
+    "party": 2
+  },
+  {
+    "ridingId": 24063,
+    "year": 2008,
+    "name": "Luc Desnoyers",
+    "party": 3
+  },
+  {
+    "ridingId": 24064,
+    "year": 2025,
+    "name": "Rh\u00E9al Fortin",
+    "party": 3
+  },
+  {
+    "ridingId": 24064,
+    "year": 2021,
+    "name": "Rh\u00E9al Fortin",
+    "party": 3
+  },
+  {
+    "ridingId": 24064,
+    "year": 2019,
+    "name": "Rh\u00E9al Fortin",
+    "party": 3
+  },
+  {
+    "ridingId": 24064,
+    "year": 2015,
+    "name": "Rh\u00E9al Fortin",
+    "party": 3
+  },
+  {
+    "ridingId": 24064,
+    "year": 2011,
+    "name": "Pierre Dionne Labelle",
+    "party": 2
+  },
+  {
+    "ridingId": 24064,
+    "year": 2008,
+    "name": "Monique Guay",
+    "party": 3
+  },
+  {
+    "ridingId": 24065,
+    "year": 2025,
+    "name": "Alexandre Boulerice",
+    "party": 2
+  },
+  {
+    "ridingId": 24065,
+    "year": 2021,
+    "name": "Alexandre Boulerice",
+    "party": 2
+  },
+  {
+    "ridingId": 24065,
+    "year": 2019,
+    "name": "Alexandre Boulerice",
+    "party": 2
+  },
+  {
+    "ridingId": 24065,
+    "year": 2015,
+    "name": "Alexandre Boulerice",
+    "party": 2
+  },
+  {
+    "ridingId": 24065,
+    "year": 2011,
+    "name": "Alexandre Boulerice",
+    "party": 2
+  },
+  {
+    "ridingId": 24065,
+    "year": 2008,
+    "name": "Bernard Bigras",
+    "party": 3
+  },
+  {
+    "ridingId": 24066,
+    "year": 2025,
+    "name": "Simon-Pierre Savard-Tremblay",
+    "party": 3
+  },
+  {
+    "ridingId": 24066,
+    "year": 2021,
+    "name": "Simon-Pierre Savard-Tremblay",
+    "party": 3
+  },
+  {
+    "ridingId": 24066,
+    "year": 2019,
+    "name": "Simon-Pierre Savard-Tremblay",
+    "party": 3
+  },
+  {
+    "ridingId": 24066,
+    "year": 2015,
+    "name": "Brigitte Sansoucy",
+    "party": 2
+  },
+  {
+    "ridingId": 24066,
+    "year": 2011,
+    "name": "Marie-Claude Morin",
+    "party": 2
+  },
+  {
+    "ridingId": 24066,
+    "year": 2008,
+    "name": "\u00C8ve-Mary Tha\u00EF Thi Lac",
+    "party": 3
+  },
+  {
+    "ridingId": 24067,
+    "year": 2025,
+    "name": "Christine Normandin",
+    "party": 3
+  },
+  {
+    "ridingId": 24067,
+    "year": 2021,
+    "name": "Christine Normandin",
+    "party": 3
+  },
+  {
+    "ridingId": 24067,
+    "year": 2019,
+    "name": "Christine Normandin",
+    "party": 3
+  },
+  {
+    "ridingId": 24067,
+    "year": 2015,
+    "name": "Jean Rioux",
+    "party": 0
+  },
+  {
+    "ridingId": 24067,
+    "year": 2011,
+    "name": "Tarik Brahmi",
+    "party": 2
+  },
+  {
+    "ridingId": 24067,
+    "year": 2008,
+    "name": "Claude Bachand",
+    "party": 3
+  },
+  {
+    "ridingId": 24068,
+    "year": 2025,
+    "name": "Emmanuella Lambropoulos",
+    "party": 0
+  },
+  {
+    "ridingId": 24068,
+    "year": 2021,
+    "name": "Emmanuella Lambropoulos",
+    "party": 0
+  },
+  {
+    "ridingId": 24068,
+    "year": 2019,
+    "name": "Emmanuella Lambropoulos",
+    "party": 0
+  },
+  {
+    "ridingId": 24068,
+    "year": 2015,
+    "name": "St\u00E9phane Dion",
+    "party": 0
+  },
+  {
+    "ridingId": 24068,
+    "year": 2011,
+    "name": "St\u00E9phane Dion",
+    "party": 0
+  },
+  {
+    "ridingId": 24068,
+    "year": 2008,
+    "name": "St\u00E9phane Dion",
+    "party": 0
+  },
+  {
+    "ridingId": 24069,
+    "year": 2025,
+    "name": "Patricia Lattanzio",
+    "party": 0
+  },
+  {
+    "ridingId": 24069,
+    "year": 2021,
+    "name": "Patricia Lattanzio",
+    "party": 0
+  },
+  {
+    "ridingId": 24069,
+    "year": 2019,
+    "name": "Patricia Lattanzio",
+    "party": 0
+  },
+  {
+    "ridingId": 24069,
+    "year": 2015,
+    "name": "Nicola Di Iorio",
+    "party": 0
+  },
+  {
+    "ridingId": 24069,
+    "year": 2011,
+    "name": "Massimo Pacetti",
+    "party": 0
+  },
+  {
+    "ridingId": 24069,
+    "year": 2008,
+    "name": "Massimo Pacetti",
+    "party": 0
+  },
+  {
+    "ridingId": 24070,
+    "year": 2025,
+    "name": "Fran\u00E7ois-Philippe Champagne",
+    "party": 0
+  },
+  {
+    "ridingId": 24070,
+    "year": 2021,
+    "name": "Fran\u00E7ois-Philippe Champagne",
+    "party": 0
+  },
+  {
+    "ridingId": 24070,
+    "year": 2019,
+    "name": "Fran\u00E7ois-Philippe Champagne",
+    "party": 0
+  },
+  {
+    "ridingId": 24070,
+    "year": 2015,
+    "name": "Fran\u00E7ois-Philippe Champagne",
+    "party": 0
+  },
+  {
+    "ridingId": 24070,
+    "year": 2011,
+    "name": "Lise St-Denis",
+    "party": 2
+  },
+  {
+    "ridingId": 24070,
+    "year": 2008,
+    "name": "Jean-Yves Laforest",
+    "party": 3
+  },
+  {
+    "ridingId": 24071,
+    "year": 2025,
+    "name": "Andr\u00E9anne Larouche",
+    "party": 3
+  },
+  {
+    "ridingId": 24071,
+    "year": 2021,
+    "name": "Andr\u00E9anne Larouche",
+    "party": 3
+  },
+  {
+    "ridingId": 24071,
+    "year": 2019,
+    "name": "Andr\u00E9anne Larouche",
+    "party": 3
+  },
+  {
+    "ridingId": 24071,
+    "year": 2015,
+    "name": "Pierre Breton",
+    "party": 0
+  },
+  {
+    "ridingId": 24071,
+    "year": 2011,
+    "name": "R\u00E9jean Genest",
+    "party": 2
+  },
+  {
+    "ridingId": 24071,
+    "year": 2008,
+    "name": "Robert Vincent",
+    "party": 3
+  },
+  {
+    "ridingId": 24072,
+    "year": 2025,
+    "name": "\u00C9lisabeth Bri\u00E8re",
+    "party": 0
+  },
+  {
+    "ridingId": 24072,
+    "year": 2021,
+    "name": "\u00C9lisabeth Bri\u00E8re",
+    "party": 0
+  },
+  {
+    "ridingId": 24072,
+    "year": 2019,
+    "name": "\u00C9lisabeth Bri\u00E8re",
+    "party": 0
+  },
+  {
+    "ridingId": 24072,
+    "year": 2015,
+    "name": "Pierre-Luc Dusseault",
+    "party": 2
+  },
+  {
+    "ridingId": 24072,
+    "year": 2011,
+    "name": "Pierre-Luc Dusseault",
+    "party": 2
+  },
+  {
+    "ridingId": 24072,
+    "year": 2008,
+    "name": "Serge Cardin",
+    "party": 3
+  },
+  {
+    "ridingId": 24073,
+    "year": 2025,
+    "name": "Tatiana Auguste",
+    "party": 0
+  },
+  {
+    "ridingId": 24073,
+    "year": 2021,
+    "name": "Nathalie Sinclair-Desgagn\u00E9",
+    "party": 3
+  },
+  {
+    "ridingId": 24073,
+    "year": 2019,
+    "name": "Michel Boudrias",
+    "party": 3
+  },
+  {
+    "ridingId": 24073,
+    "year": 2015,
+    "name": "Michel Boudrias",
+    "party": 3
+  },
+  {
+    "ridingId": 24073,
+    "year": 2011,
+    "name": "Charmaine Borg",
+    "party": 2
+  },
+  {
+    "ridingId": 24073,
+    "year": 2008,
+    "name": "Diane Bourgeois",
+    "party": 3
+  },
+  {
+    "ridingId": 24074,
+    "year": 2025,
+    "name": "Madeleine Chenette",
+    "party": 0
+  },
+  {
+    "ridingId": 24074,
+    "year": 2021,
+    "name": "Louise Chabot",
+    "party": 3
+  },
+  {
+    "ridingId": 24074,
+    "year": 2019,
+    "name": "Louise Chabot",
+    "party": 3
+  },
+  {
+    "ridingId": 24074,
+    "year": 2015,
+    "name": "Ramez Ayoub",
+    "party": 0
+  },
+  {
+    "ridingId": 24075,
+    "year": 2025,
+    "name": "Caroline Desrochers",
+    "party": 0
+  },
+  {
+    "ridingId": 24075,
+    "year": 2021,
+    "name": "Ren\u00E9 Villemure",
+    "party": 3
+  },
+  {
+    "ridingId": 24075,
+    "year": 2019,
+    "name": "Louise Charbonneau",
+    "party": 3
+  },
+  {
+    "ridingId": 24075,
+    "year": 2015,
+    "name": "Robert Aubin",
+    "party": 2
+  },
+  {
+    "ridingId": 24075,
+    "year": 2011,
+    "name": "Robert Aubin",
+    "party": 2
+  },
+  {
+    "ridingId": 24075,
+    "year": 2008,
+    "name": "Paule Brunelle",
+    "party": 3
+  },
+  {
+    "ridingId": 24076,
+    "year": 2025,
+    "name": "Peter Schiefke",
+    "party": 0
+  },
+  {
+    "ridingId": 24076,
+    "year": 2021,
+    "name": "Peter Schiefke",
+    "party": 0
+  },
+  {
+    "ridingId": 24076,
+    "year": 2019,
+    "name": "Peter Schiefke",
+    "party": 0
+  },
+  {
+    "ridingId": 24076,
+    "year": 2015,
+    "name": "Peter Schiefke",
+    "party": 0
+  },
+  {
+    "ridingId": 24076,
+    "year": 2011,
+    "name": "Jamie Nicholls",
+    "party": 2
+  },
+  {
+    "ridingId": 24076,
+    "year": 2008,
+    "name": "Meili Faille",
+    "party": 3
+  },
+  {
+    "ridingId": 24077,
+    "year": 2025,
+    "name": "Marc Miller",
+    "party": 0
+  },
+  {
+    "ridingId": 24077,
+    "year": 2021,
+    "name": "Marc Miller",
+    "party": 0
+  },
+  {
+    "ridingId": 24077,
+    "year": 2019,
+    "name": "Marc Miller",
+    "party": 0
+  },
+  {
+    "ridingId": 24077,
+    "year": 2015,
+    "name": "Marc Miller",
+    "party": 0
+  },
+  {
+    "ridingId": 24078,
+    "year": 2025,
+    "name": "Annie Koutrakis",
+    "party": 0
+  },
+  {
+    "ridingId": 24078,
+    "year": 2021,
+    "name": "Annie Koutrakis",
+    "party": 0
+  },
+  {
+    "ridingId": 24078,
+    "year": 2019,
+    "name": "Annie Koutrakis",
+    "party": 0
+  },
+  {
+    "ridingId": 24078,
+    "year": 2015,
+    "name": "Eva Nassif",
+    "party": 0
+  },
+  {
+    "ridingId": 35001,
+    "year": 2025,
+    "name": "Jennifer McKelvie",
+    "party": 0
+  },
+  {
+    "ridingId": 35001,
+    "year": 2021,
+    "name": "Mark Holland",
+    "party": 0
+  },
+  {
+    "ridingId": 35001,
+    "year": 2019,
+    "name": "Mark Holland",
+    "party": 0
+  },
+  {
+    "ridingId": 35001,
+    "year": 2015,
+    "name": "Mark Holland",
+    "party": 0
+  },
+  {
+    "ridingId": 35001,
+    "year": 2011,
+    "name": "Chris Alexander",
+    "party": 1
+  },
+  {
+    "ridingId": 35001,
+    "year": 2008,
+    "name": "Mark Holland",
+    "party": 0
+  },
+  {
+    "ridingId": 35002,
+    "year": 2025,
+    "name": "Cheryl Gallant",
+    "party": 1
+  },
+  {
+    "ridingId": 35003,
+    "year": 2025,
+    "name": "Costas Menegakis",
+    "party": 1
+  },
+  {
+    "ridingId": 35003,
+    "year": 2021,
+    "name": "Leah Taylor Roy",
+    "party": 0
+  },
+  {
+    "ridingId": 35003,
+    "year": 2019,
+    "name": "Leona Alleslev",
+    "party": 1
+  },
+  {
+    "ridingId": 35003,
+    "year": 2015,
+    "name": "Leona Alleslev",
+    "party": 0
+  },
+  {
+    "ridingId": 35004,
+    "year": 2025,
+    "name": "John Brassard",
+    "party": 1
+  },
+  {
+    "ridingId": 35005,
+    "year": 2025,
+    "name": "Doug Shipley",
+    "party": 1
+  },
+  {
+    "ridingId": 35005,
+    "year": 2021,
+    "name": "Doug Shipley",
+    "party": 1
+  },
+  {
+    "ridingId": 35005,
+    "year": 2019,
+    "name": "Doug Shipley",
+    "party": 1
+  },
+  {
+    "ridingId": 35005,
+    "year": 2015,
+    "name": "Alex Nuttall",
+    "party": 1
+  },
+  {
+    "ridingId": 35005,
+    "year": 2011,
+    "name": "Patrick Brown",
+    "party": 1
+  },
+  {
+    "ridingId": 35005,
+    "year": 2008,
+    "name": "Patrick Brown",
+    "party": 1
+  },
+  {
+    "ridingId": 35006,
+    "year": 2025,
+    "name": "Chris Malette",
+    "party": 0
+  },
+  {
+    "ridingId": 35006,
+    "year": 2021,
+    "name": "Ryan Williams",
+    "party": 1
+  },
+  {
+    "ridingId": 35006,
+    "year": 2019,
+    "name": "Neil Ellis",
+    "party": 0
+  },
+  {
+    "ridingId": 35006,
+    "year": 2015,
+    "name": "Neil Ellis",
+    "party": 0
+  },
+  {
+    "ridingId": 35007,
+    "year": 2025,
+    "name": "Nate Erskine-Smith",
+    "party": 0
+  },
+  {
+    "ridingId": 35007,
+    "year": 2021,
+    "name": "Nathaniel Erskine-Smith",
+    "party": 0
+  },
+  {
+    "ridingId": 35007,
+    "year": 2019,
+    "name": "Nathaniel Erskine-Smith",
+    "party": 0
+  },
+  {
+    "ridingId": 35007,
+    "year": 2015,
+    "name": "Nathaniel Erskine-Smith",
+    "party": 0
+  },
+  {
+    "ridingId": 35007,
+    "year": 2011,
+    "name": "Matthew Kellway",
+    "party": 2
+  },
+  {
+    "ridingId": 35007,
+    "year": 2008,
+    "name": "Maria Minna",
+    "party": 0
+  },
+  {
+    "ridingId": 35008,
+    "year": 2025,
+    "name": "Jamil Jivani",
+    "party": 1
+  },
+  {
+    "ridingId": 35009,
+    "year": 2025,
+    "name": "Amandeep Sodhi",
+    "party": 0
+  },
+  {
+    "ridingId": 35009,
+    "year": 2021,
+    "name": "Shafqat Ali",
+    "party": 0
+  },
+  {
+    "ridingId": 35009,
+    "year": 2019,
+    "name": "Ramesh Sangha",
+    "party": 0
+  },
+  {
+    "ridingId": 35009,
+    "year": 2015,
+    "name": "Ramesh Sangha",
+    "party": 0
+  },
+  {
+    "ridingId": 35010,
+    "year": 2025,
+    "name": "Shafqat Ali",
+    "party": 0
+  },
+  {
+    "ridingId": 35011,
+    "year": 2025,
+    "name": "Maninder Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35011,
+    "year": 2021,
+    "name": "Maninder Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35011,
+    "year": 2019,
+    "name": "Maninder Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35011,
+    "year": 2015,
+    "name": "Raj Grewal",
+    "party": 0
+  },
+  {
+    "ridingId": 35012,
+    "year": 2025,
+    "name": "Ruby Sahota",
+    "party": 0
+  },
+  {
+    "ridingId": 35012,
+    "year": 2021,
+    "name": "Ruby Sahota",
+    "party": 0
+  },
+  {
+    "ridingId": 35012,
+    "year": 2019,
+    "name": "Ruby Sahota",
+    "party": 0
+  },
+  {
+    "ridingId": 35012,
+    "year": 2015,
+    "name": "Ruby Sahota",
+    "party": 0
+  },
+  {
+    "ridingId": 35013,
+    "year": 2025,
+    "name": "Sonia Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35013,
+    "year": 2021,
+    "name": "Sonia Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35013,
+    "year": 2019,
+    "name": "Sonia Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35013,
+    "year": 2015,
+    "name": "Sonia Sidhu",
+    "party": 0
+  },
+  {
+    "ridingId": 35014,
+    "year": 2025,
+    "name": "Amarjeet Gill",
+    "party": 1
+  },
+  {
+    "ridingId": 35014,
+    "year": 2021,
+    "name": "Kamal Khera",
+    "party": 0
+  },
+  {
+    "ridingId": 35014,
+    "year": 2019,
+    "name": "Kamal Khera",
+    "party": 0
+  },
+  {
+    "ridingId": 35014,
+    "year": 2015,
+    "name": "Kamal Khera",
+    "party": 0
+  },
+  {
+    "ridingId": 35014,
+    "year": 2011,
+    "name": "Kyle Seeback",
+    "party": 1
+  },
+  {
+    "ridingId": 35014,
+    "year": 2008,
+    "name": "Andrew Kania",
+    "party": 0
+  },
+  {
+    "ridingId": 35015,
+    "year": 2025,
+    "name": "Larry Brock",
+    "party": 1
+  },
+  {
+    "ridingId": 35015,
+    "year": 2021,
+    "name": "Larry Brock",
+    "party": 1
+  },
+  {
+    "ridingId": 35015,
+    "year": 2019,
+    "name": "Phil McColeman",
+    "party": 1
+  },
+  {
+    "ridingId": 35015,
+    "year": 2015,
+    "name": "Phil McColeman",
+    "party": 1
+  },
+  {
+    "ridingId": 35015,
+    "year": 2011,
+    "name": "Phil McColeman",
+    "party": 1
+  },
+  {
+    "ridingId": 35015,
+    "year": 2008,
+    "name": "Phil McColeman",
+    "party": 1
+  },
+  {
+    "ridingId": 35016,
+    "year": 2025,
+    "name": "Alex Ruff",
+    "party": 1
+  },
+  {
+    "ridingId": 35016,
+    "year": 2021,
+    "name": "Alex Ruff",
+    "party": 1
+  },
+  {
+    "ridingId": 35016,
+    "year": 2019,
+    "name": "Alex Ruff",
+    "party": 1
+  },
+  {
+    "ridingId": 35016,
+    "year": 2015,
+    "name": "Larry Miller",
+    "party": 1
+  },
+  {
+    "ridingId": 35016,
+    "year": 2011,
+    "name": "Larry Miller",
+    "party": 1
+  },
+  {
+    "ridingId": 35016,
+    "year": 2008,
+    "name": "Larry Miller",
+    "party": 1
+  },
+  {
+    "ridingId": 35017,
+    "year": 2025,
+    "name": "Karina Gould",
+    "party": 0
+  },
+  {
+    "ridingId": 35017,
+    "year": 2021,
+    "name": "Karina Gould",
+    "party": 0
+  },
+  {
+    "ridingId": 35017,
+    "year": 2019,
+    "name": "Karina Gould",
+    "party": 0
+  },
+  {
+    "ridingId": 35017,
+    "year": 2015,
+    "name": "Karina Gould",
+    "party": 0
+  },
+  {
+    "ridingId": 35017,
+    "year": 2011,
+    "name": "Mike Wallace",
+    "party": 1
+  },
+  {
+    "ridingId": 35017,
+    "year": 2008,
+    "name": "Mike Wallace",
+    "party": 1
+  },
+  {
+    "ridingId": 35018,
+    "year": 2025,
+    "name": "Adam Van Koeverden",
+    "party": 0
+  },
+  {
+    "ridingId": 35019,
+    "year": 2025,
+    "name": "Connie Cody",
+    "party": 1
+  },
+  {
+    "ridingId": 35019,
+    "year": 2021,
+    "name": "Bryan May",
+    "party": 0
+  },
+  {
+    "ridingId": 35019,
+    "year": 2019,
+    "name": "Bryan May",
+    "party": 0
+  },
+  {
+    "ridingId": 35019,
+    "year": 2015,
+    "name": "Bryan May",
+    "party": 0
+  },
+  {
+    "ridingId": 35019,
+    "year": 2011,
+    "name": "Gary Goodyear",
+    "party": 1
+  },
+  {
+    "ridingId": 35019,
+    "year": 2008,
+    "name": "Gary Goodyear",
+    "party": 1
+  },
+  {
+    "ridingId": 35020,
+    "year": 2025,
+    "name": "Bruce Fanjoy",
+    "party": 0
+  },
+  {
+    "ridingId": 35020,
+    "year": 2021,
+    "name": "Pierre Poilievre",
+    "party": 1
+  },
+  {
+    "ridingId": 35020,
+    "year": 2019,
+    "name": "Pierre Poilievre",
+    "party": 1
+  },
+  {
+    "ridingId": 35020,
+    "year": 2015,
+    "name": "Pierre Poilievre",
+    "party": 1
+  },
+  {
+    "ridingId": 35020,
+    "year": 2011,
+    "name": "Gordon O\u0027Connor",
+    "party": 1
+  },
+  {
+    "ridingId": 35020,
+    "year": 2008,
+    "name": "Gordon O\u0027Connor",
+    "party": 1
+  },
+  {
+    "ridingId": 35021,
+    "year": 2025,
+    "name": "Dave Epp",
+    "party": 1
+  },
+  {
+    "ridingId": 35021,
+    "year": 2021,
+    "name": "Dave Epp",
+    "party": 1
+  },
+  {
+    "ridingId": 35021,
+    "year": 2019,
+    "name": "Dave Epp",
+    "party": 1
+  },
+  {
+    "ridingId": 35021,
+    "year": 2015,
+    "name": "Dave Van Kesteren",
+    "party": 1
+  },
+  {
+    "ridingId": 35022,
+    "year": 2025,
+    "name": "Julie Dzerowicz",
+    "party": 0
+  },
+  {
+    "ridingId": 35022,
+    "year": 2021,
+    "name": "Julie Dzerowicz",
+    "party": 0
+  },
+  {
+    "ridingId": 35022,
+    "year": 2019,
+    "name": "Julie Dzerowicz",
+    "party": 0
+  },
+  {
+    "ridingId": 35022,
+    "year": 2015,
+    "name": "Julie Dzerowicz",
+    "party": 0
+  },
+  {
+    "ridingId": 35022,
+    "year": 2011,
+    "name": "Andrew Cash",
+    "party": 2
+  },
+  {
+    "ridingId": 35022,
+    "year": 2008,
+    "name": "Mario Silva",
+    "party": 0
+  },
+  {
+    "ridingId": 35023,
+    "year": 2025,
+    "name": "Maggie Chi",
+    "party": 0
+  },
+  {
+    "ridingId": 35023,
+    "year": 2021,
+    "name": "Han Dong",
+    "party": 0
+  },
+  {
+    "ridingId": 35023,
+    "year": 2019,
+    "name": "Han Dong",
+    "party": 0
+  },
+  {
+    "ridingId": 35023,
+    "year": 2015,
+    "name": "Geng Tan",
+    "party": 0
+  },
+  {
+    "ridingId": 35024,
+    "year": 2025,
+    "name": "Rob Oliphant",
+    "party": 0
+  },
+  {
+    "ridingId": 35024,
+    "year": 2021,
+    "name": "Rob Oliphant",
+    "party": 0
+  },
+  {
+    "ridingId": 35024,
+    "year": 2019,
+    "name": "Rob Oliphant",
+    "party": 0
+  },
+  {
+    "ridingId": 35024,
+    "year": 2015,
+    "name": "Rob Oliphant",
+    "party": 0
+  },
+  {
+    "ridingId": 35024,
+    "year": 2011,
+    "name": "John Carmichael",
+    "party": 1
+  },
+  {
+    "ridingId": 35024,
+    "year": 2008,
+    "name": "Rob Oliphant",
+    "party": 0
+  },
+  {
+    "ridingId": 35025,
+    "year": 2025,
+    "name": "Kyle Seeback",
+    "party": 1
+  },
+  {
+    "ridingId": 35025,
+    "year": 2021,
+    "name": "Kyle Seeback",
+    "party": 1
+  },
+  {
+    "ridingId": 35025,
+    "year": 2019,
+    "name": "Kyle Seeback",
+    "party": 1
+  },
+  {
+    "ridingId": 35025,
+    "year": 2015,
+    "name": "David Allan Tilson",
+    "party": 1
+  },
+  {
+    "ridingId": 35025,
+    "year": 2011,
+    "name": "David Tilson",
+    "party": 1
+  },
+  {
+    "ridingId": 35025,
+    "year": 2008,
+    "name": "David Tilson",
+    "party": 1
+  },
+  {
+    "ridingId": 35026,
+    "year": 2025,
+    "name": "Vince Gasparro",
+    "party": 0
+  },
+  {
+    "ridingId": 35026,
+    "year": 2021,
+    "name": "Marco Mendicino",
+    "party": 0
+  },
+  {
+    "ridingId": 35026,
+    "year": 2019,
+    "name": "Marco Mendicino",
+    "party": 0
+  },
+  {
+    "ridingId": 35026,
+    "year": 2015,
+    "name": "Marco Mendicino",
+    "party": 0
+  },
+  {
+    "ridingId": 35026,
+    "year": 2011,
+    "name": "Joe Oliver",
+    "party": 1
+  },
+  {
+    "ridingId": 35026,
+    "year": 2008,
+    "name": "Joseph Volpe",
+    "party": 0
+  },
+  {
+    "ridingId": 35027,
+    "year": 2025,
+    "name": "Andrew Lawton",
+    "party": 1
+  },
+  {
+    "ridingId": 35028,
+    "year": 2025,
+    "name": "Chris Lewis",
+    "party": 1
+  },
+  {
+    "ridingId": 35028,
+    "year": 2021,
+    "name": "Chris Lewis",
+    "party": 1
+  },
+  {
+    "ridingId": 35028,
+    "year": 2019,
+    "name": "Chris Lewis",
+    "party": 1
+  },
+  {
+    "ridingId": 35028,
+    "year": 2015,
+    "name": "Tracey Ramsey",
+    "party": 2
+  },
+  {
+    "ridingId": 35028,
+    "year": 2011,
+    "name": "Jeff Watson",
+    "party": 1
+  },
+  {
+    "ridingId": 35028,
+    "year": 2008,
+    "name": "Jeff Watson",
+    "party": 1
+  },
+  {
+    "ridingId": 35029,
+    "year": 2025,
+    "name": "Yvan Baker",
+    "party": 0
+  },
+  {
+    "ridingId": 35029,
+    "year": 2021,
+    "name": "Yvan Baker",
+    "party": 0
+  },
+  {
+    "ridingId": 35029,
+    "year": 2019,
+    "name": "Yvan Baker",
+    "party": 0
+  },
+  {
+    "ridingId": 35029,
+    "year": 2015,
+    "name": "Borys Wrzesnewskyj",
+    "party": 0
+  },
+  {
+    "ridingId": 35029,
+    "year": 2011,
+    "name": "Ted Opitz",
+    "party": 1
+  },
+  {
+    "ridingId": 35029,
+    "year": 2008,
+    "name": "Borys Wrzesnewskyj",
+    "party": 0
+  },
+  {
+    "ridingId": 35030,
+    "year": 2025,
+    "name": "James Maloney",
+    "party": 0
+  },
+  {
+    "ridingId": 35030,
+    "year": 2021,
+    "name": "James Maloney",
+    "party": 0
+  },
+  {
+    "ridingId": 35030,
+    "year": 2019,
+    "name": "James Maloney",
+    "party": 0
+  },
+  {
+    "ridingId": 35030,
+    "year": 2015,
+    "name": "James Maloney",
+    "party": 0
+  },
+  {
+    "ridingId": 35030,
+    "year": 2011,
+    "name": "Bernard Trottier",
+    "party": 1
+  },
+  {
+    "ridingId": 35030,
+    "year": 2008,
+    "name": "Michael Ignatieff",
+    "party": 0
+  },
+  {
+    "ridingId": 35031,
+    "year": 2025,
+    "name": "John Zerucelli",
+    "party": 0
+  },
+  {
+    "ridingId": 35031,
+    "year": 2021,
+    "name": "Kirsty Duncan",
+    "party": 0
+  },
+  {
+    "ridingId": 35031,
+    "year": 2019,
+    "name": "Kirsty Duncan",
+    "party": 0
+  },
+  {
+    "ridingId": 35031,
+    "year": 2015,
+    "name": "Kirsty Duncan",
+    "party": 0
+  },
+  {
+    "ridingId": 35031,
+    "year": 2011,
+    "name": "Kirsty Duncan",
+    "party": 0
+  },
+  {
+    "ridingId": 35031,
+    "year": 2008,
+    "name": "Kirsty Duncan",
+    "party": 0
+  },
+  {
+    "ridingId": 35032,
+    "year": 2025,
+    "name": "Dan Muys",
+    "party": 1
+  },
+  {
+    "ridingId": 35032,
+    "year": 2021,
+    "name": "Dan Muys",
+    "party": 1
+  },
+  {
+    "ridingId": 35032,
+    "year": 2019,
+    "name": "David Sweet",
+    "party": 1
+  },
+  {
+    "ridingId": 35032,
+    "year": 2015,
+    "name": "David Sweet",
+    "party": 1
+  },
+  {
+    "ridingId": 35033,
+    "year": 2025,
+    "name": "Dominique O\u0027Rourke",
+    "party": 0
+  },
+  {
+    "ridingId": 35033,
+    "year": 2021,
+    "name": "Lloyd Longfield",
+    "party": 0
+  },
+  {
+    "ridingId": 35033,
+    "year": 2019,
+    "name": "Lloyd Longfield",
+    "party": 0
+  },
+  {
+    "ridingId": 35033,
+    "year": 2015,
+    "name": "Lloyd Longfield",
+    "party": 0
+  },
+  {
+    "ridingId": 35033,
+    "year": 2011,
+    "name": "Frank Valeriote",
+    "party": 0
+  },
+  {
+    "ridingId": 35033,
+    "year": 2008,
+    "name": "Frank Valeriote",
+    "party": 0
+  },
+  {
+    "ridingId": 35034,
+    "year": 2025,
+    "name": "Leslyn Lewis",
+    "party": 1
+  },
+  {
+    "ridingId": 35034,
+    "year": 2021,
+    "name": "Leslyn Lewis",
+    "party": 1
+  },
+  {
+    "ridingId": 35034,
+    "year": 2019,
+    "name": "Diane Finley",
+    "party": 1
+  },
+  {
+    "ridingId": 35034,
+    "year": 2015,
+    "name": "Diane Finley",
+    "party": 1
+  },
+  {
+    "ridingId": 35034,
+    "year": 2011,
+    "name": "Diane Finley",
+    "party": 1
+  },
+  {
+    "ridingId": 35034,
+    "year": 2008,
+    "name": "Diane Finley",
+    "party": 1
+  },
+  {
+    "ridingId": 35035,
+    "year": 2025,
+    "name": "Jamie Schmale",
+    "party": 1
+  },
+  {
+    "ridingId": 35035,
+    "year": 2021,
+    "name": "Jamie Schmale",
+    "party": 1
+  },
+  {
+    "ridingId": 35035,
+    "year": 2019,
+    "name": "Jamie Schmale",
+    "party": 1
+  },
+  {
+    "ridingId": 35035,
+    "year": 2015,
+    "name": "Jamie Schmale",
+    "party": 1
+  },
+  {
+    "ridingId": 35035,
+    "year": 2011,
+    "name": "Barry Devolin",
+    "party": 1
+  },
+  {
+    "ridingId": 35035,
+    "year": 2008,
+    "name": "Barry Devolin",
+    "party": 1
+  },
+  {
+    "ridingId": 35036,
+    "year": 2025,
+    "name": "Aslam Rana",
+    "party": 0
+  },
+  {
+    "ridingId": 35036,
+    "year": 2021,
+    "name": "Matthew Green",
+    "party": 2
+  },
+  {
+    "ridingId": 35036,
+    "year": 2019,
+    "name": "Matthew Green",
+    "party": 2
+  },
+  {
+    "ridingId": 35036,
+    "year": 2015,
+    "name": "David Christopherson",
+    "party": 2
+  },
+  {
+    "ridingId": 35036,
+    "year": 2011,
+    "name": "David Christopherson",
+    "party": 2
+  },
+  {
+    "ridingId": 35036,
+    "year": 2008,
+    "name": "David Christopherson",
+    "party": 2
+  },
+  {
+    "ridingId": 35037,
+    "year": 2025,
+    "name": "Ned Kuruc",
+    "party": 1
+  },
+  {
+    "ridingId": 35037,
+    "year": 2021,
+    "name": "Chad Collins",
+    "party": 0
+  },
+  {
+    "ridingId": 35037,
+    "year": 2019,
+    "name": "Bob Bratina",
+    "party": 0
+  },
+  {
+    "ridingId": 35037,
+    "year": 2015,
+    "name": "Bob Bratina",
+    "party": 0
+  },
+  {
+    "ridingId": 35037,
+    "year": 2011,
+    "name": "Wayne Marston",
+    "party": 2
+  },
+  {
+    "ridingId": 35037,
+    "year": 2008,
+    "name": "Wayne Marston",
+    "party": 2
+  },
+  {
+    "ridingId": 35038,
+    "year": 2025,
+    "name": "Lisa Hepfner",
+    "party": 0
+  },
+  {
+    "ridingId": 35038,
+    "year": 2021,
+    "name": "Lisa Hepfner",
+    "party": 0
+  },
+  {
+    "ridingId": 35038,
+    "year": 2019,
+    "name": "Scott Duvall",
+    "party": 2
+  },
+  {
+    "ridingId": 35038,
+    "year": 2015,
+    "name": "Scott Duvall",
+    "party": 2
+  },
+  {
+    "ridingId": 35038,
+    "year": 2011,
+    "name": "Chris Charlton",
+    "party": 2
+  },
+  {
+    "ridingId": 35038,
+    "year": 2008,
+    "name": "Chris Charlton",
+    "party": 2
+  },
+  {
+    "ridingId": 35039,
+    "year": 2025,
+    "name": "John-Paul Danko",
+    "party": 0
+  },
+  {
+    "ridingId": 35039,
+    "year": 2021,
+    "name": "Filomena Tassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35039,
+    "year": 2019,
+    "name": "Filomena Tassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35039,
+    "year": 2015,
+    "name": "Filomena Tassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35040,
+    "year": 2025,
+    "name": "Shelby Kramp-Neuman",
+    "party": 1
+  },
+  {
+    "ridingId": 35040,
+    "year": 2021,
+    "name": "Shelby Kramp-Neuman",
+    "party": 1
+  },
+  {
+    "ridingId": 35040,
+    "year": 2019,
+    "name": "Derek Sloan",
+    "party": 1
+  },
+  {
+    "ridingId": 35040,
+    "year": 2015,
+    "name": "Mike Bossio",
+    "party": 0
+  },
+  {
+    "ridingId": 35041,
+    "year": 2025,
+    "name": "Judy Sgro",
+    "party": 0
+  },
+  {
+    "ridingId": 35041,
+    "year": 2021,
+    "name": "Judy Sgro",
+    "party": 0
+  },
+  {
+    "ridingId": 35041,
+    "year": 2019,
+    "name": "Judy Sgro",
+    "party": 0
+  },
+  {
+    "ridingId": 35041,
+    "year": 2015,
+    "name": "Judy Sgro",
+    "party": 0
+  },
+  {
+    "ridingId": 35042,
+    "year": 2025,
+    "name": "Ben Lobb",
+    "party": 1
+  },
+  {
+    "ridingId": 35042,
+    "year": 2021,
+    "name": "Ben Lobb",
+    "party": 1
+  },
+  {
+    "ridingId": 35042,
+    "year": 2019,
+    "name": "Ben Lobb",
+    "party": 1
+  },
+  {
+    "ridingId": 35042,
+    "year": 2015,
+    "name": "Ben Lobb",
+    "party": 1
+  },
+  {
+    "ridingId": 35042,
+    "year": 2011,
+    "name": "Ben Lobb",
+    "party": 1
+  },
+  {
+    "ridingId": 35042,
+    "year": 2008,
+    "name": "Ben Lobb",
+    "party": 1
+  },
+  {
+    "ridingId": 35043,
+    "year": 2025,
+    "name": "Jenna Sudds",
+    "party": 0
+  },
+  {
+    "ridingId": 35043,
+    "year": 2021,
+    "name": "Jenna Sudds",
+    "party": 0
+  },
+  {
+    "ridingId": 35043,
+    "year": 2019,
+    "name": "Karen McCrimmon",
+    "party": 0
+  },
+  {
+    "ridingId": 35043,
+    "year": 2015,
+    "name": "Karen McCrimmon",
+    "party": 0
+  },
+  {
+    "ridingId": 35044,
+    "year": 2025,
+    "name": "Ga\u00E9tan Malette",
+    "party": 1
+  },
+  {
+    "ridingId": 35045,
+    "year": 2025,
+    "name": "Eric Melillo",
+    "party": 1
+  },
+  {
+    "ridingId": 35045,
+    "year": 2021,
+    "name": "Eric Melillo",
+    "party": 1
+  },
+  {
+    "ridingId": 35045,
+    "year": 2019,
+    "name": "Eric Melillo",
+    "party": 1
+  },
+  {
+    "ridingId": 35045,
+    "year": 2015,
+    "name": "Bob Nault",
+    "party": 0
+  },
+  {
+    "ridingId": 35045,
+    "year": 2011,
+    "name": "Greg Rickford",
+    "party": 1
+  },
+  {
+    "ridingId": 35045,
+    "year": 2008,
+    "name": "Greg Rickford",
+    "party": 1
+  },
+  {
+    "ridingId": 35046,
+    "year": 2025,
+    "name": "Mark Gerretsen",
+    "party": 0
+  },
+  {
+    "ridingId": 35046,
+    "year": 2021,
+    "name": "Mark Gerretsen",
+    "party": 0
+  },
+  {
+    "ridingId": 35046,
+    "year": 2019,
+    "name": "Mark Gerretsen",
+    "party": 0
+  },
+  {
+    "ridingId": 35046,
+    "year": 2015,
+    "name": "Mark Gerretsen",
+    "party": 0
+  },
+  {
+    "ridingId": 35046,
+    "year": 2011,
+    "name": "Ted Hsu",
+    "party": 0
+  },
+  {
+    "ridingId": 35046,
+    "year": 2008,
+    "name": "Peter Milliken",
+    "party": 0
+  },
+  {
+    "ridingId": 35047,
+    "year": 2025,
+    "name": "Anna Roberts",
+    "party": 1
+  },
+  {
+    "ridingId": 35047,
+    "year": 2021,
+    "name": "Anna Roberts",
+    "party": 1
+  },
+  {
+    "ridingId": 35047,
+    "year": 2019,
+    "name": "Deb Schulte",
+    "party": 0
+  },
+  {
+    "ridingId": 35047,
+    "year": 2015,
+    "name": "Deb Schulte",
+    "party": 0
+  },
+  {
+    "ridingId": 35048,
+    "year": 2025,
+    "name": "Kelly DeRidder",
+    "party": 1
+  },
+  {
+    "ridingId": 35048,
+    "year": 2021,
+    "name": "Mike Morrice",
+    "party": 4
+  },
+  {
+    "ridingId": 35048,
+    "year": 2019,
+    "name": "Raj Saini",
+    "party": 0
+  },
+  {
+    "ridingId": 35048,
+    "year": 2015,
+    "name": "Raj Saini",
+    "party": 0
+  },
+  {
+    "ridingId": 35048,
+    "year": 2011,
+    "name": "Stephen Woodworth",
+    "party": 1
+  },
+  {
+    "ridingId": 35048,
+    "year": 2008,
+    "name": "Stephen Woodworth",
+    "party": 1
+  },
+  {
+    "ridingId": 35049,
+    "year": 2025,
+    "name": "Tim Louis",
+    "party": 0
+  },
+  {
+    "ridingId": 35049,
+    "year": 2021,
+    "name": "Tim Louis",
+    "party": 0
+  },
+  {
+    "ridingId": 35049,
+    "year": 2019,
+    "name": "Tim Louis",
+    "party": 0
+  },
+  {
+    "ridingId": 35049,
+    "year": 2015,
+    "name": "Harold Albrecht",
+    "party": 1
+  },
+  {
+    "ridingId": 35049,
+    "year": 2011,
+    "name": "Harold Albrecht",
+    "party": 1
+  },
+  {
+    "ridingId": 35049,
+    "year": 2008,
+    "name": "Harold Albrecht",
+    "party": 1
+  },
+  {
+    "ridingId": 35050,
+    "year": 2025,
+    "name": "Matt Strauss",
+    "party": 1
+  },
+  {
+    "ridingId": 35050,
+    "year": 2021,
+    "name": "Valerie Bradford",
+    "party": 0
+  },
+  {
+    "ridingId": 35050,
+    "year": 2019,
+    "name": "Marwan Tabbara",
+    "party": 0
+  },
+  {
+    "ridingId": 35050,
+    "year": 2015,
+    "name": "Marwan Tabbara",
+    "party": 0
+  },
+  {
+    "ridingId": 35051,
+    "year": 2025,
+    "name": "Scott Reid",
+    "party": 1
+  },
+  {
+    "ridingId": 35051,
+    "year": 2021,
+    "name": "Scott Reid",
+    "party": 1
+  },
+  {
+    "ridingId": 35051,
+    "year": 2019,
+    "name": "Scott Reid",
+    "party": 1
+  },
+  {
+    "ridingId": 35051,
+    "year": 2015,
+    "name": "Scott Reid",
+    "party": 1
+  },
+  {
+    "ridingId": 35051,
+    "year": 2011,
+    "name": "Scott Reid",
+    "party": 1
+  },
+  {
+    "ridingId": 35051,
+    "year": 2008,
+    "name": "Scott Reid",
+    "party": 1
+  },
+  {
+    "ridingId": 35052,
+    "year": 2025,
+    "name": "Michael Barrett",
+    "party": 1
+  },
+  {
+    "ridingId": 35052,
+    "year": 2011,
+    "name": "Gord Brown",
+    "party": 1
+  },
+  {
+    "ridingId": 35052,
+    "year": 2008,
+    "name": "Gord Brown",
+    "party": 1
+  },
+  {
+    "ridingId": 35053,
+    "year": 2025,
+    "name": "Peter Fragiskatos",
+    "party": 0
+  },
+  {
+    "ridingId": 35054,
+    "year": 2025,
+    "name": "Kurt Holman",
+    "party": 1
+  },
+  {
+    "ridingId": 35054,
+    "year": 2021,
+    "name": "Lindsay Mathyssen",
+    "party": 2
+  },
+  {
+    "ridingId": 35054,
+    "year": 2019,
+    "name": "Lindsay Mathyssen",
+    "party": 2
+  },
+  {
+    "ridingId": 35054,
+    "year": 2015,
+    "name": "Irene Mathyssen",
+    "party": 2
+  },
+  {
+    "ridingId": 35054,
+    "year": 2011,
+    "name": "Irene Mathyssen",
+    "party": 2
+  },
+  {
+    "ridingId": 35054,
+    "year": 2008,
+    "name": "Irene Mathyssen",
+    "party": 2
+  },
+  {
+    "ridingId": 35055,
+    "year": 2025,
+    "name": "Arielle Kayabaga",
+    "party": 0
+  },
+  {
+    "ridingId": 35055,
+    "year": 2021,
+    "name": "Arielle Kayabaga",
+    "party": 0
+  },
+  {
+    "ridingId": 35055,
+    "year": 2019,
+    "name": "Kate Young",
+    "party": 0
+  },
+  {
+    "ridingId": 35055,
+    "year": 2015,
+    "name": "Kate Young",
+    "party": 0
+  },
+  {
+    "ridingId": 35055,
+    "year": 2011,
+    "name": "Ed Holder",
+    "party": 1
+  },
+  {
+    "ridingId": 35055,
+    "year": 2008,
+    "name": "Ed Holder",
+    "party": 1
+  },
+  {
+    "ridingId": 35056,
+    "year": 2025,
+    "name": "Helena Jaczek",
+    "party": 0
+  },
+  {
+    "ridingId": 35056,
+    "year": 2021,
+    "name": "Helena Jaczek",
+    "party": 0
+  },
+  {
+    "ridingId": 35056,
+    "year": 2019,
+    "name": "Helena Jaczek",
+    "party": 0
+  },
+  {
+    "ridingId": 35056,
+    "year": 2015,
+    "name": "Jane Philpott",
+    "party": 0
+  },
+  {
+    "ridingId": 35057,
+    "year": 2025,
+    "name": "Tim Hodgson",
+    "party": 0
+  },
+  {
+    "ridingId": 35057,
+    "year": 2021,
+    "name": "Mary Ng",
+    "party": 0
+  },
+  {
+    "ridingId": 35057,
+    "year": 2019,
+    "name": "Mary Ng",
+    "party": 0
+  },
+  {
+    "ridingId": 35057,
+    "year": 2015,
+    "name": "John McCallum",
+    "party": 0
+  },
+  {
+    "ridingId": 35058,
+    "year": 2025,
+    "name": "Michael Ma",
+    "party": 1
+  },
+  {
+    "ridingId": 35058,
+    "year": 2021,
+    "name": "Paul Chiang",
+    "party": 0
+  },
+  {
+    "ridingId": 35058,
+    "year": 2019,
+    "name": "Bob Saroya",
+    "party": 1
+  },
+  {
+    "ridingId": 35058,
+    "year": 2015,
+    "name": "Bob Saroya",
+    "party": 1
+  },
+  {
+    "ridingId": 35058,
+    "year": 2011,
+    "name": "John McCallum",
+    "party": 0
+  },
+  {
+    "ridingId": 35058,
+    "year": 2008,
+    "name": "John McCallum",
+    "party": 0
+  },
+  {
+    "ridingId": 35059,
+    "year": 2025,
+    "name": "Lianne Rood",
+    "party": 1
+  },
+  {
+    "ridingId": 35060,
+    "year": 2025,
+    "name": "Kristina Tesser Derksen",
+    "party": 0
+  },
+  {
+    "ridingId": 35060,
+    "year": 2021,
+    "name": "Adam van Koeverden",
+    "party": 0
+  },
+  {
+    "ridingId": 35060,
+    "year": 2019,
+    "name": "Adam van Koeverden",
+    "party": 0
+  },
+  {
+    "ridingId": 35060,
+    "year": 2015,
+    "name": "Lisa Raitt",
+    "party": 1
+  },
+  {
+    "ridingId": 35061,
+    "year": 2025,
+    "name": "Fares Al Soud",
+    "party": 0
+  },
+  {
+    "ridingId": 35061,
+    "year": 2021,
+    "name": "Omar Alghabra",
+    "party": 0
+  },
+  {
+    "ridingId": 35061,
+    "year": 2019,
+    "name": "Omar Alghabra",
+    "party": 0
+  },
+  {
+    "ridingId": 35061,
+    "year": 2015,
+    "name": "Omar Alghabra",
+    "party": 0
+  },
+  {
+    "ridingId": 35062,
+    "year": 2025,
+    "name": "Peter Fonseca",
+    "party": 0
+  },
+  {
+    "ridingId": 35062,
+    "year": 2021,
+    "name": "Peter Fonseca",
+    "party": 0
+  },
+  {
+    "ridingId": 35062,
+    "year": 2019,
+    "name": "Peter Fonseca",
+    "party": 0
+  },
+  {
+    "ridingId": 35062,
+    "year": 2015,
+    "name": "Peter Fonseca",
+    "party": 0
+  },
+  {
+    "ridingId": 35062,
+    "year": 2011,
+    "name": "Wladyslaw Lizon",
+    "party": 1
+  },
+  {
+    "ridingId": 35062,
+    "year": 2008,
+    "name": "Albina Guarnieri",
+    "party": 0
+  },
+  {
+    "ridingId": 35063,
+    "year": 2025,
+    "name": "Iqra Khalid",
+    "party": 0
+  },
+  {
+    "ridingId": 35063,
+    "year": 2021,
+    "name": "Iqra Khalid",
+    "party": 0
+  },
+  {
+    "ridingId": 35063,
+    "year": 2019,
+    "name": "Iqra Khalid",
+    "party": 0
+  },
+  {
+    "ridingId": 35063,
+    "year": 2015,
+    "name": "Iqra Khalid",
+    "party": 0
+  },
+  {
+    "ridingId": 35064,
+    "year": 2025,
+    "name": "Charles Sousa",
+    "party": 0
+  },
+  {
+    "ridingId": 35064,
+    "year": 2021,
+    "name": "Sven Spengemann",
+    "party": 0
+  },
+  {
+    "ridingId": 35064,
+    "year": 2019,
+    "name": "Sven Spengemann",
+    "party": 0
+  },
+  {
+    "ridingId": 35064,
+    "year": 2015,
+    "name": "Sven Spengemann",
+    "party": 0
+  },
+  {
+    "ridingId": 35065,
+    "year": 2025,
+    "name": "Iqwinder Singh Gaheer",
+    "party": 0
+  },
+  {
+    "ridingId": 35065,
+    "year": 2021,
+    "name": "Iqwinder Gaheer",
+    "party": 0
+  },
+  {
+    "ridingId": 35065,
+    "year": 2019,
+    "name": "Navdeep Bains",
+    "party": 0
+  },
+  {
+    "ridingId": 35065,
+    "year": 2015,
+    "name": "Navdeep Bains",
+    "party": 0
+  },
+  {
+    "ridingId": 35066,
+    "year": 2025,
+    "name": "Rechie Valdez",
+    "party": 0
+  },
+  {
+    "ridingId": 35066,
+    "year": 2021,
+    "name": "Rechie Valdez",
+    "party": 0
+  },
+  {
+    "ridingId": 35066,
+    "year": 2019,
+    "name": "Gagan Sikand",
+    "party": 0
+  },
+  {
+    "ridingId": 35066,
+    "year": 2015,
+    "name": "Gagan Sikand",
+    "party": 0
+  },
+  {
+    "ridingId": 35066,
+    "year": 2011,
+    "name": "Brad Butt",
+    "party": 1
+  },
+  {
+    "ridingId": 35066,
+    "year": 2008,
+    "name": "Bonnie Crombie",
+    "party": 0
+  },
+  {
+    "ridingId": 35067,
+    "year": 2025,
+    "name": "Mark Carney",
+    "party": 0
+  },
+  {
+    "ridingId": 35067,
+    "year": 2021,
+    "name": "Chandra Arya",
+    "party": 0
+  },
+  {
+    "ridingId": 35067,
+    "year": 2019,
+    "name": "Chandra Arya",
+    "party": 0
+  },
+  {
+    "ridingId": 35067,
+    "year": 2015,
+    "name": "Chandra Arya",
+    "party": 0
+  },
+  {
+    "ridingId": 35067,
+    "year": 2011,
+    "name": "Pierre Poilievre",
+    "party": 1
+  },
+  {
+    "ridingId": 35067,
+    "year": 2008,
+    "name": "Pierre Poilievre",
+    "party": 1
+  },
+  {
+    "ridingId": 35068,
+    "year": 2025,
+    "name": "Sandra Cobena",
+    "party": 1
+  },
+  {
+    "ridingId": 35068,
+    "year": 2021,
+    "name": "Tony Van Bynen",
+    "party": 0
+  },
+  {
+    "ridingId": 35068,
+    "year": 2019,
+    "name": "Tony Van Bynen",
+    "party": 0
+  },
+  {
+    "ridingId": 35068,
+    "year": 2015,
+    "name": "Kyle Peterson",
+    "party": 0
+  },
+  {
+    "ridingId": 35068,
+    "year": 2011,
+    "name": "Lois Brown",
+    "party": 1
+  },
+  {
+    "ridingId": 35068,
+    "year": 2008,
+    "name": "Lois Brown",
+    "party": 1
+  },
+  {
+    "ridingId": 35069,
+    "year": 2025,
+    "name": "Scot Davidson",
+    "party": 1
+  },
+  {
+    "ridingId": 35070,
+    "year": 2025,
+    "name": "Tony Baldinelli",
+    "party": 1
+  },
+  {
+    "ridingId": 35070,
+    "year": 2021,
+    "name": "Tony Baldinelli",
+    "party": 1
+  },
+  {
+    "ridingId": 35070,
+    "year": 2019,
+    "name": "Tony Baldinelli",
+    "party": 1
+  },
+  {
+    "ridingId": 35070,
+    "year": 2015,
+    "name": "Rob Nicholson",
+    "party": 1
+  },
+  {
+    "ridingId": 35070,
+    "year": 2011,
+    "name": "Rob Nicholson",
+    "party": 1
+  },
+  {
+    "ridingId": 35070,
+    "year": 2008,
+    "name": "Rob Nicholson",
+    "party": 1
+  },
+  {
+    "ridingId": 35071,
+    "year": 2025,
+    "name": "Fred Davies",
+    "party": 1
+  },
+  {
+    "ridingId": 35072,
+    "year": 2025,
+    "name": "Dean Allison",
+    "party": 1
+  },
+  {
+    "ridingId": 35072,
+    "year": 2021,
+    "name": "Dean Allison",
+    "party": 1
+  },
+  {
+    "ridingId": 35072,
+    "year": 2019,
+    "name": "Dean Allison",
+    "party": 1
+  },
+  {
+    "ridingId": 35072,
+    "year": 2015,
+    "name": "Dean Allison",
+    "party": 1
+  },
+  {
+    "ridingId": 35072,
+    "year": 2011,
+    "name": "Dean Allison",
+    "party": 1
+  },
+  {
+    "ridingId": 35072,
+    "year": 2008,
+    "name": "Dean Allison",
+    "party": 1
+  },
+  {
+    "ridingId": 35073,
+    "year": 2025,
+    "name": "Pauline Rochefort",
+    "party": 0
+  },
+  {
+    "ridingId": 35073,
+    "year": 2021,
+    "name": "Anthony Rota",
+    "party": 0
+  },
+  {
+    "ridingId": 35073,
+    "year": 2019,
+    "name": "Anthony Rota",
+    "party": 0
+  },
+  {
+    "ridingId": 35073,
+    "year": 2015,
+    "name": "Anthony Rota",
+    "party": 0
+  },
+  {
+    "ridingId": 35073,
+    "year": 2011,
+    "name": "Jay Aspin",
+    "party": 1
+  },
+  {
+    "ridingId": 35073,
+    "year": 2008,
+    "name": "Anthony Rota",
+    "party": 0
+  },
+  {
+    "ridingId": 35074,
+    "year": 2025,
+    "name": "Philip Lawrence",
+    "party": 1
+  },
+  {
+    "ridingId": 35075,
+    "year": 2025,
+    "name": "Anita Anand",
+    "party": 0
+  },
+  {
+    "ridingId": 35075,
+    "year": 2021,
+    "name": "Anita Anand",
+    "party": 0
+  },
+  {
+    "ridingId": 35075,
+    "year": 2019,
+    "name": "Anita Anand",
+    "party": 0
+  },
+  {
+    "ridingId": 35075,
+    "year": 2015,
+    "name": "John Oliver",
+    "party": 0
+  },
+  {
+    "ridingId": 35075,
+    "year": 2011,
+    "name": "Terence Young",
+    "party": 1
+  },
+  {
+    "ridingId": 35075,
+    "year": 2008,
+    "name": "Terence Young",
+    "party": 1
+  },
+  {
+    "ridingId": 35076,
+    "year": 2025,
+    "name": "Sima Acan",
+    "party": 0
+  },
+  {
+    "ridingId": 35077,
+    "year": 2025,
+    "name": "Marie-France Lalonde",
+    "party": 0
+  },
+  {
+    "ridingId": 35077,
+    "year": 2021,
+    "name": "Marie-France Lalonde",
+    "party": 0
+  },
+  {
+    "ridingId": 35077,
+    "year": 2019,
+    "name": "Marie-France Lalonde",
+    "party": 0
+  },
+  {
+    "ridingId": 35077,
+    "year": 2015,
+    "name": "Andrew Leslie",
+    "party": 0
+  },
+  {
+    "ridingId": 35078,
+    "year": 2025,
+    "name": "Rhonda Kirkland",
+    "party": 1
+  },
+  {
+    "ridingId": 35078,
+    "year": 2021,
+    "name": "Colin Carrie",
+    "party": 1
+  },
+  {
+    "ridingId": 35078,
+    "year": 2019,
+    "name": "Colin Carrie",
+    "party": 1
+  },
+  {
+    "ridingId": 35078,
+    "year": 2015,
+    "name": "Colin Carrie",
+    "party": 1
+  },
+  {
+    "ridingId": 35078,
+    "year": 2011,
+    "name": "Colin Carrie",
+    "party": 1
+  },
+  {
+    "ridingId": 35078,
+    "year": 2008,
+    "name": "Colin Carrie",
+    "party": 1
+  },
+  {
+    "ridingId": 35079,
+    "year": 2025,
+    "name": "Yasir Naqvi",
+    "party": 0
+  },
+  {
+    "ridingId": 35079,
+    "year": 2021,
+    "name": "Yasir Naqvi",
+    "party": 0
+  },
+  {
+    "ridingId": 35079,
+    "year": 2019,
+    "name": "Catherine McKenna",
+    "party": 0
+  },
+  {
+    "ridingId": 35079,
+    "year": 2015,
+    "name": "Catherine Mary McKenna",
+    "party": 0
+  },
+  {
+    "ridingId": 35079,
+    "year": 2011,
+    "name": "Paul Dewar",
+    "party": 2
+  },
+  {
+    "ridingId": 35079,
+    "year": 2008,
+    "name": "Paul Dewar",
+    "party": 2
+  },
+  {
+    "ridingId": 35080,
+    "year": 2025,
+    "name": "David McGuinty",
+    "party": 0
+  },
+  {
+    "ridingId": 35080,
+    "year": 2021,
+    "name": "David McGuinty",
+    "party": 0
+  },
+  {
+    "ridingId": 35080,
+    "year": 2019,
+    "name": "David McGuinty",
+    "party": 0
+  },
+  {
+    "ridingId": 35080,
+    "year": 2015,
+    "name": "David McGuinty",
+    "party": 0
+  },
+  {
+    "ridingId": 35080,
+    "year": 2011,
+    "name": "David McGuinty",
+    "party": 0
+  },
+  {
+    "ridingId": 35080,
+    "year": 2008,
+    "name": "David McGuinty",
+    "party": 0
+  },
+  {
+    "ridingId": 35081,
+    "year": 2025,
+    "name": "Mona Fortier",
+    "party": 0
+  },
+  {
+    "ridingId": 35081,
+    "year": 2021,
+    "name": "Mona Fortier",
+    "party": 0
+  },
+  {
+    "ridingId": 35081,
+    "year": 2019,
+    "name": "Mona Fortier",
+    "party": 0
+  },
+  {
+    "ridingId": 35081,
+    "year": 2015,
+    "name": "Mauril B\u00E9langer",
+    "party": 0
+  },
+  {
+    "ridingId": 35081,
+    "year": 2011,
+    "name": "Mauril B\u00E9langer",
+    "party": 0
+  },
+  {
+    "ridingId": 35081,
+    "year": 2008,
+    "name": "Mauril B\u00E9langer",
+    "party": 0
+  },
+  {
+    "ridingId": 35082,
+    "year": 2025,
+    "name": "Anita Vandenbeld",
+    "party": 0
+  },
+  {
+    "ridingId": 35082,
+    "year": 2021,
+    "name": "Anita Vandenbeld",
+    "party": 0
+  },
+  {
+    "ridingId": 35082,
+    "year": 2019,
+    "name": "Anita Vandenbeld",
+    "party": 0
+  },
+  {
+    "ridingId": 35082,
+    "year": 2015,
+    "name": "Anita Vandenbeld",
+    "party": 0
+  },
+  {
+    "ridingId": 35082,
+    "year": 2011,
+    "name": "John Baird",
+    "party": 1
+  },
+  {
+    "ridingId": 35082,
+    "year": 2008,
+    "name": "John Baird",
+    "party": 1
+  },
+  {
+    "ridingId": 35083,
+    "year": 2025,
+    "name": "Arpan Khanna",
+    "party": 1
+  },
+  {
+    "ridingId": 35083,
+    "year": 2021,
+    "name": "Dave MacKenzie",
+    "party": 1
+  },
+  {
+    "ridingId": 35083,
+    "year": 2019,
+    "name": "Dave MacKenzie",
+    "party": 1
+  },
+  {
+    "ridingId": 35083,
+    "year": 2015,
+    "name": "Dave MacKenzie",
+    "party": 1
+  },
+  {
+    "ridingId": 35083,
+    "year": 2011,
+    "name": "Dave MacKenzie",
+    "party": 1
+  },
+  {
+    "ridingId": 35083,
+    "year": 2008,
+    "name": "Dave MacKenzie",
+    "party": 1
+  },
+  {
+    "ridingId": 35084,
+    "year": 2025,
+    "name": "Scott Aitchison",
+    "party": 1
+  },
+  {
+    "ridingId": 35084,
+    "year": 2021,
+    "name": "Scott Aitchison",
+    "party": 1
+  },
+  {
+    "ridingId": 35084,
+    "year": 2019,
+    "name": "Scott Aitchison",
+    "party": 1
+  },
+  {
+    "ridingId": 35084,
+    "year": 2015,
+    "name": "Tony Clement",
+    "party": 1
+  },
+  {
+    "ridingId": 35084,
+    "year": 2011,
+    "name": "Tony Clement",
+    "party": 1
+  },
+  {
+    "ridingId": 35084,
+    "year": 2008,
+    "name": "Tony Clement",
+    "party": 1
+  },
+  {
+    "ridingId": 35085,
+    "year": 2025,
+    "name": "John Nater",
+    "party": 1
+  },
+  {
+    "ridingId": 35085,
+    "year": 2021,
+    "name": "John Nater",
+    "party": 1
+  },
+  {
+    "ridingId": 35085,
+    "year": 2019,
+    "name": "John Nater",
+    "party": 1
+  },
+  {
+    "ridingId": 35085,
+    "year": 2015,
+    "name": "John Nater",
+    "party": 1
+  },
+  {
+    "ridingId": 35085,
+    "year": 2011,
+    "name": "Gary Schellenberger",
+    "party": 1
+  },
+  {
+    "ridingId": 35085,
+    "year": 2008,
+    "name": "Gary Ralph Schellenberger",
+    "party": 1
+  },
+  {
+    "ridingId": 35086,
+    "year": 2025,
+    "name": "Emma Harrison",
+    "party": 0
+  },
+  {
+    "ridingId": 35086,
+    "year": 2021,
+    "name": "Michelle Ferreri",
+    "party": 1
+  },
+  {
+    "ridingId": 35086,
+    "year": 2019,
+    "name": "Maryam Monsef",
+    "party": 0
+  },
+  {
+    "ridingId": 35086,
+    "year": 2015,
+    "name": "Maryam Monsef",
+    "party": 0
+  },
+  {
+    "ridingId": 35086,
+    "year": 2011,
+    "name": "Dean Del Mastro",
+    "party": 1
+  },
+  {
+    "ridingId": 35086,
+    "year": 2008,
+    "name": "Dean Del Mastro",
+    "party": 1
+  },
+  {
+    "ridingId": 35087,
+    "year": 2025,
+    "name": "Juanita Nathan",
+    "party": 0
+  },
+  {
+    "ridingId": 35088,
+    "year": 2025,
+    "name": "Giovanna Mingarelli",
+    "party": 0
+  },
+  {
+    "ridingId": 35089,
+    "year": 2025,
+    "name": "Vincent Ho",
+    "party": 1
+  },
+  {
+    "ridingId": 35089,
+    "year": 2021,
+    "name": "Majid Jowhari",
+    "party": 0
+  },
+  {
+    "ridingId": 35089,
+    "year": 2019,
+    "name": "Majid Jowhari",
+    "party": 0
+  },
+  {
+    "ridingId": 35089,
+    "year": 2015,
+    "name": "Majid Jowhari",
+    "party": 0
+  },
+  {
+    "ridingId": 35089,
+    "year": 2011,
+    "name": "Costas Menegakis",
+    "party": 1
+  },
+  {
+    "ridingId": 35089,
+    "year": 2008,
+    "name": "Bryon Wilfert",
+    "party": 0
+  },
+  {
+    "ridingId": 35090,
+    "year": 2025,
+    "name": "Marilyn Gladu",
+    "party": 1
+  },
+  {
+    "ridingId": 35090,
+    "year": 2021,
+    "name": "Marilyn Gladu",
+    "party": 1
+  },
+  {
+    "ridingId": 35090,
+    "year": 2019,
+    "name": "Marilyn Gladu",
+    "party": 1
+  },
+  {
+    "ridingId": 35090,
+    "year": 2015,
+    "name": "Marilyn Gladu",
+    "party": 1
+  },
+  {
+    "ridingId": 35090,
+    "year": 2011,
+    "name": "Pat Davidson",
+    "party": 1
+  },
+  {
+    "ridingId": 35090,
+    "year": 2008,
+    "name": "Pat Davidson",
+    "party": 1
+  },
+  {
+    "ridingId": 35091,
+    "year": 2025,
+    "name": "Terry Sheehan",
+    "party": 0
+  },
+  {
+    "ridingId": 35091,
+    "year": 2021,
+    "name": "Terry Sheehan",
+    "party": 0
+  },
+  {
+    "ridingId": 35091,
+    "year": 2019,
+    "name": "Terry Sheehan",
+    "party": 0
+  },
+  {
+    "ridingId": 35091,
+    "year": 2015,
+    "name": "Terry Sheehan",
+    "party": 0
+  },
+  {
+    "ridingId": 35091,
+    "year": 2011,
+    "name": "Bryan Hayes",
+    "party": 1
+  },
+  {
+    "ridingId": 35091,
+    "year": 2008,
+    "name": "Tony Martin",
+    "party": 2
+  },
+  {
+    "ridingId": 35092,
+    "year": 2025,
+    "name": "Jean Yip",
+    "party": 0
+  },
+  {
+    "ridingId": 35092,
+    "year": 2021,
+    "name": "Jean Yip",
+    "party": 0
+  },
+  {
+    "ridingId": 35092,
+    "year": 2019,
+    "name": "Jean Yip",
+    "party": 0
+  },
+  {
+    "ridingId": 35092,
+    "year": 2015,
+    "name": "Arnold Chan",
+    "party": 0
+  },
+  {
+    "ridingId": 35092,
+    "year": 2011,
+    "name": "Jim Karygiannis",
+    "party": 0
+  },
+  {
+    "ridingId": 35092,
+    "year": 2008,
+    "name": "Jim Karygiannis",
+    "party": 0
+  },
+  {
+    "ridingId": 35093,
+    "year": 2025,
+    "name": "Salma Zahid",
+    "party": 0
+  },
+  {
+    "ridingId": 35093,
+    "year": 2021,
+    "name": "Salma Zahid",
+    "party": 0
+  },
+  {
+    "ridingId": 35093,
+    "year": 2019,
+    "name": "Salma Zahid",
+    "party": 0
+  },
+  {
+    "ridingId": 35093,
+    "year": 2015,
+    "name": "Salma Zahid",
+    "party": 0
+  },
+  {
+    "ridingId": 35093,
+    "year": 2011,
+    "name": "Roxanne James",
+    "party": 1
+  },
+  {
+    "ridingId": 35093,
+    "year": 2008,
+    "name": "John Cannis",
+    "party": 0
+  },
+  {
+    "ridingId": 35094,
+    "year": 2025,
+    "name": "Gary Anandasangaree",
+    "party": 0
+  },
+  {
+    "ridingId": 35094,
+    "year": 2021,
+    "name": "John McKay",
+    "party": 0
+  },
+  {
+    "ridingId": 35094,
+    "year": 2019,
+    "name": "John McKay",
+    "party": 0
+  },
+  {
+    "ridingId": 35094,
+    "year": 2015,
+    "name": "John McKay",
+    "party": 0
+  },
+  {
+    "ridingId": 35094,
+    "year": 2011,
+    "name": "John McKay",
+    "party": 0
+  },
+  {
+    "ridingId": 35094,
+    "year": 2008,
+    "name": "John McKay",
+    "party": 0
+  },
+  {
+    "ridingId": 35095,
+    "year": 2025,
+    "name": "Shaun Chen",
+    "party": 0
+  },
+  {
+    "ridingId": 35095,
+    "year": 2021,
+    "name": "Shaun Chen",
+    "party": 0
+  },
+  {
+    "ridingId": 35095,
+    "year": 2019,
+    "name": "Shaun Chen",
+    "party": 0
+  },
+  {
+    "ridingId": 35095,
+    "year": 2015,
+    "name": "Shaun Chen",
+    "party": 0
+  },
+  {
+    "ridingId": 35096,
+    "year": 2025,
+    "name": "Bill Blair",
+    "party": 0
+  },
+  {
+    "ridingId": 35096,
+    "year": 2021,
+    "name": "Bill Blair",
+    "party": 0
+  },
+  {
+    "ridingId": 35096,
+    "year": 2019,
+    "name": "Bill Blair",
+    "party": 0
+  },
+  {
+    "ridingId": 35096,
+    "year": 2015,
+    "name": "Bill Blair",
+    "party": 0
+  },
+  {
+    "ridingId": 35096,
+    "year": 2011,
+    "name": "Dan Harris",
+    "party": 2
+  },
+  {
+    "ridingId": 35096,
+    "year": 2008,
+    "name": "Michelle Simson",
+    "party": 0
+  },
+  {
+    "ridingId": 35097,
+    "year": 2025,
+    "name": "Michael Coteau",
+    "party": 0
+  },
+  {
+    "ridingId": 35098,
+    "year": 2025,
+    "name": "Terry Dowdall",
+    "party": 1
+  },
+  {
+    "ridingId": 35098,
+    "year": 2021,
+    "name": "Terry Dowdall",
+    "party": 1
+  },
+  {
+    "ridingId": 35098,
+    "year": 2019,
+    "name": "Terry Dowdall",
+    "party": 1
+  },
+  {
+    "ridingId": 35098,
+    "year": 2015,
+    "name": "Kellie Leitch",
+    "party": 1
+  },
+  {
+    "ridingId": 35098,
+    "year": 2011,
+    "name": "Kellie Leitch",
+    "party": 1
+  },
+  {
+    "ridingId": 35098,
+    "year": 2008,
+    "name": "Helena Guergis",
+    "party": 1
+  },
+  {
+    "ridingId": 35099,
+    "year": 2025,
+    "name": "Adam Chambers",
+    "party": 1
+  },
+  {
+    "ridingId": 35099,
+    "year": 2021,
+    "name": "Adam Chambers",
+    "party": 1
+  },
+  {
+    "ridingId": 35099,
+    "year": 2019,
+    "name": "Bruce Stanton",
+    "party": 1
+  },
+  {
+    "ridingId": 35099,
+    "year": 2015,
+    "name": "Bruce Stanton",
+    "party": 1
+  },
+  {
+    "ridingId": 35099,
+    "year": 2011,
+    "name": "Bruce Stanton",
+    "party": 1
+  },
+  {
+    "ridingId": 35099,
+    "year": 2008,
+    "name": "Bruce Stanton",
+    "party": 1
+  },
+  {
+    "ridingId": 35100,
+    "year": 2025,
+    "name": "Chi Nguyen",
+    "party": 0
+  },
+  {
+    "ridingId": 35101,
+    "year": 2025,
+    "name": "Chris Bittle",
+    "party": 0
+  },
+  {
+    "ridingId": 35101,
+    "year": 2021,
+    "name": "Chris Bittle",
+    "party": 0
+  },
+  {
+    "ridingId": 35101,
+    "year": 2019,
+    "name": "Chris Bittle",
+    "party": 0
+  },
+  {
+    "ridingId": 35101,
+    "year": 2015,
+    "name": "Chris Bittle",
+    "party": 0
+  },
+  {
+    "ridingId": 35101,
+    "year": 2011,
+    "name": "Rick Dykstra",
+    "party": 1
+  },
+  {
+    "ridingId": 35101,
+    "year": 2008,
+    "name": "Rick Dykstra",
+    "party": 1
+  },
+  {
+    "ridingId": 35102,
+    "year": 2025,
+    "name": "Eric Duncan",
+    "party": 1
+  },
+  {
+    "ridingId": 35103,
+    "year": 2025,
+    "name": "Viviane Lapointe",
+    "party": 0
+  },
+  {
+    "ridingId": 35103,
+    "year": 2021,
+    "name": "Viviane Lapointe",
+    "party": 0
+  },
+  {
+    "ridingId": 35103,
+    "year": 2019,
+    "name": "Paul Lefebvre",
+    "party": 0
+  },
+  {
+    "ridingId": 35103,
+    "year": 2015,
+    "name": "Paul Lefebvre",
+    "party": 0
+  },
+  {
+    "ridingId": 35103,
+    "year": 2011,
+    "name": "Glenn Thibeault",
+    "party": 2
+  },
+  {
+    "ridingId": 35103,
+    "year": 2008,
+    "name": "Glenn Thibeault",
+    "party": 2
+  },
+  {
+    "ridingId": 35104,
+    "year": 2025,
+    "name": "Jim Belanger",
+    "party": 1
+  },
+  {
+    "ridingId": 35105,
+    "year": 2025,
+    "name": "Karim Bardeesy",
+    "party": 0
+  },
+  {
+    "ridingId": 35106,
+    "year": 2025,
+    "name": "Melissa Lantsman",
+    "party": 1
+  },
+  {
+    "ridingId": 35106,
+    "year": 2021,
+    "name": "Melissa Lantsman",
+    "party": 1
+  },
+  {
+    "ridingId": 35106,
+    "year": 2019,
+    "name": "Peter Kent",
+    "party": 1
+  },
+  {
+    "ridingId": 35106,
+    "year": 2015,
+    "name": "Peter Kent",
+    "party": 1
+  },
+  {
+    "ridingId": 35106,
+    "year": 2011,
+    "name": "Peter Kent",
+    "party": 1
+  },
+  {
+    "ridingId": 35106,
+    "year": 2008,
+    "name": "Peter Kent",
+    "party": 1
+  },
+  {
+    "ridingId": 35107,
+    "year": 2025,
+    "name": "Marcus Powlowski",
+    "party": 0
+  },
+  {
+    "ridingId": 35107,
+    "year": 2021,
+    "name": "Marcus Powlowski",
+    "party": 0
+  },
+  {
+    "ridingId": 35107,
+    "year": 2019,
+    "name": "Marcus Powlowski",
+    "party": 0
+  },
+  {
+    "ridingId": 35107,
+    "year": 2015,
+    "name": "Don Rusnak",
+    "party": 0
+  },
+  {
+    "ridingId": 35107,
+    "year": 2011,
+    "name": "John Rafferty",
+    "party": 2
+  },
+  {
+    "ridingId": 35107,
+    "year": 2008,
+    "name": "John Rafferty",
+    "party": 2
+  },
+  {
+    "ridingId": 35108,
+    "year": 2025,
+    "name": "Patty Hajdu",
+    "party": 0
+  },
+  {
+    "ridingId": 35108,
+    "year": 2021,
+    "name": "Patty Hajdu",
+    "party": 0
+  },
+  {
+    "ridingId": 35108,
+    "year": 2019,
+    "name": "Patty Hajdu",
+    "party": 0
+  },
+  {
+    "ridingId": 35108,
+    "year": 2015,
+    "name": "Patty Hajdu",
+    "party": 0
+  },
+  {
+    "ridingId": 35108,
+    "year": 2011,
+    "name": "Bruce Hyer",
+    "party": 2
+  },
+  {
+    "ridingId": 35108,
+    "year": 2008,
+    "name": "Bruce Hyer",
+    "party": 2
+  },
+  {
+    "ridingId": 35109,
+    "year": 2025,
+    "name": "Evan Solomon",
+    "party": 0
+  },
+  {
+    "ridingId": 35109,
+    "year": 2021,
+    "name": "Marci Ien",
+    "party": 0
+  },
+  {
+    "ridingId": 35109,
+    "year": 2019,
+    "name": "Bill Morneau",
+    "party": 0
+  },
+  {
+    "ridingId": 35109,
+    "year": 2015,
+    "name": "Bill Morneau",
+    "party": 0
+  },
+  {
+    "ridingId": 35109,
+    "year": 2011,
+    "name": "Bob Rae",
+    "party": 0
+  },
+  {
+    "ridingId": 35109,
+    "year": 2008,
+    "name": "Bob Rae",
+    "party": 0
+  },
+  {
+    "ridingId": 35110,
+    "year": 2025,
+    "name": "Julie Dabrusin",
+    "party": 0
+  },
+  {
+    "ridingId": 35110,
+    "year": 2021,
+    "name": "Julie Dabrusin",
+    "party": 0
+  },
+  {
+    "ridingId": 35110,
+    "year": 2019,
+    "name": "Julie Dabrusin",
+    "party": 0
+  },
+  {
+    "ridingId": 35110,
+    "year": 2015,
+    "name": "Julie Dabrusin",
+    "party": 0
+  },
+  {
+    "ridingId": 35110,
+    "year": 2011,
+    "name": "Jack Layton",
+    "party": 2
+  },
+  {
+    "ridingId": 35110,
+    "year": 2008,
+    "name": "Jack Layton",
+    "party": 2
+  },
+  {
+    "ridingId": 35111,
+    "year": 2025,
+    "name": "Leslie Church",
+    "party": 0
+  },
+  {
+    "ridingId": 35111,
+    "year": 2021,
+    "name": "Carolyn Bennett",
+    "party": 0
+  },
+  {
+    "ridingId": 35111,
+    "year": 2019,
+    "name": "Carolyn Bennett",
+    "party": 0
+  },
+  {
+    "ridingId": 35111,
+    "year": 2015,
+    "name": "Carolyn Bennett",
+    "party": 0
+  },
+  {
+    "ridingId": 35112,
+    "year": 2025,
+    "name": "Chrystia Freeland",
+    "party": 0
+  },
+  {
+    "ridingId": 35112,
+    "year": 2021,
+    "name": "Chrystia Freeland",
+    "party": 0
+  },
+  {
+    "ridingId": 35112,
+    "year": 2019,
+    "name": "Chrystia Freeland",
+    "party": 0
+  },
+  {
+    "ridingId": 35112,
+    "year": 2015,
+    "name": "Chrystia Freeland",
+    "party": 0
+  },
+  {
+    "ridingId": 35113,
+    "year": 2025,
+    "name": "Michael Guglielmin",
+    "party": 1
+  },
+  {
+    "ridingId": 35113,
+    "year": 2021,
+    "name": "Francesco Sorbara",
+    "party": 0
+  },
+  {
+    "ridingId": 35113,
+    "year": 2019,
+    "name": "Francesco Sorbara",
+    "party": 0
+  },
+  {
+    "ridingId": 35113,
+    "year": 2015,
+    "name": "Francesco Sorbara",
+    "party": 0
+  },
+  {
+    "ridingId": 35113,
+    "year": 2011,
+    "name": "Julian Fantino",
+    "party": 1
+  },
+  {
+    "ridingId": 35113,
+    "year": 2008,
+    "name": "Maurizio Bevilacqua",
+    "party": 0
+  },
+  {
+    "ridingId": 35114,
+    "year": 2025,
+    "name": "Bardish Chagger",
+    "party": 0
+  },
+  {
+    "ridingId": 35114,
+    "year": 2021,
+    "name": "Bardish Chagger",
+    "party": 0
+  },
+  {
+    "ridingId": 35114,
+    "year": 2019,
+    "name": "Bardish Chagger",
+    "party": 0
+  },
+  {
+    "ridingId": 35114,
+    "year": 2015,
+    "name": "Bardish Chagger",
+    "party": 0
+  },
+  {
+    "ridingId": 35115,
+    "year": 2025,
+    "name": "Michael Chong",
+    "party": 1
+  },
+  {
+    "ridingId": 35115,
+    "year": 2021,
+    "name": "Michael Chong",
+    "party": 1
+  },
+  {
+    "ridingId": 35115,
+    "year": 2019,
+    "name": "Michael Chong",
+    "party": 1
+  },
+  {
+    "ridingId": 35115,
+    "year": 2015,
+    "name": "Michael Chong",
+    "party": 1
+  },
+  {
+    "ridingId": 35115,
+    "year": 2011,
+    "name": "Michael Chong",
+    "party": 1
+  },
+  {
+    "ridingId": 35115,
+    "year": 2008,
+    "name": "Michael Chong",
+    "party": 1
+  },
+  {
+    "ridingId": 35116,
+    "year": 2025,
+    "name": "Ryan Turnbull",
+    "party": 0
+  },
+  {
+    "ridingId": 35116,
+    "year": 2021,
+    "name": "Ryan Turnbull",
+    "party": 0
+  },
+  {
+    "ridingId": 35116,
+    "year": 2019,
+    "name": "Ryan Turnbull",
+    "party": 0
+  },
+  {
+    "ridingId": 35116,
+    "year": 2015,
+    "name": "Celina Caesar-Chavannes",
+    "party": 0
+  },
+  {
+    "ridingId": 35116,
+    "year": 2011,
+    "name": "Jim Flaherty",
+    "party": 1
+  },
+  {
+    "ridingId": 35116,
+    "year": 2008,
+    "name": "Jim Flaherty",
+    "party": 1
+  },
+  {
+    "ridingId": 35117,
+    "year": 2025,
+    "name": "Ali Ehsassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35117,
+    "year": 2021,
+    "name": "Ali Ehsassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35117,
+    "year": 2019,
+    "name": "Ali Ehsassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35117,
+    "year": 2015,
+    "name": "Ali Ehsassi",
+    "party": 0
+  },
+  {
+    "ridingId": 35117,
+    "year": 2011,
+    "name": "Chungsen Leung",
+    "party": 1
+  },
+  {
+    "ridingId": 35117,
+    "year": 2008,
+    "name": "Martha Hall Findlay",
+    "party": 0
+  },
+  {
+    "ridingId": 35118,
+    "year": 2025,
+    "name": "Kathy Borrelli",
+    "party": 1
+  },
+  {
+    "ridingId": 35118,
+    "year": 2021,
+    "name": "Irek Kusmierczyk",
+    "party": 0
+  },
+  {
+    "ridingId": 35118,
+    "year": 2019,
+    "name": "Irek Kusmierczyk",
+    "party": 0
+  },
+  {
+    "ridingId": 35118,
+    "year": 2015,
+    "name": "Cheryl Hardcastle",
+    "party": 2
+  },
+  {
+    "ridingId": 35118,
+    "year": 2011,
+    "name": "Joe Comartin",
+    "party": 2
+  },
+  {
+    "ridingId": 35118,
+    "year": 2008,
+    "name": "Joe Comartin",
+    "party": 2
+  },
+  {
+    "ridingId": 35119,
+    "year": 2025,
+    "name": "Harb Gill",
+    "party": 1
+  },
+  {
+    "ridingId": 35119,
+    "year": 2021,
+    "name": "Brian Masse",
+    "party": 2
+  },
+  {
+    "ridingId": 35119,
+    "year": 2019,
+    "name": "Brian Masse",
+    "party": 2
+  },
+  {
+    "ridingId": 35119,
+    "year": 2015,
+    "name": "Brian Masse",
+    "party": 2
+  },
+  {
+    "ridingId": 35119,
+    "year": 2011,
+    "name": "Brian Masse",
+    "party": 2
+  },
+  {
+    "ridingId": 35119,
+    "year": 2008,
+    "name": "Brian Masse",
+    "party": 2
+  },
+  {
+    "ridingId": 35120,
+    "year": 2025,
+    "name": "Roman Baber",
+    "party": 1
+  },
+  {
+    "ridingId": 35120,
+    "year": 2021,
+    "name": "Ya\u0027ara Saks",
+    "party": 0
+  },
+  {
+    "ridingId": 35120,
+    "year": 2019,
+    "name": "Michael Levitt",
+    "party": 0
+  },
+  {
+    "ridingId": 35120,
+    "year": 2015,
+    "name": "Michael Levitt",
+    "party": 0
+  },
+  {
+    "ridingId": 35120,
+    "year": 2011,
+    "name": "Mark Adler",
+    "party": 1
+  },
+  {
+    "ridingId": 35120,
+    "year": 2008,
+    "name": "Ken Dryden",
+    "party": 0
+  },
+  {
+    "ridingId": 35121,
+    "year": 2025,
+    "name": "Jacob Mantle",
+    "party": 1
+  },
+  {
+    "ridingId": 35122,
+    "year": 2025,
+    "name": "Ahmed Hussen",
+    "party": 0
+  },
+  {
+    "ridingId": 35122,
+    "year": 2021,
+    "name": "Ahmed Hussen",
+    "party": 0
+  },
+  {
+    "ridingId": 35122,
+    "year": 2019,
+    "name": "Ahmed Hussen",
+    "party": 0
+  },
+  {
+    "ridingId": 35122,
+    "year": 2015,
+    "name": "Ahmed Hussen",
+    "party": 0
+  },
+  {
+    "ridingId": 35122,
+    "year": 2011,
+    "name": "Mike Sullivan",
+    "party": 2
+  },
+  {
+    "ridingId": 35122,
+    "year": 2008,
+    "name": "Alan Tonks",
+    "party": 0
+  },
+  {
+    "ridingId": 46001,
+    "year": 2025,
+    "name": "Grant Jackson",
+    "party": 1
+  },
+  {
+    "ridingId": 46001,
+    "year": 2021,
+    "name": "Larry Maguire",
+    "party": 1
+  },
+  {
+    "ridingId": 46001,
+    "year": 2019,
+    "name": "Larry Maguire",
+    "party": 1
+  },
+  {
+    "ridingId": 46001,
+    "year": 2015,
+    "name": "Larry Maguire",
+    "party": 1
+  },
+  {
+    "ridingId": 46001,
+    "year": 2011,
+    "name": "Merv Tweed",
+    "party": 1
+  },
+  {
+    "ridingId": 46001,
+    "year": 2008,
+    "name": "Merv Tweed",
+    "party": 1
+  },
+  {
+    "ridingId": 46002,
+    "year": 2025,
+    "name": "Rebecca Chartrand",
+    "party": 0
+  },
+  {
+    "ridingId": 46002,
+    "year": 2021,
+    "name": "Niki Ashton",
+    "party": 2
+  },
+  {
+    "ridingId": 46002,
+    "year": 2019,
+    "name": "Niki Ashton",
+    "party": 2
+  },
+  {
+    "ridingId": 46002,
+    "year": 2015,
+    "name": "Niki Ashton",
+    "party": 2
+  },
+  {
+    "ridingId": 46002,
+    "year": 2011,
+    "name": "Niki Ashton",
+    "party": 2
+  },
+  {
+    "ridingId": 46002,
+    "year": 2008,
+    "name": "Niki Ashton",
+    "party": 2
+  },
+  {
+    "ridingId": 46003,
+    "year": 2025,
+    "name": "Colin Reynolds",
+    "party": 1
+  },
+  {
+    "ridingId": 46003,
+    "year": 2021,
+    "name": "Daniel Blaikie",
+    "party": 2
+  },
+  {
+    "ridingId": 46003,
+    "year": 2019,
+    "name": "Daniel Blaikie",
+    "party": 2
+  },
+  {
+    "ridingId": 46003,
+    "year": 2015,
+    "name": "Daniel Blaikie",
+    "party": 2
+  },
+  {
+    "ridingId": 46003,
+    "year": 2011,
+    "name": "Lawrence Toet",
+    "party": 1
+  },
+  {
+    "ridingId": 46003,
+    "year": 2008,
+    "name": "Jim Maloway",
+    "party": 2
+  },
+  {
+    "ridingId": 46004,
+    "year": 2025,
+    "name": "Raquel Dancho",
+    "party": 1
+  },
+  {
+    "ridingId": 46004,
+    "year": 2021,
+    "name": "Raquel Dancho",
+    "party": 1
+  },
+  {
+    "ridingId": 46004,
+    "year": 2019,
+    "name": "Raquel Dancho",
+    "party": 1
+  },
+  {
+    "ridingId": 46004,
+    "year": 2015,
+    "name": "MaryAnn Mihychuk",
+    "party": 0
+  },
+  {
+    "ridingId": 46004,
+    "year": 2011,
+    "name": "Joy Smith",
+    "party": 1
+  },
+  {
+    "ridingId": 46004,
+    "year": 2008,
+    "name": "Joy Smith",
+    "party": 1
+  },
+  {
+    "ridingId": 46005,
+    "year": 2025,
+    "name": "Branden Leslie",
+    "party": 1
+  },
+  {
+    "ridingId": 46005,
+    "year": 2021,
+    "name": "Candice Bergen",
+    "party": 1
+  },
+  {
+    "ridingId": 46005,
+    "year": 2019,
+    "name": "Candice Bergen",
+    "party": 1
+  },
+  {
+    "ridingId": 46005,
+    "year": 2015,
+    "name": "Candice Bergen",
+    "party": 1
+  },
+  {
+    "ridingId": 46005,
+    "year": 2011,
+    "name": "Candice Hoeppner",
+    "party": 1
+  },
+  {
+    "ridingId": 46005,
+    "year": 2008,
+    "name": "Candice Hoeppner",
+    "party": 1
+  },
+  {
+    "ridingId": 46006,
+    "year": 2025,
+    "name": "Ted Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 46006,
+    "year": 2021,
+    "name": "Ted Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 46006,
+    "year": 2019,
+    "name": "Ted Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 46006,
+    "year": 2015,
+    "name": "Ted Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 46006,
+    "year": 2011,
+    "name": "Vic Toews",
+    "party": 1
+  },
+  {
+    "ridingId": 46006,
+    "year": 2008,
+    "name": "Vic Toews",
+    "party": 1
+  },
+  {
+    "ridingId": 46007,
+    "year": 2025,
+    "name": "Dan Mazier",
+    "party": 1
+  },
+  {
+    "ridingId": 46008,
+    "year": 2025,
+    "name": "Ginette Lavack",
+    "party": 0
+  },
+  {
+    "ridingId": 46009,
+    "year": 2025,
+    "name": "James Bezan",
+    "party": 1
+  },
+  {
+    "ridingId": 46009,
+    "year": 2021,
+    "name": "James Bezan",
+    "party": 1
+  },
+  {
+    "ridingId": 46009,
+    "year": 2019,
+    "name": "James Bezan",
+    "party": 1
+  },
+  {
+    "ridingId": 46009,
+    "year": 2015,
+    "name": "James Bezan",
+    "party": 1
+  },
+  {
+    "ridingId": 46009,
+    "year": 2011,
+    "name": "James Bezan",
+    "party": 1
+  },
+  {
+    "ridingId": 46009,
+    "year": 2008,
+    "name": "James Bezan",
+    "party": 1
+  },
+  {
+    "ridingId": 46010,
+    "year": 2025,
+    "name": "Leah Gazan",
+    "party": 2
+  },
+  {
+    "ridingId": 46010,
+    "year": 2021,
+    "name": "Leah Gazan",
+    "party": 2
+  },
+  {
+    "ridingId": 46010,
+    "year": 2019,
+    "name": "Leah Gazan",
+    "party": 2
+  },
+  {
+    "ridingId": 46010,
+    "year": 2015,
+    "name": "Robert-Falcon Ouellette",
+    "party": 0
+  },
+  {
+    "ridingId": 46010,
+    "year": 2011,
+    "name": "Pat Martin",
+    "party": 2
+  },
+  {
+    "ridingId": 46010,
+    "year": 2008,
+    "name": "Pat Martin",
+    "party": 2
+  },
+  {
+    "ridingId": 46011,
+    "year": 2025,
+    "name": "Kevin Lamoureux",
+    "party": 0
+  },
+  {
+    "ridingId": 46011,
+    "year": 2021,
+    "name": "Kevin Lamoureux",
+    "party": 0
+  },
+  {
+    "ridingId": 46011,
+    "year": 2019,
+    "name": "Kevin Lamoureux",
+    "party": 0
+  },
+  {
+    "ridingId": 46011,
+    "year": 2015,
+    "name": "Kevin Lamoureux",
+    "party": 0
+  },
+  {
+    "ridingId": 46011,
+    "year": 2011,
+    "name": "Kevin Lamoureux",
+    "party": 0
+  },
+  {
+    "ridingId": 46011,
+    "year": 2008,
+    "name": "Judy Wasylycia-Leis",
+    "party": 2
+  },
+  {
+    "ridingId": 46012,
+    "year": 2025,
+    "name": "Terry Duguid",
+    "party": 0
+  },
+  {
+    "ridingId": 46012,
+    "year": 2021,
+    "name": "Terry Duguid",
+    "party": 0
+  },
+  {
+    "ridingId": 46012,
+    "year": 2019,
+    "name": "Terry Duguid",
+    "party": 0
+  },
+  {
+    "ridingId": 46012,
+    "year": 2015,
+    "name": "Terry Duguid",
+    "party": 0
+  },
+  {
+    "ridingId": 46012,
+    "year": 2011,
+    "name": "Rod Bruinooge",
+    "party": 1
+  },
+  {
+    "ridingId": 46012,
+    "year": 2008,
+    "name": "Rod Bruinooge",
+    "party": 1
+  },
+  {
+    "ridingId": 46013,
+    "year": 2025,
+    "name": "Ben Carr",
+    "party": 0
+  },
+  {
+    "ridingId": 46013,
+    "year": 2021,
+    "name": "Jim Carr",
+    "party": 0
+  },
+  {
+    "ridingId": 46013,
+    "year": 2019,
+    "name": "Jim Carr",
+    "party": 0
+  },
+  {
+    "ridingId": 46013,
+    "year": 2015,
+    "name": "Jim Carr",
+    "party": 0
+  },
+  {
+    "ridingId": 46013,
+    "year": 2011,
+    "name": "Joyce Bateman",
+    "party": 1
+  },
+  {
+    "ridingId": 46013,
+    "year": 2008,
+    "name": "Anita Neville",
+    "party": 0
+  },
+  {
+    "ridingId": 46014,
+    "year": 2025,
+    "name": "Doug Eyolfson",
+    "party": 0
+  },
+  {
+    "ridingId": 47001,
+    "year": 2025,
+    "name": "Rosemarie Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 47001,
+    "year": 2021,
+    "name": "Rosemarie Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 47001,
+    "year": 2019,
+    "name": "Rosemarie Falk",
+    "party": 1
+  },
+  {
+    "ridingId": 47001,
+    "year": 2015,
+    "name": "Gerry Ritz",
+    "party": 1
+  },
+  {
+    "ridingId": 47001,
+    "year": 2011,
+    "name": "Gerry Ritz",
+    "party": 1
+  },
+  {
+    "ridingId": 47001,
+    "year": 2008,
+    "name": "Gerry Ritz",
+    "party": 1
+  },
+  {
+    "ridingId": 47002,
+    "year": 2025,
+    "name": "Kelly Block",
+    "party": 1
+  },
+  {
+    "ridingId": 47002,
+    "year": 2021,
+    "name": "Kelly Block",
+    "party": 1
+  },
+  {
+    "ridingId": 47002,
+    "year": 2019,
+    "name": "Kelly Block",
+    "party": 1
+  },
+  {
+    "ridingId": 47002,
+    "year": 2015,
+    "name": "Kelly Block",
+    "party": 1
+  },
+  {
+    "ridingId": 47003,
+    "year": 2025,
+    "name": "Buckley Belanger",
+    "party": 0
+  },
+  {
+    "ridingId": 47003,
+    "year": 2021,
+    "name": "Gary Vidal",
+    "party": 1
+  },
+  {
+    "ridingId": 47003,
+    "year": 2019,
+    "name": "Gary Vidal",
+    "party": 1
+  },
+  {
+    "ridingId": 47003,
+    "year": 2015,
+    "name": "Georgina Jolibois",
+    "party": 2
+  },
+  {
+    "ridingId": 47003,
+    "year": 2011,
+    "name": "Rob Gordon Clarke",
+    "party": 1
+  },
+  {
+    "ridingId": 47003,
+    "year": 2008,
+    "name": "Rob Clarke",
+    "party": 1
+  },
+  {
+    "ridingId": 47004,
+    "year": 2025,
+    "name": "Fraser Tolmie",
+    "party": 1
+  },
+  {
+    "ridingId": 47004,
+    "year": 2021,
+    "name": "Fraser Tolmie",
+    "party": 1
+  },
+  {
+    "ridingId": 47004,
+    "year": 2019,
+    "name": "Tom Lukiwski",
+    "party": 1
+  },
+  {
+    "ridingId": 47004,
+    "year": 2015,
+    "name": "Tom Lukiwski",
+    "party": 1
+  },
+  {
+    "ridingId": 47005,
+    "year": 2025,
+    "name": "Randy Hoback",
+    "party": 1
+  },
+  {
+    "ridingId": 47005,
+    "year": 2021,
+    "name": "Randy Hoback",
+    "party": 1
+  },
+  {
+    "ridingId": 47005,
+    "year": 2019,
+    "name": "Randy Hoback",
+    "party": 1
+  },
+  {
+    "ridingId": 47005,
+    "year": 2015,
+    "name": "Randy Hoback",
+    "party": 1
+  },
+  {
+    "ridingId": 47005,
+    "year": 2011,
+    "name": "Randy Hoback",
+    "party": 1
+  },
+  {
+    "ridingId": 47005,
+    "year": 2008,
+    "name": "Randy Hoback",
+    "party": 1
+  },
+  {
+    "ridingId": 47006,
+    "year": 2025,
+    "name": "Warren Steinley",
+    "party": 1
+  },
+  {
+    "ridingId": 47006,
+    "year": 2021,
+    "name": "Warren Steinley",
+    "party": 1
+  },
+  {
+    "ridingId": 47006,
+    "year": 2019,
+    "name": "Warren Steinley",
+    "party": 1
+  },
+  {
+    "ridingId": 47006,
+    "year": 2015,
+    "name": "Erin Weir",
+    "party": 2
+  },
+  {
+    "ridingId": 47007,
+    "year": 2025,
+    "name": "Andrew Scheer",
+    "party": 1
+  },
+  {
+    "ridingId": 47007,
+    "year": 2021,
+    "name": "Andrew Scheer",
+    "party": 1
+  },
+  {
+    "ridingId": 47007,
+    "year": 2019,
+    "name": "Andrew Scheer",
+    "party": 1
+  },
+  {
+    "ridingId": 47007,
+    "year": 2015,
+    "name": "Andrew Scheer",
+    "party": 1
+  },
+  {
+    "ridingId": 47007,
+    "year": 2011,
+    "name": "Andrew Scheer",
+    "party": 1
+  },
+  {
+    "ridingId": 47007,
+    "year": 2008,
+    "name": "Andrew Scheer",
+    "party": 1
+  },
+  {
+    "ridingId": 47008,
+    "year": 2025,
+    "name": "Michael Kram",
+    "party": 1
+  },
+  {
+    "ridingId": 47008,
+    "year": 2021,
+    "name": "Michael Kram",
+    "party": 1
+  },
+  {
+    "ridingId": 47008,
+    "year": 2019,
+    "name": "Michael Kram",
+    "party": 1
+  },
+  {
+    "ridingId": 47008,
+    "year": 2015,
+    "name": "Ralph Goodale",
+    "party": 0
+  },
+  {
+    "ridingId": 47009,
+    "year": 2025,
+    "name": "Kevin Waugh",
+    "party": 1
+  },
+  {
+    "ridingId": 47010,
+    "year": 2025,
+    "name": "Corey Tochor",
+    "party": 1
+  },
+  {
+    "ridingId": 47010,
+    "year": 2021,
+    "name": "Corey Tochor",
+    "party": 1
+  },
+  {
+    "ridingId": 47010,
+    "year": 2019,
+    "name": "Corey Tochor",
+    "party": 1
+  },
+  {
+    "ridingId": 47010,
+    "year": 2015,
+    "name": "Brad Trost",
+    "party": 1
+  },
+  {
+    "ridingId": 47011,
+    "year": 2025,
+    "name": "Brad Redekopp",
+    "party": 1
+  },
+  {
+    "ridingId": 47011,
+    "year": 2021,
+    "name": "Brad Redekopp",
+    "party": 1
+  },
+  {
+    "ridingId": 47011,
+    "year": 2019,
+    "name": "Brad Redekopp",
+    "party": 1
+  },
+  {
+    "ridingId": 47011,
+    "year": 2015,
+    "name": "Sheri Benson",
+    "party": 2
+  },
+  {
+    "ridingId": 47012,
+    "year": 2025,
+    "name": "Steven Bonk",
+    "party": 1
+  },
+  {
+    "ridingId": 47012,
+    "year": 2021,
+    "name": "Robert Kitchen",
+    "party": 1
+  },
+  {
+    "ridingId": 47012,
+    "year": 2019,
+    "name": "Robert Kitchen",
+    "party": 1
+  },
+  {
+    "ridingId": 47012,
+    "year": 2015,
+    "name": "Robert Gordon Kitchen",
+    "party": 1
+  },
+  {
+    "ridingId": 47012,
+    "year": 2011,
+    "name": "Ed Komarnicki",
+    "party": 1
+  },
+  {
+    "ridingId": 47012,
+    "year": 2008,
+    "name": "Ed Komarnicki",
+    "party": 1
+  },
+  {
+    "ridingId": 47013,
+    "year": 2025,
+    "name": "Jeremy Patzer",
+    "party": 1
+  },
+  {
+    "ridingId": 47014,
+    "year": 2025,
+    "name": "Cathay Wagantall",
+    "party": 1
+  },
+  {
+    "ridingId": 47014,
+    "year": 2021,
+    "name": "Cathay Wagantall",
+    "party": 1
+  },
+  {
+    "ridingId": 47014,
+    "year": 2019,
+    "name": "Cathay Wagantall",
+    "party": 1
+  },
+  {
+    "ridingId": 47014,
+    "year": 2015,
+    "name": "Cathay Wagantall",
+    "party": 1
+  },
+  {
+    "ridingId": 47014,
+    "year": 2011,
+    "name": "Garry Breitkreuz",
+    "party": 1
+  },
+  {
+    "ridingId": 47014,
+    "year": 2008,
+    "name": "Garry Breitkreuz",
+    "party": 1
+  },
+  {
+    "ridingId": 48001,
+    "year": 2025,
+    "name": "Blake Richards",
+    "party": 1
+  },
+  {
+    "ridingId": 48002,
+    "year": 2025,
+    "name": "Damien Kurek",
+    "party": 1
+  },
+  {
+    "ridingId": 48002,
+    "year": 2021,
+    "name": "Damien Kurek",
+    "party": 1
+  },
+  {
+    "ridingId": 48002,
+    "year": 2019,
+    "name": "Damien Kurek",
+    "party": 1
+  },
+  {
+    "ridingId": 48002,
+    "year": 2015,
+    "name": "Kevin Sorenson",
+    "party": 1
+  },
+  {
+    "ridingId": 48003,
+    "year": 2025,
+    "name": "David Bexte",
+    "party": 1
+  },
+  {
+    "ridingId": 48003,
+    "year": 2021,
+    "name": "Martin Shields",
+    "party": 1
+  },
+  {
+    "ridingId": 48003,
+    "year": 2019,
+    "name": "Martin Shields",
+    "party": 1
+  },
+  {
+    "ridingId": 48003,
+    "year": 2015,
+    "name": "Martin Shields",
+    "party": 1
+  },
+  {
+    "ridingId": 48004,
+    "year": 2025,
+    "name": "Greg McLean",
+    "party": 1
+  },
+  {
+    "ridingId": 48004,
+    "year": 2021,
+    "name": "Greg McLean",
+    "party": 1
+  },
+  {
+    "ridingId": 48004,
+    "year": 2019,
+    "name": "Greg McLean",
+    "party": 1
+  },
+  {
+    "ridingId": 48004,
+    "year": 2015,
+    "name": "Kent Hehr",
+    "party": 0
+  },
+  {
+    "ridingId": 48005,
+    "year": 2025,
+    "name": "Corey Hogan",
+    "party": 0
+  },
+  {
+    "ridingId": 48005,
+    "year": 2021,
+    "name": "Len Webber",
+    "party": 1
+  },
+  {
+    "ridingId": 48005,
+    "year": 2019,
+    "name": "Len Webber",
+    "party": 1
+  },
+  {
+    "ridingId": 48005,
+    "year": 2015,
+    "name": "Len Webber",
+    "party": 1
+  },
+  {
+    "ridingId": 48006,
+    "year": 2025,
+    "name": "Pat Kelly",
+    "party": 1
+  },
+  {
+    "ridingId": 48007,
+    "year": 2025,
+    "name": "Jasraj Hallan",
+    "party": 1
+  },
+  {
+    "ridingId": 48007,
+    "year": 2011,
+    "name": "Deepak Obhrai",
+    "party": 1
+  },
+  {
+    "ridingId": 48007,
+    "year": 2008,
+    "name": "Deepak Obhrai",
+    "party": 1
+  },
+  {
+    "ridingId": 48008,
+    "year": 2025,
+    "name": "Shuv Majumdar",
+    "party": 1
+  },
+  {
+    "ridingId": 48008,
+    "year": 2021,
+    "name": "Bob Benzen",
+    "party": 1
+  },
+  {
+    "ridingId": 48008,
+    "year": 2019,
+    "name": "Bob Benzen",
+    "party": 1
+  },
+  {
+    "ridingId": 48008,
+    "year": 2015,
+    "name": "Stephen J. Harper",
+    "party": 1
+  },
+  {
+    "ridingId": 48009,
+    "year": 2025,
+    "name": "Dalwinder Gill",
+    "party": 1
+  },
+  {
+    "ridingId": 48010,
+    "year": 2025,
+    "name": "Stephanie Kusie",
+    "party": 1
+  },
+  {
+    "ridingId": 48010,
+    "year": 2021,
+    "name": "Stephanie Kusie",
+    "party": 1
+  },
+  {
+    "ridingId": 48010,
+    "year": 2019,
+    "name": "Stephanie Kusie",
+    "party": 1
+  },
+  {
+    "ridingId": 48010,
+    "year": 2015,
+    "name": "Jason Kenney",
+    "party": 1
+  },
+  {
+    "ridingId": 48011,
+    "year": 2025,
+    "name": "Michelle Rempel Garner",
+    "party": 1
+  },
+  {
+    "ridingId": 48011,
+    "year": 2021,
+    "name": "Michelle Rempel Garner",
+    "party": 1
+  },
+  {
+    "ridingId": 48011,
+    "year": 2019,
+    "name": "Michelle Rempel",
+    "party": 1
+  },
+  {
+    "ridingId": 48011,
+    "year": 2015,
+    "name": "Michelle Rempel",
+    "party": 1
+  },
+  {
+    "ridingId": 48011,
+    "year": 2011,
+    "name": "Diane Ablonczy",
+    "party": 1
+  },
+  {
+    "ridingId": 48011,
+    "year": 2008,
+    "name": "Diane Ablonczy",
+    "party": 1
+  },
+  {
+    "ridingId": 48012,
+    "year": 2025,
+    "name": "Tom Kmiec",
+    "party": 1
+  },
+  {
+    "ridingId": 48012,
+    "year": 2021,
+    "name": "Tom Kmiec",
+    "party": 1
+  },
+  {
+    "ridingId": 48012,
+    "year": 2019,
+    "name": "Tom Kmiec",
+    "party": 1
+  },
+  {
+    "ridingId": 48012,
+    "year": 2015,
+    "name": "Tom Kmiec",
+    "party": 1
+  },
+  {
+    "ridingId": 48013,
+    "year": 2025,
+    "name": "David GL McKenzie",
+    "party": 1
+  },
+  {
+    "ridingId": 48013,
+    "year": 2021,
+    "name": "Ron Liepert",
+    "party": 1
+  },
+  {
+    "ridingId": 48013,
+    "year": 2019,
+    "name": "Ron Liepert",
+    "party": 1
+  },
+  {
+    "ridingId": 48013,
+    "year": 2015,
+    "name": "Ron Liepert",
+    "party": 1
+  },
+  {
+    "ridingId": 48014,
+    "year": 2025,
+    "name": "Amanpreet S. Gill",
+    "party": 1
+  },
+  {
+    "ridingId": 48014,
+    "year": 2021,
+    "name": "George Chahal",
+    "party": 0
+  },
+  {
+    "ridingId": 48014,
+    "year": 2019,
+    "name": "Jag Sahota",
+    "party": 1
+  },
+  {
+    "ridingId": 48014,
+    "year": 2015,
+    "name": "Darshan Singh Kang",
+    "party": 0
+  },
+  {
+    "ridingId": 48015,
+    "year": 2025,
+    "name": "Eleanor Olszewski",
+    "party": 0
+  },
+  {
+    "ridingId": 48015,
+    "year": 2021,
+    "name": "Randy Boissonnault",
+    "party": 0
+  },
+  {
+    "ridingId": 48015,
+    "year": 2019,
+    "name": "James Cumming",
+    "party": 1
+  },
+  {
+    "ridingId": 48015,
+    "year": 2015,
+    "name": "Randy Boissonnault",
+    "party": 0
+  },
+  {
+    "ridingId": 48015,
+    "year": 2011,
+    "name": "Laurie Hawn",
+    "party": 1
+  },
+  {
+    "ridingId": 48015,
+    "year": 2008,
+    "name": "Laurie Hawn",
+    "party": 1
+  },
+  {
+    "ridingId": 48016,
+    "year": 2025,
+    "name": "Tim Uppal",
+    "party": 1
+  },
+  {
+    "ridingId": 48017,
+    "year": 2025,
+    "name": "Kerry Diotte",
+    "party": 1
+  },
+  {
+    "ridingId": 48017,
+    "year": 2021,
+    "name": "Blake Desjarlais",
+    "party": 2
+  },
+  {
+    "ridingId": 48017,
+    "year": 2019,
+    "name": "Kerry Diotte",
+    "party": 1
+  },
+  {
+    "ridingId": 48017,
+    "year": 2015,
+    "name": "Kerry Diotte",
+    "party": 1
+  },
+  {
+    "ridingId": 48018,
+    "year": 2025,
+    "name": "Ziad Aboultaif",
+    "party": 1
+  },
+  {
+    "ridingId": 48018,
+    "year": 2021,
+    "name": "Ziad Aboultaif",
+    "party": 1
+  },
+  {
+    "ridingId": 48018,
+    "year": 2019,
+    "name": "Ziad Aboultaif",
+    "party": 1
+  },
+  {
+    "ridingId": 48018,
+    "year": 2015,
+    "name": "Ziad Aboultaif",
+    "party": 1
+  },
+  {
+    "ridingId": 48019,
+    "year": 2025,
+    "name": "Billy Morin",
+    "party": 1
+  },
+  {
+    "ridingId": 48020,
+    "year": 2025,
+    "name": "Matt Jeneroux",
+    "party": 1
+  },
+  {
+    "ridingId": 48020,
+    "year": 2021,
+    "name": "Matt Jeneroux",
+    "party": 1
+  },
+  {
+    "ridingId": 48020,
+    "year": 2019,
+    "name": "Matt Jeneroux",
+    "party": 1
+  },
+  {
+    "ridingId": 48020,
+    "year": 2015,
+    "name": "Matt Jeneroux",
+    "party": 1
+  },
+  {
+    "ridingId": 48021,
+    "year": 2025,
+    "name": "Jagsharan Singh Mahal",
+    "party": 1
+  },
+  {
+    "ridingId": 48022,
+    "year": 2025,
+    "name": "Heather McPherson",
+    "party": 2
+  },
+  {
+    "ridingId": 48022,
+    "year": 2021,
+    "name": "Heather McPherson",
+    "party": 2
+  },
+  {
+    "ridingId": 48022,
+    "year": 2019,
+    "name": "Heather McPherson",
+    "party": 2
+  },
+  {
+    "ridingId": 48022,
+    "year": 2015,
+    "name": "Linda Duncan",
+    "party": 2
+  },
+  {
+    "ridingId": 48022,
+    "year": 2011,
+    "name": "Linda Duncan",
+    "party": 2
+  },
+  {
+    "ridingId": 48022,
+    "year": 2008,
+    "name": "Linda Duncan",
+    "party": 2
+  },
+  {
+    "ridingId": 48023,
+    "year": 2025,
+    "name": "Kelly McCauley",
+    "party": 1
+  },
+  {
+    "ridingId": 48023,
+    "year": 2021,
+    "name": "Kelly McCauley",
+    "party": 1
+  },
+  {
+    "ridingId": 48023,
+    "year": 2019,
+    "name": "Kelly McCauley",
+    "party": 1
+  },
+  {
+    "ridingId": 48023,
+    "year": 2015,
+    "name": "Kelly McCauley",
+    "party": 1
+  },
+  {
+    "ridingId": 48024,
+    "year": 2025,
+    "name": "John Barlow",
+    "party": 1
+  },
+  {
+    "ridingId": 48024,
+    "year": 2021,
+    "name": "John Barlow",
+    "party": 1
+  },
+  {
+    "ridingId": 48024,
+    "year": 2019,
+    "name": "John Barlow",
+    "party": 1
+  },
+  {
+    "ridingId": 48024,
+    "year": 2015,
+    "name": "John Barlow",
+    "party": 1
+  },
+  {
+    "ridingId": 48025,
+    "year": 2025,
+    "name": "Laila Goodridge",
+    "party": 1
+  },
+  {
+    "ridingId": 48025,
+    "year": 2021,
+    "name": "Laila Goodridge",
+    "party": 1
+  },
+  {
+    "ridingId": 48025,
+    "year": 2019,
+    "name": "David Yurdiga",
+    "party": 1
+  },
+  {
+    "ridingId": 48025,
+    "year": 2015,
+    "name": "David Yurdiga",
+    "party": 1
+  },
+  {
+    "ridingId": 48026,
+    "year": 2025,
+    "name": "Chris Warkentin",
+    "party": 1
+  },
+  {
+    "ridingId": 48026,
+    "year": 2021,
+    "name": "Chris Warkentin",
+    "party": 1
+  },
+  {
+    "ridingId": 48026,
+    "year": 2019,
+    "name": "Chris Warkentin",
+    "party": 1
+  },
+  {
+    "ridingId": 48026,
+    "year": 2015,
+    "name": "Chris Warkentin",
+    "party": 1
+  },
+  {
+    "ridingId": 48027,
+    "year": 2025,
+    "name": "Shannon Stubbs",
+    "party": 1
+  },
+  {
+    "ridingId": 48027,
+    "year": 2021,
+    "name": "Shannon Stubbs",
+    "party": 1
+  },
+  {
+    "ridingId": 48027,
+    "year": 2019,
+    "name": "Shannon Stubbs",
+    "party": 1
+  },
+  {
+    "ridingId": 48027,
+    "year": 2015,
+    "name": "Shannon Stubbs",
+    "party": 1
+  },
+  {
+    "ridingId": 48028,
+    "year": 2025,
+    "name": "Mike Lake",
+    "party": 1
+  },
+  {
+    "ridingId": 48029,
+    "year": 2025,
+    "name": "Rachael Thomas",
+    "party": 1
+  },
+  {
+    "ridingId": 48029,
+    "year": 2021,
+    "name": "Rachael Harder",
+    "party": 1
+  },
+  {
+    "ridingId": 48029,
+    "year": 2019,
+    "name": "Rachael Harder",
+    "party": 1
+  },
+  {
+    "ridingId": 48029,
+    "year": 2015,
+    "name": "Rachael Harder",
+    "party": 1
+  },
+  {
+    "ridingId": 48029,
+    "year": 2011,
+    "name": "Jim Hillyer",
+    "party": 1
+  },
+  {
+    "ridingId": 48029,
+    "year": 2008,
+    "name": "Rick Casson",
+    "party": 1
+  },
+  {
+    "ridingId": 48030,
+    "year": 2025,
+    "name": "Glen Motz",
+    "party": 1
+  },
+  {
+    "ridingId": 48030,
+    "year": 2021,
+    "name": "Glen Motz",
+    "party": 1
+  },
+  {
+    "ridingId": 48030,
+    "year": 2019,
+    "name": "Glen Motz",
+    "party": 1
+  },
+  {
+    "ridingId": 48030,
+    "year": 2015,
+    "name": "Jim Hillyer",
+    "party": 1
+  },
+  {
+    "ridingId": 48030,
+    "year": 2011,
+    "name": "LaVar Payne",
+    "party": 1
+  },
+  {
+    "ridingId": 48030,
+    "year": 2008,
+    "name": "LaVar Payne",
+    "party": 1
+  },
+  {
+    "ridingId": 48031,
+    "year": 2025,
+    "name": "Dane Lloyd",
+    "party": 1
+  },
+  {
+    "ridingId": 48032,
+    "year": 2025,
+    "name": "Arnold Viersen",
+    "party": 1
+  },
+  {
+    "ridingId": 48032,
+    "year": 2021,
+    "name": "Arnold Viersen",
+    "party": 1
+  },
+  {
+    "ridingId": 48032,
+    "year": 2019,
+    "name": "Arnold Viersen",
+    "party": 1
+  },
+  {
+    "ridingId": 48032,
+    "year": 2015,
+    "name": "Arnold Viersen",
+    "party": 1
+  },
+  {
+    "ridingId": 48032,
+    "year": 2011,
+    "name": "Chris Warkentin",
+    "party": 1
+  },
+  {
+    "ridingId": 48032,
+    "year": 2008,
+    "name": "Chris Warkentin",
+    "party": 1
+  },
+  {
+    "ridingId": 48033,
+    "year": 2025,
+    "name": "Blaine Calkins",
+    "party": 1
+  },
+  {
+    "ridingId": 48034,
+    "year": 2025,
+    "name": "Burton Bailey",
+    "party": 1
+  },
+  {
+    "ridingId": 48034,
+    "year": 2011,
+    "name": "Earl Dreeshen",
+    "party": 1
+  },
+  {
+    "ridingId": 48034,
+    "year": 2008,
+    "name": "Earl Dreeshen",
+    "party": 1
+  },
+  {
+    "ridingId": 48035,
+    "year": 2025,
+    "name": "Garnett Genuis",
+    "party": 1
+  },
+  {
+    "ridingId": 48035,
+    "year": 2021,
+    "name": "Garnett Genuis",
+    "party": 1
+  },
+  {
+    "ridingId": 48035,
+    "year": 2019,
+    "name": "Garnett Genuis",
+    "party": 1
+  },
+  {
+    "ridingId": 48035,
+    "year": 2015,
+    "name": "Garnett Genuis",
+    "party": 1
+  },
+  {
+    "ridingId": 48036,
+    "year": 2025,
+    "name": "Michael Cooper",
+    "party": 1
+  },
+  {
+    "ridingId": 48037,
+    "year": 2025,
+    "name": "William Stevenson",
+    "party": 1
+  },
+  {
+    "ridingId": 48037,
+    "year": 2021,
+    "name": "Gerald Soroka",
+    "party": 1
+  },
+  {
+    "ridingId": 48037,
+    "year": 2019,
+    "name": "Gerald Soroka",
+    "party": 1
+  },
+  {
+    "ridingId": 48037,
+    "year": 2015,
+    "name": "Jim Eglinski",
+    "party": 1
+  },
+  {
+    "ridingId": 48037,
+    "year": 2011,
+    "name": "Rob Merrifield",
+    "party": 1
+  },
+  {
+    "ridingId": 48037,
+    "year": 2008,
+    "name": "Rob Merrifield",
+    "party": 1
+  },
+  {
+    "ridingId": 59001,
+    "year": 2025,
+    "name": "Sukhman Gill",
+    "party": 1
+  },
+  {
+    "ridingId": 59001,
+    "year": 2021,
+    "name": "Ed Fast",
+    "party": 1
+  },
+  {
+    "ridingId": 59001,
+    "year": 2019,
+    "name": "Ed Fast",
+    "party": 1
+  },
+  {
+    "ridingId": 59001,
+    "year": 2015,
+    "name": "Ed Fast",
+    "party": 1
+  },
+  {
+    "ridingId": 59001,
+    "year": 2011,
+    "name": "Ed Fast",
+    "party": 1
+  },
+  {
+    "ridingId": 59001,
+    "year": 2008,
+    "name": "Ed Fast",
+    "party": 1
+  },
+  {
+    "ridingId": 59002,
+    "year": 2025,
+    "name": "Wade Chang",
+    "party": 0
+  },
+  {
+    "ridingId": 59003,
+    "year": 2025,
+    "name": "Terry Beech",
+    "party": 0
+  },
+  {
+    "ridingId": 59003,
+    "year": 2021,
+    "name": "Terry Beech",
+    "party": 0
+  },
+  {
+    "ridingId": 59003,
+    "year": 2019,
+    "name": "Terry Beech",
+    "party": 0
+  },
+  {
+    "ridingId": 59003,
+    "year": 2015,
+    "name": "Terry Beech",
+    "party": 0
+  },
+  {
+    "ridingId": 59004,
+    "year": 2025,
+    "name": "Todd Doherty",
+    "party": 1
+  },
+  {
+    "ridingId": 59004,
+    "year": 2021,
+    "name": "Todd Doherty",
+    "party": 1
+  },
+  {
+    "ridingId": 59004,
+    "year": 2019,
+    "name": "Todd Doherty",
+    "party": 1
+  },
+  {
+    "ridingId": 59004,
+    "year": 2015,
+    "name": "Todd Doherty",
+    "party": 1
+  },
+  {
+    "ridingId": 59004,
+    "year": 2011,
+    "name": "Dick Harris",
+    "party": 1
+  },
+  {
+    "ridingId": 59004,
+    "year": 2008,
+    "name": "Dick Harris",
+    "party": 1
+  },
+  {
+    "ridingId": 59005,
+    "year": 2025,
+    "name": "Mark Strahl",
+    "party": 1
+  },
+  {
+    "ridingId": 59005,
+    "year": 2021,
+    "name": "Mark Strahl",
+    "party": 1
+  },
+  {
+    "ridingId": 59005,
+    "year": 2019,
+    "name": "Mark Strahl",
+    "party": 1
+  },
+  {
+    "ridingId": 59005,
+    "year": 2015,
+    "name": "Mark Strahl",
+    "party": 1
+  },
+  {
+    "ridingId": 59006,
+    "year": 2025,
+    "name": "Tamara Jansen",
+    "party": 1
+  },
+  {
+    "ridingId": 59006,
+    "year": 2021,
+    "name": "John Aldag",
+    "party": 0
+  },
+  {
+    "ridingId": 59006,
+    "year": 2019,
+    "name": "Tamara Jansen",
+    "party": 1
+  },
+  {
+    "ridingId": 59006,
+    "year": 2015,
+    "name": "John Aldag",
+    "party": 0
+  },
+  {
+    "ridingId": 59007,
+    "year": 2025,
+    "name": "Rob Morrison",
+    "party": 1
+  },
+  {
+    "ridingId": 59008,
+    "year": 2025,
+    "name": "Ron McKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 59008,
+    "year": 2021,
+    "name": "Ron McKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 59008,
+    "year": 2019,
+    "name": "Ron McKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 59008,
+    "year": 2015,
+    "name": "Ron McKinnon",
+    "party": 0
+  },
+  {
+    "ridingId": 59009,
+    "year": 2025,
+    "name": "Gord Johns",
+    "party": 2
+  },
+  {
+    "ridingId": 59009,
+    "year": 2021,
+    "name": "Gord Johns",
+    "party": 2
+  },
+  {
+    "ridingId": 59009,
+    "year": 2019,
+    "name": "Gord Johns",
+    "party": 2
+  },
+  {
+    "ridingId": 59009,
+    "year": 2015,
+    "name": "Gord Johns",
+    "party": 2
+  },
+  {
+    "ridingId": 59010,
+    "year": 2025,
+    "name": "Jeff Kibble",
+    "party": 1
+  },
+  {
+    "ridingId": 59010,
+    "year": 2021,
+    "name": "Alistair MacGregor",
+    "party": 2
+  },
+  {
+    "ridingId": 59010,
+    "year": 2019,
+    "name": "Alistair MacGregor",
+    "party": 2
+  },
+  {
+    "ridingId": 59010,
+    "year": 2015,
+    "name": "Alistair MacGregor",
+    "party": 2
+  },
+  {
+    "ridingId": 59011,
+    "year": 2025,
+    "name": "Jill McKnight",
+    "party": 0
+  },
+  {
+    "ridingId": 59011,
+    "year": 2021,
+    "name": "Carla Qualtrough",
+    "party": 0
+  },
+  {
+    "ridingId": 59011,
+    "year": 2019,
+    "name": "Carla Qualtrough",
+    "party": 0
+  },
+  {
+    "ridingId": 59011,
+    "year": 2015,
+    "name": "Carla Qualtrough",
+    "party": 0
+  },
+  {
+    "ridingId": 59011,
+    "year": 2011,
+    "name": "Kerry-Lynne Findlay",
+    "party": 1
+  },
+  {
+    "ridingId": 59011,
+    "year": 2008,
+    "name": "John Cummins",
+    "party": 1
+  },
+  {
+    "ridingId": 59012,
+    "year": 2025,
+    "name": "Stephanie McLean",
+    "party": 0
+  },
+  {
+    "ridingId": 59012,
+    "year": 2021,
+    "name": "Randall Garrison",
+    "party": 2
+  },
+  {
+    "ridingId": 59012,
+    "year": 2019,
+    "name": "Randall Garrison",
+    "party": 2
+  },
+  {
+    "ridingId": 59012,
+    "year": 2015,
+    "name": "Randall Garrison",
+    "party": 2
+  },
+  {
+    "ridingId": 59013,
+    "year": 2025,
+    "name": "Gurbux Saini",
+    "party": 0
+  },
+  {
+    "ridingId": 59013,
+    "year": 2021,
+    "name": "Ken Hardie",
+    "party": 0
+  },
+  {
+    "ridingId": 59013,
+    "year": 2019,
+    "name": "Ken Hardie",
+    "party": 0
+  },
+  {
+    "ridingId": 59013,
+    "year": 2015,
+    "name": "Ken Hardie",
+    "party": 0
+  },
+  {
+    "ridingId": 59013,
+    "year": 2011,
+    "name": "Nina Grewal",
+    "party": 1
+  },
+  {
+    "ridingId": 59013,
+    "year": 2008,
+    "name": "Nina Grewal",
+    "party": 1
+  },
+  {
+    "ridingId": 59014,
+    "year": 2025,
+    "name": "Mel Arnold",
+    "party": 1
+  },
+  {
+    "ridingId": 59015,
+    "year": 2025,
+    "name": "Frank Caputo",
+    "party": 1
+  },
+  {
+    "ridingId": 59016,
+    "year": 2025,
+    "name": "Stephen Fuhr",
+    "party": 0
+  },
+  {
+    "ridingId": 59016,
+    "year": 2021,
+    "name": "Tracy Gray",
+    "party": 1
+  },
+  {
+    "ridingId": 59016,
+    "year": 2019,
+    "name": "Tracy Gray",
+    "party": 1
+  },
+  {
+    "ridingId": 59016,
+    "year": 2015,
+    "name": "Stephen Fuhr",
+    "party": 0
+  },
+  {
+    "ridingId": 59016,
+    "year": 2011,
+    "name": "Ron Cannan",
+    "party": 1
+  },
+  {
+    "ridingId": 59016,
+    "year": 2008,
+    "name": "Ron Cannan",
+    "party": 1
+  },
+  {
+    "ridingId": 59017,
+    "year": 2025,
+    "name": "Tako Van Popta",
+    "party": 1
+  },
+  {
+    "ridingId": 59017,
+    "year": 2011,
+    "name": "Mark Warawa",
+    "party": 1
+  },
+  {
+    "ridingId": 59017,
+    "year": 2008,
+    "name": "Mark Warawa",
+    "party": 1
+  },
+  {
+    "ridingId": 59018,
+    "year": 2025,
+    "name": "Brad Vis",
+    "party": 1
+  },
+  {
+    "ridingId": 59019,
+    "year": 2025,
+    "name": "Tamara Kronis",
+    "party": 1
+  },
+  {
+    "ridingId": 59019,
+    "year": 2021,
+    "name": "Lisa Marie Barron",
+    "party": 2
+  },
+  {
+    "ridingId": 59019,
+    "year": 2019,
+    "name": "Paul Manly",
+    "party": 4
+  },
+  {
+    "ridingId": 59019,
+    "year": 2015,
+    "name": "Sheila Malcolmson",
+    "party": 2
+  },
+  {
+    "ridingId": 59020,
+    "year": 2025,
+    "name": "Jake Sawatzky",
+    "party": 0
+  },
+  {
+    "ridingId": 59020,
+    "year": 2021,
+    "name": "Peter Julian",
+    "party": 2
+  },
+  {
+    "ridingId": 59020,
+    "year": 2019,
+    "name": "Peter Julian",
+    "party": 2
+  },
+  {
+    "ridingId": 59020,
+    "year": 2015,
+    "name": "Peter Julian",
+    "party": 2
+  },
+  {
+    "ridingId": 59021,
+    "year": 2025,
+    "name": "Aaron Gunn",
+    "party": 1
+  },
+  {
+    "ridingId": 59021,
+    "year": 2021,
+    "name": "Rachel Blaney",
+    "party": 2
+  },
+  {
+    "ridingId": 59021,
+    "year": 2019,
+    "name": "Rachel Blaney",
+    "party": 2
+  },
+  {
+    "ridingId": 59021,
+    "year": 2015,
+    "name": "Rachel Blaney",
+    "party": 2
+  },
+  {
+    "ridingId": 59022,
+    "year": 2025,
+    "name": "Jonathan Wilkinson",
+    "party": 0
+  },
+  {
+    "ridingId": 59022,
+    "year": 2021,
+    "name": "Jonathan Wilkinson",
+    "party": 0
+  },
+  {
+    "ridingId": 59022,
+    "year": 2019,
+    "name": "Jonathan Wilkinson",
+    "party": 0
+  },
+  {
+    "ridingId": 59022,
+    "year": 2015,
+    "name": "Jonathan Wilkinson",
+    "party": 0
+  },
+  {
+    "ridingId": 59022,
+    "year": 2011,
+    "name": "Andrew Saxton",
+    "party": 1
+  },
+  {
+    "ridingId": 59022,
+    "year": 2008,
+    "name": "Andrew Saxton",
+    "party": 1
+  },
+  {
+    "ridingId": 59023,
+    "year": 2025,
+    "name": "Dan Albas",
+    "party": 1
+  },
+  {
+    "ridingId": 59024,
+    "year": 2025,
+    "name": "Marc Dalton",
+    "party": 1
+  },
+  {
+    "ridingId": 59024,
+    "year": 2021,
+    "name": "Marc Dalton",
+    "party": 1
+  },
+  {
+    "ridingId": 59024,
+    "year": 2019,
+    "name": "Marc Dalton",
+    "party": 1
+  },
+  {
+    "ridingId": 59024,
+    "year": 2015,
+    "name": "Dan Ruimy",
+    "party": 0
+  },
+  {
+    "ridingId": 59024,
+    "year": 2011,
+    "name": "Randy Kamp",
+    "party": 1
+  },
+  {
+    "ridingId": 59024,
+    "year": 2008,
+    "name": "Randy Kamp",
+    "party": 1
+  },
+  {
+    "ridingId": 59025,
+    "year": 2025,
+    "name": "Zoe Royer",
+    "party": 0
+  },
+  {
+    "ridingId": 59025,
+    "year": 2021,
+    "name": "Bonita Zarrillo",
+    "party": 2
+  },
+  {
+    "ridingId": 59025,
+    "year": 2019,
+    "name": "Nelly Shin",
+    "party": 1
+  },
+  {
+    "ridingId": 59025,
+    "year": 2015,
+    "name": "Fin Donnelly",
+    "party": 2
+  },
+  {
+    "ridingId": 59026,
+    "year": 2025,
+    "name": "Bob Zimmer",
+    "party": 1
+  },
+  {
+    "ridingId": 59026,
+    "year": 2021,
+    "name": "Bob Zimmer",
+    "party": 1
+  },
+  {
+    "ridingId": 59026,
+    "year": 2019,
+    "name": "Bob Zimmer",
+    "party": 1
+  },
+  {
+    "ridingId": 59026,
+    "year": 2015,
+    "name": "Bob Zimmer",
+    "party": 1
+  },
+  {
+    "ridingId": 59026,
+    "year": 2011,
+    "name": "Bob Zimmer",
+    "party": 1
+  },
+  {
+    "ridingId": 59026,
+    "year": 2008,
+    "name": "Jay Hill",
+    "party": 1
+  },
+  {
+    "ridingId": 59027,
+    "year": 2025,
+    "name": "Chak Au",
+    "party": 1
+  },
+  {
+    "ridingId": 59027,
+    "year": 2021,
+    "name": "Wilson Miao",
+    "party": 0
+  },
+  {
+    "ridingId": 59027,
+    "year": 2019,
+    "name": "Alice Wong",
+    "party": 1
+  },
+  {
+    "ridingId": 59027,
+    "year": 2015,
+    "name": "Alice Wong",
+    "party": 1
+  },
+  {
+    "ridingId": 59027,
+    "year": 2011,
+    "name": "Alice Wong",
+    "party": 1
+  },
+  {
+    "ridingId": 59027,
+    "year": 2008,
+    "name": "Alice Wong",
+    "party": 1
+  },
+  {
+    "ridingId": 59028,
+    "year": 2025,
+    "name": "Parm Bains",
+    "party": 0
+  },
+  {
+    "ridingId": 59029,
+    "year": 2025,
+    "name": "Elizabeth May",
+    "party": 4
+  },
+  {
+    "ridingId": 59029,
+    "year": 2021,
+    "name": "Elizabeth May",
+    "party": 4
+  },
+  {
+    "ridingId": 59029,
+    "year": 2019,
+    "name": "Elizabeth May",
+    "party": 4
+  },
+  {
+    "ridingId": 59029,
+    "year": 2015,
+    "name": "Elizabeth May",
+    "party": 4
+  },
+  {
+    "ridingId": 59029,
+    "year": 2011,
+    "name": "Elizabeth May",
+    "party": 4
+  },
+  {
+    "ridingId": 59029,
+    "year": 2008,
+    "name": "Gary Lunn",
+    "party": 1
+  },
+  {
+    "ridingId": 59030,
+    "year": 2025,
+    "name": "Helena Konanz",
+    "party": 1
+  },
+  {
+    "ridingId": 59031,
+    "year": 2025,
+    "name": "Ellis Ross",
+    "party": 1
+  },
+  {
+    "ridingId": 59031,
+    "year": 2021,
+    "name": "Taylor Bachrach",
+    "party": 2
+  },
+  {
+    "ridingId": 59031,
+    "year": 2019,
+    "name": "Taylor Bachrach",
+    "party": 2
+  },
+  {
+    "ridingId": 59031,
+    "year": 2015,
+    "name": "Nathan Cullen",
+    "party": 2
+  },
+  {
+    "ridingId": 59031,
+    "year": 2011,
+    "name": "Nathan Paul Cullen",
+    "party": 2
+  },
+  {
+    "ridingId": 59031,
+    "year": 2008,
+    "name": "Nathan Cullen",
+    "party": 2
+  },
+  {
+    "ridingId": 59032,
+    "year": 2025,
+    "name": "Ernie Klassen",
+    "party": 0
+  },
+  {
+    "ridingId": 59032,
+    "year": 2021,
+    "name": "Kerry-Lynne Findlay",
+    "party": 1
+  },
+  {
+    "ridingId": 59032,
+    "year": 2019,
+    "name": "Kerry-Lynne Findlay",
+    "party": 1
+  },
+  {
+    "ridingId": 59032,
+    "year": 2015,
+    "name": "Dianne Lynn Watts",
+    "party": 1
+  },
+  {
+    "ridingId": 59032,
+    "year": 2011,
+    "name": "Russ Hiebert",
+    "party": 1
+  },
+  {
+    "ridingId": 59032,
+    "year": 2008,
+    "name": "Russ Hiebert",
+    "party": 1
+  },
+  {
+    "ridingId": 59033,
+    "year": 2025,
+    "name": "Randeep Sarai",
+    "party": 0
+  },
+  {
+    "ridingId": 59033,
+    "year": 2021,
+    "name": "Randeep Sarai",
+    "party": 0
+  },
+  {
+    "ridingId": 59033,
+    "year": 2019,
+    "name": "Randeep Singh Sarai",
+    "party": 0
+  },
+  {
+    "ridingId": 59033,
+    "year": 2015,
+    "name": "Randeep Sarai",
+    "party": 0
+  },
+  {
+    "ridingId": 59034,
+    "year": 2025,
+    "name": "Sukh Dhaliwal",
+    "party": 0
+  },
+  {
+    "ridingId": 59034,
+    "year": 2021,
+    "name": "Sukh Dhaliwal",
+    "party": 0
+  },
+  {
+    "ridingId": 59034,
+    "year": 2019,
+    "name": "Sukh Dhaliwal",
+    "party": 0
+  },
+  {
+    "ridingId": 59034,
+    "year": 2015,
+    "name": "Sukh Dhaliwal",
+    "party": 0
+  },
+  {
+    "ridingId": 59035,
+    "year": 2025,
+    "name": "Hedy Fry",
+    "party": 0
+  },
+  {
+    "ridingId": 59035,
+    "year": 2021,
+    "name": "Hedy Fry",
+    "party": 0
+  },
+  {
+    "ridingId": 59035,
+    "year": 2019,
+    "name": "Hedy Fry",
+    "party": 0
+  },
+  {
+    "ridingId": 59035,
+    "year": 2015,
+    "name": "Hedy Fry",
+    "party": 0
+  },
+  {
+    "ridingId": 59035,
+    "year": 2011,
+    "name": "Hedy Fry",
+    "party": 0
+  },
+  {
+    "ridingId": 59035,
+    "year": 2008,
+    "name": "Hedy Fry",
+    "party": 0
+  },
+  {
+    "ridingId": 59036,
+    "year": 2025,
+    "name": "Jenny Kwan",
+    "party": 2
+  },
+  {
+    "ridingId": 59036,
+    "year": 2021,
+    "name": "Jenny Kwan",
+    "party": 2
+  },
+  {
+    "ridingId": 59036,
+    "year": 2019,
+    "name": "Jenny Kwan",
+    "party": 2
+  },
+  {
+    "ridingId": 59036,
+    "year": 2015,
+    "name": "Jenny Kwan",
+    "party": 2
+  },
+  {
+    "ridingId": 59036,
+    "year": 2011,
+    "name": "Libby Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59036,
+    "year": 2008,
+    "name": "Libby Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59037,
+    "year": 2025,
+    "name": "Gregor Robertson",
+    "party": 0
+  },
+  {
+    "ridingId": 59038,
+    "year": 2025,
+    "name": "Taleeb Noormohamed",
+    "party": 0
+  },
+  {
+    "ridingId": 59038,
+    "year": 2021,
+    "name": "Taleeb Noormohamed",
+    "party": 0
+  },
+  {
+    "ridingId": 59038,
+    "year": 2015,
+    "name": "Jody Wilson-Raybould",
+    "party": 0
+  },
+  {
+    "ridingId": 59039,
+    "year": 2025,
+    "name": "Don Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59039,
+    "year": 2021,
+    "name": "Don Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59039,
+    "year": 2019,
+    "name": "Don Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59039,
+    "year": 2015,
+    "name": "Don Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59039,
+    "year": 2011,
+    "name": "Don Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59039,
+    "year": 2008,
+    "name": "Don Davies",
+    "party": 2
+  },
+  {
+    "ridingId": 59040,
+    "year": 2025,
+    "name": "Wade Grant",
+    "party": 0
+  },
+  {
+    "ridingId": 59040,
+    "year": 2021,
+    "name": "Joyce Murray",
+    "party": 0
+  },
+  {
+    "ridingId": 59040,
+    "year": 2019,
+    "name": "Joyce Murray",
+    "party": 0
+  },
+  {
+    "ridingId": 59040,
+    "year": 2015,
+    "name": "Joyce Murray",
+    "party": 0
+  },
+  {
+    "ridingId": 59040,
+    "year": 2011,
+    "name": "Joyce Murray",
+    "party": 0
+  },
+  {
+    "ridingId": 59040,
+    "year": 2008,
+    "name": "Joyce Murray",
+    "party": 0
+  },
+  {
+    "ridingId": 59041,
+    "year": 2025,
+    "name": "Scott Anderson",
+    "party": 1
+  },
+  {
+    "ridingId": 59042,
+    "year": 2025,
+    "name": "Will Greaves",
+    "party": 0
+  },
+  {
+    "ridingId": 59042,
+    "year": 2021,
+    "name": "Laurel Collins",
+    "party": 2
+  },
+  {
+    "ridingId": 59042,
+    "year": 2019,
+    "name": "Laurel Collins",
+    "party": 2
+  },
+  {
+    "ridingId": 59042,
+    "year": 2015,
+    "name": "Murray Rankin",
+    "party": 2
+  },
+  {
+    "ridingId": 59042,
+    "year": 2011,
+    "name": "Denise Savoie",
+    "party": 2
+  },
+  {
+    "ridingId": 59042,
+    "year": 2008,
+    "name": "Denise Savoie",
+    "party": 2
+  },
+  {
+    "ridingId": 59043,
+    "year": 2025,
+    "name": "Patrick Weiler",
+    "party": 0
+  },
+  {
+    "ridingId": 59043,
+    "year": 2021,
+    "name": "Patrick Weiler",
+    "party": 0
+  },
+  {
+    "ridingId": 59043,
+    "year": 2019,
+    "name": "Patrick Weiler",
+    "party": 0
+  },
+  {
+    "ridingId": 59043,
+    "year": 2015,
+    "name": "Pam Goldsmith-Jones",
+    "party": 0
+  },
+  {
+    "ridingId": 59043,
+    "year": 2011,
+    "name": "John Dunbar Weston",
+    "party": 1
+  },
+  {
+    "ridingId": 59043,
+    "year": 2008,
+    "name": "John Weston",
+    "party": 1
+  },
+  {
+    "ridingId": 60001,
+    "year": 2025,
+    "name": "Brendan Hanley",
+    "party": 0
+  },
+  {
+    "ridingId": 60001,
+    "year": 2021,
+    "name": "Brendan Hanley",
+    "party": 0
+  },
+  {
+    "ridingId": 60001,
+    "year": 2019,
+    "name": "Larry Bagnell",
+    "party": 0
+  },
+  {
+    "ridingId": 60001,
+    "year": 2015,
+    "name": "Larry Bagnell",
+    "party": 0
+  },
+  {
+    "ridingId": 60001,
+    "year": 2011,
+    "name": "Ryan Leef",
+    "party": 1
+  },
+  {
+    "ridingId": 60001,
+    "year": 2008,
+    "name": "Larry Bagnell",
+    "party": 0
+  },
+  {
+    "ridingId": 61001,
+    "year": 2025,
+    "name": "Rebecca Alty",
+    "party": 0
+  },
+  {
+    "ridingId": 61001,
+    "year": 2021,
+    "name": "Michael McLeod",
+    "party": 0
+  },
+  {
+    "ridingId": 61001,
+    "year": 2019,
+    "name": "Michael McLeod",
+    "party": 0
+  },
+  {
+    "ridingId": 61001,
+    "year": 2015,
+    "name": "Michael McLeod",
+    "party": 0
+  },
+  {
+    "ridingId": 62001,
+    "year": 2025,
+    "name": "Lori Idlout",
+    "party": 2
+  },
+  {
+    "ridingId": 62001,
+    "year": 2021,
+    "name": "Lori Idlout",
+    "party": 2
+  },
+  {
+    "ridingId": 62001,
+    "year": 2019,
+    "name": "Mumilaaq Qaqqaq",
+    "party": 2
+  },
+  {
+    "ridingId": 62001,
+    "year": 2015,
+    "name": "Hunter Tootoo",
+    "party": 0
+  },
+  {
+    "ridingId": 62001,
+    "year": 2011,
+    "name": "Leona Aglukkaq",
+    "party": 1
+  },
+  {
+    "ridingId": 62001,
+    "year": 2008,
+    "name": "Leona Aglukkaq",
+    "party": 1
+  }
+]

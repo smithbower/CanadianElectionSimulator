@@ -115,6 +115,23 @@
     font-variant-numeric: tabular-nums;
 }
 
+.seat-annotation {
+    font-size: 0.65rem;
+    color: #aaa;
+    margin-left: 0.5rem;
+}
+
+.vacant-annotation {
+    font-size: 0.8rem;
+    color: #7b1fa2;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    background: #f3e5f5;
+    border-radius: 4px;
+    display: inline-block;
+}
+
 .placeholder {
     color: #999;
     font-size: 0.9rem;

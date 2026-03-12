@@ -490,6 +490,19 @@ public static class SampleDataGenerator
             polling.Add(new RegionalPoll(region, shifted));
         }
 
+        // Generate riding-mps.json with placeholder names
+        var ridingMps = new List<RidingMp>();
+        foreach (var riding in ridings)
+        {
+            var winner2025 = results2025.First(r => r.RidingId == riding.Id)
+                .Candidates.OrderByDescending(c => c.Votes).First();
+            ridingMps.Add(new RidingMp(riding.Id, 2025, $"Sample MP {riding.Id}", winner2025.Party));
+
+            var winner2021 = results2021.First(r => r.RidingId == riding.Id)
+                .Candidates.OrderByDescending(c => c.Votes).First();
+            ridingMps.Add(new RidingMp(riding.Id, 2021, $"Sample MP {riding.Id} (2021)", winner2021.Party));
+        }
+
         // Write all files
         var files = new Dictionary<string, object>
         {
@@ -497,6 +510,7 @@ public static class SampleDataGenerator
             ["results-2025.json"] = results2025,
             ["results-2021.json"] = results2021,
             ["polling.json"] = polling,
+            ["riding-mps.json"] = ridingMps,
         };
 
         foreach (var (filename, data) in files)

@@ -32,60 +32,6 @@
     "totalVotes": 42086
   },
   {
-    "ridingId": 10002,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 28704,
-        "voteShare": 0.8179642083665792
-      },
-      {
-        "party": 1,
-        "votes": 3534,
-        "voteShare": 0.10070671378091872
-      },
-      {
-        "party": 2,
-        "votes": 2557,
-        "voteShare": 0.07286561039553174
-      },
-      {
-        "party": 4,
-        "votes": 297,
-        "voteShare": 0.00846346745697025
-      }
-    ],
-    "totalVotes": 35092
-  },
-  {
-    "ridingId": 10003,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 26523,
-        "voteShare": 0.7482227488151659
-      },
-      {
-        "party": 1,
-        "votes": 6479,
-        "voteShare": 0.18277476867524262
-      },
-      {
-        "party": 2,
-        "votes": 2175,
-        "voteShare": 0.06135748138117807
-      },
-      {
-        "party": 4,
-        "votes": 271,
-        "voteShare": 0.007645001128413451
-      }
-    ],
-    "totalVotes": 35448
-  },
-  {
     "ridingId": 10004,
     "year": 2015,
     "candidates": [
@@ -165,33 +111,6 @@
       }
     ],
     "totalVotes": 44880
-  },
-  {
-    "ridingId": 10007,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 25922,
-        "voteShare": 0.5786031561795496
-      },
-      {
-        "party": 2,
-        "votes": 16467,
-        "voteShare": 0.3675587598491105
-      },
-      {
-        "party": 1,
-        "votes": 2047,
-        "voteShare": 0.045690944398562534
-      },
-      {
-        "party": 4,
-        "votes": 365,
-        "voteShare": 0.008147139572777393
-      }
-    ],
-    "totalVotes": 44801
   },
   {
     "ridingId": 11001,
@@ -307,7 +226,7 @@
     "totalVotes": 22472
   },
   {
-    "ridingId": 12001,
+    "ridingId": 12002,
     "year": 2015,
     "candidates": [
       {
@@ -489,31 +408,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 56187,
-        "voteShare": 0.5915230505227032
-      },
-      {
-        "party": 2,
-        "votes": 19611,
-        "voteShare": 0.206459831345342
+        "votes": 33026,
+        "voteShare": 0.7074069314141285
       },
       {
         "party": 1,
-        "votes": 15863,
-        "voteShare": 0.1670018002463495
+        "votes": 8677,
+        "voteShare": 0.18585871567493467
+      },
+      {
+        "party": 2,
+        "votes": 2998,
+        "voteShare": 0.06421625326650388
       },
       {
         "party": 4,
-        "votes": 2910,
-        "voteShare": 0.030635771210797268
+        "votes": 1569,
+        "voteShare": 0.033607505462022874
       },
       {
         "party": 6,
         "votes": 416,
-        "voteShare": 0.004379546674808132
+        "voteShare": 0.008910594182410145
       }
     ],
-    "totalVotes": 94987
+    "totalVotes": 46686
   },
   {
     "ridingId": 12010,
@@ -521,58 +440,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 60040,
-        "voteShare": 0.6404334979573115
+        "votes": 30045,
+        "voteShare": 0.5693036475603979
       },
       {
         "party": 1,
-        "votes": 16265,
-        "voteShare": 0.17349518394862878
+        "votes": 11905,
+        "voteShare": 0.2255802936996684
       },
       {
         "party": 2,
-        "votes": 14234,
-        "voteShare": 0.1518309528634972
+        "votes": 8883,
+        "voteShare": 0.1683183325438181
       },
       {
         "party": 4,
-        "votes": 2560,
-        "voteShare": 0.027306957940884703
+        "votes": 1534,
+        "voteShare": 0.029066792989104688
       },
       {
         "party": 6,
-        "votes": 650,
-        "voteShare": 0.0069334072896777565
+        "votes": 408,
+        "voteShare": 0.007730933207010895
       }
     ],
-    "totalVotes": 93749
-  },
-  {
-    "ridingId": 12011,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 28775,
-        "voteShare": 0.6299393594430701
-      },
-      {
-        "party": 1,
-        "votes": 11916,
-        "voteShare": 0.2608638542875282
-      },
-      {
-        "party": 2,
-        "votes": 3084,
-        "voteShare": 0.06751461284178725
-      },
-      {
-        "party": 4,
-        "votes": 1904,
-        "voteShare": 0.04168217342761444
-      }
-    ],
-    "totalVotes": 45679
+    "totalVotes": 52775
   },
   {
     "ridingId": 13001,
@@ -740,87 +632,6 @@
       }
     ],
     "totalVotes": 36364
-  },
-  {
-    "ridingId": 13007,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 30054,
-        "voteShare": 0.5775061970369516
-      },
-      {
-        "party": 1,
-        "votes": 11168,
-        "voteShare": 0.21460002690186583
-      },
-      {
-        "party": 2,
-        "votes": 8420,
-        "voteShare": 0.16179550738840529
-      },
-      {
-        "party": 4,
-        "votes": 2399,
-        "voteShare": 0.046098268672777235
-      }
-    ],
-    "totalVotes": 52041
-  },
-  {
-    "ridingId": 13008,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 16656,
-        "voteShare": 0.43917101724410695
-      },
-      {
-        "party": 1,
-        "votes": 14625,
-        "voteShare": 0.3856193640246796
-      },
-      {
-        "party": 2,
-        "votes": 4768,
-        "voteShare": 0.125718504456046
-      },
-      {
-        "party": 4,
-        "votes": 1877,
-        "voteShare": 0.04949111427516743
-      }
-    ],
-    "totalVotes": 37926
-  },
-  {
-    "ridingId": 13009,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 20634,
-        "voteShare": 0.4880206239209101
-      },
-      {
-        "party": 1,
-        "votes": 12915,
-        "voteShare": 0.3054563515527069
-      },
-      {
-        "party": 2,
-        "votes": 7411,
-        "voteShare": 0.1752796764504151
-      },
-      {
-        "party": 4,
-        "votes": 1321,
-        "voteShare": 0.03124334807596793
-      }
-    ],
-    "totalVotes": 42281
   },
   {
     "ridingId": 13010,
@@ -1035,36 +846,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 35138,
-        "voteShare": 0.38094928337561523
+        "votes": 32910,
+        "voteShare": 0.5889195089653197
       },
       {
         "party": 0,
-        "votes": 26820,
-        "voteShare": 0.2907695309959019
+        "votes": 12442,
+        "voteShare": 0.22264772198561253
       },
       {
         "party": 2,
-        "votes": 12783,
-        "voteShare": 0.13858713328563066
+        "votes": 5443,
+        "voteShare": 0.09740166780000716
       },
       {
         "party": 3,
-        "votes": 11785,
-        "voteShare": 0.12776729764305383
-      },
-      {
-        "party": 6,
-        "votes": 4404,
-        "voteShare": 0.04774604826644116
+        "votes": 4144,
+        "voteShare": 0.07415625782899682
       },
       {
         "party": 4,
-        "votes": 1308,
-        "voteShare": 0.014180706433357185
+        "votes": 943,
+        "voteShare": 0.016874843420063707
       }
     ],
-    "totalVotes": 92238
+    "totalVotes": 55882
   },
   {
     "ridingId": 24008,
@@ -1379,37 +1185,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 2,
-        "votes": 32393,
-        "voteShare": 0.36498743676127593
+        "party": 0,
+        "votes": 13619,
+        "voteShare": 0.3109005821253282
       },
       {
-        "party": 0,
-        "votes": 26213,
-        "voteShare": 0.2953544185417629
+        "party": 2,
+        "votes": 13019,
+        "voteShare": 0.2972035155804132
       },
       {
         "party": 3,
-        "votes": 17663,
-        "voteShare": 0.19901747585942695
+        "votes": 8990,
+        "voteShare": 0.2052277137313092
       },
       {
         "party": 1,
-        "votes": 10633,
-        "voteShare": 0.1198071007650618
+        "votes": 7270,
+        "voteShare": 0.16596278963588632
       },
       {
         "party": 4,
-        "votes": 1576,
-        "voteShare": 0.01775754639384345
-      },
-      {
-        "party": 6,
-        "votes": 273,
-        "voteShare": 0.0030760216786289733
+        "votes": 907,
+        "voteShare": 0.02070539892706312
       }
     ],
-    "totalVotes": 88751
+    "totalVotes": 43805
   },
   {
     "ridingId": 24019,
@@ -1447,80 +1248,6 @@
       }
     ],
     "totalVotes": 55811
-  },
-  {
-    "ridingId": 24020,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 16903,
-        "voteShare": 0.335004756619629
-      },
-      {
-        "party": 0,
-        "votes": 13556,
-        "voteShare": 0.2686697320437609
-      },
-      {
-        "party": 3,
-        "votes": 9650,
-        "voteShare": 0.1912557475820517
-      },
-      {
-        "party": 2,
-        "votes": 9306,
-        "voteShare": 0.18443792611384177
-      },
-      {
-        "party": 4,
-        "votes": 859,
-        "voteShare": 0.017024734422070715
-      },
-      {
-        "party": 6,
-        "votes": 182,
-        "voteShare": 0.003607103218645949
-      }
-    ],
-    "totalVotes": 50456
-  },
-  {
-    "ridingId": 24021,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 20245,
-        "voteShare": 0.3909659727318373
-      },
-      {
-        "party": 3,
-        "votes": 12615,
-        "voteShare": 0.24361747325325403
-      },
-      {
-        "party": 2,
-        "votes": 11986,
-        "voteShare": 0.23147039511799467
-      },
-      {
-        "party": 1,
-        "votes": 5805,
-        "voteShare": 0.11210459232938087
-      },
-      {
-        "party": 4,
-        "votes": 982,
-        "voteShare": 0.018964118805762622
-      },
-      {
-        "party": 6,
-        "votes": 149,
-        "voteShare": 0.0028774477617704995
-      }
-    ],
-    "totalVotes": 51782
   },
   {
     "ridingId": 24022,
@@ -1592,6 +1319,43 @@
     "totalVotes": 51979
   },
   {
+    "ridingId": 24024,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 15345,
+        "voteShare": 0.38733372037256736
+      },
+      {
+        "party": 2,
+        "votes": 12885,
+        "voteShare": 0.3252391650049221
+      },
+      {
+        "party": 3,
+        "votes": 8289,
+        "voteShare": 0.20922836156195573
+      },
+      {
+        "party": 1,
+        "votes": 2398,
+        "voteShare": 0.06052957063886715
+      },
+      {
+        "party": 4,
+        "votes": 400,
+        "voteShare": 0.010096675669535805
+      },
+      {
+        "party": 6,
+        "votes": 300,
+        "voteShare": 0.007572506752151854
+      }
+    ],
+    "totalVotes": 39617
+  },
+  {
     "ridingId": 24025,
     "year": 2015,
     "candidates": [
@@ -1633,37 +1397,37 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 15345,
-        "voteShare": 0.38733372037256736
+        "party": 2,
+        "votes": 16034,
+        "voteShare": 0.3089164611590629
       },
       {
-        "party": 2,
-        "votes": 12885,
-        "voteShare": 0.3252391650049221
+        "party": 0,
+        "votes": 15534,
+        "voteShare": 0.2992832922318126
       },
       {
         "party": 3,
-        "votes": 8289,
-        "voteShare": 0.20922836156195573
+        "votes": 14389,
+        "voteShare": 0.2772233353884094
       },
       {
         "party": 1,
-        "votes": 2398,
-        "voteShare": 0.06052957063886715
+        "votes": 3555,
+        "voteShare": 0.0684918310727497
       },
       {
         "party": 4,
-        "votes": 400,
-        "voteShare": 0.010096675669535805
+        "votes": 1654,
+        "voteShare": 0.03186652281134402
       },
       {
         "party": 6,
-        "votes": 300,
-        "voteShare": 0.007572506752151854
+        "votes": 738,
+        "voteShare": 0.014218557336621454
       }
     ],
-    "totalVotes": 39617
+    "totalVotes": 51904
   },
   {
     "ridingId": 24027,
@@ -1708,36 +1472,73 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 44012,
-        "voteShare": 0.41000894321061265
+        "votes": 28478,
+        "voteShare": 0.5136724386724387
       },
       {
         "party": 2,
-        "votes": 33506,
-        "voteShare": 0.31213668206886275
-      },
-      {
-        "party": 3,
-        "votes": 18014,
-        "voteShare": 0.16781562080787002
+        "votes": 17472,
+        "voteShare": 0.3151515151515151
       },
       {
         "party": 1,
-        "votes": 7833,
-        "voteShare": 0.07297100909226412
+        "votes": 4278,
+        "voteShare": 0.07716450216450216
+      },
+      {
+        "party": 3,
+        "votes": 3625,
+        "voteShare": 0.06538600288600288
       },
       {
         "party": 4,
-        "votes": 2689,
-        "voteShare": 0.02505030555969593
+        "votes": 1035,
+        "voteShare": 0.018668831168831168
       },
       {
         "party": 6,
-        "votes": 1290,
-        "voteShare": 0.012017439260694589
+        "votes": 552,
+        "voteShare": 0.009956709956709957
       }
     ],
-    "totalVotes": 107344
+    "totalVotes": 55440
+  },
+  {
+    "ridingId": 24029,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 18875,
+        "voteShare": 0.3329570110603468
+      },
+      {
+        "party": 0,
+        "votes": 15995,
+        "voteShare": 0.2821535042071654
+      },
+      {
+        "party": 2,
+        "votes": 14566,
+        "voteShare": 0.2569457919525834
+      },
+      {
+        "party": 1,
+        "votes": 5705,
+        "voteShare": 0.1006368078463194
+      },
+      {
+        "party": 4,
+        "votes": 1335,
+        "voteShare": 0.023549542239235124
+      },
+      {
+        "party": 6,
+        "votes": 213,
+        "voteShare": 0.003757342694349874
+      }
+    ],
+    "totalVotes": 56689
   },
   {
     "ridingId": 24030,
@@ -1782,36 +1583,73 @@
     "candidates": [
       {
         "party": 3,
-        "votes": 37420,
-        "voteShare": 0.33436089889648396
+        "votes": 18545,
+        "voteShare": 0.3358019773295187
       },
       {
         "party": 0,
-        "votes": 31772,
-        "voteShare": 0.28389402671670466
+        "votes": 15777,
+        "voteShare": 0.2856806576612465
       },
       {
         "party": 2,
-        "votes": 29343,
-        "voteShare": 0.26219005495241926
+        "votes": 14777,
+        "voteShare": 0.26757324448629266
       },
       {
         "party": 1,
-        "votes": 10113,
-        "voteShare": 0.09036322208819193
+        "votes": 4408,
+        "voteShare": 0.07981747727519646
       },
       {
         "party": 4,
-        "votes": 2465,
-        "voteShare": 0.02202564446231515
+        "votes": 1130,
+        "voteShare": 0.020461376887697825
       },
       {
         "party": 6,
-        "votes": 802,
-        "voteShare": 0.007166152883885091
+        "votes": 589,
+        "voteShare": 0.010665266360047804
       }
     ],
-    "totalVotes": 111915
+    "totalVotes": 55226
+  },
+  {
+    "ridingId": 24032,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20993,
+        "voteShare": 0.3646390606544848
+      },
+      {
+        "party": 3,
+        "votes": 15107,
+        "voteShare": 0.2624018620162579
+      },
+      {
+        "party": 2,
+        "votes": 13174,
+        "voteShare": 0.22882651288820954
+      },
+      {
+        "party": 1,
+        "votes": 6859,
+        "voteShare": 0.11913777530744112
+      },
+      {
+        "party": 4,
+        "votes": 1235,
+        "voteShare": 0.021451399986104357
+      },
+      {
+        "party": 6,
+        "votes": 204,
+        "voteShare": 0.003543389147502258
+      }
+    ],
+    "totalVotes": 57572
   },
   {
     "ridingId": 24033,
@@ -1851,36 +1689,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 60958,
-        "voteShare": 0.508474859030396
-      },
-      {
-        "party": 2,
-        "votes": 21171,
-        "voteShare": 0.17659570918554604
+        "votes": 39965,
+        "voteShare": 0.6413692386699191
       },
       {
         "party": 1,
-        "votes": 17716,
-        "voteShare": 0.14777618364418937
+        "votes": 10857,
+        "voteShare": 0.17423610219540378
       },
       {
-        "party": 3,
-        "votes": 16788,
-        "voteShare": 0.14003536752193788
+        "party": 2,
+        "votes": 7997,
+        "voteShare": 0.12833804082680703
       },
       {
         "party": 4,
-        "votes": 3047,
-        "voteShare": 0.02541623569450469
+        "votes": 1812,
+        "voteShare": 0.02907947104891514
       },
       {
-        "party": 6,
-        "votes": 204,
-        "voteShare": 0.0017016449234259785
+        "party": 3,
+        "votes": 1681,
+        "voteShare": 0.026977147258954937
       }
     ],
-    "totalVotes": 119884
+    "totalVotes": 62312
   },
   {
     "ridingId": 24035,
@@ -2169,100 +2002,132 @@
     "totalVotes": 61744
   },
   {
-    "ridingId": 24045,
+    "ridingId": 24044,
     "year": 2015,
     "candidates": [
       {
         "party": 1,
-        "votes": 39135,
-        "voteShare": 0.3282917253875579
+        "votes": 32637,
+        "voteShare": 0.5045684337461157
       },
       {
         "party": 0,
-        "votes": 36175,
-        "voteShare": 0.3034611771022079
+        "votes": 13852,
+        "voteShare": 0.2141520956047184
       },
       {
         "party": 2,
-        "votes": 23123,
-        "voteShare": 0.1939718810818066
+        "votes": 10296,
+        "voteShare": 0.15917629052455823
       },
       {
         "party": 3,
-        "votes": 18508,
-        "voteShare": 0.15525803637339775
+        "votes": 6688,
+        "voteShare": 0.10339656478518312
       },
       {
         "party": 4,
-        "votes": 2267,
-        "voteShare": 0.019017180055029864
+        "votes": 1210,
+        "voteShare": 0.018706615339424578
       }
     ],
-    "totalVotes": 119208
+    "totalVotes": 64683
+  },
+  {
+    "ridingId": 24045,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 22323,
+        "voteShare": 0.4094085281980743
+      },
+      {
+        "party": 2,
+        "votes": 12827,
+        "voteShare": 0.2352498853736818
+      },
+      {
+        "party": 3,
+        "votes": 11820,
+        "voteShare": 0.21678129298486934
+      },
+      {
+        "party": 1,
+        "votes": 6498,
+        "voteShare": 0.11917469050894085
+      },
+      {
+        "party": 4,
+        "votes": 1057,
+        "voteShare": 0.019385602934433747
+      }
+    ],
+    "totalVotes": 54525
   },
   {
     "ridingId": 24046,
     "year": 2015,
     "candidates": [
       {
-        "party": 3,
-        "votes": 17338,
-        "voteShare": 0.41251487033071615
+        "party": 1,
+        "votes": 16749,
+        "voteShare": 0.35419882843064693
       },
       {
         "party": 0,
-        "votes": 12343,
-        "voteShare": 0.29367118724720437
+        "votes": 13308,
+        "voteShare": 0.28143041427876586
       },
       {
         "party": 2,
-        "votes": 7359,
-        "voteShare": 0.17508922198429694
+        "votes": 10386,
+        "voteShare": 0.21963753251422166
       },
       {
-        "party": 1,
-        "votes": 4317,
-        "voteShare": 0.1027123483226267
+        "party": 3,
+        "votes": 5838,
+        "voteShare": 0.12345887876160468
       },
       {
         "party": 4,
-        "votes": 673,
-        "voteShare": 0.01601237211515584
+        "votes": 1006,
+        "voteShare": 0.021274346014760928
       }
     ],
-    "totalVotes": 42030
+    "totalVotes": 47287
   },
   {
     "ridingId": 24047,
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 28822,
-        "voteShare": 0.2701091795136123
+        "party": 3,
+        "votes": 18710,
+        "voteShare": 0.3148877444545424
       },
       {
         "party": 2,
-        "votes": 28259,
-        "voteShare": 0.26483295065835716
+        "votes": 17873,
+        "voteShare": 0.300801104042546
       },
       {
-        "party": 3,
-        "votes": 24548,
-        "voteShare": 0.23005482404760788
+        "party": 0,
+        "votes": 15514,
+        "voteShare": 0.261099330169309
       },
       {
         "party": 1,
-        "votes": 22769,
-        "voteShare": 0.21338269059556722
+        "votes": 6020,
+        "voteShare": 0.10131609949846848
       },
       {
         "party": 4,
-        "votes": 2307,
-        "voteShare": 0.021620355184855444
+        "votes": 1301,
+        "voteShare": 0.021895721835134135
       }
     ],
-    "totalVotes": 106705
+    "totalVotes": 59418
   },
   {
     "ridingId": 24048,
@@ -2302,43 +2167,6 @@
     "totalVotes": 48051
   },
   {
-    "ridingId": 24049,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 18848,
-        "voteShare": 0.3254312205397379
-      },
-      {
-        "party": 3,
-        "votes": 16460,
-        "voteShare": 0.2841998031666005
-      },
-      {
-        "party": 2,
-        "votes": 14296,
-        "voteShare": 0.24683598943315435
-      },
-      {
-        "party": 1,
-        "votes": 6284,
-        "voteShare": 0.10850009496348223
-      },
-      {
-        "party": 4,
-        "votes": 1388,
-        "voteShare": 0.023965329695944195
-      },
-      {
-        "party": 6,
-        "votes": 641,
-        "voteShare": 0.011067562201080856
-      }
-    ],
-    "totalVotes": 57917
-  },
-  {
     "ridingId": 24050,
     "year": 2015,
     "candidates": [
@@ -2374,43 +2202,6 @@
       }
     ],
     "totalVotes": 53009
-  },
-  {
-    "ridingId": 24051,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 14274,
-        "voteShare": 0.2898686107670126
-      },
-      {
-        "party": 0,
-        "votes": 14002,
-        "voteShare": 0.2843449830432752
-      },
-      {
-        "party": 2,
-        "votes": 11918,
-        "voteShare": 0.2420242471011108
-      },
-      {
-        "party": 3,
-        "votes": 7939,
-        "voteShare": 0.1612208841865849
-      },
-      {
-        "party": 4,
-        "votes": 823,
-        "voteShare": 0.016713035355278922
-      },
-      {
-        "party": 6,
-        "votes": 287,
-        "voteShare": 0.005828239546737607
-      }
-    ],
-    "totalVotes": 49243
   },
   {
     "ridingId": 24052,
@@ -3064,36 +2855,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 40912,
-        "voteShare": 0.33964551077165744
+        "votes": 22957,
+        "voteShare": 0.3896300067888663
       },
       {
         "party": 2,
-        "votes": 32671,
-        "voteShare": 0.2712299198870948
+        "votes": 13945,
+        "voteShare": 0.23667684996605567
       },
       {
         "party": 3,
-        "votes": 30544,
-        "voteShare": 0.25357187331368564
+        "votes": 13092,
+        "voteShare": 0.22219959266802444
       },
       {
         "party": 1,
-        "votes": 13661,
-        "voteShare": 0.11341164750321697
+        "votes": 7529,
+        "voteShare": 0.12778343516632723
       },
       {
         "party": 4,
-        "votes": 2264,
-        "voteShare": 0.01879540077207256
-      },
-      {
-        "party": 6,
-        "votes": 403,
-        "voteShare": 0.003345647752272633
+        "votes": 1397,
+        "voteShare": 0.023710115410726408
       }
     ],
-    "totalVotes": 120455
+    "totalVotes": 58920
   },
   {
     "ridingId": 24072,
@@ -3175,36 +2961,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 48831,
-        "voteShare": 0.40099034292471425
-      },
-      {
-        "party": 2,
-        "votes": 28649,
-        "voteShare": 0.23525982131126003
+        "votes": 18281,
+        "voteShare": 0.3250071113639596
       },
       {
         "party": 3,
-        "votes": 25096,
-        "voteShare": 0.2060833004861385
+        "votes": 15238,
+        "voteShare": 0.2709074100412459
+      },
+      {
+        "party": 2,
+        "votes": 14022,
+        "voteShare": 0.24928886360403926
       },
       {
         "party": 1,
-        "votes": 16048,
-        "voteShare": 0.13178294573643412
+        "votes": 7000,
+        "voteShare": 0.12444886929313043
       },
       {
         "party": 4,
-        "votes": 2797,
-        "voteShare": 0.022968400998554725
+        "votes": 1352,
+        "voteShare": 0.02403641018347319
       },
       {
         "party": 6,
         "votes": 355,
-        "voteShare": 0.0029151885428984367
+        "voteShare": 0.006311335514151614
       }
     ],
-    "totalVotes": 121776
+    "totalVotes": 56248
   },
   {
     "ridingId": 24075,
@@ -3242,6 +3028,38 @@
       }
     ],
     "totalVotes": 60289
+  },
+  {
+    "ridingId": 24076,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 30550,
+        "voteShare": 0.46621291661579783
+      },
+      {
+        "party": 2,
+        "votes": 14627,
+        "voteShare": 0.2232175558539861
+      },
+      {
+        "party": 3,
+        "votes": 9858,
+        "voteShare": 0.15043950677572945
+      },
+      {
+        "party": 1,
+        "votes": 9048,
+        "voteShare": 0.13807837870833842
+      },
+      {
+        "party": 4,
+        "votes": 1445,
+        "voteShare": 0.02205164204614821
+      }
+    ],
+    "totalVotes": 65528
   },
   {
     "ridingId": 24077,
@@ -3350,33 +3168,6 @@
     "totalVotes": 56307
   },
   {
-    "ridingId": 35002,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 2,
-        "votes": 16516,
-        "voteShare": 0.39918789577995845
-      },
-      {
-        "party": 0,
-        "votes": 14111,
-        "voteShare": 0.34105960264900664
-      },
-      {
-        "party": 1,
-        "votes": 9820,
-        "voteShare": 0.23734712621453086
-      },
-      {
-        "party": 4,
-        "votes": 927,
-        "voteShare": 0.022405375356504085
-      }
-    ],
-    "totalVotes": 41374
-  },
-  {
     "ridingId": 35003,
     "year": 2015,
     "candidates": [
@@ -3407,38 +3198,6 @@
       }
     ],
     "totalVotes": 50980
-  },
-  {
-    "ridingId": 35004,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 22901,
-        "voteShare": 0.46413733000952556
-      },
-      {
-        "party": 0,
-        "votes": 18308,
-        "voteShare": 0.37105044486329825
-      },
-      {
-        "party": 2,
-        "votes": 5812,
-        "voteShare": 0.11779250521878357
-      },
-      {
-        "party": 4,
-        "votes": 1991,
-        "voteShare": 0.04035183721448694
-      },
-      {
-        "party": 6,
-        "votes": 329,
-        "voteShare": 0.006667882693905677
-      }
-    ],
-    "totalVotes": 49341
   },
   {
     "ridingId": 35005,
@@ -3569,7 +3328,34 @@
     "totalVotes": 39632
   },
   {
-    "ridingId": 35010,
+    "ridingId": 35011,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 23652,
+        "voteShare": 0.5232048843073929
+      },
+      {
+        "party": 1,
+        "votes": 10642,
+        "voteShare": 0.23541122859797373
+      },
+      {
+        "party": 2,
+        "votes": 10400,
+        "voteShare": 0.230057956908375
+      },
+      {
+        "party": 4,
+        "votes": 512,
+        "voteShare": 0.011325930186258461
+      }
+    ],
+    "totalVotes": 45206
+  },
+  {
+    "ridingId": 35012,
     "year": 2015,
     "candidates": [
       {
@@ -3601,63 +3387,31 @@
     "totalVotes": 48166
   },
   {
-    "ridingId": 35011,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 23652,
-        "voteShare": 0.5232048843073929
-      },
-      {
-        "party": 1,
-        "votes": 10642,
-        "voteShare": 0.23541122859797373
-      },
-      {
-        "party": 2,
-        "votes": 10400,
-        "voteShare": 0.230057956908375
-      },
-      {
-        "party": 4,
-        "votes": 512,
-        "voteShare": 0.011325930186258461
-      }
-    ],
-    "totalVotes": 45206
-  },
-  {
     "ridingId": 35013,
     "year": 2015,
     "candidates": [
       {
         "party": 0,
-        "votes": 43103,
-        "voteShare": 0.39640045615067687
+        "votes": 23681,
+        "voteShare": 0.520873658279078
       },
       {
         "party": 1,
-        "votes": 41803,
-        "voteShare": 0.38444489405532667
+        "votes": 15929,
+        "voteShare": 0.35036512405419673
       },
       {
         "party": 2,
-        "votes": 20558,
-        "voteShare": 0.18906341965862272
+        "votes": 4843,
+        "voteShare": 0.10652384304064755
       },
       {
         "party": 4,
-        "votes": 2593,
-        "voteShare": 0.023846748087110063
-      },
-      {
-        "party": 6,
-        "votes": 679,
-        "voteShare": 0.006244482048263685
+        "votes": 1011,
+        "voteShare": 0.022237374626077777
       }
     ],
-    "totalVotes": 108736
+    "totalVotes": 45464
   },
   {
     "ridingId": 35014,
@@ -3685,6 +3439,38 @@
       }
     ],
     "totalVotes": 43398
+  },
+  {
+    "ridingId": 35015,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 25874,
+        "voteShare": 0.4089328612972563
+      },
+      {
+        "party": 0,
+        "votes": 19422,
+        "voteShare": 0.3069604248324693
+      },
+      {
+        "party": 2,
+        "votes": 15715,
+        "voteShare": 0.24837210772537616
+      },
+      {
+        "party": 4,
+        "votes": 1582,
+        "voteShare": 0.025003160955873054
+      },
+      {
+        "party": 6,
+        "votes": 679,
+        "voteShare": 0.010731445189025161
+      }
+    ],
+    "totalVotes": 63272
   },
   {
     "ridingId": 35016,
@@ -3746,31 +3532,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 47072,
-        "voteShare": 0.49587577822958695
+        "votes": 23024,
+        "voteShare": 0.43165413674797054
       },
       {
         "party": 1,
-        "votes": 32768,
-        "voteShare": 0.3451915682577138
+        "votes": 20613,
+        "voteShare": 0.38645268940175104
       },
       {
         "party": 2,
-        "votes": 11704,
-        "voteShare": 0.1232947422756434
+        "votes": 7397,
+        "voteShare": 0.13867901535461857
       },
       {
         "party": 4,
-        "votes": 2801,
-        "voteShare": 0.02950688423736134
+        "votes": 1723,
+        "voteShare": 0.03230281782560603
       },
       {
         "party": 6,
         "votes": 582,
-        "voteShare": 0.006131026999694502
+        "voteShare": 0.010911340670053806
       }
     ],
-    "totalVotes": 94927
+    "totalVotes": 53339
   },
   {
     "ridingId": 35020,
@@ -3864,31 +3650,26 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 46443,
-        "voteShare": 0.42270096111839234
+        "votes": 23494,
+        "voteShare": 0.5142381859172194
       },
       {
         "party": 1,
-        "votes": 46246,
-        "voteShare": 0.42090796563273625
+        "votes": 17279,
+        "voteShare": 0.3782038654321798
       },
       {
         "party": 2,
-        "votes": 14185,
-        "voteShare": 0.12910477646716179
+        "votes": 3896,
+        "voteShare": 0.0852758990522468
       },
       {
         "party": 4,
-        "votes": 2634,
-        "voteShare": 0.023973350808213195
-      },
-      {
-        "party": 6,
-        "votes": 364,
-        "voteShare": 0.003312945973496432
+        "votes": 1018,
+        "voteShare": 0.022282049598354017
       }
     ],
-    "totalVotes": 109872
+    "totalVotes": 45687
   },
   {
     "ridingId": 35024,
@@ -3928,31 +3709,26 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 56000,
-        "voteShare": 0.4770667211885777
+        "votes": 27977,
+        "voteShare": 0.4628045855320838
       },
       {
         "party": 0,
-        "votes": 41285,
-        "voteShare": 0.3517089211476862
-      },
-      {
-        "party": 2,
-        "votes": 13169,
-        "voteShare": 0.11218735091664962
+        "votes": 23643,
+        "voteShare": 0.391110155332418
       },
       {
         "party": 4,
-        "votes": 6216,
-        "voteShare": 0.05295440605193212
+        "votes": 4433,
+        "voteShare": 0.07333212022960744
       },
       {
-        "party": 6,
-        "votes": 714,
-        "voteShare": 0.006082600695154365
+        "party": 2,
+        "votes": 4398,
+        "voteShare": 0.07275313890589072
       }
     ],
-    "totalVotes": 117384
+    "totalVotes": 60451
   },
   {
     "ridingId": 35026,
@@ -4056,31 +3832,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 56366,
-        "voteShare": 0.4696462197337066
+        "votes": 34638,
+        "voteShare": 0.5369566565387239
       },
       {
         "party": 1,
-        "votes": 45069,
-        "voteShare": 0.3755186721991701
+        "votes": 20932,
+        "voteShare": 0.32448688534755377
       },
       {
         "party": 2,
-        "votes": 14809,
-        "voteShare": 0.1233898248596044
+        "votes": 7030,
+        "voteShare": 0.10897873132014634
       },
       {
         "party": 4,
-        "votes": 3373,
-        "voteShare": 0.02810411771567598
+        "votes": 1507,
+        "voteShare": 0.023361443541886278
       },
       {
         "party": 6,
         "votes": 401,
-        "voteShare": 0.0033411654918428903
+        "voteShare": 0.006216283251689713
       }
     ],
-    "totalVotes": 120018
+    "totalVotes": 64508
   },
   {
     "ridingId": 35031,
@@ -4088,31 +3864,58 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 60440,
-        "voteShare": 0.5689166674510764
+        "votes": 26251,
+        "voteShare": 0.6240728413845569
       },
       {
         "party": 1,
-        "votes": 33040,
-        "voteShare": 0.31100275798450633
+        "votes": 9673,
+        "voteShare": 0.22995910992772917
       },
       {
         "party": 2,
-        "votes": 10307,
-        "voteShare": 0.09701892937488822
+        "votes": 5220,
+        "voteShare": 0.12409661468238874
       },
       {
         "party": 4,
-        "votes": 1677,
-        "voteShare": 0.01578546080932255
+        "votes": 524,
+        "voteShare": 0.012457208063902625
       },
       {
         "party": 6,
-        "votes": 773,
-        "voteShare": 0.00727618438020652
+        "votes": 396,
+        "voteShare": 0.009414225941422594
       }
     ],
-    "totalVotes": 106237
+    "totalVotes": 42064
+  },
+  {
+    "ridingId": 35032,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24137,
+        "voteShare": 0.43482255449468565
+      },
+      {
+        "party": 0,
+        "votes": 21728,
+        "voteShare": 0.3914249684741488
+      },
+      {
+        "party": 2,
+        "votes": 7779,
+        "voteShare": 0.1401369122680598
+      },
+      {
+        "party": 4,
+        "votes": 1866,
+        "voteShare": 0.033615564763105746
+      }
+    ],
+    "totalVotes": 55510
   },
   {
     "ridingId": 35033,
@@ -4152,31 +3955,58 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 52432,
-        "voteShare": 0.44500271591526347
+        "votes": 24714,
+        "voteShare": 0.44140025004465083
       },
       {
         "party": 0,
-        "votes": 40121,
-        "voteShare": 0.34051636338946223
+        "votes": 20487,
+        "voteShare": 0.3659046258260404
       },
       {
         "party": 2,
-        "votes": 19637,
-        "voteShare": 0.16666383758826725
+        "votes": 7625,
+        "voteShare": 0.13618503304161458
       },
       {
         "party": 4,
-        "votes": 4327,
-        "voteShare": 0.03672426670287887
+        "votes": 1857,
+        "voteShare": 0.03316663689944633
       },
       {
         "party": 6,
         "votes": 1307,
-        "voteShare": 0.011092816404128191
+        "voteShare": 0.023343454188247903
       }
     ],
-    "totalVotes": 117824
+    "totalVotes": 55990
+  },
+  {
+    "ridingId": 35035,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 27718,
+        "voteShare": 0.4482647087362939
+      },
+      {
+        "party": 0,
+        "votes": 19634,
+        "voteShare": 0.3175275738266973
+      },
+      {
+        "party": 2,
+        "votes": 12012,
+        "voteShare": 0.19426205647378464
+      },
+      {
+        "party": 4,
+        "votes": 2470,
+        "voteShare": 0.03994566096322412
+      }
+    ],
+    "totalVotes": 61834
   },
   {
     "ridingId": 35036,
@@ -4280,26 +4110,53 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 50798,
-        "voteShare": 0.453246011634962
+        "votes": 29694,
+        "voteShare": 0.4767899291896145
       },
       {
         "party": 1,
-        "votes": 40700,
-        "voteShare": 0.3631464363467647
+        "votes": 19821,
+        "voteShare": 0.3182613722121421
       },
       {
         "party": 2,
-        "votes": 16479,
-        "voteShare": 0.1470341553945537
+        "votes": 10131,
+        "voteShare": 0.16267120538223157
       },
       {
         "party": 4,
-        "votes": 4099,
-        "voteShare": 0.03657339662371962
+        "votes": 2633,
+        "voteShare": 0.04227749321601182
       }
     ],
-    "totalVotes": 112076
+    "totalVotes": 62279
+  },
+  {
+    "ridingId": 35040,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 21104,
+        "voteShare": 0.4238006305600739
+      },
+      {
+        "party": 1,
+        "votes": 20879,
+        "voteShare": 0.4192822860814909
+      },
+      {
+        "party": 2,
+        "votes": 6348,
+        "voteShare": 0.1274775588890897
+      },
+      {
+        "party": 4,
+        "votes": 1466,
+        "voteShare": 0.029439524469345543
+      }
+    ],
+    "totalVotes": 49797
   },
   {
     "ridingId": 35041,
@@ -4307,31 +4164,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 56472,
-        "voteShare": 0.5693775080155673
+        "votes": 23995,
+        "voteShare": 0.6691486098329569
       },
       {
         "party": 1,
-        "votes": 32057,
-        "voteShare": 0.3232138896170676
+        "votes": 7228,
+        "voteShare": 0.2015672495050057
       },
       {
         "party": 2,
-        "votes": 8164,
-        "voteShare": 0.0823133229819927
+        "votes": 3851,
+        "voteShare": 0.10739284419532057
       },
       {
         "party": 4,
-        "votes": 2288,
-        "voteShare": 0.023068701982214515
+        "votes": 584,
+        "voteShare": 0.01628600909116261
       },
       {
         "party": 6,
         "votes": 201,
-        "voteShare": 0.0020265774031578312
+        "voteShare": 0.005605287375554254
       }
     ],
-    "totalVotes": 99182
+    "totalVotes": 35859
   },
   {
     "ridingId": 35042,
@@ -4339,31 +4196,85 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 34925,
-        "voteShare": 0.3924289582794926
+        "votes": 26174,
+        "voteShare": 0.4493776289810284
       },
       {
         "party": 0,
-        "votes": 34047,
-        "voteShare": 0.38256345719518636
+        "votes": 23129,
+        "voteShare": 0.3970984633874152
       },
       {
         "party": 2,
-        "votes": 17964,
-        "voteShare": 0.2018495005449622
+        "votes": 7544,
+        "voteShare": 0.12952184736887287
       },
       {
         "party": 4,
-        "votes": 1899,
-        "voteShare": 0.02133779790330011
+        "votes": 1398,
+        "voteShare": 0.02400206026268349
+      }
+    ],
+    "totalVotes": 58245
+  },
+  {
+    "ridingId": 35043,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 32477,
+        "voteShare": 0.5128784170048798
+      },
+      {
+        "party": 1,
+        "votes": 24829,
+        "voteShare": 0.3921008164489996
+      },
+      {
+        "party": 2,
+        "votes": 4313,
+        "voteShare": 0.06811111286578336
+      },
+      {
+        "party": 4,
+        "votes": 1704,
+        "voteShare": 0.02690965368033732
+      }
+    ],
+    "totalVotes": 63323
+  },
+  {
+    "ridingId": 35045,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 10918,
+        "voteShare": 0.35503381893860564
+      },
+      {
+        "party": 2,
+        "votes": 10420,
+        "voteShare": 0.3388397502601457
+      },
+      {
+        "party": 1,
+        "votes": 8751,
+        "voteShare": 0.2845668574401665
+      },
+      {
+        "party": 4,
+        "votes": 501,
+        "voteShare": 0.01629162330905307
       },
       {
         "party": 6,
         "votes": 162,
-        "voteShare": 0.0018202860770587773
+        "voteShare": 0.005267950052029137
       }
     ],
-    "totalVotes": 88997
+    "totalVotes": 30752
   },
   {
     "ridingId": 35046,
@@ -4429,32 +4340,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 44172,
-        "voteShare": 0.4065793470357041
+        "party": 0,
+        "votes": 25504,
+        "voteShare": 0.48783473603672534
       },
       {
-        "party": 0,
-        "votes": 42096,
-        "voteShare": 0.3874708908995517
+        "party": 1,
+        "votes": 15872,
+        "voteShare": 0.3035960214231064
       },
       {
         "party": 2,
-        "votes": 18278,
-        "voteShare": 0.16823909501762654
+        "votes": 8680,
+        "voteShare": 0.1660290742157613
       },
       {
         "party": 4,
-        "votes": 3470,
-        "voteShare": 0.0319394714799849
+        "votes": 1597,
+        "voteShare": 0.030547054322876816
       },
       {
         "party": 6,
         "votes": 627,
-        "voteShare": 0.005771195567132719
+        "voteShare": 0.011993114001530221
       }
     ],
-    "totalVotes": 108643
+    "totalVotes": 52280
   },
   {
     "ridingId": 35049,
@@ -4462,95 +4373,95 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 48048,
-        "voteShare": 0.45786599834189384
+        "votes": 20649,
+        "voteShare": 0.43290215727793036
       },
       {
         "party": 0,
-        "votes": 39723,
-        "voteShare": 0.37853419605675676
+        "votes": 20398,
+        "voteShare": 0.427639992452672
       },
       {
         "party": 2,
-        "votes": 12726,
-        "voteShare": 0.12127045235803657
+        "votes": 4653,
+        "voteShare": 0.09754921486823623
       },
       {
         "party": 4,
-        "votes": 3339,
-        "voteShare": 0.03181848502463336
+        "votes": 1314,
+        "voteShare": 0.027547747332229186
       },
       {
         "party": 6,
-        "votes": 1103,
-        "voteShare": 0.010510868218679423
+        "votes": 685,
+        "voteShare": 0.014360888068932263
       }
     ],
-    "totalVotes": 104939
+    "totalVotes": 47699
   },
   {
     "ridingId": 35050,
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 44282,
-        "voteShare": 0.4247062772742531
+        "party": 0,
+        "votes": 20215,
+        "voteShare": 0.4226515294068452
       },
       {
-        "party": 0,
-        "votes": 43103,
-        "voteShare": 0.4133985517671318
+        "party": 1,
+        "votes": 17544,
+        "voteShare": 0.36680674904346733
       },
       {
         "party": 2,
-        "votes": 12162,
-        "voteShare": 0.11664508703783628
+        "votes": 7440,
+        "voteShare": 0.15555416170106004
       },
       {
         "party": 4,
-        "votes": 3855,
-        "voteShare": 0.03697309739605812
+        "votes": 1767,
+        "voteShare": 0.036944113404001756
       },
       {
         "party": 6,
         "votes": 863,
-        "voteShare": 0.008276986524720665
+        "voteShare": 0.018043446444625647
       }
     ],
-    "totalVotes": 104265
+    "totalVotes": 47829
   },
   {
-    "ridingId": 35052,
+    "ridingId": 35051,
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 32427,
-        "voteShare": 0.5045354825660096
+        "party": 1,
+        "votes": 27399,
+        "voteShare": 0.4786687631027254
       },
       {
-        "party": 1,
-        "votes": 19990,
-        "voteShare": 0.31102674612189013
+        "party": 0,
+        "votes": 19325,
+        "voteShare": 0.33761355695317957
       },
       {
         "party": 2,
-        "votes": 9423,
-        "voteShare": 0.14661355821443575
+        "votes": 8073,
+        "voteShare": 0.1410377358490566
       },
       {
         "party": 4,
-        "votes": 2286,
-        "voteShare": 0.0355681411523082
+        "votes": 2025,
+        "voteShare": 0.03537735849056604
       },
       {
         "party": 6,
-        "votes": 145,
-        "voteShare": 0.0022560719453563814
+        "votes": 418,
+        "voteShare": 0.007302585604472397
       }
     ],
-    "totalVotes": 64271
+    "totalVotes": 57240
   },
   {
     "ridingId": 35054,
@@ -4649,31 +4560,26 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 43818,
-        "voteShare": 0.47542993544187057
+        "votes": 23878,
+        "voteShare": 0.5571551905173018
       },
       {
         "party": 1,
-        "votes": 36227,
-        "voteShare": 0.3930667824011284
+        "votes": 13849,
+        "voteShare": 0.32314441048136827
       },
       {
         "party": 2,
-        "votes": 9961,
-        "voteShare": 0.10807790375956165
+        "votes": 4595,
+        "voteShare": 0.10721702405674685
       },
       {
         "party": 4,
-        "votes": 1666,
-        "voteShare": 0.018076276243693377
-      },
-      {
-        "party": 6,
-        "votes": 493,
-        "voteShare": 0.005349102153745998
+        "votes": 535,
+        "voteShare": 0.012483374944583148
       }
     ],
-    "totalVotes": 92165
+    "totalVotes": 42857
   },
   {
     "ridingId": 35058,
@@ -4701,6 +4607,38 @@
       }
     ],
     "totalVotes": 49839
+  },
+  {
+    "ridingId": 35060,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 22378,
+        "voteShare": 0.45384116167761823
+      },
+      {
+        "party": 0,
+        "votes": 19940,
+        "voteShare": 0.4043968524377383
+      },
+      {
+        "party": 2,
+        "votes": 5366,
+        "voteShare": 0.10882615397095806
+      },
+      {
+        "party": 4,
+        "votes": 1131,
+        "voteShare": 0.022937454368459478
+      },
+      {
+        "party": 6,
+        "votes": 493,
+        "voteShare": 0.009998377545225926
+      }
+    ],
+    "totalVotes": 49308
   },
   {
     "ridingId": 35061,
@@ -4858,31 +4796,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 46305,
-        "voteShare": 0.4183644889366739
+        "votes": 26792,
+        "voteShare": 0.47843711494848123
       },
       {
         "party": 1,
-        "votes": 38869,
-        "voteShare": 0.35118041940351097
+        "votes": 22621,
+        "voteShare": 0.40395364202932194
       },
       {
         "party": 2,
-        "votes": 22258,
-        "voteShare": 0.20110045988019623
+        "votes": 5040,
+        "voteShare": 0.09000160717155664
       },
       {
         "party": 4,
-        "votes": 2609,
-        "voteShare": 0.02357224817267643
+        "votes": 1293,
+        "voteShare": 0.02308969803032197
       },
       {
         "party": 6,
-        "votes": 640,
-        "voteShare": 0.005782383606942474
+        "votes": 253,
+        "voteShare": 0.00451793782031822
       }
     ],
-    "totalVotes": 110681
+    "totalVotes": 55999
   },
   {
     "ridingId": 35067,
@@ -4890,31 +4828,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 56335,
-        "voteShare": 0.43468699604163613
+        "votes": 34017,
+        "voteShare": 0.5242417704352115
       },
       {
         "party": 1,
-        "votes": 50677,
-        "voteShare": 0.39102925176891795
+        "votes": 23442,
+        "voteShare": 0.3612686475157194
       },
       {
         "party": 2,
-        "votes": 18849,
-        "voteShare": 0.1454409370442673
+        "votes": 5324,
+        "voteShare": 0.08204906916533103
       },
       {
         "party": 4,
-        "votes": 3146,
-        "voteShare": 0.024274878664187222
+        "votes": 1513,
+        "voteShare": 0.023317100234249783
       },
       {
         "party": 6,
         "votes": 592,
-        "voteShare": 0.0045679364809913655
+        "voteShare": 0.00912341264948835
       }
     ],
-    "totalVotes": 129599
+    "totalVotes": 64888
   },
   {
     "ridingId": 35068,
@@ -4949,63 +4887,31 @@
     "totalVotes": 56464
   },
   {
-    "ridingId": 35069,
+    "ridingId": 35070,
     "year": 2015,
     "candidates": [
       {
+        "party": 1,
+        "votes": 27235,
+        "voteShare": 0.4208712583641112
+      },
+      {
         "party": 0,
-        "votes": 21021,
-        "voteShare": 0.4280129497281779
+        "votes": 22318,
+        "voteShare": 0.3448872680069849
       },
       {
         "party": 2,
-        "votes": 18556,
-        "voteShare": 0.37782257243499684
-      },
-      {
-        "party": 1,
-        "votes": 8221,
-        "voteShare": 0.1673894895445198
+        "votes": 13525,
+        "voteShare": 0.20900619678261811
       },
       {
         "party": 4,
-        "votes": 1217,
-        "voteShare": 0.02477958992527437
-      },
-      {
-        "party": 6,
-        "votes": 98,
-        "voteShare": 0.0019953983670311323
+        "votes": 1633,
+        "voteShare": 0.025235276846285792
       }
     ],
-    "totalVotes": 49113
-  },
-  {
-    "ridingId": 35071,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 27043,
-        "voteShare": 0.42514424059488437
-      },
-      {
-        "party": 1,
-        "votes": 25165,
-        "voteShare": 0.39562011665015956
-      },
-      {
-        "party": 2,
-        "votes": 9411,
-        "voteShare": 0.14795076168466725
-      },
-      {
-        "party": 4,
-        "votes": 1990,
-        "voteShare": 0.031284881070288796
-      }
-    ],
-    "totalVotes": 63609
+    "totalVotes": 64711
   },
   {
     "ridingId": 35072,
@@ -5013,31 +4919,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 52229,
-        "voteShare": 0.452747919556172
+        "votes": 24732,
+        "voteShare": 0.48822472708608877
       },
       {
         "party": 0,
-        "votes": 48537,
-        "voteShare": 0.42074375866851593
+        "votes": 16581,
+        "voteShare": 0.3273190279724421
       },
       {
         "party": 2,
-        "votes": 9632,
-        "voteShare": 0.08349514563106795
-      },
-      {
-        "party": 4,
-        "votes": 2931,
-        "voteShare": 0.02540742024965326
+        "votes": 5802,
+        "voteShare": 0.11453500996900724
       },
       {
         "party": 6,
         "votes": 2031,
-        "voteShare": 0.017605755894590847
+        "voteShare": 0.040093175671674204
+      },
+      {
+        "party": 4,
+        "votes": 1511,
+        "voteShare": 0.02982805930078765
       }
     ],
-    "totalVotes": 115360
+    "totalVotes": 50657
   },
   {
     "ridingId": 35073,
@@ -5045,31 +4951,53 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 53772,
-        "voteShare": 0.4903028147823946
+        "votes": 25357,
+        "voteShare": 0.5188132992327366
       },
       {
         "party": 1,
-        "votes": 40667,
-        "voteShare": 0.3708090561771115
+        "votes": 14325,
+        "voteShare": 0.29309462915601026
       },
       {
         "party": 2,
-        "votes": 12341,
-        "voteShare": 0.11252746851948099
+        "votes": 7936,
+        "voteShare": 0.16237340153452687
       },
       {
         "party": 4,
-        "votes": 2225,
-        "voteShare": 0.020287952147787475
-      },
-      {
-        "party": 6,
-        "votes": 666,
-        "voteShare": 0.006072708373225374
+        "votes": 1257,
+        "voteShare": 0.025718670076726343
       }
     ],
-    "totalVotes": 109671
+    "totalVotes": 48875
+  },
+  {
+    "ridingId": 35075,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 31956,
+        "voteShare": 0.4938874549866312
+      },
+      {
+        "party": 1,
+        "votes": 27497,
+        "voteShare": 0.42497256695980096
+      },
+      {
+        "party": 2,
+        "votes": 3830,
+        "voteShare": 0.059193545894317114
+      },
+      {
+        "party": 4,
+        "votes": 1420,
+        "voteShare": 0.02194643215925073
+      }
+    ],
+    "totalVotes": 64703
   },
   {
     "ridingId": 35077,
@@ -5103,32 +5031,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 53062,
-        "voteShare": 0.42777791214195304
-      },
-      {
         "party": 1,
-        "votes": 35271,
-        "voteShare": 0.28434952959102233
+        "votes": 23162,
+        "voteShare": 0.3816695778268464
       },
       {
         "party": 2,
-        "votes": 31533,
-        "voteShare": 0.2542143323578494
+        "votes": 19339,
+        "voteShare": 0.3186731700886531
+      },
+      {
+        "party": 0,
+        "votes": 16588,
+        "voteShare": 0.2733414626108163
       },
       {
         "party": 4,
-        "votes": 3469,
-        "voteShare": 0.027966559444054788
+        "votes": 1522,
+        "voteShare": 0.02507991958606598
       },
       {
         "party": 6,
-        "votes": 706,
-        "voteShare": 0.005691666465120404
+        "votes": 75,
+        "voteShare": 0.0012358698876182316
       }
     ],
-    "totalVotes": 124041
+    "totalVotes": 60686
   },
   {
     "ridingId": 35079,
@@ -5200,31 +5128,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 24623,
-        "voteShare": 0.42042447111854797
+        "votes": 36474,
+        "voteShare": 0.5757083103148922
       },
       {
         "party": 2,
-        "votes": 23566,
-        "voteShare": 0.4023767650724811
+        "votes": 12194,
+        "voteShare": 0.19247099676426485
       },
       {
         "party": 1,
-        "votes": 7641,
-        "voteShare": 0.13046596206054603
+        "votes": 12109,
+        "voteShare": 0.19112935048536028
       },
       {
         "party": 4,
-        "votes": 1743,
-        "voteShare": 0.029760786791196408
+        "votes": 1947,
+        "voteShare": 0.030731591823849734
       },
       {
         "party": 6,
-        "votes": 994,
-        "voteShare": 0.016972014957228474
+        "votes": 631,
+        "voteShare": 0.009959750611632862
       }
     ],
-    "totalVotes": 58567
+    "totalVotes": 63355
   },
   {
     "ridingId": 35082,
@@ -5295,99 +5223,99 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 49096,
-        "voteShare": 0.4166999091842711
+        "party": 1,
+        "votes": 22206,
+        "voteShare": 0.43304276604457964
       },
       {
-        "party": 1,
-        "votes": 45541,
-        "voteShare": 0.3865270198012239
+        "party": 0,
+        "votes": 19937,
+        "voteShare": 0.3887946332806802
       },
       {
         "party": 2,
-        "votes": 17620,
-        "voteShare": 0.14954889196323237
+        "votes": 5183,
+        "voteShare": 0.10107451393357905
       },
       {
         "party": 4,
-        "votes": 5184,
-        "voteShare": 0.0439989475560384
+        "votes": 3704,
+        "voteShare": 0.07223229782172039
       },
       {
         "party": 6,
-        "votes": 380,
-        "voteShare": 0.003225231495234296
+        "votes": 249,
+        "voteShare": 0.0048557889194407065
       }
     ],
-    "totalVotes": 117821
+    "totalVotes": 51279
   },
   {
     "ridingId": 35085,
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 49237,
-        "voteShare": 0.44353661832267366
+        "party": 1,
+        "votes": 22255,
+        "voteShare": 0.4292106227459451
       },
       {
-        "party": 1,
-        "votes": 44846,
-        "voteShare": 0.40398162327718223
+        "party": 0,
+        "votes": 19480,
+        "voteShare": 0.3756918863667046
       },
       {
         "party": 2,
-        "votes": 13202,
-        "voteShare": 0.11892622286280516
+        "votes": 7756,
+        "voteShare": 0.14958245742608628
       },
       {
         "party": 4,
-        "votes": 2712,
-        "voteShare": 0.024430231510674714
+        "votes": 1347,
+        "voteShare": 0.025978283928950262
       },
       {
         "party": 6,
         "votes": 1013,
-        "voteShare": 0.009125304026664265
+        "voteShare": 0.019536749532313744
       }
     ],
-    "totalVotes": 111010
+    "totalVotes": 51851
   },
   {
     "ridingId": 35086,
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 26195,
-        "voteShare": 0.4582830350426005
-      },
-      {
         "party": 0,
-        "votes": 18666,
-        "voteShare": 0.3265627460242482
+        "votes": 29159,
+        "voteShare": 0.4382044423071143
       },
       {
-        "party": 6,
-        "votes": 6300,
-        "voteShare": 0.11021886317115415
+        "party": 1,
+        "votes": 23335,
+        "voteShare": 0.35068077304559525
       },
       {
         "party": 2,
-        "votes": 4893,
-        "voteShare": 0.08560331706292973
+        "votes": 12437,
+        "voteShare": 0.18690451143638603
       },
       {
         "party": 4,
-        "votes": 1105,
-        "voteShare": 0.019332038699067515
+        "votes": 1480,
+        "voteShare": 0.022241591776622285
+      },
+      {
+        "party": 6,
+        "votes": 131,
+        "voteShare": 0.0019686814342821076
       }
     ],
-    "totalVotes": 57159
+    "totalVotes": 66542
   },
   {
-    "ridingId": 35087,
+    "ridingId": 35089,
     "year": 2015,
     "candidates": [
       {
@@ -5414,7 +5342,7 @@
     "totalVotes": 49113
   },
   {
-    "ridingId": 35091,
+    "ridingId": 35090,
     "year": 2015,
     "candidates": [
       {
@@ -5441,39 +5369,71 @@
     "totalVotes": 58125
   },
   {
+    "ridingId": 35091,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19582,
+        "voteShare": 0.44751696871357727
+      },
+      {
+        "party": 1,
+        "votes": 13615,
+        "voteShare": 0.3111502159654455
+      },
+      {
+        "party": 2,
+        "votes": 9543,
+        "voteShare": 0.21809081975455355
+      },
+      {
+        "party": 4,
+        "votes": 934,
+        "voteShare": 0.021345156203578856
+      },
+      {
+        "party": 6,
+        "votes": 83,
+        "voteShare": 0.001896839362844802
+      }
+    ],
+    "totalVotes": 43757
+  },
+  {
     "ridingId": 35092,
     "year": 2015,
     "candidates": [
       {
         "party": 0,
-        "votes": 41169,
-        "voteShare": 0.48256420475191353
+        "votes": 21587,
+        "voteShare": 0.5194677062277409
       },
       {
         "party": 1,
-        "votes": 29417,
-        "voteShare": 0.34481263113476257
+        "votes": 15802,
+        "voteShare": 0.3802579651554529
       },
       {
         "party": 2,
-        "votes": 12806,
-        "voteShare": 0.1501060799643665
+        "votes": 3263,
+        "voteShare": 0.07852055058234671
       },
       {
         "party": 4,
-        "votes": 1504,
-        "voteShare": 0.0176292007079812
+        "votes": 570,
+        "voteShare": 0.013716430840311869
       },
       {
         "party": 6,
-        "votes": 417,
-        "voteShare": 0.0048878834409761705
+        "votes": 334,
+        "voteShare": 0.008037347194147657
       }
     ],
-    "totalVotes": 85313
+    "totalVotes": 41556
   },
   {
-    "ridingId": 35094,
+    "ridingId": 35093,
     "year": 2015,
     "candidates": [
       {
@@ -5505,36 +5465,68 @@
     "totalVotes": 45029
   },
   {
+    "ridingId": 35094,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25167,
+        "voteShare": 0.6004007920414152
+      },
+      {
+        "party": 1,
+        "votes": 11108,
+        "voteShare": 0.26499988071665437
+      },
+      {
+        "party": 2,
+        "votes": 4720,
+        "voteShare": 0.11260347830235942
+      },
+      {
+        "party": 4,
+        "votes": 606,
+        "voteShare": 0.014457141493904622
+      },
+      {
+        "party": 6,
+        "votes": 316,
+        "voteShare": 0.0075387074456664364
+      }
+    ],
+    "totalVotes": 41917
+  },
+  {
     "ridingId": 35095,
     "year": 2015,
     "candidates": [
       {
         "party": 0,
-        "votes": 44071,
-        "voteShare": 0.5433820356328216
+        "votes": 18904,
+        "voteShare": 0.4823925691538226
       },
       {
         "party": 1,
-        "votes": 21845,
-        "voteShare": 0.26934221071450587
+        "votes": 10737,
+        "voteShare": 0.2739869347759518
       },
       {
         "party": 2,
-        "votes": 13368,
-        "voteShare": 0.1648233771037544
+        "votes": 8648,
+        "voteShare": 0.22067979993875675
       },
       {
         "party": 4,
-        "votes": 1185,
-        "voteShare": 0.014610689846495283
+        "votes": 579,
+        "voteShare": 0.014774931101357558
       },
       {
         "party": 6,
-        "votes": 636,
-        "voteShare": 0.007841686702422785
+        "votes": 320,
+        "voteShare": 0.00816576503011126
       }
     ],
-    "totalVotes": 81105
+    "totalVotes": 39188
   },
   {
     "ridingId": 35096,
@@ -5562,33 +5554,6 @@
       }
     ],
     "totalVotes": 48766
-  },
-  {
-    "ridingId": 35097,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 29913,
-        "voteShare": 0.6024166750578995
-      },
-      {
-        "party": 1,
-        "votes": 13587,
-        "voteShare": 0.27362803343067166
-      },
-      {
-        "party": 2,
-        "votes": 5145,
-        "voteShare": 0.10361494310744135
-      },
-      {
-        "party": 4,
-        "votes": 1010,
-        "voteShare": 0.020340348403987515
-      }
-    ],
-    "totalVotes": 49655
   },
   {
     "ridingId": 35098,
@@ -5660,58 +5625,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 55011,
-        "voteShare": 0.4879500439067226
+        "votes": 24870,
+        "voteShare": 0.4318383080689691
       },
       {
         "party": 1,
-        "votes": 30310,
-        "voteShare": 0.26885106307488976
+        "votes": 21637,
+        "voteShare": 0.375701064402424
       },
       {
         "party": 2,
-        "votes": 24558,
-        "voteShare": 0.21783056440096152
+        "votes": 9511,
+        "voteShare": 0.16514733204841034
       },
       {
         "party": 4,
-        "votes": 2625,
-        "voteShare": 0.02328386804921101
+        "votes": 1488,
+        "voteShare": 0.02583737042246184
       },
       {
         "party": 6,
-        "votes": 235,
-        "voteShare": 0.0020844605682150807
+        "votes": 85,
+        "voteShare": 0.0014759250577347156
       }
     ],
-    "totalVotes": 112739
-  },
-  {
-    "ridingId": 35102,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 27091,
-        "voteShare": 0.5105152074774809
-      },
-      {
-        "party": 0,
-        "votes": 20452,
-        "voteShare": 0.38540685184487244
-      },
-      {
-        "party": 2,
-        "votes": 4332,
-        "voteShare": 0.08163419138431387
-      },
-      {
-        "party": 4,
-        "votes": 1191,
-        "voteShare": 0.02244374929333283
-      }
-    ],
-    "totalVotes": 53066
+    "totalVotes": 57591
   },
   {
     "ridingId": 35103,
@@ -5783,26 +5721,26 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 31463,
-        "voteShare": 0.39648914988532397
+        "votes": 18523,
+        "voteShare": 0.4401539814176746
       },
       {
         "party": 2,
-        "votes": 28457,
-        "voteShare": 0.3586082617133352
+        "votes": 12483,
+        "voteShare": 0.29662809210369984
       },
       {
         "party": 1,
-        "votes": 16481,
-        "voteShare": 0.20768959346724802
+        "votes": 8876,
+        "voteShare": 0.21091652211106623
       },
       {
         "party": 4,
-        "votes": 2953,
-        "voteShare": 0.0372129949340928
+        "votes": 2201,
+        "voteShare": 0.05230140436755935
       }
     ],
-    "totalVotes": 79354
+    "totalVotes": 42083
   },
   {
     "ridingId": 35108,
@@ -5964,32 +5902,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 53228,
-        "voteShare": 0.4790567905679057
+        "party": 0,
+        "votes": 23041,
+        "voteShare": 0.48714533384075437
       },
       {
-        "party": 0,
-        "votes": 46320,
-        "voteShare": 0.41688416884168844
+        "party": 1,
+        "votes": 20746,
+        "voteShare": 0.4386231975982071
       },
       {
         "party": 2,
-        "votes": 7519,
-        "voteShare": 0.06767167671676717
-      },
-      {
-        "party": 4,
-        "votes": 3144,
-        "voteShare": 0.028296282962829628
+        "votes": 2198,
+        "voteShare": 0.04647130956911497
       },
       {
         "party": 6,
-        "votes": 899,
-        "voteShare": 0.008091080910809107
+        "votes": 716,
+        "voteShare": 0.01513806080595374
+      },
+      {
+        "party": 4,
+        "votes": 597,
+        "voteShare": 0.012622098185969809
       }
     ],
-    "totalVotes": 111110
+    "totalVotes": 47298
   },
   {
     "ridingId": 35114,
@@ -6024,36 +5962,68 @@
     "totalVotes": 59849
   },
   {
+    "ridingId": 35115,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32482,
+        "voteShare": 0.509026515388955
+      },
+      {
+        "party": 0,
+        "votes": 23279,
+        "voteShare": 0.3648059926032721
+      },
+      {
+        "party": 2,
+        "votes": 5321,
+        "voteShare": 0.0833855701122046
+      },
+      {
+        "party": 4,
+        "votes": 2547,
+        "voteShare": 0.039914122735535636
+      },
+      {
+        "party": 6,
+        "votes": 183,
+        "voteShare": 0.0028677991600325956
+      }
+    ],
+    "totalVotes": 63812
+  },
+  {
     "ridingId": 35116,
     "year": 2015,
     "candidates": [
       {
         "party": 0,
-        "votes": 43180,
-        "voteShare": 0.36636687595452233
+        "votes": 29003,
+        "voteShare": 0.4495473990947982
       },
       {
         "party": 1,
-        "votes": 41810,
-        "voteShare": 0.3547429153232649
+        "votes": 27154,
+        "voteShare": 0.42088784177568356
       },
       {
         "party": 2,
-        "votes": 29892,
-        "voteShare": 0.2536229424741218
+        "votes": 6677,
+        "voteShare": 0.10349370698741397
       },
       {
         "party": 4,
-        "votes": 2450,
-        "voteShare": 0.020787374851518752
+        "votes": 1403,
+        "voteShare": 0.021746543493086985
       },
       {
         "party": 6,
-        "votes": 528,
-        "voteShare": 0.0044798913965722045
+        "votes": 279,
+        "voteShare": 0.004324508649017298
       }
     ],
-    "totalVotes": 117860
+    "totalVotes": 64516
   },
   {
     "ridingId": 35117,
@@ -6088,36 +6058,68 @@
     "totalVotes": 45953
   },
   {
+    "ridingId": 35118,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 2,
+        "votes": 23215,
+        "voteShare": 0.43519421115776846
+      },
+      {
+        "party": 1,
+        "votes": 14656,
+        "voteShare": 0.27474505098980206
+      },
+      {
+        "party": 0,
+        "votes": 14177,
+        "voteShare": 0.2657655968806239
+      },
+      {
+        "party": 4,
+        "votes": 1047,
+        "voteShare": 0.019627324535092982
+      },
+      {
+        "party": 6,
+        "votes": 249,
+        "voteShare": 0.004667816436712657
+      }
+    ],
+    "totalVotes": 53344
+  },
+  {
     "ridingId": 35119,
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 33792,
-        "voteShare": 0.3565158676569885
+        "party": 2,
+        "votes": 24085,
+        "voteShare": 0.5134847031233344
       },
       {
         "party": 0,
-        "votes": 29925,
-        "voteShare": 0.315717842673869
+        "votes": 11842,
+        "voteShare": 0.252467753970792
       },
       {
-        "party": 2,
-        "votes": 28340,
-        "voteShare": 0.2989956110735989
+        "party": 1,
+        "votes": 9734,
+        "voteShare": 0.2075258501225882
       },
       {
         "party": 4,
-        "votes": 2566,
-        "voteShare": 0.027072079675894666
+        "votes": 1083,
+        "voteShare": 0.023089222897345697
       },
       {
         "party": 6,
         "votes": 161,
-        "voteShare": 0.0016985989196488859
+        "voteShare": 0.0034324698859396654
       }
     ],
-    "totalVotes": 94784
+    "totalVotes": 46905
   },
   {
     "ridingId": 35120,
@@ -6125,31 +6127,58 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 40224,
-        "voteShare": 0.4642123485285632
+        "votes": 20131,
+        "voteShare": 0.4687732861400894
       },
       {
         "party": 1,
-        "votes": 27292,
-        "voteShare": 0.3149682631275245
+        "votes": 18893,
+        "voteShare": 0.439945044709389
       },
       {
         "party": 2,
-        "votes": 16429,
-        "voteShare": 0.18960184650894402
+        "votes": 3148,
+        "voteShare": 0.07330476900149031
       },
       {
         "party": 4,
-        "votes": 1664,
-        "voteShare": 0.019203693017888056
+        "votes": 772,
+        "voteShare": 0.017976900149031298
+      }
+    ],
+    "totalVotes": 42944
+  },
+  {
+    "ridingId": 35122,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 20093,
+        "voteShare": 0.4597309293918455
+      },
+      {
+        "party": 2,
+        "votes": 13281,
+        "voteShare": 0.30387132201528394
+      },
+      {
+        "party": 1,
+        "votes": 8399,
+        "voteShare": 0.1921704113851645
       },
       {
         "party": 6,
         "votes": 1041,
-        "voteShare": 0.012013848817080208
+        "voteShare": 0.023818240058573192
+      },
+      {
+        "party": 4,
+        "votes": 892,
+        "voteShare": 0.020409097149132843
       }
     ],
-    "totalVotes": 86650
+    "totalVotes": 43706
   },
   {
     "ridingId": 46001,
@@ -6183,32 +6212,32 @@
     "year": 2015,
     "candidates": [
       {
+        "party": 2,
+        "votes": 13487,
+        "voteShare": 0.4504074271974352
+      },
+      {
         "party": 0,
-        "votes": 37106,
-        "voteShare": 0.48126483443794504
+        "votes": 12575,
+        "voteShare": 0.41995057440555705
       },
       {
         "party": 1,
-        "votes": 21498,
-        "voteShare": 0.27882906836487203
-      },
-      {
-        "party": 2,
-        "votes": 16329,
-        "voteShare": 0.2117871363536141
+        "votes": 3090,
+        "voteShare": 0.10319262623563986
       },
       {
         "party": 4,
-        "votes": 1913,
-        "voteShare": 0.024811610744348324
+        "votes": 537,
+        "voteShare": 0.01793347582153353
       },
       {
         "party": 6,
         "votes": 255,
-        "voteShare": 0.003307350099220503
+        "voteShare": 0.008515896339834357
       }
     ],
-    "totalVotes": 77101
+    "totalVotes": 29944
   },
   {
     "ridingId": 46003,
@@ -6242,32 +6271,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 36754,
-        "voteShare": 0.4300071367566366
+        "party": 0,
+        "votes": 18717,
+        "voteShare": 0.4265982905982906
       },
       {
-        "party": 0,
-        "votes": 30993,
-        "voteShare": 0.36260573514443156
+        "party": 1,
+        "votes": 17478,
+        "voteShare": 0.3983589743589744
       },
       {
         "party": 2,
-        "votes": 11367,
-        "voteShare": 0.13298936506265135
-      },
-      {
-        "party": 6,
-        "votes": 3984,
-        "voteShare": 0.04661121055771998
+        "votes": 6270,
+        "voteShare": 0.14290598290598291
       },
       {
         "party": 4,
-        "votes": 2375,
-        "voteShare": 0.027786552478560482
+        "votes": 783,
+        "voteShare": 0.017846153846153845
+      },
+      {
+        "party": 6,
+        "votes": 627,
+        "voteShare": 0.01429059829059829
       }
     ],
-    "totalVotes": 85473
+    "totalVotes": 43875
   },
   {
     "ridingId": 46005,
@@ -6333,32 +6362,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 44038,
-        "voteShare": 0.44851608172244517
+        "party": 1,
+        "votes": 25617,
+        "voteShare": 0.5189514413629641
       },
       {
-        "party": 1,
-        "votes": 39622,
-        "voteShare": 0.40354021958324
+        "party": 0,
+        "votes": 15508,
+        "voteShare": 0.31416242934991795
       },
       {
         "party": 2,
-        "votes": 10818,
-        "voteShare": 0.11017864053938443
+        "votes": 5649,
+        "voteShare": 0.1144379393472844
       },
       {
         "party": 4,
-        "votes": 2826,
-        "voteShare": 0.028782107428757663
+        "votes": 1707,
+        "voteShare": 0.03458055628709762
       },
       {
         "party": 6,
         "votes": 882,
-        "voteShare": 0.008982950726172775
+        "voteShare": 0.017867633652735856
       }
     ],
-    "totalVotes": 98186
+    "totalVotes": 49363
   },
   {
     "ridingId": 46010,
@@ -6511,26 +6540,26 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 51054,
-        "voteShare": 0.6683685492105883
+        "votes": 26004,
+        "voteShare": 0.6472037631598596
       },
       {
         "party": 2,
-        "votes": 12282,
-        "voteShare": 0.16078862618804493
+        "votes": 7499,
+        "voteShare": 0.1866397869533836
       },
       {
         "party": 0,
-        "votes": 11155,
-        "voteShare": 0.14603461367266252
+        "votes": 5774,
+        "voteShare": 0.14370691157072102
       },
       {
         "party": 4,
-        "votes": 1895,
-        "voteShare": 0.02480821092870421
+        "votes": 902,
+        "voteShare": 0.02244953831603574
       }
     ],
-    "totalVotes": 76386
+    "totalVotes": 40179
   },
   {
     "ridingId": 47003,
@@ -6710,31 +6739,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 37758,
-        "voteShare": 0.4155669774045499
+        "votes": 18592,
+        "voteShare": 0.4152502624349496
       },
       {
         "party": 2,
-        "votes": 28024,
-        "voteShare": 0.3084339471048548
+        "votes": 14115,
+        "voteShare": 0.3152569629017488
       },
       {
         "party": 0,
-        "votes": 23452,
-        "voteShare": 0.2581142209357356
+        "votes": 11287,
+        "voteShare": 0.25209389587474595
       },
       {
         "party": 4,
-        "votes": 1532,
-        "voteShare": 0.01686129057110468
+        "votes": 686,
+        "voteShare": 0.01532173408080763
       },
       {
         "party": 6,
         "votes": 93,
-        "voteShare": 0.0010235639837550491
+        "voteShare": 0.002077144707747973
       }
     ],
-    "totalVotes": 90859
+    "totalVotes": 44773
   },
   {
     "ridingId": 47011,
@@ -6821,33 +6850,6 @@
       }
     ],
     "totalVotes": 36613
-  },
-  {
-    "ridingId": 48001,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 42228,
-        "voteShare": 0.633692487769741
-      },
-      {
-        "party": 0,
-        "votes": 17380,
-        "voteShare": 0.2608121492241664
-      },
-      {
-        "party": 2,
-        "votes": 4521,
-        "voteShare": 0.06784417299438758
-      },
-      {
-        "party": 4,
-        "votes": 2509,
-        "voteShare": 0.037651190011705034
-      }
-    ],
-    "totalVotes": 66638
   },
   {
     "ridingId": 48002,
@@ -6973,38 +6975,6 @@
     "totalVotes": 66808
   },
   {
-    "ridingId": 48006,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 19694,
-        "voteShare": 0.479791458571881
-      },
-      {
-        "party": 0,
-        "votes": 14762,
-        "voteShare": 0.35963651423977394
-      },
-      {
-        "party": 2,
-        "votes": 4006,
-        "voteShare": 0.09759543937437572
-      },
-      {
-        "party": 6,
-        "votes": 1356,
-        "voteShare": 0.03303530099641874
-      },
-      {
-        "party": 4,
-        "votes": 1229,
-        "voteShare": 0.02994128681755061
-      }
-    ],
-    "totalVotes": 41047
-  },
-  {
     "ridingId": 48008,
     "year": 2015,
     "candidates": [
@@ -7042,31 +7012,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 80644,
-        "voteShare": 0.6357229571002885
+        "votes": 42415,
+        "voteShare": 0.6673012177086939
       },
       {
         "party": 0,
-        "votes": 34434,
-        "voteShare": 0.27144591420057707
+        "votes": 14396,
+        "voteShare": 0.22648752399232247
       },
       {
         "party": 2,
-        "votes": 8580,
-        "voteShare": 0.06763681082188973
+        "votes": 4915,
+        "voteShare": 0.07732607532802618
       },
       {
         "party": 4,
-        "votes": 3051,
-        "voteShare": 0.02405127154051114
+        "votes": 1691,
+        "voteShare": 0.02660394575375224
       },
       {
         "party": 6,
         "votes": 145,
-        "voteShare": 0.0011430463367335677
+        "voteShare": 0.0022812372172052483
       }
     ],
-    "totalVotes": 126854
+    "totalVotes": 63562
   },
   {
     "ridingId": 48011,
@@ -7229,31 +7199,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 39488,
-        "voteShare": 0.4051755097015155
-      },
-      {
-        "party": 0,
-        "votes": 30820,
-        "voteShare": 0.31623554520362407
+        "votes": 19157,
+        "voteShare": 0.39958700095949273
       },
       {
         "party": 2,
-        "votes": 22639,
-        "voteShare": 0.23229255379185093
+        "votes": 16309,
+        "voteShare": 0.3401818864461224
       },
       {
-        "party": 6,
-        "votes": 2287,
-        "voteShare": 0.02346627812721247
+        "party": 0,
+        "votes": 10397,
+        "voteShare": 0.21686621334112052
       },
       {
         "party": 4,
-        "votes": 2225,
-        "voteShare": 0.022830113175797
+        "votes": 1129,
+        "voteShare": 0.02354928872387468
+      },
+      {
+        "party": 6,
+        "votes": 950,
+        "voteShare": 0.01981561052938968
       }
     ],
-    "totalVotes": 97459
+    "totalVotes": 47942
   },
   {
     "ridingId": 48018,
@@ -7318,38 +7288,6 @@
       }
     ],
     "totalVotes": 57740
-  },
-  {
-    "ridingId": 48021,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 44949,
-        "voteShare": 0.6576875804752429
-      },
-      {
-        "party": 0,
-        "votes": 14660,
-        "voteShare": 0.2145031019548168
-      },
-      {
-        "party": 2,
-        "votes": 6645,
-        "voteShare": 0.09722872527215264
-      },
-      {
-        "party": 4,
-        "votes": 1595,
-        "voteShare": 0.02333782043778532
-      },
-      {
-        "party": 6,
-        "votes": 495,
-        "voteShare": 0.007242771860002341
-      }
-    ],
-    "totalVotes": 68344
   },
   {
     "ridingId": 48022,
@@ -7421,31 +7359,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 85061,
-        "voteShare": 0.7440019592579311
+        "votes": 46166,
+        "voteShare": 0.7569934083232217
       },
       {
         "party": 0,
-        "votes": 15968,
-        "voteShare": 0.13966710108546387
+        "votes": 8149,
+        "voteShare": 0.13362083101039582
       },
       {
         "party": 2,
-        "votes": 8262,
-        "voteShare": 0.07226512958217075
+        "votes": 3919,
+        "voteShare": 0.06426064998524252
       },
       {
         "party": 4,
-        "votes": 3656,
-        "voteShare": 0.03197788837477805
+        "votes": 1983,
+        "voteShare": 0.032515659331649883
       },
       {
         "party": 6,
-        "votes": 1382,
-        "voteShare": 0.012087921699656255
+        "votes": 769,
+        "voteShare": 0.012609451349490047
       }
     ],
-    "totalVotes": 114329
+    "totalVotes": 60986
   },
   {
     "ridingId": 48025,
@@ -7478,6 +7416,38 @@
       }
     ],
     "totalVotes": 47266
+  },
+  {
+    "ridingId": 48026,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 38895,
+        "voteShare": 0.7291490917271245
+      },
+      {
+        "party": 0,
+        "votes": 7819,
+        "voteShare": 0.1465796824325591
+      },
+      {
+        "party": 2,
+        "votes": 4343,
+        "voteShare": 0.08141649326059652
+      },
+      {
+        "party": 4,
+        "votes": 1673,
+        "voteShare": 0.0313630654443882
+      },
+      {
+        "party": 6,
+        "votes": 613,
+        "voteShare": 0.01149166713533172
+      }
+    ],
+    "totalVotes": 53343
   },
   {
     "ridingId": 48027,
@@ -7517,31 +7487,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 78566,
-        "voteShare": 0.6593596575888548
-      },
-      {
-        "party": 0,
-        "votes": 18888,
-        "voteShare": 0.15851621837102933
+        "votes": 32321,
+        "voteShare": 0.5676026904097079
       },
       {
         "party": 2,
-        "votes": 16907,
-        "voteShare": 0.14189081448533422
+        "votes": 11674,
+        "voteShare": 0.2050120295734331
+      },
+      {
+        "party": 0,
+        "votes": 10532,
+        "voteShare": 0.18495688671127267
       },
       {
         "party": 4,
-        "votes": 3082,
-        "voteShare": 0.025865469346649322
+        "votes": 1461,
+        "voteShare": 0.025657236183551972
       },
       {
         "party": 6,
-        "votes": 1712,
-        "voteShare": 0.014367840208132265
+        "votes": 955,
+        "voteShare": 0.016771157122034315
       }
     ],
-    "totalVotes": 119155
+    "totalVotes": 56943
   },
   {
     "ridingId": 48030,
@@ -7549,63 +7519,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 78448,
-        "voteShare": 0.6984827979200797
+        "votes": 34849,
+        "voteShare": 0.688035538005923
       },
       {
         "party": 0,
-        "votes": 18320,
-        "voteShare": 0.1631170311275732
+        "votes": 9085,
+        "voteShare": 0.17936821322803553
       },
       {
         "party": 2,
-        "votes": 11952,
-        "voteShare": 0.10641783602820713
+        "votes": 4897,
+        "voteShare": 0.09668311944718658
       },
       {
         "party": 4,
-        "votes": 3092,
-        "voteShare": 0.0275304508868153
+        "votes": 1319,
+        "voteShare": 0.02604146100691017
       },
       {
         "party": 6,
         "votes": 500,
-        "voteShare": 0.004451884037324595
+        "voteShare": 0.009871668311944718
       }
     ],
-    "totalVotes": 112312
-  },
-  {
-    "ridingId": 48031,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 26783,
-        "voteShare": 0.4523544115660046
-      },
-      {
-        "party": 0,
-        "votes": 13343,
-        "voteShare": 0.22535805972165923
-      },
-      {
-        "party": 6,
-        "votes": 11652,
-        "voteShare": 0.19679773003648154
-      },
-      {
-        "party": 2,
-        "votes": 6609,
-        "voteShare": 0.11162342926631537
-      },
-      {
-        "party": 4,
-        "votes": 821,
-        "voteShare": 0.013866369409539251
-      }
-    ],
-    "totalVotes": 59208
+    "totalVotes": 50650
   },
   {
     "ridingId": 48032,
@@ -7640,36 +7578,36 @@
     "totalVotes": 49519
   },
   {
-    "ridingId": 48033,
+    "ridingId": 48034,
     "year": 2015,
     "candidates": [
       {
         "party": 1,
-        "votes": 43220,
-        "voteShare": 0.7023416806149146
+        "votes": 89844,
+        "voteShare": 0.7252853706185317
       },
       {
         "party": 0,
-        "votes": 9586,
-        "voteShare": 0.15577619968474252
+        "votes": 17591,
+        "voteShare": 0.14200720086539548
       },
       {
         "party": 2,
-        "votes": 6166,
-        "voteShare": 0.10019987974714399
+        "votes": 12288,
+        "voteShare": 0.09919757172610878
       },
       {
         "party": 4,
-        "votes": 1875,
-        "voteShare": 0.030469473649999187
+        "votes": 3394,
+        "voteShare": 0.027398808466667743
       },
       {
         "party": 6,
-        "votes": 690,
-        "voteShare": 0.0112127663031997
+        "votes": 757,
+        "voteShare": 0.006111048323296253
       }
     ],
-    "totalVotes": 61537
+    "totalVotes": 123874
   },
   {
     "ridingId": 48035,
@@ -7773,31 +7711,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 34485,
-        "voteShare": 0.3505748879197292
+        "votes": 18938,
+        "voteShare": 0.36086128048780486
       },
       {
         "party": 2,
-        "votes": 31631,
-        "voteShare": 0.3215610926428579
+        "votes": 15537,
+        "voteShare": 0.29605564024390246
       },
       {
         "party": 1,
-        "votes": 27053,
-        "voteShare": 0.27502109447273987
+        "votes": 14612,
+        "voteShare": 0.2784298780487805
       },
       {
         "party": 4,
-        "votes": 4071,
-        "voteShare": 0.0413858306139254
+        "votes": 2765,
+        "voteShare": 0.05268673780487805
       },
       {
         "party": 6,
-        "votes": 1127,
-        "voteShare": 0.01145709435074771
+        "votes": 628,
+        "voteShare": 0.011966463414634147
       }
     ],
-    "totalVotes": 98367
+    "totalVotes": 52480
   },
   {
     "ridingId": 59004,
@@ -7837,31 +7775,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 45962,
-        "voteShare": 0.4080650602837509
+        "votes": 21445,
+        "voteShare": 0.4233039221491877
       },
       {
         "party": 0,
-        "votes": 40173,
-        "voteShare": 0.3566685015181917
+        "votes": 17114,
+        "voteShare": 0.3378140976293401
       },
       {
         "party": 2,
-        "votes": 21179,
-        "voteShare": 0.18803380861906707
+        "votes": 9218,
+        "voteShare": 0.18195456070744753
       },
       {
         "party": 4,
-        "votes": 4822,
-        "voteShare": 0.04281122929133299
+        "votes": 2386,
+        "voteShare": 0.04709737273247666
       },
       {
         "party": 6,
         "votes": 498,
-        "voteShare": 0.004421400287657368
+        "voteShare": 0.009830046781547936
       }
     ],
-    "totalVotes": 112634
+    "totalVotes": 50661
   },
   {
     "ridingId": 59006,
@@ -8051,29 +7989,29 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 44086,
-        "voteShare": 0.37194586933045354
+        "votes": 22871,
+        "voteShare": 0.46902364497672416
       },
       {
         "party": 1,
-        "votes": 38870,
-        "voteShare": 0.3279393898488121
+        "votes": 14275,
+        "voteShare": 0.2927424481676681
       },
       {
         "party": 2,
-        "votes": 31929,
-        "voteShare": 0.2693793871490281
+        "votes": 10463,
+        "voteShare": 0.21456842277956648
       },
       {
         "party": 4,
-        "votes": 3643,
-        "voteShare": 0.030735353671706264
+        "votes": 1154,
+        "voteShare": 0.02366548407604126
       }
     ],
-    "totalVotes": 118528
+    "totalVotes": 48763
   },
   {
-    "ridingId": 59014,
+    "ridingId": 59016,
     "year": 2015,
     "candidates": [
       {
@@ -8095,186 +8033,127 @@
     "totalVotes": 64155
   },
   {
-    "ridingId": 59015,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 2,
-        "votes": 23529,
-        "voteShare": 0.37225896275670034
-      },
-      {
-        "party": 1,
-        "votes": 23247,
-        "voteShare": 0.3677973610100307
-      },
-      {
-        "party": 0,
-        "votes": 12315,
-        "voteShare": 0.19483909755402967
-      },
-      {
-        "party": 4,
-        "votes": 4115,
-        "voteShare": 0.06510457867923931
-      }
-    ],
-    "totalVotes": 63206
-  },
-  {
-    "ridingId": 59016,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 27333,
-        "voteShare": 0.45634099105115533
-      },
-      {
-        "party": 0,
-        "votes": 21894,
-        "voteShare": 0.36553359155870174
-      },
-      {
-        "party": 2,
-        "votes": 7490,
-        "voteShare": 0.1250500868171497
-      },
-      {
-        "party": 4,
-        "votes": 2644,
-        "voteShare": 0.04414318151462535
-      },
-      {
-        "party": 6,
-        "votes": 535,
-        "voteShare": 0.008932149058367837
-      }
-    ],
-    "totalVotes": 59896
-  },
-  {
-    "ridingId": 59017,
-    "year": 2015,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 16625,
-        "voteShare": 0.37233208662739914
-      },
-      {
-        "party": 1,
-        "votes": 15587,
-        "voteShare": 0.34908512687285836
-      },
-      {
-        "party": 2,
-        "votes": 9174,
-        "voteShare": 0.20546012407336903
-      },
-      {
-        "party": 4,
-        "votes": 2293,
-        "voteShare": 0.0513538330608497
-      },
-      {
-        "party": 6,
-        "votes": 972,
-        "voteShare": 0.02176882936552373
-      }
-    ],
-    "totalVotes": 44651
-  },
-  {
     "ridingId": 59019,
     "year": 2015,
     "candidates": [
       {
         "party": 2,
-        "votes": 46527,
-        "voteShare": 0.375572112396374
+        "votes": 23651,
+        "voteShare": 0.331985794696874
       },
       {
         "party": 0,
-        "votes": 32006,
-        "voteShare": 0.2583566752500343
+        "votes": 16753,
+        "voteShare": 0.23515952892295167
       },
       {
         "party": 1,
-        "votes": 27149,
-        "voteShare": 0.219150327324976
+        "votes": 16637,
+        "voteShare": 0.2335312530705633
       },
       {
         "party": 4,
-        "votes": 16561,
-        "voteShare": 0.1336825876028188
+        "votes": 14074,
+        "voteShare": 0.19755477884925815
       },
       {
         "party": 6,
-        "votes": 1640,
-        "voteShare": 0.013238297425796922
+        "votes": 126,
+        "voteShare": 0.0017686444603528867
       }
     ],
-    "totalVotes": 123883
+    "totalVotes": 71241
   },
   {
     "ridingId": 59020,
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 27490,
-        "voteShare": 0.3929725248020127
+        "party": 2,
+        "votes": 22876,
+        "voteShare": 0.4345579575244102
       },
       {
         "party": 0,
-        "votes": 20949,
-        "voteShare": 0.29946822197444034
+        "votes": 15253,
+        "voteShare": 0.2897496295733445
       },
       {
-        "party": 2,
-        "votes": 17907,
-        "voteShare": 0.2559825027875461
+        "party": 1,
+        "votes": 10512,
+        "voteShare": 0.19968846168458645
       },
       {
         "party": 4,
-        "votes": 3608,
-        "voteShare": 0.0515767504360008
+        "votes": 2487,
+        "voteShare": 0.047243645758139885
+      },
+      {
+        "party": 6,
+        "votes": 1514,
+        "voteShare": 0.028760305459519016
       }
     ],
-    "totalVotes": 69954
+    "totalVotes": 52642
   },
   {
     "ridingId": 59021,
     "year": 2015,
     "candidates": [
       {
-        "party": 0,
-        "votes": 51874,
-        "voteShare": 0.4153575146128593
+        "party": 2,
+        "votes": 24340,
+        "voteShare": 0.40207479846702787
       },
       {
         "party": 1,
-        "votes": 33141,
-        "voteShare": 0.26536151813595965
+        "votes": 15840,
+        "voteShare": 0.2616624818289943
       },
       {
-        "party": 2,
-        "votes": 29355,
-        "voteShare": 0.23504684122027383
+        "party": 0,
+        "votes": 15416,
+        "voteShare": 0.2546583850931677
       },
       {
         "party": 4,
-        "votes": 10290,
-        "voteShare": 0.08239250540475619
+        "votes": 4940,
+        "voteShare": 0.0816043346108101
+      }
+    ],
+    "totalVotes": 60536
+  },
+  {
+    "ridingId": 59022,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 36458,
+        "voteShare": 0.5665226714734127
+      },
+      {
+        "party": 1,
+        "votes": 17301,
+        "voteShare": 0.268841097678466
+      },
+      {
+        "party": 4,
+        "votes": 5350,
+        "voteShare": 0.0831339155297262
+      },
+      {
+        "party": 2,
+        "votes": 5015,
+        "voteShare": 0.07792833390309849
       },
       {
         "party": 6,
         "votes": 230,
-        "voteShare": 0.001841620626151013
+        "voteShare": 0.0035739814152966403
       }
     ],
-    "totalVotes": 124890
+    "totalVotes": 64354
   },
   {
     "ridingId": 59024,
@@ -8313,32 +8192,32 @@
     "year": 2015,
     "candidates": [
       {
-        "party": 1,
-        "votes": 33734,
-        "voteShare": 0.35686403114388177
+        "party": 2,
+        "votes": 19706,
+        "voteShare": 0.36047341174748937
       },
       {
         "party": 0,
-        "votes": 33374,
-        "voteShare": 0.35305567603592547
+        "votes": 16888,
+        "voteShare": 0.30892494557960015
       },
       {
-        "party": 2,
-        "votes": 24308,
-        "voteShare": 0.2571485999005596
+        "party": 1,
+        "votes": 16112,
+        "voteShare": 0.2947299101834745
       },
       {
         "party": 4,
-        "votes": 3030,
-        "voteShare": 0.03205365549196543
+        "votes": 1878,
+        "voteShare": 0.034353449064334976
       },
       {
         "party": 6,
         "votes": 83,
-        "voteShare": 0.0008780374276676999
+        "voteShare": 0.0015182834251010664
       }
     ],
-    "totalVotes": 94529
+    "totalVotes": 54667
   },
   {
     "ridingId": 59026,
@@ -8373,36 +8252,63 @@
     "totalVotes": 51859
   },
   {
+    "ridingId": 59027,
+    "year": 2015,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 17622,
+        "voteShare": 0.4420751592995836
+      },
+      {
+        "party": 0,
+        "votes": 16486,
+        "voteShare": 0.4135768400983393
+      },
+      {
+        "party": 2,
+        "votes": 4602,
+        "voteShare": 0.11544829662335056
+      },
+      {
+        "party": 4,
+        "votes": 1152,
+        "voteShare": 0.028899703978726606
+      }
+    ],
+    "totalVotes": 39862
+  },
+  {
     "ridingId": 59029,
     "year": 2015,
     "candidates": [
       {
         "party": 4,
-        "votes": 39862,
-        "voteShare": 0.2958570219840575
+        "votes": 37070,
+        "voteShare": 0.5440270032286469
       },
       {
         "party": 1,
-        "votes": 33131,
-        "voteShare": 0.2458993275639408
-      },
-      {
-        "party": 2,
-        "votes": 31004,
-        "voteShare": 0.2301126664390577
+        "votes": 13260,
+        "voteShare": 0.1945993542706193
       },
       {
         "party": 0,
-        "votes": 30112,
-        "voteShare": 0.22349221428889515
+        "votes": 11380,
+        "voteShare": 0.1670090989140006
+      },
+      {
+        "party": 2,
+        "votes": 6181,
+        "voteShare": 0.0907103023187555
       },
       {
         "party": 6,
-        "votes": 625,
-        "voteShare": 0.004638769724048867
+        "votes": 249,
+        "voteShare": 0.003654241267977693
       }
     ],
-    "totalVotes": 134734
+    "totalVotes": 68140
   },
   {
     "ridingId": 59031,
@@ -8410,31 +8316,31 @@
     "candidates": [
       {
         "party": 2,
-        "votes": 27779,
-        "voteShare": 0.3180777245975221
-      },
-      {
-        "party": 0,
-        "votes": 27743,
-        "voteShare": 0.3176655140037099
+        "votes": 22531,
+        "voteShare": 0.510802784012333
       },
       {
         "party": 1,
-        "votes": 27566,
-        "voteShare": 0.3156388119174663
+        "votes": 10936,
+        "voteShare": 0.24793126119386066
+      },
+      {
+        "party": 0,
+        "votes": 8257,
+        "voteShare": 0.18719535695663017
       },
       {
         "party": 4,
-        "votes": 3192,
-        "voteShare": 0.03654933931802047
+        "votes": 1605,
+        "voteShare": 0.03638713187784806
       },
       {
         "party": 6,
-        "votes": 1054,
-        "voteShare": 0.012068610163281196
+        "votes": 780,
+        "voteShare": 0.01768346595932803
       }
     ],
-    "totalVotes": 87334
+    "totalVotes": 44109
   },
   {
     "ridingId": 59032,
@@ -8656,31 +8562,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 52875,
-        "voteShare": 0.5418464281688409
+        "votes": 31102,
+        "voteShare": 0.5871403760477233
       },
       {
         "party": 1,
-        "votes": 28798,
-        "voteShare": 0.2951128782677311
+        "votes": 13683,
+        "voteShare": 0.2583062750132145
       },
       {
         "party": 2,
-        "votes": 11978,
-        "voteShare": 0.12274678991217733
+        "votes": 5748,
+        "voteShare": 0.10851015630899342
       },
       {
         "party": 4,
-        "votes": 3378,
-        "voteShare": 0.0346166852832973
+        "votes": 2229,
+        "voteShare": 0.04207883410103451
       },
       {
         "party": 6,
-        "votes": 554,
-        "voteShare": 0.005677218367953435
+        "votes": 210,
+        "voteShare": 0.0039643585290342065
       }
     ],
-    "totalVotes": 97583
+    "totalVotes": 52972
   },
   {
     "ridingId": 59042,

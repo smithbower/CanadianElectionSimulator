@@ -5,8 +5,9 @@ using Microsoft.AspNetCore.Components;
 namespace ElectionSim.Web.Components;
 
 /// <summary>
-/// Sortable table of ridings where the projected winner differs from the 2025 baseline
-/// election winner. Shows previous and projected party, win probability, and vote shares.
+/// Sortable table of ridings where the projected winner differs from the current holder
+/// (accounting for floor crossings, by-elections, etc.). Shows previous and projected party,
+/// win probability, and vote shares.
 /// </summary>
 public partial class FlippedRidingsTable
 {
@@ -15,6 +16,7 @@ public partial class FlippedRidingsTable
     [Parameter] public EventCallback<Riding> OnRidingSelected { get; set; }
 
     [Inject] private DataService DataService { get; set; } = default!;
+    [Inject] private SimulationState SimulationState { get; set; } = default!;
 
     private record VoteShareDisplay(double Median, double HalfIqr);
 
@@ -37,7 +39,8 @@ public partial class FlippedRidingsTable
     private List<FlippedRidingEntry> GetFlippedRidings()
     {
         var results = new List<FlippedRidingEntry>();
-        if (Summary == null || Ridings == null || DataService.Results2025 == null)
+        var baselineResults = DataService.GetResultsForYear(SimulationState.BaselineYear);
+        if (Summary == null || Ridings == null || baselineResults == null)
             return results;
 
         foreach (var riding in Ridings)
@@ -47,11 +50,13 @@ public partial class FlippedRidingsTable
 
             var projected = probs.OrderByDescending(p => p.Value).First();
 
-            var result2025 = DataService.Results2025.FirstOrDefault(r => r.RidingId == riding.Id);
-            if (result2025 == null)
+            var baselineResult = baselineResults.FirstOrDefault(r => r.RidingId == riding.Id);
+            if (baselineResult == null)
                 continue;
 
-            var previousWinner = result2025.Candidates.OrderByDescending(c => c.VoteShare).First().Party;
+            var electionWinner = baselineResult.Candidates.OrderByDescending(c => c.VoteShare).First().Party;
+            var ridingStatus = SimulationState.CurrentParliamentaryState?.GetValueOrDefault(riding.Id);
+            var previousWinner = ridingStatus?.CurrentHolder ?? electionWinner;
 
             if (projected.Key == previousWinner)
                 continue;

@@ -1,6 +1,7 @@
 @using ElectionSim.Core.Models
 @using ElectionSim.Web.Services
 @inject DataService DataService
+@inject SimulationState State
 
 @if (Riding != null && Summary != null)
 {
@@ -32,21 +33,48 @@
                     }
                 </div>
 
-                var result2025 = DataService.Results2025?.FirstOrDefault(r => r.RidingId == Riding.Id);
-                if (result2025 != null)
+                var baselineResult = DataService.GetResultsForYear(State.BaselineYear)?.FirstOrDefault(r => r.RidingId == Riding.Id);
+                if (baselineResult != null)
                 {
-                    var previousWinner = result2025.Candidates.OrderByDescending(c => c.VoteShare).First();
-                    var isFlip = projectedWinner != previousWinner.Party;
+                    var previousWinner = baselineResult.Candidates.OrderByDescending(c => c.VoteShare).First();
+                    var ridingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(Riding.Id);
+                    var isVacant = ridingStatus?.CurrentHolder == null && ridingStatus != null && ridingStatus.Events.Count > 0;
+                    var currentHolder = ridingStatus?.CurrentHolder ?? previousWinner.Party;
+                    var isFlip = !isVacant && projectedWinner != currentHolder;
                     var prevColor = PartyColorProvider.GetColor(previousWinner.Party);
 
                     <div class="prev-result-section">
-                        <h4>2025 Result</h4>
+                        <h4>@State.BaselineYear Result</h4>
+                        @{
+                            var electionWinner = DataService.GetMpForRiding(Riding.Id, State.BaselineYear);
+                            var (mpName, mpParty) = ParliamentaryState.GetCurrentMp(ridingStatus, electionWinner);
+                        }
+                        @if (mpName != null && mpParty != null)
+                        {
+                            var mpColor = PartyColorProvider.GetColor(mpParty.Value);
+                            <div class="current-mp">
+                                <span class="mp-name">@mpName</span>
+                                <span class="mp-party-badge" style="background: @(mpColor)18; color: @mpColor; border: 1px solid @(mpColor)44">
+                                    @PartyColorProvider.GetShortName(mpParty.Value)
+                                </span>
+                            </div>
+                        }
+                        else if (ridingStatus?.CurrentHolder == null && ridingStatus?.Events.Count > 0)
+                        {
+                            <div class="current-mp">
+                                <span class="mp-name vacant-text">Seat Vacant</span>
+                            </div>
+                        }
                         <div class="prev-result-row">
                             <span class="prev-winner" style="color: @prevColor">
                                 @PartyColorProvider.GetName(previousWinner.Party)
                             </span>
                             <span class="prev-vote-share">@((previousWinner.VoteShare * 100).ToString("F1"))%</span>
-                            @if (isFlip)
+                            @if (isVacant)
+                            {
+                                <span class="flip-badge vacant">Vacant</span>
+                            }
+                            else if (isFlip)
                             {
                                 <span class="flip-badge flip">Flip</span>
                             }
@@ -56,7 +84,7 @@
                             }
                         </div>
                         <div class="prev-runners-up">
-                            @foreach (var c in result2025.Candidates.OrderByDescending(c => c.VoteShare).Skip(1).Take(3))
+                            @foreach (var c in baselineResult.Candidates.OrderByDescending(c => c.VoteShare).Skip(1).Take(3))
                             {
                                 if (c.VoteShare < 0.01) continue;
                                 var cColor = PartyColorProvider.GetColor(c.Party);
@@ -64,6 +92,68 @@
                             }
                         </div>
                     </div>
+
+                    @if (ridingStatus?.Events.Count > 0)
+                    {
+                        <div class="post-election-section">
+                            <h4>Since @State.BaselineYear Election</h4>
+                            @foreach (var evt in ridingStatus.Events)
+                            {
+                                <div class="event-row">
+                                    <span class="event-date">@evt.Date.ToString("MMM d, yyyy")</span>
+                                    @if (evt.Type == PostElectionEventType.FloorCrossing && evt.FromParty != null && evt.ToParty != null)
+                                    {
+                                        var fromColor = PartyColorProvider.GetColor(evt.FromParty.Value);
+                                        var toColor = PartyColorProvider.GetColor(evt.ToParty.Value);
+                                        <span class="party-badge" style="background: @(fromColor)22; color: @fromColor; border: 1px solid @(fromColor)44">
+                                            @PartyColorProvider.GetShortName(evt.FromParty.Value)
+                                        </span>
+                                        <span class="event-arrow">&rarr;</span>
+                                        <span class="party-badge" style="background: @(toColor)22; color: @toColor; border: 1px solid @(toColor)44">
+                                            @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                        </span>
+                                        <span class="event-type">Floor crossing</span>
+                                    }
+                                    else if (evt.Type == PostElectionEventType.Vacancy)
+                                    {
+                                        <span class="event-type">Vacancy</span>
+                                    }
+                                    else if (evt.Type == PostElectionEventType.ByElection)
+                                    {
+                                        <span class="event-type">By-election</span>
+                                        @if (evt.ToParty != null)
+                                        {
+                                            var winColor = PartyColorProvider.GetColor(evt.ToParty.Value);
+                                            <span class="event-arrow">&rarr;</span>
+                                            <span class="party-badge" style="background: @(winColor)22; color: @winColor; border: 1px solid @(winColor)44">
+                                                @PartyColorProvider.GetShortName(evt.ToParty.Value) won
+                                            </span>
+                                        }
+                                    }
+                                    @if (!string.IsNullOrEmpty(evt.Description))
+                                    {
+                                        <div class="event-desc">@evt.Description</div>
+                                    }
+                                </div>
+
+                                @if (evt.Type == PostElectionEventType.ByElection && evt.ByElectionResult != null)
+                                {
+                                    <div class="by-election-results">
+                                        @foreach (var c in evt.ByElectionResult.Candidates.OrderByDescending(c => c.VoteShare).Take(5))
+                                        {
+                                            if (c.VoteShare < 0.01) continue;
+                                            var bColor = PartyColorProvider.GetColor(c.Party);
+                                            <div class="by-election-row">
+                                                <span style="color: @bColor">@PartyColorProvider.GetShortName(c.Party)</span>
+                                                <span>@((c.VoteShare * 100).ToString("F1"))%</span>
+                                                <span class="vote-count">(@c.Votes.ToString("N0") votes)</span>
+                                            </div>
+                                        }
+                                    </div>
+                                }
+                            }
+                        </div>
+                    }
                 }
             }
 

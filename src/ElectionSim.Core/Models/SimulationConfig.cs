@@ -16,7 +16,8 @@ public record SimulationConfig(
     Dictionary<Region, double>? RegionalSigmaMultipliers = null,
     bool UseCorrelatedNoise = true,
     bool UseDemographicPrior = false,
-    double DemographicBlendWeight = 0.02
+    double DemographicBlendWeight = 0.02,
+    double ByElectionBlendWeight = 0.3
 )
 {
     /// <summary>

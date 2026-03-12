@@ -1,6 +1,7 @@
 @using ElectionSim.Core.Models
 @using ElectionSim.Web.Services
 @inject DataService DataService
+@inject SimulationState State
 
 <div class="riding-search-card">
     <h3>Riding Lookup</h3>
@@ -39,6 +40,34 @@
                 @selectedRiding.Province &middot; @PartyColorProvider.GetProvinceRegionName(selectedRiding.Region)
             </div>
 
+            @{
+                var scRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(selectedRiding.Id);
+                var scElectionWinner = DataService.GetMpForRiding(selectedRiding.Id, State.BaselineYear);
+                var (scMpName, scMpParty) = ParliamentaryState.GetCurrentMp(scRidingStatus, scElectionWinner);
+                var scMpHistory = DataService.GetMpHistory(selectedRiding.Id);
+            }
+            <div class="mp-section">
+                @if (scMpName != null && scMpParty != null)
+                {
+                    var scMpColor = PartyColorProvider.GetColor(scMpParty.Value);
+                    <div class="current-mp-row">
+                        <span class="current-mp-label">Current MP</span>
+                        <span class="current-mp-name">@scMpName</span>
+                        <span class="mp-party-badge" style="background: @(scMpColor)18; color: @scMpColor; border: 1px solid @(scMpColor)44">
+                            @PartyColorProvider.GetShortName(scMpParty.Value)
+                        </span>
+                    </div>
+                }
+                else if (scRidingStatus?.CurrentHolder == null && scRidingStatus?.Events.Count > 0)
+                {
+                    <div class="current-mp-row">
+                        <span class="current-mp-label">Current MP</span>
+                        <span class="current-mp-name vacant-text">Seat Vacant</span>
+                    </div>
+                }
+
+            </div>
+
             @* Compare search *@
             <div class="compare-search-section">
                 <div class="search-wrapper compare-input-wrapper">
@@ -72,6 +101,29 @@
                 {
                     <div class="riding-meta compare-riding-meta">
                         @compareRiding.Province &middot; @PartyColorProvider.GetProvinceRegionName(compareRiding.Region)
+                    </div>
+                    var cmpRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(compareRiding.Id);
+                    var cmpElectionWinner = DataService.GetMpForRiding(compareRiding.Id, State.BaselineYear);
+                    var (cmpMpName, cmpMpParty) = ParliamentaryState.GetCurrentMp(cmpRidingStatus, cmpElectionWinner);
+                    <div class="mp-section">
+                        @if (cmpMpName != null && cmpMpParty != null)
+                        {
+                            var cmpMpColor = PartyColorProvider.GetColor(cmpMpParty.Value);
+                            <div class="current-mp-row">
+                                <span class="current-mp-label">Current MP</span>
+                                <span class="current-mp-name">@cmpMpName</span>
+                                <span class="mp-party-badge" style="background: @(cmpMpColor)18; color: @cmpMpColor; border: 1px solid @(cmpMpColor)44">
+                                    @PartyColorProvider.GetShortName(cmpMpParty.Value)
+                                </span>
+                            </div>
+                        }
+                        else if (cmpRidingStatus?.CurrentHolder == null && cmpRidingStatus?.Events.Count > 0)
+                        {
+                            <div class="current-mp-row">
+                                <span class="current-mp-label">Current MP</span>
+                                <span class="current-mp-name vacant-text">Seat Vacant</span>
+                            </div>
+                        }
                     </div>
                 }
             </div>
@@ -609,6 +661,114 @@
                         </div>
                     </div>
                 }
+            }
+
+            @{
+                var cmpMpHistory = compareRiding != null ? DataService.GetMpHistory(compareRiding.Id) : new List<RidingMp>();
+            }
+            @if (scMpHistory.Count > 0 || cmpMpHistory.Count > 0)
+            {
+                <div class="election-history-section">
+                    <h4>Election History</h4>
+                    <div class="history-columns @(cmpMpHistory.Count > 0 ? "has-compare" : "")">
+                        @if (scMpHistory.Count > 0)
+                        {
+                            var scEvents = scRidingStatus?.Events ?? [];
+                            <div class="history-column">
+                                @if (compareRiding != null)
+                                {
+                                    <div class="riding-section-label">@selectedRiding.Name</div>
+                                }
+                                <div class="mp-history">
+                                    @foreach (var mp in scMpHistory)
+                                    {
+                                        var histColor = PartyColorProvider.GetColor(mp.Party);
+                                        <div class="mp-history-row">
+                                            <span class="mp-history-year">@mp.Year</span>
+                                            <span class="mp-party-badge" style="background: @(histColor)18; color: @histColor; border: 1px solid @(histColor)44">
+                                                @PartyColorProvider.GetShortName(mp.Party)
+                                            </span>
+                                            <span class="mp-history-name">@mp.Name</span>
+                                        </div>
+                                        @foreach (var evt in scEvents.Where(e => e.ElectionYear == mp.Year).OrderBy(e => e.Date))
+                                        {
+                                            var evtColor = evt.ToParty != null ? PartyColorProvider.GetColor(evt.ToParty.Value) : "#999";
+                                            <div class="mp-event-row">
+                                                <span class="mp-event-date">@evt.Date.ToString("MMM yyyy")</span>
+                                                @if (evt.Type == PostElectionEventType.FloorCrossing && evt.ToParty != null)
+                                                {
+                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
+                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    </span>
+                                                    <span class="mp-event-label">Crossed from @(evt.FromParty != null ? PartyColorProvider.GetShortName(evt.FromParty.Value) : "?")</span>
+                                                }
+                                                else if (evt.Type == PostElectionEventType.Vacancy)
+                                                {
+                                                    <span class="mp-party-badge mp-badge-vacant">VAC</span>
+                                                    <span class="mp-event-label">Seat vacated</span>
+                                                }
+                                                else if (evt.Type == PostElectionEventType.ByElection && evt.ToParty != null)
+                                                {
+                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
+                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    </span>
+                                                    <span class="mp-event-label">@(evt.MpName ?? "By-election")</span>
+                                                }
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        }
+                        @if (cmpMpHistory.Count > 0)
+                        {
+                            var cmpRidingStatusForHistory = State.CurrentParliamentaryState?.GetValueOrDefault(compareRiding!.Id);
+                            var cmpEvents = cmpRidingStatusForHistory?.Events ?? [];
+                            <div class="history-column">
+                                <div class="riding-section-label">@compareRiding!.Name</div>
+                                <div class="mp-history">
+                                    @foreach (var mp in cmpMpHistory)
+                                    {
+                                        var histColor = PartyColorProvider.GetColor(mp.Party);
+                                        <div class="mp-history-row">
+                                            <span class="mp-history-year">@mp.Year</span>
+                                            <span class="mp-party-badge" style="background: @(histColor)18; color: @histColor; border: 1px solid @(histColor)44">
+                                                @PartyColorProvider.GetShortName(mp.Party)
+                                            </span>
+                                            <span class="mp-history-name">@mp.Name</span>
+                                        </div>
+                                        @foreach (var evt in cmpEvents.Where(e => e.ElectionYear == mp.Year).OrderBy(e => e.Date))
+                                        {
+                                            var evtColor = evt.ToParty != null ? PartyColorProvider.GetColor(evt.ToParty.Value) : "#999";
+                                            <div class="mp-event-row">
+                                                <span class="mp-event-date">@evt.Date.ToString("MMM yyyy")</span>
+                                                @if (evt.Type == PostElectionEventType.FloorCrossing && evt.ToParty != null)
+                                                {
+                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
+                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    </span>
+                                                    <span class="mp-event-label">Crossed from @(evt.FromParty != null ? PartyColorProvider.GetShortName(evt.FromParty.Value) : "?")</span>
+                                                }
+                                                else if (evt.Type == PostElectionEventType.Vacancy)
+                                                {
+                                                    <span class="mp-party-badge mp-badge-vacant">VAC</span>
+                                                    <span class="mp-event-label">Seat vacated</span>
+                                                }
+                                                else if (evt.Type == PostElectionEventType.ByElection && evt.ToParty != null)
+                                                {
+                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
+                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    </span>
+                                                    <span class="mp-event-label">@(evt.MpName ?? "By-election")</span>
+                                                }
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
             }
         </div>
     }

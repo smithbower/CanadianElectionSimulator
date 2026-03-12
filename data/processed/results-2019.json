@@ -27,60 +27,6 @@
     "totalVotes": 41334
   },
   {
-    "ridingId": 10002,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 14707,
-        "voteShare": 0.4570371981727213
-      },
-      {
-        "party": 1,
-        "votes": 12697,
-        "voteShare": 0.39457410112184965
-      },
-      {
-        "party": 2,
-        "votes": 3855,
-        "voteShare": 0.11979862643338823
-      },
-      {
-        "party": 4,
-        "votes": 920,
-        "voteShare": 0.028590074272040772
-      }
-    ],
-    "totalVotes": 32179
-  },
-  {
-    "ridingId": 10003,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 16514,
-        "voteShare": 0.4831197706395179
-      },
-      {
-        "party": 1,
-        "votes": 12081,
-        "voteShare": 0.3534316306828155
-      },
-      {
-        "party": 2,
-        "votes": 4224,
-        "voteShare": 0.12357381077760225
-      },
-      {
-        "party": 4,
-        "votes": 1363,
-        "voteShare": 0.03987478790006436
-      }
-    ],
-    "totalVotes": 34182
-  },
-  {
     "ridingId": 10004,
     "year": 2019,
     "candidates": [
@@ -165,43 +111,6 @@
       }
     ],
     "totalVotes": 45072
-  },
-  {
-    "ridingId": 10007,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 20793,
-        "voteShare": 0.5113116608468992
-      },
-      {
-        "party": 2,
-        "votes": 10890,
-        "voteShare": 0.2677912752668076
-      },
-      {
-        "party": 1,
-        "votes": 7767,
-        "voteShare": 0.19099493434318596
-      },
-      {
-        "party": 4,
-        "votes": 740,
-        "voteShare": 0.018197019623272512
-      },
-      {
-        "party": 5,
-        "votes": 335,
-        "voteShare": 0.008237839964589584
-      },
-      {
-        "party": 6,
-        "votes": 141,
-        "voteShare": 0.003467269955245168
-      }
-    ],
-    "totalVotes": 40666
   },
   {
     "ridingId": 11001,
@@ -322,7 +231,7 @@
     "totalVotes": 23039
   },
   {
-    "ridingId": 12001,
+    "ridingId": 12002,
     "year": 2019,
     "candidates": [
       {
@@ -534,36 +443,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 40731,
-        "voteShare": 0.41744130035973065
+        "votes": 20806,
+        "voteShare": 0.43313348322091766
       },
       {
         "party": 1,
-        "votes": 23116,
-        "voteShare": 0.23690980086704314
+        "votes": 11905,
+        "voteShare": 0.24783495711549672
       },
       {
         "party": 2,
-        "votes": 20114,
-        "voteShare": 0.20614309286380453
+        "votes": 8254,
+        "voteShare": 0.17182946123740528
       },
       {
         "party": 4,
-        "votes": 11754,
-        "voteShare": 0.12046365285478565
+        "votes": 6029,
+        "voteShare": 0.12551003414106088
       },
       {
         "party": 5,
-        "votes": 1602,
-        "voteShare": 0.01641847642278089
+        "votes": 786,
+        "voteShare": 0.016362727954034473
       },
       {
         "party": 6,
         "votes": 256,
-        "voteShare": 0.0026236766318551235
+        "voteShare": 0.005329336331085019
       }
     ],
-    "totalVotes": 97573
+    "totalVotes": 48036
   },
   {
     "ridingId": 12010,
@@ -571,68 +480,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 34422,
-        "voteShare": 0.3697989965944372
+        "votes": 21886,
+        "voteShare": 0.4167333104840245
       },
       {
         "party": 1,
-        "votes": 25971,
-        "voteShare": 0.2790090564335056
+        "votes": 14744,
+        "voteShare": 0.2807418408926463
       },
       {
         "party": 2,
-        "votes": 16507,
-        "voteShare": 0.17733635572553527
+        "votes": 8361,
+        "voteShare": 0.15920255912258655
       },
       {
         "party": 4,
-        "votes": 8319,
-        "voteShare": 0.08937185092874102
+        "votes": 6070,
+        "voteShare": 0.1155794203891999
       },
       {
         "party": 6,
-        "votes": 7197,
-        "voteShare": 0.0773180924551207
+        "votes": 790,
+        "voteShare": 0.015042461632202292
       },
       {
         "party": 5,
         "votes": 667,
-        "voteShare": 0.007165647862660206
+        "voteShare": 0.012700407479340417
       }
     ],
-    "totalVotes": 93083
-  },
-  {
-    "ridingId": 12011,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 18390,
-        "voteShare": 0.39296551134663876
-      },
-      {
-        "party": 0,
-        "votes": 17025,
-        "voteShare": 0.36379759818795676
-      },
-      {
-        "party": 4,
-        "votes": 5939,
-        "voteShare": 0.12690713278345228
-      },
-      {
-        "party": 2,
-        "votes": 5010,
-        "voteShare": 0.10705585708790974
-      },
-      {
-        "party": 6,
-        "votes": 434,
-        "voteShare": 0.00927390059404248
-      }
-    ],
-    "totalVotes": 46798
+    "totalVotes": 52518
   },
   {
     "ridingId": 13001,
@@ -830,117 +707,6 @@
       }
     ],
     "totalVotes": 34598
-  },
-  {
-    "ridingId": 13007,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 22261,
-        "voteShare": 0.4295168634714826
-      },
-      {
-        "party": 1,
-        "votes": 12200,
-        "voteShare": 0.23539399552365517
-      },
-      {
-        "party": 4,
-        "votes": 9287,
-        "voteShare": 0.17918885544493324
-      },
-      {
-        "party": 2,
-        "votes": 6164,
-        "voteShare": 0.11893185150883692
-      },
-      {
-        "party": 5,
-        "votes": 1258,
-        "voteShare": 0.02427259396465231
-      },
-      {
-        "party": 6,
-        "votes": 658,
-        "voteShare": 0.012695840086439762
-      }
-    ],
-    "totalVotes": 51828
-  },
-  {
-    "ridingId": 13008,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 19451,
-        "voteShare": 0.4914599019657385
-      },
-      {
-        "party": 0,
-        "votes": 10110,
-        "voteShare": 0.25544494416089747
-      },
-      {
-        "party": 4,
-        "votes": 5352,
-        "voteShare": 0.13522664106321694
-      },
-      {
-        "party": 2,
-        "votes": 3251,
-        "voteShare": 0.08214159381474556
-      },
-      {
-        "party": 5,
-        "votes": 1214,
-        "voteShare": 0.03067360654909293
-      },
-      {
-        "party": 6,
-        "votes": 200,
-        "voteShare": 0.005053312446308555
-      }
-    ],
-    "totalVotes": 39578
-  },
-  {
-    "ridingId": 13009,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 15443,
-        "voteShare": 0.37434853222795916
-      },
-      {
-        "party": 1,
-        "votes": 14006,
-        "voteShare": 0.3395147019610695
-      },
-      {
-        "party": 2,
-        "votes": 5046,
-        "voteShare": 0.12231837684532033
-      },
-      {
-        "party": 4,
-        "votes": 4165,
-        "voteShare": 0.10096235425302402
-      },
-      {
-        "party": 6,
-        "votes": 1333,
-        "voteShare": 0.032312801493224734
-      },
-      {
-        "party": 5,
-        "votes": 1260,
-        "voteShare": 0.030543233219402225
-      }
-    ],
-    "totalVotes": 41253
   },
   {
     "ridingId": 13010,
@@ -1174,42 +940,42 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 3,
-        "votes": 26910,
-        "voteShare": 0.2820843422749143
-      },
-      {
         "party": 1,
-        "votes": 25616,
-        "voteShare": 0.2685199744226758
-      },
-      {
-        "party": 0,
-        "votes": 19159,
-        "voteShare": 0.20083440779060138
+        "votes": 22860,
+        "voteShare": 0.38466068754311866
       },
       {
         "party": 5,
-        "votes": 17006,
-        "voteShare": 0.1782655639066218
+        "votes": 16796,
+        "voteShare": 0.2826229618536405
+      },
+      {
+        "party": 3,
+        "votes": 8410,
+        "voteShare": 0.14151340254757777
+      },
+      {
+        "party": 0,
+        "votes": 6971,
+        "voteShare": 0.11729963485840246
       },
       {
         "party": 2,
-        "votes": 3282,
-        "voteShare": 0.03440359759740872
+        "votes": 1847,
+        "voteShare": 0.031079102794931767
       },
       {
         "party": 4,
-        "votes": 2160,
-        "voteShare": 0.022642221453504828
+        "votes": 1461,
+        "voteShare": 0.024583957327230812
       },
       {
         "party": 6,
-        "votes": 1264,
-        "voteShare": 0.013249892554273196
+        "votes": 1084,
+        "voteShare": 0.018240253075098016
       }
     ],
-    "totalVotes": 95397
+    "totalVotes": 59429
   },
   {
     "ridingId": 24008,
@@ -1579,42 +1345,42 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 3,
-        "votes": 32635,
-        "voteShare": 0.364034892022131
+        "party": 1,
+        "votes": 16155,
+        "voteShare": 0.3681547822519997
       },
       {
-        "party": 1,
-        "votes": 20228,
-        "voteShare": 0.22563805104408352
+        "party": 3,
+        "votes": 15321,
+        "voteShare": 0.34914883434743965
       },
       {
         "party": 0,
-        "votes": 17599,
-        "voteShare": 0.19631224344101375
+        "votes": 7504,
+        "voteShare": 0.17100795332831978
       },
       {
         "party": 2,
-        "votes": 15905,
-        "voteShare": 0.1774161163662324
+        "votes": 2855,
+        "voteShare": 0.06506232765889565
       },
       {
         "party": 4,
-        "votes": 2212,
-        "voteShare": 0.02467428163483848
+        "votes": 1388,
+        "voteShare": 0.03163100202821267
       },
       {
         "party": 5,
-        "votes": 591,
-        "voteShare": 0.006592450472960914
+        "votes": 359,
+        "voteShare": 0.008181217383377772
       },
       {
         "party": 6,
-        "votes": 478,
-        "voteShare": 0.005331965018739961
+        "votes": 299,
+        "voteShare": 0.006813883001754745
       }
     ],
-    "totalVotes": 89648
+    "totalVotes": 43881
   },
   {
     "ridingId": 24019,
@@ -1657,90 +1423,6 @@
       }
     ],
     "totalVotes": 58237
-  },
-  {
-    "ridingId": 24020,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 3,
-        "votes": 18407,
-        "voteShare": 0.36352325466574503
-      },
-      {
-        "party": 1,
-        "votes": 15044,
-        "voteShare": 0.2971067443467957
-      },
-      {
-        "party": 0,
-        "votes": 10608,
-        "voteShare": 0.20949935815147624
-      },
-      {
-        "party": 2,
-        "votes": 2841,
-        "voteShare": 0.05610743556828281
-      },
-      {
-        "party": 4,
-        "votes": 1355,
-        "voteShare": 0.026760146143971562
-      },
-      {
-        "party": 6,
-        "votes": 1335,
-        "voteShare": 0.02636516243704947
-      },
-      {
-        "party": 5,
-        "votes": 1045,
-        "voteShare": 0.020637898686679174
-      }
-    ],
-    "totalVotes": 50635
-  },
-  {
-    "ridingId": 24021,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 20118,
-        "voteShare": 0.38391664440288537
-      },
-      {
-        "party": 3,
-        "votes": 19479,
-        "voteShare": 0.3717224533414755
-      },
-      {
-        "party": 1,
-        "votes": 5851,
-        "voteShare": 0.11165604366245563
-      },
-      {
-        "party": 2,
-        "votes": 4005,
-        "voteShare": 0.07642838059616046
-      },
-      {
-        "party": 4,
-        "votes": 1929,
-        "voteShare": 0.03681157207740163
-      },
-      {
-        "party": 5,
-        "votes": 563,
-        "voteShare": 0.010743864737987099
-      },
-      {
-        "party": 6,
-        "votes": 457,
-        "voteShare": 0.008721041181634288
-      }
-    ],
-    "totalVotes": 52402
   },
   {
     "ridingId": 24022,
@@ -1827,6 +1509,48 @@
     "totalVotes": 54824
   },
   {
+    "ridingId": 24024,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16296,
+        "voteShare": 0.4245961438249088
+      },
+      {
+        "party": 3,
+        "votes": 15659,
+        "voteShare": 0.40799895779051587
+      },
+      {
+        "party": 1,
+        "votes": 3022,
+        "voteShare": 0.07873892652423137
+      },
+      {
+        "party": 2,
+        "votes": 1722,
+        "voteShare": 0.04486711829077645
+      },
+      {
+        "party": 4,
+        "votes": 1130,
+        "voteShare": 0.029442417926003127
+      },
+      {
+        "party": 6,
+        "votes": 353,
+        "voteShare": 0.009197498697238144
+      },
+      {
+        "party": 5,
+        "votes": 198,
+        "voteShare": 0.005158936946326211
+      }
+    ],
+    "totalVotes": 38380
+  },
+  {
     "ridingId": 24025,
     "year": 2019,
     "candidates": [
@@ -1874,41 +1598,41 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 16296,
-        "voteShare": 0.4245961438249088
+        "votes": 18008,
+        "voteShare": 0.3395365499556913
       },
       {
         "party": 3,
-        "votes": 15659,
-        "voteShare": 0.40799895779051587
-      },
-      {
-        "party": 1,
-        "votes": 3022,
-        "voteShare": 0.07873892652423137
+        "votes": 17680,
+        "voteShare": 0.3333521880951034
       },
       {
         "party": 2,
-        "votes": 1722,
-        "voteShare": 0.04486711829077645
+        "votes": 11451,
+        "voteShare": 0.21590587702924374
       },
       {
         "party": 4,
-        "votes": 1130,
-        "voteShare": 0.029442417926003127
+        "votes": 2618,
+        "voteShare": 0.04936176631408262
+      },
+      {
+        "party": 1,
+        "votes": 2381,
+        "voteShare": 0.04489318777457247
       },
       {
         "party": 6,
-        "votes": 353,
-        "voteShare": 0.009197498697238144
+        "votes": 522,
+        "voteShare": 0.009842185643984388
       },
       {
         "party": 5,
-        "votes": 198,
-        "voteShare": 0.005158936946326211
+        "votes": 377,
+        "voteShare": 0.007108245187322058
       }
     ],
-    "totalVotes": 38380
+    "totalVotes": 53037
   },
   {
     "ridingId": 24027,
@@ -1958,41 +1682,83 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 47740,
-        "voteShare": 0.44191428306951774
+        "votes": 29732,
+        "voteShare": 0.5406506282617788
       },
       {
         "party": 3,
-        "votes": 25691,
-        "voteShare": 0.23781357030454503
+        "votes": 8011,
+        "voteShare": 0.14567308566544834
       },
       {
         "party": 2,
-        "votes": 18918,
-        "voteShare": 0.1751180227714524
+        "votes": 7467,
+        "voteShare": 0.13578091757132726
       },
       {
         "party": 1,
-        "votes": 7360,
-        "voteShare": 0.0681292233638804
+        "votes": 4979,
+        "voteShare": 0.09053879584674412
       },
       {
         "party": 4,
-        "votes": 6487,
-        "voteShare": 0.06004813477737665
+        "votes": 3869,
+        "voteShare": 0.07035440874293092
       },
       {
         "party": 5,
-        "votes": 1015,
-        "voteShare": 0.009395538276404703
+        "votes": 638,
+        "voteShare": 0.011601476551561107
       },
       {
         "party": 6,
-        "votes": 819,
-        "voteShare": 0.007581227436823105
+        "votes": 297,
+        "voteShare": 0.0054006873602094815
       }
     ],
-    "totalVotes": 108030
+    "totalVotes": 54993
+  },
+  {
+    "ridingId": 24029,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 33590,
+        "voteShare": 0.5821591362068667
+      },
+      {
+        "party": 0,
+        "votes": 12995,
+        "voteShare": 0.22522054108390094
+      },
+      {
+        "party": 1,
+        "votes": 5176,
+        "voteShare": 0.08970692732976308
+      },
+      {
+        "party": 2,
+        "votes": 2623,
+        "voteShare": 0.04546005996637723
+      },
+      {
+        "party": 4,
+        "votes": 2343,
+        "voteShare": 0.04060728955441169
+      },
+      {
+        "party": 5,
+        "votes": 498,
+        "voteShare": 0.00863099880413872
+      },
+      {
+        "party": 6,
+        "votes": 474,
+        "voteShare": 0.008215047054541673
+      }
+    ],
+    "totalVotes": 57699
   },
   {
     "ridingId": 24030,
@@ -2037,41 +1803,83 @@
     "candidates": [
       {
         "party": 3,
-        "votes": 59600,
-        "voteShare": 0.5263483260180336
+        "votes": 26010,
+        "voteShare": 0.46836172434904744
       },
       {
         "party": 0,
-        "votes": 29893,
-        "voteShare": 0.26399547834995096
-      },
-      {
-        "party": 1,
-        "votes": 9160,
-        "voteShare": 0.08089514540814073
+        "votes": 16898,
+        "voteShare": 0.30428206143983866
       },
       {
         "party": 2,
-        "votes": 8680,
-        "voteShare": 0.07665609848719013
+        "votes": 6057,
+        "voteShare": 0.10906831850758095
+      },
+      {
+        "party": 1,
+        "votes": 3984,
+        "voteShare": 0.07173983505600173
       },
       {
         "party": 4,
-        "votes": 4253,
-        "voteShare": 0.03755972198917277
+        "votes": 1910,
+        "voteShare": 0.03439334461771167
       },
       {
         "party": 5,
-        "votes": 886,
-        "voteShare": 0.007824574108254661
+        "votes": 388,
+        "voteShare": 0.006986710843807397
       },
       {
         "party": 6,
-        "votes": 761,
-        "voteShare": 0.006720655639257107
+        "votes": 287,
+        "voteShare": 0.0051680051860121725
       }
     ],
-    "totalVotes": 113233
+    "totalVotes": 55534
+  },
+  {
+    "ridingId": 24032,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 3,
+        "votes": 25707,
+        "voteShare": 0.41764008253050217
+      },
+      {
+        "party": 0,
+        "votes": 22504,
+        "voteShare": 0.36560362614332365
+      },
+      {
+        "party": 1,
+        "votes": 5540,
+        "voteShare": 0.09000373661722418
+      },
+      {
+        "party": 2,
+        "votes": 4744,
+        "voteShare": 0.0770717917891898
+      },
+      {
+        "party": 4,
+        "votes": 2565,
+        "voteShare": 0.04167140513053791
+      },
+      {
+        "party": 5,
+        "votes": 393,
+        "voteShare": 0.006384741604795867
+      },
+      {
+        "party": 6,
+        "votes": 100,
+        "voteShare": 0.0016246161844264292
+      }
+    ],
+    "totalVotes": 61553
   },
   {
     "ridingId": 24033,
@@ -2116,41 +1924,41 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 57126,
-        "voteShare": 0.47181155949057635
-      },
-      {
-        "party": 3,
-        "votes": 28876,
-        "voteShare": 0.23849089016997307
+        "votes": 34622,
+        "voteShare": 0.5816379672406552
       },
       {
         "party": 1,
-        "votes": 14623,
-        "voteShare": 0.12077338575133385
+        "votes": 9083,
+        "voteShare": 0.15259134817303655
       },
       {
         "party": 2,
-        "votes": 12007,
-        "voteShare": 0.09916747881530914
+        "votes": 7263,
+        "voteShare": 0.12201595968080639
       },
       {
         "party": 4,
-        "votes": 6741,
-        "voteShare": 0.05567485422620129
+        "votes": 4176,
+        "voteShare": 0.07015539689206216
+      },
+      {
+        "party": 3,
+        "votes": 3169,
+        "voteShare": 0.05323813523729525
       },
       {
         "party": 5,
-        "votes": 1198,
-        "voteShare": 0.00989444820694098
+        "votes": 805,
+        "voteShare": 0.013523729525409492
       },
       {
         "party": 6,
-        "votes": 507,
-        "voteShare": 0.0041873833396653395
+        "votes": 407,
+        "voteShare": 0.006837463250734985
       }
     ],
-    "totalVotes": 121078
+    "totalVotes": 59525
   },
   {
     "ridingId": 24035,
@@ -2474,83 +2282,125 @@
     "totalVotes": 62060
   },
   {
+    "ridingId": 24044,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 29279,
+        "voteShare": 0.446591723738198
+      },
+      {
+        "party": 3,
+        "votes": 14674,
+        "voteShare": 0.2238220893519013
+      },
+      {
+        "party": 0,
+        "votes": 13571,
+        "voteShare": 0.20699806287274447
+      },
+      {
+        "party": 2,
+        "votes": 4339,
+        "voteShare": 0.06618263906895867
+      },
+      {
+        "party": 4,
+        "votes": 2155,
+        "voteShare": 0.032870151461997225
+      },
+      {
+        "party": 5,
+        "votes": 1543,
+        "voteShare": 0.023535333506200334
+      }
+    ],
+    "totalVotes": 65561
+  },
+  {
     "ridingId": 24045,
     "year": 2019,
     "candidates": [
       {
         "party": 0,
-        "votes": 38436,
-        "voteShare": 0.3166636458007217
-      },
-      {
-        "party": 1,
-        "votes": 34702,
-        "voteShare": 0.28590024551401405
+        "votes": 24865,
+        "voteShare": 0.4454736012325994
       },
       {
         "party": 3,
-        "votes": 32743,
-        "voteShare": 0.2697605826426535
+        "votes": 18069,
+        "voteShare": 0.32371858036082196
+      },
+      {
+        "party": 1,
+        "votes": 5423,
+        "voteShare": 0.0971567801924145
       },
       {
         "party": 2,
-        "votes": 9080,
-        "voteShare": 0.07480762576414177
+        "votes": 4741,
+        "voteShare": 0.08493828045219198
       },
       {
         "party": 4,
-        "votes": 4266,
-        "voteShare": 0.03514640214865956
+        "votes": 2111,
+        "voteShare": 0.037820018990630096
       },
       {
         "party": 5,
-        "votes": 2008,
-        "voteShare": 0.01654336041127717
+        "votes": 465,
+        "voteShare": 0.008330795277424441
       },
       {
         "party": 6,
         "votes": 143,
-        "voteShare": 0.0011781377185321887
+        "voteShare": 0.0025619434939176235
       }
     ],
-    "totalVotes": 121378
+    "totalVotes": 55817
   },
   {
     "ridingId": 24046,
     "year": 2019,
     "candidates": [
       {
+        "party": 1,
+        "votes": 23392,
+        "voteShare": 0.4923802306979877
+      },
+      {
         "party": 3,
-        "votes": 21768,
-        "voteShare": 0.5389452834860113
+        "votes": 12249,
+        "voteShare": 0.2578302601667088
       },
       {
         "party": 0,
-        "votes": 7793,
-        "voteShare": 0.1929437979697945
-      },
-      {
-        "party": 1,
-        "votes": 7771,
-        "voteShare": 0.19239910869026988
+        "votes": 7388,
+        "voteShare": 0.15551065083775364
       },
       {
         "party": 2,
-        "votes": 1482,
-        "voteShare": 0.03669225055706858
+        "votes": 1936,
+        "voteShare": 0.04075103140523701
       },
       {
         "party": 4,
-        "votes": 1293,
-        "voteShare": 0.032012874473879675
+        "votes": 1258,
+        "voteShare": 0.0264797507788162
       },
       {
         "party": 5,
-        "votes": 283,
-        "voteShare": 0.007006684822975984
+        "votes": 812,
+        "voteShare": 0.01709185821335354
+      },
+      {
+        "party": 6,
+        "votes": 473,
+        "voteShare": 0.009956217900143133
       }
     ],
-    "totalVotes": 40390
+    "totalVotes": 47508
   },
   {
     "ridingId": 24047,
@@ -2558,41 +2408,41 @@
     "candidates": [
       {
         "party": 3,
-        "votes": 45468,
-        "voteShare": 0.4040235298299241
-      },
-      {
-        "party": 1,
-        "votes": 29332,
-        "voteShare": 0.26064085020170963
+        "votes": 33219,
+        "voteShare": 0.510825772720283
       },
       {
         "party": 0,
-        "votes": 23550,
-        "voteShare": 0.2092626490607617
+        "votes": 16162,
+        "voteShare": 0.24853144702445026
+      },
+      {
+        "party": 1,
+        "votes": 5940,
+        "voteShare": 0.09134245732738736
       },
       {
         "party": 2,
-        "votes": 7155,
-        "voteShare": 0.06357852458725052
+        "votes": 5219,
+        "voteShare": 0.0802552667999385
       },
       {
         "party": 4,
-        "votes": 4775,
-        "voteShare": 0.04243011249533491
+        "votes": 3517,
+        "voteShare": 0.05408273104720898
       },
       {
         "party": 5,
-        "votes": 1453,
-        "voteShare": 0.012911194440988821
+        "votes": 641,
+        "voteShare": 0.009856989081962171
       },
       {
         "party": 6,
-        "votes": 805,
-        "voteShare": 0.0071531393840302835
+        "votes": 332,
+        "voteShare": 0.0051053359987697985
       }
     ],
-    "totalVotes": 112538
+    "totalVotes": 65030
   },
   {
     "ridingId": 24048,
@@ -2637,48 +2487,6 @@
     "totalVotes": 43679
   },
   {
-    "ridingId": 24049,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 3,
-        "votes": 25366,
-        "voteShare": 0.42827716620517325
-      },
-      {
-        "party": 0,
-        "votes": 21061,
-        "voteShare": 0.35559194975349495
-      },
-      {
-        "party": 2,
-        "votes": 4984,
-        "voteShare": 0.08414938880259337
-      },
-      {
-        "party": 1,
-        "votes": 4138,
-        "voteShare": 0.069865604106166
-      },
-      {
-        "party": 4,
-        "votes": 2967,
-        "voteShare": 0.0500945498750591
-      },
-      {
-        "party": 5,
-        "votes": 501,
-        "voteShare": 0.008458837036536774
-      },
-      {
-        "party": 6,
-        "votes": 211,
-        "voteShare": 0.003562504220976565
-      }
-    ],
-    "totalVotes": 59228
-  },
-  {
     "ridingId": 24050,
     "year": 2019,
     "candidates": [
@@ -2719,43 +2527,6 @@
       }
     ],
     "totalVotes": 54806
-  },
-  {
-    "ridingId": 24051,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 20989,
-        "voteShare": 0.4165475906961975
-      },
-      {
-        "party": 3,
-        "votes": 16261,
-        "voteShare": 0.32271572596649994
-      },
-      {
-        "party": 0,
-        "votes": 8210,
-        "voteShare": 0.16293561959196634
-      },
-      {
-        "party": 2,
-        "votes": 3481,
-        "voteShare": 0.0690839088671906
-      },
-      {
-        "party": 4,
-        "votes": 1030,
-        "voteShare": 0.020441374930539016
-      },
-      {
-        "party": 5,
-        "votes": 417,
-        "voteShare": 0.008275779947606574
-      }
-    ],
-    "totalVotes": 50388
   },
   {
     "ridingId": 24052,
@@ -3489,41 +3260,41 @@
     "candidates": [
       {
         "party": 3,
-        "votes": 53478,
-        "voteShare": 0.4319150998255476
+        "votes": 23503,
+        "voteShare": 0.3858453860423883
       },
       {
         "party": 0,
-        "votes": 41287,
-        "voteShare": 0.33345448084254053
+        "votes": 22605,
+        "voteShare": 0.37110304861031307
       },
       {
         "party": 1,
-        "votes": 13611,
-        "voteShare": 0.10992924985462299
+        "votes": 7495,
+        "voteShare": 0.12304434193029402
       },
       {
         "party": 2,
-        "votes": 8729,
-        "voteShare": 0.07049977385798281
+        "votes": 3705,
+        "voteShare": 0.06082445454993187
       },
       {
         "party": 4,
-        "votes": 4811,
-        "voteShare": 0.03885604445305938
+        "votes": 2814,
+        "voteShare": 0.04619703511565676
       },
       {
         "party": 5,
-        "votes": 1264,
-        "voteShare": 0.010208696775860955
+        "votes": 497,
+        "voteShare": 0.008159177843810024
       },
       {
         "party": 6,
-        "votes": 636,
-        "voteShare": 0.005136654390385733
+        "votes": 294,
+        "voteShare": 0.004826555907605929
       }
     ],
-    "totalVotes": 123816
+    "totalVotes": 60913
   },
   {
     "ridingId": 24072,
@@ -3609,42 +3380,42 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 0,
-        "votes": 53242,
-        "voteShare": 0.4202508465479
+        "party": 3,
+        "votes": 24486,
+        "voteShare": 0.41821380382243933
       },
       {
-        "party": 3,
-        "votes": 41086,
-        "voteShare": 0.32430085799306974
+        "party": 0,
+        "votes": 20988,
+        "voteShare": 0.358468974704948
       },
       {
         "party": 1,
-        "votes": 13068,
-        "voteShare": 0.1031486056625964
+        "votes": 5264,
+        "voteShare": 0.08990759876342892
       },
       {
         "party": 2,
-        "votes": 11799,
-        "voteShare": 0.09313210883172443
+        "votes": 4431,
+        "voteShare": 0.07568019949102461
       },
       {
         "party": 4,
-        "votes": 6115,
-        "voteShare": 0.04826704343639248
+        "votes": 2710,
+        "voteShare": 0.04628601684059506
       },
       {
         "party": 5,
-        "votes": 1077,
-        "voteShare": 0.008500998492394883
+        "votes": 366,
+        "voteShare": 0.006251174230132026
       },
       {
         "party": 6,
         "votes": 304,
-        "voteShare": 0.0023995390359220466
+        "voteShare": 0.0051922321474320654
       }
     ],
-    "totalVotes": 126691
+    "totalVotes": 58549
   },
   {
     "ridingId": 24075,
@@ -3687,6 +3458,43 @@
       }
     ],
     "totalVotes": 60538
+  },
+  {
+    "ridingId": 24076,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 32254,
+        "voteShare": 0.47333509436177396
+      },
+      {
+        "party": 3,
+        "votes": 16600,
+        "voteShare": 0.2436089342842887
+      },
+      {
+        "party": 1,
+        "votes": 7804,
+        "voteShare": 0.11452554958762584
+      },
+      {
+        "party": 2,
+        "votes": 7368,
+        "voteShare": 0.108127146253412
+      },
+      {
+        "party": 4,
+        "votes": 3405,
+        "voteShare": 0.049969182002289336
+      },
+      {
+        "party": 5,
+        "votes": 711,
+        "voteShare": 0.010434093510610197
+      }
+    ],
+    "totalVotes": 68142
   },
   {
     "ridingId": 24077,
@@ -3805,43 +3613,6 @@
     "totalVotes": 61020
   },
   {
-    "ridingId": 35002,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 2,
-        "votes": 16883,
-        "voteShare": 0.4159296395752753
-      },
-      {
-        "party": 1,
-        "votes": 10625,
-        "voteShare": 0.26175753245793404
-      },
-      {
-        "party": 0,
-        "votes": 9879,
-        "voteShare": 0.2433790741790052
-      },
-      {
-        "party": 4,
-        "votes": 2192,
-        "voteShare": 0.054002118696262716
-      },
-      {
-        "party": 5,
-        "votes": 887,
-        "voteShare": 0.021852134709664704
-      },
-      {
-        "party": 6,
-        "votes": 125,
-        "voteShare": 0.0030795003818580476
-      }
-    ],
-    "totalVotes": 40591
-  },
-  {
     "ridingId": 35003,
     "year": 2019,
     "candidates": [
@@ -3877,38 +3648,6 @@
       }
     ],
     "totalVotes": 53109
-  },
-  {
-    "ridingId": 35004,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 23765,
-        "voteShare": 0.43804029270270767
-      },
-      {
-        "party": 0,
-        "votes": 15879,
-        "voteShare": 0.29268427552393417
-      },
-      {
-        "party": 2,
-        "votes": 8880,
-        "voteShare": 0.16367758464969678
-      },
-      {
-        "party": 4,
-        "votes": 4716,
-        "voteShare": 0.08692606860450114
-      },
-      {
-        "party": 5,
-        "votes": 1013,
-        "voteShare": 0.018671778519160232
-      }
-    ],
-    "totalVotes": 54253
   },
   {
     "ridingId": 35005,
@@ -4044,38 +3783,6 @@
     "totalVotes": 39758
   },
   {
-    "ridingId": 35010,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 25970,
-        "voteShare": 0.5142370599184191
-      },
-      {
-        "party": 1,
-        "votes": 13973,
-        "voteShare": 0.2766821115995406
-      },
-      {
-        "party": 2,
-        "votes": 8533,
-        "voteShare": 0.16896360540176628
-      },
-      {
-        "party": 4,
-        "votes": 1516,
-        "voteShare": 0.030018613124232704
-      },
-      {
-        "party": 5,
-        "votes": 510,
-        "voteShare": 0.010098609956041345
-      }
-    ],
-    "totalVotes": 50502
-  },
-  {
     "ridingId": 35011,
     "year": 2019,
     "candidates": [
@@ -4113,41 +3820,73 @@
     "totalVotes": 50753
   },
   {
+    "ridingId": 35012,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25970,
+        "voteShare": 0.5142370599184191
+      },
+      {
+        "party": 1,
+        "votes": 13973,
+        "voteShare": 0.2766821115995406
+      },
+      {
+        "party": 2,
+        "votes": 8533,
+        "voteShare": 0.16896360540176628
+      },
+      {
+        "party": 4,
+        "votes": 1516,
+        "voteShare": 0.030018613124232704
+      },
+      {
+        "party": 5,
+        "votes": 510,
+        "voteShare": 0.010098609956041345
+      }
+    ],
+    "totalVotes": 50502
+  },
+  {
     "ridingId": 35013,
     "year": 2019,
     "candidates": [
       {
         "party": 0,
-        "votes": 44539,
-        "voteShare": 0.3861238502284372
+        "votes": 24085,
+        "voteShare": 0.4947312203438572
       },
       {
         "party": 1,
-        "votes": 40677,
-        "voteShare": 0.3526428490927533
+        "votes": 13828,
+        "voteShare": 0.28404165725201813
       },
       {
         "party": 2,
-        "votes": 21116,
-        "voteShare": 0.18306183842079254
+        "votes": 7985,
+        "voteShare": 0.1640202945586755
       },
       {
         "party": 4,
-        "votes": 6183,
-        "voteShare": 0.05360254531898846
-      },
-      {
-        "party": 5,
-        "votes": 1674,
-        "voteShare": 0.014512479518678099
+        "votes": 1926,
+        "voteShare": 0.039562064786475774
       },
       {
         "party": 6,
-        "votes": 1160,
-        "voteShare": 0.010056437420350416
+        "votes": 505,
+        "voteShare": 0.010373230901957561
+      },
+      {
+        "party": 5,
+        "votes": 354,
+        "voteShare": 0.007271532157015796
       }
     ],
-    "totalVotes": 115349
+    "totalVotes": 48683
   },
   {
     "ridingId": 35014,
@@ -4185,6 +3924,43 @@
       }
     ],
     "totalVotes": 53683
+  },
+  {
+    "ridingId": 35015,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 26849,
+        "voteShare": 0.4027390273902739
+      },
+      {
+        "party": 0,
+        "votes": 20454,
+        "voteShare": 0.3068130681306813
+      },
+      {
+        "party": 2,
+        "votes": 13131,
+        "voteShare": 0.1969669696696967
+      },
+      {
+        "party": 4,
+        "votes": 4257,
+        "voteShare": 0.06385563855638557
+      },
+      {
+        "party": 5,
+        "votes": 1320,
+        "voteShare": 0.01980019800198002
+      },
+      {
+        "party": 6,
+        "votes": 655,
+        "voteShare": 0.00982509825098251
+      }
+    ],
+    "totalVotes": 66666
   },
   {
     "ridingId": 35016,
@@ -4261,36 +4037,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 48198,
-        "voteShare": 0.48084520531545555
+        "votes": 22903,
+        "voteShare": 0.39527458492975737
       },
       {
         "party": 1,
-        "votes": 27524,
-        "voteShare": 0.27459196296739696
+        "votes": 17409,
+        "voteShare": 0.30045562804183495
       },
       {
         "party": 2,
-        "votes": 15824,
-        "voteShare": 0.15786743285845406
+        "votes": 11177,
+        "voteShare": 0.19289979634807222
       },
       {
         "party": 4,
-        "votes": 6018,
-        "voteShare": 0.060038309589369086
+        "votes": 4343,
+        "voteShare": 0.07495426460943702
       },
       {
         "party": 5,
-        "votes": 2434,
-        "voteShare": 0.02428269284488607
+        "votes": 1872,
+        "voteShare": 0.03230817023920472
       },
       {
         "party": 6,
         "votes": 238,
-        "voteShare": 0.002374396424438326
+        "voteShare": 0.004107555831693763
       }
     ],
-    "totalVotes": 100236
+    "totalVotes": 57942
   },
   {
     "ridingId": 35020,
@@ -4403,32 +4179,32 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 47258,
-        "voteShare": 0.3951833423924405
+        "party": 0,
+        "votes": 23495,
+        "voteShare": 0.5044985076549784
       },
       {
-        "party": 0,
-        "votes": 47042,
-        "voteShare": 0.3933770957896057
+        "party": 1,
+        "votes": 16506,
+        "voteShare": 0.3544265744776792
       },
       {
         "party": 2,
-        "votes": 17608,
-        "voteShare": 0.14724254714220011
+        "votes": 4285,
+        "voteShare": 0.09201004917223164
       },
       {
         "party": 4,
-        "votes": 5753,
-        "voteShare": 0.048108040306058454
+        "votes": 1803,
+        "voteShare": 0.03871508020012454
       },
       {
         "party": 5,
-        "votes": 1924,
-        "voteShare": 0.016088974369695197
+        "votes": 482,
+        "voteShare": 0.01034978849498615
       }
     ],
-    "totalVotes": 119585
+    "totalVotes": 46571
   },
   {
     "ridingId": 35024,
@@ -4473,36 +4249,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 59878,
-        "voteShare": 0.45929278208176727
+        "votes": 28852,
+        "voteShare": 0.4204850180715868
       },
       {
         "party": 0,
-        "votes": 36969,
-        "voteShare": 0.2835698396870446
+        "votes": 22645,
+        "voteShare": 0.3300250670397575
       },
       {
         "party": 2,
-        "votes": 19000,
-        "voteShare": 0.14573905039502952
+        "votes": 7981,
+        "voteShare": 0.1163139792468229
       },
       {
         "party": 4,
-        "votes": 10865,
-        "voteShare": 0.08333972539694715
+        "votes": 7303,
+        "voteShare": 0.10643290194706774
       },
       {
         "party": 5,
-        "votes": 2472,
-        "voteShare": 0.018961417504027
+        "votes": 1516,
+        "voteShare": 0.022093972251369942
       },
       {
         "party": 6,
-        "votes": 1186,
-        "voteShare": 0.009097184935184474
+        "votes": 319,
+        "voteShare": 0.0046490614433951265
       }
     ],
-    "totalVotes": 130370
+    "totalVotes": 68616
   },
   {
     "ridingId": 35026,
@@ -4611,36 +4387,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 58936,
-        "voteShare": 0.44630227028336894
+        "votes": 36061,
+        "voteShare": 0.5187513486297921
       },
       {
         "party": 1,
-        "votes": 44479,
-        "voteShare": 0.3368243294409863
+        "votes": 19952,
+        "voteShare": 0.28701719053441704
       },
       {
         "party": 2,
-        "votes": 18599,
-        "voteShare": 0.14084389719357232
+        "votes": 8277,
+        "voteShare": 0.11906782708767892
       },
       {
         "party": 4,
-        "votes": 7974,
-        "voteShare": 0.0603843882048253
+        "votes": 4141,
+        "voteShare": 0.05956987700496296
       },
       {
         "party": 5,
-        "votes": 1903,
-        "voteShare": 0.014410771351113938
+        "votes": 921,
+        "voteShare": 0.013248939077896857
       },
       {
         "party": 6,
         "votes": 163,
-        "voteShare": 0.0012343435261332485
+        "voteShare": 0.0023448176652521037
       }
     ],
-    "totalVotes": 132054
+    "totalVotes": 69515
   },
   {
     "ridingId": 35031,
@@ -4648,36 +4424,68 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 57681,
-        "voteShare": 0.5304634117181825
+        "votes": 26388,
+        "voteShare": 0.614446048526056
       },
       {
         "party": 1,
-        "votes": 33184,
-        "voteShare": 0.3051767107792196
+        "votes": 9524,
+        "voteShare": 0.22176687002281936
       },
       {
         "party": 2,
-        "votes": 11505,
-        "voteShare": 0.1058057514921324
-      },
-      {
-        "party": 4,
-        "votes": 3193,
-        "voteShare": 0.029364429770915145
+        "votes": 4654,
+        "voteShare": 0.10836864900107111
       },
       {
         "party": 5,
-        "votes": 2370,
-        "voteShare": 0.02179570891232975
+        "votes": 1196,
+        "voteShare": 0.027848926558934475
+      },
+      {
+        "party": 4,
+        "votes": 1080,
+        "voteShare": 0.02514786010338565
       },
       {
         "party": 6,
-        "votes": 804,
-        "voteShare": 0.007393987327220726
+        "votes": 104,
+        "voteShare": 0.002421645787733433
       }
     ],
-    "totalVotes": 108737
+    "totalVotes": 42946
+  },
+  {
+    "ridingId": 35032,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 24527,
+        "voteShare": 0.39218727514031243
+      },
+      {
+        "party": 0,
+        "votes": 22875,
+        "voteShare": 0.36577175842274423
+      },
+      {
+        "party": 2,
+        "votes": 10322,
+        "voteShare": 0.1650490094181231
+      },
+      {
+        "party": 4,
+        "votes": 3833,
+        "voteShare": 0.06128975519275972
+      },
+      {
+        "party": 5,
+        "votes": 982,
+        "voteShare": 0.01570220182606054
+      }
+    ],
+    "totalVotes": 62539
   },
   {
     "ridingId": 35033,
@@ -4722,36 +4530,68 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 60275,
-        "voteShare": 0.4795681301020002
+        "votes": 28018,
+        "voteShare": 0.46754330340753597
       },
       {
         "party": 0,
-        "votes": 31771,
-        "voteShare": 0.2527807393027067
+        "votes": 14704,
+        "voteShare": 0.24536928878950706
       },
       {
         "party": 2,
-        "votes": 18868,
-        "voteShare": 0.15012014066801393
+        "votes": 9192,
+        "voteShare": 0.15338917998865267
       },
       {
         "party": 4,
-        "votes": 10393,
-        "voteShare": 0.08269019620323664
-      },
-      {
-        "party": 5,
-        "votes": 2479,
-        "voteShare": 0.01972375602692424
+        "votes": 4878,
+        "voteShare": 0.08140039381904349
       },
       {
         "party": 6,
         "votes": 1900,
-        "voteShare": 0.015117037697118214
+        "voteShare": 0.03170577045022194
+      },
+      {
+        "party": 5,
+        "votes": 1234,
+        "voteShare": 0.020592063545038883
       }
     ],
-    "totalVotes": 125686
+    "totalVotes": 59926
+  },
+  {
+    "ridingId": 35035,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 32257,
+        "voteShare": 0.49052615571776154
+      },
+      {
+        "party": 0,
+        "votes": 17067,
+        "voteShare": 0.2595346715328467
+      },
+      {
+        "party": 2,
+        "votes": 9676,
+        "voteShare": 0.14714111922141118
+      },
+      {
+        "party": 4,
+        "votes": 5515,
+        "voteShare": 0.08386557177615572
+      },
+      {
+        "party": 5,
+        "votes": 1245,
+        "voteShare": 0.01893248175182482
+      }
+    ],
+    "totalVotes": 65760
   },
   {
     "ridingId": 35036,
@@ -4865,36 +4705,68 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 49935,
-        "voteShare": 0.4231958981312767
+        "votes": 30214,
+        "voteShare": 0.46553982219072126
       },
       {
         "party": 1,
-        "votes": 39308,
-        "voteShare": 0.3331327598627061
+        "votes": 17340,
+        "voteShare": 0.267176160613858
       },
       {
         "party": 2,
-        "votes": 18511,
-        "voteShare": 0.15687952879359296
+        "votes": 11527,
+        "voteShare": 0.17760897366758602
       },
       {
         "party": 4,
-        "votes": 7884,
-        "voteShare": 0.06681639052502225
+        "votes": 4770,
+        "voteShare": 0.07349655629343153
       },
       {
         "party": 5,
-        "votes": 2201,
-        "voteShare": 0.01865333276833764
+        "votes": 894,
+        "voteShare": 0.01377482627386327
       },
       {
         "party": 6,
         "votes": 156,
-        "voteShare": 0.0013220899190643672
+        "voteShare": 0.002403660960539899
       }
     ],
-    "totalVotes": 117995
+    "totalVotes": 64901
+  },
+  {
+    "ridingId": 35040,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 21968,
+        "voteShare": 0.41375673334086716
+      },
+      {
+        "party": 0,
+        "votes": 19721,
+        "voteShare": 0.37143556710739445
+      },
+      {
+        "party": 2,
+        "votes": 6984,
+        "voteShare": 0.1315402870380834
+      },
+      {
+        "party": 4,
+        "votes": 3114,
+        "voteShare": 0.058650694993784606
+      },
+      {
+        "party": 5,
+        "votes": 1307,
+        "voteShare": 0.024616717519870417
+      }
+    ],
+    "totalVotes": 53094
   },
   {
     "ridingId": 35041,
@@ -4902,36 +4774,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 51933,
-        "voteShare": 0.49587510741907764
-      },
-      {
-        "party": 1,
-        "votes": 30525,
-        "voteShare": 0.2914637639644801
+        "votes": 23187,
+        "voteShare": 0.6108593708836082
       },
       {
         "party": 2,
-        "votes": 15515,
-        "voteShare": 0.14814284350233936
+        "votes": 7198,
+        "voteShare": 0.18963064439643817
+      },
+      {
+        "party": 1,
+        "votes": 6164,
+        "voteShare": 0.16239001001106487
       },
       {
         "party": 4,
-        "votes": 5191,
-        "voteShare": 0.04956554950825933
+        "votes": 804,
+        "voteShare": 0.021181305653617154
       },
       {
         "party": 5,
-        "votes": 1363,
-        "voteShare": 0.013014418027308317
+        "votes": 402,
+        "voteShare": 0.010590652826808577
       },
       {
         "party": 6,
         "votes": 203,
-        "voteShare": 0.0019383175785352813
+        "voteShare": 0.005348016228463038
       }
     ],
-    "totalVotes": 104730
+    "totalVotes": 37958
   },
   {
     "ridingId": 35042,
@@ -4939,36 +4811,100 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 38957,
-        "voteShare": 0.43942743700227854
+        "votes": 29512,
+        "voteShare": 0.48486043340397916
       },
       {
         "party": 0,
-        "votes": 28502,
-        "voteShare": 0.3214970559704018
+        "votes": 20167,
+        "voteShare": 0.33132896314916127
       },
       {
         "party": 2,
-        "votes": 15344,
-        "voteShare": 0.1730773569156496
+        "votes": 7421,
+        "voteShare": 0.12192156669459642
       },
       {
         "party": 4,
-        "votes": 4191,
-        "voteShare": 0.047273670674758045
+        "votes": 2665,
+        "voteShare": 0.04378398803949595
       },
       {
         "party": 5,
-        "votes": 1490,
-        "voteShare": 0.016806912265662013
+        "votes": 1102,
+        "voteShare": 0.01810504871276718
+      }
+    ],
+    "totalVotes": 60867
+  },
+  {
+    "ridingId": 35043,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 28746,
+        "voteShare": 0.43050979452465105
+      },
+      {
+        "party": 1,
+        "votes": 24361,
+        "voteShare": 0.3648385550829689
+      },
+      {
+        "party": 2,
+        "votes": 8317,
+        "voteShare": 0.12455819804708561
+      },
+      {
+        "party": 4,
+        "votes": 4387,
+        "voteShare": 0.065701192116456
+      },
+      {
+        "party": 5,
+        "votes": 961,
+        "voteShare": 0.014392260228838435
+      }
+    ],
+    "totalVotes": 66772
+  },
+  {
+    "ridingId": 35045,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 9445,
+        "voteShare": 0.3399071508259258
+      },
+      {
+        "party": 0,
+        "votes": 8335,
+        "voteShare": 0.29996041314283656
+      },
+      {
+        "party": 2,
+        "votes": 7923,
+        "voteShare": 0.2851333357325368
+      },
+      {
+        "party": 4,
+        "votes": 1526,
+        "voteShare": 0.054917767301255985
+      },
+      {
+        "party": 5,
+        "votes": 388,
+        "voteShare": 0.013963364163097852
       },
       {
         "party": 6,
         "votes": 170,
-        "voteShare": 0.0019175671712500283
+        "voteShare": 0.0061179688343469965
       }
     ],
-    "totalVotes": 88654
+    "totalVotes": 27787
   },
   {
     "ridingId": 35046,
@@ -5039,143 +4975,138 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 41842,
-        "voteShare": 0.36772537922064225
-      },
-      {
         "party": 0,
-        "votes": 35130,
-        "voteShare": 0.3087374545198882
+        "votes": 20316,
+        "voteShare": 0.36688698667244557
       },
       {
         "party": 4,
-        "votes": 17857,
-        "voteShare": 0.15693494806039407
+        "votes": 14394,
+        "voteShare": 0.2599414887853505
+      },
+      {
+        "party": 1,
+        "votes": 13191,
+        "voteShare": 0.23821649149420304
       },
       {
         "party": 2,
-        "votes": 15593,
-        "voteShare": 0.13703794842950803
+        "votes": 6238,
+        "voteShare": 0.1126521472171055
       },
       {
         "party": 5,
-        "votes": 2837,
-        "voteShare": 0.02493276853039917
+        "votes": 1033,
+        "voteShare": 0.01865496442373677
       },
       {
         "party": 6,
-        "votes": 527,
-        "voteShare": 0.004631501239168263
+        "votes": 202,
+        "voteShare": 0.0036479214071585943
       }
     ],
-    "totalVotes": 113786
+    "totalVotes": 55374
   },
   {
     "ridingId": 35049,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 50192,
-        "voteShare": 0.4402189166432781
+        "party": 0,
+        "votes": 20480,
+        "voteShare": 0.3973998253614049
       },
       {
-        "party": 0,
-        "votes": 35921,
-        "voteShare": 0.31505227336514174
+        "party": 1,
+        "votes": 20115,
+        "voteShare": 0.3903172601144853
       },
       {
         "party": 2,
-        "votes": 14039,
-        "voteShare": 0.12313184114510244
+        "votes": 5204,
+        "voteShare": 0.1009799165615601
       },
       {
         "party": 4,
-        "votes": 11957,
-        "voteShare": 0.10487124614089251
+        "votes": 4946,
+        "voteShare": 0.0959736101678471
       },
       {
         "party": 5,
-        "votes": 1907,
-        "voteShare": 0.016725722705585182
+        "votes": 790,
+        "voteShare": 0.01532938779470263
       }
     ],
-    "totalVotes": 114016
+    "totalVotes": 51535
   },
   {
     "ridingId": 35050,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 46110,
-        "voteShare": 0.41658384980937063
+        "party": 0,
+        "votes": 20986,
+        "voteShare": 0.40177665460532613
       },
       {
-        "party": 0,
-        "votes": 36468,
-        "voteShare": 0.3294725620222973
+        "party": 1,
+        "votes": 17480,
+        "voteShare": 0.33465433729634525
       },
       {
         "party": 2,
-        "votes": 15146,
-        "voteShare": 0.13683754042968396
+        "votes": 6945,
+        "voteShare": 0.13296192062489232
       },
       {
         "party": 4,
-        "votes": 10823,
-        "voteShare": 0.09778111052888351
+        "votes": 5671,
+        "voteShare": 0.10857120977160033
       },
       {
         "party": 5,
-        "votes": 1993,
-        "voteShare": 0.01800589053719531
+        "votes": 1005,
+        "voteShare": 0.01924070989604273
       },
       {
         "party": 6,
         "votes": 146,
-        "voteShare": 0.00131904667256925
+        "voteShare": 0.0027951678057932723
       }
     ],
-    "totalVotes": 110686
+    "totalVotes": 52233
   },
   {
-    "ridingId": 35052,
+    "ridingId": 35051,
     "year": 2019,
     "candidates": [
       {
-        "party": 0,
-        "votes": 27247,
-        "voteShare": 0.42746426946549315
+        "party": 1,
+        "votes": 30077,
+        "voteShare": 0.48137833901506055
       },
       {
-        "party": 1,
-        "votes": 15066,
-        "voteShare": 0.23636278062785335
+        "party": 0,
+        "votes": 15441,
+        "voteShare": 0.2471311278628703
       },
       {
         "party": 2,
-        "votes": 14887,
-        "voteShare": 0.2335545410332439
+        "votes": 8835,
+        "voteShare": 0.1414029865078984
       },
       {
         "party": 4,
-        "votes": 4872,
-        "voteShare": 0.07643432013931378
+        "votes": 7011,
+        "voteShare": 0.1122101118740097
       },
       {
         "party": 5,
-        "votes": 1532,
-        "voteShare": 0.02403476569241148
-      },
-      {
-        "party": 6,
-        "votes": 137,
-        "voteShare": 0.002149323041684316
+        "votes": 1117,
+        "voteShare": 0.01787743474016101
       }
     ],
-    "totalVotes": 63741
+    "totalVotes": 62481
   },
   {
     "ridingId": 35054,
@@ -5294,36 +5225,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 54781,
-        "voteShare": 0.526689741371022
+        "votes": 23899,
+        "voteShare": 0.5391035618416007
       },
       {
         "party": 1,
-        "votes": 36883,
-        "voteShare": 0.3546101336409961
+        "votes": 15319,
+        "voteShare": 0.34555954072770745
       },
       {
         "party": 2,
-        "votes": 7084,
-        "voteShare": 0.06810883568887607
+        "votes": 3233,
+        "voteShare": 0.07292865038009519
       },
       {
         "party": 4,
-        "votes": 4016,
-        "voteShare": 0.03861167195461975
+        "votes": 1247,
+        "voteShare": 0.028129300038347883
       },
       {
         "party": 5,
-        "votes": 970,
-        "voteShare": 0.009326026343620805
+        "votes": 357,
+        "voteShare": 0.008053055423969682
       },
       {
         "party": 6,
         "votes": 276,
-        "voteShare": 0.0026535910008653016
+        "voteShare": 0.0062258915882790825
       }
     ],
-    "totalVotes": 104010
+    "totalVotes": 44331
   },
   {
     "ridingId": 35058,
@@ -5356,6 +5287,38 @@
       }
     ],
     "totalVotes": 53396
+  },
+  {
+    "ridingId": 35060,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 30882,
+        "voteShare": 0.5174684562408888
+      },
+      {
+        "party": 1,
+        "votes": 21564,
+        "voteShare": 0.361333132257578
+      },
+      {
+        "party": 2,
+        "votes": 3851,
+        "voteShare": 0.06452856113540777
+      },
+      {
+        "party": 4,
+        "votes": 2769,
+        "voteShare": 0.04639823053335344
+      },
+      {
+        "party": 5,
+        "votes": 613,
+        "voteShare": 0.010271619832771996
+      }
+    ],
+    "totalVotes": 59679
   },
   {
     "ridingId": 35061,
@@ -5543,36 +5506,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 49910,
-        "voteShare": 0.42757521759989037
+        "votes": 29618,
+        "voteShare": 0.5040074874500128
       },
       {
         "party": 1,
-        "votes": 37461,
-        "voteShare": 0.3209255705571928
+        "votes": 19474,
+        "voteShare": 0.3313877307921382
       },
       {
         "party": 2,
-        "votes": 21505,
-        "voteShare": 0.18423171818244122
+        "votes": 6036,
+        "voteShare": 0.10271420062962648
       },
       {
         "party": 4,
-        "votes": 5742,
-        "voteShare": 0.04919128229730656
+        "votes": 2688,
+        "voteShare": 0.04574151280524121
       },
       {
         "party": 5,
-        "votes": 1482,
-        "voteShare": 0.012696182578301693
+        "votes": 706,
+        "voteShare": 0.012013953884114694
       },
       {
         "party": 6,
-        "votes": 628,
-        "voteShare": 0.005380028784867384
+        "votes": 243,
+        "voteShare": 0.004135114438866673
       }
     ],
-    "totalVotes": 116728
+    "totalVotes": 58765
   },
   {
     "ridingId": 35067,
@@ -5580,36 +5543,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 54623,
-        "voteShare": 0.3920770616651234
+        "votes": 31933,
+        "voteShare": 0.45891956368653264
       },
       {
         "party": 1,
-        "votes": 48071,
-        "voteShare": 0.34504762520008325
+        "votes": 23320,
+        "voteShare": 0.3351393300087665
       },
       {
         "party": 2,
-        "votes": 21670,
-        "voteShare": 0.15554454948068075
+        "votes": 9104,
+        "voteShare": 0.13083655490565224
       },
       {
         "party": 4,
-        "votes": 7783,
-        "voteShare": 0.05586540048953107
-      },
-      {
-        "party": 6,
-        "votes": 5515,
-        "voteShare": 0.039585980174709476
+        "votes": 4379,
+        "voteShare": 0.06293203799778682
       },
       {
         "party": 5,
-        "votes": 1655,
-        "voteShare": 0.011879382989872019
+        "votes": 687,
+        "voteShare": 0.009873101188508688
+      },
+      {
+        "party": 6,
+        "votes": 160,
+        "voteShare": 0.002299412212753115
       }
     ],
-    "totalVotes": 139317
+    "totalVotes": 69583
   },
   {
     "ridingId": 35068,
@@ -5649,68 +5612,41 @@
     "totalVotes": 61460
   },
   {
-    "ridingId": 35069,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 19046,
-        "voteShare": 0.3899033737307566
-      },
-      {
-        "party": 2,
-        "votes": 15656,
-        "voteShare": 0.3205044218801179
-      },
-      {
-        "party": 1,
-        "votes": 10343,
-        "voteShare": 0.2117384539796921
-      },
-      {
-        "party": 4,
-        "votes": 2644,
-        "voteShare": 0.054127088110055684
-      },
-      {
-        "party": 5,
-        "votes": 1159,
-        "voteShare": 0.02372666229937766
-      }
-    ],
-    "totalVotes": 48848
-  },
-  {
-    "ridingId": 35071,
+    "ridingId": 35070,
     "year": 2019,
     "candidates": [
       {
         "party": 1,
-        "votes": 27385,
-        "voteShare": 0.3971085106074448
+        "votes": 24751,
+        "voteShare": 0.3549344652536783
       },
       {
         "party": 0,
-        "votes": 24977,
-        "voteShare": 0.3621902234596366
+        "votes": 22690,
+        "voteShare": 0.32537929847707003
       },
       {
         "party": 2,
-        "votes": 9615,
-        "voteShare": 0.1394266324444251
+        "votes": 12566,
+        "voteShare": 0.18019904207416756
+      },
+      {
+        "party": 6,
+        "votes": 5355,
+        "voteShare": 0.07679180887372014
       },
       {
         "party": 4,
-        "votes": 5524,
-        "voteShare": 0.08010324676266295
+        "votes": 3404,
+        "voteShare": 0.0488140648750968
       },
       {
         "party": 5,
-        "votes": 1460,
-        "voteShare": 0.021171386725830542
+        "votes": 968,
+        "voteShare": 0.013881320446267244
       }
     ],
-    "totalVotes": 68961
+    "totalVotes": 69734
   },
   {
     "ridingId": 35072,
@@ -5718,36 +5654,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 50008,
-        "voteShare": 0.4190907186256023
+        "votes": 24447,
+        "voteShare": 0.45336028484533786
       },
       {
         "party": 0,
-        "votes": 47694,
-        "voteShare": 0.3996983029541169
+        "votes": 17429,
+        "voteShare": 0.32321415325272607
       },
       {
         "party": 2,
-        "votes": 11468,
-        "voteShare": 0.09610727006075843
+        "votes": 6540,
+        "voteShare": 0.12128180402047326
       },
       {
         "party": 4,
-        "votes": 7324,
-        "voteShare": 0.061378587890215795
-      },
-      {
-        "party": 5,
-        "votes": 1667,
-        "voteShare": 0.013970249319086529
+        "votes": 3620,
+        "voteShare": 0.06713151843335065
       },
       {
         "party": 6,
-        "votes": 1164,
-        "voteShare": 0.009754871150219988
+        "votes": 1019,
+        "voteShare": 0.018896966100437652
+      },
+      {
+        "party": 5,
+        "votes": 869,
+        "voteShare": 0.016115273347674503
       }
     ],
-    "totalVotes": 119325
+    "totalVotes": 53924
   },
   {
     "ridingId": 35073,
@@ -5755,31 +5691,68 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 52949,
-        "voteShare": 0.4512057946314444
+        "votes": 19352,
+        "voteShare": 0.4054727931778658
       },
       {
         "party": 1,
-        "votes": 39468,
-        "voteShare": 0.3363272262462718
+        "votes": 12984,
+        "voteShare": 0.27204726884153624
       },
       {
         "party": 2,
-        "votes": 15650,
-        "voteShare": 0.13336173838943333
+        "votes": 9784,
+        "voteShare": 0.20499926666247617
       },
       {
         "party": 4,
-        "votes": 6036,
-        "voteShare": 0.05143587558585428
+        "votes": 3111,
+        "voteShare": 0.06518322961845496
       },
       {
         "party": 5,
-        "votes": 3247,
-        "voteShare": 0.027669365146996167
+        "votes": 2496,
+        "voteShare": 0.05229744169966685
       }
     ],
-    "totalVotes": 117350
+    "totalVotes": 47727
+  },
+  {
+    "ridingId": 35075,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 30265,
+        "voteShare": 0.46276050824910936
+      },
+      {
+        "party": 1,
+        "votes": 25561,
+        "voteShare": 0.3908350025228972
+      },
+      {
+        "party": 2,
+        "votes": 4928,
+        "voteShare": 0.07535052980841271
+      },
+      {
+        "party": 4,
+        "votes": 3704,
+        "voteShare": 0.05663521964495956
+      },
+      {
+        "party": 5,
+        "votes": 798,
+        "voteShare": 0.012201648292839559
+      },
+      {
+        "party": 6,
+        "votes": 145,
+        "voteShare": 0.002217091481781624
+      }
+    ],
+    "totalVotes": 65401
   },
   {
     "ridingId": 35077,
@@ -5818,37 +5791,37 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 0,
-        "votes": 48429,
-        "voteShare": 0.38477245280620354
-      },
-      {
         "party": 1,
-        "votes": 35205,
-        "voteShare": 0.27970666751414225
+        "votes": 24087,
+        "voteShare": 0.38860655340980593
       },
       {
         "party": 2,
-        "votes": 31184,
-        "voteShare": 0.24775948642979725
+        "votes": 17668,
+        "voteShare": 0.2850458996821709
+      },
+      {
+        "party": 0,
+        "votes": 15750,
+        "voteShare": 0.25410193117467694
       },
       {
         "party": 4,
-        "votes": 7947,
-        "voteShare": 0.06313957922837349
+        "votes": 3151,
+        "voteShare": 0.050836519690882986
       },
       {
         "party": 5,
-        "votes": 2279,
-        "voteShare": 0.01810684548401449
+        "votes": 1215,
+        "voteShare": 0.01960214897633222
       },
       {
         "party": 6,
-        "votes": 820,
-        "voteShare": 0.006514968537469014
+        "votes": 112,
+        "voteShare": 0.001806947066131036
       }
     ],
-    "totalVotes": 125864
+    "totalVotes": 61983
   },
   {
     "ridingId": 35079,
@@ -5930,36 +5903,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 28852,
-        "voteShare": 0.47386141540887217
+        "votes": 32679,
+        "voteShare": 0.5115605579123683
       },
       {
         "party": 2,
-        "votes": 19180,
-        "voteShare": 0.31500977220096243
+        "votes": 13516,
+        "voteShare": 0.21158090825127973
       },
       {
         "party": 1,
-        "votes": 8015,
-        "voteShare": 0.13163729531755547
+        "votes": 11118,
+        "voteShare": 0.17404236001314946
       },
       {
         "party": 4,
-        "votes": 3916,
-        "voteShare": 0.06431586381329348
+        "votes": 4796,
+        "voteShare": 0.07507709647626054
       },
       {
         "party": 5,
-        "votes": 643,
-        "voteShare": 0.01056054658629921
+        "votes": 1064,
+        "voteShare": 0.016655969693649127
       },
       {
         "party": 6,
-        "votes": 281,
-        "voteShare": 0.004615106673017229
+        "votes": 708,
+        "voteShare": 0.011083107653292842
       }
     ],
-    "totalVotes": 60887
+    "totalVotes": 63881
   },
   {
     "ridingId": 35082,
@@ -6041,113 +6014,108 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 47202,
-        "voteShare": 0.3792421905129194
+        "votes": 22845,
+        "voteShare": 0.4179243729762362
       },
       {
         "party": 0,
-        "votes": 44015,
-        "voteShare": 0.3536363928525517
-      },
-      {
-        "party": 2,
-        "votes": 18289,
-        "voteShare": 0.14694208767193725
+        "votes": 16615,
+        "voteShare": 0.30395331394178876
       },
       {
         "party": 4,
-        "votes": 13339,
-        "voteShare": 0.1071715516133179
+        "votes": 8409,
+        "voteShare": 0.15383348883156797
       },
       {
-        "party": 5,
-        "votes": 890,
-        "voteShare": 0.007150662038822471
+        "party": 2,
+        "votes": 6417,
+        "voteShare": 0.1173920201964766
       },
       {
         "party": 6,
-        "votes": 729,
-        "voteShare": 0.005857115310451215
+        "votes": 377,
+        "voteShare": 0.006896804053930446
       }
     ],
-    "totalVotes": 124464
+    "totalVotes": 54663
   },
   {
     "ridingId": 35085,
     "year": 2019,
     "candidates": [
       {
-        "party": 0,
-        "votes": 47389,
-        "voteShare": 0.39893424475330214
+        "party": 1,
+        "votes": 25622,
+        "voteShare": 0.46337758165442905
       },
       {
-        "party": 1,
-        "votes": 44084,
-        "voteShare": 0.3711118032814486
+        "party": 0,
+        "votes": 15002,
+        "voteShare": 0.2713133432198792
       },
       {
         "party": 2,
-        "votes": 15676,
-        "voteShare": 0.13196508094183804
+        "votes": 8094,
+        "voteShare": 0.14638116251311173
       },
       {
         "party": 4,
-        "votes": 8748,
-        "voteShare": 0.07364318244955341
+        "votes": 4949,
+        "voteShare": 0.08950338192208919
       },
       {
         "party": 5,
-        "votes": 2159,
-        "voteShare": 0.018175083551507293
+        "votes": 894,
+        "voteShare": 0.016168119506637248
       },
       {
         "party": 6,
         "votes": 733,
-        "voteShare": 0.006170605022350555
+        "voteShare": 0.013256411183853583
       }
     ],
-    "totalVotes": 118789
+    "totalVotes": 55294
   },
   {
     "ridingId": 35086,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 31080,
-        "voteShare": 0.5271638651898841
+        "party": 0,
+        "votes": 27400,
+        "voteShare": 0.39254451941949253
       },
       {
-        "party": 0,
-        "votes": 11532,
-        "voteShare": 0.1956001831843547
+        "party": 1,
+        "votes": 24357,
+        "voteShare": 0.34894915545622557
       },
       {
         "party": 2,
-        "votes": 8786,
-        "voteShare": 0.14902386485065386
+        "votes": 11872,
+        "voteShare": 0.170083523158694
       },
       {
         "party": 4,
-        "votes": 3230,
-        "voteShare": 0.05478569126651627
-      },
-      {
-        "party": 6,
-        "votes": 2866,
-        "voteShare": 0.0486117000525807
+        "votes": 4930,
+        "voteShare": 0.0706293606108795
       },
       {
         "party": 5,
-        "votes": 1463,
-        "voteShare": 0.024814695456010314
+        "votes": 890,
+        "voteShare": 0.012750533659976217
+      },
+      {
+        "party": 6,
+        "votes": 352,
+        "voteShare": 0.005042907694732167
       }
     ],
-    "totalVotes": 58957
+    "totalVotes": 69801
   },
   {
-    "ridingId": 35087,
+    "ridingId": 35089,
     "year": 2019,
     "candidates": [
       {
@@ -6184,7 +6152,7 @@
     "totalVotes": 50149
   },
   {
-    "ridingId": 35091,
+    "ridingId": 35090,
     "year": 2019,
     "candidates": [
       {
@@ -6221,39 +6189,71 @@
     "totalVotes": 57916
   },
   {
+    "ridingId": 35091,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 16284,
+        "voteShare": 0.39050359712230215
+      },
+      {
+        "party": 1,
+        "votes": 13407,
+        "voteShare": 0.32151079136690647
+      },
+      {
+        "party": 2,
+        "votes": 9459,
+        "voteShare": 0.22683453237410073
+      },
+      {
+        "party": 4,
+        "votes": 1809,
+        "voteShare": 0.043381294964028774
+      },
+      {
+        "party": 5,
+        "votes": 741,
+        "voteShare": 0.01776978417266187
+      }
+    ],
+    "totalVotes": 41700
+  },
+  {
     "ridingId": 35092,
     "year": 2019,
     "candidates": [
       {
         "party": 0,
-        "votes": 37399,
-        "voteShare": 0.4478171324568336
+        "votes": 21115,
+        "voteShare": 0.5049744104845267
       },
       {
         "party": 1,
-        "votes": 28899,
-        "voteShare": 0.3460377900711258
+        "votes": 15492,
+        "voteShare": 0.3704979193571531
       },
       {
         "party": 2,
-        "votes": 13095,
-        "voteShare": 0.15680005747539336
+        "votes": 3636,
+        "voteShare": 0.08695652173913043
       },
       {
         "party": 4,
-        "votes": 2859,
-        "voteShare": 0.03423378116243983
+        "votes": 1050,
+        "voteShare": 0.025111206772851197
       },
       {
         "party": 5,
-        "votes": 1262,
-        "voteShare": 0.015111238834207438
+        "votes": 521,
+        "voteShare": 0.012459941646338547
       }
     ],
-    "totalVotes": 83514
+    "totalVotes": 41814
   },
   {
-    "ridingId": 35094,
+    "ridingId": 35093,
     "year": 2019,
     "candidates": [
       {
@@ -6290,41 +6290,78 @@
     "totalVotes": 46556
   },
   {
+    "ridingId": 35094,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26123,
+        "voteShare": 0.6111787001076224
+      },
+      {
+        "party": 1,
+        "votes": 9553,
+        "voteShare": 0.2235038135791493
+      },
+      {
+        "party": 2,
+        "votes": 4806,
+        "voteShare": 0.11244209442702728
+      },
+      {
+        "party": 4,
+        "votes": 1220,
+        "voteShare": 0.028543353142108464
+      },
+      {
+        "party": 5,
+        "votes": 648,
+        "voteShare": 0.015160731832857611
+      },
+      {
+        "party": 6,
+        "votes": 392,
+        "voteShare": 0.00917130691123485
+      }
+    ],
+    "totalVotes": 42742
+  },
+  {
     "ridingId": 35095,
     "year": 2019,
     "candidates": [
       {
         "party": 0,
-        "votes": 47034,
-        "voteShare": 0.575135425965101
+        "votes": 20911,
+        "voteShare": 0.5356712862156415
       },
       {
         "party": 1,
-        "votes": 21391,
-        "voteShare": 0.2615708189143912
+        "votes": 11838,
+        "voteShare": 0.30325076209749724
       },
       {
         "party": 2,
-        "votes": 9845,
-        "voteShare": 0.1203854290221206
+        "votes": 5039,
+        "voteShare": 0.12908266516381894
       },
       {
         "party": 4,
-        "votes": 2016,
-        "voteShare": 0.02465180547573338
+        "votes": 796,
+        "voteShare": 0.020390911186822756
       },
       {
         "party": 5,
-        "votes": 1018,
-        "voteShare": 0.01244818351899632
+        "votes": 370,
+        "voteShare": 0.009478187360709071
       },
       {
         "party": 6,
-        "votes": 475,
-        "voteShare": 0.005808337103657418
+        "votes": 83,
+        "voteShare": 0.002126187975510413
       }
     ],
-    "totalVotes": 81779
+    "totalVotes": 39037
   },
   {
     "ridingId": 35096,
@@ -6362,43 +6399,6 @@
       }
     ],
     "totalVotes": 50635
-  },
-  {
-    "ridingId": 35097,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 0,
-        "votes": 31360,
-        "voteShare": 0.6219014000713917
-      },
-      {
-        "party": 1,
-        "votes": 10115,
-        "voteShare": 0.20059096497838416
-      },
-      {
-        "party": 2,
-        "votes": 5801,
-        "voteShare": 0.11503986038948162
-      },
-      {
-        "party": 4,
-        "votes": 2330,
-        "voteShare": 0.04620632213540634
-      },
-      {
-        "party": 5,
-        "votes": 467,
-        "voteShare": 0.009261095466624361
-      },
-      {
-        "party": 6,
-        "votes": 353,
-        "voteShare": 0.007000356958711776
-      }
-    ],
-    "totalVotes": 50426
   },
   {
     "ridingId": 35098,
@@ -6480,68 +6480,31 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 58005,
-        "voteShare": 0.48032095923420254
+        "votes": 24183,
+        "voteShare": 0.4022923494086138
       },
       {
         "party": 1,
-        "votes": 29658,
-        "voteShare": 0.2455884666661146
+        "votes": 18978,
+        "voteShare": 0.3157054214562574
       },
       {
         "party": 2,
-        "votes": 24619,
-        "voteShare": 0.20386211008338648
+        "votes": 12431,
+        "voteShare": 0.20679387154192935
       },
       {
         "party": 4,
-        "votes": 6869,
-        "voteShare": 0.056880004637181916
+        "votes": 3695,
+        "voteShare": 0.061467569410942724
       },
       {
         "party": 5,
-        "votes": 1498,
-        "voteShare": 0.012404461631459966
-      },
-      {
-        "party": 6,
-        "votes": 114,
-        "voteShare": 0.0009439977476544968
+        "votes": 826,
+        "voteShare": 0.01374078818225675
       }
     ],
-    "totalVotes": 120763
-  },
-  {
-    "ridingId": 35102,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 28976,
-        "voteShare": 0.5394798086053136
-      },
-      {
-        "party": 0,
-        "votes": 13767,
-        "voteShare": 0.2563162108320456
-      },
-      {
-        "party": 2,
-        "votes": 7674,
-        "voteShare": 0.14287576101729627
-      },
-      {
-        "party": 4,
-        "votes": 2126,
-        "voteShare": 0.0395822084861574
-      },
-      {
-        "party": 5,
-        "votes": 1168,
-        "voteShare": 0.02174601105918713
-      }
-    ],
-    "totalVotes": 53711
+    "totalVotes": 60113
   },
   {
     "ridingId": 35103,
@@ -6617,32 +6580,32 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 2,
-        "votes": 26829,
-        "voteShare": 0.3448856551529097
-      },
-      {
         "party": 0,
-        "votes": 23941,
-        "voteShare": 0.3077605378514224
+        "votes": 14498,
+        "voteShare": 0.3531704465177462
       },
       {
         "party": 1,
-        "votes": 21946,
-        "voteShare": 0.28211489761026337
+        "votes": 12039,
+        "voteShare": 0.293269347884339
+      },
+      {
+        "party": 2,
+        "votes": 11944,
+        "voteShare": 0.2909551533458381
       },
       {
         "party": 4,
-        "votes": 3086,
-        "voteShare": 0.03967039888933167
+        "votes": 1829,
+        "voteShare": 0.04455433485176975
       },
       {
         "party": 5,
-        "votes": 1989,
-        "voteShare": 0.02556851049607281
+        "votes": 741,
+        "voteShare": 0.018050717400306934
       }
     ],
-    "totalVotes": 77791
+    "totalVotes": 41051
   },
   {
     "ridingId": 35108,
@@ -6824,37 +6787,37 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 51333,
-        "voteShare": 0.4277464835677621
+        "party": 0,
+        "votes": 25810,
+        "voteShare": 0.5128357971705612
       },
       {
-        "party": 0,
-        "votes": 45587,
-        "voteShare": 0.3798663422438504
+        "party": 1,
+        "votes": 18289,
+        "voteShare": 0.3633961214433317
       },
       {
         "party": 2,
-        "votes": 10409,
-        "voteShare": 0.08673588427438171
+        "votes": 3910,
+        "voteShare": 0.07769035129550152
       },
       {
         "party": 4,
-        "votes": 10153,
-        "voteShare": 0.08460269315378975
+        "votes": 1302,
+        "voteShare": 0.02587029089175012
       },
       {
         "party": 5,
-        "votes": 2361,
-        "voteShare": 0.01967368842077195
+        "votes": 852,
+        "voteShare": 0.01692894611349547
       },
       {
         "party": 6,
         "votes": 165,
-        "voteShare": 0.001374908339444037
+        "voteShare": 0.003278493085360038
       }
     ],
-    "totalVotes": 120008
+    "totalVotes": 50328
   },
   {
     "ridingId": 35114,
@@ -6889,41 +6852,68 @@
     "totalVotes": 63706
   },
   {
+    "ridingId": 35115,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 33044,
+        "voteShare": 0.47422502870264066
+      },
+      {
+        "party": 0,
+        "votes": 19777,
+        "voteShare": 0.28382606199770377
+      },
+      {
+        "party": 4,
+        "votes": 8851,
+        "voteShare": 0.12702353616532722
+      },
+      {
+        "party": 2,
+        "votes": 6499,
+        "voteShare": 0.09326923076923077
+      },
+      {
+        "party": 5,
+        "votes": 1509,
+        "voteShare": 0.021656142365097587
+      }
+    ],
+    "totalVotes": 69680
+  },
+  {
     "ridingId": 35116,
     "year": 2019,
     "candidates": [
       {
         "party": 0,
-        "votes": 49228,
-        "voteShare": 0.3905186501451713
+        "votes": 30182,
+        "voteShare": 0.4367809438358345
       },
       {
         "party": 1,
-        "votes": 40415,
-        "voteShare": 0.32060638753589615
+        "votes": 24564,
+        "voteShare": 0.3554796602075223
       },
       {
         "party": 2,
-        "votes": 28177,
-        "voteShare": 0.22352409208459598
+        "votes": 9760,
+        "voteShare": 0.14124252905167797
       },
       {
         "party": 4,
-        "votes": 5912,
-        "voteShare": 0.04689904647067223
+        "votes": 3735,
+        "voteShare": 0.05405131618934603
       },
       {
         "party": 5,
-        "votes": 2139,
-        "voteShare": 0.016968379634771297
-      },
-      {
-        "party": 6,
-        "votes": 187,
-        "voteShare": 0.0014834441288930492
+        "votes": 860,
+        "voteShare": 0.012445550715619166
       }
     ],
-    "totalVotes": 126058
+    "totalVotes": 69101
   },
   {
     "ridingId": 35117,
@@ -6963,41 +6953,78 @@
     "totalVotes": 45470
   },
   {
+    "ridingId": 35118,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 19046,
+        "voteShare": 0.33439261197043385
+      },
+      {
+        "party": 2,
+        "votes": 18417,
+        "voteShare": 0.32334919325104905
+      },
+      {
+        "party": 1,
+        "votes": 15851,
+        "voteShare": 0.2782976631493934
+      },
+      {
+        "party": 4,
+        "votes": 2177,
+        "voteShare": 0.038221816458029745
+      },
+      {
+        "party": 5,
+        "votes": 1279,
+        "voteShare": 0.022455536632898503
+      },
+      {
+        "party": 6,
+        "votes": 187,
+        "voteShare": 0.0032831785381954807
+      }
+    ],
+    "totalVotes": 56957
+  },
+  {
     "ridingId": 35119,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 34843,
-        "voteShare": 0.3295064448710553
+        "party": 2,
+        "votes": 20800,
+        "voteShare": 0.40029252145798855
       },
       {
         "party": 0,
-        "votes": 33285,
-        "voteShare": 0.3147726090615927
+        "votes": 18878,
+        "voteShare": 0.3633039528886494
       },
       {
-        "party": 2,
-        "votes": 28420,
-        "voteShare": 0.26876483549738517
+        "party": 1,
+        "votes": 9925,
+        "voteShare": 0.1910049651668527
       },
       {
         "party": 4,
-        "votes": 5975,
-        "voteShare": 0.05650492231164238
+        "votes": 1325,
+        "voteShare": 0.025499403410184366
       },
       {
         "party": 5,
-        "votes": 1833,
-        "voteShare": 0.017334480769412634
+        "votes": 958,
+        "voteShare": 0.018436549786382355
       },
       {
         "party": 6,
-        "votes": 1387,
-        "voteShare": 0.013116707488911795
+        "votes": 76,
+        "voteShare": 0.0014626072899426505
       }
     ],
-    "totalVotes": 105743
+    "totalVotes": 51962
   },
   {
     "ridingId": 35120,
@@ -7005,31 +7032,58 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 47656,
-        "voteShare": 0.5437141325057901
+        "votes": 21680,
+        "voteShare": 0.5020145417496411
       },
       {
         "party": 1,
-        "votes": 24267,
-        "voteShare": 0.2768656801560771
+        "votes": 15852,
+        "voteShare": 0.36706340017598293
       },
       {
         "party": 2,
-        "votes": 12005,
-        "voteShare": 0.13696676516560372
+        "votes": 4251,
+        "voteShare": 0.09843467790487657
       },
       {
         "party": 4,
-        "votes": 3036,
-        "voteShare": 0.03463815902063914
+        "votes": 1403,
+        "voteShare": 0.032487380169499376
+      }
+    ],
+    "totalVotes": 43186
+  },
+  {
+    "ridingId": 35122,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 25976,
+        "voteShare": 0.5842160897825158
+      },
+      {
+        "party": 1,
+        "votes": 8415,
+        "voteShare": 0.18925848458268674
+      },
+      {
+        "party": 2,
+        "votes": 7754,
+        "voteShare": 0.17439219126014888
+      },
+      {
+        "party": 4,
+        "votes": 1633,
+        "voteShare": 0.03672716640802465
       },
       {
         "party": 5,
         "votes": 685,
-        "voteShare": 0.007815263151889925
+        "voteShare": 0.015406067966623934
       }
     ],
-    "totalVotes": 87649
+    "totalVotes": 44463
   },
   {
     "ridingId": 46001,
@@ -7073,37 +7127,32 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 23529,
-        "voteShare": 0.3365372237717228
+        "party": 2,
+        "votes": 11919,
+        "voteShare": 0.5031874023726094
       },
       {
         "party": 0,
-        "votes": 22014,
-        "voteShare": 0.31486805406565116
+        "votes": 5616,
+        "voteShare": 0.23709207582218095
       },
       {
-        "party": 2,
-        "votes": 18475,
-        "voteShare": 0.2642494457555603
+        "party": 1,
+        "votes": 4714,
+        "voteShare": 0.19901211635074093
       },
       {
         "party": 4,
-        "votes": 3322,
-        "voteShare": 0.047514839447901025
+        "votes": 1144,
+        "voteShare": 0.0482965339637776
       },
       {
         "party": 5,
-        "votes": 2269,
-        "voteShare": 0.03245369377100765
-      },
-      {
-        "party": 6,
-        "votes": 306,
-        "voteShare": 0.004376743188157048
+        "votes": 294,
+        "voteShare": 0.012411871490691097
       }
     ],
-    "totalVotes": 69915
+    "totalVotes": 23687
   },
   {
     "ridingId": 46003,
@@ -7143,36 +7192,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 45959,
-        "voteShare": 0.5415606146304676
+        "votes": 19856,
+        "voteShare": 0.4482369407196713
       },
       {
         "party": 0,
-        "votes": 17700,
-        "voteShare": 0.20856900452488691
+        "votes": 12356,
+        "voteShare": 0.27892907128990024
       },
       {
         "party": 2,
-        "votes": 15111,
-        "voteShare": 0.17806136877828055
+        "votes": 9387,
+        "voteShare": 0.21190572937830152
       },
       {
         "party": 4,
-        "votes": 3991,
-        "voteShare": 0.0470281862745098
+        "votes": 1777,
+        "voteShare": 0.04011467786356043
       },
       {
         "party": 5,
-        "votes": 1221,
-        "voteShare": 0.01438772624434389
+        "votes": 510,
+        "voteShare": 0.011512935121224435
       },
       {
         "party": 6,
-        "votes": 882,
-        "voteShare": 0.010393099547511312
+        "votes": 412,
+        "voteShare": 0.009300645627342093
       }
     ],
-    "totalVotes": 84864
+    "totalVotes": 44298
   },
   {
     "ridingId": 46005,
@@ -7249,36 +7298,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 46545,
-        "voteShare": 0.4801423560965546
-      },
-      {
-        "party": 0,
-        "votes": 26303,
-        "voteShare": 0.2713327831648442
+        "votes": 31109,
+        "voteShare": 0.6271722914398613
       },
       {
         "party": 2,
-        "votes": 16910,
-        "voteShare": 0.17443779657520114
+        "votes": 8873,
+        "voteShare": 0.1788839159711302
+      },
+      {
+        "party": 0,
+        "votes": 6003,
+        "voteShare": 0.12102334583282932
       },
       {
         "party": 4,
-        "votes": 5605,
-        "voteShare": 0.05781926965133072
+        "votes": 2934,
+        "voteShare": 0.05915084069190758
       },
       {
         "party": 5,
-        "votes": 1274,
-        "voteShare": 0.013142149783371157
-      },
-      {
-        "party": 6,
-        "votes": 303,
-        "voteShare": 0.0031256447286981638
+        "votes": 683,
+        "voteShare": 0.013769606064271602
       }
     ],
-    "totalVotes": 96940
+    "totalVotes": 49602
   },
   {
     "ridingId": 46010,
@@ -7461,36 +7505,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 66453,
-        "voteShare": 0.7971426515042465
+        "votes": 35313,
+        "voteShare": 0.7856237068677835
       },
       {
         "party": 2,
-        "votes": 9201,
-        "voteShare": 0.11037138333093421
+        "votes": 5535,
+        "voteShare": 0.12313955816592138
       },
       {
         "party": 0,
-        "votes": 3680,
-        "voteShare": 0.04414375509812389
-      },
-      {
-        "party": 5,
-        "votes": 1874,
-        "voteShare": 0.022479727460294613
+        "votes": 2085,
+        "voteShare": 0.04638590402456117
       },
       {
         "party": 4,
-        "votes": 1592,
-        "voteShare": 0.019096972314188377
+        "votes": 873,
+        "voteShare": 0.019422011613161583
+      },
+      {
+        "party": 5,
+        "votes": 799,
+        "voteShare": 0.017775701350419365
       },
       {
         "party": 6,
-        "votes": 564,
-        "voteShare": 0.006765510292212466
+        "votes": 344,
+        "voteShare": 0.007653117978153018
       }
     ],
-    "totalVotes": 83364
+    "totalVotes": 44949
   },
   {
     "ridingId": 47003,
@@ -7710,36 +7754,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 50850,
-        "voteShare": 0.5271287292932225
+        "votes": 24514,
+        "voteShare": 0.5212750122270186
       },
       {
         "party": 2,
-        "votes": 26666,
-        "voteShare": 0.2764290008915058
+        "votes": 13994,
+        "voteShare": 0.2975737342377783
       },
       {
         "party": 0,
-        "votes": 14565,
-        "voteShare": 0.15098583957041858
+        "votes": 6146,
+        "voteShare": 0.13069087970740212
       },
       {
         "party": 4,
-        "votes": 2721,
-        "voteShare": 0.028206829349200754
+        "votes": 1401,
+        "voteShare": 0.02979139643183703
       },
       {
         "party": 5,
-        "votes": 1359,
-        "voteShare": 0.014087865154562229
+        "votes": 667,
+        "voteShare": 0.014183341484679014
       },
       {
         "party": 6,
         "votes": 305,
-        "voteShare": 0.003161735741090125
+        "voteShare": 0.006485635911285007
       }
     ],
-    "totalVotes": 96466
+    "totalVotes": 47027
   },
   {
     "ridingId": 47011,
@@ -7841,38 +7885,6 @@
       }
     ],
     "totalVotes": 38769
-  },
-  {
-    "ridingId": 48001,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 55504,
-        "voteShare": 0.710860655737705
-      },
-      {
-        "party": 0,
-        "votes": 8425,
-        "voteShare": 0.10790215163934426
-      },
-      {
-        "party": 2,
-        "votes": 8185,
-        "voteShare": 0.10482838114754098
-      },
-      {
-        "party": 4,
-        "votes": 3315,
-        "voteShare": 0.042456454918032786
-      },
-      {
-        "party": 5,
-        "votes": 2651,
-        "voteShare": 0.03395235655737705
-      }
-    ],
-    "totalVotes": 78080
   },
   {
     "ridingId": 48002,
@@ -8018,43 +8030,6 @@
     "totalVotes": 65892
   },
   {
-    "ridingId": 48006,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 23805,
-        "voteShare": 0.5956610949854869
-      },
-      {
-        "party": 0,
-        "votes": 8690,
-        "voteShare": 0.2174457011310179
-      },
-      {
-        "party": 2,
-        "votes": 4227,
-        "voteShare": 0.10577019317385647
-      },
-      {
-        "party": 4,
-        "votes": 1318,
-        "voteShare": 0.03297968171354219
-      },
-      {
-        "party": 5,
-        "votes": 1089,
-        "voteShare": 0.027249524572114905
-      },
-      {
-        "party": 6,
-        "votes": 835,
-        "voteShare": 0.020893804423981584
-      }
-    ],
-    "totalVotes": 39964
-  },
-  {
     "ridingId": 48008,
     "year": 2019,
     "candidates": [
@@ -8097,36 +8072,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 98812,
-        "voteShare": 0.7122201559774539
+        "votes": 50559,
+        "voteShare": 0.7425537539654564
       },
       {
         "party": 0,
-        "votes": 20519,
-        "voteShare": 0.14789747581772839
+        "votes": 7507,
+        "voteShare": 0.11025437668899071
       },
       {
         "party": 2,
-        "votes": 12496,
-        "voteShare": 0.09006905101702489
+        "votes": 6445,
+        "voteShare": 0.0946569145811303
       },
       {
         "party": 4,
-        "votes": 4003,
-        "voteShare": 0.02885294584036097
+        "votes": 1992,
+        "voteShare": 0.029256256609094113
       },
       {
         "party": 5,
-        "votes": 2638,
-        "voteShare": 0.019014257088901382
-      },
-      {
-        "party": 6,
-        "votes": 270,
-        "voteShare": 0.0019461142585304675
+        "votes": 1585,
+        "voteShare": 0.0232786981553284
       }
     ],
-    "totalVotes": 138738
+    "totalVotes": 68088
   },
   {
     "ridingId": 48011,
@@ -8314,36 +8284,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 50856,
-        "voteShare": 0.5078490113840624
-      },
-      {
-        "party": 0,
-        "votes": 25979,
-        "voteShare": 0.2594268024765329
+        "votes": 24120,
+        "voteShare": 0.5135958094670272
       },
       {
         "party": 2,
-        "votes": 18222,
-        "voteShare": 0.18196524865188735
+        "votes": 11800,
+        "voteShare": 0.25126163149713604
+      },
+      {
+        "party": 0,
+        "votes": 8100,
+        "voteShare": 0.1724762046717629
       },
       {
         "party": 4,
-        "votes": 2157,
-        "voteShare": 0.021539844218094666
+        "votes": 1189,
+        "voteShare": 0.025317803377126673
       },
       {
         "party": 5,
-        "votes": 2027,
-        "voteShare": 0.02024166167365688
+        "votes": 1074,
+        "voteShare": 0.02286906713795967
       },
       {
         "party": 6,
-        "votes": 899,
-        "voteShare": 0.008977431595765927
+        "votes": 680,
+        "voteShare": 0.014479483848987501
       }
     ],
-    "totalVotes": 100140
+    "totalVotes": 46963
   },
   {
     "ridingId": 48018,
@@ -8413,43 +8383,6 @@
       }
     ],
     "totalVotes": 61148
-  },
-  {
-    "ridingId": 48021,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 63346,
-        "voteShare": 0.7243267966382712
-      },
-      {
-        "party": 0,
-        "votes": 10802,
-        "voteShare": 0.12351495054599508
-      },
-      {
-        "party": 2,
-        "votes": 9820,
-        "voteShare": 0.11228631867817734
-      },
-      {
-        "party": 4,
-        "votes": 1660,
-        "voteShare": 0.018981190326453606
-      },
-      {
-        "party": 5,
-        "votes": 1616,
-        "voteShare": 0.018478074438282546
-      },
-      {
-        "party": 6,
-        "votes": 211,
-        "voteShare": 0.0024126693728203077
-      }
-    ],
-    "totalVotes": 87455
   },
   {
     "ridingId": 48022,
@@ -8526,31 +8459,31 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 105070,
-        "voteShare": 0.8301335229517263
-      },
-      {
-        "party": 2,
-        "votes": 8012,
-        "voteShare": 0.06330094019119854
+        "votes": 53872,
+        "voteShare": 0.8213321949657727
       },
       {
         "party": 0,
-        "votes": 6766,
-        "voteShare": 0.05345658528877301
+        "votes": 3856,
+        "voteShare": 0.058788553307618424
+      },
+      {
+        "party": 2,
+        "votes": 3767,
+        "voteShare": 0.0574316598313793
       },
       {
         "party": 4,
-        "votes": 3532,
-        "voteShare": 0.027905506834162912
+        "votes": 2398,
+        "voteShare": 0.03655989388788096
       },
       {
         "party": 5,
-        "votes": 3190,
-        "voteShare": 0.025203444734139213
+        "votes": 1698,
+        "voteShare": 0.02588769800734857
       }
     ],
-    "totalVotes": 126570
+    "totalVotes": 65591
   },
   {
     "ridingId": 48025,
@@ -8583,6 +8516,38 @@
       }
     ],
     "totalVotes": 50976
+  },
+  {
+    "ridingId": 48026,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 51198,
+        "voteShare": 0.8396005182111874
+      },
+      {
+        "party": 2,
+        "votes": 4245,
+        "voteShare": 0.06961412945440233
+      },
+      {
+        "party": 0,
+        "votes": 2910,
+        "voteShare": 0.04772134669312386
+      },
+      {
+        "party": 5,
+        "votes": 1492,
+        "voteShare": 0.024467439610357664
+      },
+      {
+        "party": 4,
+        "votes": 1134,
+        "voteShare": 0.01859656603092868
+      }
+    ],
+    "totalVotes": 60979
   },
   {
     "ridingId": 48027,
@@ -8627,36 +8592,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 95478,
-        "voteShare": 0.7341581379612614
+        "votes": 40713,
+        "voteShare": 0.65791344817556
       },
       {
         "party": 2,
-        "votes": 14056,
-        "voteShare": 0.10808067604247565
+        "votes": 9110,
+        "voteShare": 0.1472156685304289
       },
       {
         "party": 0,
-        "votes": 12238,
-        "voteShare": 0.09410154477858686
+        "votes": 8443,
+        "voteShare": 0.13643708994537992
       },
       {
         "party": 4,
-        "votes": 3965,
-        "voteShare": 0.03048803930765623
+        "votes": 1939,
+        "voteShare": 0.03133382890016483
       },
       {
         "party": 5,
-        "votes": 3644,
-        "voteShare": 0.028019776856771574
+        "votes": 1007,
+        "voteShare": 0.01627290649946673
       },
       {
         "party": 6,
         "votes": 670,
-        "voteShare": 0.005151825053248341
+        "voteShare": 0.01082705794899971
       }
     ],
-    "totalVotes": 130051
+    "totalVotes": 61882
   },
   {
     "ridingId": 48030,
@@ -8664,73 +8629,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 95888,
-        "voteShare": 0.7954473810827402
+        "votes": 42045,
+        "voteShare": 0.7917780874543332
       },
       {
         "party": 2,
-        "votes": 10651,
-        "voteShare": 0.08835631211321819
+        "votes": 4639,
+        "voteShare": 0.08736017475801289
       },
       {
         "party": 0,
-        "votes": 7068,
-        "voteShare": 0.058633218854213326
+        "votes": 3528,
+        "voteShare": 0.0664381755866069
       },
       {
         "party": 5,
-        "votes": 3803,
-        "voteShare": 0.0315481227083437
+        "votes": 1350,
+        "voteShare": 0.025422771270385298
       },
       {
         "party": 4,
-        "votes": 2799,
-        "voteShare": 0.023219351948633716
+        "votes": 1203,
+        "voteShare": 0.022654513954276676
       },
       {
         "party": 6,
         "votes": 337,
-        "voteShare": 0.002795613292850862
+        "voteShare": 0.0063462769763850705
       }
     ],
-    "totalVotes": 120546
-  },
-  {
-    "ridingId": 48031,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 39506,
-        "voteShare": 0.6069349065154936
-      },
-      {
-        "party": 0,
-        "votes": 12477,
-        "voteShare": 0.19168548647278424
-      },
-      {
-        "party": 2,
-        "votes": 9895,
-        "voteShare": 0.15201794410901662
-      },
-      {
-        "party": 4,
-        "votes": 1594,
-        "voteShare": 0.024488792613418138
-      },
-      {
-        "party": 5,
-        "votes": 1268,
-        "voteShare": 0.01948041972008419
-      },
-      {
-        "party": 6,
-        "votes": 351,
-        "voteShare": 0.005392450569203115
-      }
-    ],
-    "totalVotes": 65091
+    "totalVotes": 53102
   },
   {
     "ridingId": 48032,
@@ -8765,41 +8693,36 @@
     "totalVotes": 51649
   },
   {
-    "ridingId": 48033,
+    "ridingId": 48034,
     "year": 2019,
     "candidates": [
       {
         "party": 1,
-        "votes": 53235,
-        "voteShare": 0.7753761451854873
+        "votes": 108608,
+        "voteShare": 0.8008671735010655
       },
       {
         "party": 2,
-        "votes": 6940,
-        "voteShare": 0.10108219118225381
+        "votes": 10958,
+        "voteShare": 0.0808034627948648
       },
       {
         "party": 0,
-        "votes": 4696,
-        "voteShare": 0.06839797835617635
-      },
-      {
-        "party": 4,
-        "votes": 1745,
-        "voteShare": 0.025416199367872178
+        "votes": 7335,
+        "voteShare": 0.05408773495166393
       },
       {
         "party": 5,
-        "votes": 1625,
-        "voteShare": 0.0236683805001675
+        "votes": 5090,
+        "voteShare": 0.03753327483353366
       },
       {
-        "party": 6,
-        "votes": 416,
-        "voteShare": 0.006059105408042879
+        "party": 4,
+        "votes": 3622,
+        "voteShare": 0.026708353918872083
       }
     ],
-    "totalVotes": 68657
+    "totalVotes": 135613
   },
   {
     "ridingId": 48035,
@@ -8917,37 +8840,37 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 2,
-        "votes": 33141,
-        "voteShare": 0.34861410613790567
+        "party": 0,
+        "votes": 17770,
+        "voteShare": 0.35498112227571466
       },
       {
-        "party": 0,
-        "votes": 28476,
-        "voteShare": 0.2995424183453427
+        "party": 2,
+        "votes": 16185,
+        "voteShare": 0.3233184841886574
       },
       {
         "party": 1,
-        "votes": 23648,
-        "voteShare": 0.2487561142376269
+        "votes": 9734,
+        "voteShare": 0.19445054835294354
       },
       {
         "party": 4,
-        "votes": 7278,
-        "voteShare": 0.07655814442749698
+        "votes": 4801,
+        "voteShare": 0.09590682994067001
       },
       {
         "party": 5,
-        "votes": 1724,
-        "voteShare": 0.01813496029032767
+        "votes": 1079,
+        "voteShare": 0.02155456561257716
       },
       {
         "party": 6,
-        "votes": 798,
-        "voteShare": 0.008394256561300164
+        "votes": 490,
+        "voteShare": 0.009788449629437264
       }
     ],
-    "totalVotes": 95065
+    "totalVotes": 50059
   },
   {
     "ridingId": 59004,
@@ -8992,36 +8915,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 57807,
-        "voteShare": 0.48704187378886177
+        "votes": 26672,
+        "voteShare": 0.49617709980466934
       },
       {
         "party": 0,
-        "votes": 27100,
-        "voteShare": 0.2283258909764934
+        "votes": 10848,
+        "voteShare": 0.2018044833038787
       },
       {
         "party": 2,
-        "votes": 19861,
-        "voteShare": 0.16733507456399022
+        "votes": 8957,
+        "voteShare": 0.16662636033857314
       },
       {
         "party": 4,
-        "votes": 10329,
-        "voteShare": 0.08702502316960148
+        "votes": 5243,
+        "voteShare": 0.097535113012743
       },
       {
         "party": 5,
-        "votes": 3105,
-        "voteShare": 0.026160586401550258
+        "votes": 1760,
+        "voteShare": 0.03274114035903637
       },
       {
         "party": 6,
-        "votes": 488,
-        "voteShare": 0.0041115510995029065
+        "votes": 275,
+        "voteShare": 0.005115803181099433
       }
     ],
-    "totalVotes": 118690
+    "totalVotes": 53755
   },
   {
     "ridingId": 59006,
@@ -9240,40 +9163,35 @@
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 48933,
-        "voteShare": 0.4032119843768025
+        "party": 0,
+        "votes": 18401,
+        "voteShare": 0.3762600961046928
       },
       {
-        "party": 0,
-        "votes": 38117,
-        "voteShare": 0.31408724599943966
+        "party": 1,
+        "votes": 16518,
+        "voteShare": 0.3377568755750946
       },
       {
         "party": 2,
-        "votes": 20469,
-        "voteShare": 0.16866626015590236
+        "votes": 10533,
+        "voteShare": 0.21537675084347205
       },
       {
         "party": 4,
-        "votes": 11149,
-        "voteShare": 0.09186868603635524
+        "votes": 2360,
+        "voteShare": 0.04825682445557714
       },
       {
         "party": 5,
-        "votes": 2225,
-        "voteShare": 0.01833418480858287
-      },
-      {
-        "party": 6,
-        "votes": 465,
-        "voteShare": 0.003831638622917319
+        "votes": 1093,
+        "voteShare": 0.02234945302116348
       }
     ],
-    "totalVotes": 121358
+    "totalVotes": 48905
   },
   {
-    "ridingId": 59014,
+    "ridingId": 59016,
     "year": 2019,
     "candidates": [
       {
@@ -9310,221 +9228,147 @@
     "totalVotes": 69120
   },
   {
-    "ridingId": 59015,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 30168,
-        "voteShare": 0.44806178523689294
-      },
-      {
-        "party": 2,
-        "votes": 23149,
-        "voteShare": 0.343814050200505
-      },
-      {
-        "party": 0,
-        "votes": 6151,
-        "voteShare": 0.09135600772315461
-      },
-      {
-        "party": 4,
-        "votes": 6145,
-        "voteShare": 0.09126689440071291
-      },
-      {
-        "party": 5,
-        "votes": 1378,
-        "voteShare": 0.020466359720778256
-      },
-      {
-        "party": 6,
-        "votes": 339,
-        "voteShare": 0.005034902717956334
-      }
-    ],
-    "totalVotes": 67330
-  },
-  {
-    "ridingId": 59016,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 29823,
-        "voteShare": 0.470008825568934
-      },
-      {
-        "party": 0,
-        "votes": 16254,
-        "voteShare": 0.25616213830927315
-      },
-      {
-        "party": 2,
-        "votes": 10690,
-        "voteShare": 0.16847380697219946
-      },
-      {
-        "party": 4,
-        "votes": 4881,
-        "voteShare": 0.07692428922650192
-      },
-      {
-        "party": 5,
-        "votes": 1305,
-        "voteShare": 0.02056672760511883
-      },
-      {
-        "party": 6,
-        "votes": 499,
-        "voteShare": 0.00786421231797264
-      }
-    ],
-    "totalVotes": 63452
-  },
-  {
-    "ridingId": 59017,
-    "year": 2019,
-    "candidates": [
-      {
-        "party": 1,
-        "votes": 19535,
-        "voteShare": 0.4240654712803369
-      },
-      {
-        "party": 0,
-        "votes": 12299,
-        "voteShare": 0.2669864976338297
-      },
-      {
-        "party": 2,
-        "votes": 8089,
-        "voteShare": 0.17559588416619631
-      },
-      {
-        "party": 4,
-        "votes": 5019,
-        "voteShare": 0.10895237268267269
-      },
-      {
-        "party": 5,
-        "votes": 1055,
-        "voteShare": 0.022901923327399817
-      },
-      {
-        "party": 6,
-        "votes": 69,
-        "voteShare": 0.0014978509095645378
-      }
-    ],
-    "totalVotes": 46066
-  },
-  {
     "ridingId": 59019,
     "year": 2019,
     "candidates": [
       {
-        "party": 2,
-        "votes": 40422,
-        "voteShare": 0.32378785815557387
+        "party": 4,
+        "votes": 24844,
+        "voteShare": 0.34570856061449406
       },
       {
         "party": 1,
-        "votes": 30073,
-        "voteShare": 0.24089041260483335
+        "votes": 18634,
+        "voteShare": 0.2592953356339753
       },
       {
-        "party": 4,
-        "votes": 29222,
-        "voteShare": 0.23407374179956905
+        "party": 2,
+        "votes": 16985,
+        "voteShare": 0.2363492151842369
       },
       {
         "party": 0,
-        "votes": 22149,
-        "voteShare": 0.17741767528295993
+        "votes": 9735,
+        "voteShare": 0.13546421017477459
       },
       {
         "party": 5,
-        "votes": 1911,
-        "voteShare": 0.015307471103243325
+        "votes": 1049,
+        "voteShare": 0.01459701658688634
       },
       {
         "party": 6,
-        "votes": 1064,
-        "voteShare": 0.00852284105382046
+        "votes": 617,
+        "voteShare": 0.008585661805632862
       }
     ],
-    "totalVotes": 124841
+    "totalVotes": 71864
   },
   {
     "ridingId": 59020,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 36154,
-        "voteShare": 0.4876121114033313
+        "party": 2,
+        "votes": 23437,
+        "voteShare": 0.44239953187232195
       },
       {
         "party": 0,
-        "votes": 16783,
-        "voteShare": 0.22635376626879763
+        "votes": 12414,
+        "voteShare": 0.23432810464918738
       },
       {
-        "party": 2,
-        "votes": 11353,
-        "voteShare": 0.1531188886641041
+        "party": 1,
+        "votes": 11439,
+        "voteShare": 0.21592389150008495
       },
       {
         "party": 4,
-        "votes": 7828,
-        "voteShare": 0.10557691010857104
+        "votes": 4378,
+        "voteShare": 0.08263963606848256
       },
       {
         "party": 5,
-        "votes": 2027,
-        "voteShare": 0.0273383235551959
+        "votes": 862,
+        "voteShare": 0.016271212035411594
+      },
+      {
+        "party": 6,
+        "votes": 447,
+        "voteShare": 0.008437623874511581
       }
     ],
-    "totalVotes": 74145
+    "totalVotes": 52977
   },
   {
     "ridingId": 59021,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 37410,
-        "voteShare": 0.2972704517461957
-      },
-      {
-        "party": 0,
-        "votes": 35230,
-        "voteShare": 0.27994755453136794
-      },
-      {
         "party": 2,
-        "votes": 34174,
-        "voteShare": 0.27155627955024036
+        "votes": 23834,
+        "voteShare": 0.3788285782404832
+      },
+      {
+        "party": 1,
+        "votes": 20502,
+        "voteShare": 0.32586823492013034
       },
       {
         "party": 4,
-        "votes": 16759,
-        "voteShare": 0.13317175890976996
+        "votes": 8891,
+        "voteShare": 0.14131765079869665
+      },
+      {
+        "party": 0,
+        "votes": 8251,
+        "voteShare": 0.13114519589922913
       },
       {
         "party": 5,
-        "votes": 1937,
-        "voteShare": 0.015391950415193293
+        "votes": 1102,
+        "voteShare": 0.017515695780020664
       },
       {
         "party": 6,
         "votes": 335,
-        "voteShare": 0.002662004847232707
+        "voteShare": 0.005324644361440038
       }
     ],
-    "totalVotes": 125845
+    "totalVotes": 62915
+  },
+  {
+    "ridingId": 59022,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 0,
+        "votes": 26979,
+        "voteShare": 0.4287144446210075
+      },
+      {
+        "party": 1,
+        "votes": 16908,
+        "voteShare": 0.2686794851422215
+      },
+      {
+        "party": 2,
+        "votes": 10340,
+        "voteShare": 0.16430955029397742
+      },
+      {
+        "party": 4,
+        "votes": 7868,
+        "voteShare": 0.125027808676307
+      },
+      {
+        "party": 5,
+        "votes": 835,
+        "voteShare": 0.013268711266486573
+      }
+    ],
+    "totalVotes": 62930
   },
   {
     "ridingId": 59024,
@@ -9569,36 +9413,36 @@
     "candidates": [
       {
         "party": 1,
-        "votes": 35892,
-        "voteShare": 0.38668390433096317
-      },
-      {
-        "party": 0,
-        "votes": 26747,
-        "voteShare": 0.2881598793363499
+        "votes": 16855,
+        "voteShare": 0.31211229005795976
       },
       {
         "party": 2,
-        "votes": 22319,
-        "voteShare": 0.24045464339581987
+        "votes": 16702,
+        "voteShare": 0.30927911412328946
+      },
+      {
+        "party": 0,
+        "votes": 15695,
+        "voteShare": 0.29063200192581895
       },
       {
         "party": 4,
-        "votes": 6249,
-        "voteShare": 0.06732385261797026
+        "votes": 3873,
+        "voteShare": 0.07171823787567358
       },
       {
         "party": 5,
-        "votes": 1359,
-        "voteShare": 0.014641241111829347
+        "votes": 821,
+        "voteShare": 0.015202859100420347
       },
       {
         "party": 6,
-        "votes": 254,
-        "voteShare": 0.002736479207067442
+        "votes": 57,
+        "voteShare": 0.0010554969168379534
       }
     ],
-    "totalVotes": 92820
+    "totalVotes": 54003
   },
   {
     "ridingId": 59026,
@@ -9633,78 +9477,110 @@
     "totalVotes": 55129
   },
   {
+    "ridingId": 59027,
+    "year": 2019,
+    "candidates": [
+      {
+        "party": 1,
+        "votes": 19037,
+        "voteShare": 0.4904294510137311
+      },
+      {
+        "party": 0,
+        "votes": 11052,
+        "voteShare": 0.2847206121029446
+      },
+      {
+        "party": 2,
+        "votes": 5617,
+        "voteShare": 0.14470463971971043
+      },
+      {
+        "party": 4,
+        "votes": 2376,
+        "voteShare": 0.06121029445861349
+      },
+      {
+        "party": 5,
+        "votes": 538,
+        "voteShare": 0.013859906741891439
+      },
+      {
+        "party": 6,
+        "votes": 197,
+        "voteShare": 0.005075095963108947
+      }
+    ],
+    "totalVotes": 38817
+  },
+  {
     "ridingId": 59029,
     "year": 2019,
     "candidates": [
       {
         "party": 4,
-        "votes": 39126,
-        "voteShare": 0.28696111363736376
+        "votes": 33454,
+        "voteShare": 0.4908877476155539
       },
       {
         "party": 1,
-        "votes": 37797,
-        "voteShare": 0.2772138529916536
-      },
-      {
-        "party": 2,
-        "votes": 33466,
-        "voteShare": 0.2454490780807651
+        "votes": 13784,
+        "voteShare": 0.20225972120322816
       },
       {
         "party": 0,
-        "votes": 23031,
-        "voteShare": 0.16891584644947413
+        "votes": 11326,
+        "voteShare": 0.16619222303741746
+      },
+      {
+        "party": 2,
+        "votes": 8657,
+        "voteShare": 0.12702861335289803
       },
       {
         "party": 5,
-        "votes": 2567,
-        "voteShare": 0.018827101638478578
-      },
-      {
-        "party": 6,
-        "votes": 359,
-        "voteShare": 0.002633007202264826
+        "votes": 929,
+        "voteShare": 0.013631694790902421
       }
     ],
-    "totalVotes": 136346
+    "totalVotes": 68150
   },
   {
     "ridingId": 59031,
     "year": 2019,
     "candidates": [
       {
-        "party": 1,
-        "votes": 31234,
-        "voteShare": 0.3748005039899202
+        "party": 2,
+        "votes": 16944,
+        "voteShare": 0.40943359752561376
       },
       {
-        "party": 2,
-        "votes": 23265,
-        "voteShare": 0.27917441651166974
+        "party": 1,
+        "votes": 13756,
+        "voteShare": 0.33239899478059154
       },
       {
         "party": 0,
-        "votes": 19524,
-        "voteShare": 0.23428331433371333
+        "votes": 4793,
+        "voteShare": 0.115817707326503
       },
       {
         "party": 4,
-        "votes": 6252,
-        "voteShare": 0.075022499550009
+        "votes": 3280,
+        "voteShare": 0.07925768412913203
       },
       {
         "party": 6,
-        "votes": 2120,
-        "voteShare": 0.025439491210175795
+        "votes": 1671,
+        "voteShare": 0.04037792383529867
       },
       {
         "party": 5,
         "votes": 940,
-        "voteShare": 0.01127977440451191
+        "voteShare": 0.02271409240286101
       }
     ],
-    "totalVotes": 83335
+    "totalVotes": 41384
   },
   {
     "ridingId": 59032,
@@ -9961,36 +9837,36 @@
     "candidates": [
       {
         "party": 0,
-        "votes": 39901,
-        "voteShare": 0.4247136713926853
+        "votes": 22093,
+        "voteShare": 0.4352957402372227
       },
       {
         "party": 1,
-        "votes": 28470,
-        "voteShare": 0.3030399795631626
+        "votes": 14082,
+        "voteShare": 0.27745596406194584
       },
       {
         "party": 2,
-        "votes": 15696,
-        "voteShare": 0.1670711457401967
+        "votes": 7681,
+        "voteShare": 0.15133782559010128
       },
       {
         "party": 4,
-        "votes": 8759,
-        "voteShare": 0.09323242644867373
+        "votes": 6308,
+        "voteShare": 0.12428577057965874
       },
       {
         "party": 5,
-        "votes": 960,
-        "voteShare": 0.01021841869970622
+        "votes": 428,
+        "voteShare": 0.008432832880167081
       },
       {
         "party": 6,
         "votes": 162,
-        "voteShare": 0.0017243581555754248
+        "voteShare": 0.0031918666509043623
       }
     ],
-    "totalVotes": 93948
+    "totalVotes": 50754
   },
   {
     "ridingId": 59042,

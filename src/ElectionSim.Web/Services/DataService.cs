@@ -27,6 +27,8 @@ public class DataService(HttpClient http)
     public List<RegionalPoll>? Polling { get; private set; }
     public List<HexPosition>? HexLayout { get; private set; }
     public List<RidingDemographics>? Demographics { get; private set; }
+    public List<PostElectionEvent>? PostElectionEvents { get; private set; }
+    public List<RidingMp>? RidingMps { get; private set; }
     public bool IsLoaded { get; private set; }
     public SimulationTrendData? TrendData { get; private set; }
     public bool TrendsLoading { get; private set; }
@@ -45,8 +47,10 @@ public class DataService(HttpClient http)
         var pollingTask = LoadAsync<List<RegionalPoll>>("data/polling.json");
         var hexTask = LoadAsync<List<HexPosition>>("data/hex-layout.json");
         var demoTask = LoadAsync<List<RidingDemographics>>("data/demographics.json");
+        var eventsTask = LoadAsync<List<PostElectionEvent>>("data/post-election-events.json");
+        var mpsTask = LoadAsync<List<RidingMp>>("data/riding-mps.json");
 
-        await Task.WhenAll(ridingsTask, r2025Task, r2021Task, r2015Task, pollingTask, hexTask, demoTask);
+        await Task.WhenAll(ridingsTask, r2025Task, r2021Task, r2015Task, pollingTask, hexTask, demoTask, eventsTask, mpsTask);
 
         Ridings = ridingsTask.Result;
         Results2025 = r2025Task.Result;
@@ -55,6 +59,8 @@ public class DataService(HttpClient http)
         Polling = pollingTask.Result;
         HexLayout = hexTask.Result;
         Demographics = demoTask.Result;
+        PostElectionEvents = eventsTask.Result ?? [];
+        RidingMps = mpsTask.Result;
         IsLoaded = true;
     }
 
@@ -99,6 +105,25 @@ public class DataService(HttpClient http)
         }
         return null;
     }
+
+    /// <summary>Returns the election results for the given year, or null if not loaded.</summary>
+    public List<RidingResult>? GetResultsForYear(int year) => year switch
+    {
+        2015 => Results2015,
+        2021 => Results2021,
+        2025 => Results2025,
+        _ => null
+    };
+
+    /// <summary>Returns the winning MP for a riding in a specific election year.</summary>
+    public RidingMp? GetMpForRiding(int ridingId, int year) =>
+        RidingMps?.FirstOrDefault(m => m.RidingId == ridingId && m.Year == year);
+
+    /// <summary>Returns all historical MPs for a riding, ordered by year descending.</summary>
+    public List<RidingMp> GetMpHistory(int ridingId) =>
+        RidingMps?.Where(m => m.RidingId == ridingId)
+            .OrderByDescending(m => m.Year)
+            .ToList() ?? [];
 
     private async Task<T?> LoadAsync<T>(string path) where T : class
     {
