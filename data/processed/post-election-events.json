@@ -5,7 +5,8 @@
     "date": "2026-03-10",
     "electionYear": 2025,
     "fromParty": "NDP",
-    "toParty": "LPC"
+    "toParty": "LPC",
+    "description": "Lori Idlout (Nunavut)"
   },
   {
     "ridingId": 12001,
@@ -13,7 +14,8 @@
     "date": "2025-11-04",
     "electionYear": 2025,
     "fromParty": "CPC",
-    "toParty": "LPC"
+    "toParty": "LPC",
+    "description": "Chris d'Entremont (Acadie--Annapolis)"
   },
   {
     "ridingId": 35058,
@@ -21,7 +23,8 @@
     "date": "2025-12-11",
     "electionYear": 2025,
     "fromParty": "CPC",
-    "toParty": "LPC"
+    "toParty": "LPC",
+    "description": "Michael Ma (Markham--Unionville)"
   },
   {
     "ridingId": 48020,
@@ -29,20 +32,51 @@
     "date": "2026-02-18",
     "electionYear": 2025,
     "fromParty": "CPC",
-    "toParty": "LPC"
+    "toParty": "LPC",
+    "description": "Matt Jeneroux (Edmonton Riverbend)"
+  },
+  {
+    "ridingId": 48002,
+    "type": "vacancy",
+    "date": "2025-06-17",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "description": "Damien Kurek (Battle River--Crowfoot)"
+  },
+  {
+    "ridingId": 48002,
+    "type": "byElection",
+    "date": "2025-08-18",
+    "electionYear": 2025,
+    "toParty": "CPC",
+    "description": "Pierre Poilievre wins by-election (Battle River--Crowfoot)",
+    "mpName": "Pierre Poilievre",
+    "byElectionResult": {
+      "candidates": [
+        { "party": "CPC", "votes": 41308, "voteShare": 0.8086 },
+        { "party": "Other", "votes": 6367, "voteShare": 0.1246 },
+        { "party": "LPC", "votes": 2095, "voteShare": 0.0410 },
+        { "party": "NDP", "votes": 1061, "voteShare": 0.0208 },
+        { "party": "PPC", "votes": 138, "voteShare": 0.0027 },
+        { "party": "GPC", "votes": 116, "voteShare": 0.0023 }
+      ],
+      "totalVotes": 51085
+    }
   },
   {
     "ridingId": 35112,
     "type": "vacancy",
     "date": "2026-01-09",
     "electionYear": 2025,
-    "fromParty": "LPC"
+    "fromParty": "LPC",
+    "description": "Chrystia Freeland (University--Rosedale)"
   },
   {
     "ridingId": 35096,
     "type": "vacancy",
     "date": "2026-02-02",
     "electionYear": 2025,
-    "fromParty": "LPC"
+    "fromParty": "LPC",
+    "description": "Bill Blair (Scarborough Southwest)"
   }
 ]

@@ -130,10 +130,6 @@
                                             </span>
                                         }
                                     }
-                                    @if (!string.IsNullOrEmpty(evt.Description))
-                                    {
-                                        <div class="event-desc">@evt.Description</div>
-                                    }
                                 </div>
 
                                 @if (evt.Type == PostElectionEventType.ByElection && evt.ByElectionResult != null)
