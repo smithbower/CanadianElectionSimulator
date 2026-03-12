@@ -10,6 +10,11 @@ Domain-specific terms used throughout the codebase and documentation.
 - **Minority government**: A party wins the most seats but fewer than 172. It must negotiate with other parties to govern.
 - **Baseline election**: The historical election used as the starting point for projections. Vote shares from this election are adjusted by swing to produce riding-level projections.
 - **Redistribution / Redistricting**: Periodic redrawing of riding boundaries based on population changes. The most recent redistribution (2023 Representation Order) changed Canada from 338 to 343 ridings. Historical results must be mapped to current riding boundaries.
+- **By-election**: A special election held in a single riding to fill a vacancy (caused by resignation, death, appointment, etc.) between general elections. By-elections have different dynamics than general elections — lower turnout, no government formation at stake, potential for protest voting. The simulator blends by-election results into the baseline at 30% weight.
+- **Floor crossing**: When a sitting MP switches party allegiance without a by-election. The MP retains their seat but is recorded under the new party. Superseded if a by-election is subsequently held in the same riding.
+- **Vacancy**: A seat in the House of Commons that is currently unoccupied — the period between an MP's departure (resignation, death, etc.) and the resolution (typically a by-election). Vacancies have no current holder.
+- **Post-election event**: Any change to parliamentary state after a general election: by-elections, floor crossings, or vacancies. Events are replayed chronologically on top of election results to derive the current state of the House of Commons.
+- **Parliamentary state**: The current composition of the House of Commons after replaying all post-election events on top of the most recent general election results. Tracked per-riding via `RidingStatus`, which records the current holder, whether the seat changed via floor crossing or by-election, and the full event history.
 
 ## Parties
 
@@ -71,6 +76,11 @@ Domain-specific terms used throughout the codebase and documentation.
 - **Demographic prior**: Census-based prediction of riding vote shares using ridge regression on 9 demographic variables. Blended with swing-projected shares to improve estimates, especially for ridings with no historical data.
 - **Ridge regression**: Linear regression with an L2 penalty (lambda * ||beta||^2) on coefficients to prevent overfitting. The penalty shrinks coefficients toward zero, producing more stable predictions when predictors are correlated.
 - **Blend weight**: Controls how much the demographic prior influences the final projection. Default 0.02 (2%). Ridings with no baseline data get weight=1.0 (100% demographic prior).
+
+## By-Election Integration
+
+- **By-election baseline blending**: For ridings with by-election results, the general election baseline is blended with the by-election outcome before swing projection. `effective = (1 - w) * general + w * byElection`, where `w = ByElectionBlendWeight` (default 0.3). This incorporates more recent local signal while discounting by-election-specific dynamics.
+- **By-election blend weight**: The fraction of the by-election result used when blending into the baseline. Default 0.3 (30%). Set to 0.0 to ignore by-elections entirely; set to 1.0 to use only by-election results as the baseline for that riding.
 
 ## Validation
 
