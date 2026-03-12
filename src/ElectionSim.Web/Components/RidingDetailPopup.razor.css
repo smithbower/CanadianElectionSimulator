@@ -64,7 +64,7 @@
 }
 
 .mp-name.vacant-text {
-    color: #7b1fa2;
+    color: #5d4037;
     font-style: italic;
 }
 
@@ -158,18 +158,18 @@
 }
 
 .flip-badge.hold {
-    background: #e8f5e9;
-    color: #2e7d32;
+    background: #eceff1;
+    color: #455a64;
 }
 
 .flip-badge.flip {
-    background: #fff3e0;
-    color: #e65100;
+    background: #fff8e1;
+    color: #9e6d00;
 }
 
 .flip-badge.vacant {
-    background: #f3e5f5;
-    color: #7b1fa2;
+    background: #efebe9;
+    color: #5d4037;
 }
 
 .prev-runners-up {

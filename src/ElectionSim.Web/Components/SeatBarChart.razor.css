@@ -123,11 +123,11 @@
 
 .vacant-annotation {
     font-size: 0.8rem;
-    color: #7b1fa2;
+    color: #5d4037;
     font-weight: 500;
     margin-top: 0.5rem;
     padding: 0.35rem 0.75rem;
-    background: #f3e5f5;
+    background: #efebe9;
     border-radius: 4px;
     display: inline-block;
 }
