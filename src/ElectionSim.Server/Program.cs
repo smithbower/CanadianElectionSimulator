@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using ElectionSim.Server.Services;
@@ -30,6 +31,15 @@ app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.MapGet("/api/health", () => Results.Ok(new { status = "ok", timestamp = DateTime.UtcNow }));
+
+app.MapGet("/api/version", () =>
+{
+    var version = Assembly.GetExecutingAssembly()
+        .GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion
+        ?? Assembly.GetExecutingAssembly().GetName().Version?.ToString()
+        ?? "unknown";
+    return Results.Ok(new { version });
+});
 
 app.MapPost("/api/simulation/run", (HttpContext context, SimulationRequest? request, SimulationQueue queue) =>
 {

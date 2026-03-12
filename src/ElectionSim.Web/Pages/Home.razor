@@ -22,6 +22,10 @@ else
         <div class="sidebar-panel">
             <PollInputPanel State="State" />
             <SimulationControls State="State" />
+            @if (serverVersion != null)
+            {
+                <div class="version-label">v@(serverVersion)</div>
+            }
         </div>
 
         <div class="main-panel">
@@ -106,6 +110,7 @@ else
 
 @code {
     private Riding? selectedRiding;
+    private string? serverVersion;
 
     private static readonly JsonSerializerOptions SnapshotJsonOptions = new()
     {
@@ -129,6 +134,21 @@ else
         if (DataService.TrendData == null)
         {
             _ = LoadTrendDataAsync();
+        }
+        _ = LoadServerVersionAsync();
+    }
+
+    private async Task LoadServerVersionAsync()
+    {
+        try
+        {
+            var result = await Http.GetFromJsonAsync<JsonElement>("api/version");
+            serverVersion = result.GetProperty("version").GetString();
+            await InvokeAsync(StateHasChanged);
+        }
+        catch
+        {
+            // Server not available
         }
     }
 

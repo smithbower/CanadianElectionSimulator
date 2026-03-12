@@ -156,6 +156,14 @@
     scroll-margin-top: 3rem;
 }
 
+.version-label {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 0.05em;
+}
+
 @media (max-width: 900px) {
     .dashboard {
         flex-direction: column;
