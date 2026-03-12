@@ -1,12 +1,2046 @@
 [
   {
-    "ridingId": 62001,
-    "type": "floorCrossing",
-    "date": "2026-03-10",
-    "electionYear": 2025,
-    "fromParty": "NDP",
+    "ridingId": 12004,
+    "type": "byElection",
+    "date": "2009-11-09",
+    "electionYear": 2008,
+    "toParty": "CPC",
+    "description": "Scott Armstrong wins by-election (Cumberland--Colchester--Musquodoboit Valley)",
+    "mpName": "Scott Armstrong",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 11167,
+          "voteShare": 0.4584
+        },
+        {
+          "party": "NDP",
+          "votes": 6267,
+          "voteShare": 0.2573
+        },
+        {
+          "party": "LPC",
+          "votes": 5193,
+          "voteShare": 0.2132
+        },
+        {
+          "party": "Other",
+          "votes": 925,
+          "voteShare": 0.038
+        },
+        {
+          "party": "GPC",
+          "votes": 803,
+          "voteShare": 0.033
+        }
+      ],
+      "totalVotes": 24359
+    }
+  },
+  {
+    "ridingId": 24026,
+    "type": "byElection",
+    "date": "2009-11-09",
+    "electionYear": 2008,
+    "toParty": "BQ",
+    "description": "Daniel Paillé wins by-election (Hochelaga)",
+    "mpName": "Daniel Paillé",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "BQ",
+          "votes": 8972,
+          "voteShare": 0.5119
+        },
+        {
+          "party": "NDP",
+          "votes": 3421,
+          "voteShare": 0.1952
+        },
+        {
+          "party": "LPC",
+          "votes": 2510,
+          "voteShare": 0.1432
+        },
+        {
+          "party": "CPC",
+          "votes": 1784,
+          "voteShare": 0.1018
+        },
+        {
+          "party": "GPC",
+          "votes": 571,
+          "voteShare": 0.0326
+        },
+        {
+          "party": "Other",
+          "votes": 279,
+          "voteShare": 0.0159
+        }
+      ],
+      "totalVotes": 17526
+    }
+  },
+  {
+    "ridingId": 24020,
+    "type": "byElection",
+    "date": "2009-11-09",
+    "electionYear": 2008,
+    "toParty": "CPC",
+    "description": "Bernard Généreux wins by-election (Montmagny--L'Islet--Kamouraska--Rivière-du-Loup)",
+    "mpName": "Bernard Généreux",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 12162,
+          "voteShare": 0.4267
+        },
+        {
+          "party": "BQ",
+          "votes": 10737,
+          "voteShare": 0.3767
+        },
+        {
+          "party": "LPC",
+          "votes": 3768,
+          "voteShare": 0.1322
+        },
+        {
+          "party": "NDP",
+          "votes": 1363,
+          "voteShare": 0.0478
+        },
+        {
+          "party": "GPC",
+          "votes": 472,
+          "voteShare": 0.0166
+        }
+      ],
+      "totalVotes": 28502
+    }
+  },
+  {
+    "ridingId": 59025,
+    "type": "byElection",
+    "date": "2009-11-09",
+    "electionYear": 2008,
+    "toParty": "NDP",
+    "description": "Fin Donnelly wins by-election (New Westminster--Coquitlam)",
+    "mpName": "Fin Donnelly",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "NDP",
+          "votes": 12129,
+          "voteShare": 0.4962
+        },
+        {
+          "party": "CPC",
+          "votes": 8753,
+          "voteShare": 0.3581
+        },
+        {
+          "party": "LPC",
+          "votes": 2514,
+          "voteShare": 0.1029
+        },
+        {
+          "party": "GPC",
+          "votes": 1046,
+          "voteShare": 0.0428
+        }
+      ],
+      "totalVotes": 24442
+    }
+  },
+  {
+    "ridingId": 35047,
+    "type": "byElection",
+    "date": "2010-11-29",
+    "electionYear": 2008,
+    "toParty": "CPC",
+    "description": "Julian Fantino wins by-election (Vaughan)",
+    "mpName": "Julian Fantino",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 19290,
+          "voteShare": 0.491
+        },
+        {
+          "party": "LPC",
+          "votes": 18326,
+          "voteShare": 0.4665
+        },
+        {
+          "party": "NDP",
+          "votes": 661,
+          "voteShare": 0.0168
+        },
+        {
+          "party": "Other",
+          "votes": 527,
+          "voteShare": 0.0134
+        },
+        {
+          "party": "GPC",
+          "votes": 481,
+          "voteShare": 0.0122
+        }
+      ],
+      "totalVotes": 39285
+    }
+  },
+  {
+    "ridingId": 46011,
+    "type": "byElection",
+    "date": "2010-11-29",
+    "electionYear": 2008,
     "toParty": "LPC",
-    "description": "Lori Idlout (Nunavut)"
+    "description": "Kevin Lamoureux wins by-election (Winnipeg North)",
+    "mpName": "Kevin Lamoureux",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 7303,
+          "voteShare": 0.4628
+        },
+        {
+          "party": "NDP",
+          "votes": 6508,
+          "voteShare": 0.4124
+        },
+        {
+          "party": "CPC",
+          "votes": 1645,
+          "voteShare": 0.1042
+        },
+        {
+          "party": "Other",
+          "votes": 210,
+          "voteShare": 0.0133
+        },
+        {
+          "party": "GPC",
+          "votes": 114,
+          "voteShare": 0.0072
+        }
+      ],
+      "totalVotes": 15780
+    }
+  },
+  {
+    "ridingId": 35110,
+    "type": "byElection",
+    "date": "2012-03-19",
+    "electionYear": 2011,
+    "toParty": "NDP",
+    "description": "Craig Scott wins by-election (Toronto--Danforth)",
+    "mpName": "Craig Scott",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "NDP",
+          "votes": 19210,
+          "voteShare": 0.5944
+        },
+        {
+          "party": "LPC",
+          "votes": 9215,
+          "voteShare": 0.2851
+        },
+        {
+          "party": "CPC",
+          "votes": 1736,
+          "voteShare": 0.0537
+        },
+        {
+          "party": "GPC",
+          "votes": 1517,
+          "voteShare": 0.0469
+        },
+        {
+          "party": "Other",
+          "votes": 641,
+          "voteShare": 0.0198
+        }
+      ],
+      "totalVotes": 32319
+    }
+  },
+  {
+    "ridingId": 59042,
+    "type": "byElection",
+    "date": "2012-11-26",
+    "electionYear": 2011,
+    "toParty": "NDP",
+    "description": "Murray Rankin wins by-election (Victoria)",
+    "mpName": "Murray Rankin",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "NDP",
+          "votes": 14507,
+          "voteShare": 0.3717
+        },
+        {
+          "party": "GPC",
+          "votes": 13389,
+          "voteShare": 0.343
+        },
+        {
+          "party": "CPC",
+          "votes": 5654,
+          "voteShare": 0.1449
+        },
+        {
+          "party": "LPC",
+          "votes": 5097,
+          "voteShare": 0.1306
+        },
+        {
+          "party": "Other",
+          "votes": 385,
+          "voteShare": 0.0099
+        }
+      ],
+      "totalVotes": 39032
+    }
+  },
+  {
+    "ridingId": 35121,
+    "type": "byElection",
+    "date": "2012-11-26",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "Erin O'Toole wins by-election (Durham)",
+    "mpName": "Erin O'Toole",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 17280,
+          "voteShare": 0.5072
+        },
+        {
+          "party": "NDP",
+          "votes": 8946,
+          "voteShare": 0.2626
+        },
+        {
+          "party": "LPC",
+          "votes": 5887,
+          "voteShare": 0.1728
+        },
+        {
+          "party": "GPC",
+          "votes": 1386,
+          "voteShare": 0.0407
+        },
+        {
+          "party": "Other",
+          "votes": 569,
+          "voteShare": 0.0167
+        }
+      ],
+      "totalVotes": 34068
+    }
+  },
+  {
+    "ridingId": 48004,
+    "type": "byElection",
+    "date": "2012-11-26",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "Joan Crockatt wins by-election (Calgary Centre)",
+    "mpName": "Joan Crockatt",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 10191,
+          "voteShare": 0.3687
+        },
+        {
+          "party": "LPC",
+          "votes": 9033,
+          "voteShare": 0.3268
+        },
+        {
+          "party": "GPC",
+          "votes": 7090,
+          "voteShare": 0.2565
+        },
+        {
+          "party": "NDP",
+          "votes": 1064,
+          "voteShare": 0.0385
+        },
+        {
+          "party": "Other",
+          "votes": 262,
+          "voteShare": 0.0095
+        }
+      ],
+      "totalVotes": 27640
+    }
+  },
+  {
+    "ridingId": 10004,
+    "type": "byElection",
+    "date": "2013-05-13",
+    "electionYear": 2011,
+    "toParty": "LPC",
+    "description": "Yvonne Jones wins by-election (Labrador)",
+    "mpName": "Yvonne Jones",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 5812,
+          "voteShare": 0.4799
+        },
+        {
+          "party": "CPC",
+          "votes": 3924,
+          "voteShare": 0.324
+        },
+        {
+          "party": "NDP",
+          "votes": 2324,
+          "voteShare": 0.1919
+        },
+        {
+          "party": "Other",
+          "votes": 50,
+          "voteShare": 0.0041
+        }
+      ],
+      "totalVotes": 12110
+    }
+  },
+  {
+    "ridingId": 46001,
+    "type": "byElection",
+    "date": "2013-11-25",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "Larry Maguire wins by-election (Brandon--Souris)",
+    "mpName": "Larry Maguire",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 12205,
+          "voteShare": 0.4416
+        },
+        {
+          "party": "LPC",
+          "votes": 11816,
+          "voteShare": 0.4275
+        },
+        {
+          "party": "NDP",
+          "votes": 1996,
+          "voteShare": 0.0722
+        },
+        {
+          "party": "GPC",
+          "votes": 1349,
+          "voteShare": 0.0488
+        },
+        {
+          "party": "Other",
+          "votes": 271,
+          "voteShare": 0.0098
+        }
+      ],
+      "totalVotes": 27637
+    }
+  },
+  {
+    "ridingId": 35109,
+    "type": "byElection",
+    "date": "2013-11-25",
+    "electionYear": 2011,
+    "toParty": "LPC",
+    "description": "Chrystia Freeland wins by-election (Toronto Centre)",
+    "mpName": "Chrystia Freeland",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 17194,
+          "voteShare": 0.4938
+        },
+        {
+          "party": "NDP",
+          "votes": 12640,
+          "voteShare": 0.363
+        },
+        {
+          "party": "CPC",
+          "votes": 3004,
+          "voteShare": 0.0863
+        },
+        {
+          "party": "GPC",
+          "votes": 1034,
+          "voteShare": 0.0297
+        },
+        {
+          "party": "Other",
+          "votes": 949,
+          "voteShare": 0.0273
+        }
+      ],
+      "totalVotes": 34821
+    }
+  },
+  {
+    "ridingId": 46006,
+    "type": "byElection",
+    "date": "2013-11-25",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "Ted Falk wins by-election (Provencher)",
+    "mpName": "Ted Falk",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 13046,
+          "voteShare": 0.582
+        },
+        {
+          "party": "LPC",
+          "votes": 6711,
+          "voteShare": 0.2994
+        },
+        {
+          "party": "NDP",
+          "votes": 1843,
+          "voteShare": 0.0822
+        },
+        {
+          "party": "GPC",
+          "votes": 817,
+          "voteShare": 0.0364
+        }
+      ],
+      "totalVotes": 22417
+    }
+  },
+  {
+    "ridingId": 24013,
+    "type": "byElection",
+    "date": "2013-11-25",
+    "electionYear": 2011,
+    "toParty": "LPC",
+    "description": "Emmanuel Dubourg wins by-election (Bourassa)",
+    "mpName": "Emmanuel Dubourg",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 8825,
+          "voteShare": 0.4812
+        },
+        {
+          "party": "NDP",
+          "votes": 5766,
+          "voteShare": 0.3144
+        },
+        {
+          "party": "BQ",
+          "votes": 2387,
+          "voteShare": 0.1302
+        },
+        {
+          "party": "CPC",
+          "votes": 852,
+          "voteShare": 0.0465
+        },
+        {
+          "party": "GPC",
+          "votes": 368,
+          "voteShare": 0.0201
+        },
+        {
+          "party": "Other",
+          "votes": 140,
+          "voteShare": 0.0076
+        }
+      ],
+      "totalVotes": 18338
+    }
+  },
+  {
+    "ridingId": 35092,
+    "type": "byElection",
+    "date": "2014-06-30",
+    "electionYear": 2011,
+    "toParty": "LPC",
+    "description": "Arnold Chan wins by-election (Scarborough--Agincourt)",
+    "mpName": "Arnold Chan",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 12868,
+          "voteShare": 0.5938
+        },
+        {
+          "party": "CPC",
+          "votes": 6344,
+          "voteShare": 0.2927
+        },
+        {
+          "party": "NDP",
+          "votes": 1838,
+          "voteShare": 0.0848
+        },
+        {
+          "party": "Other",
+          "votes": 315,
+          "voteShare": 0.0145
+        },
+        {
+          "party": "GPC",
+          "votes": 307,
+          "voteShare": 0.0142
+        }
+      ],
+      "totalVotes": 21672
+    }
+  },
+  {
+    "ridingId": 48025,
+    "type": "byElection",
+    "date": "2014-06-30",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "David Yurdiga wins by-election (Fort McMurray--Athabasca)",
+    "mpName": "David Yurdiga",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 5991,
+          "voteShare": 0.4671
+        },
+        {
+          "party": "LPC",
+          "votes": 4529,
+          "voteShare": 0.3531
+        },
+        {
+          "party": "NDP",
+          "votes": 1472,
+          "voteShare": 0.1148
+        },
+        {
+          "party": "GPC",
+          "votes": 453,
+          "voteShare": 0.0353
+        },
+        {
+          "party": "Other",
+          "votes": 381,
+          "voteShare": 0.0297
+        }
+      ],
+      "totalVotes": 12826
+    }
+  },
+  {
+    "ridingId": 48024,
+    "type": "byElection",
+    "date": "2014-06-30",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "John Barlow wins by-election (Macleod)",
+    "mpName": "John Barlow",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 12616,
+          "voteShare": 0.6916
+        },
+        {
+          "party": "LPC",
+          "votes": 3092,
+          "voteShare": 0.1695
+        },
+        {
+          "party": "GPC",
+          "votes": 991,
+          "voteShare": 0.0543
+        },
+        {
+          "party": "Other",
+          "votes": 774,
+          "voteShare": 0.0424
+        },
+        {
+          "party": "NDP",
+          "votes": 770,
+          "voteShare": 0.0422
+        }
+      ],
+      "totalVotes": 18243
+    }
+  },
+  {
+    "ridingId": 48037,
+    "type": "byElection",
+    "date": "2014-11-17",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "Jim Eglinski wins by-election (Yellowhead)",
+    "mpName": "Jim Eglinski",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 7884,
+          "voteShare": 0.6257
+        },
+        {
+          "party": "LPC",
+          "votes": 2518,
+          "voteShare": 0.1998
+        },
+        {
+          "party": "NDP",
+          "votes": 1203,
+          "voteShare": 0.0955
+        },
+        {
+          "party": "Other",
+          "votes": 996,
+          "voteShare": 0.079
+        }
+      ],
+      "totalVotes": 12601
+    }
+  },
+  {
+    "ridingId": 35078,
+    "type": "byElection",
+    "date": "2014-11-17",
+    "electionYear": 2011,
+    "toParty": "CPC",
+    "description": "Pat Perkins wins by-election (Whitby--Oshawa)",
+    "mpName": "Pat Perkins",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 17082,
+          "voteShare": 0.4931
+        },
+        {
+          "party": "LPC",
+          "votes": 14083,
+          "voteShare": 0.4065
+        },
+        {
+          "party": "NDP",
+          "votes": 2801,
+          "voteShare": 0.0809
+        },
+        {
+          "party": "GPC",
+          "votes": 500,
+          "voteShare": 0.0144
+        },
+        {
+          "party": "Other",
+          "votes": 178,
+          "voteShare": 0.0051
+        }
+      ],
+      "totalVotes": 34644
+    }
+  },
+  {
+    "ridingId": 48030,
+    "type": "byElection",
+    "date": "2016-10-24",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Glen Motz wins by-election (Medicine Hat--Cardston--Warner)",
+    "mpName": "Glen Motz",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 23932,
+          "voteShare": 0.6985
+        },
+        {
+          "party": "LPC",
+          "votes": 8778,
+          "voteShare": 0.2562
+        },
+        {
+          "party": "Other",
+          "votes": 1197,
+          "voteShare": 0.0349
+        },
+        {
+          "party": "NDP",
+          "votes": 353,
+          "voteShare": 0.0103
+        }
+      ],
+      "totalVotes": 34260
+    }
+  },
+  {
+    "ridingId": 24068,
+    "type": "byElection",
+    "date": "2017-04-03",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Emmanuella Lambropoulos wins by-election (Saint-Laurent)",
+    "mpName": "Emmanuella Lambropoulos",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 11461,
+          "voteShare": 0.5913
+        },
+        {
+          "party": "CPC",
+          "votes": 3784,
+          "voteShare": 0.1952
+        },
+        {
+          "party": "GPC",
+          "votes": 1548,
+          "voteShare": 0.0799
+        },
+        {
+          "party": "NDP",
+          "votes": 1511,
+          "voteShare": 0.078
+        },
+        {
+          "party": "BQ",
+          "votes": 951,
+          "voteShare": 0.0491
+        },
+        {
+          "party": "Other",
+          "votes": 129,
+          "voteShare": 0.0067
+        }
+      ],
+      "totalVotes": 19384
+    }
+  },
+  {
+    "ridingId": 35057,
+    "type": "byElection",
+    "date": "2017-04-03",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Mary Ng wins by-election (Markham--Thornhill)",
+    "mpName": "Mary Ng",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 9856,
+          "voteShare": 0.5153
+        },
+        {
+          "party": "CPC",
+          "votes": 7501,
+          "voteShare": 0.3922
+        },
+        {
+          "party": "Other",
+          "votes": 761,
+          "voteShare": 0.0398
+        },
+        {
+          "party": "NDP",
+          "votes": 671,
+          "voteShare": 0.0351
+        },
+        {
+          "party": "GPC",
+          "votes": 426,
+          "voteShare": 0.0223
+        }
+      ],
+      "totalVotes": 19125
+    }
+  },
+  {
+    "ridingId": 48010,
+    "type": "byElection",
+    "date": "2017-04-03",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Stephanie Kusie wins by-election (Calgary Midnapore)",
+    "mpName": "Stephanie Kusie",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 22454,
+          "voteShare": 0.7717
+        },
+        {
+          "party": "LPC",
+          "votes": 4950,
+          "voteShare": 0.1701
+        },
+        {
+          "party": "NDP",
+          "votes": 735,
+          "voteShare": 0.0253
+        },
+        {
+          "party": "GPC",
+          "votes": 625,
+          "voteShare": 0.0215
+        },
+        {
+          "party": "Other",
+          "votes": 332,
+          "voteShare": 0.0114
+        }
+      ],
+      "totalVotes": 29096
+    }
+  },
+  {
+    "ridingId": 48008,
+    "type": "byElection",
+    "date": "2017-04-03",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Bob Benzen wins by-election (Calgary Heritage)",
+    "mpName": "Bob Benzen",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 19383,
+          "voteShare": 0.7148
+        },
+        {
+          "party": "LPC",
+          "votes": 5889,
+          "voteShare": 0.2172
+        },
+        {
+          "party": "NDP",
+          "votes": 785,
+          "voteShare": 0.0289
+        },
+        {
+          "party": "Other",
+          "votes": 575,
+          "voteShare": 0.0212
+        },
+        {
+          "party": "GPC",
+          "votes": 484,
+          "voteShare": 0.0178
+        }
+      ],
+      "totalVotes": 27116
+    }
+  },
+  {
+    "ridingId": 35081,
+    "type": "byElection",
+    "date": "2017-04-03",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Mona Fortier wins by-election (Ottawa--Vanier)",
+    "mpName": "Mona Fortier",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 15195,
+          "voteShare": 0.5133
+        },
+        {
+          "party": "NDP",
+          "votes": 8557,
+          "voteShare": 0.2891
+        },
+        {
+          "party": "CPC",
+          "votes": 4484,
+          "voteShare": 0.1515
+        },
+        {
+          "party": "GPC",
+          "votes": 999,
+          "voteShare": 0.0337
+        },
+        {
+          "party": "Other",
+          "votes": 368,
+          "voteShare": 0.0124
+        }
+      ],
+      "totalVotes": 29603
+    }
+  },
+  {
+    "ridingId": 24033,
+    "type": "byElection",
+    "date": "2017-10-23",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Richard Hébert wins by-election (Lac-Saint-Jean)",
+    "mpName": "Richard Hébert",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 13442,
+          "voteShare": 0.3859
+        },
+        {
+          "party": "CPC",
+          "votes": 8710,
+          "voteShare": 0.2501
+        },
+        {
+          "party": "BQ",
+          "votes": 8141,
+          "voteShare": 0.2337
+        },
+        {
+          "party": "NDP",
+          "votes": 4079,
+          "voteShare": 0.1171
+        },
+        {
+          "party": "GPC",
+          "votes": 457,
+          "voteShare": 0.0131
+        }
+      ],
+      "totalVotes": 34829
+    }
+  },
+  {
+    "ridingId": 48031,
+    "type": "byElection",
+    "date": "2017-10-23",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Dane Lloyd wins by-election (Sturgeon River--Parkland)",
+    "mpName": "Dane Lloyd",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 16125,
+          "voteShare": 0.7736
+        },
+        {
+          "party": "LPC",
+          "votes": 2508,
+          "voteShare": 0.1203
+        },
+        {
+          "party": "NDP",
+          "votes": 1606,
+          "voteShare": 0.077
+        },
+        {
+          "party": "Other",
+          "votes": 605,
+          "voteShare": 0.029
+        }
+      ],
+      "totalVotes": 20844
+    }
+  },
+  {
+    "ridingId": 47001,
+    "type": "byElection",
+    "date": "2017-12-11",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Rosemarie Falk wins by-election (Battlefords--Lloydminster)",
+    "mpName": "Rosemarie Falk",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 8965,
+          "voteShare": 0.6956
+        },
+        {
+          "party": "NDP",
+          "votes": 1698,
+          "voteShare": 0.1317
+        },
+        {
+          "party": "LPC",
+          "votes": 1345,
+          "voteShare": 0.1044
+        },
+        {
+          "party": "Other",
+          "votes": 681,
+          "voteShare": 0.0528
+        },
+        {
+          "party": "GPC",
+          "votes": 200,
+          "voteShare": 0.0155
+        }
+      ],
+      "totalVotes": 12889
+    }
+  },
+  {
+    "ridingId": 59032,
+    "type": "byElection",
+    "date": "2017-12-11",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Gordie Hogg wins by-election (South Surrey--White Rock)",
+    "mpName": "Gordie Hogg",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 14369,
+          "voteShare": 0.4749
+        },
+        {
+          "party": "CPC",
+          "votes": 12752,
+          "voteShare": 0.4214
+        },
+        {
+          "party": "NDP",
+          "votes": 1478,
+          "voteShare": 0.0488
+        },
+        {
+          "party": "GPC",
+          "votes": 1247,
+          "voteShare": 0.0412
+        },
+        {
+          "party": "Other",
+          "votes": 413,
+          "voteShare": 0.0136
+        }
+      ],
+      "totalVotes": 30259
+    }
+  },
+  {
+    "ridingId": 35092,
+    "type": "byElection",
+    "date": "2017-12-11",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Jean Yip wins by-election (Scarborough--Agincourt)",
+    "mpName": "Jean Yip",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 9091,
+          "voteShare": 0.4944
+        },
+        {
+          "party": "CPC",
+          "votes": 7448,
+          "voteShare": 0.4051
+        },
+        {
+          "party": "NDP",
+          "votes": 931,
+          "voteShare": 0.0506
+        },
+        {
+          "party": "Other",
+          "votes": 664,
+          "voteShare": 0.0361
+        },
+        {
+          "party": "GPC",
+          "votes": 253,
+          "voteShare": 0.0138
+        }
+      ],
+      "totalVotes": 18387
+    }
+  },
+  {
+    "ridingId": 24018,
+    "type": "byElection",
+    "date": "2018-06-18",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Richard Martel wins by-election (Chicoutimi--Le Fjord)",
+    "mpName": "Richard Martel",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 12580,
+          "voteShare": 0.5274
+        },
+        {
+          "party": "LPC",
+          "votes": 7032,
+          "voteShare": 0.2948
+        },
+        {
+          "party": "NDP",
+          "votes": 2065,
+          "voteShare": 0.0866
+        },
+        {
+          "party": "BQ",
+          "votes": 1337,
+          "voteShare": 0.056
+        },
+        {
+          "party": "GPC",
+          "votes": 736,
+          "voteShare": 0.0309
+        },
+        {
+          "party": "Other",
+          "votes": 104,
+          "voteShare": 0.0044
+        }
+      ],
+      "totalVotes": 23854
+    }
+  },
+  {
+    "ridingId": 35052,
+    "type": "byElection",
+    "date": "2018-12-03",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Michael Barrett wins by-election (Leeds--Grenville--Thousand Islands and Rideau Lakes)",
+    "mpName": "Michael Barrett",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 16865,
+          "voteShare": 0.5783
+        },
+        {
+          "party": "LPC",
+          "votes": 10443,
+          "voteShare": 0.3581
+        },
+        {
+          "party": "NDP",
+          "votes": 883,
+          "voteShare": 0.0303
+        },
+        {
+          "party": "GPC",
+          "votes": 859,
+          "voteShare": 0.0295
+        },
+        {
+          "party": "Other",
+          "votes": 111,
+          "voteShare": 0.0038
+        }
+      ],
+      "totalVotes": 29161
+    }
+  },
+  {
+    "ridingId": 35069,
+    "type": "byElection",
+    "date": "2019-02-25",
+    "electionYear": 2015,
+    "toParty": "CPC",
+    "description": "Scot Davidson wins by-election (York--Simcoe)",
+    "mpName": "Scot Davidson",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 8929,
+          "voteShare": 0.5391
+        },
+        {
+          "party": "LPC",
+          "votes": 4811,
+          "voteShare": 0.2904
+        },
+        {
+          "party": "NDP",
+          "votes": 1244,
+          "voteShare": 0.0751
+        },
+        {
+          "party": "Other",
+          "votes": 815,
+          "voteShare": 0.0492
+        },
+        {
+          "party": "GPC",
+          "votes": 451,
+          "voteShare": 0.0272
+        },
+        {
+          "party": "PPC",
+          "votes": 314,
+          "voteShare": 0.019
+        }
+      ],
+      "totalVotes": 16564
+    }
+  },
+  {
+    "ridingId": 24053,
+    "type": "byElection",
+    "date": "2019-02-25",
+    "electionYear": 2015,
+    "toParty": "LPC",
+    "description": "Rachel Bendayan wins by-election (Outremont)",
+    "mpName": "Rachel Bendayan",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 6086,
+          "voteShare": 0.4043
+        },
+        {
+          "party": "NDP",
+          "votes": 4142,
+          "voteShare": 0.2752
+        },
+        {
+          "party": "GPC",
+          "votes": 1946,
+          "voteShare": 0.1293
+        },
+        {
+          "party": "BQ",
+          "votes": 1674,
+          "voteShare": 0.1112
+        },
+        {
+          "party": "CPC",
+          "votes": 925,
+          "voteShare": 0.0614
+        },
+        {
+          "party": "PPC",
+          "votes": 232,
+          "voteShare": 0.0154
+        },
+        {
+          "party": "Other",
+          "votes": 48,
+          "voteShare": 0.0032
+        }
+      ],
+      "totalVotes": 15053
+    }
+  },
+  {
+    "ridingId": 59019,
+    "type": "byElection",
+    "date": "2019-05-06",
+    "electionYear": 2015,
+    "toParty": "GPC",
+    "description": "Paul Manly wins by-election (Nanaimo--Ladysmith)",
+    "mpName": "Paul Manly",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "GPC",
+          "votes": 15302,
+          "voteShare": 0.3726
+        },
+        {
+          "party": "CPC",
+          "votes": 10215,
+          "voteShare": 0.2488
+        },
+        {
+          "party": "NDP",
+          "votes": 9446,
+          "voteShare": 0.23
+        },
+        {
+          "party": "LPC",
+          "votes": 4515,
+          "voteShare": 0.1099
+        },
+        {
+          "party": "PPC",
+          "votes": 1268,
+          "voteShare": 0.0309
+        },
+        {
+          "party": "Other",
+          "votes": 319,
+          "voteShare": 0.0078
+        }
+      ],
+      "totalVotes": 41065
+    }
+  },
+  {
+    "ridingId": 35109,
+    "type": "byElection",
+    "date": "2020-10-26",
+    "electionYear": 2019,
+    "toParty": "LPC",
+    "description": "Marci Ien wins by-election (Toronto Centre)",
+    "mpName": "Marci Ien",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 10581,
+          "voteShare": 0.4198
+        },
+        {
+          "party": "GPC",
+          "votes": 8250,
+          "voteShare": 0.3273
+        },
+        {
+          "party": "NDP",
+          "votes": 4280,
+          "voteShare": 0.1698
+        },
+        {
+          "party": "CPC",
+          "votes": 1435,
+          "voteShare": 0.0569
+        },
+        {
+          "party": "Other",
+          "votes": 390,
+          "voteShare": 0.0155
+        },
+        {
+          "party": "PPC",
+          "votes": 269,
+          "voteShare": 0.0107
+        }
+      ],
+      "totalVotes": 25205
+    }
+  },
+  {
+    "ridingId": 35120,
+    "type": "byElection",
+    "date": "2020-10-26",
+    "electionYear": 2019,
+    "toParty": "LPC",
+    "description": "Ya'ara Saks wins by-election (York Centre)",
+    "mpName": "Ya'ara Saks",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 8253,
+          "voteShare": 0.457
+        },
+        {
+          "party": "CPC",
+          "votes": 7552,
+          "voteShare": 0.4182
+        },
+        {
+          "party": "NDP",
+          "votes": 1046,
+          "voteShare": 0.0579
+        },
+        {
+          "party": "PPC",
+          "votes": 642,
+          "voteShare": 0.0356
+        },
+        {
+          "party": "GPC",
+          "votes": 461,
+          "voteShare": 0.0255
+        },
+        {
+          "party": "Other",
+          "votes": 104,
+          "voteShare": 0.0058
+        }
+      ],
+      "totalVotes": 18058
+    }
+  },
+  {
+    "ridingId": 35064,
+    "type": "byElection",
+    "date": "2022-12-12",
+    "electionYear": 2021,
+    "toParty": "LPC",
+    "description": "Charles Sousa wins by-election (Mississauga--Lakeshore)",
+    "mpName": "Charles Sousa",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 12766,
+          "voteShare": 0.5145
+        },
+        {
+          "party": "CPC",
+          "votes": 9215,
+          "voteShare": 0.3714
+        },
+        {
+          "party": "NDP",
+          "votes": 1231,
+          "voteShare": 0.0496
+        },
+        {
+          "party": "GPC",
+          "votes": 792,
+          "voteShare": 0.0319
+        },
+        {
+          "party": "Other",
+          "votes": 517,
+          "voteShare": 0.0208
+        },
+        {
+          "party": "PPC",
+          "votes": 293,
+          "voteShare": 0.0118
+        }
+      ],
+      "totalVotes": 24814
+    }
+  },
+  {
+    "ridingId": 46013,
+    "type": "byElection",
+    "date": "2023-06-19",
+    "electionYear": 2021,
+    "toParty": "LPC",
+    "description": "Ben Carr wins by-election (Winnipeg South Centre)",
+    "mpName": "Ben Carr",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 14278,
+          "voteShare": 0.5549
+        },
+        {
+          "party": "CPC",
+          "votes": 6100,
+          "voteShare": 0.237
+        },
+        {
+          "party": "NDP",
+          "votes": 3778,
+          "voteShare": 0.1468
+        },
+        {
+          "party": "GPC",
+          "votes": 698,
+          "voteShare": 0.0271
+        },
+        {
+          "party": "Other",
+          "votes": 555,
+          "voteShare": 0.0216
+        },
+        {
+          "party": "PPC",
+          "votes": 324,
+          "voteShare": 0.0126
+        }
+      ],
+      "totalVotes": 25733
+    }
+  },
+  {
+    "ridingId": 35083,
+    "type": "byElection",
+    "date": "2023-06-19",
+    "electionYear": 2021,
+    "toParty": "CPC",
+    "description": "Arpan Khanna wins by-election (Oxford)",
+    "mpName": "Arpan Khanna",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 16688,
+          "voteShare": 0.4292
+        },
+        {
+          "party": "LPC",
+          "votes": 14164,
+          "voteShare": 0.3643
+        },
+        {
+          "party": "NDP",
+          "votes": 4053,
+          "voteShare": 0.1042
+        },
+        {
+          "party": "Other",
+          "votes": 1843,
+          "voteShare": 0.0474
+        },
+        {
+          "party": "PPC",
+          "votes": 1278,
+          "voteShare": 0.0329
+        },
+        {
+          "party": "GPC",
+          "votes": 854,
+          "voteShare": 0.022
+        }
+      ],
+      "totalVotes": 38880
+    }
+  },
+  {
+    "ridingId": 46005,
+    "type": "byElection",
+    "date": "2023-06-19",
+    "electionYear": 2021,
+    "toParty": "CPC",
+    "description": "Branden Leslie wins by-election (Portage--Lisgar)",
+    "mpName": "Branden Leslie",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 20250,
+          "voteShare": 0.6495
+        },
+        {
+          "party": "PPC",
+          "votes": 5352,
+          "voteShare": 0.1716
+        },
+        {
+          "party": "LPC",
+          "votes": 2666,
+          "voteShare": 0.0855
+        },
+        {
+          "party": "NDP",
+          "votes": 2208,
+          "voteShare": 0.0708
+        },
+        {
+          "party": "GPC",
+          "votes": 704,
+          "voteShare": 0.0226
+        }
+      ],
+      "totalVotes": 31180
+    }
+  },
+  {
+    "ridingId": 24052,
+    "type": "byElection",
+    "date": "2023-06-19",
+    "electionYear": 2021,
+    "toParty": "LPC",
+    "description": "Anna Gainey wins by-election (Notre-Dame-de-Grâce--Westmount)",
+    "mpName": "Anna Gainey",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 11051,
+          "voteShare": 0.5087
+        },
+        {
+          "party": "NDP",
+          "votes": 3001,
+          "voteShare": 0.1381
+        },
+        {
+          "party": "CPC",
+          "votes": 2936,
+          "voteShare": 0.1351
+        },
+        {
+          "party": "GPC",
+          "votes": 2922,
+          "voteShare": 0.1345
+        },
+        {
+          "party": "BQ",
+          "votes": 985,
+          "voteShare": 0.0453
+        },
+        {
+          "party": "Other",
+          "votes": 690,
+          "voteShare": 0.0318
+        },
+        {
+          "party": "PPC",
+          "votes": 141,
+          "voteShare": 0.0065
+        }
+      ],
+      "totalVotes": 21726
+    }
+  },
+  {
+    "ridingId": 48008,
+    "type": "byElection",
+    "date": "2023-07-24",
+    "electionYear": 2021,
+    "toParty": "CPC",
+    "description": "Shuvaloy Majumdar wins by-election (Calgary Heritage)",
+    "mpName": "Shuvaloy Majumdar",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 15853,
+          "voteShare": 0.6563
+        },
+        {
+          "party": "LPC",
+          "votes": 3465,
+          "voteShare": 0.1434
+        },
+        {
+          "party": "NDP",
+          "votes": 3429,
+          "voteShare": 0.142
+        },
+        {
+          "party": "PPC",
+          "votes": 656,
+          "voteShare": 0.0272
+        },
+        {
+          "party": "GPC",
+          "votes": 407,
+          "voteShare": 0.0168
+        },
+        {
+          "party": "Other",
+          "votes": 346,
+          "voteShare": 0.0143
+        }
+      ],
+      "totalVotes": 24156
+    }
+  },
+  {
+    "ridingId": 35121,
+    "type": "byElection",
+    "date": "2024-03-04",
+    "electionYear": 2021,
+    "toParty": "CPC",
+    "description": "Jamil Jivani wins by-election (Durham)",
+    "mpName": "Jamil Jivani",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 18610,
+          "voteShare": 0.5744
+        },
+        {
+          "party": "LPC",
+          "votes": 7285,
+          "voteShare": 0.2248
+        },
+        {
+          "party": "NDP",
+          "votes": 3363,
+          "voteShare": 0.1038
+        },
+        {
+          "party": "PPC",
+          "votes": 1435,
+          "voteShare": 0.0443
+        },
+        {
+          "party": "Other",
+          "votes": 1010,
+          "voteShare": 0.0312
+        },
+        {
+          "party": "GPC",
+          "votes": 698,
+          "voteShare": 0.0215
+        }
+      ],
+      "totalVotes": 32401
+    }
+  },
+  {
+    "ridingId": 35111,
+    "type": "byElection",
+    "date": "2024-06-24",
+    "electionYear": 2021,
+    "toParty": "CPC",
+    "description": "Don Stewart wins by-election (Toronto--St. Paul's)",
+    "mpName": "Don Stewart",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 15565,
+          "voteShare": 0.4211
+        },
+        {
+          "party": "LPC",
+          "votes": 14932,
+          "voteShare": 0.404
+        },
+        {
+          "party": "NDP",
+          "votes": 4073,
+          "voteShare": 0.1102
+        },
+        {
+          "party": "Other",
+          "votes": 1089,
+          "voteShare": 0.0295
+        },
+        {
+          "party": "GPC",
+          "votes": 1057,
+          "voteShare": 0.0286
+        },
+        {
+          "party": "PPC",
+          "votes": 238,
+          "voteShare": 0.0064
+        }
+      ],
+      "totalVotes": 36962
+    }
+  },
+  {
+    "ridingId": 24035,
+    "type": "byElection",
+    "date": "2024-09-16",
+    "electionYear": 2021,
+    "toParty": "BQ",
+    "description": "Louis-Philippe Sauvé wins by-election (LaSalle--Émard--Verdun)",
+    "mpName": "Louis-Philippe Sauvé",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "BQ",
+          "votes": 8925,
+          "voteShare": 0.282
+        },
+        {
+          "party": "LPC",
+          "votes": 8656,
+          "voteShare": 0.2735
+        },
+        {
+          "party": "NDP",
+          "votes": 8272,
+          "voteShare": 0.2613
+        },
+        {
+          "party": "CPC",
+          "votes": 3641,
+          "voteShare": 0.115
+        },
+        {
+          "party": "Other",
+          "votes": 1443,
+          "voteShare": 0.0456
+        },
+        {
+          "party": "GPC",
+          "votes": 557,
+          "voteShare": 0.0176
+        },
+        {
+          "party": "PPC",
+          "votes": 159,
+          "voteShare": 0.005
+        }
+      ],
+      "totalVotes": 31653
+    }
+  },
+  {
+    "ridingId": 46003,
+    "type": "byElection",
+    "date": "2024-09-16",
+    "electionYear": 2021,
+    "toParty": "NDP",
+    "description": "Leila Dance wins by-election (Elmwood--Transcona)",
+    "mpName": "Leila Dance",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "NDP",
+          "votes": 13597,
+          "voteShare": 0.4818
+        },
+        {
+          "party": "CPC",
+          "votes": 12415,
+          "voteShare": 0.44
+        },
+        {
+          "party": "LPC",
+          "votes": 1362,
+          "voteShare": 0.0483
+        },
+        {
+          "party": "GPC",
+          "votes": 360,
+          "voteShare": 0.0128
+        },
+        {
+          "party": "PPC",
+          "votes": 353,
+          "voteShare": 0.0125
+        },
+        {
+          "party": "Other",
+          "votes": 132,
+          "voteShare": 0.0047
+        }
+      ],
+      "totalVotes": 28219
+    }
+  },
+  {
+    "ridingId": 59006,
+    "type": "byElection",
+    "date": "2024-12-16",
+    "electionYear": 2021,
+    "toParty": "CPC",
+    "description": "Tamara Jansen wins by-election (Cloverdale--Langley City)",
+    "mpName": "Tamara Jansen",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 9936,
+          "voteShare": 0.6623
+        },
+        {
+          "party": "LPC",
+          "votes": 2411,
+          "voteShare": 0.1607
+        },
+        {
+          "party": "NDP",
+          "votes": 1879,
+          "voteShare": 0.1252
+        },
+        {
+          "party": "GPC",
+          "votes": 580,
+          "voteShare": 0.0387
+        },
+        {
+          "party": "PPC",
+          "votes": 134,
+          "voteShare": 0.0089
+        },
+        {
+          "party": "Other",
+          "votes": 62,
+          "voteShare": 0.0041
+        }
+      ],
+      "totalVotes": 15002
+    }
+  },
+  {
+    "ridingId": 48002,
+    "type": "vacancy",
+    "date": "2025-06-17",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "description": "Damien Kurek (Battle River--Crowfoot)"
+  },
+  {
+    "ridingId": 48002,
+    "type": "byElection",
+    "date": "2025-08-18",
+    "electionYear": 2025,
+    "toParty": "CPC",
+    "description": "Pierre Poilievre wins by-election (Battle River--Crowfoot)",
+    "mpName": "Pierre Poilievre",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "CPC",
+          "votes": 41308,
+          "voteShare": 0.8086
+        },
+        {
+          "party": "Other",
+          "votes": 6367,
+          "voteShare": 0.1246
+        },
+        {
+          "party": "LPC",
+          "votes": 2095,
+          "voteShare": 0.041
+        },
+        {
+          "party": "NDP",
+          "votes": 1061,
+          "voteShare": 0.0208
+        },
+        {
+          "party": "PPC",
+          "votes": 138,
+          "voteShare": 0.0027
+        },
+        {
+          "party": "GPC",
+          "votes": 116,
+          "voteShare": 0.0023
+        }
+      ],
+      "totalVotes": 51085
+    }
   },
   {
     "ridingId": 12001,
@@ -27,43 +2061,6 @@
     "description": "Michael Ma (Markham--Unionville)"
   },
   {
-    "ridingId": 48020,
-    "type": "floorCrossing",
-    "date": "2026-02-18",
-    "electionYear": 2025,
-    "fromParty": "CPC",
-    "toParty": "LPC",
-    "description": "Matt Jeneroux (Edmonton Riverbend)"
-  },
-  {
-    "ridingId": 48002,
-    "type": "vacancy",
-    "date": "2025-06-17",
-    "electionYear": 2025,
-    "fromParty": "CPC",
-    "description": "Damien Kurek (Battle River--Crowfoot)"
-  },
-  {
-    "ridingId": 48002,
-    "type": "byElection",
-    "date": "2025-08-18",
-    "electionYear": 2025,
-    "toParty": "CPC",
-    "description": "Pierre Poilievre wins by-election (Battle River--Crowfoot)",
-    "mpName": "Pierre Poilievre",
-    "byElectionResult": {
-      "candidates": [
-        { "party": "CPC", "votes": 41308, "voteShare": 0.8086 },
-        { "party": "Other", "votes": 6367, "voteShare": 0.1246 },
-        { "party": "LPC", "votes": 2095, "voteShare": 0.0410 },
-        { "party": "NDP", "votes": 1061, "voteShare": 0.0208 },
-        { "party": "PPC", "votes": 138, "voteShare": 0.0027 },
-        { "party": "GPC", "votes": 116, "voteShare": 0.0023 }
-      ],
-      "totalVotes": 51085
-    }
-  },
-  {
     "ridingId": 35112,
     "type": "vacancy",
     "date": "2026-01-09",
@@ -78,5 +2075,23 @@
     "electionYear": 2025,
     "fromParty": "LPC",
     "description": "Bill Blair (Scarborough Southwest)"
+  },
+  {
+    "ridingId": 48020,
+    "type": "floorCrossing",
+    "date": "2026-02-18",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "toParty": "LPC",
+    "description": "Matt Jeneroux (Edmonton Riverbend)"
+  },
+  {
+    "ridingId": 62001,
+    "type": "floorCrossing",
+    "date": "2026-03-10",
+    "electionYear": 2025,
+    "fromParty": "NDP",
+    "toParty": "LPC",
+    "description": "Lori Idlout (Nunavut)"
   }
 ]

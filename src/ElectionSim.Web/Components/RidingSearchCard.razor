@@ -673,7 +673,9 @@
                     <div class="history-columns @(cmpMpHistory.Count > 0 ? "has-compare" : "")">
                         @if (scMpHistory.Count > 0)
                         {
-                            var scEvents = scRidingStatus?.Events ?? [];
+                            var scEvents = DataService.PostElectionEvents?
+                                .Where(e => e.RidingId == selectedRiding.Id)
+                                .ToList() ?? [];
                             <div class="history-column">
                                 @if (compareRiding != null)
                                 {
@@ -722,8 +724,9 @@
                         }
                         @if (cmpMpHistory.Count > 0)
                         {
-                            var cmpRidingStatusForHistory = State.CurrentParliamentaryState?.GetValueOrDefault(compareRiding!.Id);
-                            var cmpEvents = cmpRidingStatusForHistory?.Events ?? [];
+                            var cmpEvents = DataService.PostElectionEvents?
+                                .Where(e => e.RidingId == compareRiding!.Id)
+                                .ToList() ?? [];
                             <div class="history-column">
                                 <div class="riding-section-label">@compareRiding!.Name</div>
                                 <div class="mp-history">
