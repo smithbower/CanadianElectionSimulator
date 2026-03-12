@@ -50,6 +50,49 @@
     </section>
 
     <section>
+        <h2>By-Elections</h2>
+        <p>
+            Between general elections, the composition of the House of Commons changes through
+            <strong>by-elections</strong> (special elections to fill vacancies), <strong>floor crossings</strong>
+            (MPs switching party), and <strong>vacancies</strong> (resignations, deaths, appointments).
+            The simulator tracks these post-election events and integrates them in two ways.
+        </p>
+
+        <h3>Parliamentary State</h3>
+        <p>
+            Post-election events are replayed chronologically on top of the baseline general election results
+            to derive the current state of each riding. This determines who the current MP is and which party
+            holds each seat. The riding detail view shows the full event history for each riding since the
+            last general election.
+        </p>
+        <ul>
+            <li>A <strong>by-election</strong> updates the seat holder to the by-election winner and supersedes any prior floor crossing.</li>
+            <li>A <strong>floor crossing</strong> changes the party holding the seat without an election.</li>
+            <li>A <strong>vacancy</strong> leaves the seat unoccupied until a by-election is held.</li>
+        </ul>
+
+        <h3>Baseline Blending</h3>
+        <p>
+            For ridings where a by-election has been held, the simulator blends the by-election results
+            into the general election baseline <em>before</em> computing swing projections. The blended
+            vote shares for each party are:
+        </p>
+        <div class="formula">
+            effective share = (1 &minus; w) &times; general election share + w &times; by-election share
+        </div>
+        <p>
+            where <strong>w = 0.3</strong> (30%) by default. Shares are renormalized to sum to 100% after blending.
+            Ridings without by-elections are unaffected.
+        </p>
+        <p>
+            The moderate blend weight reflects the fact that by-elections carry more recent local signal
+            than the last general election, but also have different dynamics&mdash;lower turnout, no government
+            formation at stake, and potential for protest voting&mdash;that make them imperfect predictors of
+            general election behaviour. By-election data goes back to the 2008 election and is manually curated.
+        </p>
+    </section>
+
+    <section>
         <h2>Noise Model</h2>
         <p>
             Polls are imperfect, so the simulator models uncertainty at three hierarchical levels.
@@ -135,6 +178,7 @@
                 <tr><td>Degrees of Freedom</td><td>5</td><td>Student-t df (higher = closer to Gaussian)</td></tr>
                 <tr><td>Swing Blend</td><td>0.0</td><td>Pure additive swing</td></tr>
                 <tr><td>Correlated Noise</td><td>On</td><td>Cholesky-based inter-party correlations</td></tr>
+                <tr><td>By-Election Blend</td><td>30%</td><td>Weight given to by-election results in baseline</td></tr>
             </tbody>
         </table>
 

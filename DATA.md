@@ -35,6 +35,16 @@ Scraped from `newsinteractives.cbc.ca/elections/poll-tracker/canada/` using Angl
 |------|--------|------------|
 | Census Profile (FED 2023 RO) | StatsCan 98-401-X2021029 | `data/raw/census-2021-fed-2023ro.csv` |
 
+### Post-Election Events (By-Elections, Floor Crossings, Vacancies)
+
+Manually curated data tracking changes to parliamentary state between general elections. Includes by-elections (with full candidate results), floor crossings, and vacancies. Data goes back to the 2008 election.
+
+| Data | Source | Local file |
+|------|--------|------------|
+| Post-election events | Manually curated | `data/processed/post-election-events.json` |
+
+Unlike other data sources, post-election events are not downloaded or scraped — they are hand-maintained in the processed JSON file and committed to the repository. Each event is tagged with an `electionYear` identifying which parliament it belongs to (e.g., 2025 for events during the 45th Parliament). By-election entries include full candidate results (party, votes, vote share) structured identically to general election riding results.
+
 ### Generated Sample Data
 
 `SampleDataGenerator` creates synthetic data for 343 ridings for development/testing without requiring real data files.
@@ -63,6 +73,7 @@ data/
     polling.json                    # Regional polling averages
     hex-layout.json                 # Hex cartogram positions for map visualization
     demographics.json               # Census demographic profiles per riding (9 variables)
+    post-election-events.json       # By-elections, floor crossings, and vacancies (manually curated)
   validation-results.json           # Output of the validate command (see SIMULATION.md)
 
 src/ElectionSim.Web/wwwroot/data/   # Copies of processed JSON served to the Blazor app
@@ -70,6 +81,7 @@ src/ElectionSim.Web/wwwroot/data/   # Copies of processed JSON served to the Bla
     results-2025.json
     results-2021.json
     polling.json
+    post-election-events.json
 ```
 
 Both `data/processed/` and `src/ElectionSim.Web/wwwroot/data/` receive identical copies of the core JSON files during processing.
@@ -189,6 +201,35 @@ Array of `RidingResult` records: `{ ridingId, year, candidates: [{ party, votes,
 ### polling.json
 
 Array of `RegionalPoll` records: `{ region, voteShares: { party: share } }`.
+
+### post-election-events.json
+
+Array of `PostElectionEvent` records representing changes to parliamentary state after a general election:
+
+```json
+{
+  "ridingId": 48002,
+  "type": "byElection",           // "byElection", "floorCrossing", or "vacancy"
+  "date": "2025-08-18",
+  "electionYear": 2025,           // Which parliament this event belongs to
+  "fromParty": null,              // Previous party (for floor crossings)
+  "toParty": "CPC",              // New party holding the seat
+  "description": "...",
+  "mpName": "Pierre Poilievre",
+  "byElectionResult": {           // Only present for by-elections
+    "candidates": [
+      { "party": "CPC", "votes": 41308, "voteShare": 0.8086 },
+      { "party": "Other", "votes": 6367, "voteShare": 0.1246 }
+    ],
+    "totalVotes": 51085
+  }
+}
+```
+
+- `type`: One of `byElection`, `floorCrossing`, or `vacancy`.
+- `electionYear`: The general election year that preceded this event (used to filter events to a specific parliament).
+- `fromParty` / `toParty`: For floor crossings, both are set. For by-elections, only `toParty`. For vacancies, neither is required.
+- `byElectionResult`: Full candidate results, present only for by-election events. Structured identically to general election `RidingResult.candidates`.
 
 ### validation-results.json
 

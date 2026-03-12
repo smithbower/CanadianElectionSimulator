@@ -46,9 +46,10 @@ wwwroot/data/*.json
        │
        ▼
  SimulationState        Holds polling inputs, config, and results; fires OnStateChanged
+       │                   Also computes ParliamentaryState from post-election events
        │
        ▼
- SimulationPipeline     Projects riding-level vote shares (swing model + optional demographic prior)
+ SimulationPipeline     Projects riding-level vote shares (by-election blending + swing model + optional demographic prior)
        │
        ▼
 MonteCarloSimulator     Runs N parallel simulations with correlated Student-t noise
@@ -95,7 +96,10 @@ The simulation runs in two phases: **projection** and **Monte Carlo sampling**.
 ### Phase 1: Vote Share Projection
 
 ```
-Regional polls + Baseline election results
+Regional polls + Baseline election results + Post-election events
+       │
+       ▼
+BlendByElectionBaselines()                 Blend by-election results into baseline (w=0.3)
        │
        ▼
 SwingCalculator.ComputeSwingRatios()       Proportional: poll / baseline_avg

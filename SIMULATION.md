@@ -11,6 +11,9 @@ The simulator projects Canadian federal election outcomes by combining regional 
 - `src/ElectionSim.Core/Simulation/SwingCalculator.cs` — swing projection logic
 - `src/ElectionSim.Core/Models/SimulationConfig.cs` — configurable parameters
 - `src/ElectionSim.Core/Models/SimulationResults.cs` — output types
+- `src/ElectionSim.Core/Simulation/SimulationPipeline.cs` — projection pipeline (swing + by-election blending + demographic prior)
+- `src/ElectionSim.Core/Models/PostElectionEvent.cs` — post-election event and by-election result types
+- `src/ElectionSim.Core/Models/ParliamentaryState.cs` — parliamentary state derivation from events
 
 ## Swing Model
 
@@ -104,6 +107,31 @@ The correlation matrix is applied identically at all three noise levels (nationa
 - `src/ElectionSim.Core/Simulation/CorrelationData.cs` — pre-computed Cholesky factor
 - `src/ElectionSim.Core/Simulation/MonteCarloSimulator.cs` — correlated noise generation
 
+### By-Election Baseline Blending
+
+When by-election results are available for a riding, the simulator blends them into the baseline before computing swing projections. This is applied at the very start of the projection pipeline — before swing calculation, demographic priors, or Monte Carlo noise.
+
+**Methodology:**
+
+1. Post-election events are loaded from `post-election-events.json` and filtered to the current parliament (matching the baseline election year).
+
+2. For each riding that has a by-election result, the baseline vote shares are replaced with a weighted blend:
+   ```
+   effective_share[party] = (1 - w) * general_election_share + w * by_election_share
+   ```
+   where `w = ByElectionBlendWeight` (default 0.3 / 30%).
+
+3. If a party appeared in the by-election but not the general election (or vice versa), the missing share is treated as 0. After blending, shares are renormalized to sum to 1.0.
+
+4. Ridings without by-election results are unaffected — their baseline remains the general election result.
+
+**Rationale:** By-elections provide more recent local signal than the last general election, but they also have different dynamics (lower turnout, protest voting, no government formation at stake). The 30% blend weight gives by-election results meaningful influence without overweighting these differences.
+
+**Key files:**
+- `src/ElectionSim.Core/Simulation/SimulationPipeline.cs` — `BlendByElectionBaselines()` method
+- `src/ElectionSim.Core/Models/PostElectionEvent.cs` — `ByElectionResult` record
+- `src/ElectionSim.Core/Models/SimulationConfig.cs` — `ByElectionBlendWeight` parameter
+
 ### Demographic Prior
 
 When `UseDemographicPrior` is enabled (default: false), the simulator blends swing-projected vote shares with a census-based demographic prior. This is applied *before* the Monte Carlo noise stage — it modifies the projected vote shares that the simulator uses as its baseline.
@@ -148,6 +176,7 @@ When `UseDemographicPrior` is enabled (default: false), the simulator blends swi
 | `SwingBlendAlpha` | 0.0 | Swing model blend: 0.0 = pure additive, 1.0 = pure proportional |
 | `RegionalSigmaMultipliers` | See below | Per-region multiplier applied to RegionalSigma and RidingSigma |
 | `UseCorrelatedNoise` | true | Use Cholesky-based correlated inter-party noise (false = independent) |
+| `ByElectionBlendWeight` | 0.3 | Weight given to by-election results when blending into baseline (0.0–1.0) |
 | `UseDemographicPrior` | false | Blend census demographic prior into riding projections |
 | `DemographicBlendWeight` | 0.15 | Weight given to demographic prior (0.0–1.0); ridings with no baseline get 1.0 |
 | `Seed` | null | RNG seed for reproducibility (null = random) |
