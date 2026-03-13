@@ -235,7 +235,7 @@ After all simulations complete, results are aggregated into a `SimulationSummary
 - `Parallel.For` with thread-local RNG and histogram arrays, merged via `lock` after completion.
 - Pre-computed 2D arrays (`double[riding, party]`) for projected vote shares.
 - `Interlocked.Increment` for thread-safe riding win counters.
-- `RunAsync` variant yields to the UI thread between 5% batches for Blazor WebAssembly (single-threaded).
+- Blazor WASM runs the simulation via `Task.Run()` to avoid blocking the UI thread.
 
 ## Validation
 

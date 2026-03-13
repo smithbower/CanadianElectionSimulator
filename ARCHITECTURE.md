@@ -192,8 +192,8 @@ sequentially.
 - **Pure Core library**: No framework dependencies in ElectionSim.Core, enabling reuse across
   Blazor WASM (single-threaded), server (multi-threaded), and CLI (validation).
 - **Parallel.For with thread-local state**: Monte Carlo simulations use thread-local RNG and
-  histogram arrays, merged via lock after completion. The WASM variant (`RunAsync`) yields to
-  the UI thread between 5% batches.
+  histogram arrays, merged via lock after completion. The Blazor WASM client runs the simulation
+  via `Task.Run()` to avoid blocking the UI thread.
 - **Record types everywhere**: All domain models are immutable records with camelCase JSON
   serialization via `System.Text.Json`.
 - **Scoped state service**: `SimulationState` acts as a lightweight state store with
