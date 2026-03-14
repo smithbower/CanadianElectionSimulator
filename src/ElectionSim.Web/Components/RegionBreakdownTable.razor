@@ -26,23 +26,19 @@
                     .OrderBy(p => { var i = Array.IndexOf(ProvinceOrder, p); return i < 0 ? 999 : i; }))
                 {
                     var provinceRidings = Ridings.Where(r => r.Province == province).ToList();
+                    var apportioned = ApportionSeats(provinceRidings, Summary);
 
                     <tr>
                         <td class="region-name">@(ProvinceAbbreviations.GetValueOrDefault(province, province))</td>
                         <td class="riding-count">@provinceRidings.Count</td>
                         @foreach (var party in PartyColorProvider.MainParties)
                         {
-                            double seats = 0;
-                            foreach (var riding in provinceRidings)
-                            {
-                                if (Summary.RidingWinProbabilities.TryGetValue(riding.Id, out var probs))
-                                    seats += probs.GetValueOrDefault(party, 0);
-                            }
+                            var seats = apportioned.GetValueOrDefault(party, 0);
                             var color = PartyColorProvider.GetColor(party);
                             var baselineCount = baselineSeats.GetValueOrDefault(province)?.GetValueOrDefault(party, 0) ?? 0;
-                            var delta = (int)Math.Round(seats) - baselineCount;
+                            var delta = seats - baselineCount;
                             <td class="seat-cell">
-                                <span style="color: @(seats >= 1 ? color : "#999")">@Math.Round(seats).ToString("F0")</span>@if (delta > 0)
+                                <span style="color: @(seats >= 1 ? color : "#999")">@seats</span>@if (delta > 0)
                                 {<span class="seat-delta" style="color: #16a34a">▲@delta</span>}
                                 else if (delta < 0)
                                 {<span class="seat-delta" style="color: #dc2626">▼@Math.Abs(delta)</span>}
@@ -50,18 +46,20 @@
                         }
                     </tr>
                 }
+                @{
+                    var totalApportioned = ApportionTotalSeats(Summary, Ridings.Count);
+                }
                 <tr class="total-row">
                     <td class="region-name"><strong>Total</strong></td>
                     <td class="riding-count"><strong>@Ridings.Count</strong></td>
                     @foreach (var party in PartyColorProvider.MainParties)
                     {
-                        var dist = Summary.SeatDistributions.GetValueOrDefault(party);
-                        var projectedSeats = (int)Math.Round(dist?.Mean ?? 0);
+                        var projectedSeats = totalApportioned.GetValueOrDefault(party, 0);
                         var totalBaseline = baselineSeats.Values.Sum(d => d.GetValueOrDefault(party, 0));
                         var delta = projectedSeats - totalBaseline;
                         <td class="seat-cell">
                             <strong style="color: @PartyColorProvider.GetColor(party)">
-                                @(dist?.Mean.ToString("F0") ?? "0")
+                                @projectedSeats
                             </strong>@if (delta > 0)
                             {<span class="seat-delta" style="color: #16a34a">▲@delta</span>}
                             else if (delta < 0)
@@ -94,6 +92,51 @@
 
     [Parameter] public SimulationSummary? Summary { get; set; }
     [Parameter] public IReadOnlyList<Riding>? Ridings { get; set; }
+
+    private static Dictionary<Party, int> ApportionSeats(List<Riding> provinceRidings, SimulationSummary summary)
+    {
+        var rawSeats = new Dictionary<Party, double>();
+        foreach (var party in PartyColorProvider.MainParties)
+        {
+            double seats = 0;
+            foreach (var riding in provinceRidings)
+            {
+                if (summary.RidingWinProbabilities.TryGetValue(riding.Id, out var probs))
+                    seats += probs.GetValueOrDefault(party, 0);
+            }
+            rawSeats[party] = seats;
+        }
+        return LargestRemainder(rawSeats, provinceRidings.Count);
+    }
+
+    private static Dictionary<Party, int> ApportionTotalSeats(SimulationSummary summary, int totalRidings)
+    {
+        var rawSeats = new Dictionary<Party, double>();
+        foreach (var party in PartyColorProvider.MainParties)
+        {
+            var dist = summary.SeatDistributions.GetValueOrDefault(party);
+            rawSeats[party] = dist?.Mean ?? 0;
+        }
+        return LargestRemainder(rawSeats, totalRidings);
+    }
+
+    private static Dictionary<Party, int> LargestRemainder(Dictionary<Party, double> rawSeats, int totalToDistribute)
+    {
+        var result = new Dictionary<Party, int>();
+        foreach (var kvp in rawSeats)
+            result[kvp.Key] = (int)Math.Floor(kvp.Value);
+
+        var shortfall = totalToDistribute - result.Values.Sum();
+
+        var byRemainder = rawSeats.Keys
+            .OrderByDescending(p => rawSeats[p] - Math.Floor(rawSeats[p]))
+            .ToList();
+
+        for (int i = 0; i < shortfall && i < byRemainder.Count; i++)
+            result[byRemainder[i]]++;
+
+        return result;
+    }
 
     private Dictionary<string, Dictionary<Party, int>> GetBaselineSeats()
     {
