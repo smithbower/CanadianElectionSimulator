@@ -118,6 +118,12 @@ public partial class TrendLineChart
         var ticks = new List<double>();
         double step = NiceStep(max - min, 5);
         double tickStart = Math.Ceiling(min / step) * step;
+
+        // Snap max up to the next tick boundary so confidence bands
+        // don't extend above the last gridline and appear cut off.
+        if (YMax == null)
+            max = Math.Ceiling(max / step) * step;
+
         for (double t = tickStart; t <= max; t += step)
             ticks.Add(t);
 
