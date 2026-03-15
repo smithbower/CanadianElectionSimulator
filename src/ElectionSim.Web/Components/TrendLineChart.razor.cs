@@ -22,12 +22,19 @@ public partial class TrendLineChart
     [Parameter] public double? YMax { get; set; }
     [Parameter] public Func<double, string>? FormatFunc { get; set; }
     [Parameter] public EventCallback<SimulationTrendPoint> OnPointClicked { get; set; }
+    [Parameter] public DateTime? SelectedTimestamp { get; set; }
     [Parameter] public Func<SimulationTrendPoint, Party, double>? OuterBandUpperSelector { get; set; }
     [Parameter] public Func<SimulationTrendPoint, Party, double>? OuterBandLowerSelector { get; set; }
     [Parameter] public Func<SimulationTrendPoint, Party, double>? InnerBandUpperSelector { get; set; }
     [Parameter] public Func<SimulationTrendPoint, Party, double>? InnerBandLowerSelector { get; set; }
 
     private int hoveredIndex = -1;
+
+    internal int GetSelectedIndex()
+    {
+        if (SelectedTimestamp == null || Points == null) return -1;
+        return Points.FindIndex(pt => pt.Timestamp == SelectedTimestamp.Value);
+    }
 
     internal string FormatValue(double val) => FormatFunc != null ? FormatFunc(val) : val.ToString("F1");
 

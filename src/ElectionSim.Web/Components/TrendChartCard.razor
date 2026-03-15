@@ -2,6 +2,7 @@
 
 <div class="trend-card">
     <h3>Projection Trends</h3>
+    Select a data point to load that set of simulation results.
 
     <TrendLineChart Points="@TrendData.Points"
                     ValueSelector="@((pt, p) => pt.MeanSeats.GetValueOrDefault(p))"
@@ -12,7 +13,8 @@
                     YAxisLabel="Projected Seats"
                     YMin="0"
                     FormatFunc="@(v => v.ToString("F0"))"
-                    OnPointClicked="OnPointClicked" />
+                    OnPointClicked="OnPointClicked"
+                    SelectedTimestamp="@SelectedTimestamp" />
 
     <TrendLineChart Points="@TrendData.Points"
                     ValueSelector="@((pt, p) => pt.MajorityProbabilities.GetValueOrDefault(p) * 100)"
@@ -23,10 +25,12 @@
                     YMin="0"
                     YMax="100"
                     FormatFunc="@(v => v.ToString("F1") + "%")"
-                    OnPointClicked="OnPointClicked" />
+                    OnPointClicked="OnPointClicked"
+                    SelectedTimestamp="@SelectedTimestamp" />
 </div>
 
 @code {
     [Parameter, EditorRequired] public SimulationTrendData TrendData { get; set; } = null!;
     [Parameter] public EventCallback<SimulationTrendPoint> OnPointClicked { get; set; }
+    [Parameter] public DateTime? SelectedTimestamp { get; set; }
 }

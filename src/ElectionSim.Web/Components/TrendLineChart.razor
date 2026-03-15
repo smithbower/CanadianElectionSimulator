@@ -88,6 +88,16 @@
                 }
             }
 
+            @* Selected-point vertical line *@
+            @{
+                int selectedIdx = GetSelectedIndex();
+            }
+            @if (selectedIdx >= 0)
+            {
+                double selX = xPositions[selectedIdx];
+                <line x1="@selX" y1="5" x2="@selX" y2="125" stroke="#0f3460" stroke-width="1.5" opacity="0.5" />
+            }
+
             @* Hover columns *@
             @for (int i = 0; i < Points.Count; i++)
             {

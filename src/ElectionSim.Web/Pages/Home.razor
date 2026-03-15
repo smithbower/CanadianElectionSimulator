@@ -57,7 +57,7 @@ else
                     }
                     else if (DataService.TrendData?.Points?.Count >= 2)
                     {
-                        <TrendChartCard TrendData="DataService.TrendData" OnPointClicked="OnTrendPointClicked" />
+                        <TrendChartCard TrendData="DataService.TrendData" OnPointClicked="OnTrendPointClicked" SelectedTimestamp="State.SnapshotTimestamp" />
                     }
                 }
                 <SectionNav />
