@@ -9,13 +9,13 @@
         <button class="btn-small" @onclick="ResetToPolls">Reset</button>
     </div>
 
-    @foreach (var party in PartyColorProvider.MainParties)
+    @foreach (var party in PartyColourProvider.MainParties)
     {
         var p = party;
         double share = State.GetNationalShare(p);
         <div class="slider-row">
-            <span class="party-badge" style="background-color: @PartyColorProvider.GetColor(p)">
-                @PartyColorProvider.GetShortName(p)
+            <span class="party-badge" style="background-color: @PartyColourProvider.GetColour(p)">
+                @PartyColourProvider.GetShortName(p)
             </span>
             <input type="range" min="0" max="0.60" step="0.005"
                    value="@share"
@@ -47,14 +47,14 @@
         {
             if (!State.CurrentPolling.TryGetValue(region, out var shares)) continue;
             <div class="region-section">
-                <h4>@PartyColorProvider.GetProvinceRegionName(region)</h4>
-                @foreach (var party in PartyColorProvider.MainParties)
+                <h4>@PartyColourProvider.GetProvinceRegionName(region)</h4>
+                @foreach (var party in PartyColourProvider.MainParties)
                 {
                     var p = party;
                     var r = region;
                     double val = shares.GetValueOrDefault(p, 0);
                     <div class="slider-row compact">
-                        <span class="party-dot" style="background-color: @PartyColorProvider.GetColor(p)"></span>
+                        <span class="party-dot" style="background-color: @PartyColourProvider.GetColour(p)"></span>
                         <input type="range" min="0" max="0.70" step="0.005"
                                value="@val"
                                @oninput="e => OnRegionalSliderChanged(r, p, e)" />
@@ -107,7 +107,7 @@
     private double GetNationalTotal()
     {
         if (State.CurrentPolling.Count == 0) return 0;
-        return PartyColorProvider.MainParties.Sum(p => State.GetNationalShare(p));
+        return PartyColourProvider.MainParties.Sum(p => State.GetNationalShare(p));
     }
 
     private string GetTotalClass(double total)

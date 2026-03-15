@@ -42,7 +42,7 @@ public partial class TrendLineChart
     {
         if (Points == null || Points.Count == 0) return new();
 
-        return PartyColorProvider.MainParties
+        return PartyColourProvider.MainParties
             .Where(p => Points.Any(pt => ValueSelector(pt, p) > 0.5))
             .ToList();
     }
@@ -211,7 +211,7 @@ public partial class TrendLineChart
         return sb.ToString();
     }
 
-    internal record EndLabel(double NaturalY, double AdjustedY, string Label, string Color, bool IsPrimary);
+    internal record EndLabel(double NaturalY, double AdjustedY, string Label, string Colour, bool IsPrimary);
 
     internal List<EndLabel> ComputeEndLabels(YScaleInfo yScale)
     {
@@ -223,20 +223,20 @@ public partial class TrendLineChart
 
         foreach (var party in parties)
         {
-            var color = PartyColorProvider.GetColor(party);
+            var colour = PartyColourProvider.GetColour(party);
             double val = ValueSelector(lastPt, party);
             double y = yScale.ToY(val);
-            labels.Add(new EndLabel(y, y, FormatValue(val), color, true));
+            labels.Add(new EndLabel(y, y, FormatValue(val), colour, true));
         }
 
         if (SecondaryValueSelector != null)
         {
             foreach (var party in parties)
             {
-                var color = PartyColorProvider.GetColor(party);
+                var colour = PartyColourProvider.GetColour(party);
                 double val = SecondaryValueSelector(lastPt, party);
                 double y = yScale.ToY(val);
-                labels.Add(new EndLabel(y, y, FormatValue(val), color, false));
+                labels.Add(new EndLabel(y, y, FormatValue(val), colour, false));
             }
         }
 

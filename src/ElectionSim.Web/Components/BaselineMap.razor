@@ -55,7 +55,7 @@
                 double cx = padX + (hex.Col - minCol) * colSpacing + (hex.Row % 2 == 1 ? colSpacing / 2 : 0) + hexW / 2;
                 double cy = padY + (hex.Row - minRow) * rowSpacing + hexSize;
 
-                var winnerColor = "#888";
+                var winnerColour = "#888";
                 double winnerShare = 0;
 
                 if (resultLookup.TryGetValue(hex.Id, out var result))
@@ -65,7 +65,7 @@
                         if (candidate.VoteShare > winnerShare)
                         {
                             winnerShare = candidate.VoteShare;
-                            winnerColor = PartyColorProvider.GetColor(candidate.Party);
+                            winnerColour = PartyColourProvider.GetColour(candidate.Party);
                         }
                     }
                 }
@@ -75,7 +75,7 @@
                 var rid = riding;
 
                 <polygon points="@points"
-                         fill="@winnerColor"
+                         fill="@winnerColour"
                          opacity="@opacity.ToString("F2")"
                          class="hex-cell"
                          @onclick="() => OnHexClicked(rid)">

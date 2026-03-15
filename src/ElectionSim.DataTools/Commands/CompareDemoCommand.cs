@@ -43,7 +43,7 @@ public static class CompareDemoCommand
             return;
         }
 
-        var parties = PartyColorProvider.MainParties;
+        var parties = PartyColourProvider.MainParties;
         var config = new SimulationConfig(
             NumSimulations: 10_000,
             Seed: 42

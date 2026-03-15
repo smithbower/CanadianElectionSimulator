@@ -56,7 +56,7 @@
             double cx = padX + (hex.Col - minCol) * colSpacing + (hex.Row % 2 == 1 ? colSpacing / 2 : 0) + hexW / 2;
             double cy = padY + (hex.Row - minRow) * rowSpacing + hexSize;
 
-            var winnerColor = "#888";
+            var winnerColour = "#888";
             double maxProb = 0;
 
             if (Summary.RidingWinProbabilities.TryGetValue(hex.Id, out var probs))
@@ -66,7 +66,7 @@
                     if (prob > maxProb)
                     {
                         maxProb = prob;
-                        winnerColor = PartyColorProvider.GetColor(party);
+                        winnerColour = PartyColourProvider.GetColour(party);
                     }
                 }
             }
@@ -76,7 +76,7 @@
             var rid = riding;
 
             <polygon points="@points"
-                     fill="@winnerColor"
+                     fill="@winnerColour"
                      opacity="@opacity.ToString("F2")"
                      class="hex-cell"
                      @onclick="() => OnHexClicked(rid)">

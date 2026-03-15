@@ -44,7 +44,7 @@ internal static class TestHelpers
     }
 
     internal static Dictionary<Party, double> MakeUniformUncertainty(double value) =>
-        PartyColorProvider.MainParties.ToDictionary(p => p, _ => value);
+        PartyColourProvider.MainParties.ToDictionary(p => p, _ => value);
 
     internal static double TotalSpread(SimulationSummary results) =>
         results.SeatDistributions.Values.Sum(d => d.P95 - d.P5);

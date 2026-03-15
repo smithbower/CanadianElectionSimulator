@@ -21,7 +21,7 @@ public static class DemographicPrior
         IReadOnlyList<IReadOnlyList<RidingResult>> trainingElections,
         double ridgeLambda = DefaultRidgeLambda)
     {
-        var parties = PartyColorProvider.MainParties;
+        var parties = PartyColourProvider.MainParties;
         int numRidings = ridings.Count;
         int numParties = parties.Count;
         int numFeatures = RidingDemographics.FeatureCount + 1; // +1 for intercept

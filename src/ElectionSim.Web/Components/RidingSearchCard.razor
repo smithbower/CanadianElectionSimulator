@@ -37,7 +37,7 @@
     {
         <div class="riding-detail-inline">
             <div class="riding-meta">
-                @selectedRiding.Province &middot; @PartyColorProvider.GetProvinceRegionName(selectedRiding.Region)
+                @selectedRiding.Province &middot; @PartyColourProvider.GetProvinceRegionName(selectedRiding.Region)
             </div>
 
             @{
@@ -49,12 +49,12 @@
             <div class="mp-section">
                 @if (scMpName != null && scMpParty != null)
                 {
-                    var scMpColor = PartyColorProvider.GetColor(scMpParty.Value);
+                    var scMpColour = PartyColourProvider.GetColour(scMpParty.Value);
                     <div class="current-mp-row">
                         <span class="current-mp-label">Current MP</span>
                         <span class="current-mp-name">@scMpName</span>
-                        <span class="mp-party-badge" style="background: @(scMpColor)18; color: @scMpColor; border: 1px solid @(scMpColor)44">
-                            @PartyColorProvider.GetShortName(scMpParty.Value)
+                        <span class="mp-party-badge" style="background: @(scMpColour)18; color: @scMpColour; border: 1px solid @(scMpColour)44">
+                            @PartyColourProvider.GetShortName(scMpParty.Value)
                         </span>
                     </div>
                 }
@@ -100,7 +100,7 @@
                 @if (compareRiding != null)
                 {
                     <div class="riding-meta compare-riding-meta">
-                        @compareRiding.Province &middot; @PartyColorProvider.GetProvinceRegionName(compareRiding.Region)
+                        @compareRiding.Province &middot; @PartyColourProvider.GetProvinceRegionName(compareRiding.Region)
                     </div>
                     var cmpRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(compareRiding.Id);
                     var cmpElectionWinner = DataService.GetMpForRiding(compareRiding.Id, State.BaselineYear);
@@ -108,12 +108,12 @@
                     <div class="mp-section">
                         @if (cmpMpName != null && cmpMpParty != null)
                         {
-                            var cmpMpColor = PartyColorProvider.GetColor(cmpMpParty.Value);
+                            var cmpMpColour = PartyColourProvider.GetColour(cmpMpParty.Value);
                             <div class="current-mp-row">
                                 <span class="current-mp-label">Current MP</span>
                                 <span class="current-mp-name">@cmpMpName</span>
-                                <span class="mp-party-badge" style="background: @(cmpMpColor)18; color: @cmpMpColor; border: 1px solid @(cmpMpColor)44">
-                                    @PartyColorProvider.GetShortName(cmpMpParty.Value)
+                                <span class="mp-party-badge" style="background: @(cmpMpColour)18; color: @cmpMpColour; border: 1px solid @(cmpMpColour)44">
+                                    @PartyColourProvider.GetShortName(cmpMpParty.Value)
                                 </span>
                             </div>
                         }
@@ -143,12 +143,12 @@
                     @foreach (var (party, prob) in probs.OrderByDescending(p => p.Value))
                     {
                         if (prob < 0.005) continue;
-                        var color = PartyColorProvider.GetColor(party);
+                        var colour = PartyColourProvider.GetColour(party);
 
                         <div class="prob-row">
-                            <span class="prob-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="prob-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                             <div class="prob-bar-bg">
-                                <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @color;"></div>
+                                <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @colour;"></div>
                             </div>
                             <span class="prob-pct">@((prob * 100).ToString("F1"))%</span>
                         </div>
@@ -162,12 +162,12 @@
                         @foreach (var (party, prob) in compareProbs.OrderByDescending(p => p.Value))
                         {
                             if (prob < 0.005) continue;
-                            var color = PartyColorProvider.GetColor(party);
+                            var colour = PartyColourProvider.GetColour(party);
 
                             <div class="prob-row">
-                                <span class="prob-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                <span class="prob-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                                 <div class="prob-bar-bg">
-                                    <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @color;"></div>
+                                    <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @colour;"></div>
                                 </div>
                                 <span class="prob-pct">@((prob * 100).ToString("F1"))%</span>
                             </div>
@@ -178,8 +178,8 @@
                 @if (isComparing)
                 {
                     @* Comparison mode: both ridings' projected medians *@
-                    var colorA = "#6b7280";
-                    var colorB = "#e76f51";
+                    var colourA = "#6b7280";
+                    var colourB = "#e76f51";
 
                     Summary.RidingVoteShareDistributions.TryGetValue(selectedRiding.Id, out var simDistsA);
                     Summary.RidingVoteShareDistributions.TryGetValue(compareRiding!.Id, out var simDistsB);
@@ -239,22 +239,22 @@
                                                       x2="@CPolarX(i, cRadarMax)" y2="@CPolarY(i, cRadarMax)"
                                                       class="radar-axis-line" />
                                             }
-                                            <polygon points="@pointsA" fill="@colorA" fill-opacity="0.12" stroke="@colorA" stroke-width="1.5" />
-                                            <polygon points="@pointsB" fill="@colorB" fill-opacity="0.12" stroke="@colorB" stroke-width="1.5" stroke-dasharray="4 2" />
+                                            <polygon points="@pointsA" fill="@colourA" fill-opacity="0.12" stroke="@colourA" stroke-width="1.5" />
+                                            <polygon points="@pointsB" fill="@colourB" fill-opacity="0.12" stroke="@colourB" stroke-width="1.5" stroke-dasharray="4 2" />
                                             @for (var i = 0; i < cn; i++)
                                             {
                                                 <circle cx="@CPolarX(i, AVal(i))" cy="@CPolarY(i, AVal(i))"
-                                                        r="3" fill="@colorA" stroke="#fff" stroke-width="1" />
+                                                        r="3" fill="@colourA" stroke="#fff" stroke-width="1" />
                                             }
                                             @for (var i = 0; i < cn; i++)
                                             {
                                                 <circle cx="@CPolarX(i, BVal(i))" cy="@CPolarY(i, BVal(i))"
-                                                        r="3" fill="@colorB" stroke="#fff" stroke-width="1" />
+                                                        r="3" fill="@colourB" stroke="#fff" stroke-width="1" />
                                             }
                                             @for (var i = 0; i < cn; i++)
                                             {
                                                 var party = cAxisParties[i];
-                                                var labelColor = PartyColorProvider.GetColor(party);
+                                                var labelColour = PartyColourProvider.GetColour(party);
                                                 var angle = 2 * Math.PI * i / cn;
                                                 var lx = ccx + cLabelRadius * Math.Sin(angle);
                                                 var ly = ccy - cLabelRadius * Math.Cos(angle);
@@ -264,16 +264,16 @@
                                                 var dyVal = Math.Cos(angle) > 0.3 ? "-0.3em" : (Math.Cos(angle) < -0.3 ? "1.2em" : "0.35em");
                                                 var aVal = AVal(i);
                                                 var bVal = BVal(i);
-                                                @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" fill=\"{labelColor}\" class=\"radar-label\"><tspan font-weight=\"700\">{PartyColorProvider.GetShortName(party)}</tspan> <tspan fill=\"{colorA}\">{aVal:F1}</tspan><tspan fill=\"#999\"> / </tspan><tspan fill=\"{colorB}\">{bVal:F1}%</tspan></text>")
+                                                @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" fill=\"{labelColour}\" class=\"radar-label\"><tspan font-weight=\"700\">{PartyColourProvider.GetShortName(party)}</tspan> <tspan fill=\"{colourA}\">{aVal:F1}</tspan><tspan fill=\"#999\"> / </tspan><tspan fill=\"{colourB}\">{bVal:F1}%</tspan></text>")
                                             }
                                         </svg>
                                     </div>
                                     <div class="radar-legend">
                                         <span class="legend-item">
-                                            <span class="legend-swatch" style="background: @colorA;"></span> @selectedRiding.Name
+                                            <span class="legend-swatch" style="background: @colourA;"></span> @selectedRiding.Name
                                         </span>
                                         <span class="legend-item">
-                                            <span class="legend-swatch legend-swatch-dashed" style="background: @colorB;"></span> @compareRiding.Name
+                                            <span class="legend-swatch legend-swatch-dashed" style="background: @colourB;"></span> @compareRiding.Name
                                         </span>
                                     </div>
                                 </div>
@@ -286,8 +286,8 @@
                                     double dcx = 250, dcy = 170, dRadius = 110, dLabelRadius = 155;
                                     double dMax = 100.0;
                                     var dRingCount = 10;
-                                    var dColorA = "#6366f1";
-                                    var dColorB = "#e76f51";
+                                    var dColourA = "#6366f1";
+                                    var dColourB = "#e76f51";
 
                                     string DPolarX(int i, double val) => (dcx + dRadius * (val / dMax) * Math.Sin(2 * Math.PI * i / dn)).ToString("F1");
                                     string DPolarY(int i, double val) => (dcy - dRadius * (val / dMax) * Math.Cos(2 * Math.PI * i / dn)).ToString("F1");
@@ -311,17 +311,17 @@
                                                           x2="@DPolarX(i, dMax)" y2="@DPolarY(i, dMax)"
                                                           class="radar-axis-line" />
                                                 }
-                                                <polygon points="@demoPointsA" fill="@dColorA" fill-opacity="0.12" stroke="@dColorA" stroke-width="1.5" />
-                                                <polygon points="@demoPointsB" fill="@dColorB" fill-opacity="0.12" stroke="@dColorB" stroke-width="1.5" stroke-dasharray="4 2" />
+                                                <polygon points="@demoPointsA" fill="@dColourA" fill-opacity="0.12" stroke="@dColourA" stroke-width="1.5" />
+                                                <polygon points="@demoPointsB" fill="@dColourB" fill-opacity="0.12" stroke="@dColourB" stroke-width="1.5" stroke-dasharray="4 2" />
                                                 @for (var i = 0; i < dn; i++)
                                                 {
                                                     <circle cx="@DPolarX(i, demoValuesA[i].Value * 100)" cy="@DPolarY(i, demoValuesA[i].Value * 100)"
-                                                            r="3" fill="@dColorA" stroke="#fff" stroke-width="1" />
+                                                            r="3" fill="@dColourA" stroke="#fff" stroke-width="1" />
                                                 }
                                                 @for (var i = 0; i < dn; i++)
                                                 {
                                                     <circle cx="@DPolarX(i, demoValuesB[i].Value * 100)" cy="@DPolarY(i, demoValuesB[i].Value * 100)"
-                                                            r="3" fill="@dColorB" stroke="#fff" stroke-width="1" />
+                                                            r="3" fill="@dColourB" stroke="#fff" stroke-width="1" />
                                                 }
                                                 @for (var i = 0; i < dn; i++)
                                                 {
@@ -336,16 +336,16 @@
                                                     var pctB = (demoValuesB[i].Value * 100).ToString("F0");
                                                     var tooltip = System.Web.HttpUtility.HtmlEncode(demoValuesA[i].Tooltip);
                                                     var labelText = demoValuesA[i].Label;
-                                                    @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" class=\"radar-label demo-radar-label\" cursor=\"help\"><title>{tooltip}</title><tspan font-weight=\"600\" fill=\"#555\" class=\"demo-radar-underline\">{labelText}</tspan> <tspan fill=\"{dColorA}\">{pctA}</tspan><tspan fill=\"#999\"> / </tspan><tspan fill=\"{dColorB}\">{pctB}%</tspan></text>")
+                                                    @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" class=\"radar-label demo-radar-label\" cursor=\"help\"><title>{tooltip}</title><tspan font-weight=\"600\" fill=\"#555\" class=\"demo-radar-underline\">{labelText}</tspan> <tspan fill=\"{dColourA}\">{pctA}</tspan><tspan fill=\"#999\"> / </tspan><tspan fill=\"{dColourB}\">{pctB}%</tspan></text>")
                                                 }
                                             </svg>
                                         </div>
                                         <div class="radar-legend">
                                             <span class="legend-item">
-                                                <span class="legend-swatch" style="background: @dColorA;"></span> @selectedRiding.Name
+                                                <span class="legend-swatch" style="background: @dColourA;"></span> @selectedRiding.Name
                                             </span>
                                             <span class="legend-item">
-                                                <span class="legend-swatch legend-swatch-dashed" style="background: @dColorB;"></span> @compareRiding.Name
+                                                <span class="legend-swatch legend-swatch-dashed" style="background: @dColourB;"></span> @compareRiding.Name
                                             </span>
                                         </div>
                                     </div>
@@ -362,10 +362,10 @@
                     {
                         var previousWinner = result2025.Candidates.OrderByDescending(c => c.VoteShare).First();
                         var isFlip = projectedWinner != previousWinner.Party;
-                        var prevColor = PartyColorProvider.GetColor(previousWinner.Party);
+                        var prevColour = PartyColourProvider.GetColour(previousWinner.Party);
 
-                        var colorActual = "#6b7280";
-                        var colorProjected = "#3b82f6";
+                        var colourActual = "#6b7280";
+                        var colourProjected = "#3b82f6";
 
                         var candidates = result2025.Candidates
                             .Where(c => c.VoteShare >= 0.01)
@@ -436,30 +436,30 @@
                                             }
 
                                             @* 2025 actual polygon *@
-                                            <polygon points="@actualPoints" fill="@colorActual" fill-opacity="0.12" stroke="@colorActual" stroke-width="1.5" />
+                                            <polygon points="@actualPoints" fill="@colourActual" fill-opacity="0.12" stroke="@colourActual" stroke-width="1.5" />
 
                                             @* Simulated polygon *@
-                                            <polygon points="@simPoints" fill="@colorProjected" fill-opacity="0.12" stroke="@colorProjected" stroke-width="1.5" stroke-dasharray="4 2" />
+                                            <polygon points="@simPoints" fill="@colourProjected" fill-opacity="0.12" stroke="@colourProjected" stroke-width="1.5" stroke-dasharray="4 2" />
 
                                             @* 2025 dots *@
                                             @for (var i = 0; i < n; i++)
                                             {
                                                 <circle cx="@PolarX(i, ActualPct(i))" cy="@PolarY(i, ActualPct(i))"
-                                                        r="3" fill="@colorActual" stroke="#fff" stroke-width="1" />
+                                                        r="3" fill="@colourActual" stroke="#fff" stroke-width="1" />
                                             }
 
                                             @* Simulated dots *@
                                             @for (var i = 0; i < n; i++)
                                             {
                                                 <circle cx="@PolarX(i, SimPct(i))" cy="@PolarY(i, SimPct(i))"
-                                                        r="3" fill="@colorProjected" stroke="#fff" stroke-width="1" />
+                                                        r="3" fill="@colourProjected" stroke="#fff" stroke-width="1" />
                                             }
 
                                             @* Axis labels: party name + 2025% -> sim% *@
                                             @for (var i = 0; i < n; i++)
                                             {
                                                 var party = axisParties[i];
-                                                var labelColor = PartyColorProvider.GetColor(party);
+                                                var labelColour = PartyColourProvider.GetColour(party);
                                                 var angle = 2 * Math.PI * i / n;
                                                 var lx = rcx + rLabelRadius * Math.Sin(angle);
                                                 var ly = rcy - rLabelRadius * Math.Cos(angle);
@@ -469,23 +469,23 @@
                                                 var dyVal = Math.Cos(angle) > 0.3 ? "-0.3em" : (Math.Cos(angle) < -0.3 ? "1.2em" : "0.35em");
                                                 var actualVal = ActualPct(i);
                                                 var simVal = SimPct(i);
-                                                var label = $"{PartyColorProvider.GetShortName(party)} {actualVal:F1}";
+                                                var label = $"{PartyColourProvider.GetShortName(party)} {actualVal:F1}";
                                                 var labelSim = $"{simVal:F1}%";
-                                                @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" fill=\"{labelColor}\" class=\"radar-label\"><tspan font-weight=\"700\">{PartyColorProvider.GetShortName(party)}</tspan> <tspan fill=\"{colorActual}\">{actualVal:F1}</tspan><tspan fill=\"#999\"> &#x2192; </tspan><tspan fill=\"{colorProjected}\">{simVal:F1}%</tspan></text>")
+                                                @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" fill=\"{labelColour}\" class=\"radar-label\"><tspan font-weight=\"700\">{PartyColourProvider.GetShortName(party)}</tspan> <tspan fill=\"{colourActual}\">{actualVal:F1}</tspan><tspan fill=\"#999\"> &#x2192; </tspan><tspan fill=\"{colourProjected}\">{simVal:F1}%</tspan></text>")
                                             }
                                         </svg>
                                     </div>
                                     <div class="radar-legend">
                                         <span class="legend-item">
-                                            <span class="legend-swatch" style="background: @colorActual;"></span> 2025 Result
+                                            <span class="legend-swatch" style="background: @colourActual;"></span> 2025 Result
                                         </span>
                                         <span class="legend-item">
-                                            <span class="legend-swatch legend-swatch-dashed" style="background: @colorProjected;"></span> Projected
+                                            <span class="legend-swatch legend-swatch-dashed" style="background: @colourProjected;"></span> Projected
                                         </span>
                                     </div>
                                     <div class="radar-flip-row">
-                                        <span class="prev-winner-name" style="color: @prevColor">
-                                            @PartyColorProvider.GetName(previousWinner.Party) won 2025
+                                        <span class="prev-winner-name" style="color: @prevColour">
+                                            @PartyColourProvider.GetName(previousWinner.Party) won 2025
                                         </span>
                                         @if (isFlip)
                                         {
@@ -508,7 +508,7 @@
                                     double dLabelRadius = 155;
                                     double dMax = 100.0;
                                     var dRingCount = 10;
-                                    var demoColor = "#6366f1";
+                                    var demoColour = "#6366f1";
 
                                     string DPolarX(int i, double val) => (dcx + dRadius * (val / dMax) * Math.Sin(2 * Math.PI * i / dn)).ToString("F1");
                                     string DPolarY(int i, double val) => (dcy - dRadius * (val / dMax) * Math.Cos(2 * Math.PI * i / dn)).ToString("F1");
@@ -536,13 +536,13 @@
                                                 }
 
                                                 @* Demographics polygon *@
-                                                <polygon points="@demoPoints" fill="@demoColor" fill-opacity="0.15" stroke="@demoColor" stroke-width="1.5" />
+                                                <polygon points="@demoPoints" fill="@demoColour" fill-opacity="0.15" stroke="@demoColour" stroke-width="1.5" />
 
                                                 @* Dots *@
                                                 @for (var i = 0; i < dn; i++)
                                                 {
                                                     <circle cx="@DPolarX(i, demoValues[i].Value * 100)" cy="@DPolarY(i, demoValues[i].Value * 100)"
-                                                            r="3" fill="@demoColor" stroke="#fff" stroke-width="1" />
+                                                            r="3" fill="@demoColour" stroke="#fff" stroke-width="1" />
                                                 }
 
                                                 @* Axis labels *@
@@ -558,7 +558,7 @@
                                                     var pctStr = (demoValues[i].Value * 100).ToString("F0") + "%";
                                                     var tooltip = System.Web.HttpUtility.HtmlEncode(demoValues[i].Tooltip);
                                                     var labelText = demoValues[i].Label;
-                                                    @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" class=\"radar-label demo-radar-label\" cursor=\"help\"><title>{tooltip}</title><tspan font-weight=\"600\" fill=\"#555\" class=\"demo-radar-underline\">{labelText}</tspan> <tspan fill=\"{demoColor}\">{pctStr}</tspan></text>")
+                                                    @((MarkupString)$"<text x=\"{lx:F1}\" y=\"{ly:F1}\" text-anchor=\"{anchor}\" dy=\"{dyVal}\" class=\"radar-label demo-radar-label\" cursor=\"help\"><title>{tooltip}</title><tspan font-weight=\"600\" fill=\"#555\" class=\"demo-radar-underline\">{labelText}</tspan> <tspan fill=\"{demoColour}\">{pctStr}</tspan></text>")
                                                 }
                                             </svg>
                                         </div>
@@ -600,7 +600,7 @@
                         <div class="box-plots">
                             @foreach (var (party, dist) in filtered)
                             {
-                                var color = PartyColorProvider.GetColor(party);
+                                var colour = PartyColourProvider.GetColour(party);
                                 var whiskerLeft = dist.P5 / axisMax * 100;
                                 var boxLeft = dist.P25 / axisMax * 100;
                                 var boxRight = dist.P75 / axisMax * 100;
@@ -608,11 +608,11 @@
                                 var medianPos = dist.Median / axisMax * 100;
 
                                 <div class="box-row">
-                                    <span class="box-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                    <span class="box-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                                     <div class="box-track">
-                                        <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @color;"></div>
-                                        <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @color;"></div>
-                                        <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @color;"></div>
+                                        <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @colour;"></div>
+                                        <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @colour;"></div>
+                                        <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @colour;"></div>
                                     </div>
                                     <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
                                 </div>
@@ -633,7 +633,7 @@
                                 <div class="box-plots">
                                     @foreach (var (party, dist) in cFiltered)
                                     {
-                                        var color = PartyColorProvider.GetColor(party);
+                                        var colour = PartyColourProvider.GetColour(party);
                                         var whiskerLeft = dist.P5 / axisMax * 100;
                                         var boxLeft = dist.P25 / axisMax * 100;
                                         var boxRight = dist.P75 / axisMax * 100;
@@ -641,11 +641,11 @@
                                         var medianPos = dist.Median / axisMax * 100;
 
                                         <div class="box-row">
-                                            <span class="box-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                            <span class="box-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                                             <div class="box-track">
-                                                <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @color;"></div>
-                                                <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @color;"></div>
-                                                <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @color;"></div>
+                                                <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @colour;"></div>
+                                                <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @colour;"></div>
+                                                <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @colour;"></div>
                                             </div>
                                             <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
                                         </div>
@@ -684,25 +684,25 @@
                                 <div class="mp-history">
                                     @foreach (var mp in scMpHistory)
                                     {
-                                        var histColor = PartyColorProvider.GetColor(mp.Party);
+                                        var histColour = PartyColourProvider.GetColour(mp.Party);
                                         <div class="mp-history-row">
                                             <span class="mp-history-year">@mp.Year</span>
-                                            <span class="mp-party-badge" style="background: @(histColor)18; color: @histColor; border: 1px solid @(histColor)44">
-                                                @PartyColorProvider.GetShortName(mp.Party)
+                                            <span class="mp-party-badge" style="background: @(histColour)18; color: @histColour; border: 1px solid @(histColour)44">
+                                                @PartyColourProvider.GetShortName(mp.Party)
                                             </span>
                                             <span class="mp-history-name">@mp.Name</span>
                                         </div>
                                         @foreach (var evt in scEvents.Where(e => e.ElectionYear == mp.Year).OrderBy(e => e.Date))
                                         {
-                                            var evtColor = evt.ToParty != null ? PartyColorProvider.GetColor(evt.ToParty.Value) : "#999";
+                                            var evtColour = evt.ToParty != null ? PartyColourProvider.GetColour(evt.ToParty.Value) : "#999";
                                             <div class="mp-event-row">
                                                 <span class="mp-event-date">@evt.Date.ToString("MMM yyyy")</span>
                                                 @if (evt.Type == PostElectionEventType.FloorCrossing && evt.ToParty != null)
                                                 {
-                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
-                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    <span class="mp-party-badge" style="background: @(evtColour)18; color: @evtColour; border: 1px solid @(evtColour)44">
+                                                        @PartyColourProvider.GetShortName(evt.ToParty.Value)
                                                     </span>
-                                                    <span class="mp-event-label">Crossed from @(evt.FromParty != null ? PartyColorProvider.GetShortName(evt.FromParty.Value) : "?")</span>
+                                                    <span class="mp-event-label">Crossed from @(evt.FromParty != null ? PartyColourProvider.GetShortName(evt.FromParty.Value) : "?")</span>
                                                 }
                                                 else if (evt.Type == PostElectionEventType.Vacancy)
                                                 {
@@ -711,8 +711,8 @@
                                                 }
                                                 else if (evt.Type == PostElectionEventType.ByElection && evt.ToParty != null)
                                                 {
-                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
-                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    <span class="mp-party-badge" style="background: @(evtColour)18; color: @evtColour; border: 1px solid @(evtColour)44">
+                                                        @PartyColourProvider.GetShortName(evt.ToParty.Value)
                                                     </span>
                                                     <span class="mp-event-label">@(evt.MpName ?? "By-election")</span>
                                                 }
@@ -732,25 +732,25 @@
                                 <div class="mp-history">
                                     @foreach (var mp in cmpMpHistory)
                                     {
-                                        var histColor = PartyColorProvider.GetColor(mp.Party);
+                                        var histColour = PartyColourProvider.GetColour(mp.Party);
                                         <div class="mp-history-row">
                                             <span class="mp-history-year">@mp.Year</span>
-                                            <span class="mp-party-badge" style="background: @(histColor)18; color: @histColor; border: 1px solid @(histColor)44">
-                                                @PartyColorProvider.GetShortName(mp.Party)
+                                            <span class="mp-party-badge" style="background: @(histColour)18; color: @histColour; border: 1px solid @(histColour)44">
+                                                @PartyColourProvider.GetShortName(mp.Party)
                                             </span>
                                             <span class="mp-history-name">@mp.Name</span>
                                         </div>
                                         @foreach (var evt in cmpEvents.Where(e => e.ElectionYear == mp.Year).OrderBy(e => e.Date))
                                         {
-                                            var evtColor = evt.ToParty != null ? PartyColorProvider.GetColor(evt.ToParty.Value) : "#999";
+                                            var evtColour = evt.ToParty != null ? PartyColourProvider.GetColour(evt.ToParty.Value) : "#999";
                                             <div class="mp-event-row">
                                                 <span class="mp-event-date">@evt.Date.ToString("MMM yyyy")</span>
                                                 @if (evt.Type == PostElectionEventType.FloorCrossing && evt.ToParty != null)
                                                 {
-                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
-                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    <span class="mp-party-badge" style="background: @(evtColour)18; color: @evtColour; border: 1px solid @(evtColour)44">
+                                                        @PartyColourProvider.GetShortName(evt.ToParty.Value)
                                                     </span>
-                                                    <span class="mp-event-label">Crossed from @(evt.FromParty != null ? PartyColorProvider.GetShortName(evt.FromParty.Value) : "?")</span>
+                                                    <span class="mp-event-label">Crossed from @(evt.FromParty != null ? PartyColourProvider.GetShortName(evt.FromParty.Value) : "?")</span>
                                                 }
                                                 else if (evt.Type == PostElectionEventType.Vacancy)
                                                 {
@@ -759,8 +759,8 @@
                                                 }
                                                 else if (evt.Type == PostElectionEventType.ByElection && evt.ToParty != null)
                                                 {
-                                                    <span class="mp-party-badge" style="background: @(evtColor)18; color: @evtColor; border: 1px solid @(evtColor)44">
-                                                        @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                                    <span class="mp-party-badge" style="background: @(evtColour)18; color: @evtColour; border: 1px solid @(evtColour)44">
+                                                        @PartyColourProvider.GetShortName(evt.ToParty.Value)
                                                     </span>
                                                     <span class="mp-event-label">@(evt.MpName ?? "By-election")</span>
                                                 }

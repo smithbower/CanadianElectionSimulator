@@ -40,15 +40,15 @@
                             <th class="@wpCls" @onclick="() => SortBy(ColWinProb)">
                                 Win%@(wpInd)
                             </th>
-                            @foreach (var party in PartyColorProvider.MainParties)
+                            @foreach (var party in PartyColourProvider.MainParties)
                             {
                                 var partyKey = party.ToString();
                                 var partyCls = HeaderClass(partyKey);
                                 var partyInd = SortIndicator(partyKey);
                                 <th class="@partyCls"
-                                    style="color: @PartyColorProvider.GetColor(party)"
+                                    style="color: @PartyColourProvider.GetColour(party)"
                                     @onclick="() => SortBy(partyKey)">
-                                    @PartyColorProvider.GetShortName(party)@partyInd
+                                    @PartyColourProvider.GetShortName(party)@partyInd
                                 </th>
                             }
                         </tr>
@@ -56,27 +56,27 @@
                     <tbody>
                         @foreach (var entry in flippedRidings)
                         {
-                            var fromColor = PartyColorProvider.GetColor(entry.PreviousWinner);
-                            var toColor = PartyColorProvider.GetColor(entry.ProjectedWinner);
+                            var fromColour = PartyColourProvider.GetColour(entry.PreviousWinner);
+                            var toColour = PartyColourProvider.GetColour(entry.ProjectedWinner);
                             <tr @onclick="() => OnRidingSelected.InvokeAsync(entry.Riding)">
                                 <td class="col-province">@entry.Riding.Province</td>
                                 <td class="col-riding">@entry.Riding.Name</td>
                                 <td class="col-from">
-                                    <span class="party-badge" style="background: @(fromColor)22; color: @fromColor; border: 1px solid @(fromColor)44">
-                                        @PartyColorProvider.GetShortName(entry.PreviousWinner)
+                                    <span class="party-badge" style="background: @(fromColour)22; color: @fromColour; border: 1px solid @(fromColour)44">
+                                        @PartyColourProvider.GetShortName(entry.PreviousWinner)
                                     </span>
                                 </td>
                                 <td class="col-to">
-                                    <span class="party-badge" style="background: @(toColor)22; color: @toColor; border: 1px solid @(toColor)44">
-                                        @PartyColorProvider.GetShortName(entry.ProjectedWinner)
+                                    <span class="party-badge" style="background: @(toColour)22; color: @toColour; border: 1px solid @(toColour)44">
+                                        @PartyColourProvider.GetShortName(entry.ProjectedWinner)
                                     </span>
                                 </td>
                                 <td class="col-winprob">@((entry.ProjectedWinProb * 100).ToString("F1"))%</td>
-                                @foreach (var party in PartyColorProvider.MainParties)
+                                @foreach (var party in PartyColourProvider.MainParties)
                                 {
                                     @if (entry.VoteShares.TryGetValue(party, out var vs) && vs.Median >= 1.0)
                                     {
-                                        <td class="vote-cell" style="color: @PartyColorProvider.GetColor(party)">
+                                        <td class="vote-cell" style="color: @PartyColourProvider.GetColour(party)">
                                             @vs.Median.ToString("F1") <span class="pm">±@vs.HalfIqr.ToString("F1")</span>
                                         </td>
                                     }

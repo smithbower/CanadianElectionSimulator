@@ -28,7 +28,7 @@ public static class SwingCalculator
                 .ToList();
 
             var baselineRegional = new Dictionary<Party, double>();
-            foreach (var party in PartyColorProvider.MainParties)
+            foreach (var party in PartyColourProvider.MainParties)
             {
                 double totalVotes = 0;
                 double partyVotes = 0;
@@ -65,7 +65,7 @@ public static class SwingCalculator
             var baselineRegional = baselineShares[region];
             var swings = new Dictionary<Party, double>();
 
-            foreach (var party in PartyColorProvider.MainParties)
+            foreach (var party in PartyColourProvider.MainParties)
             {
                 double baseline = baselineRegional.GetValueOrDefault(party, 0);
                 double current = poll.VoteShares.GetValueOrDefault(party, 0);
@@ -94,7 +94,7 @@ public static class SwingCalculator
             var baselineRegional = baselineShares[region];
             var deltas = new Dictionary<Party, double>();
 
-            foreach (var party in PartyColorProvider.MainParties)
+            foreach (var party in PartyColourProvider.MainParties)
             {
                 double baseline = baselineRegional.GetValueOrDefault(party, 0);
                 double current = poll.VoteShares.GetValueOrDefault(party, 0);
@@ -118,7 +118,7 @@ public static class SwingCalculator
         double alpha,
         IReadOnlyList<RegionalPoll>? currentPolls = null)
     {
-        var parties = PartyColorProvider.MainParties;
+        var parties = PartyColourProvider.MainParties;
         int numRidings = ridings.Count;
         int numParties = parties.Count;
         var projected = new double[numRidings, numParties];
@@ -196,7 +196,7 @@ public static class SwingCalculator
         double blendWeight)
     {
         int numRidings = ridings.Count;
-        int numParties = PartyColorProvider.MainParties.Count;
+        int numParties = PartyColourProvider.MainParties.Count;
         var blended = new double[numRidings, numParties];
         var baselineIds = new HashSet<int>(baselineResults.Select(r => r.RidingId));
 

@@ -10,7 +10,7 @@
             <button class="close-btn" @onclick="Close">&times;</button>
             <h3>@Riding.Name</h3>
             <div class="riding-meta">
-                @Riding.Province &middot; @PartyColorProvider.GetProvinceRegionName(Riding.Region)
+                @Riding.Province &middot; @PartyColourProvider.GetProvinceRegionName(Riding.Region)
             </div>
 
             @if (Summary.RidingWinProbabilities.TryGetValue(Riding.Id, out var probs))
@@ -21,12 +21,12 @@
                     @foreach (var (party, prob) in probs.OrderByDescending(p => p.Value))
                     {
                         if (prob < 0.005) continue;
-                        var color = PartyColorProvider.GetColor(party);
+                        var colour = PartyColourProvider.GetColour(party);
 
                         <div class="prob-row">
-                            <span class="prob-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="prob-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                             <div class="prob-bar-bg">
-                                <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @color;"></div>
+                                <div class="prob-bar-fill" style="width: @(prob * 100)%; background: @colour;"></div>
                             </div>
                             <span class="prob-pct">@((prob * 100).ToString("F1"))%</span>
                         </div>
@@ -41,7 +41,7 @@
                     var isVacant = ridingStatus?.CurrentHolder == null && ridingStatus != null && ridingStatus.Events.Count > 0;
                     var currentHolder = ridingStatus?.CurrentHolder ?? previousWinner.Party;
                     var isFlip = !isVacant && projectedWinner != currentHolder;
-                    var prevColor = PartyColorProvider.GetColor(previousWinner.Party);
+                    var prevColour = PartyColourProvider.GetColour(previousWinner.Party);
 
                     <div class="prev-result-section">
                         <h4>@State.BaselineYear Result</h4>
@@ -51,11 +51,11 @@
                         }
                         @if (mpName != null && mpParty != null)
                         {
-                            var mpColor = PartyColorProvider.GetColor(mpParty.Value);
+                            var mpColour = PartyColourProvider.GetColour(mpParty.Value);
                             <div class="current-mp">
                                 <span class="mp-name">@mpName</span>
-                                <span class="mp-party-badge" style="background: @(mpColor)18; color: @mpColor; border: 1px solid @(mpColor)44">
-                                    @PartyColorProvider.GetShortName(mpParty.Value)
+                                <span class="mp-party-badge" style="background: @(mpColour)18; color: @mpColour; border: 1px solid @(mpColour)44">
+                                    @PartyColourProvider.GetShortName(mpParty.Value)
                                 </span>
                             </div>
                         }
@@ -66,8 +66,8 @@
                             </div>
                         }
                         <div class="prev-result-row">
-                            <span class="prev-winner" style="color: @prevColor">
-                                @PartyColorProvider.GetName(previousWinner.Party)
+                            <span class="prev-winner" style="color: @prevColour">
+                                @PartyColourProvider.GetName(previousWinner.Party)
                             </span>
                             <span class="prev-vote-share">@((previousWinner.VoteShare * 100).ToString("F1"))%</span>
                             @if (isVacant)
@@ -87,8 +87,8 @@
                             @foreach (var c in baselineResult.Candidates.OrderByDescending(c => c.VoteShare).Skip(1).Take(3))
                             {
                                 if (c.VoteShare < 0.01) continue;
-                                var cColor = PartyColorProvider.GetColor(c.Party);
-                                <span class="runner-up" style="color: @cColor">@PartyColorProvider.GetShortName(c.Party) @((c.VoteShare * 100).ToString("F1"))%</span>
+                                var cColour = PartyColourProvider.GetColour(c.Party);
+                                <span class="runner-up" style="color: @cColour">@PartyColourProvider.GetShortName(c.Party) @((c.VoteShare * 100).ToString("F1"))%</span>
                             }
                         </div>
                     </div>
@@ -103,14 +103,14 @@
                                     <span class="event-date">@evt.Date.ToString("MMM d, yyyy")</span>
                                     @if (evt.Type == PostElectionEventType.FloorCrossing && evt.FromParty != null && evt.ToParty != null)
                                     {
-                                        var fromColor = PartyColorProvider.GetColor(evt.FromParty.Value);
-                                        var toColor = PartyColorProvider.GetColor(evt.ToParty.Value);
-                                        <span class="party-badge" style="background: @(fromColor)22; color: @fromColor; border: 1px solid @(fromColor)44">
-                                            @PartyColorProvider.GetShortName(evt.FromParty.Value)
+                                        var fromColour = PartyColourProvider.GetColour(evt.FromParty.Value);
+                                        var toColour = PartyColourProvider.GetColour(evt.ToParty.Value);
+                                        <span class="party-badge" style="background: @(fromColour)22; color: @fromColour; border: 1px solid @(fromColour)44">
+                                            @PartyColourProvider.GetShortName(evt.FromParty.Value)
                                         </span>
                                         <span class="event-arrow">&rarr;</span>
-                                        <span class="party-badge" style="background: @(toColor)22; color: @toColor; border: 1px solid @(toColor)44">
-                                            @PartyColorProvider.GetShortName(evt.ToParty.Value)
+                                        <span class="party-badge" style="background: @(toColour)22; color: @toColour; border: 1px solid @(toColour)44">
+                                            @PartyColourProvider.GetShortName(evt.ToParty.Value)
                                         </span>
                                         <span class="event-type">Floor crossing</span>
                                     }
@@ -123,10 +123,10 @@
                                         <span class="event-type">By-election</span>
                                         @if (evt.ToParty != null)
                                         {
-                                            var winColor = PartyColorProvider.GetColor(evt.ToParty.Value);
+                                            var winColour = PartyColourProvider.GetColour(evt.ToParty.Value);
                                             <span class="event-arrow">&rarr;</span>
-                                            <span class="party-badge" style="background: @(winColor)22; color: @winColor; border: 1px solid @(winColor)44">
-                                                @PartyColorProvider.GetShortName(evt.ToParty.Value) won
+                                            <span class="party-badge" style="background: @(winColour)22; color: @winColour; border: 1px solid @(winColour)44">
+                                                @PartyColourProvider.GetShortName(evt.ToParty.Value) won
                                             </span>
                                         }
                                     }
@@ -138,9 +138,9 @@
                                         @foreach (var c in evt.ByElectionResult.Candidates.OrderByDescending(c => c.VoteShare).Take(5))
                                         {
                                             if (c.VoteShare < 0.01) continue;
-                                            var bColor = PartyColorProvider.GetColor(c.Party);
+                                            var bColour = PartyColourProvider.GetColour(c.Party);
                                             <div class="by-election-row">
-                                                <span style="color: @bColor">@PartyColorProvider.GetShortName(c.Party)</span>
+                                                <span style="color: @bColour">@PartyColourProvider.GetShortName(c.Party)</span>
                                                 <span>@((c.VoteShare * 100).ToString("F1"))%</span>
                                                 <span class="vote-count">(@c.Votes.ToString("N0") votes)</span>
                                             </div>
@@ -190,7 +190,7 @@
                         <div class="box-plots">
                             @foreach (var (party, dist) in filtered)
                             {
-                                var color = PartyColorProvider.GetColor(party);
+                                var colour = PartyColourProvider.GetColour(party);
                                 var whiskerLeft = dist.P5 / axisMax * 100;
                                 var boxLeft = dist.P25 / axisMax * 100;
                                 var boxRight = dist.P75 / axisMax * 100;
@@ -198,11 +198,11 @@
                                 var medianPos = dist.Median / axisMax * 100;
 
                                 <div class="box-row">
-                                    <span class="box-party" style="color: @color">@PartyColorProvider.GetShortName(party)</span>
+                                    <span class="box-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                                     <div class="box-track">
-                                        <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @color;"></div>
-                                        <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @color;"></div>
-                                        <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @color;"></div>
+                                        <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @colour;"></div>
+                                        <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @colour;"></div>
+                                        <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @colour;"></div>
                                     </div>
                                     <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
                                 </div>

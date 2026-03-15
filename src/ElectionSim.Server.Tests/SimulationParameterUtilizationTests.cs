@@ -107,7 +107,7 @@ public class SimulationParameterUtilizationTests : IDisposable
         var a = await _service.RunSimulationAsync(Baseline(seed: 1));
         var b = await _service.RunSimulationAsync(Baseline(seed: 99999));
 
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             a.Results.SeatDistributions[p].Mean != b.Results.SeatDistributions[p].Mean);
 
         Assert.True(anyDiffers, "Different seeds should produce different results.");
@@ -156,7 +156,7 @@ public class SimulationParameterUtilizationTests : IDisposable
         var a = await _service.RunSimulationAsync(Baseline() with { SwingBlendAlpha = 0.0 });
         var b = await _service.RunSimulationAsync(Baseline() with { SwingBlendAlpha = 1.0 });
 
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             a.Results.SeatDistributions[p].Mean != b.Results.SeatDistributions[p].Mean);
 
         Assert.True(anyDiffers,

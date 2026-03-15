@@ -5,11 +5,11 @@
     <h3>Riding Projections</h3>
     <p class="empty-detail">Click a riding to see projection details.</p>
     <div class="map-legend">
-        @foreach (var party in PartyColorProvider.MainParties)
+        @foreach (var party in PartyColourProvider.MainParties)
         {
             <span class="legend-item">
-                <span class="legend-dot" style="background: @PartyColorProvider.GetColor(party)"></span>
-                @PartyColorProvider.GetShortName(party)
+                <span class="legend-dot" style="background: @PartyColourProvider.GetColour(party)"></span>
+                @PartyColourProvider.GetShortName(party)
             </span>
         }
     </div>
@@ -32,12 +32,12 @@
                     if (regionRidings.Count == 0) continue;
 
                     <div class="region-block">
-                        <div class="region-label">@PartyColorProvider.GetProvinceRegionName(region)</div>
+                        <div class="region-label">@PartyColourProvider.GetProvinceRegionName(region)</div>
                         <div class="riding-grid">
                             @foreach (var riding in regionRidings)
                             {
                                 var rid = riding;
-                                var winnerColor = "#888";
+                                var winnerColour = "#888";
                                 double maxProb = 0;
                                 Party winner = Party.Other;
 
@@ -49,7 +49,7 @@
                                         {
                                             maxProb = prob;
                                             winner = party;
-                                            winnerColor = PartyColorProvider.GetColor(party);
+                                            winnerColour = PartyColourProvider.GetColour(party);
                                         }
                                     }
                                 }
@@ -57,7 +57,7 @@
                                 double opacity = 0.3 + maxProb * 0.7;
 
                                 <div class="riding-cell"
-                                     style="background: @winnerColor; opacity: @opacity.ToString("F2")"
+                                     style="background: @winnerColour; opacity: @opacity.ToString("F2")"
                                      title="@riding.Name"
                                      @onclick="() => OnRidingClicked(rid)">
                                 </div>

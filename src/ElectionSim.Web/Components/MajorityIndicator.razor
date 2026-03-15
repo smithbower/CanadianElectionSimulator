@@ -5,26 +5,26 @@
     @if (Summary != null)
     {
         <div class="majority-grid">
-            @foreach (var party in PartyColorProvider.MainParties)
+            @foreach (var party in PartyColourProvider.MainParties)
             {
                 double majProb = Summary.MajorityProbabilities.GetValueOrDefault(party, 0);
                 double minProb = Summary.MinorityProbabilities.GetValueOrDefault(party, 0);
                 if (majProb + minProb < 0.001) continue;
 
-                var color = PartyColorProvider.GetColor(party);
+                var colour = PartyColourProvider.GetColour(party);
                 <div class="majority-card">
-                    <div class="party-label" style="color: @color">@PartyColorProvider.GetName(party)</div>
-                    <div class="prob-value" style="color: @(majProb > 0.5 ? color : "#666")">
+                    <div class="party-label" style="color: @colour">@PartyColourProvider.GetName(party)</div>
+                    <div class="prob-value" style="color: @(majProb > 0.5 ? colour : "#666")">
                         @((majProb * 100).ToString("F1"))%
                     </div>
                     <div class="prob-label">Majority</div>
-                    <div class="prob-value minority" style="color: @(minProb > 0.5 ? color : "#999")">
+                    <div class="prob-value minority" style="color: @(minProb > 0.5 ? colour : "#999")">
                         @((minProb * 100).ToString("F1"))%
                     </div>
                     <div class="prob-label">Minority</div>
                     <div class="prob-bar-bg">
-                        <div class="prob-bar-fill" style="width: @((majProb + minProb) * 100)%; background: @color;"></div>
-                        <div class="prob-bar-fill majority-segment" style="width: @(majProb * 100)%; background: @color; opacity: 1;"></div>
+                        <div class="prob-bar-fill" style="width: @((majProb + minProb) * 100)%; background: @colour;"></div>
+                        <div class="prob-bar-fill majority-segment" style="width: @(majProb * 100)%; background: @colour; opacity: 1;"></div>
                     </div>
                 </div>
             }

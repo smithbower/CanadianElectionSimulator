@@ -218,7 +218,7 @@ public static class ProcessCommand
             if (!int.TryParse(votesStr.Trim().Replace(",", ""), out int votes))
                 votes = 0;
 
-            var region = PartyColorProvider.GetRegionForProvince(province);
+            var region = PartyColourProvider.GetRegionForProvince(province);
 
             var (lat, lng) = HexLayoutGenerator.RidingCentroids.GetValueOrDefault(ridingId, (0, 0));
             ridings.TryAdd(ridingId, new Riding(ridingId, ridingName, ridingNameFr, province, region, lat, lng));

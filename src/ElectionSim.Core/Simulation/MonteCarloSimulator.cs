@@ -22,7 +22,7 @@ public class MonteCarloSimulator
         _ridings = ridings;
         _projectedShares = projectedShares;
         _numRidings = ridings.Count;
-        _numParties = PartyColorProvider.MainParties.Count;
+        _numParties = PartyColourProvider.MainParties.Count;
 
         _ridingRegions = new int[_numRidings];
         for (int i = 0; i < _numRidings; i++)
@@ -143,7 +143,7 @@ public class MonteCarloSimulator
                     Interlocked.Increment(ref ridingWins[ri, winners[ri]]);
 
                 var dict = new Dictionary<Party, int>();
-                var parties = PartyColorProvider.MainParties;
+                var parties = PartyColourProvider.MainParties;
                 for (int p = 0; p < _numParties; p++)
                     dict[parties[p]] = seatCounts[p];
 
@@ -200,7 +200,7 @@ public class MonteCarloSimulator
 
     private SimulationSummary Aggregate(SimulationRunResult[] results, int[,] ridingWins, int[] histogram, int totalSims)
     {
-        var parties = PartyColorProvider.MainParties;
+        var parties = PartyColourProvider.MainParties;
         int majorityThreshold = (_numRidings / 2) + 1; // 172 for 343 ridings
 
         // Seat distributions per party
@@ -300,7 +300,7 @@ public class MonteCarloSimulator
     private double[] BuildNationalSigmas(SimulationConfig config)
     {
         var sigmas = new double[_numParties];
-        var parties = PartyColorProvider.MainParties;
+        var parties = PartyColourProvider.MainParties;
         for (int p = 0; p < _numParties; p++)
         {
             if (config.PartyUncertainty != null && config.PartyUncertainty.TryGetValue(parties[p], out double sigma))

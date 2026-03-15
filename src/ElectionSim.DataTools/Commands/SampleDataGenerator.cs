@@ -537,7 +537,7 @@ public static class SampleDataGenerator
         double sumShares = 0;
         var shares = new Dictionary<Party, double>();
 
-        foreach (var party in PartyColorProvider.MainParties)
+        foreach (var party in PartyColourProvider.MainParties)
         {
             double baseShare = regionShares.GetValueOrDefault(party, 0);
             // Add local variation (larger for smaller parties)

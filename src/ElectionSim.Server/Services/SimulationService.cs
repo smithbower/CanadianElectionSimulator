@@ -85,7 +85,7 @@ public class SimulationService
             ?? throw new InvalidOperationException("No polling data available.");
 
         var partyUncertainty = request.PartyUncertainty
-            ?? PartyColorProvider.MainParties.ToDictionary(p => p, _ => 0.025);
+            ?? PartyColourProvider.MainParties.ToDictionary(p => p, _ => 0.025);
 
         var config = SimulationConfig.ForServer(
             numSimulations: request.NumSimulations ?? 10_000,

@@ -22,14 +22,14 @@
             {
                 @foreach (var party in parties)
                 {
-                    var color = PartyColorProvider.GetColor(party);
+                    var colour = PartyColourProvider.GetColour(party);
                     var outerPoly = BuildBandPolygonPoints(OuterBandUpperSelector, OuterBandLowerSelector, party, xPositions, yScale);
-                    <polygon points="@outerPoly" fill="@color" opacity="0.10" stroke="none" />
+                    <polygon points="@outerPoly" fill="@colour" opacity="0.10" stroke="none" />
 
                     @if (InnerBandUpperSelector != null && InnerBandLowerSelector != null)
                     {
                         var innerPoly = BuildBandPolygonPoints(InnerBandUpperSelector, InnerBandLowerSelector, party, xPositions, yScale);
-                        <polygon points="@innerPoly" fill="@color" opacity="0.15" stroke="none" />
+                        <polygon points="@innerPoly" fill="@colour" opacity="0.15" stroke="none" />
                     }
                 }
             }
@@ -37,17 +37,17 @@
             @* Lines and points per party *@
             @foreach (var party in parties)
             {
-                var color = PartyColorProvider.GetColor(party);
+                var colour = PartyColourProvider.GetColour(party);
                 var polyPoints = BuildPolylinePoints(party, xPositions, yScale);
 
-                <polyline points="@polyPoints" fill="none" stroke="@color" stroke-width="2" />
+                <polyline points="@polyPoints" fill="none" stroke="@colour" stroke-width="2" />
 
                 @for (int i = 0; i < Points.Count; i++)
                 {
                     double x = xPositions[i];
                     double val = ValueSelector(Points[i], party);
                     double y = yScale.ToY(val);
-                    <circle cx="@x" cy="@y" r="3" fill="@color" />
+                    <circle cx="@x" cy="@y" r="3" fill="@colour" />
                 }
             }
 
@@ -56,17 +56,17 @@
             {
                 @foreach (var party in parties)
                 {
-                    var color = PartyColorProvider.GetColor(party);
+                    var colour = PartyColourProvider.GetColour(party);
                     var secPolyPoints = BuildSecondaryPolylinePoints(party, xPositions, yScale);
 
-                    <polyline points="@secPolyPoints" fill="none" stroke="@color" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7" />
+                    <polyline points="@secPolyPoints" fill="none" stroke="@colour" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7" />
 
                     @for (int i = 0; i < Points.Count; i++)
                     {
                         double x = xPositions[i];
                         double val = SecondaryValueSelector(Points[i], party);
                         double y = yScale.ToY(val);
-                        <circle cx="@x" cy="@y" r="2" fill="white" stroke="@color" stroke-width="1.5" opacity="0.7" />
+                        <circle cx="@x" cy="@y" r="2" fill="white" stroke="@colour" stroke-width="1.5" opacity="0.7" />
                     }
                 }
             }
@@ -80,11 +80,11 @@
             {
                 if (lbl.IsPrimary)
                 {
-                    @((MarkupString)$"<text x=\"{labelX:F1}\" y=\"{lbl.AdjustedY + 4:F1}\" font-size=\"10\" font-weight=\"bold\" fill=\"{lbl.Color}\">{lbl.Label}</text>")
+                    @((MarkupString)$"<text x=\"{labelX:F1}\" y=\"{lbl.AdjustedY + 4:F1}\" font-size=\"10\" font-weight=\"bold\" fill=\"{lbl.Colour}\">{lbl.Label}</text>")
                 }
                 else
                 {
-                    @((MarkupString)$"<text x=\"{labelX:F1}\" y=\"{lbl.AdjustedY + 4:F1}\" font-size=\"9\" fill=\"{lbl.Color}\" opacity=\"0.7\">{lbl.Label}</text>")
+                    @((MarkupString)$"<text x=\"{labelX:F1}\" y=\"{lbl.AdjustedY + 4:F1}\" font-size=\"9\" fill=\"{lbl.Colour}\" opacity=\"0.7\">{lbl.Label}</text>")
                 }
             }
 
@@ -142,20 +142,20 @@
                 <div class="tooltip-date">@(new DateTimeOffset(point.Timestamp, TimeSpan.Zero).ToOffset(new TimeSpan(-7, 0, 0)).ToString("MMM d, yyyy"))</div>
                 @foreach (var party in parties)
                 {
-                    var color = PartyColorProvider.GetColor(party);
+                    var colour = PartyColourProvider.GetColour(party);
                     double val = ValueSelector(point, party);
                     @if (SecondaryValueSelector != null && PrimaryLabel != null)
                     {
                         double secVal = SecondaryValueSelector(point, party);
                         <div class="tooltip-row">
-                            <span class="tooltip-dot" style="background: @color;"></span>
-                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-dot" style="background: @colour;"></span>
+                            <span class="tooltip-party">@PartyColourProvider.GetShortName(party)</span>
                             <span class="tooltip-label">@(PrimaryLabel):</span>
                             <span class="tooltip-value">@FormatValue(val)</span>
                         </div>
                         <div class="tooltip-row">
-                            <span class="tooltip-dot tooltip-dot-dashed" style="border-color: @color;"></span>
-                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-dot tooltip-dot-dashed" style="border-color: @colour;"></span>
+                            <span class="tooltip-party">@PartyColourProvider.GetShortName(party)</span>
                             <span class="tooltip-label">@(SecondaryLabel):</span>
                             <span class="tooltip-value">@FormatValue(secVal)</span>
                         </div>
@@ -164,16 +164,16 @@
                     {
                         double secVal = SecondaryValueSelector(point, party);
                         <div class="tooltip-row">
-                            <span class="tooltip-dot" style="background: @color;"></span>
-                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-dot" style="background: @colour;"></span>
+                            <span class="tooltip-party">@PartyColourProvider.GetShortName(party)</span>
                             <span class="tooltip-value">@FormatValue(val) (@(SecondaryLabel): @FormatValue(secVal))</span>
                         </div>
                     }
                     else
                     {
                         <div class="tooltip-row">
-                            <span class="tooltip-dot" style="background: @color;"></span>
-                            <span class="tooltip-party">@PartyColorProvider.GetShortName(party)</span>
+                            <span class="tooltip-dot" style="background: @colour;"></span>
+                            <span class="tooltip-party">@PartyColourProvider.GetShortName(party)</span>
                             <span class="tooltip-value">@FormatValue(val)</span>
                         </div>
                     }

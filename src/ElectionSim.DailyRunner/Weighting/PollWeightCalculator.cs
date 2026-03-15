@@ -216,7 +216,7 @@ public class PollWeightCalculator(ILogger<PollWeightCalculator> logger)
         }
 
         // Ensure all main parties have an entry
-        foreach (var party in PartyColorProvider.MainParties)
+        foreach (var party in PartyColourProvider.MainParties)
         {
             if (!result.ContainsKey(party))
                 result[party] = 0.025;

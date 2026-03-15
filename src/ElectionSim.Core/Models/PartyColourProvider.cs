@@ -1,12 +1,12 @@
 namespace ElectionSim.Core.Models;
 
 /// <summary>
-/// Maps parties to their display colors, full names, short names, and provides
+/// Maps parties to their display colours, full names, short names, and provides
 /// province-to-region lookups. Central source of truth for party presentation.
 /// </summary>
-public static class PartyColorProvider
+public static class PartyColourProvider
 {
-    private readonly record struct PartyInfo(string Color, string Name, string ShortName);
+    private readonly record struct PartyInfo(string Colour, string Name, string ShortName);
 
     private static readonly PartyInfo DefaultInfo = new("#888888", "Other", "Oth");
 
@@ -20,8 +20,8 @@ public static class PartyColorProvider
         [Party.PPC] = new("#662D91", "PPC", "PPC"),
     };
 
-    public static string GetColor(Party party) =>
-        PartyInfoMap.TryGetValue(party, out var info) ? info.Color : DefaultInfo.Color;
+    public static string GetColour(Party party) =>
+        PartyInfoMap.TryGetValue(party, out var info) ? info.Colour : DefaultInfo.Colour;
 
     public static string GetName(Party party) =>
         PartyInfoMap.TryGetValue(party, out var info) ? info.Name : DefaultInfo.Name;

@@ -15,12 +15,12 @@
             <span>Majority: 172</span>
         </div>
 
-        @foreach (var party in PartyColorProvider.MainParties)
+        @foreach (var party in PartyColourProvider.MainParties)
         {
             if (!Summary.SeatDistributions.TryGetValue(party, out var dist)) continue;
             if (dist.Max < 1) continue;
 
-            var color = PartyColorProvider.GetColor(party);
+            var colour = PartyColourProvider.GetColour(party);
             double maxSeats = Summary.SeatDistributions.Values.Max(d => d.Max);
             double scale = maxSeats > 0 ? 100.0 / maxSeats : 1;
             double meanPct = dist.Mean * scale;
@@ -35,7 +35,7 @@
 
             <div class="bar-row">
                 <div class="bar-label">
-                    <span class="party-name" style="color: @color">@PartyColorProvider.GetName(party)</span>
+                    <span class="party-name" style="color: @colour">@PartyColourProvider.GetName(party)</span>
                     <span class="seat-mean-group">
                         <span class="seat-mean">@dist.Mean.ToString("F0")</span>@{
                             var delta = (int)Math.Round(dist.Mean) - currentTotal;
@@ -47,11 +47,11 @@
                 </div>
                 <div class="bar-container">
                     @* 95% CI *@
-                    <div class="ci-95" style="left: @(p5Pct)%; width: @(p95Pct - p5Pct)%; background: @(color)22;"></div>
+                    <div class="ci-95" style="left: @(p5Pct)%; width: @(p95Pct - p5Pct)%; background: @(colour)22;"></div>
                     @* 68% CI (P25-P75) *@
-                    <div class="ci-68" style="left: @(p25Pct)%; width: @(p75Pct - p25Pct)%; background: @(color)66;"></div>
+                    <div class="ci-68" style="left: @(p25Pct)%; width: @(p75Pct - p25Pct)%; background: @(colour)66;"></div>
                     @* Mean marker *@
-                    <div class="mean-marker" style="left: @(meanPct)%; background: @color;"></div>
+                    <div class="mean-marker" style="left: @(meanPct)%; background: @colour;"></div>
                     @* Majority line *@
                     <div class="majority-line" style="left: @(majorityPct)%;"></div>
                     @* Hover value labels *@

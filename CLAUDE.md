@@ -50,10 +50,10 @@ Four projects in `src/`, all targeting .NET 10.0 (preview) with C# 12+ and nulla
 - **PollInputPanel** — National/regional vote share sliders
 - **SimulationControls** — Run button, baseline year selector, config parameters
 - **SeatBarChart** — Seat projections with confidence intervals (P5–P95)
-- **CanadaMap** — Grid cartogram colored by predicted winner, opacity = win probability
+- **CanadaMap** — Grid cartogram coloured by predicted winner, opacity = win probability
 - **RidingDetailPopup** — Per-riding win probabilities and historical results
 
-Each Razor component has a paired scoped `.razor.css` file. Party colors come from `PartyColorProvider.GetColor()`.
+Each Razor component has a paired scoped `.razor.css` file. Party colours come from `PartyColourProvider.GetColour()`.
 
 ### Key Enums
 

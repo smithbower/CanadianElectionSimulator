@@ -55,7 +55,7 @@ public static class ValidateCommand
         Console.WriteLine($"Loaded: {ridings.Count} ridings, results for {string.Join("/", yearsLoaded.OrderBy(y => y))}");
         Console.WriteLine();
 
-        var parties = PartyColorProvider.MainParties;
+        var parties = PartyColourProvider.MainParties;
         var validationResults = new ValidationResults();
         var defaultAlpha = new SimulationConfig().SwingBlendAlpha;
 
@@ -269,7 +269,7 @@ public static class ValidateCommand
             result.SeatMae[party] = mae;
             result.ActualSeats[party] = actual;
             result.PredictedMeanSeats[party] = Math.Round(predicted, 1);
-            Console.WriteLine($"  {PartyColorProvider.GetShortName(party),-7} {actual,6}  {predicted,15:F1}  {mae,3:F1}");
+            Console.WriteLine($"  {PartyColourProvider.GetShortName(party),-7} {actual,6}  {predicted,15:F1}  {mae,3:F1}");
         }
 
         // Riding winner accuracy
@@ -389,7 +389,7 @@ public static class ValidateCommand
             if (rTotal == 0) continue;
             double rCov = (double)rHits / rTotal;
             string flag = rCov < 0.85 ? " *" : rCov > 0.95 ? " +" : "";
-            Console.WriteLine($"  {PartyColorProvider.GetProvinceRegionName(region),-20} {rHits,4}/{rTotal,-4}   {rCov:P1}{flag}");
+            Console.WriteLine($"  {PartyColourProvider.GetProvinceRegionName(region),-20} {rHits,4}/{rTotal,-4}   {rCov:P1}{flag}");
         }
         Console.WriteLine();
 
@@ -544,7 +544,7 @@ public static class ValidateCommand
             double std = StdDev(resids);
             double mean = resids.Average();
             result.ByParty[party] = new ResidualStats { StdDev = std, Mean = mean, N = resids.Count };
-            Console.WriteLine($"  {PartyColorProvider.GetShortName(party),-7}  {std,7:F4}  {mean,7:F4}  {resids.Count,5}");
+            Console.WriteLine($"  {PartyColourProvider.GetShortName(party),-7}  {std,7:F4}  {mean,7:F4}  {resids.Count,5}");
         }
         Console.WriteLine();
 
@@ -559,7 +559,7 @@ public static class ValidateCommand
             double std = StdDev(resids);
             double mean = resids.Average();
             result.ByRegion[region] = new ResidualStats { StdDev = std, Mean = mean, N = resids.Count };
-            Console.WriteLine($"  {PartyColorProvider.GetProvinceRegionName(region),-20} {std,7:F4}  {mean,7:F4}  {resids.Count,5}");
+            Console.WriteLine($"  {PartyColourProvider.GetProvinceRegionName(region),-20} {std,7:F4}  {mean,7:F4}  {resids.Count,5}");
         }
         Console.WriteLine();
 
@@ -685,12 +685,12 @@ public static class ValidateCommand
         // Print correlation matrix
         Console.Write("                  ");
         for (int j = 0; j < numParties; j++)
-            Console.Write($"  {PartyColorProvider.GetShortName(parties[j]),7}");
+            Console.Write($"  {PartyColourProvider.GetShortName(parties[j]),7}");
         Console.WriteLine();
 
         for (int i = 0; i < numParties; i++)
         {
-            Console.Write($"  {PartyColorProvider.GetShortName(parties[i]),7}      ");
+            Console.Write($"  {PartyColourProvider.GetShortName(parties[i]),7}      ");
             for (int j = 0; j < numParties; j++)
                 Console.Write($"  {corr[i, j],7:F3}");
             Console.WriteLine();
@@ -711,12 +711,12 @@ public static class ValidateCommand
         Console.WriteLine("  Cholesky Factor (L, lower-triangular):");
         Console.Write("                  ");
         for (int j = 0; j < numParties; j++)
-            Console.Write($"  {PartyColorProvider.GetShortName(parties[j]),7}");
+            Console.Write($"  {PartyColourProvider.GetShortName(parties[j]),7}");
         Console.WriteLine();
 
         for (int i = 0; i < numParties; i++)
         {
-            Console.Write($"  {PartyColorProvider.GetShortName(parties[i]),7}      ");
+            Console.Write($"  {PartyColourProvider.GetShortName(parties[i]),7}      ");
             for (int j = 0; j < numParties; j++)
             {
                 if (j <= i)
@@ -743,7 +743,7 @@ public static class ValidateCommand
             }
             Console.Write(" }");
             if (i < numParties - 1) Console.Write(",");
-            Console.Write($" // {PartyColorProvider.GetShortName(parties[i])}");
+            Console.Write($" // {PartyColourProvider.GetShortName(parties[i])}");
             Console.WriteLine();
         }
         Console.WriteLine("  };");
@@ -888,7 +888,7 @@ public static class ValidateCommand
                 ProportionalRmse = pRmse,
                 AdditiveRmse = aRmse
             };
-            Console.WriteLine($"  {PartyColorProvider.GetShortName(party),-7}    {pRmse,10:F4}    {aRmse,8:F4}    {better}");
+            Console.WriteLine($"  {PartyColourProvider.GetShortName(party),-7}    {pRmse,10:F4}    {aRmse,8:F4}    {better}");
         }
         Console.WriteLine();
 

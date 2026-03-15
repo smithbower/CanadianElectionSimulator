@@ -4,7 +4,7 @@ namespace ElectionSim.Core.Simulation;
 /// Pre-computed Cholesky factor for correlated inter-party noise.
 /// Derived from demeaned residuals across 5 election transitions
 /// (2008→2011, 2011→2015, 2015→2019, 2019→2021, 2021→2025), 1431 riding observations.
-/// Party order matches PartyColorProvider.MainParties: LPC, CPC, NDP, BQ, GPC, PPC.
+/// Party order matches PartyColourProvider.MainParties: LPC, CPC, NDP, BQ, GPC, PPC.
 /// Regularization epsilon=0.01 added to restore full rank (demeaned residuals are rank K-1).
 /// </summary>
 public static class CorrelationData

@@ -30,15 +30,15 @@
                             <th class="@projCls" @onclick="() => SortBy(ColProjection)">
                                 Projection@(projInd)
                             </th>
-                            @foreach (var party in PartyColorProvider.MainParties)
+                            @foreach (var party in PartyColourProvider.MainParties)
                             {
                                 var partyKey = party.ToString();
                                 var partyCls = HeaderClass(partyKey);
                                 var partyInd = SortIndicator(partyKey);
                                 <th class="@partyCls"
-                                    style="color: @PartyColorProvider.GetColor(party)"
+                                    style="color: @PartyColourProvider.GetColour(party)"
                                     @onclick="() => SortBy(partyKey)">
-                                    @PartyColorProvider.GetShortName(party)@partyInd
+                                    @PartyColourProvider.GetShortName(party)@partyInd
                                 </th>
                             }
                         </tr>
@@ -46,21 +46,21 @@
                     <tbody>
                         @foreach (var entry in closeRidings)
                         {
-                            var color = PartyColorProvider.GetColor(entry.Leader);
+                            var colour = PartyColourProvider.GetColour(entry.Leader);
                             <tr @onclick="() => OnRidingSelected.InvokeAsync(entry.Riding)">
                                 <td class="col-province">@entry.Riding.Province</td>
                                 <td class="col-riding">@entry.Riding.Name</td>
 <td class="col-projection">
-                                    <span class="badge" style="background: @(color)22; color: @color; border: 1px solid @(color)44"
+                                    <span class="badge" style="background: @(colour)22; color: @colour; border: 1px solid @(colour)44"
                                           title="@ClassificationTooltips[entry.Classification]">
                                         @entry.Classification
                                     </span>
                                 </td>
-                                @foreach (var party in PartyColorProvider.MainParties)
+                                @foreach (var party in PartyColourProvider.MainParties)
                                 {
                                     @if (entry.VoteShares.TryGetValue(party, out var vs) && vs.Median >= 1.0)
                                     {
-                                        <td class="vote-cell" style="color: @PartyColorProvider.GetColor(party)">
+                                        <td class="vote-cell" style="color: @PartyColourProvider.GetColour(party)">
                                             @vs.Median.ToString("F1") <span class="pm">±@vs.HalfIqr.ToString("F1")</span>
                                         </td>
                                     }

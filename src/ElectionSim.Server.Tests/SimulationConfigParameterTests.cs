@@ -85,7 +85,7 @@ public class SimulationConfigParameterTests : IClassFixture<ElectionDataFixture>
         var gaussian = RunSimulation(BaseConfig() with { DegreesOfFreedom = null });
 
         // Student-t (df=5) has heavier tails than Gaussian — P5/P95 extremes should differ
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             studentT.SeatDistributions[p].P95 != gaussian.SeatDistributions[p].P95 ||
             studentT.SeatDistributions[p].P5 != gaussian.SeatDistributions[p].P5);
 
@@ -99,7 +99,7 @@ public class SimulationConfigParameterTests : IClassFixture<ElectionDataFixture>
         var correlated = RunSimulation(BaseConfig() with { UseCorrelatedNoise = true });
         var independent = RunSimulation(BaseConfig() with { UseCorrelatedNoise = false });
 
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             correlated.SeatDistributions[p].Mean != independent.SeatDistributions[p].Mean);
 
         Assert.True(anyDiffers,
@@ -114,7 +114,7 @@ public class SimulationConfigParameterTests : IClassFixture<ElectionDataFixture>
         var withDefaults = RunSimulation(BaseConfig() with { RegionalSigmaMultipliers = null });
         var withUniform = RunSimulation(BaseConfig() with { RegionalSigmaMultipliers = uniform });
 
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             withDefaults.SeatDistributions[p].Mean != withUniform.SeatDistributions[p].Mean);
 
         Assert.True(anyDiffers,
@@ -139,7 +139,7 @@ public class SimulationConfigParameterTests : IClassFixture<ElectionDataFixture>
             BaseConfig() with { UseDemographicPrior = true, DemographicBlendWeight = 0.10 },
             demographics: _data.Demographics);
 
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             without.SeatDistributions[p].Mean != with.SeatDistributions[p].Mean);
 
         Assert.True(anyDiffers,
@@ -169,7 +169,7 @@ public class SimulationConfigParameterTests : IClassFixture<ElectionDataFixture>
             BaseConfig() with { ByElectionBlendWeight = 0.5 },
             postElectionEvents: eventsForBaseline);
 
-        var anyDiffers = PartyColorProvider.MainParties.Any(p =>
+        var anyDiffers = PartyColourProvider.MainParties.Any(p =>
             noBlend.SeatDistributions[p].Mean != withBlend.SeatDistributions[p].Mean);
 
         Assert.True(anyDiffers,
