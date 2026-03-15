@@ -197,14 +197,18 @@ public static class ValidateCommand
         var sweepResult = RunSigmaSweep(ridings, results2021, results2025, parties, defaultAlpha);
         validationResults.SigmaSweep = sweepResult;
 
-        // 8. Demographic blend weight sweep (if demographics available)
+        // 8. Degrees of freedom sweep
+        var dfSweep = RunDfSweep(ridings, allTransitions, parties, defaultAlpha);
+        validationResults.DfSweep = dfSweep;
+
+        // 9. Demographic blend weight sweep (if demographics available)
         if (demographics is { Count: > 0 })
         {
             var blendSweepResult = RunBlendWeightSweep(ridings, allTransitions, parties, demographics, defaultAlpha);
             validationResults.BlendWeightSweep = blendSweepResult;
         }
 
-        // 9. Write JSON output
+        // 10. Write JSON output
         var outputPath = Path.Combine(dataDir, "validation-results.json");
         await File.WriteAllTextAsync(outputPath, JsonSerializer.Serialize(validationResults, JsonWriteOptions));
         Console.WriteLine();
@@ -1098,6 +1102,7 @@ public static class ValidateCommand
         public SwingModelComparisonResult? SwingModelComparison { get; set; }
         public AlphaSweepResult? AlphaSweep { get; set; }
         public SigmaSweepResult? SigmaSweep { get; set; }
+        public DfSweepResult? DfSweep { get; set; }
         public BlendWeightSweepResult? BlendWeightSweep { get; set; }
     }
 
@@ -1341,7 +1346,7 @@ public static class ValidateCommand
         double alpha = 1.0)
     {
         Console.WriteLine("--- Sigma Sweep ---");
-        Console.WriteLine($"  Sweeping national and riding sigmas (regional fixed at 0.026, df=5, 1000 sims, alpha={alpha:F1})");
+        Console.WriteLine($"  Sweeping national and riding sigmas (regional fixed at 0.026, df=3, 1000 sims, alpha={alpha:F1})");
         Console.WriteLine();
 
         var polls = ComputeRegionalAverages(actualResults, ridings);
@@ -1379,7 +1384,7 @@ public static class ValidateCommand
                     RegionalSigma: regionalSigma,
                     RidingSigma: rs,
                     Seed: 42,
-                    DegreesOfFreedom: 5.0
+                    DegreesOfFreedom: 3.0
                 );
 
                 var simulator = new MonteCarloSimulator(ridings, projectedShares);
@@ -1506,6 +1511,191 @@ public static class ValidateCommand
         public double Accuracy { get; set; }
         public double CiCoverage { get; set; }
         public double ProjectionRmse { get; set; }
+    }
+
+    // --- Degrees of Freedom Sweep ---
+
+    private static DfSweepResult RunDfSweep(
+        IReadOnlyList<Riding> ridings,
+        List<(string Name, List<RidingResult> Baseline, List<RidingResult> Actual)> transitions,
+        IReadOnlyList<Party> parties,
+        double alpha)
+    {
+        Console.WriteLine("--- Degrees of Freedom Sweep ---");
+        Console.WriteLine($"  Sweeping df values across {transitions.Count} transitions (1000 sims, seed=42)");
+        Console.WriteLine();
+
+        var result = new DfSweepResult();
+        double bestAvgBrier = double.MaxValue;
+        DfSweepEntry? bestEntry = null;
+
+        // df values to test: 3, 4, 5 (current), 7, 10, null (Gaussian)
+        (double? df, string label)[] dfValues =
+        [
+            (3.0, "df=3"),
+            (4.0, "df=4"),
+            (5.0, "df=5 (current)"),
+            (7.0, "df=7"),
+            (10.0, "df=10"),
+            (null, "Gaussian"),
+        ];
+
+        // Header
+        Console.Write($"  {"df",18}");
+        foreach (var (transName, _, _) in transitions)
+            Console.Write($"  {transName,12}");
+        Console.Write($"  {"AvgBrier",10}  {"Accuracy",10}  {"CI Cov",10}  {"LogLoss",10}  {"SimKurt",10}");
+        Console.WriteLine();
+        Console.Write($"  {"--",18}");
+        foreach (var _ in transitions)
+            Console.Write($"  {"------------",12}");
+        Console.Write($"  {"----------",10}  {"----------",10}  {"----------",10}  {"----------",10}  {"----------",10}");
+        Console.WriteLine();
+
+        foreach (var (df, label) in dfValues)
+        {
+            var entry = new DfSweepEntry { Df = df, Label = label };
+            double brierSum = 0;
+            int brierCount = 0;
+            int totalCorrect = 0;
+            int totalRidings = 0;
+            int totalCiHits = 0;
+            int totalCiTotal = 0;
+            double logLossSum = 0;
+            int logLossCount = 0;
+            var simulatedResiduals = new List<double>();
+
+            Console.Write($"  {label,18}");
+
+            foreach (var (transName, baseline, actual) in transitions)
+            {
+                var polls = ComputeRegionalAverages(actual, ridings);
+                var swingRatios = SwingCalculator.ComputeSwingRatios(polls, baseline, ridings);
+                var additiveDeltas = SwingCalculator.ComputeAdditiveDeltas(polls, baseline, ridings);
+                var projectedShares = SwingCalculator.ProjectRidingVoteSharesBlended(baseline, ridings, swingRatios, additiveDeltas, alpha, polls);
+                var actualLookup = actual.ToDictionary(r => r.RidingId);
+
+                var config = new SimulationConfig(
+                    NumSimulations: 1_000,
+                    Seed: 42,
+                    DegreesOfFreedom: df
+                );
+
+                var simulator = new MonteCarloSimulator(ridings, projectedShares);
+                var summary = simulator.Run(config);
+
+                int correct = 0;
+                int total = 0;
+                double transBrierSum = 0;
+                int ciHits = 0;
+                int ciTotal = 0;
+
+                foreach (var riding in ridings)
+                {
+                    if (!actualLookup.TryGetValue(riding.Id, out var actualResult))
+                        continue;
+                    if (!summary.RidingWinProbabilities.TryGetValue(riding.Id, out var winProbs))
+                        continue;
+
+                    total++;
+                    var actualWinner = actualResult.Candidates.MaxBy(c => c.VoteShare)?.Party ?? Party.Other;
+                    var predictedWinner = winProbs.MaxBy(kv => kv.Value).Key;
+                    if (predictedWinner == actualWinner) correct++;
+
+                    double ridingBrier = 0;
+                    foreach (var party in parties)
+                    {
+                        double prob = winProbs.GetValueOrDefault(party, 0);
+                        double indicator = party == actualWinner ? 1.0 : 0.0;
+                        ridingBrier += (prob - indicator) * (prob - indicator);
+                    }
+                    transBrierSum += ridingBrier;
+
+                    double winnerProb = Math.Max(winProbs.GetValueOrDefault(actualWinner, 0), 0.001);
+                    logLossSum += -Math.Log(winnerProb);
+                    logLossCount++;
+
+                    if (summary.RidingVoteShareDistributions.TryGetValue(riding.Id, out var vsDists))
+                    {
+                        foreach (var party in parties)
+                        {
+                            var candidate = actualResult.Candidates.FirstOrDefault(c => c.Party == party);
+                            double actualShare = (candidate?.VoteShare ?? 0) * 100;
+                            if (vsDists.TryGetValue(party, out var dist))
+                            {
+                                ciTotal++;
+                                if (actualShare >= dist.P5 && actualShare <= dist.P95)
+                                    ciHits++;
+
+                                // Collect simulated residuals (median vs actual)
+                                simulatedResiduals.Add(actualShare - dist.Median);
+                            }
+                        }
+                    }
+                }
+
+                double transBrier = total > 0 ? transBrierSum / total : 0;
+                entry.BrierByTransition[transName] = Math.Round(transBrier, 4);
+                brierSum += transBrier;
+                brierCount++;
+                totalCorrect += correct;
+                totalRidings += total;
+                totalCiHits += ciHits;
+                totalCiTotal += ciTotal;
+
+                Console.Write($"  {transBrier,12:F4}");
+            }
+
+            entry.AverageBrier = Math.Round(brierSum / Math.Max(brierCount, 1), 4);
+            entry.Accuracy = Math.Round(totalRidings > 0 ? (double)totalCorrect / totalRidings : 0, 3);
+            entry.CiCoverage = Math.Round(totalCiTotal > 0 ? (double)totalCiHits / totalCiTotal : 0, 3);
+            entry.LogLoss = Math.Round(logLossCount > 0 ? logLossSum / logLossCount : 0, 4);
+            entry.SimulatedKurtosis = Math.Round(ExcessKurtosis(simulatedResiduals), 1);
+
+            Console.Write($"  {entry.AverageBrier,10:F4}  {entry.Accuracy,10:P1}  {entry.CiCoverage,10:P1}  {entry.LogLoss,10:F4}  {entry.SimulatedKurtosis,10:F1}");
+            Console.WriteLine();
+
+            result.Entries.Add(entry);
+
+            if (entry.AverageBrier < bestAvgBrier)
+            {
+                bestAvgBrier = entry.AverageBrier;
+                bestEntry = entry;
+            }
+        }
+
+        Console.WriteLine();
+        if (bestEntry != null)
+        {
+            result.BestDf = bestEntry.Df;
+            result.BestLabel = bestEntry.Label;
+            result.BestAverageBrier = bestEntry.AverageBrier;
+            Console.WriteLine($"  Best df: {bestEntry.Label}");
+            Console.WriteLine($"    Avg Brier: {bestEntry.AverageBrier:F4}, Accuracy: {bestEntry.Accuracy:P1}, CI coverage: {bestEntry.CiCoverage:P1}, Log loss: {bestEntry.LogLoss:F4}, Kurtosis: {bestEntry.SimulatedKurtosis:F1}");
+        }
+        Console.WriteLine();
+
+        return result;
+    }
+
+    private class DfSweepResult
+    {
+        public List<DfSweepEntry> Entries { get; set; } = [];
+        public double? BestDf { get; set; }
+        public string BestLabel { get; set; } = "";
+        public double BestAverageBrier { get; set; }
+    }
+
+    private class DfSweepEntry
+    {
+        public double? Df { get; set; }
+        public string Label { get; set; } = "";
+        public Dictionary<string, double> BrierByTransition { get; set; } = new();
+        public double AverageBrier { get; set; }
+        public double Accuracy { get; set; }
+        public double CiCoverage { get; set; }
+        public double LogLoss { get; set; }
+        public double SimulatedKurtosis { get; set; }
     }
 
     // --- Blend Weight Sweep ---

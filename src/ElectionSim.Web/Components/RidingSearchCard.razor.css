@@ -90,6 +90,13 @@
     color: #333;
 }
 
+::deep .ac-highlight {
+    background: #fef08a;
+    color: inherit;
+    padding: 0 1px;
+    border-radius: 2px;
+}
+
 .ac-province {
     font-size: 0.8rem;
     color: #999;
@@ -136,7 +143,7 @@
 }
 
 .mp-party-badge {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 600;
     padding: 0.1em 0.4em;
     border-radius: 3px;
@@ -366,7 +373,7 @@
 }
 
 .flip-badge {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -485,7 +492,7 @@
     padding-left: calc(2.5rem + 0.5rem);
     padding-right: calc(3rem + 0.5rem);
     margin-top: 0.25rem;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     color: #aaa;
 }
 
@@ -521,7 +528,7 @@
 }
 
 .mp-event-date {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     color: #aaa;
     min-width: 3.5rem;
     font-variant-numeric: tabular-nums;

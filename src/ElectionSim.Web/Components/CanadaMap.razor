@@ -4,7 +4,7 @@
 <div class="canada-map">
     <h3>Riding Projections</h3>
     <p class="empty-detail">Click a riding to see projection details.</p>
-    <div class="map-legend">
+    <div class="map-legend" aria-label="Election map showing projected winners by riding">
         @foreach (var party in PartyColourProvider.MainParties)
         {
             <span class="legend-item">
@@ -58,7 +58,8 @@
 
                                 <div class="riding-cell"
                                      style="background: @winnerColour; opacity: @opacity.ToString("F2")"
-                                     title="@riding.Name"
+                                     title="@riding.Name: @PartyColourProvider.GetShortName(winner) (@((maxProb * 100).ToString("F0"))%)"
+                                     aria-label="@riding.Name: @PartyColourProvider.GetShortName(winner) (@((maxProb * 100).ToString("F0"))%)"
                                      @onclick="() => OnRidingClicked(rid)">
                                 </div>
                             }

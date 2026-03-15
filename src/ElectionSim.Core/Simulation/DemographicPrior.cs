@@ -127,7 +127,7 @@ public static class DemographicPrior
     /// Fits ridge regression: beta = (X^T X + lambda*I)^-1 X^T y
     /// Uses Cholesky decomposition to solve the normal equations.
     /// </summary>
-    private static double[] FitRidgeRegression(double[,] X, double[] y, double lambda)
+    internal static double[] FitRidgeRegression(double[,] X, double[] y, double lambda)
     {
         int n = X.GetLength(0); // observations
         int p = X.GetLength(1); // features (including intercept)
@@ -167,7 +167,7 @@ public static class DemographicPrior
     /// <summary>
     /// Solves A*x = b where A is symmetric positive definite, using Cholesky decomposition.
     /// </summary>
-    private static double[] CholeskySolve(double[,] A, double[] b)
+    internal static double[] CholeskySolve(double[,] A, double[] b)
     {
         int n = A.GetLength(0);
 

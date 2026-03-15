@@ -48,7 +48,9 @@
     @if (State.IsRunning)
     {
         <div class="progress-container" style="display:flex;align-items:center;gap:0.5rem;margin-top:0.5rem">
-            <div class="progress-track" style="flex:1;height:6px;background:rgba(255,255,255,0.1);border-radius:3px;overflow:hidden">
+            <div class="progress-track" role="progressbar" aria-valuenow="@ProgressPercent" aria-valuemin="0" aria-valuemax="100"
+                 aria-label="Simulation progress: @(ProgressPercent)%"
+                 style="flex:1;height:6px;background:rgba(255,255,255,0.1);border-radius:3px;overflow:hidden">
                 <div class="progress-fill" style="width:@(ProgressPercent)%;height:100%;background:#D71920;border-radius:3px;transition:width .15s ease-out"></div>
             </div>
             <span class="progress-label" style="font-size:.75rem;color:rgba(255,255,255,0.6);min-width:2.5rem;text-align:right">@(ProgressPercent)%</span>

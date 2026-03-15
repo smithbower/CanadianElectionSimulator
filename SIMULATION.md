@@ -63,10 +63,10 @@ The original `ProjectRidingVoteShares()` method is retained for backward compati
 
 ### Noise Distribution
 
-The simulator uses **Student-t noise** (default df=5) rather than Gaussian to capture heavy-tailed election surprises. This was motivated by empirical residual analysis showing excess kurtosis of ~19.8 (Gaussian would be 0).
+The simulator uses **Student-t noise** (default df=3) rather than Gaussian to capture heavy-tailed election surprises. This was motivated by empirical residual analysis showing excess kurtosis of ~7.8 (Gaussian would be 0). The df was lowered from 5 to 3 based on a hindcast validation sweep across df={3,4,5,7,10,Gaussian}, which showed df=3 achieves the best Brier score (0.2264 vs 0.2330 at df=5), log loss (0.4188 vs 0.4323), and CI coverage closer to 90% (97.3% vs 98.1%).
 
 - `NextStudentT(rng, df)`: Samples via `z / sqrt(v / df)` where `z ~ N(0,1)` and `v ~ chi-squared(df)`.
-- A **scale factor** `sqrt((df-2)/df)` is applied so the effective standard deviation matches the configured sigma values. For df=5 this is ~0.775.
+- A **scale factor** `sqrt((df-2)/df)` is applied so the effective standard deviation matches the configured sigma values. For df=3 this is ~0.577.
 - When `DegreesOfFreedom` is null or infinity, the simulator falls back to Gaussian noise (Box-Muller transform).
 - Only integer df values are supported (chi-squared sampled as sum of squared Gaussians).
 
@@ -102,6 +102,8 @@ When `UseCorrelatedNoise` is enabled (default: true), party noise at each level 
 | CPC–NDP | −0.344 | Some competition |
 
 The correlation matrix is applied identically at all three noise levels (national, regional, riding). Per-party sigma scaling is separate and user-adjustable. Setting `UseCorrelatedNoise = false` reverts to independent noise draws.
+
+**Regional correlation investigation (March 2026):** Region-specific correlation matrices (Quebec vs Rest of Canada) were computed and tested. The hypothesis was that the strong LPC–BQ anticorrelation (−0.833) is a Quebec-specific phenomenon that shouldn't influence noise in other regions. This was confirmed — Quebec shows LPC–BQ = −0.289 while Rest of Canada shows only −0.071, and BQ correlations are near-zero outside Quebec. However, hindcast validation showed no meaningful improvement: average Brier score went from 0.2259 (national) to 0.2265 (regional), a −0.2% change. Accuracy was also neutral across all 5 transitions. Since the decision criteria (≥1% Quebec accuracy improvement, no Brier degradation) were not met, regional correlations were not adopted. See `plans/A5-regional-correlations.md` for the full design.
 
 **Key files:**
 - `src/ElectionSim.Core/Simulation/CorrelationData.cs` — pre-computed Cholesky factor
@@ -142,7 +144,7 @@ When `UseDemographicPrior` is enabled (default: false), the simulator blends swi
 
 2. The fitted model produces `E[vote_share | demographics]` for every riding.
 
-3. **Blending**: For each riding, `final = (1 - w) × projected + w × demographic_prior`, where `w = DemographicBlendWeight` (default 0.15). Ridings with no historical baseline data get `w = 1.0` (full demographic prior).
+3. **Blending**: For each riding, `final = (1 - w) × projected + w × demographic_prior`, where `w = DemographicBlendWeight` (default 0.02). Ridings with no historical baseline data get `w = 1.0` (full demographic prior).
 
 4. The blended shares are renormalized to sum to 1.0 before being passed to the Monte Carlo simulator.
 
@@ -172,13 +174,13 @@ When `UseDemographicPrior` is enabled (default: false), the simulator blends swi
 | `NationalSigma` | 6.0% | National-level noise standard deviation (fallback when no per-party value exists) |
 | `RegionalSigma` | 2.6% | Regional-level noise standard deviation (base, before per-region multiplier) |
 | `RidingSigma` | 6.5% | Riding-level noise standard deviation (base, before per-region multiplier) |
-| `DegreesOfFreedom` | 5.0 | Student-t df (null = Gaussian) |
+| `DegreesOfFreedom` | 3.0 | Student-t df (null = Gaussian) |
 | `SwingBlendAlpha` | 0.0 | Swing model blend: 0.0 = pure additive, 1.0 = pure proportional |
 | `RegionalSigmaMultipliers` | See below | Per-region multiplier applied to RegionalSigma and RidingSigma |
 | `UseCorrelatedNoise` | true | Use Cholesky-based correlated inter-party noise (false = independent) |
 | `ByElectionBlendWeight` | 0.3 | Weight given to by-election results when blending into baseline (0.0–1.0) |
 | `UseDemographicPrior` | false | Blend census demographic prior into riding projections |
-| `DemographicBlendWeight` | 0.15 | Weight given to demographic prior (0.0–1.0); ridings with no baseline get 1.0 |
+| `DemographicBlendWeight` | 0.02 | Weight given to demographic prior (0.0–1.0); ridings with no baseline get 1.0 |
 | `Seed` | null | RNG seed for reproducibility (null = random) |
 
 #### Per-Region Sigma Multipliers
@@ -285,7 +287,11 @@ Sweeps `SwingBlendAlpha` from 0.0 to 1.0 (in 0.1 steps) across all 5 election tr
 
 ### Sigma Sweep
 
-Performs a grid search over national sigma [3-8%] x riding sigma [2-7%] with regional sigma fixed at 2.6% and df=5. Runs 1,000 simulations per combination (seed=42) and reports Brier score, CI coverage, and riding accuracy for each.
+Performs a grid search over national sigma [3-8%] x riding sigma [2-7%] with regional sigma fixed at 2.6% and df=3. Runs 1,000 simulations per combination (seed=42) and reports Brier score, CI coverage, and riding accuracy for each.
+
+### Degrees of Freedom Sweep
+
+Sweeps `DegreesOfFreedom` across {3, 4, 5, 7, 10, null (Gaussian)} using all election transitions. For each df, runs 1,000 simulations per hindcast (seed=42) and reports per-transition Brier scores, average Brier, accuracy, CI coverage, log loss, and simulated kurtosis. Identifies the optimal df by minimum average Brier score.
 
 ### Current Validation Results
 
@@ -308,7 +314,7 @@ Correlated noise improved the hardest hindcasts: 2015-from-2011 Brier improved f
 
 - Combined model sigma varies by party (LPC ~14.2%, PPC ~7.4% in quadrature with regional + riding) but is still below the empirical residual std (22.7% across 5 transitions). The gap is mostly systematic swing model error, not random noise.
 - Calibration at high confidence (90-100% bin) shows 88.5% actual win rate vs ~95% expected — the model is still overconfident for its most confident predictions.
-- Student-t with df=5 produces kurtosis=6, which partially addresses the empirical excess kurtosis of 46.5 (measured across 5 transitions) but does not fully capture it.
+- Student-t with df=3 has theoretically infinite kurtosis but practically much fatter tails than df=5. A df sweep across {3,4,5,7,10,Gaussian} showed monotonically improving Brier/log loss at lower df, with df=3 optimal. Simulated kurtosis (~6.9) still falls short of the empirical excess kurtosis (~7.8), suggesting some residual heavy-tail structure remains uncaptured.
 - Per-party sigma defaults are derived from empirical residuals (LPC 12%, CPC 8%, NDP 6%, BQ 4%, GPC 7%, PPC 3%). Users can override via `PartyUncertainty`.
 - The swing model does not account for candidate-specific effects, redistricting changes, or strategic voting dynamics.
 - The 308→343 riding mapping for 2008/2011 elections covers only ~251 of 343 ridings (73%). The 338→343 mapping for 2015/2019 elections covers ~279 ridings (81%). Ridings created during the 2022 redistribution have no pre-2025 historical data.

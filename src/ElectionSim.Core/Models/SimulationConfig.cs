@@ -11,7 +11,7 @@ public record SimulationConfig(
     double RidingSigma = 0.065,
     int? Seed = null,
     Dictionary<Party, double>? PartyUncertainty = null,
-    double? DegreesOfFreedom = 5.0,
+    double? DegreesOfFreedom = 3.0,
     double SwingBlendAlpha = 0.0,
     Dictionary<Region, double>? RegionalSigmaMultipliers = null,
     bool UseCorrelatedNoise = true,

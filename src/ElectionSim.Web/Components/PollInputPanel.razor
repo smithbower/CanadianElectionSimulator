@@ -19,13 +19,16 @@
             </span>
             <input type="range" min="0" max="0.60" step="0.005"
                    value="@share"
+                   aria-label="@PartyColorProvider.GetName(p) vote share"
                    @oninput="e => OnNationalSliderChanged(p, e)" />
             <input type="number" class="share-input" min="0" max="100" step="0.1"
                    value="@((share * 100).ToString("F1"))"
+                   aria-label="@PartyColorProvider.GetName(p) vote share percent"
                    @onchange="e => OnNationalNumberChanged(p, e)" />
             <span class="uncertainty-prefix">&plusmn;</span>
             <input type="number" class="uncertainty-input" min="0" max="30" step="0.1"
                    value="@((State.PartyUncertainty.GetValueOrDefault(p, SimulationConfig.DefaultPartyUncertainty.GetValueOrDefault(p, 0.06)) * 100).ToString("F1"))"
+                   aria-label="@PartyColorProvider.GetName(p) uncertainty"
                    @onchange="e => OnUncertaintyChanged(p, e)" />
         </div>
     }
@@ -34,6 +37,7 @@
     <div class="total-row @GetTotalClass(nationalTotal)">
         <span>Total:</span>
         <span class="total-value">@((nationalTotal * 100).ToString("F1"))%</span>
+        <span class="total-status">@GetTotalStatusText(nationalTotal)</span>
     </div>
 
     <div class="section-header toggle-header" @onclick="ToggleRegional">
@@ -57,9 +61,11 @@
                         <span class="party-dot" style="background-color: @PartyColourProvider.GetColour(p)"></span>
                         <input type="range" min="0" max="0.70" step="0.005"
                                value="@val"
+                               aria-label="@PartyColorProvider.GetName(p) @PartyColorProvider.GetProvinceRegionName(r) vote share"
                                @oninput="e => OnRegionalSliderChanged(r, p, e)" />
                         <input type="number" class="share-input compact" min="0" max="100" step="0.1"
                                value="@((val * 100).ToString("F1"))"
+                               aria-label="@PartyColorProvider.GetName(p) @PartyColorProvider.GetProvinceRegionName(r) vote share percent"
                                @onchange="e => OnRegionalNumberChanged(r, p, e)" />
                     </div>
                 }
@@ -67,6 +73,7 @@
                 <div class="total-row @GetTotalClass(regionTotal)">
                     <span>Total:</span>
                     <span class="total-value">@((regionTotal * 100).ToString("F1"))%</span>
+                    <span class="total-status">@GetTotalStatusText(regionTotal)</span>
                 </div>
             </div>
         }
@@ -122,6 +129,14 @@
     {
         if (double.TryParse(e.Value?.ToString(), out double pct))
             State.PartyUncertainty[party] = Math.Clamp(pct / 100.0, 0, 0.30);
+    }
+
+    private static string GetTotalStatusText(double total)
+    {
+        double pct = total * 100;
+        if (pct >= 99.5 && pct <= 100.5) return "(valid)";
+        if (pct >= 95 && pct <= 105) return "(close)";
+        return "(adjust)";
     }
 
     private void ResetToPolls() => State.InitializeFromPolling();

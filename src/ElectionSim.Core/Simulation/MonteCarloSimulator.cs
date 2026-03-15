@@ -325,7 +325,7 @@ public class MonteCarloSimulator
         return multipliers;
     }
 
-    private static double NextGaussian(Random rng)
+    internal static double NextGaussian(Random rng)
     {
         // Box-Muller transform
         double u1 = 1.0 - rng.NextDouble();
@@ -337,7 +337,7 @@ public class MonteCarloSimulator
     /// Returns a noise sample: Student-t if df is finite, Gaussian otherwise.
     /// The tScale factor ensures the effective standard deviation matches the configured sigma.
     /// </summary>
-    private static double NextNoise(Random rng, double? df, double tScale)
+    internal static double NextNoise(Random rng, double? df, double tScale)
     {
         if (df is null || double.IsPositiveInfinity(df.Value) || df.Value <= 2)
             return NextGaussian(rng);
@@ -349,7 +349,7 @@ public class MonteCarloSimulator
     /// Sample from Student-t distribution with the given degrees of freedom.
     /// Uses the ratio: t = z / sqrt(v / df), where z ~ N(0,1) and v ~ chi-squared(df).
     /// </summary>
-    private static double NextStudentT(Random rng, double df)
+    internal static double NextStudentT(Random rng, double df)
     {
         double z = NextGaussian(rng);
 
@@ -370,7 +370,7 @@ public class MonteCarloSimulator
     /// Student-t with df has variance df/(df-2), so scale = sqrt((df-2)/df).
     /// Returns 1.0 for Gaussian (df=null or infinity).
     /// </summary>
-    private static double ComputeStudentTScale(double? df)
+    internal static double ComputeStudentTScale(double? df)
     {
         if (df is null || double.IsPositiveInfinity(df.Value) || df.Value <= 2)
             return 1.0;
