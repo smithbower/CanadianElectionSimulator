@@ -28,7 +28,7 @@
 }
 
 .toggle-arrow {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
 }
 
 .btn-small {
@@ -60,7 +60,7 @@
 
 .party-badge {
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 700;
     padding: 0.15rem 0.35rem;
     border-radius: 3px;
@@ -156,6 +156,12 @@
 
 .total-value {
     font-variant-numeric: tabular-nums;
+}
+
+.total-status {
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
+    opacity: 0.8;
 }
 
 .uncertainty-prefix {

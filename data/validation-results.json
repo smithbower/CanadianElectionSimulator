@@ -3,12 +3,12 @@
     {
       "name": "2025 from 2021",
       "seatMae": {
-        "lpc": 10.696100000000001,
-        "cpc": 7.366700000000009,
-        "ndp": 0.10020000000000007,
-        "bq": 2.600999999999999,
-        "gpc": 0.8555,
-        "ppc": 0.0269
+        "lpc": 10.97829999999999,
+        "cpc": 9.0043,
+        "ndp": 0.2173999999999996,
+        "bq": 2.3369,
+        "gpc": 0.04279999999999995,
+        "ppc": 0.1027
       },
       "actualSeats": {
         "lpc": 169,
@@ -19,216 +19,216 @@
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 179.7,
-        "cpc": 136.6,
-        "ndp": 7.1,
-        "bq": 19.4,
-        "gpc": 0.1,
-        "ppc": 0
+        "lpc": 180,
+        "cpc": 135,
+        "ndp": 7.2,
+        "bq": 19.7,
+        "gpc": 1,
+        "ppc": 0.1
       },
-      "ridingAccuracy": 0.7784256559766763,
-      "brierScore": 0.3053814925947521,
-      "logLoss": 0.49262417964135047,
-      "ciCoverage": 0.9601554907677357,
+      "ridingAccuracy": 0.7959183673469388,
+      "brierScore": 0.25478874711370253,
+      "logLoss": 0.40950139126852425,
+      "ciCoverage": 0.9625850340136054,
       "ciCoverageByRegion": {
-        "atlantic": 0.9427083333333334,
-        "quebec": 0.9722222222222222,
-        "ontario": 0.9672131147540983,
+        "atlantic": 0.9479166666666666,
+        "quebec": 0.9829059829059829,
+        "ontario": 0.9631147540983607,
         "prairies": 0.9047619047619048,
-        "alberta": 0.963963963963964,
-        "britishColumbia": 0.9612403100775194,
-        "north": 1
+        "alberta": 0.9684684684684685,
+        "britishColumbia": 0.9689922480620154,
+        "north": 0.9444444444444444
       },
       "totalRidings": 343,
-      "correctWinners": 267,
-      "ciHits": 1976,
+      "correctWinners": 273,
+      "ciHits": 1981,
       "ciTotal": 2058
     },
     {
       "name": "2021 from 2019",
       "seatMae": {
-        "lpc": 14.06049999999999,
-        "cpc": 28.607499999999987,
-        "ndp": 17.0034,
-        "bq": 3.5923000000000016,
-        "gpc": 0.6784,
-        "ppc": 0.0579
+        "lpc": 13.872299999999996,
+        "cpc": 36.509,
+        "ndp": 12.844999999999999,
+        "bq": 2.6598000000000006,
+        "gpc": 0.19429999999999992,
+        "ppc": 0.3082
       },
       "actualSeats": {
-        "lpc": 132,
-        "cpc": 103,
-        "ndp": 17,
-        "bq": 27,
-        "gpc": 0,
+        "lpc": 140,
+        "cpc": 88,
+        "ndp": 21,
+        "bq": 26,
+        "gpc": 2,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 146.1,
-        "cpc": 131.6,
-        "ndp": 34,
-        "bq": 30.6,
-        "gpc": 0.7,
-        "ppc": 0.1
+        "lpc": 153.9,
+        "cpc": 124.5,
+        "ndp": 33.8,
+        "bq": 28.7,
+        "gpc": 1.8,
+        "ppc": 0.3
       },
-      "ridingAccuracy": 0.931899641577061,
-      "brierScore": 0.16614060824372756,
-      "logLoss": 0.3213921230635679,
-      "ciCoverage": 0.9958183990442055,
+      "ridingAccuracy": 0.927797833935018,
+      "brierScore": 0.14908439191335746,
+      "logLoss": 0.2901276420799238,
+      "ciCoverage": 0.9927797833935018,
       "ciCoverageByRegion": {
-        "atlantic": 0.9833333333333333,
-        "quebec": 0.9975845410628019,
-        "ontario": 1,
+        "atlantic": 0.9710144927536232,
+        "quebec": 0.9976190476190476,
+        "ontario": 0.9933333333333333,
         "prairies": 0.9782608695652174,
         "alberta": 1,
         "britishColumbia": 1,
         "north": 1
       },
-      "totalRidings": 279,
-      "correctWinners": 260,
-      "ciHits": 1667,
-      "ciTotal": 1674
+      "totalRidings": 277,
+      "correctWinners": 257,
+      "ciHits": 1650,
+      "ciTotal": 1662
     },
     {
       "name": "2019 from 2015",
       "seatMae": {
-        "lpc": 20.236999999999995,
-        "cpc": 32.18299999999999,
-        "ndp": 9.5484,
-        "bq": 3.2912999999999997,
-        "gpc": 0.2751999999999999,
-        "ppc": 0.0155
+        "lpc": 20.670199999999994,
+        "cpc": 32.87350000000001,
+        "ndp": 10.041599999999999,
+        "bq": 3.8286000000000016,
+        "gpc": 0.5055000000000001,
+        "ppc": 0.0916
       },
       "actualSeats": {
-        "lpc": 130,
-        "cpc": 99,
-        "ndp": 19,
-        "bq": 28,
-        "gpc": 2,
+        "lpc": 137,
+        "cpc": 90,
+        "ndp": 20,
+        "bq": 26,
+        "gpc": 3,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 150.2,
-        "cpc": 131.2,
-        "ndp": 28.5,
-        "bq": 31.3,
-        "gpc": 1.7,
-        "ppc": 0
+        "lpc": 157.7,
+        "cpc": 122.9,
+        "ndp": 30,
+        "bq": 29.8,
+        "gpc": 2.5,
+        "ppc": 0.1
       },
-      "ridingAccuracy": 0.8745519713261649,
-      "brierScore": 0.21827648738351244,
-      "logLoss": 0.41586128376995807,
-      "ciCoverage": 0.9904420549581839,
+      "ridingAccuracy": 0.8916967509025271,
+      "brierScore": 0.1950832865703972,
+      "logLoss": 0.3855421746664117,
+      "ciCoverage": 0.9783393501805054,
       "ciCoverageByRegion": {
-        "atlantic": 0.9611111111111111,
-        "quebec": 0.9879227053140096,
-        "ontario": 0.9981884057971014,
-        "prairies": 1,
-        "alberta": 0.9942528735632183,
-        "britishColumbia": 0.9949494949494949,
+        "atlantic": 0.9130434782608695,
+        "quebec": 0.9761904761904762,
+        "ontario": 0.9916666666666667,
+        "prairies": 0.9782608695652174,
+        "alberta": 0.9935897435897436,
+        "britishColumbia": 0.9791666666666666,
         "north": 0.9444444444444444
       },
-      "totalRidings": 279,
-      "correctWinners": 244,
-      "ciHits": 1658,
-      "ciTotal": 1674
+      "totalRidings": 277,
+      "correctWinners": 247,
+      "ciHits": 1626,
+      "ciTotal": 1662
     },
     {
       "name": "2015 from 2011",
       "seatMae": {
-        "lpc": 20.266999999999996,
-        "cpc": 31.671800000000005,
-        "ndp": 12.209200000000003,
-        "bq": 0.3205,
-        "gpc": 0.15999999999999992,
-        "ppc": 0.0125
+        "lpc": 30.50540000000001,
+        "cpc": 31.5843,
+        "ndp": 5.361699999999999,
+        "bq": 2.0378,
+        "gpc": 0.5045,
+        "ppc": 0.0819
       },
       "actualSeats": {
-        "lpc": 159,
-        "cpc": 78,
-        "ndp": 33,
-        "bq": 8,
+        "lpc": 155,
+        "cpc": 75,
+        "ndp": 37,
+        "bq": 9,
         "gpc": 1,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 179.3,
-        "cpc": 109.7,
-        "ndp": 45.2,
-        "bq": 7.7,
-        "gpc": 1.2,
-        "ppc": 0
+        "lpc": 185.5,
+        "cpc": 106.6,
+        "ndp": 42.4,
+        "bq": 7,
+        "gpc": 1.5,
+        "ppc": 0.1
       },
-      "ridingAccuracy": 0.6344086021505376,
-      "brierScore": 0.46250931584229416,
-      "logLoss": 0.801890041161289,
-      "ciCoverage": 0.942652329749104,
+      "ridingAccuracy": 0.7725631768953068,
+      "brierScore": 0.3369418209386283,
+      "logLoss": 0.6112299203369637,
+      "ciCoverage": 0.9584837545126353,
       "ciCoverageByRegion": {
-        "atlantic": 0.9611111111111111,
-        "quebec": 0.9299516908212561,
-        "ontario": 0.9510869565217391,
-        "prairies": 0.9420289855072463,
-        "alberta": 0.9540229885057471,
-        "britishColumbia": 0.9191919191919192,
-        "north": 0.9444444444444444
+        "atlantic": 0.927536231884058,
+        "quebec": 0.9571428571428572,
+        "ontario": 0.975,
+        "prairies": 0.927536231884058,
+        "alberta": 0.9423076923076923,
+        "britishColumbia": 0.9635416666666666,
+        "north": 1
       },
-      "totalRidings": 279,
-      "correctWinners": 177,
-      "ciHits": 1578,
-      "ciTotal": 1674
+      "totalRidings": 277,
+      "correctWinners": 214,
+      "ciHits": 1593,
+      "ciTotal": 1662
     },
     {
       "name": "2011 from 2008",
       "seatMae": {
-        "lpc": 20.541800000000002,
-        "cpc": 50.069500000000005,
-        "ndp": 20.150000000000006,
-        "bq": 1.8316,
-        "gpc": 0.5968,
-        "ppc": 0.0039
+        "lpc": 12.216299999999997,
+        "cpc": 104.22219999999999,
+        "ndp": 26.2877,
+        "bq": 2.6805000000000003,
+        "gpc": 0.44789999999999996,
+        "ppc": 0.0412
       },
       "actualSeats": {
-        "lpc": 24,
-        "cpc": 142,
-        "ndp": 81,
-        "bq": 3,
+        "lpc": 26,
+        "cpc": 99,
+        "ndp": 70,
+        "bq": 2,
         "gpc": 1,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 44.5,
-        "cpc": 192.1,
-        "ndp": 101.2,
-        "bq": 4.8,
-        "gpc": 0.4,
+        "lpc": 38.2,
+        "cpc": 203.2,
+        "ndp": 96.3,
+        "bq": 4.7,
+        "gpc": 0.6,
         "ppc": 0
       },
-      "ridingAccuracy": 0.900398406374502,
-      "brierScore": 0.17769796031872517,
-      "logLoss": 0.36951311670568293,
-      "ciCoverage": 0.9873837981407703,
+      "ridingAccuracy": 0.8838383838383839,
+      "brierScore": 0.1934118196969697,
+      "logLoss": 0.38980999421587487,
+      "ciCoverage": 0.9814814814814815,
       "ciCoverageByRegion": {
-        "atlantic": 0.9722222222222222,
-        "quebec": 0.9848484848484849,
-        "ontario": 0.9939759036144579,
-        "prairies": 0.9782608695652174,
+        "atlantic": 0.946969696969697,
+        "quebec": 0.9845679012345679,
+        "ontario": 0.9932432432432432,
+        "prairies": 0.9607843137254902,
         "alberta": 1,
-        "britishColumbia": 0.9901960784313726,
-        "north": 0.9444444444444444
+        "britishColumbia": 0.9824561403508771,
+        "north": 0.9166666666666666
       },
-      "totalRidings": 251,
-      "correctWinners": 226,
-      "ciHits": 1487,
-      "ciTotal": 1506
+      "totalRidings": 198,
+      "correctWinners": 175,
+      "ciHits": 1166,
+      "ciTotal": 1188
     },
     {
       "name": "2025 from 2021 (demo)",
       "seatMae": {
-        "lpc": 7.5464000000000055,
-        "cpc": 5.3925000000000125,
-        "ndp": 3.1774000000000004,
-        "bq": 0.2607999999999997,
-        "gpc": 0.7871,
-        "ppc": 0.0244
+        "lpc": 9.03819999999999,
+        "cpc": 5.719400000000007,
+        "ndp": 2.7855000000000008,
+        "bq": 0.6110000000000007,
+        "gpc": 0.17169999999999996,
+        "ppc": 0.094
       },
       "actualSeats": {
         "lpc": 169,
@@ -239,206 +239,206 @@
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 161.5,
-        "cpc": 149.4,
-        "ndp": 10.2,
-        "bq": 21.7,
-        "gpc": 0.2,
-        "ppc": 0
+        "lpc": 160,
+        "cpc": 149.7,
+        "ndp": 9.8,
+        "bq": 22.6,
+        "gpc": 0.8,
+        "ppc": 0.1
       },
-      "ridingAccuracy": 0.8163265306122449,
-      "brierScore": 0.28631428769679285,
-      "logLoss": 0.48345632530460964,
-      "ciCoverage": 0.9363459669582118,
+      "ridingAccuracy": 0.8542274052478134,
+      "brierScore": 0.21858315516034993,
+      "logLoss": 0.37626656507762374,
+      "ciCoverage": 0.9305150631681244,
       "ciCoverageByRegion": {
-        "atlantic": 0.9114583333333334,
-        "quebec": 0.9658119658119658,
-        "ontario": 0.924863387978142,
-        "prairies": 0.8988095238095238,
-        "alberta": 0.9504504504504504,
-        "britishColumbia": 0.9418604651162791,
+        "atlantic": 0.84375,
+        "quebec": 0.9722222222222222,
+        "ontario": 0.9275956284153005,
+        "prairies": 0.8869047619047619,
+        "alberta": 0.9459459459459459,
+        "britishColumbia": 0.937984496124031,
         "north": 1
       },
       "totalRidings": 343,
-      "correctWinners": 280,
-      "ciHits": 1927,
+      "correctWinners": 293,
+      "ciHits": 1915,
       "ciTotal": 2058
     },
     {
       "name": "2021 from 2019 (demo)",
       "seatMae": {
-        "lpc": 7.41810000000001,
-        "cpc": 42.85409999999999,
-        "ndp": 10.669599999999999,
-        "bq": 2.4816000000000003,
-        "gpc": 0.5394,
-        "ppc": 0.0372
+        "lpc": 4.187900000000013,
+        "cpc": 53.63040000000001,
+        "ndp": 5.811299999999999,
+        "bq": 2.6560999999999986,
+        "gpc": 0.5282,
+        "ppc": 0.2425
       },
       "actualSeats": {
-        "lpc": 132,
-        "cpc": 103,
-        "ndp": 17,
-        "bq": 27,
-        "gpc": 0,
-        "ppc": 0
-      },
-      "predictedMeanSeats": {
-        "lpc": 139.4,
-        "cpc": 145.9,
-        "ndp": 27.7,
-        "bq": 29.5,
-        "gpc": 0.5,
-        "ppc": 0
-      },
-      "ridingAccuracy": 0.9283154121863799,
-      "brierScore": 0.17425985956989254,
-      "logLoss": 0.33902048569606263,
-      "ciCoverage": 0.996415770609319,
-      "ciCoverageByRegion": {
-        "atlantic": 0.9888888888888889,
-        "quebec": 1,
-        "ontario": 0.9981884057971014,
-        "prairies": 0.9782608695652174,
-        "alberta": 1,
-        "britishColumbia": 1,
-        "north": 1
-      },
-      "totalRidings": 279,
-      "correctWinners": 259,
-      "ciHits": 1668,
-      "ciTotal": 1674
-    },
-    {
-      "name": "2019 from 2015 (demo)",
-      "seatMae": {
-        "lpc": 10.930800000000005,
-        "cpc": 47.17089999999999,
-        "ndp": 5.633199999999999,
-        "bq": 1.9890000000000008,
-        "gpc": 0.74,
-        "ppc": 0.0161
-      },
-      "actualSeats": {
-        "lpc": 130,
-        "cpc": 99,
-        "ndp": 19,
-        "bq": 28,
+        "lpc": 140,
+        "cpc": 88,
+        "ndp": 21,
+        "bq": 26,
         "gpc": 2,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 140.9,
-        "cpc": 146.2,
-        "ndp": 24.6,
-        "bq": 30,
-        "gpc": 1.3,
+        "lpc": 144.2,
+        "cpc": 141.6,
+        "ndp": 26.8,
+        "bq": 28.7,
+        "gpc": 1.5,
+        "ppc": 0.2
+      },
+      "ridingAccuracy": 0.9422382671480144,
+      "brierScore": 0.15254487046931411,
+      "logLoss": 0.30309240788997915,
+      "ciCoverage": 0.9927797833935018,
+      "ciCoverageByRegion": {
+        "atlantic": 0.9782608695652174,
+        "quebec": 0.9952380952380953,
+        "ontario": 0.995,
+        "prairies": 0.9782608695652174,
+        "alberta": 0.9935897435897436,
+        "britishColumbia": 1,
+        "north": 1
+      },
+      "totalRidings": 277,
+      "correctWinners": 261,
+      "ciHits": 1650,
+      "ciTotal": 1662
+    },
+    {
+      "name": "2019 from 2015 (demo)",
+      "seatMae": {
+        "lpc": 8.679300000000012,
+        "cpc": 50.50139999999999,
+        "ndp": 5.189699999999998,
+        "bq": 3.4864999999999995,
+        "gpc": 0.9453999999999998,
+        "ppc": 0.0885
+      },
+      "actualSeats": {
+        "lpc": 137,
+        "cpc": 90,
+        "ndp": 20,
+        "bq": 26,
+        "gpc": 3,
         "ppc": 0
       },
-      "ridingAccuracy": 0.8709677419354839,
-      "brierScore": 0.22379171677419363,
-      "logLoss": 0.43306928008003176,
-      "ciCoverage": 0.985663082437276,
+      "predictedMeanSeats": {
+        "lpc": 145.7,
+        "cpc": 140.5,
+        "ndp": 25.2,
+        "bq": 29.5,
+        "gpc": 2.1,
+        "ppc": 0.1
+      },
+      "ridingAccuracy": 0.9025270758122743,
+      "brierScore": 0.19491040808664256,
+      "logLoss": 0.3942575797789356,
+      "ciCoverage": 0.9789410348977136,
       "ciCoverageByRegion": {
-        "atlantic": 0.95,
-        "quebec": 0.9855072463768116,
-        "ontario": 0.9963768115942029,
-        "prairies": 0.9710144927536232,
-        "alberta": 0.9942528735632183,
-        "britishColumbia": 0.9949494949494949,
+        "atlantic": 0.927536231884058,
+        "quebec": 0.9761904761904762,
+        "ontario": 0.9916666666666667,
+        "prairies": 0.9565217391304348,
+        "alberta": 0.9935897435897436,
+        "britishColumbia": 0.9895833333333334,
         "north": 0.9444444444444444
       },
-      "totalRidings": 279,
-      "correctWinners": 243,
-      "ciHits": 1650,
-      "ciTotal": 1674
+      "totalRidings": 277,
+      "correctWinners": 250,
+      "ciHits": 1627,
+      "ciTotal": 1662
     },
     {
       "name": "2015 from 2011 (demo)",
       "seatMae": {
-        "lpc": 1.6534000000000049,
-        "cpc": 55.4598,
-        "ndp": 2.002200000000002,
-        "bq": 8.137899999999998,
-        "gpc": 0.037800000000000056,
-        "ppc": 0.0157
+        "lpc": 1.1200000000000045,
+        "cpc": 65.46690000000001,
+        "ndp": 6.7166999999999994,
+        "bq": 7.985099999999999,
+        "gpc": 0.2810999999999999,
+        "ppc": 0.1036
       },
       "actualSeats": {
-        "lpc": 159,
-        "cpc": 78,
-        "ndp": 33,
-        "bq": 8,
+        "lpc": 155,
+        "cpc": 75,
+        "ndp": 37,
+        "bq": 9,
         "gpc": 1,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 157.3,
-        "cpc": 133.5,
-        "ndp": 35,
-        "bq": 16.1,
-        "gpc": 1,
-        "ppc": 0
+        "lpc": 153.9,
+        "cpc": 140.5,
+        "ndp": 30.3,
+        "bq": 17,
+        "gpc": 1.3,
+        "ppc": 0.1
       },
-      "ridingAccuracy": 0.6308243727598566,
-      "brierScore": 0.4666450351971326,
-      "logLoss": 0.8036659567747798,
-      "ciCoverage": 0.9456391875746715,
+      "ridingAccuracy": 0.7184115523465704,
+      "brierScore": 0.3777100301805057,
+      "logLoss": 0.6917881439844608,
+      "ciCoverage": 0.9446450060168472,
       "ciCoverageByRegion": {
-        "atlantic": 0.9611111111111111,
-        "quebec": 0.9178743961352657,
-        "ontario": 0.9601449275362319,
+        "atlantic": 0.927536231884058,
+        "quebec": 0.9357142857142857,
+        "ontario": 0.9716666666666667,
         "prairies": 0.9492753623188406,
-        "alberta": 0.9425287356321839,
-        "britishColumbia": 0.9444444444444444,
-        "north": 1
+        "alberta": 0.9294871794871795,
+        "britishColumbia": 0.90625,
+        "north": 0.8888888888888888
       },
-      "totalRidings": 279,
-      "correctWinners": 176,
-      "ciHits": 1583,
-      "ciTotal": 1674
+      "totalRidings": 277,
+      "correctWinners": 199,
+      "ciHits": 1570,
+      "ciTotal": 1662
     },
     {
       "name": "2011 from 2008 (demo)",
       "seatMae": {
-        "lpc": 57.6151,
-        "cpc": 36.46600000000001,
-        "ndp": 12.711100000000002,
-        "bq": 11.2177,
-        "gpc": 0.5974999999999999,
-        "ppc": 0.0098
+        "lpc": 70.8696,
+        "cpc": 70.5349,
+        "ndp": 9.2671,
+        "bq": 13.1398,
+        "gpc": 0.3609,
+        "ppc": 0.0837
       },
       "actualSeats": {
-        "lpc": 24,
-        "cpc": 142,
-        "ndp": 81,
-        "bq": 3,
+        "lpc": 26,
+        "cpc": 99,
+        "ndp": 70,
+        "bq": 2,
         "gpc": 1,
         "ppc": 0
       },
       "predictedMeanSeats": {
-        "lpc": 81.6,
-        "cpc": 178.5,
-        "ndp": 68.3,
-        "bq": 14.2,
-        "gpc": 0.4,
-        "ppc": 0
+        "lpc": 96.9,
+        "cpc": 169.5,
+        "ndp": 60.7,
+        "bq": 15.1,
+        "gpc": 0.6,
+        "ppc": 0.1
       },
-      "ridingAccuracy": 0.8844621513944223,
-      "brierScore": 0.20582536820717132,
-      "logLoss": 0.40824597959425435,
-      "ciCoverage": 0.9840637450199203,
+      "ridingAccuracy": 0.8737373737373737,
+      "brierScore": 0.21983859121212118,
+      "logLoss": 0.427274108965467,
+      "ciCoverage": 0.9722222222222222,
       "ciCoverageByRegion": {
-        "atlantic": 0.9777777777777777,
-        "quebec": 0.9696969696969697,
-        "ontario": 0.9939759036144579,
-        "prairies": 0.9782608695652174,
+        "atlantic": 0.9545454545454546,
+        "quebec": 0.9567901234567902,
+        "ontario": 0.9887387387387387,
+        "prairies": 0.9607843137254902,
         "alberta": 1,
-        "britishColumbia": 0.9852941176470589,
-        "north": 0.9444444444444444
+        "britishColumbia": 0.9736842105263158,
+        "north": 0.9166666666666666
       },
-      "totalRidings": 251,
-      "correctWinners": 222,
-      "ciHits": 1482,
-      "ciTotal": 1506
+      "totalRidings": 198,
+      "correctWinners": 173,
+      "ciHits": 1155,
+      "ciTotal": 1188
     }
   ],
   "calibration": {
@@ -446,341 +446,341 @@
       {
         "binLow": 0,
         "binHigh": 0.1,
-        "count": 6061,
-        "wins": 37,
-        "actualRate": 0.006104603200791948
+        "count": 5954,
+        "wins": 34,
+        "actualRate": 0.005710446758481693
       },
       {
         "binLow": 0.1,
         "binHigh": 0.2,
-        "count": 409,
-        "wins": 40,
-        "actualRate": 0.097799511002445
+        "count": 334,
+        "wins": 38,
+        "actualRate": 0.11377245508982035
       },
       {
         "binLow": 0.2,
         "binHigh": 0.30000000000000004,
-        "count": 323,
-        "wins": 62,
-        "actualRate": 0.19195046439628483
+        "count": 266,
+        "wins": 37,
+        "actualRate": 0.13909774436090225
       },
       {
         "binLow": 0.30000000000000004,
         "binHigh": 0.4,
-        "count": 250,
-        "wins": 72,
-        "actualRate": 0.288
+        "count": 209,
+        "wins": 58,
+        "actualRate": 0.27751196172248804
       },
       {
         "binLow": 0.4,
         "binHigh": 0.5,
-        "count": 206,
-        "wins": 91,
-        "actualRate": 0.441747572815534
+        "count": 167,
+        "wins": 75,
+        "actualRate": 0.4491017964071856
       },
       {
         "binLow": 0.5,
         "binHigh": 0.6000000000000001,
-        "count": 189,
-        "wins": 124,
-        "actualRate": 0.656084656084656
+        "count": 150,
+        "wins": 91,
+        "actualRate": 0.6066666666666667
       },
       {
         "binLow": 0.6000000000000001,
         "binHigh": 0.7000000000000001,
-        "count": 209,
-        "wins": 145,
-        "actualRate": 0.69377990430622
+        "count": 189,
+        "wins": 133,
+        "actualRate": 0.7037037037037037
       },
       {
         "binLow": 0.7000000000000001,
         "binHigh": 0.8,
-        "count": 246,
-        "wins": 202,
-        "actualRate": 0.8211382113821138
+        "count": 202,
+        "wins": 174,
+        "actualRate": 0.8613861386138614
       },
       {
         "binLow": 0.8,
         "binHigh": 0.9,
-        "count": 252,
+        "count": 246,
         "wins": 228,
-        "actualRate": 0.9047619047619048
+        "actualRate": 0.926829268292683
       },
       {
         "binLow": 0.9,
         "binHigh": 1,
-        "count": 441,
-        "wins": 429,
-        "actualRate": 0.9727891156462585
+        "count": 515,
+        "wins": 503,
+        "actualRate": 0.9766990291262136
       }
     ]
   },
   "empiricalSigmas": {
-    "overallResidualStdDev": 0.049897635016663354,
+    "overallResidualStdDev": 0.04543181019442605,
     "byParty": {
       "lpc": {
-        "stdDev": 0.06906310115368529,
-        "mean": -0.0009460733459013648,
-        "n": 1431
+        "stdDev": 0.06527279988321626,
+        "mean": -0.0004624191020755182,
+        "n": 1372
       },
       "cpc": {
-        "stdDev": 0.06790129437234593,
-        "mean": -0.0006188319923817507,
-        "n": 1431
+        "stdDev": 0.05932728016702458,
+        "mean": -0.0001238938457992726,
+        "n": 1372
       },
       "ndp": {
-        "stdDev": 0.059930409806933184,
-        "mean": -0.002136929447381018,
-        "n": 1431
+        "stdDev": 0.05381481851066766,
+        "mean": -0.0024477010424054806,
+        "n": 1372
       },
       "bq": {
-        "stdDev": 0.03242267417068161,
-        "mean": -0.0003304169382331953,
-        "n": 1431
+        "stdDev": 0.027140144653120122,
+        "mean": -0.0003492656466123831,
+        "n": 1372
       },
       "gpc": {
-        "stdDev": 0.026661508340736946,
-        "mean": -0.0014368295326253348,
-        "n": 1431
+        "stdDev": 0.0265944018385538,
+        "mean": -0.0015345643984858858,
+        "n": 1372
       },
       "ppc": {
-        "stdDev": 0.014531391350757896,
-        "mean": -0.0014933285956630113,
-        "n": 1431
+        "stdDev": 0.01635784943812955,
+        "mean": -0.0015116454481610465,
+        "n": 1372
       }
     },
     "byRegion": {
       "atlantic": {
-        "stdDev": 0.05291726278480406,
-        "mean": -0.0009091226142387918,
-        "n": 912
+        "stdDev": 0.05296703077823405,
+        "mean": -0.0008833292309892631,
+        "n": 738
       },
       "quebec": {
-        "stdDev": 0.05413442332684608,
-        "mean": -0.0011484619812943111,
-        "n": 2040
+        "stdDev": 0.048080751275004066,
+        "mean": -0.0011559173592905893,
+        "n": 2052
       },
       "ontario": {
-        "stdDev": 0.043380716468776524,
-        "mean": -0.000921970481754681,
-        "n": 2886
+        "stdDev": 0.038407927227381296,
+        "mean": -0.0008579391522170284,
+        "n": 2976
       },
       "prairies": {
-        "stdDev": 0.05572142629302754,
-        "mean": -0.000916916032221002,
-        "n": 720
+        "stdDev": 0.055209996236810506,
+        "mean": -0.0008747279713020812,
+        "n": 684
       },
       "alberta": {
-        "stdDev": 0.04563082573793705,
-        "mean": -0.0020500569043820404,
-        "n": 882
+        "stdDev": 0.04341545316838583,
+        "mean": -0.0015288559754445628,
+        "n": 750
       },
       "britishColumbia": {
-        "stdDev": 0.05465978533230027,
-        "mean": -0.0013195542865885078,
-        "n": 1056
+        "stdDev": 0.04775961840994048,
+        "mean": -0.0013039896009791137,
+        "n": 948
       },
       "north": {
-        "stdDev": 0.0472839800493039,
-        "mean": -0.002984892917844227,
-        "n": 90
+        "stdDev": 0.04062133611525499,
+        "mean": -0.0031316095833550067,
+        "n": 84
       }
     },
-    "recommendedNationalSigma": 0.0013069149441352916,
-    "recommendedRegionalSigma": 0.0021676800016348745,
-    "recommendedRidingSigma": 0.04983339359300605
+    "recommendedNationalSigma": 0.0013529207817369344,
+    "recommendedRegionalSigma": 0.0015117723819359685,
+    "recommendedRidingSigma": 0.0453864905799723
   },
   "swingModelComparison": {
-    "proportionalRmse": 0.0503606858316864,
-    "additiveRmse": 0.048176029443472844,
+    "proportionalRmse": 0.04420540875721199,
+    "additiveRmse": 0.042218118823561426,
     "byParty": {
       "lpc": {
-        "proportionalRmse": 0.07504842982415472,
-        "additiveRmse": 0.06647948833641411
+        "proportionalRmse": 0.0658074002192456,
+        "additiveRmse": 0.06019445738596706
       },
       "cpc": {
-        "proportionalRmse": 0.06910602321933614,
-        "additiveRmse": 0.06344067634276064
+        "proportionalRmse": 0.05848198864831617,
+        "additiveRmse": 0.05180278573678448
       },
       "ndp": {
-        "proportionalRmse": 0.05700100150654033,
-        "additiveRmse": 0.060171292980757095
+        "proportionalRmse": 0.05126792024859316,
+        "additiveRmse": 0.05255545788254218
       },
       "bq": {
-        "proportionalRmse": 0.027682280779579953,
-        "additiveRmse": 0.029409235471051037
+        "proportionalRmse": 0.02206234876925129,
+        "additiveRmse": 0.024141049212173412
       },
       "gpc": {
-        "proportionalRmse": 0.02495971138474093,
-        "additiveRmse": 0.02766160387411796
+        "proportionalRmse": 0.024741785280598814,
+        "additiveRmse": 0.027251024538080055
       },
       "ppc": {
-        "proportionalRmse": 0.013071831013548797,
-        "additiveRmse": 0.0151883223061467
+        "proportionalRmse": 0.01570507057519719,
+        "additiveRmse": 0.01731563695728808
       }
     },
-    "residualKurtosis": 9.730087268475677,
-    "residualSkewness": 0.045600800148650054
+    "residualKurtosis": 7.752121938898863,
+    "residualSkewness": 0.3944955511163409
   },
   "alphaSweep": {
     "entries": [
       {
         "alpha": 0,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1782,
-          "2011-\u003E2015": 0.4624,
-          "2015-\u003E2019": 0.2162,
-          "2019-\u003E2021": 0.1659,
-          "2021-\u003E2025": 0.3063
+          "2008-\u003E2011": 0.195,
+          "2011-\u003E2015": 0.339,
+          "2015-\u003E2019": 0.1985,
+          "2019-\u003E2021": 0.1524,
+          "2021-\u003E2025": 0.2545
         },
-        "averageBrier": 0.2658,
-        "accuracy": 0.823,
-        "ciCoverage": 0.974,
-        "projectionRmse": 0.0499
+        "averageBrier": 0.2279,
+        "accuracy": 0.848,
+        "ciCoverage": 0.975,
+        "projectionRmse": 0.0454
       },
       {
         "alpha": 0.1,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1768,
-          "2011-\u003E2015": 0.4631,
-          "2015-\u003E2019": 0.2159,
-          "2019-\u003E2021": 0.165,
-          "2021-\u003E2025": 0.3058
+          "2008-\u003E2011": 0.1949,
+          "2011-\u003E2015": 0.3372,
+          "2015-\u003E2019": 0.1976,
+          "2019-\u003E2021": 0.1498,
+          "2021-\u003E2025": 0.2542
         },
-        "averageBrier": 0.2653,
-        "accuracy": 0.823,
+        "averageBrier": 0.2267,
+        "accuracy": 0.85,
         "ciCoverage": 0.975,
-        "projectionRmse": 0.0497
+        "projectionRmse": 0.0451
       },
       {
         "alpha": 0.2,
         "brierByTransition": {
-          "2008-\u003E2011": 0.176,
-          "2011-\u003E2015": 0.4647,
-          "2015-\u003E2019": 0.2168,
-          "2019-\u003E2021": 0.1651,
-          "2021-\u003E2025": 0.3065
+          "2008-\u003E2011": 0.1952,
+          "2011-\u003E2015": 0.3358,
+          "2015-\u003E2019": 0.1967,
+          "2019-\u003E2021": 0.15,
+          "2021-\u003E2025": 0.2555
         },
-        "averageBrier": 0.2658,
-        "accuracy": 0.823,
+        "averageBrier": 0.2266,
+        "accuracy": 0.849,
         "ciCoverage": 0.976,
-        "projectionRmse": 0.0495
+        "projectionRmse": 0.0449
       },
       {
         "alpha": 0.3,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1743,
-          "2011-\u003E2015": 0.4656,
-          "2015-\u003E2019": 0.2163,
-          "2019-\u003E2021": 0.1658,
-          "2021-\u003E2025": 0.307
+          "2008-\u003E2011": 0.1954,
+          "2011-\u003E2015": 0.3368,
+          "2015-\u003E2019": 0.1969,
+          "2019-\u003E2021": 0.1502,
+          "2021-\u003E2025": 0.2564
         },
-        "averageBrier": 0.2658,
-        "accuracy": 0.822,
-        "ciCoverage": 0.975,
-        "projectionRmse": 0.0495
+        "averageBrier": 0.2272,
+        "accuracy": 0.85,
+        "ciCoverage": 0.976,
+        "projectionRmse": 0.0448
       },
       {
         "alpha": 0.4,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1743,
-          "2011-\u003E2015": 0.4675,
-          "2015-\u003E2019": 0.2175,
-          "2019-\u003E2021": 0.1663,
-          "2021-\u003E2025": 0.3079
+          "2008-\u003E2011": 0.1952,
+          "2011-\u003E2015": 0.3354,
+          "2015-\u003E2019": 0.1974,
+          "2019-\u003E2021": 0.1516,
+          "2021-\u003E2025": 0.2566
         },
-        "averageBrier": 0.2667,
-        "accuracy": 0.821,
+        "averageBrier": 0.2272,
+        "accuracy": 0.849,
         "ciCoverage": 0.976,
-        "projectionRmse": 0.0495
+        "projectionRmse": 0.0448
       },
       {
         "alpha": 0.5,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1748,
-          "2011-\u003E2015": 0.469,
-          "2015-\u003E2019": 0.217,
-          "2019-\u003E2021": 0.1664,
-          "2021-\u003E2025": 0.3087
+          "2008-\u003E2011": 0.1967,
+          "2011-\u003E2015": 0.3356,
+          "2015-\u003E2019": 0.1982,
+          "2019-\u003E2021": 0.151,
+          "2021-\u003E2025": 0.2581
         },
-        "averageBrier": 0.2672,
-        "accuracy": 0.824,
+        "averageBrier": 0.2279,
+        "accuracy": 0.851,
         "ciCoverage": 0.976,
-        "projectionRmse": 0.0497
+        "projectionRmse": 0.0449
       },
       {
         "alpha": 0.6,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1751,
-          "2011-\u003E2015": 0.4711,
-          "2015-\u003E2019": 0.2171,
-          "2019-\u003E2021": 0.1662,
-          "2021-\u003E2025": 0.3107
+          "2008-\u003E2011": 0.1979,
+          "2011-\u003E2015": 0.3365,
+          "2015-\u003E2019": 0.1974,
+          "2019-\u003E2021": 0.1522,
+          "2021-\u003E2025": 0.2596
         },
-        "averageBrier": 0.268,
-        "accuracy": 0.822,
-        "ciCoverage": 0.976,
-        "projectionRmse": 0.0499
+        "averageBrier": 0.2287,
+        "accuracy": 0.843,
+        "ciCoverage": 0.975,
+        "projectionRmse": 0.0451
       },
       {
         "alpha": 0.7,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1762,
-          "2011-\u003E2015": 0.4732,
-          "2015-\u003E2019": 0.2168,
-          "2019-\u003E2021": 0.1668,
-          "2021-\u003E2025": 0.312
+          "2008-\u003E2011": 0.2003,
+          "2011-\u003E2015": 0.338,
+          "2015-\u003E2019": 0.1988,
+          "2019-\u003E2021": 0.153,
+          "2021-\u003E2025": 0.2617
         },
-        "averageBrier": 0.269,
-        "accuracy": 0.82,
+        "averageBrier": 0.2304,
+        "accuracy": 0.84,
         "ciCoverage": 0.975,
-        "projectionRmse": 0.0503
+        "projectionRmse": 0.0455
       },
       {
         "alpha": 0.8,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1779,
-          "2011-\u003E2015": 0.4763,
-          "2015-\u003E2019": 0.2172,
-          "2019-\u003E2021": 0.168,
-          "2021-\u003E2025": 0.3134
+          "2008-\u003E2011": 0.2014,
+          "2011-\u003E2015": 0.3393,
+          "2015-\u003E2019": 0.1985,
+          "2019-\u003E2021": 0.1534,
+          "2021-\u003E2025": 0.2644
         },
-        "averageBrier": 0.2706,
-        "accuracy": 0.82,
-        "ciCoverage": 0.975,
-        "projectionRmse": 0.0508
+        "averageBrier": 0.2314,
+        "accuracy": 0.84,
+        "ciCoverage": 0.974,
+        "projectionRmse": 0.046
       },
       {
         "alpha": 0.9,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1784,
-          "2011-\u003E2015": 0.481,
-          "2015-\u003E2019": 0.2191,
-          "2019-\u003E2021": 0.1679,
-          "2021-\u003E2025": 0.3149
+          "2008-\u003E2011": 0.2027,
+          "2011-\u003E2015": 0.3407,
+          "2015-\u003E2019": 0.1978,
+          "2019-\u003E2021": 0.1551,
+          "2021-\u003E2025": 0.2654
         },
-        "averageBrier": 0.2723,
-        "accuracy": 0.817,
-        "ciCoverage": 0.974,
-        "projectionRmse": 0.0514
+        "averageBrier": 0.2323,
+        "accuracy": 0.843,
+        "ciCoverage": 0.973,
+        "projectionRmse": 0.0466
       },
       {
         "alpha": 1,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1786,
-          "2011-\u003E2015": 0.4847,
-          "2015-\u003E2019": 0.2186,
-          "2019-\u003E2021": 0.1686,
-          "2021-\u003E2025": 0.3167
+          "2008-\u003E2011": 0.2049,
+          "2011-\u003E2015": 0.3439,
+          "2015-\u003E2019": 0.1988,
+          "2019-\u003E2021": 0.1538,
+          "2021-\u003E2025": 0.268
         },
-        "averageBrier": 0.2734,
-        "accuracy": 0.82,
-        "ciCoverage": 0.973,
-        "projectionRmse": 0.0521
+        "averageBrier": 0.2339,
+        "accuracy": 0.84,
+        "ciCoverage": 0.972,
+        "projectionRmse": 0.0474
       }
     ],
-    "bestAlpha": 0.1,
-    "bestAverageBrier": 0.2653
+    "bestAlpha": 0.2,
+    "bestAverageBrier": 0.2266
   },
   "sigmaSweep": {
     "entries": [
@@ -788,496 +788,599 @@
         "nationalSigma": 0.03,
         "regionalSigma": 0.026,
         "ridingSigma": 0.02,
-        "brierScore": 0.304,
-        "ciCoverage": 0.945,
-        "ridingAccuracy": 0.776
+        "brierScore": 0.2583,
+        "ciCoverage": 0.947,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.03,
         "regionalSigma": 0.026,
         "ridingSigma": 0.03,
-        "brierScore": 0.3045,
-        "ciCoverage": 0.948,
-        "ridingAccuracy": 0.781
-      },
-      {
-        "nationalSigma": 0.03,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.04,
-        "brierScore": 0.304,
-        "ciCoverage": 0.95,
-        "ridingAccuracy": 0.781
-      },
-      {
-        "nationalSigma": 0.03,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.05,
-        "brierScore": 0.3047,
-        "ciCoverage": 0.954,
-        "ridingAccuracy": 0.77
-      },
-      {
-        "nationalSigma": 0.03,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.06,
-        "brierScore": 0.3054,
-        "ciCoverage": 0.96,
-        "ridingAccuracy": 0.781
-      },
-      {
-        "nationalSigma": 0.03,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.07,
-        "brierScore": 0.305,
-        "ciCoverage": 0.961,
-        "ridingAccuracy": 0.773
-      },
-      {
-        "nationalSigma": 0.04,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.02,
-        "brierScore": 0.3052,
-        "ciCoverage": 0.946,
-        "ridingAccuracy": 0.773
-      },
-      {
-        "nationalSigma": 0.04,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.03,
-        "brierScore": 0.3051,
-        "ciCoverage": 0.948,
-        "ridingAccuracy": 0.784
-      },
-      {
-        "nationalSigma": 0.04,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.04,
-        "brierScore": 0.3057,
+        "brierScore": 0.2543,
         "ciCoverage": 0.951,
-        "ridingAccuracy": 0.778
+        "ridingAccuracy": 0.805
       },
       {
-        "nationalSigma": 0.04,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.05,
-        "brierScore": 0.3055,
-        "ciCoverage": 0.955,
-        "ridingAccuracy": 0.781
-      },
-      {
-        "nationalSigma": 0.04,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.06,
-        "brierScore": 0.3064,
-        "ciCoverage": 0.957,
-        "ridingAccuracy": 0.776
-      },
-      {
-        "nationalSigma": 0.04,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.07,
-        "brierScore": 0.3057,
-        "ciCoverage": 0.96,
-        "ridingAccuracy": 0.776
-      },
-      {
-        "nationalSigma": 0.05,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.02,
-        "brierScore": 0.3058,
-        "ciCoverage": 0.946,
-        "ridingAccuracy": 0.778
-      },
-      {
-        "nationalSigma": 0.05,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.03,
-        "brierScore": 0.3057,
-        "ciCoverage": 0.948,
-        "ridingAccuracy": 0.781
-      },
-      {
-        "nationalSigma": 0.05,
+        "nationalSigma": 0.03,
         "regionalSigma": 0.026,
         "ridingSigma": 0.04,
-        "brierScore": 0.3053,
-        "ciCoverage": 0.95,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2541,
+        "ciCoverage": 0.956,
+        "ridingAccuracy": 0.802
       },
       {
-        "nationalSigma": 0.05,
+        "nationalSigma": 0.03,
         "regionalSigma": 0.026,
         "ridingSigma": 0.05,
-        "brierScore": 0.3057,
-        "ciCoverage": 0.954,
-        "ridingAccuracy": 0.778
-      },
-      {
-        "nationalSigma": 0.05,
-        "regionalSigma": 0.026,
-        "ridingSigma": 0.06,
-        "brierScore": 0.3059,
+        "brierScore": 0.2537,
         "ciCoverage": 0.958,
-        "ridingAccuracy": 0.776
+        "ridingAccuracy": 0.799
+      },
+      {
+        "nationalSigma": 0.03,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.06,
+        "brierScore": 0.2538,
+        "ciCoverage": 0.961,
+        "ridingAccuracy": 0.808
+      },
+      {
+        "nationalSigma": 0.03,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.07,
+        "brierScore": 0.2543,
+        "ciCoverage": 0.963,
+        "ridingAccuracy": 0.81
+      },
+      {
+        "nationalSigma": 0.04,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.02,
+        "brierScore": 0.2543,
+        "ciCoverage": 0.947,
+        "ridingAccuracy": 0.799
+      },
+      {
+        "nationalSigma": 0.04,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.03,
+        "brierScore": 0.2542,
+        "ciCoverage": 0.947,
+        "ridingAccuracy": 0.796
+      },
+      {
+        "nationalSigma": 0.04,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.04,
+        "brierScore": 0.2532,
+        "ciCoverage": 0.949,
+        "ridingAccuracy": 0.799
+      },
+      {
+        "nationalSigma": 0.04,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.05,
+        "brierScore": 0.2526,
+        "ciCoverage": 0.955,
+        "ridingAccuracy": 0.81
+      },
+      {
+        "nationalSigma": 0.04,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.06,
+        "brierScore": 0.2554,
+        "ciCoverage": 0.961,
+        "ridingAccuracy": 0.802
+      },
+      {
+        "nationalSigma": 0.04,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.07,
+        "brierScore": 0.2551,
+        "ciCoverage": 0.961,
+        "ridingAccuracy": 0.802
+      },
+      {
+        "nationalSigma": 0.05,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.02,
+        "brierScore": 0.2553,
+        "ciCoverage": 0.943,
+        "ridingAccuracy": 0.802
+      },
+      {
+        "nationalSigma": 0.05,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.03,
+        "brierScore": 0.2539,
+        "ciCoverage": 0.948,
+        "ridingAccuracy": 0.799
+      },
+      {
+        "nationalSigma": 0.05,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.04,
+        "brierScore": 0.2519,
+        "ciCoverage": 0.95,
+        "ridingAccuracy": 0.813
+      },
+      {
+        "nationalSigma": 0.05,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.05,
+        "brierScore": 0.2526,
+        "ciCoverage": 0.956,
+        "ridingAccuracy": 0.808
+      },
+      {
+        "nationalSigma": 0.05,
+        "regionalSigma": 0.026,
+        "ridingSigma": 0.06,
+        "brierScore": 0.2542,
+        "ciCoverage": 0.958,
+        "ridingAccuracy": 0.81
       },
       {
         "nationalSigma": 0.05,
         "regionalSigma": 0.026,
         "ridingSigma": 0.07,
-        "brierScore": 0.3059,
-        "ciCoverage": 0.96,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2534,
+        "ciCoverage": 0.961,
+        "ridingAccuracy": 0.813
       },
       {
         "nationalSigma": 0.06,
         "regionalSigma": 0.026,
         "ridingSigma": 0.02,
-        "brierScore": 0.3056,
-        "ciCoverage": 0.946,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2529,
+        "ciCoverage": 0.947,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.06,
         "regionalSigma": 0.026,
         "ridingSigma": 0.03,
-        "brierScore": 0.3058,
-        "ciCoverage": 0.947,
-        "ridingAccuracy": 0.781
+        "brierScore": 0.2532,
+        "ciCoverage": 0.95,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.06,
         "regionalSigma": 0.026,
         "ridingSigma": 0.04,
-        "brierScore": 0.3054,
-        "ciCoverage": 0.95,
-        "ridingAccuracy": 0.781
+        "brierScore": 0.252,
+        "ciCoverage": 0.952,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.06,
         "regionalSigma": 0.026,
         "ridingSigma": 0.05,
-        "brierScore": 0.3068,
+        "brierScore": 0.2538,
         "ciCoverage": 0.954,
-        "ridingAccuracy": 0.778
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.06,
         "regionalSigma": 0.026,
         "ridingSigma": 0.06,
-        "brierScore": 0.3061,
-        "ciCoverage": 0.957,
-        "ridingAccuracy": 0.776
+        "brierScore": 0.2537,
+        "ciCoverage": 0.958,
+        "ridingAccuracy": 0.813
       },
       {
         "nationalSigma": 0.06,
         "regionalSigma": 0.026,
         "ridingSigma": 0.07,
-        "brierScore": 0.3059,
-        "ciCoverage": 0.961,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2535,
+        "ciCoverage": 0.96,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.07,
         "regionalSigma": 0.026,
         "ridingSigma": 0.02,
-        "brierScore": 0.3056,
-        "ciCoverage": 0.945,
-        "ridingAccuracy": 0.776
+        "brierScore": 0.253,
+        "ciCoverage": 0.944,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.07,
         "regionalSigma": 0.026,
         "ridingSigma": 0.03,
-        "brierScore": 0.3055,
+        "brierScore": 0.2534,
         "ciCoverage": 0.948,
-        "ridingAccuracy": 0.781
+        "ridingAccuracy": 0.805
       },
       {
         "nationalSigma": 0.07,
         "regionalSigma": 0.026,
         "ridingSigma": 0.04,
-        "brierScore": 0.3053,
-        "ciCoverage": 0.95,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2527,
+        "ciCoverage": 0.951,
+        "ridingAccuracy": 0.805
       },
       {
         "nationalSigma": 0.07,
         "regionalSigma": 0.026,
         "ridingSigma": 0.05,
-        "brierScore": 0.3056,
-        "ciCoverage": 0.954,
-        "ridingAccuracy": 0.776
+        "brierScore": 0.2532,
+        "ciCoverage": 0.956,
+        "ridingAccuracy": 0.81
       },
       {
         "nationalSigma": 0.07,
         "regionalSigma": 0.026,
         "ridingSigma": 0.06,
-        "brierScore": 0.3057,
-        "ciCoverage": 0.957,
-        "ridingAccuracy": 0.776
+        "brierScore": 0.2527,
+        "ciCoverage": 0.958,
+        "ridingAccuracy": 0.81
       },
       {
         "nationalSigma": 0.07,
         "regionalSigma": 0.026,
         "ridingSigma": 0.07,
-        "brierScore": 0.3062,
-        "ciCoverage": 0.96,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2534,
+        "ciCoverage": 0.961,
+        "ridingAccuracy": 0.81
       },
       {
         "nationalSigma": 0.08,
         "regionalSigma": 0.026,
         "ridingSigma": 0.02,
-        "brierScore": 0.3056,
-        "ciCoverage": 0.947,
-        "ridingAccuracy": 0.778
+        "brierScore": 0.2541,
+        "ciCoverage": 0.944,
+        "ridingAccuracy": 0.799
       },
       {
         "nationalSigma": 0.08,
         "regionalSigma": 0.026,
         "ridingSigma": 0.03,
-        "brierScore": 0.3057,
+        "brierScore": 0.2538,
         "ciCoverage": 0.947,
-        "ridingAccuracy": 0.781
+        "ridingAccuracy": 0.799
       },
       {
         "nationalSigma": 0.08,
         "regionalSigma": 0.026,
         "ridingSigma": 0.04,
-        "brierScore": 0.3056,
+        "brierScore": 0.253,
         "ciCoverage": 0.95,
-        "ridingAccuracy": 0.778
+        "ridingAccuracy": 0.793
       },
       {
         "nationalSigma": 0.08,
         "regionalSigma": 0.026,
         "ridingSigma": 0.05,
-        "brierScore": 0.3058,
-        "ciCoverage": 0.957,
-        "ridingAccuracy": 0.773
+        "brierScore": 0.2528,
+        "ciCoverage": 0.955,
+        "ridingAccuracy": 0.805
       },
       {
         "nationalSigma": 0.08,
         "regionalSigma": 0.026,
         "ridingSigma": 0.06,
-        "brierScore": 0.3063,
-        "ciCoverage": 0.957,
-        "ridingAccuracy": 0.773
+        "brierScore": 0.2531,
+        "ciCoverage": 0.955,
+        "ridingAccuracy": 0.808
       },
       {
         "nationalSigma": 0.08,
         "regionalSigma": 0.026,
         "ridingSigma": 0.07,
-        "brierScore": 0.3059,
+        "brierScore": 0.2526,
         "ciCoverage": 0.961,
-        "ridingAccuracy": 0.776
+        "ridingAccuracy": 0.808
       }
     ],
-    "bestNationalSigma": 0.03,
+    "bestNationalSigma": 0.05,
     "bestRegionalSigma": 0.026,
     "bestRidingSigma": 0.04,
-    "bestBrierScore": 0.304
+    "bestBrierScore": 0.2519
+  },
+  "dfSweep": {
+    "entries": [
+      {
+        "df": 3,
+        "label": "df=3",
+        "brierByTransition": {
+          "2008-\u003E2011": 0.1931,
+          "2011-\u003E2015": 0.3413,
+          "2015-\u003E2019": 0.1973,
+          "2019-\u003E2021": 0.1512,
+          "2021-\u003E2025": 0.2539
+        },
+        "averageBrier": 0.2274,
+        "accuracy": 0.851,
+        "ciCoverage": 0.973,
+        "logLoss": 0.4204,
+        "simulatedKurtosis": 6.9
+      },
+      {
+        "df": 4,
+        "label": "df=4",
+        "brierByTransition": {
+          "2008-\u003E2011": 0.1974,
+          "2011-\u003E2015": 0.3423,
+          "2015-\u003E2019": 0.2045,
+          "2019-\u003E2021": 0.1601,
+          "2021-\u003E2025": 0.2551
+        },
+        "averageBrier": 0.2319,
+        "accuracy": 0.847,
+        "ciCoverage": 0.979,
+        "logLoss": 0.4281,
+        "simulatedKurtosis": 6.8
+      },
+      {
+        "df": 5,
+        "label": "df=5 (current)",
+        "brierByTransition": {
+          "2008-\u003E2011": 0.2009,
+          "2011-\u003E2015": 0.3404,
+          "2015-\u003E2019": 0.208,
+          "2019-\u003E2021": 0.1643,
+          "2021-\u003E2025": 0.2553
+        },
+        "averageBrier": 0.2338,
+        "accuracy": 0.851,
+        "ciCoverage": 0.98,
+        "logLoss": 0.433,
+        "simulatedKurtosis": 6.6
+      },
+      {
+        "df": 7,
+        "label": "df=7",
+        "brierByTransition": {
+          "2008-\u003E2011": 0.2033,
+          "2011-\u003E2015": 0.3414,
+          "2015-\u003E2019": 0.2098,
+          "2019-\u003E2021": 0.1661,
+          "2021-\u003E2025": 0.2562
+        },
+        "averageBrier": 0.2354,
+        "accuracy": 0.851,
+        "ciCoverage": 0.98,
+        "logLoss": 0.4344,
+        "simulatedKurtosis": 6.8
+      },
+      {
+        "df": 10,
+        "label": "df=10",
+        "brierByTransition": {
+          "2008-\u003E2011": 0.2036,
+          "2011-\u003E2015": 0.3415,
+          "2015-\u003E2019": 0.2111,
+          "2019-\u003E2021": 0.1662,
+          "2021-\u003E2025": 0.2567
+        },
+        "averageBrier": 0.2358,
+        "accuracy": 0.848,
+        "ciCoverage": 0.982,
+        "logLoss": 0.4348,
+        "simulatedKurtosis": 6.8
+      },
+      {
+        "df": null,
+        "label": "Gaussian",
+        "brierByTransition": {
+          "2008-\u003E2011": 0.2027,
+          "2011-\u003E2015": 0.3438,
+          "2015-\u003E2019": 0.2149,
+          "2019-\u003E2021": 0.1707,
+          "2021-\u003E2025": 0.2568
+        },
+        "averageBrier": 0.2378,
+        "accuracy": 0.846,
+        "ciCoverage": 0.98,
+        "logLoss": 0.4385,
+        "simulatedKurtosis": 6.7
+      }
+    ],
+    "bestDf": 3,
+    "bestLabel": "df=3",
+    "bestAverageBrier": 0.2274
   },
   "blendWeightSweep": {
     "entries": [
       {
         "weight": 0,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1793,
-          "2011-\u003E2015": 0.4621,
-          "2015-\u003E2019": 0.2175,
-          "2019-\u003E2021": 0.1671,
-          "2021-\u003E2025": 0.306
+          "2008-\u003E2011": 0.1926,
+          "2011-\u003E2015": 0.3391,
+          "2015-\u003E2019": 0.1972,
+          "2019-\u003E2021": 0.1501,
+          "2021-\u003E2025": 0.2535
         },
-        "averageBrier": 0.2664,
-        "accuracy": 0.82,
-        "ciCoverage": 0.974,
-        "projectionRmse": 0.0499
+        "averageBrier": 0.2265,
+        "accuracy": 0.852,
+        "ciCoverage": 0.973,
+        "projectionRmse": 0.0454
       },
       {
         "weight": 0.02,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1805,
-          "2011-\u003E2015": 0.479,
-          "2015-\u003E2019": 0.2193,
-          "2019-\u003E2021": 0.1673,
-          "2021-\u003E2025": 0.2862
+          "2008-\u003E2011": 0.1946,
+          "2011-\u003E2015": 0.3811,
+          "2015-\u003E2019": 0.1957,
+          "2019-\u003E2021": 0.1501,
+          "2021-\u003E2025": 0.213
         },
-        "averageBrier": 0.2665,
-        "accuracy": 0.823,
-        "ciCoverage": 0.969,
-        "projectionRmse": 0.0532
+        "averageBrier": 0.2269,
+        "accuracy": 0.858,
+        "ciCoverage": 0.962,
+        "projectionRmse": 0.05
       },
       {
         "weight": 0.05,
         "brierByTransition": {
-          "2008-\u003E2011": 0.186,
-          "2011-\u003E2015": 0.4758,
-          "2015-\u003E2019": 0.22,
-          "2019-\u003E2021": 0.1675,
-          "2021-\u003E2025": 0.2865
+          "2008-\u003E2011": 0.1998,
+          "2011-\u003E2015": 0.3823,
+          "2015-\u003E2019": 0.1938,
+          "2019-\u003E2021": 0.1504,
+          "2021-\u003E2025": 0.2136
         },
-        "averageBrier": 0.2671,
-        "accuracy": 0.824,
-        "ciCoverage": 0.969,
-        "projectionRmse": 0.0527
+        "averageBrier": 0.228,
+        "accuracy": 0.856,
+        "ciCoverage": 0.965,
+        "projectionRmse": 0.0497
       },
       {
         "weight": 0.08,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1905,
-          "2011-\u003E2015": 0.4732,
-          "2015-\u003E2019": 0.2197,
-          "2019-\u003E2021": 0.1687,
-          "2021-\u003E2025": 0.2864
+          "2008-\u003E2011": 0.2044,
+          "2011-\u003E2015": 0.3839,
+          "2015-\u003E2019": 0.1942,
+          "2019-\u003E2021": 0.1531,
+          "2021-\u003E2025": 0.2166
         },
-        "averageBrier": 0.2677,
-        "accuracy": 0.827,
-        "ciCoverage": 0.968,
-        "projectionRmse": 0.0524
+        "averageBrier": 0.2304,
+        "accuracy": 0.856,
+        "ciCoverage": 0.963,
+        "projectionRmse": 0.0496
       },
       {
         "weight": 0.1,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1936,
-          "2011-\u003E2015": 0.4726,
-          "2015-\u003E2019": 0.2218,
-          "2019-\u003E2021": 0.1712,
-          "2021-\u003E2025": 0.2854
+          "2008-\u003E2011": 0.207,
+          "2011-\u003E2015": 0.3819,
+          "2015-\u003E2019": 0.1942,
+          "2019-\u003E2021": 0.1515,
+          "2021-\u003E2025": 0.217
         },
-        "averageBrier": 0.2689,
-        "accuracy": 0.823,
-        "ciCoverage": 0.968,
-        "projectionRmse": 0.0523
+        "averageBrier": 0.2303,
+        "accuracy": 0.858,
+        "ciCoverage": 0.963,
+        "projectionRmse": 0.0496
       },
       {
         "weight": 0.12,
         "brierByTransition": {
-          "2008-\u003E2011": 0.1966,
-          "2011-\u003E2015": 0.4696,
-          "2015-\u003E2019": 0.2224,
-          "2019-\u003E2021": 0.172,
-          "2021-\u003E2025": 0.2853
+          "2008-\u003E2011": 0.2107,
+          "2011-\u003E2015": 0.3796,
+          "2015-\u003E2019": 0.1933,
+          "2019-\u003E2021": 0.1528,
+          "2021-\u003E2025": 0.2178
         },
-        "averageBrier": 0.2692,
-        "accuracy": 0.828,
-        "ciCoverage": 0.968,
-        "projectionRmse": 0.0523
+        "averageBrier": 0.2308,
+        "accuracy": 0.859,
+        "ciCoverage": 0.961,
+        "projectionRmse": 0.0497
       },
       {
         "weight": 0.15,
         "brierByTransition": {
-          "2008-\u003E2011": 0.203,
-          "2011-\u003E2015": 0.4692,
-          "2015-\u003E2019": 0.2249,
-          "2019-\u003E2021": 0.1765,
-          "2021-\u003E2025": 0.2868
+          "2008-\u003E2011": 0.2166,
+          "2011-\u003E2015": 0.3817,
+          "2015-\u003E2019": 0.1971,
+          "2019-\u003E2021": 0.1576,
+          "2021-\u003E2025": 0.2196
         },
-        "averageBrier": 0.2721,
-        "accuracy": 0.825,
-        "ciCoverage": 0.968,
-        "projectionRmse": 0.0524
+        "averageBrier": 0.2345,
+        "accuracy": 0.857,
+        "ciCoverage": 0.96,
+        "projectionRmse": 0.05
       },
       {
         "weight": 0.18,
         "brierByTransition": {
-          "2008-\u003E2011": 0.2121,
-          "2011-\u003E2015": 0.4667,
-          "2015-\u003E2019": 0.2272,
-          "2019-\u003E2021": 0.1784,
-          "2021-\u003E2025": 0.2861
+          "2008-\u003E2011": 0.2254,
+          "2011-\u003E2015": 0.3839,
+          "2015-\u003E2019": 0.1992,
+          "2019-\u003E2021": 0.1584,
+          "2021-\u003E2025": 0.2222
         },
-        "averageBrier": 0.2741,
-        "accuracy": 0.823,
-        "ciCoverage": 0.967,
-        "projectionRmse": 0.0528
+        "averageBrier": 0.2378,
+        "accuracy": 0.851,
+        "ciCoverage": 0.96,
+        "projectionRmse": 0.0505
       },
       {
         "weight": 0.2,
         "brierByTransition": {
-          "2008-\u003E2011": 0.2206,
-          "2011-\u003E2015": 0.4663,
-          "2015-\u003E2019": 0.2291,
-          "2019-\u003E2021": 0.1815,
-          "2021-\u003E2025": 0.2866
+          "2008-\u003E2011": 0.2326,
+          "2011-\u003E2015": 0.3846,
+          "2015-\u003E2019": 0.199,
+          "2019-\u003E2021": 0.1601,
+          "2021-\u003E2025": 0.224
         },
-        "averageBrier": 0.2768,
-        "accuracy": 0.821,
-        "ciCoverage": 0.966,
-        "projectionRmse": 0.0531
+        "averageBrier": 0.2401,
+        "accuracy": 0.848,
+        "ciCoverage": 0.958,
+        "projectionRmse": 0.0509
       },
       {
         "weight": 0.25,
         "brierByTransition": {
-          "2008-\u003E2011": 0.241,
-          "2011-\u003E2015": 0.4627,
-          "2015-\u003E2019": 0.2346,
-          "2019-\u003E2021": 0.1881,
-          "2021-\u003E2025": 0.2881
+          "2008-\u003E2011": 0.2527,
+          "2011-\u003E2015": 0.3883,
+          "2015-\u003E2019": 0.2052,
+          "2019-\u003E2021": 0.169,
+          "2021-\u003E2025": 0.2281
         },
-        "averageBrier": 0.2829,
-        "accuracy": 0.815,
-        "ciCoverage": 0.966,
-        "projectionRmse": 0.0542
+        "averageBrier": 0.2487,
+        "accuracy": 0.842,
+        "ciCoverage": 0.956,
+        "projectionRmse": 0.0523
       },
       {
         "weight": 0.3,
         "brierByTransition": {
-          "2008-\u003E2011": 0.2643,
-          "2011-\u003E2015": 0.46,
-          "2015-\u003E2019": 0.2423,
-          "2019-\u003E2021": 0.1966,
-          "2021-\u003E2025": 0.2896
+          "2008-\u003E2011": 0.278,
+          "2011-\u003E2015": 0.3901,
+          "2015-\u003E2019": 0.2097,
+          "2019-\u003E2021": 0.1759,
+          "2021-\u003E2025": 0.2328
         },
-        "averageBrier": 0.2906,
-        "accuracy": 0.809,
-        "ciCoverage": 0.962,
-        "projectionRmse": 0.0557
+        "averageBrier": 0.2573,
+        "accuracy": 0.835,
+        "ciCoverage": 0.952,
+        "projectionRmse": 0.0541
       },
       {
         "weight": 0.35,
         "brierByTransition": {
-          "2008-\u003E2011": 0.2897,
-          "2011-\u003E2015": 0.462,
-          "2015-\u003E2019": 0.2496,
-          "2019-\u003E2021": 0.2084,
-          "2021-\u003E2025": 0.2937
+          "2008-\u003E2011": 0.3079,
+          "2011-\u003E2015": 0.3978,
+          "2015-\u003E2019": 0.2187,
+          "2019-\u003E2021": 0.1871,
+          "2021-\u003E2025": 0.2381
         },
-        "averageBrier": 0.3007,
-        "accuracy": 0.795,
-        "ciCoverage": 0.958,
-        "projectionRmse": 0.0577
+        "averageBrier": 0.2699,
+        "accuracy": 0.822,
+        "ciCoverage": 0.948,
+        "projectionRmse": 0.0562
       },
       {
         "weight": 0.4,
         "brierByTransition": {
-          "2008-\u003E2011": 0.3203,
-          "2011-\u003E2015": 0.4642,
-          "2015-\u003E2019": 0.2631,
-          "2019-\u003E2021": 0.2226,
-          "2021-\u003E2025": 0.2977
+          "2008-\u003E2011": 0.3431,
+          "2011-\u003E2015": 0.405,
+          "2015-\u003E2019": 0.2303,
+          "2019-\u003E2021": 0.1997,
+          "2021-\u003E2025": 0.2457
         },
-        "averageBrier": 0.3136,
-        "accuracy": 0.781,
-        "ciCoverage": 0.953,
-        "projectionRmse": 0.0601
+        "averageBrier": 0.2847,
+        "accuracy": 0.803,
+        "ciCoverage": 0.941,
+        "projectionRmse": 0.0588
       },
       {
         "weight": 0.5,
         "brierByTransition": {
-          "2008-\u003E2011": 0.3936,
-          "2011-\u003E2015": 0.4745,
-          "2015-\u003E2019": 0.2894,
-          "2019-\u003E2021": 0.2531,
-          "2021-\u003E2025": 0.3105
+          "2008-\u003E2011": 0.4214,
+          "2011-\u003E2015": 0.4227,
+          "2015-\u003E2019": 0.2584,
+          "2019-\u003E2021": 0.2315,
+          "2021-\u003E2025": 0.2663
         },
-        "averageBrier": 0.3442,
-        "accuracy": 0.753,
-        "ciCoverage": 0.941,
-        "projectionRmse": 0.0658
+        "averageBrier": 0.3201,
+        "accuracy": 0.773,
+        "ciCoverage": 0.931,
+        "projectionRmse": 0.0647
       }
     ],
     "bestWeight": 0,
-    "bestAverageBrier": 0.2664
+    "bestAverageBrier": 0.2265
   }
 }

@@ -89,7 +89,7 @@
 .bar-value {
     position: absolute;
     top: -1.2rem;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     font-weight: 600;
     font-variant-numeric: tabular-nums;
     color: #333;
@@ -109,14 +109,14 @@
 }
 
 .bar-range {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     color: #999;
     margin-top: 0.15rem;
     font-variant-numeric: tabular-nums;
 }
 
 .seat-annotation {
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     color: #aaa;
     margin-left: 0.5rem;
 }

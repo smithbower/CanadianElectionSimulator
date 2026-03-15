@@ -2,10 +2,11 @@
 @inject IJSRuntime JS
 @implements IDisposable
 
-<nav class="section-nav">
+<nav class="section-nav" role="navigation" aria-label="Results sections">
     @foreach (var item in Sections)
     {
         <a class="section-nav-link @(activeSection == item.Id ? "active" : "")"
+           aria-current="@(activeSection == item.Id ? "true" : null)"
            href="#@item.Id">@item.Label</a>
     }
 </nav>

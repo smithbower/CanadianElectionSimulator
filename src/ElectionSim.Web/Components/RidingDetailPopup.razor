@@ -5,10 +5,11 @@
 
 @if (Riding != null && Summary != null)
 {
-    <div class="popup-overlay" @onclick="Close">
-        <div class="popup-card" @onclick:stopPropagation="true">
-            <button class="close-btn" @onclick="Close">&times;</button>
-            <h3>@Riding.Name</h3>
+    <div class="popup-overlay" @onclick="Close" @onkeydown="OnKeyDown">
+        <div class="popup-card" role="dialog" aria-modal="true" aria-labelledby="riding-popup-title" tabindex="-1"
+             @onclick:stopPropagation="true" @onkeydown:stopPropagation="true">
+            <button class="close-btn" aria-label="Close" @onclick="Close">&times;</button>
+            <h3 id="riding-popup-title">@Riding.Name</h3>
             <div class="riding-meta">
                 @Riding.Province &middot; @PartyColorProvider.GetProvinceRegionName(Riding.Region)
             </div>
@@ -226,6 +227,12 @@
     [Parameter] public EventCallback OnClose { get; set; }
 
     private async Task Close() => await OnClose.InvokeAsync();
+
+    private async Task OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Escape")
+            await Close();
+    }
 
     private static IEnumerable<(string Label, double Value, string Tooltip)> GetDemoValues(RidingDemographics d)
     {

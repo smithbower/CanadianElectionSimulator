@@ -8,24 +8,30 @@
     <div class="search-wrapper">
         <input type="text" class="search-input" placeholder="Search for a riding..."
                value="@searchText"
+               role="combobox"
+               aria-expanded="@(showDropdown && cachedFilteredRidings.Count > 0 && selectedRiding == null)"
+               aria-controls="riding-search-listbox"
+               aria-activedescendant="@(highlightedIndex >= 0 ? $"riding-option-{highlightedIndex}" : null)"
+               aria-label="Search for a riding"
                @oninput="e => OnSearchInput(e)"
                @onfocus="() => OnFocus()"
                @onkeydown="e => OnKeyDown(e)" />
         @if (selectedRiding != null)
         {
-            <button class="clear-btn" @onclick="ClearSelection">&times;</button>
+            <button class="clear-btn" aria-label="Clear search" @onclick="ClearSelection">&times;</button>
         }
 
         @if (showDropdown && cachedFilteredRidings.Count > 0 && selectedRiding == null)
         {
-            <div class="autocomplete-dropdown">
+            <div class="autocomplete-dropdown" role="listbox" id="riding-search-listbox">
                 @for (var i = 0; i < cachedFilteredRidings.Count; i++)
                 {
                     var riding = cachedFilteredRidings[i];
                     var isHighlighted = i == highlightedIndex;
                     <div class="autocomplete-item @(isHighlighted ? "highlighted" : "")"
+                         role="option" id="riding-option-@i" aria-selected="@isHighlighted"
                          @onclick="() => SelectRiding(riding)">
-                        <span class="ac-name">@riding.Name</span>
+                        <span class="ac-name">@HighlightMatch(riding.Name, searchText)</span>
                         <span class="ac-province">@riding.Province</span>
                     </div>
                 }
@@ -90,7 +96,7 @@
                                 var isHighlighted = i == compareHighlightedIndex;
                                 <div class="autocomplete-item @(isHighlighted ? "highlighted" : "")"
                                      @onclick="() => SelectCompareRiding(riding)">
-                                    <span class="ac-name">@riding.Name</span>
+                                    <span class="ac-name">@HighlightMatch(riding.Name, compareSearchText)</span>
                                     <span class="ac-province">@riding.Province</span>
                                 </div>
                             }
@@ -923,6 +929,21 @@
         showCompareDropdown = false;
         compareHighlightedIndex = -1;
         cachedCompareFilteredRidings = new();
+    }
+
+    private MarkupString HighlightMatch(string name, string query)
+    {
+        if (string.IsNullOrWhiteSpace(query))
+            return (MarkupString)System.Web.HttpUtility.HtmlEncode(name);
+
+        var idx = name.IndexOf(query, StringComparison.OrdinalIgnoreCase);
+        if (idx < 0)
+            return (MarkupString)System.Web.HttpUtility.HtmlEncode(name);
+
+        var before = System.Web.HttpUtility.HtmlEncode(name[..idx]);
+        var match = System.Web.HttpUtility.HtmlEncode(name[idx..(idx + query.Length)]);
+        var after = System.Web.HttpUtility.HtmlEncode(name[(idx + query.Length)..]);
+        return (MarkupString)$"{before}<mark class=\"ac-highlight\">{match}</mark>{after}";
     }
 
     private record DemoItem(string Label, double Value, string Tooltip);

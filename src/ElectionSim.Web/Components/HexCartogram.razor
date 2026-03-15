@@ -47,6 +47,7 @@
         );
 
     <svg class="hex-svg" viewBox="0 0 @svgWidth.ToString("F0") @svgHeight.ToString("F0")"
+         role="img" aria-label="Hexagonal cartogram of Canadian federal ridings"
          preserveAspectRatio="xMidYMid meet">
         @foreach (var hex in HexLayout)
         {
@@ -58,6 +59,7 @@
 
             var winnerColor = "#888";
             double maxProb = 0;
+            Party winner = Party.Other;
 
             if (Summary.RidingWinProbabilities.TryGetValue(hex.Id, out var probs))
             {
@@ -66,6 +68,7 @@
                     if (prob > maxProb)
                     {
                         maxProb = prob;
+                        winner = party;
                         winnerColor = PartyColorProvider.GetColor(party);
                     }
                 }
@@ -74,13 +77,15 @@
             double opacity = 0.3 + maxProb * 0.7;
             var points = HexPoints(cx, cy, hexSize - 1);
             var rid = riding;
+            var hexLabel = $"{riding.Name}: {PartyColorProvider.GetShortName(winner)} ({(maxProb * 100).ToString("F0")}%)";
 
             <polygon points="@points"
                      fill="@winnerColor"
                      opacity="@opacity.ToString("F2")"
                      class="hex-cell"
+                     aria-label="@hexLabel"
                      @onclick="() => OnHexClicked(rid)">
-                <title>@riding.Name</title>
+                <title>@hexLabel</title>
             </polygon>
         }
 
