@@ -1,5 +1,7 @@
 @using ElectionSim.Core.Models
 @using ElectionSim.Web.Services
+@using Microsoft.AspNetCore.Components
+@using Microsoft.JSInterop
 
 <div class="sim-controls">
     <div class="control-row">
@@ -53,6 +55,17 @@
         </div>
     }
 
+    <button class="share-btn" @onclick="ShareSimulation" disabled="@State.IsRunning">
+        @if (showCopied)
+        {
+            <span>Link Copied!</span>
+        }
+        else
+        {
+            <span>Share Parameters</span>
+        }
+    </button>
+
     @if (State.ErrorMessage != null)
     {
         <div class="error-msg">@State.ErrorMessage</div>
@@ -60,12 +73,15 @@
 </div>
 
 @inject DataService DataService
+@inject IJSRuntime JS
+@inject NavigationManager NavigationManager
 
 @code {
     [Parameter] public required SimulationState State { get; set; }
 
     private int selectedSimCount = 10000;
     private bool useDemographics = false;
+    private bool showCopied = false;
 
     private bool HasDemographics => DataService.Demographics is { Count: > 0 };
 
@@ -81,5 +97,25 @@
             UseDemographicPrior = useDemographics
         };
         await State.RunSimulationAsync();
+    }
+
+    private async Task ShareSimulation()
+    {
+        // Sync config from UI controls before generating link
+        State.Config = State.Config with
+        {
+            NumSimulations = selectedSimCount,
+            UseDemographicPrior = useDemographics
+        };
+
+        var url = ShareableLinkService.GenerateShareableUrl(State, NavigationManager.BaseUri);
+        await JS.InvokeVoidAsync("copyToClipboard", url);
+
+        showCopied = true;
+        StateHasChanged();
+
+        await Task.Delay(2000);
+        showCopied = false;
+        StateHasChanged();
     }
 }

@@ -141,6 +141,35 @@
     text-align: right;
 }
 
+.share-btn {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    background: transparent;
+    color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.15s;
+}
+
+.share-btn:hover:not(:disabled) {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.35);
+    color: #fff;
+}
+
+.share-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
 .error-msg {
     margin-top: 0.5rem;
     padding: 0.5rem;

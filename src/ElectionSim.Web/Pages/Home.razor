@@ -8,6 +8,7 @@
 @inject DataService DataService
 @inject SimulationState State
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 @implements IDisposable
 
 <PageTitle>Election Simulator</PageTitle>
@@ -127,10 +128,23 @@ else
         }
         State.OnStateChanged += OnStateChanged;
 
-        if (State.Results == null)
+        // Check for shareable link parameter — if present, apply shared state and auto-run
+        var shareParam = ShareableLinkService.ExtractShareParam(NavigationManager.Uri);
+        if (!string.IsNullOrEmpty(shareParam) && ShareableLinkService.TryApply(shareParam, State))
         {
-            _ = LoadLatestSnapshotAsync();
+            // Clean the URL to remove the ?s= parameter
+            NavigationManager.NavigateTo("/", forceLoad: false, replace: true);
+            // Auto-run the simulation with the shared parameters
+            _ = State.RunSimulationAsync();
         }
+        else
+        {
+            if (State.Results == null)
+            {
+                _ = LoadLatestSnapshotAsync();
+            }
+        }
+
         if (DataService.TrendData == null)
         {
             _ = LoadTrendDataAsync();

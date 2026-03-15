@@ -23,6 +23,13 @@ public class SimulationState(DataService dataService)
 
     public event Action? OnStateChanged;
 
+    /// <summary>Replaces the current polling data (used when applying shared link state).</summary>
+    public void SetPolling(Dictionary<Region, Dictionary<Party, double>> polling)
+    {
+        CurrentPolling = polling;
+        NotifyStateChanged();
+    }
+
     /// <summary>Resets all regional polling shares to the baseline values loaded by DataService.</summary>
     public void InitializeFromPolling()
     {
