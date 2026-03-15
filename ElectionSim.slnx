@@ -6,4 +6,7 @@
     <Project Path="src/ElectionSim.Web/ElectionSim.Web.csproj" />
   </Folder>
   <Project Path="src/ElectionSim.DailyRunner/ElectionSim.DailyRunner.csproj" />
+  <Folder Name="/tests/">
+    <Project Path="src/ElectionSim.Server.Tests/ElectionSim.Server.Tests.csproj" />
+  </Folder>
 </Solution>
