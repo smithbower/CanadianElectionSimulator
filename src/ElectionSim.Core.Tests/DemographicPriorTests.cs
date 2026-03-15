@@ -12,7 +12,7 @@ public class DemographicPriorTests
     [Fact]
     public void ComputePrior_InsufficientData_ReturnsUniform()
     {
-        int numParties = PartyColorProvider.MainParties.Count;
+        int numParties = PartyColourProvider.MainParties.Count;
         double expectedUniform = 1.0 / numParties;
 
         // Pass empty training data — fewer rows than features (10 features including intercept)
@@ -31,7 +31,7 @@ public class DemographicPriorTests
     [Fact]
     public void ComputePrior_NormalizedOutput()
     {
-        int numParties = PartyColorProvider.MainParties.Count;
+        int numParties = PartyColourProvider.MainParties.Count;
 
         // Provide enough training data (use baseline twice to get > 10 rows)
         var trainingElections = new List<IReadOnlyList<RidingResult>> { _baseline, _baseline };
@@ -51,7 +51,7 @@ public class DemographicPriorTests
     [Fact]
     public void ComputePrior_MissingDemographics_FallsBackGracefully()
     {
-        int numParties = PartyColorProvider.MainParties.Count;
+        int numParties = PartyColourProvider.MainParties.Count;
 
         // Create ridings that include one without demographics
         var ridingsWithExtra = new List<Riding>(_ridings)
@@ -76,7 +76,7 @@ public class DemographicPriorTests
     [Fact]
     public void ComputePrior_NonNegativeShares()
     {
-        int numParties = PartyColorProvider.MainParties.Count;
+        int numParties = PartyColourProvider.MainParties.Count;
         var trainingElections = new List<IReadOnlyList<RidingResult>> { _baseline, _baseline };
 
         var prior = DemographicPrior.ComputePrior(

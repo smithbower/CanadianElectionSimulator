@@ -64,7 +64,7 @@ public class SwingCalculatorTests
         bool anyDifferent = false;
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
             {
                 if (Math.Abs(projectedAdditive[ri, pi] - projectedBlended05[ri, pi]) > 1e-10)
                     anyDifferent = true;
@@ -88,7 +88,7 @@ public class SwingCalculatorTests
         bool anyDifferent = false;
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
             {
                 if (Math.Abs(projectedProp[ri, pi] - projectedBlended05[ri, pi]) > 1e-10)
                     anyDifferent = true;
@@ -111,7 +111,7 @@ public class SwingCalculatorTests
             for (int ri = 0; ri < _ridings.Count; ri++)
             {
                 double sum = 0;
-                for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+                for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
                     sum += projected[ri, pi];
 
                 Assert.InRange(sum, 0.99, 1.01);
@@ -148,7 +148,7 @@ public class SwingCalculatorTests
 
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
             {
                 Assert.True(projected[ri, pi] >= 0,
                     $"Vote share should be non-negative: riding={ri}, party={pi}, value={projected[ri, pi]}");

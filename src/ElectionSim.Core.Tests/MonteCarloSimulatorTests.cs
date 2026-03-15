@@ -31,7 +31,7 @@ public class MonteCarloSimulatorTests
         var result1 = simulator.Run(config);
         var result2 = simulator.Run(config);
 
-        foreach (var party in PartyColorProvider.MainParties)
+        foreach (var party in PartyColourProvider.MainParties)
         {
             // Mean seats should be close (within 0.5 seats for 5 ridings / 500 sims)
             Assert.InRange(
@@ -42,7 +42,7 @@ public class MonteCarloSimulatorTests
         // Win probabilities should be close (within 5% for 500 sims)
         foreach (var ridingId in result1.RidingWinProbabilities.Keys)
         {
-            foreach (var party in PartyColorProvider.MainParties)
+            foreach (var party in PartyColourProvider.MainParties)
             {
                 Assert.InRange(
                     Math.Abs(result1.RidingWinProbabilities[ridingId][party] -
@@ -112,7 +112,7 @@ public class MonteCarloSimulatorTests
 
         var result = simulator.Run(config);
 
-        foreach (var party in PartyColorProvider.MainParties)
+        foreach (var party in PartyColourProvider.MainParties)
         {
             double majority = result.MajorityProbabilities.GetValueOrDefault(party, 0);
             double minority = result.MinorityProbabilities.GetValueOrDefault(party, 0);
@@ -154,7 +154,7 @@ public class MonteCarloSimulatorTests
 
         // Results should differ when correlation is toggled
         bool anyDifferent = false;
-        foreach (var party in PartyColorProvider.MainParties)
+        foreach (var party in PartyColourProvider.MainParties)
         {
             if (Math.Abs(resultCorrelated.SeatDistributions[party].Mean -
                          resultIndependent.SeatDistributions[party].Mean) > 0.01)
@@ -195,7 +195,7 @@ public class MonteCarloSimulatorTests
         {
             Assert.Contains(riding.Id, result.RidingVoteShareDistributions.Keys);
             var partyDists = result.RidingVoteShareDistributions[riding.Id];
-            foreach (var party in PartyColorProvider.MainParties)
+            foreach (var party in PartyColourProvider.MainParties)
             {
                 Assert.Contains(party, partyDists.Keys);
             }

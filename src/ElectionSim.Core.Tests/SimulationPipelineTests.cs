@@ -16,7 +16,7 @@ public class SimulationPipelineTests
         var projected = SimulationPipeline.ProjectVoteShares(_ridings, _baseline, _polls, config);
 
         Assert.Equal(_ridings.Count, projected.GetLength(0));
-        Assert.Equal(PartyColorProvider.MainParties.Count, projected.GetLength(1));
+        Assert.Equal(PartyColourProvider.MainParties.Count, projected.GetLength(1));
     }
 
     [Fact]
@@ -34,7 +34,7 @@ public class SimulationPipelineTests
         // Both should produce identical results since demographics is null
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
             {
                 Assert.Equal(projectedWithDemo[ri, pi], projectedWithoutDemo[ri, pi], precision: 10);
             }
@@ -58,7 +58,7 @@ public class SimulationPipelineTests
         bool anyDifferent = false;
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
             {
                 if (Math.Abs(projectedWith[ri, pi] - projectedWithout[ri, pi]) > 1e-6)
                 {
@@ -80,7 +80,7 @@ public class SimulationPipelineTests
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
             double sum = 0;
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
                 sum += projected[ri, pi];
 
             Assert.InRange(sum, 0.99, 1.01);
@@ -95,7 +95,7 @@ public class SimulationPipelineTests
 
         for (int ri = 0; ri < _ridings.Count; ri++)
         {
-            for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+            for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
             {
                 Assert.True(projected[ri, pi] >= 0,
                     $"Projected share should be non-negative: riding={ri}, party={pi}, value={projected[ri, pi]}");
@@ -138,7 +138,7 @@ public class SimulationPipelineTests
 
         // Riding 1001 (index 0) should be affected by the by-election blending
         bool riding1001Differs = false;
-        for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+        for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
         {
             if (Math.Abs(projectedWith[0, pi] - projectedWithout[0, pi]) > 1e-6)
             {
@@ -150,7 +150,7 @@ public class SimulationPipelineTests
             "By-election blending should change vote shares for the affected riding");
 
         // Quebec ridings (indices 3, 4) should be unaffected since the by-election is in Ontario
-        for (int pi = 0; pi < PartyColorProvider.MainParties.Count; pi++)
+        for (int pi = 0; pi < PartyColourProvider.MainParties.Count; pi++)
         {
             Assert.Equal(projectedWith[3, pi], projectedWithout[3, pi], precision: 6);
         }

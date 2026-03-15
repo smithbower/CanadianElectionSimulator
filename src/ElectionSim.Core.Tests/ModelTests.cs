@@ -45,34 +45,34 @@ public class ModelTests
     }
 
     [Fact]
-    public void PartyColorProvider_MainParties_Has6Entries()
+    public void PartyColourProvider_MainParties_Has6Entries()
     {
-        Assert.Equal(6, PartyColorProvider.MainParties.Count);
+        Assert.Equal(6, PartyColourProvider.MainParties.Count);
     }
 
     [Fact]
-    public void PartyColorProvider_MainParties_ContainsExpectedParties()
+    public void PartyColourProvider_MainParties_ContainsExpectedParties()
     {
         var expected = new[] { Party.LPC, Party.CPC, Party.NDP, Party.BQ, Party.GPC, Party.PPC };
         foreach (var party in expected)
         {
-            Assert.Contains(party, PartyColorProvider.MainParties);
+            Assert.Contains(party, PartyColourProvider.MainParties);
         }
 
         // Other is NOT in MainParties
-        Assert.DoesNotContain(Party.Other, PartyColorProvider.MainParties);
+        Assert.DoesNotContain(Party.Other, PartyColourProvider.MainParties);
     }
 
     [Fact]
-    public void PartyColorProvider_MainParties_OrderMatches()
+    public void PartyColourProvider_MainParties_OrderMatches()
     {
         // Order matters for array indexing throughout the simulation
-        Assert.Equal(Party.LPC, PartyColorProvider.MainParties[0]);
-        Assert.Equal(Party.CPC, PartyColorProvider.MainParties[1]);
-        Assert.Equal(Party.NDP, PartyColorProvider.MainParties[2]);
-        Assert.Equal(Party.BQ, PartyColorProvider.MainParties[3]);
-        Assert.Equal(Party.GPC, PartyColorProvider.MainParties[4]);
-        Assert.Equal(Party.PPC, PartyColorProvider.MainParties[5]);
+        Assert.Equal(Party.LPC, PartyColourProvider.MainParties[0]);
+        Assert.Equal(Party.CPC, PartyColourProvider.MainParties[1]);
+        Assert.Equal(Party.NDP, PartyColourProvider.MainParties[2]);
+        Assert.Equal(Party.BQ, PartyColourProvider.MainParties[3]);
+        Assert.Equal(Party.GPC, PartyColourProvider.MainParties[4]);
+        Assert.Equal(Party.PPC, PartyColourProvider.MainParties[5]);
     }
 
     [Fact]
@@ -154,18 +154,18 @@ public class ModelTests
     }
 
     [Fact]
-    public void PartyColorProvider_GetColor_ReturnsNonEmpty()
+    public void PartyColourProvider_GetColour_ReturnsNonEmpty()
     {
         foreach (var party in Enum.GetValues<Party>())
         {
-            string color = PartyColorProvider.GetColor(party);
+            string color = PartyColourProvider.GetColour(party);
             Assert.False(string.IsNullOrEmpty(color), $"Color for {party} should not be empty");
             Assert.StartsWith("#", color);
         }
     }
 
     [Fact]
-    public void PartyColorProvider_GetRegionForProvince_CoversAllProvinces()
+    public void PartyColourProvider_GetRegionForProvince_CoversAllProvinces()
     {
         var provinces = new[]
         {
@@ -176,7 +176,7 @@ public class ModelTests
 
         foreach (var province in provinces)
         {
-            var region = PartyColorProvider.GetRegionForProvince(province);
+            var region = PartyColourProvider.GetRegionForProvince(province);
             Assert.True(Enum.IsDefined(region), $"Region for {province} should be a valid Region enum value");
         }
     }
