@@ -73,15 +73,13 @@ public class SimulationState(DataService dataService)
             }
         }
         // Zero-support fallback: proportional scaling is impossible (division by zero),
-        // so set all regions that carry this party to the target value uniformly.
+        // so set all regions uniformly. This handles parties missing from snapshot data
+        // (e.g., PPC excluded by the polling scraper).
         else if (value > 0)
         {
             foreach (var region in CurrentPolling.Keys)
             {
-                if (CurrentPolling[region].ContainsKey(party))
-                {
-                    CurrentPolling[region][party] = value;
-                }
+                CurrentPolling[region][party] = value;
             }
         }
 
@@ -184,12 +182,29 @@ public class SimulationState(DataService dataService)
     {
         CurrentPolling = snapshot.Polling
             .ToDictionary(kv => kv.Key, kv => new Dictionary<Party, double>(kv.Value));
+        EnsureAllPartiesPresent();
         Config = snapshot.Config;
         BaselineYear = snapshot.BaselineYear;
         PartyUncertainty = new Dictionary<Party, double>(snapshot.PartyUncertainty);
         Results = snapshot.Results;
         SnapshotTimestamp = snapshot.Timestamp;
         NotifyStateChanged();
+    }
+
+    /// <summary>
+    /// Ensures every region in CurrentPolling has an entry for each MainParty.
+    /// Snapshot polling data may omit parties the scraper didn't track (e.g., PPC),
+    /// which would make those parties' sliders non-functional.
+    /// </summary>
+    private void EnsureAllPartiesPresent()
+    {
+        foreach (var shares in CurrentPolling.Values)
+        {
+            foreach (var party in PartyColourProvider.MainParties)
+            {
+                shares.TryAdd(party, 0);
+            }
+        }
     }
 
     private void NotifyStateChanged() => OnStateChanged?.Invoke();

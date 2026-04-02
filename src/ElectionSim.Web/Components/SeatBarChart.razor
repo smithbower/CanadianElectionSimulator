@@ -62,12 +62,15 @@
                 </div>
                 <div class="bar-range">
                     @dist.P5 - @dist.P95
-                    @if (breakdown != null && (breakdown.FloorCrossingGains > 0 || breakdown.ByElectionGains > 0))
+                    @if (breakdown != null)
                     {
                         var parts = new List<string>();
-                        parts.Add($"{breakdown.Elected - breakdown.FloorCrossingLosses} elected");
+                        parts.Add($"{breakdown.Elected} elected");
                         if (breakdown.FloorCrossingGains > 0) parts.Add($"+{breakdown.FloorCrossingGains} crossed");
+                        if (breakdown.FloorCrossingLosses > 0) parts.Add($"\u2212{breakdown.FloorCrossingLosses} crossed");
                         if (breakdown.ByElectionGains > 0) parts.Add($"+{breakdown.ByElectionGains} by-election");
+                        if (breakdown.ByElectionLosses > 0) parts.Add($"\u2212{breakdown.ByElectionLosses} by-election");
+                        if (breakdown.Vacancies > 0) parts.Add($"\u2212{breakdown.Vacancies} vacated");
                         <span class="seat-annotation">(@string.Join(", ", parts))</span>
                     }
                 </div>
@@ -88,7 +91,7 @@
 @code {
     [Parameter] public SimulationSummary? Summary { get; set; }
 
-    private record SeatBreakdown(int Total, int Elected, int FloorCrossingGains, int FloorCrossingLosses, int ByElectionGains);
+    private record SeatBreakdown(int Total, int Elected, int FloorCrossingGains, int FloorCrossingLosses, int ByElectionGains, int ByElectionLosses, int Vacancies);
 
     private Dictionary<Party, SeatBreakdown> GetCurrentSeats()
     {
@@ -99,6 +102,8 @@
         var crossGains = new Dictionary<Party, int>();
         var crossLosses = new Dictionary<Party, int>();
         var byElectionGains = new Dictionary<Party, int>();
+        var byElectionLosses = new Dictionary<Party, int>();
+        var vacancies = new Dictionary<Party, int>();
 
         foreach (var (_, status) in parlState)
         {
@@ -106,7 +111,24 @@
             elected.TryGetValue(status.ElectionWinner, out var ec);
             elected[status.ElectionWinner] = ec + 1;
 
-            if (status.IsFloorCrosser && status.CurrentHolder != null && status.CurrentHolder != status.ElectionWinner)
+            if (status.CurrentHolder == null)
+            {
+                // Seat is vacant — attribute loss to the party from the vacancy event
+                var vacancyEvent = status.Events.LastOrDefault(e => e.Type == PostElectionEventType.Vacancy);
+                var lostBy = vacancyEvent?.FromParty ?? status.ElectionWinner;
+                vacancies.TryGetValue(lostBy, out var vc);
+                vacancies[lostBy] = vc + 1;
+
+                // If there was a floor crossing before the vacancy, still count that transition
+                if (status.IsFloorCrosser && lostBy != status.ElectionWinner)
+                {
+                    crossGains.TryGetValue(lostBy, out var cg);
+                    crossGains[lostBy] = cg + 1;
+                    crossLosses.TryGetValue(status.ElectionWinner, out var cl);
+                    crossLosses[status.ElectionWinner] = cl + 1;
+                }
+            }
+            else if (status.IsFloorCrosser && status.CurrentHolder != status.ElectionWinner)
             {
                 // Floor crossing gain for new party
                 crossGains.TryGetValue(status.CurrentHolder.Value, out var cg);
@@ -115,26 +137,31 @@
                 crossLosses.TryGetValue(status.ElectionWinner, out var cl);
                 crossLosses[status.ElectionWinner] = cl + 1;
             }
-            else if (status.HasByElection && status.CurrentHolder != null && status.CurrentHolder != status.ElectionWinner)
+            else if (status.HasByElection && status.CurrentHolder != status.ElectionWinner)
             {
                 // By-election changed hands
                 byElectionGains.TryGetValue(status.CurrentHolder.Value, out var bg);
                 byElectionGains[status.CurrentHolder.Value] = bg + 1;
-                // Loss for original party counted via elected - but they still show as elected
-                crossLosses.TryGetValue(status.ElectionWinner, out var cl);
-                crossLosses[status.ElectionWinner] = cl + 1;
+                // By-election loss for original party
+                byElectionLosses.TryGetValue(status.ElectionWinner, out var bl);
+                byElectionLosses[status.ElectionWinner] = bl + 1;
             }
         }
 
         var result = new Dictionary<Party, SeatBreakdown>();
-        var allParties = elected.Keys.Union(crossGains.Keys).Union(byElectionGains.Keys).Distinct();
+        var allParties = elected.Keys
+            .Union(crossGains.Keys).Union(crossLosses.Keys)
+            .Union(byElectionGains.Keys).Union(byElectionLosses.Keys)
+            .Union(vacancies.Keys).Distinct();
         foreach (var party in allParties)
         {
             var e = elected.GetValueOrDefault(party);
             var cg = crossGains.GetValueOrDefault(party);
             var cl = crossLosses.GetValueOrDefault(party);
             var bg = byElectionGains.GetValueOrDefault(party);
-            result[party] = new SeatBreakdown(e - cl + cg + bg, e, cg, cl, bg);
+            var bl = byElectionLosses.GetValueOrDefault(party);
+            var v = vacancies.GetValueOrDefault(party);
+            result[party] = new SeatBreakdown(e - cl - bl - v + cg + bg, e, cg, cl, bg, bl, v);
         }
         return result;
     }

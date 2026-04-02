@@ -1,3 +1,6 @@
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Playwright;
 using ElectionSim.Core.Models;
@@ -18,40 +21,67 @@ public record ScrapedPoll(
 );
 
 /// <summary>
-/// Scrapes regional and national polling tables from 338Canada using Playwright.
-/// Parses pollster name, field dates, sample size, firm grade, and per-party vote shares.
+/// Scrapes regional and national polling data from 338Canada by extracting the embedded
+/// demopoll_TABLE_DATA JavaScript object from https://338canada.com/polls.htm.
 /// </summary>
-public class PollScraper(ILogger<PollScraper> logger)
+public partial class PollScraper(ILogger<PollScraper> logger)
 {
-    private static readonly Dictionary<string, Region> RegionalPages = new()
+    private const string PollsUrl = "https://338canada.com/polls.htm";
+
+    // Fixed cell order in demopoll_TABLE_DATA: LPC, CPC, NDP, GPC, BQ
+    private static readonly Party[] CellPartyOrder = [Party.LPC, Party.CPC, Party.NDP, Party.GPC, Party.BQ];
+
+    // Map 338Canada demo keys to our Region enum
+    private static readonly Dictionary<string, Region> DemoKeyToRegion = new(StringComparer.OrdinalIgnoreCase)
     {
-        ["polls-atl.htm"] = Region.Atlantic,
-        ["polls-qc.htm"] = Region.Quebec,
-        ["polls-on.htm"] = Region.Ontario,
-        ["polls-pr.htm"] = Region.Prairies,
-        ["polls-ab.htm"] = Region.Alberta,
-        ["polls-bc.htm"] = Region.BritishColumbia,
+        ["National"] = Region.North,
+        ["ATL"] = Region.Atlantic,
+        ["QC"] = Region.Quebec,
+        ["ON"] = Region.Ontario,
+        ["PR"] = Region.Prairies,
+        ["AB"] = Region.Alberta,
+        ["BC"] = Region.BritishColumbia,
     };
+
+    // Fallback mapping using the title/long-form keys
+    private static readonly Dictionary<string, Region> TitleToRegion = new(StringComparer.OrdinalIgnoreCase)
+    {
+        ["National"] = Region.North,
+        ["ATL only"] = Region.Atlantic,
+        ["Quebec only"] = Region.Quebec,
+        ["Ontario only"] = Region.Ontario,
+        ["MB/SK only"] = Region.Prairies,
+        ["Alberta only"] = Region.Alberta,
+        ["B.C. only"] = Region.BritishColumbia,
+    };
+
+    [GeneratedRegex(@">([A-F][+\-−]?)<")]
+    private static partial Regex GradeBadgeRegex();
+
+    [GeneratedRegex(@"\((\d+)/(\d+)\)")]
+    private static partial Regex RollingRegex();
 
     public async Task<List<ScrapedPoll>> ScrapeAllRegionsAsync(IBrowserContext context, DateOnly? cutoffDate = null)
     {
+        var allData = await ScrapePageDataAsync(context);
+        if (allData == null) return [];
+
         var allPolls = new List<ScrapedPoll>();
-
-        foreach (var (page, region) in RegionalPages)
+        foreach (var (demoKey, rows) in allData)
         {
-            var url = $"https://338canada.com/{page}";
-            logger.LogInformation("Scraping {Region} from {Url}", region, url);
+            var region = ResolveRegion(demoKey);
+            if (region == null)
+            {
+                logger.LogWarning("Unknown demo key '{DemoKey}', skipping", demoKey);
+                continue;
+            }
 
-            try
-            {
-                var polls = await ScrapePageAsync(context, url, region);
-                logger.LogInformation("Found {Count} polls for {Region}", polls.Count, region);
-                allPolls.AddRange(polls);
-            }
-            catch (Exception ex)
-            {
-                logger.LogError(ex, "Failed to scrape {Region} from {Url}", region, url);
-            }
+            // ScrapeAllRegionsAsync returns regional polls only (not national)
+            if (region == Region.North) continue;
+
+            var polls = ParseRows(rows, region.Value);
+            logger.LogInformation("Found {Count} polls for {Region}", polls.Count, region);
+            allPolls.AddRange(polls);
         }
 
         return ApplyCutoff(allPolls, cutoffDate);
@@ -59,20 +89,166 @@ public class PollScraper(ILogger<PollScraper> logger)
 
     public async Task<List<ScrapedPoll>> ScrapeNationalAsync(IBrowserContext context, DateOnly? cutoffDate = null)
     {
-        var url = "https://338canada.com/polls.htm";
-        logger.LogInformation("Scraping national polls from {Url}", url);
+        var allData = await ScrapePageDataAsync(context);
+        if (allData == null) return [];
 
+        foreach (var (demoKey, rows) in allData)
+        {
+            var region = ResolveRegion(demoKey);
+            if (region == Region.North)
+            {
+                var polls = ParseRows(rows, Region.North);
+                logger.LogInformation("Found {Count} national polls", polls.Count);
+                return ApplyCutoff(polls, cutoffDate);
+            }
+        }
+
+        logger.LogWarning("No 'National' demo found in page data");
+        return [];
+    }
+
+    private async Task<Dictionary<string, List<DemoPollRow>>?> ScrapePageDataAsync(IBrowserContext context)
+    {
+        var page = await context.NewPageAsync();
         try
         {
-            var polls = await ScrapePageAsync(context, url, Region.North);
-            logger.LogInformation("Found {Count} national polls", polls.Count);
-            return ApplyCutoff(polls, cutoffDate);
+            logger.LogInformation("Scraping polls from {Url}", PollsUrl);
+            await page.GotoAsync(PollsUrl, new PageGotoOptions { WaitUntil = WaitUntilState.NetworkIdle });
+
+            // Extract the embedded demopoll_TABLE_DATA JS object
+            var json = await page.EvaluateAsync<string?>(
+                "typeof window.demopoll_TABLE_DATA !== 'undefined' ? JSON.stringify(window.demopoll_TABLE_DATA) : null");
+
+            if (json == null)
+            {
+                logger.LogError("window.demopoll_TABLE_DATA not found on page");
+                return null;
+            }
+
+            var tableData = JsonSerializer.Deserialize<DemoPollTableData>(json);
+            if (tableData?.Demos == null || tableData.Demos.Count == 0)
+            {
+                logger.LogError("Failed to deserialize demopoll_TABLE_DATA or no demos found");
+                return null;
+            }
+
+            logger.LogInformation("Extracted {Count} demo regions from page", tableData.Demos.Count);
+
+            var result = new Dictionary<string, List<DemoPollRow>>();
+            foreach (var (key, demo) in tableData.Demos)
+            {
+                result[key] = demo.Rows ?? [];
+            }
+            return result;
         }
         catch (Exception ex)
         {
-            logger.LogError(ex, "Failed to scrape national polls");
-            return [];
+            logger.LogError(ex, "Failed to scrape {Url}", PollsUrl);
+            return null;
         }
+        finally
+        {
+            await page.CloseAsync();
+        }
+    }
+
+    private List<ScrapedPoll> ParseRows(List<DemoPollRow> rows, Region region)
+    {
+        var polls = new List<ScrapedPoll>();
+        foreach (var row in rows)
+        {
+            try
+            {
+                var poll = ParseRow(row, region);
+                if (poll != null)
+                    polls.Add(poll);
+            }
+            catch (Exception ex)
+            {
+                logger.LogWarning(ex, "Failed to parse poll row for {Firm} on {Date}", row.Firm, row.Date);
+            }
+        }
+        return polls;
+    }
+
+    private ScrapedPoll? ParseRow(DemoPollRow row, Region region)
+    {
+        // Skip election result rows
+        if (!string.IsNullOrEmpty(row.GeneralElx)) return null;
+
+        // Parse date
+        if (!DateOnly.TryParse(row.Date, out var endDate)) return null;
+
+        // Derive start date: for rolling polls, estimate from the rolling window
+        var startDate = DeriveStartDate(endDate, row.IsRolling);
+
+        // Parse sample size (remove commas)
+        if (!TryParseSampleSize(row.Sample, out var sampleSize)) return null;
+
+        // Extract grade from HTML badge (e.g., "<span class='rating-badge'...>A</span>" → "A")
+        var grade = ExtractGrade(row.RatingBadge);
+
+        // Parse vote shares from cells
+        var voteShares = new Dictionary<Party, double>();
+        if (row.Cells != null)
+        {
+            for (int i = 0; i < row.Cells.Count && i < CellPartyOrder.Length; i++)
+            {
+                var label = row.Cells[i].Label?.Trim();
+                if (!string.IsNullOrEmpty(label) && double.TryParse(label, out var share))
+                {
+                    voteShares[CellPartyOrder[i]] = share / 100.0;
+                }
+            }
+        }
+
+        if (voteShares.Count == 0) return null;
+
+        var firm = row.Firm?.Trim() ?? "Unknown";
+        return new ScrapedPoll(region, firm, startDate, endDate, sampleSize, grade, voteShares);
+    }
+
+    private static DateOnly DeriveStartDate(DateOnly endDate, string? isRolling)
+    {
+        if (string.IsNullOrEmpty(isRolling)) return endDate;
+
+        // Parse rolling window from HTML like "<sup>(1/4)</sup>" → denominator 4 (weeks)
+        var match = RollingRegex().Match(isRolling);
+        if (match.Success && int.TryParse(match.Groups[2].Value, out var weeks) && weeks > 0)
+        {
+            return endDate.AddDays(-(weeks * 7 - 1));
+        }
+
+        return endDate;
+    }
+
+    private static string ExtractGrade(string? ratingBadge)
+    {
+        if (string.IsNullOrEmpty(ratingBadge)) return "C";
+
+        var match = GradeBadgeRegex().Match(ratingBadge);
+        if (match.Success)
+        {
+            // Normalize Unicode minus (−) to ASCII hyphen (-)
+            return match.Groups[1].Value.Replace('−', '-');
+        }
+
+        return "C";
+    }
+
+    private static bool TryParseSampleSize(string? text, out int sampleSize)
+    {
+        sampleSize = 0;
+        if (string.IsNullOrEmpty(text)) return false;
+        text = text.Replace(",", "").Replace(" ", "");
+        return int.TryParse(text, out sampleSize) && sampleSize > 0;
+    }
+
+    private static Region? ResolveRegion(string demoKey)
+    {
+        if (DemoKeyToRegion.TryGetValue(demoKey, out var region)) return region;
+        if (TitleToRegion.TryGetValue(demoKey, out region)) return region;
+        return null;
     }
 
     private List<ScrapedPoll> ApplyCutoff(List<ScrapedPoll> polls, DateOnly? cutoffDate)
@@ -87,263 +263,59 @@ public class PollScraper(ILogger<PollScraper> logger)
         return filtered;
     }
 
-    private async Task<List<ScrapedPoll>> ScrapePageAsync(
-        IBrowserContext context, string url, Region region)
+    // --- JSON deserialization models for demopoll_TABLE_DATA ---
+
+    private sealed class DemoPollTableData
     {
-        var page = await context.NewPageAsync();
-        try
-        {
-            await page.GotoAsync(url, new PageGotoOptions { WaitUntil = WaitUntilState.NetworkIdle });
-
-            // Wait for the poll table to render
-            var tableSelector = await WaitForTableAsync(page);
-            if (tableSelector == null)
-            {
-                logger.LogWarning("No poll table found on {Url}", url);
-                return [];
-            }
-
-            var rows = await page.QuerySelectorAllAsync($"{tableSelector} tbody tr");
-            if (rows.Count == 0)
-                rows = await page.QuerySelectorAllAsync($"{tableSelector} tr");
-
-            var polls = new List<ScrapedPoll>();
-
-            foreach (var row in rows)
-            {
-                try
-                {
-                    var poll = await ParseRowAsync(row, region);
-                    if (poll != null)
-                    {
-                        polls.Add(poll);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    logger.LogWarning(ex, "Failed to parse poll row on {Url}", url);
-                }
-            }
-
-            return polls;
-        }
-        finally
-        {
-            await page.CloseAsync();
-        }
+        [JsonPropertyName("demos")]
+        public Dictionary<string, DemoRegionData>? Demos { get; set; }
     }
 
-    private static async Task<string?> WaitForTableAsync(IPage page)
+    private sealed class DemoRegionData
     {
-        var selectors = new[] { "#myTable", ".poll-table", "table" };
-        foreach (var selector in selectors)
-        {
-            try
-            {
-                var element = await page.WaitForSelectorAsync(selector, new PageWaitForSelectorOptions
-                {
-                    Timeout = 10_000
-                });
-                if (element != null) return selector;
-            }
-            catch (TimeoutException)
-            {
-                // Try next selector
-            }
-        }
-        return null;
+        [JsonPropertyName("title")]
+        public string? Title { get; set; }
+
+        [JsonPropertyName("rows")]
+        public List<DemoPollRow>? Rows { get; set; }
     }
 
-    private async Task<ScrapedPoll?> ParseRowAsync(IElementHandle row, Region region)
+    private sealed class DemoPollRow
     {
-        var cells = await row.QuerySelectorAllAsync("td");
-        if (cells.Count < 3) return null;
+        [JsonPropertyName("generalelx")]
+        public string? GeneralElx { get; set; }
 
-        // 338canada table format:
-        // Col 0: Multi-line cell with "Firm\nDate, n=SampleSize"
-        // Col 1: Grade (e.g., "A−", "B+")
-        // Col 2+: Party vote shares
+        [JsonPropertyName("firm")]
+        public string? Firm { get; set; }
 
-        var firstCellText = (await cells[0].InnerTextAsync()).Trim();
-        var lines = firstCellText.Split(['\n', '\r'], StringSplitOptions.RemoveEmptyEntries);
-        if (lines.Length < 2) return null;
+        [JsonPropertyName("date")]
+        public string? Date { get; set; }
 
-        var firm = lines[0].Trim();
-        var detailLine = lines[1].Trim();
+        [JsonPropertyName("sample")]
+        public string? Sample { get; set; }
 
-        // Split detail line into date part and sample size part on ", n="
-        string dateText;
-        int sampleSize = 0;
-        var nIndex = detailLine.IndexOf(", n=", StringComparison.OrdinalIgnoreCase);
-        if (nIndex >= 0)
-        {
-            dateText = detailLine[..nIndex].Trim();
-            var sampleText = detailLine[(nIndex + 4)..].Trim();
-            // Remove trailing parenthetical like "(1/2)"
-            var parenIdx = sampleText.IndexOf('(');
-            if (parenIdx >= 0) sampleText = sampleText[..parenIdx].Trim();
-            if (!TryParseSampleSize(sampleText, out sampleSize)) return null;
-        }
-        else
-        {
-            dateText = detailLine;
-        }
+        [JsonPropertyName("isRolling")]
+        public string? IsRolling { get; set; }
 
-        var (startDate, endDate) = ParseDates(dateText);
-        if (startDate == default || endDate == default) return null;
+        [JsonPropertyName("ratingbadge")]
+        public string? RatingBadge { get; set; }
 
-        var grade = (await cells[1].InnerTextAsync()).Trim();
-        if (string.IsNullOrEmpty(grade)) grade = "C";
+        [JsonPropertyName("cells")]
+        public List<DemoPollCell>? Cells { get; set; }
 
-        // Parse header to determine party column order
-        var table = await row.EvaluateHandleAsync("el => el.closest('table')");
-        var tableEl = (table as IElementHandle)!;
-        var partyColumns = await MapPartyColumnsFromTableAsync(tableEl);
+        [JsonPropertyName("newpoll_link")]
+        public string? NewPollLink { get; set; }
 
-        var voteShares = new Dictionary<Party, double>();
-        foreach (var (colIndex, party) in partyColumns)
-        {
-            if (colIndex < cells.Count)
-            {
-                var text = (await cells[colIndex].InnerTextAsync()).Trim().TrimEnd('%');
-                if (double.TryParse(text, out double share))
-                {
-                    voteShares[party] = share / 100.0;
-                }
-            }
-        }
-
-        if (voteShares.Count == 0) return null;
-
-        return new ScrapedPoll(region, firm, startDate, endDate, sampleSize, grade, voteShares);
+        [JsonPropertyName("poll_link")]
+        public string? PollLink { get; set; }
     }
 
-    private static (DateOnly Start, DateOnly End) ParseDates(string text)
+    private sealed class DemoPollCell
     {
-        // Common formats:
-        // "Jan 15-20, 2026"
-        // "Jan 15 - Feb 2, 2026"
-        // "2026-01-15 to 2026-01-20"
-        // "January 15-20, 2026"
+        [JsonPropertyName("label")]
+        public string? Label { get; set; }
 
-        try
-        {
-            text = text.Replace("–", "-").Replace("—", "-");
-
-            // Try single date first (handles ISO "2026-02-22" and "January 15, 2026")
-            if (DateOnly.TryParse(text, out var single))
-                return (single, single);
-
-            // Handle "to" separator (e.g., "2026-01-15 to 2026-01-20")
-            var toParts = text.Split(" to ", 2, StringSplitOptions.TrimEntries);
-            if (toParts.Length == 2 &&
-                DateOnly.TryParse(toParts[0], out var toStart) &&
-                DateOnly.TryParse(toParts[1], out var toEnd))
-            {
-                return (toStart, toEnd);
-            }
-
-            // Handle "Month Day-Day, Year" or "Month Day - Month Day, Year"
-            var parts = text.Split(['-'], 2);
-            if (parts.Length == 2)
-            {
-                var rightPart = parts[1].Trim();
-
-                // Try to parse the end part first to get the year
-                if (DateOnly.TryParse(rightPart, out var endDate))
-                {
-                    // Parse start - it may lack the year (e.g., "Jan 15 - Feb 2, 2026")
-                    var startText = parts[0].Trim();
-                    if (DateOnly.TryParse(startText + ", " + endDate.Year, out var startDate))
-                        return (startDate, endDate);
-                    if (DateOnly.TryParse(startText, out startDate))
-                        return (startDate, endDate);
-                }
-                else
-                {
-                    // Handle "Jan 15" + "20, 2026" → reconstruct "Jan 20, 2026"
-                    var startText = parts[0].Trim();
-                    var startParts = startText.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                    if (startParts.Length >= 2)
-                    {
-                        var month = startParts[0];
-                        if (DateOnly.TryParse($"{month} {rightPart}", out endDate))
-                        {
-                            if (DateOnly.TryParse($"{startText}, {endDate.Year}", out var startDate))
-                                return (startDate, endDate);
-                        }
-                    }
-                }
-
-                // Try parsing both as full dates
-                if (DateOnly.TryParse(parts[0].Trim(), out var start) &&
-                    DateOnly.TryParse(parts[1].Trim(), out var end))
-                {
-                    return (start, end);
-                }
-            }
-        }
-        catch
-        {
-            // Fall through
-        }
-
-        return default;
-    }
-
-    private static bool TryParseSampleSize(string text, out int sampleSize)
-    {
-        // Remove commas, spaces, "n=" prefix
-        text = text.Replace(",", "").Replace(" ", "").Replace("n=", "").Replace("N=", "");
-        return int.TryParse(text, out sampleSize) && sampleSize > 0;
-    }
-
-    private async Task<Dictionary<int, Party>> MapPartyColumnsFromTableAsync(IElementHandle tableEl)
-    {
-        // 338Canada uses a header row (tr.header or first tr) with party logos as <img src="LPC.svg">
-        var headerRow = await tableEl.QuerySelectorAsync("tr.header") ??
-                        await tableEl.QuerySelectorAsync("thead tr") ??
-                        await tableEl.QuerySelectorAsync("tr:first-child");
-
-        if (headerRow == null) return new Dictionary<int, Party>();
-
-        var headerCells = await headerRow.QuerySelectorAllAsync("th");
-        if (headerCells.Count == 0)
-            headerCells = await headerRow.QuerySelectorAllAsync("td");
-
-        var map = new Dictionary<int, Party>();
-        for (int i = 0; i < headerCells.Count; i++)
-        {
-            // First try: look for an <img> whose src contains a party name
-            var img = await headerCells[i].QuerySelectorAsync("img");
-            string? identifier = null;
-            if (img != null)
-            {
-                var src = await img.GetAttributeAsync("src");
-                if (src != null)
-                {
-                    // Extract filename without extension: "LPC.svg" → "LPC"
-                    identifier = Path.GetFileNameWithoutExtension(src).ToUpperInvariant();
-                }
-            }
-
-            // Fallback: use inner text
-            identifier ??= (await headerCells[i].InnerTextAsync()).Trim().ToUpperInvariant();
-
-            var party = identifier switch
-            {
-                "CPC" or "CON" or "CONSERVATIVE" or "PCC" => Party.CPC,
-                "LPC" or "LIB" or "LIBERAL" or "PLC" => Party.LPC,
-                "NDP" or "NPD" => Party.NDP,
-                "BQ" or "BLOC" => Party.BQ,
-                "GPC" or "GRN" or "GREEN" or "PVC" => Party.GPC,
-                "PPC" => Party.PPC,
-                _ => (Party?)null
-            };
-            if (party.HasValue)
-                map[i] = party.Value;
-        }
-
-        return map;
+        [JsonPropertyName("cellclass")]
+        public string? CellClass { get; set; }
     }
 }
