@@ -10,7 +10,9 @@ public enum PostElectionEventType
     /// <summary>A by-election is held to fill a vacant seat.</summary>
     ByElection,
     /// <summary>A seat becomes vacant (resignation, death, appointment to Senate, etc.).</summary>
-    Vacancy
+    Vacancy,
+    /// <summary>An election result is annulled (e.g. by court order), leaving the seat vacant until a by-election.</summary>
+    Annulled
 }
 
 /// <summary>

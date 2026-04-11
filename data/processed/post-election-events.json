@@ -2093,5 +2093,22 @@
     "fromParty": "NDP",
     "toParty": "LPC",
     "description": "Lori Idlout (Nunavut)"
+  },
+  {
+    "ridingId": 35090,
+    "type": "floorCrossing",
+    "date": "2026-04-08",
+    "electionYear": 2025,
+    "fromParty": "CPC",
+    "toParty": "LPC",
+    "description": "Marilyn Gladu (Sarnia-Lambton-Bkejwanong)"
+  },
+  {
+    "ridingId": 24073,
+    "type": "annulled",
+    "date": "2026-02-13",
+    "electionYear": 2025,
+    "fromParty": "LPC",
+    "description": "Tatiana Auguste (Terrebonne) - annulled by the Supreme Court"
   }
 ]

@@ -75,6 +75,11 @@ public static class ParliamentaryState
                     CurrentHolder = null,
                     Events = updatedEvents
                 },
+                PostElectionEventType.Annulled => current with
+                {
+                    CurrentHolder = null,
+                    Events = updatedEvents
+                },
                 PostElectionEventType.ByElection => current with
                 {
                     CurrentHolder = evt.ToParty,

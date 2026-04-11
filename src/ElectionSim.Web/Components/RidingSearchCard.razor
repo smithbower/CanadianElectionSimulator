@@ -715,6 +715,11 @@
                                                     <span class="mp-party-badge mp-badge-vacant">VAC</span>
                                                     <span class="mp-event-label">Seat vacated</span>
                                                 }
+                                                else if (evt.Type == PostElectionEventType.Annulled)
+                                                {
+                                                    <span class="mp-party-badge mp-badge-vacant">ANN</span>
+                                                    <span class="mp-event-label">Election annulled</span>
+                                                }
                                                 else if (evt.Type == PostElectionEventType.ByElection && evt.ToParty != null)
                                                 {
                                                     <span class="mp-party-badge" style="background: @(evtColour)18; color: @evtColour; border: 1px solid @(evtColour)44">
@@ -762,6 +767,11 @@
                                                 {
                                                     <span class="mp-party-badge mp-badge-vacant">VAC</span>
                                                     <span class="mp-event-label">Seat vacated</span>
+                                                }
+                                                else if (evt.Type == PostElectionEventType.Annulled)
+                                                {
+                                                    <span class="mp-party-badge mp-badge-vacant">ANN</span>
+                                                    <span class="mp-event-label">Election annulled</span>
                                                 }
                                                 else if (evt.Type == PostElectionEventType.ByElection && evt.ToParty != null)
                                                 {

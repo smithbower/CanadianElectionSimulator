@@ -113,8 +113,8 @@
 
             if (status.CurrentHolder == null)
             {
-                // Seat is vacant — attribute loss to the party from the vacancy event
-                var vacancyEvent = status.Events.LastOrDefault(e => e.Type == PostElectionEventType.Vacancy);
+                // Seat is vacant — attribute loss to the party from the vacancy/annulment event
+                var vacancyEvent = status.Events.LastOrDefault(e => e.Type == PostElectionEventType.Vacancy || e.Type == PostElectionEventType.Annulled);
                 var lostBy = vacancyEvent?.FromParty ?? status.ElectionWinner;
                 vacancies.TryGetValue(lostBy, out var vc);
                 vacancies[lostBy] = vc + 1;
