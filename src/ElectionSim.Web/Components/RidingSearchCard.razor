@@ -597,6 +597,11 @@
                         if (combinedMax > axisMax) axisMax = combinedMax;
                     }
 
+                    var selBaseline = DataService.GetResultsForYear(State.BaselineYear)?.FirstOrDefault(r => r.RidingId == selectedRiding.Id);
+                    var selRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(selectedRiding.Id);
+                    var selLatestByElection = selRidingStatus?.Events
+                        .LastOrDefault(e => e.Type == PostElectionEventType.ByElection && e.ByElectionResult != null);
+
                     <div class="vote-share-section">
                         <h4>Vote Share Distribution</h4>
                         @if (compareRiding != null)
@@ -613,12 +618,30 @@
                                 var whiskerRight = dist.P95 / axisMax * 100;
                                 var medianPos = dist.Median / axisMax * 100;
 
+                                var electedShare = selBaseline?.Candidates.FirstOrDefault(c => c.Party == party)?.VoteShare ?? 0;
+                                double? currentShare = null;
+                                if (selLatestByElection?.ByElectionResult != null)
+                                {
+                                    var match = selLatestByElection.ByElectionResult.Candidates.FirstOrDefault(c => c.Party == party);
+                                    if (match != null) currentShare = match.VoteShare;
+                                }
+
                                 <div class="box-row">
                                     <span class="box-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                                     <div class="box-track">
                                         <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @colour;"></div>
                                         <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @colour;"></div>
                                         <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @colour;"></div>
+                                        @if (electedShare > 0)
+                                        {
+                                            var electedPipPos = electedShare * 100 / axisMax * 100;
+                                            <div class="share-pip share-pip-election" style="left: @(electedPipPos.ToString("F1"))%;" title="@(State.BaselineYear) election: @((electedShare * 100).ToString("F1"))%"></div>
+                                            if (currentShare.HasValue && Math.Abs(currentShare.Value - electedShare) > 0.0005)
+                                            {
+                                                var currentPipPos = currentShare.Value * 100 / axisMax * 100;
+                                                <div class="share-pip share-pip-current" style="left: @(currentPipPos.ToString("F1"))%;" title="By-election: @((currentShare.Value * 100).ToString("F1"))%"></div>
+                                            }
+                                        }
                                     </div>
                                     <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
                                 </div>
@@ -636,6 +659,10 @@
                             if (cFiltered.Count > 0)
                             {
                                 <div class="riding-section-label compare-section-label">@compareRiding.Name</div>
+                                var cmpBaseline = DataService.GetResultsForYear(State.BaselineYear)?.FirstOrDefault(r => r.RidingId == compareRiding.Id);
+                                var cmpRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(compareRiding.Id);
+                                var cmpLatestByElection = cmpRidingStatus?.Events
+                                    .LastOrDefault(e => e.Type == PostElectionEventType.ByElection && e.ByElectionResult != null);
                                 <div class="box-plots">
                                     @foreach (var (party, dist) in cFiltered)
                                     {
@@ -646,12 +673,30 @@
                                         var whiskerRight = dist.P95 / axisMax * 100;
                                         var medianPos = dist.Median / axisMax * 100;
 
+                                        var electedShare = cmpBaseline?.Candidates.FirstOrDefault(c => c.Party == party)?.VoteShare ?? 0;
+                                        double? currentShare = null;
+                                        if (cmpLatestByElection?.ByElectionResult != null)
+                                        {
+                                            var match = cmpLatestByElection.ByElectionResult.Candidates.FirstOrDefault(c => c.Party == party);
+                                            if (match != null) currentShare = match.VoteShare;
+                                        }
+
                                         <div class="box-row">
                                             <span class="box-party" style="color: @colour">@PartyColourProvider.GetShortName(party)</span>
                                             <div class="box-track">
                                                 <div class="box-whisker" style="left: @(whiskerLeft.ToString("F1"))%; width: @((whiskerRight - whiskerLeft).ToString("F1"))%; border-color: @colour;"></div>
                                                 <div class="box-iqr" style="left: @(boxLeft.ToString("F1"))%; width: @((boxRight - boxLeft).ToString("F1"))%; background: @colour;"></div>
                                                 <div class="box-median" style="left: @(medianPos.ToString("F1"))%; background: @colour;"></div>
+                                                @if (electedShare > 0)
+                                                {
+                                                    var electedPipPos = electedShare * 100 / axisMax * 100;
+                                                    <div class="share-pip share-pip-election" style="left: @(electedPipPos.ToString("F1"))%;" title="@(State.BaselineYear) election: @((electedShare * 100).ToString("F1"))%"></div>
+                                                    if (currentShare.HasValue && Math.Abs(currentShare.Value - electedShare) > 0.0005)
+                                                    {
+                                                        var currentPipPos = currentShare.Value * 100 / axisMax * 100;
+                                                        <div class="share-pip share-pip-current" style="left: @(currentPipPos.ToString("F1"))%;" title="By-election: @((currentShare.Value * 100).ToString("F1"))%"></div>
+                                                    }
+                                                }
                                             </div>
                                             <span class="box-pct">@(dist.Median.ToString("F1"))%</span>
                                         </div>
