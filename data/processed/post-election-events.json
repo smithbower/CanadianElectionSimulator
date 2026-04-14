@@ -2110,5 +2110,142 @@
     "electionYear": 2025,
     "fromParty": "LPC",
     "description": "Tatiana Auguste (Terrebonne) - annulled by the Supreme Court"
+  },
+  {
+    "ridingId": 24073,
+    "type": "byElection",
+    "date": "2026-04-13",
+    "electionYear": 2025,
+    "toParty": "LPC",
+    "description": "Tatiana Auguste wins by-election (Terrebonne)",
+    "mpName": "Tatiana Auguste",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 22445,
+          "voteShare": 0.484
+        },
+        {
+          "party": "BQ",
+          "votes": 21714,
+          "voteShare": 0.4683
+        },
+        {
+          "party": "CPC",
+          "votes": 1551,
+          "voteShare": 0.0334
+        },
+        {
+          "party": "NDP",
+          "votes": 249,
+          "voteShare": 0.0054
+        },
+        {
+          "party": "GPC",
+          "votes": 191,
+          "voteShare": 0.0041
+        },
+        {
+          "party": "Other",
+          "votes": 114,
+          "voteShare": 0.0025
+        },
+        {
+          "party": "PPC",
+          "votes": 105,
+          "voteShare": 0.0023
+        }
+      ],
+      "totalVotes": 46369
+    }
+  },
+  {
+    "ridingId": 35096,
+    "type": "byElection",
+    "date": "2026-04-13",
+    "electionYear": 2025,
+    "toParty": "LPC",
+    "description": "Doly Begum wins by-election (Scarborough Southwest)",
+    "mpName": "Doly Begum",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 20114,
+          "voteShare": 0.6989
+        },
+        {
+          "party": "CPC",
+          "votes": 5300,
+          "voteShare": 0.1842
+        },
+        {
+          "party": "NDP",
+          "votes": 1714,
+          "voteShare": 0.0596
+        },
+        {
+          "party": "GPC",
+          "votes": 711,
+          "voteShare": 0.0247
+        },
+        {
+          "party": "Other",
+          "votes": 674,
+          "voteShare": 0.0234
+        },
+        {
+          "party": "PPC",
+          "votes": 265,
+          "voteShare": 0.0092
+        }
+      ],
+      "totalVotes": 28778
+    }
+  },
+  {
+    "ridingId": 35112,
+    "type": "byElection",
+    "date": "2026-04-13",
+    "electionYear": 2025,
+    "toParty": "LPC",
+    "description": "Danielle Martin wins by-election (University--Rosedale)",
+    "mpName": "Danielle Martin",
+    "byElectionResult": {
+      "candidates": [
+        {
+          "party": "LPC",
+          "votes": 19961,
+          "voteShare": 0.6439
+        },
+        {
+          "party": "NDP",
+          "votes": 5869,
+          "voteShare": 0.1893
+        },
+        {
+          "party": "CPC",
+          "votes": 3843,
+          "voteShare": 0.124
+        },
+        {
+          "party": "GPC",
+          "votes": 896,
+          "voteShare": 0.0289
+        },
+        {
+          "party": "Other",
+          "votes": 226,
+          "voteShare": 0.0073
+        },
+        {
+          "party": "PPC",
+          "votes": 205,
+          "voteShare": 0.0066
+        }
+      ],
+      "totalVotes": 31000
+    }
   }
 ]
