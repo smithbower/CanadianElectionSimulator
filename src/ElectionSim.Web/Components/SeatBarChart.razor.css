@@ -86,6 +86,27 @@
     opacity: 0.3;
 }
 
+.pip {
+    position: absolute;
+    bottom: -5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    transform: translateX(-50%);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    cursor: help;
+}
+
+.pip-election {
+    background: #333;
+}
+
+.pip-current {
+    background: #d4a017;
+}
+
 .bar-value {
     position: absolute;
     top: -1.2rem;

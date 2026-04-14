@@ -54,6 +54,17 @@
                     <div class="mean-marker" style="left: @(meanPct)%; background: @colour;"></div>
                     @* Majority line *@
                     <div class="majority-line" style="left: @(majorityPct)%;"></div>
+                    @* Last general election pip *@
+                    @if (breakdown != null && breakdown.Elected > 0)
+                    {
+                        double electedPct = breakdown.Elected * scale;
+                        <div class="pip pip-election" style="left: @(electedPct)%;" title="Last election: @breakdown.Elected"></div>
+                        if (currentTotal != breakdown.Elected)
+                        {
+                            double currentPct = currentTotal * scale;
+                            <div class="pip pip-current" style="left: @(currentPct)%;" title="Current: @currentTotal"></div>
+                        }
+                    }
                     @* Hover value labels *@
                     <span class="bar-value" style="left: @(p5Pct)%">@dist.P5</span>
                     <span class="bar-value" style="left: @(p25Pct)%">@dist.P25</span>
