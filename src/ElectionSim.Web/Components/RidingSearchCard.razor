@@ -586,21 +586,52 @@
 
                 if (filtered.Count > 0)
                 {
-                    var axisMax = Math.Ceiling(filtered.Max(kv => kv.Value.P95) / 5.0) * 5.0;
-                    if (axisMax < 10) axisMax = 10;
-
-                    @* If comparing, widen axis to fit both ridings *@
-                    if (compareRiding != null && Summary.RidingVoteShareDistributions.TryGetValue(compareRiding.Id, out var compareDists))
-                    {
-                        var compareMax = compareDists.Values.Where(v => v.P95 >= 1.0).Select(v => v.P95).DefaultIfEmpty(0).Max();
-                        var combinedMax = Math.Ceiling(Math.Max(filtered.Max(kv => kv.Value.P95), compareMax) / 5.0) * 5.0;
-                        if (combinedMax > axisMax) axisMax = combinedMax;
-                    }
-
                     var selBaseline = DataService.GetResultsForYear(State.BaselineYear)?.FirstOrDefault(r => r.RidingId == selectedRiding.Id);
                     var selRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(selectedRiding.Id);
                     var selLatestByElection = selRidingStatus?.Events
                         .LastOrDefault(e => e.Type == PostElectionEventType.ByElection && e.ByElectionResult != null);
+
+                    double rawMax = filtered.Max(kv => kv.Value.P95);
+                    foreach (var (party, _) in filtered)
+                    {
+                        var ePip = (selBaseline?.Candidates.FirstOrDefault(c => c.Party == party)?.VoteShare ?? 0) * 100;
+                        if (ePip > rawMax) rawMax = ePip;
+                        if (selLatestByElection?.ByElectionResult != null)
+                        {
+                            var byMatch = selLatestByElection.ByElectionResult.Candidates.FirstOrDefault(c => c.Party == party);
+                            if (byMatch != null && byMatch.VoteShare * 100 > rawMax) rawMax = byMatch.VoteShare * 100;
+                        }
+                    }
+
+                    @* If comparing, widen axis to fit both ridings (including their pips) *@
+                    if (compareRiding != null && Summary.RidingVoteShareDistributions.TryGetValue(compareRiding.Id, out var compareDists))
+                    {
+                        var cmpFilteredForAxis = compareDists.Where(kv => kv.Value.P95 >= 1.0).ToList();
+                        if (cmpFilteredForAxis.Count > 0)
+                        {
+                            var compareMax = cmpFilteredForAxis.Max(kv => kv.Value.P95);
+                            if (compareMax > rawMax) rawMax = compareMax;
+
+                            var cmpAxisBaseline = DataService.GetResultsForYear(State.BaselineYear)?.FirstOrDefault(r => r.RidingId == compareRiding.Id);
+                            var cmpAxisStatus = State.CurrentParliamentaryState?.GetValueOrDefault(compareRiding.Id);
+                            var cmpAxisLatestBy = cmpAxisStatus?.Events
+                                .LastOrDefault(e => e.Type == PostElectionEventType.ByElection && e.ByElectionResult != null);
+
+                            foreach (var (party, _) in cmpFilteredForAxis)
+                            {
+                                var ePip = (cmpAxisBaseline?.Candidates.FirstOrDefault(c => c.Party == party)?.VoteShare ?? 0) * 100;
+                                if (ePip > rawMax) rawMax = ePip;
+                                if (cmpAxisLatestBy?.ByElectionResult != null)
+                                {
+                                    var byMatch = cmpAxisLatestBy.ByElectionResult.Candidates.FirstOrDefault(c => c.Party == party);
+                                    if (byMatch != null && byMatch.VoteShare * 100 > rawMax) rawMax = byMatch.VoteShare * 100;
+                                }
+                            }
+                        }
+                    }
+
+                    var axisMax = Math.Ceiling((rawMax + 1.0) / 5.0) * 5.0;
+                    if (axisMax < 10) axisMax = 10;
 
                     <div class="vote-share-section">
                         <h4>Vote Share Distribution</h4>

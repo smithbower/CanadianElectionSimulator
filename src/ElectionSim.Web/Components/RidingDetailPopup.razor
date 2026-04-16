@@ -187,13 +187,25 @@
 
                 if (filtered.Count > 0)
                 {
-                    var axisMax = Math.Ceiling(filtered.Max(kv => kv.Value.P95) / 5.0) * 5.0;
-                    if (axisMax < 10) axisMax = 10;
-
                     var pipBaseline = DataService.GetResultsForYear(State.BaselineYear)?.FirstOrDefault(r => r.RidingId == Riding.Id);
                     var pipRidingStatus = State.CurrentParliamentaryState?.GetValueOrDefault(Riding.Id);
                     var latestByElection = pipRidingStatus?.Events
                         .LastOrDefault(e => e.Type == PostElectionEventType.ByElection && e.ByElectionResult != null);
+
+                    double rawMax = filtered.Max(kv => kv.Value.P95);
+                    foreach (var (party, _) in filtered)
+                    {
+                        var ePip = (pipBaseline?.Candidates.FirstOrDefault(c => c.Party == party)?.VoteShare ?? 0) * 100;
+                        if (ePip > rawMax) rawMax = ePip;
+                        if (latestByElection?.ByElectionResult != null)
+                        {
+                            var byMatch = latestByElection.ByElectionResult.Candidates.FirstOrDefault(c => c.Party == party);
+                            if (byMatch != null && byMatch.VoteShare * 100 > rawMax) rawMax = byMatch.VoteShare * 100;
+                        }
+                    }
+
+                    var axisMax = Math.Ceiling((rawMax + 1.0) / 5.0) * 5.0;
+                    if (axisMax < 10) axisMax = 10;
 
                     <div class="vote-share-section">
                         <h4>Vote Share Distribution</h4>
